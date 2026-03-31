@@ -1,0 +1,77 @@
+[
+  {
+    "question_number": 1,
+    "question": "یہ شعر کس کتاب کا ہے؟",
+    "options": [
+      "حسن سلوک",
+      "منصف انور",
+      "منصف مانی",
+      "فن پرواز"
+    ],
+    "has_image": false,
+    "image_bbox": null,
+    "page": 10,
+    "provider": "openai",
+    "domain": "Urdu SSC-I"
+  },
+  {
+    "question_number": 2,
+    "question": "ولی دکنی نے اپنی شاعری میں کس زبان کو رائج کیا؟",
+    "options": [
+      "فارسی",
+      "اردو",
+      "ترکی",
+      "سنسکرت"
+    ],
+    "has_image": false,
+    "image_bbox": null,
+    "page": 10,
+    "provider": "openai",
+    "domain": "Urdu SSC-I"
+  },
+  {
+    "question_number": 3,
+    "question": "انشا اللہ خان کا تعلق کن علاقوں سے تھا؟",
+    "options": [
+      "دلی",
+      "لکھنؤ",
+      "لاہور",
+      "کراچی"
+    ],
+    "has_image": false,
+    "image_bbox": null,
+    "page": 10,
+    "provider": "openai",
+    "domain": "Urdu SSC-I"
+  },
+  {
+    "question_number": 4,
+    "question": "سفید اس کا سیاہ اس کا، نفس نفس ہے گواہ اس کا / جو شعلہ جاں جلا رہا ہے، وہی خدا ہے — اس شعر میں کون سی صنعت استعمال ہوئی ہے؟",
+    "options": [
+      "تشبیہ",
+      "استعارہ",
+      "کنایہ",
+      "محاکات"
+    ],
+    "has_image": false,
+    "image_bbox": null,
+    "page": 10,
+    "provider": "openai",
+    "domain": "Urdu SSC-I"
+  },
+  {
+    "question_number": 5,
+    "question": "سنہرے ستارے چمک رہے ہیں / خموشی کی دنیا میں روشنی ہے — اس شعر میں کون سی صنعت استعمال ہوئی ہے؟",
+    "options": [
+      "تلمیح",
+      "تضاد",
+      "مبالغہ",
+      "محاکات"
+    ],
+    "has_image": false,
+    "image_bbox": null,
+    "page": 10,
+    "provider": "openai",
+    "domain": "Urdu SSC-I"
+  }
+]
