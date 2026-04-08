@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urdu MMLU - MCQ Dashboard</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            background: #f5f5f0;
+            color: #1a1a1a;
+            line-height: 2.2;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 30px;
+            padding: 20px 24px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            direction: ltr;
+        }
+
+        .header h1 {
+            font-size: 22px;
+            font-family: system-ui, sans-serif;
+            font-weight: 600;
+        }
+
+        .controls {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        select, input {
+            font-family: system-ui, sans-serif;
+            padding: 8px 14px;
+            border: 1px solid #d0d0d0;
+            border-radius: 8px;
+            font-size: 14px;
+            background: #fff;
+            min-width: 180px;
+        }
+
+        select:focus, input:focus { outline: 2px solid #4a90d9; border-color: #4a90d9; }
+
+        .stats {
+            font-family: system-ui, sans-serif;
+            font-size: 13px;
+            color: #666;
+            display: flex;
+            gap: 16px;
+        }
+
+        .stats span { background: #f0f0f0; padding: 4px 10px; border-radius: 6px; }
+
+        .question-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 24px 28px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            border-right: 4px solid #4a90d9;
+        }
+
+        .question-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            direction: ltr;
+            margin-bottom: 12px;
+            font-family: system-ui, sans-serif;
+            font-size: 12px;
+            color: #888;
+        }
+
+        .badge {
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .badge-domain { background: #e8f4fd; color: #2171b5; }
+        .badge-page { background: #f0f0f0; color: #555; }
+        .badge-image { background: #fff3cd; color: #856404; }
+        .badge-provider { background: #e8f5e9; color: #2e7d32; }
+
+        .question-number {
+            display: inline-block;
+            background: #4a90d9;
+            color: #fff;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            border-radius: 50%;
+            font-family: system-ui, sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            margin-left: 12px;
+        }
+
+        .question-text {
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding: 8px 0;
+        }
+
+        .options-list {
+            list-style: none;
+            display: grid;
+            gap: 8px;
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 16px;
+            background: #fafafa;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+
+        .option-label {
+            display: inline-block;
+            min-width: 28px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            background: #e8e8e8;
+            border-radius: 50%;
+            font-size: 14px;
+            font-weight: 600;
+            color: #555;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 60px;
+            font-family: system-ui, sans-serif;
+            color: #999;
+            font-size: 16px;
+        }
+
+        .file-input-wrapper {
+            position: relative;
+        }
+
+        .file-input-wrapper input[type="file"] {
+            font-size: 13px;
+            min-width: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Urdu MMLU - MCQ Dashboard</h1>
+        <div class="controls">
+            <select id="modelSelect">
+                <option value="">-- Select Model --</option>
+            </select>
+            <select id="domainFilter">
+                <option value="">All Domains</option>
+            </select>
+            <select id="pageFilter">
+                <option value="">All Pages</option>
+            </select>
+            <input type="text" id="search" placeholder="Search questions...">
+        </div>
+        <div class="stats" id="stats"></div>
+    </div>
+
+    <div id="questions-container">
+        <div class="no-data">Select a model to view questions, or drop a questions_*.json file</div>
+    </div>
+
+    <script>
+        const OPTION_LABELS = ['الف', 'ب', 'ج', 'د', 'ه', 'و'];
+        let allQuestions = [];
+        let currentModel = '';
+
+        // Auto-discover model files from output/
+        const knownModels = [];
+
+        async function tryLoadModel(filename) {
+            try {
+                const resp = await fetch(`output/${filename}`);
+                if (resp.ok) {
+                    const data = await resp.json();
+                    const model = filename.replace('questions_', '').replace('.json', '');
+                    return { model, data, filename };
+                }
+            } catch {}
+            return null;
+        }
+
+        async function discoverModels() {
+            // Try common model filenames
+            const candidates = [
+                'questions_claude-sonnet-4-6.json',
+                'questions_claude-opus-4-6.json',
+                'questions_claude-haiku-4-5-20251001.json',
+                'questions_gpt-4o.json',
+                'questions_gpt-4o-mini.json',
+                'questions_gpt-5.4.json',
+                'questions_gpt-5.4-mini.json',
+                'questions_gpt-5.4-pro.json',
+                'questions_gpt-5.json',
+                'questions_gemini-2.5-flash.json',
+                'questions_gemini-2.5-pro.json',
+                'questions_gemini-3-flash-preview.json',
+                'questions.json',
+            ];
+
+            const select = document.getElementById('modelSelect');
+            const results = await Promise.all(candidates.map(tryLoadModel));
+
+            for (const r of results) {
+                if (r) {
+                    knownModels.push(r);
+                    const opt = document.createElement('option');
+                    opt.value = r.model;
+                    opt.textContent = `${r.model} (${r.data.length} questions)`;
+                    select.appendChild(opt);
+                }
+            }
+
+            // Also allow file upload
+            const fileOpt = document.createElement('option');
+            fileOpt.value = '__upload__';
+            fileOpt.textContent = '+ Load from file...';
+            select.appendChild(fileOpt);
+        }
+
+        function loadModel(modelName) {
+            const entry = knownModels.find(m => m.model === modelName);
+            if (!entry) return;
+            allQuestions = entry.data;
+            currentModel = modelName;
+            populateFilters();
+            renderQuestions();
+        }
+
+        function populateFilters() {
+            const domainSelect = document.getElementById('domainFilter');
+            const pageSelect = document.getElementById('pageFilter');
+
+            const domains = [...new Set(allQuestions.map(q => q.domain).filter(Boolean))].sort();
+            const pages = [...new Set(allQuestions.map(q => q.page))].sort((a, b) => a - b);
+
+            domainSelect.innerHTML = '<option value="">All Domains</option>';
+            domains.forEach(d => {
+                const opt = document.createElement('option');
+                opt.value = d;
+                opt.textContent = d;
+                domainSelect.appendChild(opt);
+            });
+
+            pageSelect.innerHTML = '<option value="">All Pages</option>';
+            pages.forEach(p => {
+                const opt = document.createElement('option');
+                opt.value = p;
+                opt.textContent = `Page ${p}`;
+                pageSelect.appendChild(opt);
+            });
+        }
+
+        function getFilteredQuestions() {
+            const domain = document.getElementById('domainFilter').value;
+            const page = document.getElementById('pageFilter').value;
+            const search = document.getElementById('search').value.trim();
+
+            return allQuestions.filter(q => {
+                if (domain && q.domain !== domain) return false;
+                if (page && q.page !== parseInt(page)) return false;
+                if (search) {
+                    const s = search.toLowerCase();
+                    const inQuestion = q.question.toLowerCase().includes(s);
+                    const inOptions = q.options.some(o => o.toLowerCase().includes(s));
+                    if (!inQuestion && !inOptions) return false;
+                }
+                return true;
+            });
+        }
+
+        function renderQuestions() {
+            const container = document.getElementById('questions-container');
+            const filtered = getFilteredQuestions();
+
+            document.getElementById('stats').innerHTML = `
+                <span>Total: ${allQuestions.length}</span>
+                <span>Showing: ${filtered.length}</span>
+                <span>Model: ${currentModel}</span>
+            `;
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="no-data">No questions match the current filters</div>';
+                return;
+            }
+
+            container.innerHTML = filtered.map(q => `
+                <div class="question-card">
+                    <div class="question-meta">
+                        <div>
+                            ${q.domain ? `<span class="badge badge-domain">${q.domain}</span>` : ''}
+                            <span class="badge badge-page">Page ${q.page}</span>
+                            ${q.has_image ? '<span class="badge badge-image">Has Image</span>' : ''}
+                            ${q.provider ? `<span class="badge badge-provider">${q.provider}</span>` : ''}
+                        </div>
+                        <span>Q#${q.question_number}</span>
+                    </div>
+                    <div class="question-text">
+                        <span class="question-number">${q.question_number}</span>
+                        ${q.question}
+                    </div>
+                    <ul class="options-list">
+                        ${q.options.map((opt, i) => `
+                            <li class="option">
+                                <span class="option-label">${OPTION_LABELS[i] || i + 1}</span>
+                                <span>${opt}</span>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+            `).join('');
+        }
+
+        // Event listeners
+        document.getElementById('modelSelect').addEventListener('change', (e) => {
+            if (e.target.value === '__upload__') {
+                const input = document.createElement('input');
+                input.type = 'file';
+                input.accept = '.json';
+                input.addEventListener('change', (ev) => {
+                    const file = ev.target.files[0];
+                    if (!file) return;
+                    const reader = new FileReader();
+                    reader.onload = (re) => {
+                        try {
+                            const data = JSON.parse(re.target.result);
+                            const model = file.name.replace('questions_', '').replace('.json', '');
+                            knownModels.push({ model, data, filename: file.name });
+                            const opt = document.createElement('option');
+                            opt.value = model;
+                            opt.textContent = `${model} (${data.length} questions)`;
+                            const select = document.getElementById('modelSelect');
+                            select.insertBefore(opt, select.lastElementChild);
+                            select.value = model;
+                            loadModel(model);
+                        } catch (err) {
+                            alert('Invalid JSON file');
+                        }
+                    };
+                    reader.readAsText(file);
+                });
+                input.click();
+                e.target.value = currentModel;
+            } else if (e.target.value) {
+                loadModel(e.target.value);
+            }
+        });
+
+        document.getElementById('domainFilter').addEventListener('change', renderQuestions);
+        document.getElementById('pageFilter').addEventListener('change', renderQuestions);
+        document.getElementById('search').addEventListener('input', renderQuestions);
+
+        // Init
+        discoverModels();
+    </script>
+</body>
+</html>
