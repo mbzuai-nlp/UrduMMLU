@@ -1,16 +1,30 @@
 import argparse
 import base64
 import io
-import os
-import glob
 import json
-from PIL import Image
+import os
+import re
+import time
+from pathlib import Path
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-IMAGE_DIR = os.path.join(BASE_DIR, "raw/SSC-I Normal")
-CLASSIFICATIONS_FILE = os.path.join(BASE_DIR, "output/classifications.json")
-QUESTIONS_FILE_TEMPLATE = os.path.join(BASE_DIR, "output/questions_{model}.json")
+from PIL import Image
+from dotenv import load_dotenv
+
+load_dotenv()
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+INPUT_ROOT = BASE_DIR / "raw_data" / "SSC_1A25_QP_images"
+CLASSIFICATIONS_ROOT = BASE_DIR / "output" / "SSC_1A25_QP"
+QUESTIONS_ROOT = BASE_DIR / "output_questions" / "SSC_1A25_QP"
+
 MAX_IMAGE_BYTES = 5 * 1024 * 1024
+
+DEFAULT_PROVIDER = "gemini"
+DEFAULT_MODEL = "gemini-3-flash-preview"
+
+REQUEST_DELAY_SECONDS = 1.5
+RETRY_LIMIT = 5
 
 EXTRACTOR_PROMPT = """You are an expert OCR system for Urdu exam papers.
 
@@ -49,10 +63,9 @@ Rules:
 - If options use A/B/C/D labels, map them to الف/ب/ج/د.
 - Use " — " (em dash) to separate verse/quote from the question about it.
 - If you cannot clearly read or understand any part of a question or its options, SKIP that question entirely. Do NOT guess or hallucinate text. Only include questions you can read with high confidence.
-- Return valid JSON only. No markdown, no code blocks, no explanation."""
+- Return valid JSON only. No markdown, no code blocks, no explanation.
+"""
 
-
-# --- Image encoding ---
 
 def encode_image(path: str) -> tuple[str, str]:
     ext = os.path.splitext(path)[1].lower()
@@ -65,6 +78,9 @@ def encode_image(path: str) -> tuple[str, str]:
         return base64.standard_b64encode(data).decode("utf-8"), media_type
 
     img = Image.open(path)
+    if img.mode not in ("RGB", "L"):
+        img = img.convert("RGB")
+
     quality = 85
     while quality >= 30:
         buf = io.BytesIO()
@@ -73,16 +89,15 @@ def encode_image(path: str) -> tuple[str, str]:
             return base64.standard_b64encode(buf.getvalue()).decode("utf-8"), "image/jpeg"
         quality -= 10
 
-    img.thumbnail((img.width // 2, img.height // 2))
+    img.thumbnail((max(1, img.width // 2), max(1, img.height // 2)))
     buf = io.BytesIO()
     img.save(buf, format="JPEG", quality=60)
     return base64.standard_b64encode(buf.getvalue()).decode("utf-8"), "image/jpeg"
 
 
-# --- Providers ---
-
-def extract_anthropic(image_path, model="claude-sonnet-4-6"):
+def extract_anthropic(image_path: str, model: str):
     import anthropic
+
     client = anthropic.Anthropic()
     b64, media_type = encode_image(image_path)
 
@@ -92,7 +107,14 @@ def extract_anthropic(image_path, model="claude-sonnet-4-6"):
         messages=[{
             "role": "user",
             "content": [
-                {"type": "image", "source": {"type": "base64", "media_type": media_type, "data": b64}},
+                {
+                    "type": "image",
+                    "source": {
+                        "type": "base64",
+                        "media_type": media_type,
+                        "data": b64,
+                    },
+                },
                 {"type": "text", "text": EXTRACTOR_PROMPT},
             ],
         }],
@@ -100,8 +122,9 @@ def extract_anthropic(image_path, model="claude-sonnet-4-6"):
     return response.content[0].text
 
 
-def extract_openai(image_path, model="gpt-4o"):
+def extract_openai(image_path: str, model: str):
     import openai
+
     client = openai.OpenAI()
     b64, media_type = encode_image(image_path)
 
@@ -111,7 +134,10 @@ def extract_openai(image_path, model="gpt-4o"):
         messages=[{
             "role": "user",
             "content": [
-                {"type": "image_url", "image_url": {"url": f"data:{media_type};base64,{b64}"}},
+                {
+                    "type": "image_url",
+                    "image_url": {"url": f"data:{media_type};base64,{b64}"},
+                },
                 {"type": "text", "text": EXTRACTOR_PROMPT},
             ],
         }],
@@ -119,8 +145,9 @@ def extract_openai(image_path, model="gpt-4o"):
     return response.choices[0].message.content
 
 
-def extract_gemini(image_path, model="gemini-2.5-flash"):
+def extract_gemini(image_path: str, model: str):
     from google import genai
+
     client = genai.Client()
     b64, media_type = encode_image(image_path)
 
@@ -141,101 +168,247 @@ PROVIDERS = {
 }
 
 
-# --- Core logic ---
-
-def parse_response(text: str) -> list:
+def parse_response(text: str) -> list[dict]:
     text = text.strip()
     if text.startswith("```"):
         text = text.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-    return json.loads(text)
+
+    data = json.loads(text)
+    if not isinstance(data, list):
+        raise ValueError("Model response is not a JSON array")
+
+    normalized = []
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+
+        question_number = item.get("question_number")
+        question = item.get("question")
+        options = item.get("options")
+        has_image = item.get("has_image", False)
+        image_bbox = item.get("image_bbox", None)
+
+        if question_number is None or not isinstance(question, str) or not isinstance(options, list):
+            continue
+
+        normalized.append({
+            "question_number": question_number,
+            "question": question.strip(),
+            "options": [str(opt).strip() for opt in options],
+            "has_image": bool(has_image),
+            "image_bbox": image_bbox if has_image else None,
+        })
+
+    return normalized
 
 
-def get_questions_file(model):
-    safe_model = model.replace("/", "_").replace(":", "_")
-    return QUESTIONS_FILE_TEMPLATE.format(model=safe_model)
+def sanitize_model_name(model: str) -> str:
+    return model.replace("/", "_").replace(":", "_")
 
 
-def load_questions(model):
-    path = get_questions_file(model)
-    if not os.path.exists(path):
+def get_questions_file(folder_name: str, model: str) -> Path:
+    safe_model = sanitize_model_name(model)
+    return QUESTIONS_ROOT / folder_name / f"questions_{safe_model}.json"
+
+
+def load_questions(folder_name: str, model: str) -> list[dict]:
+    path = get_questions_file(folder_name, model)
+    if not path.exists():
         return []
+
     with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+
+    return data if isinstance(data, list) else []
 
 
-def save_questions(questions, model):
-    with open(get_questions_file(model), "w", encoding="utf-8") as f:
+def save_questions(questions: list[dict], folder_name: str, model: str) -> None:
+    path = get_questions_file(folder_name, model)
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(questions, f, ensure_ascii=False, indent=2)
+
+
+def extract_page_number(filename: str) -> int:
+    # Handles: name_page_0017.png  name_page-0017.jpg  name-page-0017.jpg
+    m = re.search(r'[_-]page[_-](\d+)', filename, re.IGNORECASE)
+    if m:
+        return int(m.group(1))
+    # Fallback: last digit sequence before the extension
+    m = re.search(r'(\d+)\.[^.]+$', filename)
+    if m:
+        return int(m.group(1))
+    raise ValueError(f"Cannot extract page number from filename: {filename}")
+
+
+def get_images(image_dir: Path) -> dict[str, Path]:
+    images = {}
+    for ext in ("*.jpg", "*.jpeg", "*.png", "*.JPG", "*.JPEG", "*.PNG"):
+        for path in image_dir.glob(ext):
+            images[path.name] = path
+    return dict(sorted(images.items()))
+
+
+def load_classifications(classifications_file: Path) -> dict:
+    if not classifications_file.exists():
+        return {}
+
+    with open(classifications_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    return data if isinstance(data, dict) else {}
+
+
+def get_existing_pages(all_questions: list[dict]) -> set[int]:
+    pages = set()
+    for q in all_questions:
+        page = q.get("page")
+        if isinstance(page, int):
+            pages.add(page)
+    return pages
+
+
+def retry_extract(extract_fn, image_path: str, model: str, retries: int = RETRY_LIMIT) -> str:
+    for attempt in range(retries):
+        try:
+            return extract_fn(image_path, model=model)
+        except Exception as e:
+            error_text = str(e).lower()
+
+            if "429" in error_text or "rate limit" in error_text or "resource exhausted" in error_text:
+                wait_time = min(60, 2 ** attempt)
+                print(f"    Rate limited for {os.path.basename(image_path)}. Retrying in {wait_time}s...")
+                time.sleep(wait_time)
+                continue
+
+            raise
+
+    raise RuntimeError(f"Failed after retries: {image_path}")
+
+
+def process_folder(folder_name: str, image_dir: Path, classifications_file: Path, provider: str, model: str, max_pages: int | None) -> None:
+    extract_fn = PROVIDERS[provider]
+
+    print(f"\n=== Processing folder: {folder_name} ===")
+    print(f"Image dir: {image_dir}")
+    print(f"Classifications file: {classifications_file}")
+
+    if not classifications_file.exists():
+        print("  No classifications found for this folder. Skipping.")
+        return
+
+    classifications = load_classifications(classifications_file)
+    images_by_name = get_images(image_dir)
+
+    mcq_pages = []
+    domains = {}
+
+    for name, entry in classifications.items():
+        label = entry["label"] if isinstance(entry, dict) else entry
+        if label == "urdu_mcq":
+            if name in images_by_name:
+                mcq_pages.append(name)
+                if isinstance(entry, dict) and "domain" in entry:
+                    domains[name] = entry["domain"]
+
+    mcq_pages.sort()
+
+    all_questions = load_questions(folder_name, model)
+    existing_pages = get_existing_pages(all_questions)
+
+    new_mcq_pages = []
+    for name in mcq_pages:
+        page_num = extract_page_number(name)
+        if page_num not in existing_pages:
+            new_mcq_pages.append(name)
+
+    if max_pages:
+        new_mcq_pages = new_mcq_pages[:max_pages]
+
+    if not new_mcq_pages:
+        print("  All MCQ pages already extracted.")
+        return
+
+    print(f"  Found {len(mcq_pages)} MCQ-classified pages")
+    print(f"  Skipping {len(mcq_pages) - len(new_mcq_pages)} already extracted pages")
+    print(f"  Extracting {len(new_mcq_pages)} new pages with {provider} ({model})\n")
+
+    for name in new_mcq_pages:
+        img_path = str(images_by_name[name])
+        print(f"  Processing: {name}")
+
+        try:
+            raw = retry_extract(extract_fn, img_path, model=model)
+            questions = parse_response(raw)
+            page_num = extract_page_number(name)
+
+            labels = ["A", "B", "C", "D"]
+            for q in questions:
+                options_list = q.get("options", [])
+                q["domain"] = domains.get(name, "")
+                q["subdomain"] = ""
+                q["question"] = q.get("question", "").strip()
+                q["options"] = {labels[i]: opt for i, opt in enumerate(options_list[:4])}
+                q["correct_option"] = None
+                q["correct_index"] = None
+                q["level"] = ""
+                q["page"] = page_num
+                q["source_url"] = ""
+                q["source_image"] = name
+                q["folder"] = folder_name
+                q["provider"] = provider
+                q["model"] = model
+
+            all_questions.extend(questions)
+            save_questions(all_questions, folder_name, model)
+            print(f"    -> Extracted {len(questions)} questions")
+
+        except json.JSONDecodeError as e:
+            print(f"    -> Warning: JSON parse error: {e}")
+        except Exception as e:
+            print(f"    -> Error: {e}")
+
+        time.sleep(REQUEST_DELAY_SECONDS)
+
+    print(f"\nDone with {folder_name}! Total questions in file: {len(all_questions)}")
+    print(f"Saved to: {get_questions_file(folder_name, model)}")
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--provider", choices=PROVIDERS.keys(), default="anthropic")
-    parser.add_argument("--model", default=None, help="Override default model for provider")
-    parser.add_argument("--max-pages", type=int, default=None, help="Max MCQ pages to process")
+    parser.add_argument("--provider", choices=PROVIDERS.keys(), default=DEFAULT_PROVIDER)
+    parser.add_argument("--model", default=DEFAULT_MODEL, help="Model name to use")
+    parser.add_argument("--max-pages", type=int, default=None, help="Max pages per folder")
     args = parser.parse_args()
 
-    defaults = {"anthropic": "claude-sonnet-4-6", "openai": "gpt-4o", "gemini": "gemini-2.5-flash"}
-    model = args.model or defaults[args.provider]
-    extract_fn = PROVIDERS[args.provider]
+    if not INPUT_ROOT.exists():
+        raise FileNotFoundError(f"INPUT_ROOT does not exist: {INPUT_ROOT}")
 
-    if not os.path.exists(CLASSIFICATIONS_FILE):
-        print("No classifications found. Run classify.py first.")
+    QUESTIONS_ROOT.mkdir(parents=True, exist_ok=True)
+
+    subfolders = sorted([p for p in INPUT_ROOT.iterdir() if p.is_dir()])
+    if not subfolders:
+        print(f"No subfolders found in {INPUT_ROOT}")
         return
 
-    with open(CLASSIFICATIONS_FILE, "r", encoding="utf-8") as f:
-        classifications = json.load(f)
+    print(f"Provider: {args.provider}")
+    print(f"Model: {args.model}")
+    print("Folders to process:")
+    for folder in subfolders:
+        print(f"  - {folder.name}")
 
-    mcq_pages = []
-    domains = {}
-    for name, entry in classifications.items():
-        label = entry["label"] if isinstance(entry, dict) else entry
-        if label == "urdu_mcq":
-            mcq_pages.append(name)
-            if isinstance(entry, dict) and "domain" in entry:
-                domains[name] = entry["domain"]
-    mcq_pages.sort()
-
-    all_questions = load_questions(model)
-    existing_pages = {q["page"] for q in all_questions}
-
-    new_mcq_pages = [
-        name for name in mcq_pages
-        if int(name.split("-")[-1].split(".")[0]) not in existing_pages
-    ]
-
-    if args.max_pages:
-        new_mcq_pages = new_mcq_pages[:args.max_pages]
-
-    if not new_mcq_pages:
-        print("All MCQ pages already extracted.")
-        return
-
-    print(f"Provider: {args.provider} ({model})")
-    print(f"Found {len(new_mcq_pages)} new Urdu MCQ pages to extract\n")
-
-    for name in new_mcq_pages:
-        img_path = os.path.join(IMAGE_DIR, name)
-        print(f"  Processing: {name}")
-        try:
-            raw = extract_fn(img_path, model=model)
-            questions = parse_response(raw)
-            page_num = int(name.split("-")[-1].split(".")[0])
-            for q in questions:
-                q["page"] = page_num
-                q["provider"] = args.provider
-                if name in domains:
-                    q["domain"] = domains[name]
-            all_questions.extend(questions)
-            print(f"    → Extracted {len(questions)} questions")
-        except json.JSONDecodeError as e:
-            print(f"    → Warning: JSON parse error: {e}")
-        except Exception as e:
-            print(f"    → Error: {e}")
-
-        save_questions(all_questions, model)
-
-    print(f"\nDone! {len(all_questions)} total questions in {get_questions_file(model)}")
+    for folder in subfolders:
+        folder_name = folder.name
+        classifications_file = CLASSIFICATIONS_ROOT / folder_name / "classifications.json"
+        process_folder(
+            folder_name=folder_name,
+            image_dir=folder,
+            classifications_file=classifications_file,
+            provider=args.provider,
+            model=args.model,
+            max_pages=args.max_pages,
+        )
 
 
 if __name__ == "__main__":

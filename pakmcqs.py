@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://pakmcqs.com/category/urdu-general-knowledge"
 TOTAL_PAGES = 46
-OUTPUT_FILE = "pakmcqs_urdu_general_knowledge.json"
+OUTPUT_FILE = "data/pakmcqs_urdu_general_knowledge.json"
 
 HEADERS = {
     "User-Agent": (
