@@ -196,6 +196,48 @@ This script:
 
 ---
 
+## Merging Questions into a Single File
+
+After running the pipeline across multiple PDFs or subjects, use `merge_questions.py` to combine all per-folder JSON files into one consolidated file named after the parent folder.
+
+```bash
+# Merge all subjects under BISE_Multan_25 → pipeline_output/BISE_Multan_25.json
+python merge_questions.py --input pipeline_output/BISE_Multan_25
+
+# Merge all years/exams under fbise → pipeline_output/fbise.json
+python merge_questions.py --input pipeline_output/fbise
+
+# Works on any output folder, not just pipeline_output/
+python merge_questions.py --input output_questions/SSC_1A25_QP
+
+# Write to a custom location
+python merge_questions.py --input pipeline_output/BISE_Multan_25 --output merged/bise.json
+
+# Use a different source filename (e.g. from a different model run)
+python merge_questions.py --input pipeline_output/BISE_Multan_25 \
+    --filename questions_claude-sonnet-4-6.json
+```
+
+The script searches **recursively**, so nested structures (e.g. `fbise/2024/SSC-I CSG/questions_*.json`) are handled automatically.
+
+**Default output location:** `<parent_of_input>/<folder_name>.json`
+
+| Input | Output |
+|---|---|
+| `pipeline_output/BISE_Multan_25` | `pipeline_output/BISE_Multan_25.json` |
+| `pipeline_output/fbise` | `pipeline_output/fbise.json` |
+| `output_questions/SSC_1A25_QP` | `output_questions/SSC_1A25_QP.json` |
+
+### Options
+
+| Flag | Default | Description |
+|---|---|---|
+| `--input` | *(required)* | Folder to scan recursively |
+| `--output` | `<parent>/<folder_name>.json` | Override the output file path |
+| `--filename` | `questions_gemini-3-flash-preview.json` | Source filename to search for |
+
+---
+
 ## Page Classification Labels
 
 | Label | Meaning |
