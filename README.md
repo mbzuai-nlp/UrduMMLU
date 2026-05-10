@@ -1,4 +1,4 @@
-# Urdu MMLU — OCR Pipeline
+# Urdu MMLU
 
 Automated pipeline for extracting Urdu multiple-choice questions (MCQs) from PDF exam papers.
 
@@ -102,16 +102,16 @@ pipeline_output/
 
 ## All Options
 
-| Flag | Default | Description |
-|---|---|---|
-| `--input` | *(required)* | Path to a `.pdf`, an image directory, or a folder containing PDFs |
-| `--provider` | `gemini` | OCR provider: `gemini`, `anthropic`, or `openai` |
-| `--model` | `gemini-3-flash-preview` | Model name for MCQ extraction |
-| `--dpi` | `300` | Resolution for PDF-to-image conversion |
-| `--max-pages` | *(none)* | Limit extraction to N pages (useful for testing) |
-| `--skip-classify` | `false` | Skip classification — requires existing `classifications.json` |
-| `--skip-ocr` | `false` | Skip OCR — run classification only |
-| `--name` | *(auto)* | Override the output folder name (single PDF/directory only) |
+| Flag              | Default                  | Description                                                       |
+| ----------------- | ------------------------ | ----------------------------------------------------------------- |
+| `--input`         | _(required)_             | Path to a `.pdf`, an image directory, or a folder containing PDFs |
+| `--provider`      | `gemini`                 | OCR provider: `gemini`, `anthropic`, or `openai`                  |
+| `--model`         | `gemini-3-flash-preview` | Model name for MCQ extraction                                     |
+| `--dpi`           | `300`                    | Resolution for PDF-to-image conversion                            |
+| `--max-pages`     | _(none)_                 | Limit extraction to N pages (useful for testing)                  |
+| `--skip-classify` | `false`                  | Skip classification — requires existing `classifications.json`    |
+| `--skip-ocr`      | `false`                  | Skip OCR — run classification only                                |
+| `--name`          | _(auto)_                 | Override the output folder name (single PDF/directory only)       |
 
 ---
 
@@ -188,6 +188,7 @@ python review_json_structure.py path/to/questions_gemini-3-flash-preview.json
 ```
 
 This script:
+
 - Ensures all required keys are present (fills missing ones with empty string / null)
 - Converts `options` from a list to a dict (`["A text", "B text"]` → `{"A": "A text", "B": "B text"}`)
 - Enforces a consistent key order across all items
@@ -222,27 +223,27 @@ The script searches **recursively**, so nested structures (e.g. `fbise/2024/SSC-
 
 **Default output location:** `<parent_of_input>/<folder_name>.json`
 
-| Input | Output |
-|---|---|
+| Input                            | Output                                |
+| -------------------------------- | ------------------------------------- |
 | `pipeline_output/BISE_Multan_25` | `pipeline_output/BISE_Multan_25.json` |
-| `pipeline_output/fbise` | `pipeline_output/fbise.json` |
-| `output_questions/SSC_1A25_QP` | `output_questions/SSC_1A25_QP.json` |
+| `pipeline_output/fbise`          | `pipeline_output/fbise.json`          |
+| `output_questions/SSC_1A25_QP`   | `output_questions/SSC_1A25_QP.json`   |
 
 ### Options
 
-| Flag | Default | Description |
-|---|---|---|
-| `--input` | *(required)* | Folder to scan recursively |
-| `--output` | `<parent>/<folder_name>.json` | Override the output file path |
+| Flag         | Default                                 | Description                   |
+| ------------ | --------------------------------------- | ----------------------------- |
+| `--input`    | _(required)_                            | Folder to scan recursively    |
+| `--output`   | `<parent>/<folder_name>.json`           | Override the output file path |
 | `--filename` | `questions_gemini-3-flash-preview.json` | Source filename to search for |
 
 ---
 
 ## Page Classification Labels
 
-| Label | Meaning |
-|---|---|
-| `urdu_mcq` | Page has Urdu MCQs — will be sent for extraction |
-| `urdu_other` | Urdu text but not MCQs (essays, short answers) |
-| `english` | English-only page |
-| `skip` | Blank, cover, or instructions page |
+| Label        | Meaning                                          |
+| ------------ | ------------------------------------------------ |
+| `urdu_mcq`   | Page has Urdu MCQs — will be sent for extraction |
+| `urdu_other` | Urdu text but not MCQs (essays, short answers)   |
+| `english`    | English-only page                                |
+| `skip`       | Blank, cover, or instructions page               |
