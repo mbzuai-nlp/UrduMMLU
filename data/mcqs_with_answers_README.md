@@ -9,9 +9,10 @@ Merged dataset of native Urdu MCQs with correct answers.
 | `ahmer_mcqs.json` | 6,628 |
 | `native_urdu_mcqs.json` | 9,023 |
 | Duplicates removed | 47 |
-| **Total** | **15,604** |
+| STEM removed | 179 |
+| **Total** | **15,425** |
 
-`ahmer_mcqs.json` entries take priority; 47 questions found in both files were dropped from the native set.
+`ahmer_mcqs.json` entries take priority; 47 questions found in both files were dropped from the native set. 179 STEM-domain questions were subsequently removed.
 
 ## Schema
 
@@ -25,6 +26,7 @@ Merged dataset of native Urdu MCQs with correct answers.
   "subdomain":      "string  — subdomain slug",
   "level":          "string  — difficulty level (often empty)",
   "source_url":     "string  — original source URL",
+  "source":         "string  — source name (mcqtimes | pakmcqs | testpointpk.com | etest | gotest | examaunty)",
   "language":       "ur"
 }
 ```
@@ -35,14 +37,13 @@ Merged dataset of native Urdu MCQs with correct answers.
 
 | Domain | Questions | % |
 |---|---:|---:|
-| Humanities | 10,617 | 68.0% |
-| Social Sciences | 2,906 | 18.6% |
+| Humanities | 10,617 | 68.8% |
+| Social Sciences | 2,906 | 18.8% |
 | Islamic Studies | 1,149 | 7.4% |
 | Professional | 602 | 3.9% |
 | Psychology & Education | 138 | 0.9% |
-| STEM | 179 | 1.1% |
 | Law & Governance | 13 | 0.1% |
-| **Total** | **15,604** | **100%** |
+| **Total** | **15,425** | **100%** |
 
 ## Subdomain Breakdown
 
@@ -88,15 +89,6 @@ Merged dataset of native Urdu MCQs with correct answers.
 | `psychometrics` | 126 |
 | `pedagogy` | 10 |
 | `professional_psychology` | 2 |
-
-### STEM — 179
-
-| Subdomain | Count |
-|---|---:|
-| `everyday_science` | 156 |
-| `electrical_engineering` | 10 |
-| `high_school_computer_science` | 9 |
-| `elementary_mathematics` | 4 |
 
 ### Law & Governance — 13
 

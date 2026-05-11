@@ -50,17 +50,110 @@ OPENAI_API_KEY=your_openai_key_here       # if using OpenAI for OCR
 
 ```
 urdu-mmlu/
-├── data/                        ← scraped MCQ datasets
-│   ├── mcqtimes_urdu.json
-│   └── pakmcqs_urdu_general_knowledge.json
+├── data/                              ← raw / intermediate MCQ datasets
+│   ├── mcqs_with_answers.json         ← merged web-scraped MCQs (with answers)
+│   ├── mcqs_without_answers.json      ← OCR-extracted MCQs (no answers)
+│   └── ...
+├── clean_data/                        ← final cleaned datasets (domain-remapped)
+│   ├── mcqs_with_answers.json
+│   ├── mcqs_with_answers_README.md
+│   ├── mcqs_without_answers.json
+│   ├── mcqs_without_answers_README.md
+│   └── COMBINED_ANALYSIS.md          ← full statistics across both files
+├── scrape/                            ← data collection & post-processing scripts
+│   ├── merge_native_ahmer.py          ← merge two MCQ sources, deduplicate
+│   ├── source_mapping.py              ← add source field from source_url
+│   └── subdomain_merging.py          ← merge / remove subdomains in clean_data
+├── domain_analysis/                   ← domain taxonomy scripts
+│   └── remap_domains.py              ← remap domains, normalize subdomain names
 ├── ocr/
-│   ├── pipeline.py              ← main entry point
-│   ├── classify.py              ← page classification (Anthropic)
-│   ├── ocr.py                   ← MCQ extraction (Gemini / OpenAI / Anthropic)
-│   └── pdf_to_images.py         ← standalone PDF → images utility
-├── review_json_structure.py     ← post-processing: normalize questions JSONs
+│   ├── pipeline.py                   ← main entry point
+│   ├── classify.py                   ← page classification (Anthropic)
+│   ├── ocr.py                        ← MCQ extraction (Gemini / OpenAI / Anthropic)
+│   └── pdf_to_images.py              ← standalone PDF → images utility
+├── review_json_structure.py          ← post-processing: normalize questions JSONs
 └── requirements.txt
 ```
+
+---
+
+## Scrape Scripts
+
+Scripts in `scrape/` handle merging, enriching, and cleaning the collected MCQ data.
+
+### merge_native_ahmer.py
+
+Merges two MCQ source files, deduplicates, and writes `data/mcqs_with_answers.json`.
+
+```bash
+python scrape/merge_native_ahmer.py
+# Custom paths
+python scrape/merge_native_ahmer.py \
+  --ahmer  data/ahmer_mcqs.json \
+  --native data/native_urdu_mcqs.json \
+  --output data/mcqs_with_answers.json
+```
+
+### source_mapping.py
+
+Adds a `source` field to each item in `data/mcqs_with_answers.json` by matching the domain of `source_url` against a known source list (`mcqtimes`, `pakmcqs`, `testpointpk`, `etest`, `gotest`, `examaunty`).
+
+```bash
+python scrape/source_mapping.py
+```
+
+### subdomain_merging.py
+
+Applies subdomain merges and removals to the files in `clean_data/`:
+
+| Operation | Detail |
+|---|---|
+| Remove | `arabic_language`, `punjabi_language` |
+| Merge | `social_studies` → `pakistan_studies` |
+| Merge | `current_affairs` + `international_affairs` → `current_and_international_affairs` |
+| Merge | `tarjamatul_quran` → `islamic_studies` |
+
+```bash
+python scrape/subdomain_merging.py
+```
+
+---
+
+## Domain Analysis
+
+Scripts in `domain_analysis/` handle the taxonomy remapping from raw domains to the final five-domain schema.
+
+### Final Domain Taxonomy
+
+| Domain | Description |
+|---|---|
+| `Humanities` | Urdu language/literature/grammar, Islamic studies, ethics, arts |
+| `STEM` | Mathematics, sciences, computer science |
+| `Social Sciences` | Pakistan studies, civics, geography, economics, education |
+| `Profession` | Vocational and professional subjects |
+| `Other` | General knowledge, law, uncategorised |
+
+### remap_domains.py
+
+Reads a raw MCQ JSON, remaps every item to the final domain taxonomy, normalizes subdomain names to `snake_case`, and writes the result to `clean_data/`.
+
+```bash
+python domain_analysis/remap_domains.py data/mcqs_with_answers.json
+python domain_analysis/remap_domains.py data/mcqs_without_answers.json
+```
+
+---
+
+## Clean Data
+
+The `clean_data/` directory contains the fully processed datasets ready for use.
+
+| File | Items | Description |
+|---|---:|---|
+| `mcqs_with_answers.json` | 15,090 | Web-scraped MCQs with correct answers |
+| `mcqs_without_answers.json` | 17,183 | OCR-extracted exam MCQs (SSC-I / SSC-II) |
+
+See `clean_data/COMBINED_ANALYSIS.md` for full domain, subdomain, level, and source statistics.
 
 ---
 
