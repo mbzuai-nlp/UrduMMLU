@@ -142,7 +142,7 @@ async def run_classify(images_dir: Path, output_dir: Path) -> Path:
     """
     try:
         import anthropic as anthropic_lib
-        import classify as classify_module
+        import src.ocr.classify as classify_module
     except ImportError as e:
         print(f"Error: Missing dependency — {e}")
         print("Run: pip install -r ocr/requirements.txt")
