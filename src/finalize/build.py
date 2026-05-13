@@ -41,8 +41,14 @@ def latest_stage() -> Path:
             candidates.append((int(m.group(1)), p))
     if not candidates:
         raise FileNotFoundError(f"no numbered stages found under {DATA_DIR}")
-    candidates.sort(key=lambda x: x[0])
-    return candidates[-1][1]
+    # Walk highest → lowest, pick the first stage that contains either input file.
+    # Stages past the pure-data section (15-subsampling onward) reshape MCQs into
+    # batches/manifests and don't carry the with/without_answers pair anymore.
+    candidates.sort(key=lambda x: x[0], reverse=True)
+    for _, p in candidates:
+        if (p / WITH_ANSWERS).exists() or (p / WITHOUT_ANSWERS).exists():
+            return p
+    return candidates[0][1]
 
 
 def load(path: Path):
