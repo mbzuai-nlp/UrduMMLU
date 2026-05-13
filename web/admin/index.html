@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urdu MMLU — Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <header class="topbar">
+        <h1>Urdu MMLU — Admin</h1>
+        <div class="actions">
+            <label class="file-btn">
+                Load submissions
+                <input type="file" id="file-input" multiple accept=".json">
+            </label>
+            <button id="clear">Clear</button>
+            <button id="export-all" class="primary">Export merged JSON</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Overall progress</h2>
+            <div id="overall">No submissions loaded yet. Use <em>Load submissions</em> to add JSON files from annotators.</div>
+        </section>
+
+        <section class="card">
+            <h2>Per annotator</h2>
+            <div id="per-ann">—</div>
+        </section>
+
+        <section class="card">
+            <h2>Dual-annotation agreement</h2>
+            <p class="hint">Every MCQ is dual-annotated. For each MCQ with ≥2 picks we derive a majority consensus, then measure each annotator's agreement with it. Disagreement MCQs need manual review.</p>
+            <div id="iaa">—</div>
+        </section>
+
+        <section class="card">
+            <h2>Distribution</h2>
+            <div class="charts">
+                <div class="chart-wrap"><canvas id="chart-subdomain"></canvas></div>
+                <div class="chart-wrap"><canvas id="chart-selected"></canvas></div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Submissions log</h2>
+            <div id="log">—</div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urdu MMLU — RTL Preview</title>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$']],
+                displayMath: [['$$', '$$']],
+                processEscapes: true,
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            },
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            background: #f5f5f0;
+            color: #1a1a1a;
+            line-height: 2.2;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 20px;
+            padding: 16px 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            direction: ltr;
+            font-family: system-ui, sans-serif;
+        }
+
+        .header h1 { font-size: 20px; font-weight: 600; }
+        .controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+        select, input {
+            font-family: system-ui, sans-serif;
+            padding: 8px 12px;
+            border: 1px solid #d0d0d0;
+            border-radius: 8px;
+            font-size: 14px;
+            background: #fff;
+        }
+
+        input[type="search"] { min-width: 260px; }
+
+        .meta {
+            direction: ltr;
+            font-family: system-ui, sans-serif;
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 12px;
+            padding: 0 4px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 22px 26px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        }
+
+        .card .tags {
+            direction: ltr;
+            font-family: system-ui, sans-serif;
+            font-size: 12px;
+            color: #777;
+            margin-bottom: 10px;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background: #eef0f3;
+            padding: 2px 10px;
+            border-radius: 999px;
+        }
+
+        .tag.correct {
+            background: #e6f4ea;
+            color: #1e6b3a;
+        }
+
+        .question {
+            font-size: 22px;
+            margin-bottom: 14px;
+        }
+
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+
+        .options li {
+            padding: 6px 10px;
+            margin-bottom: 4px;
+            border-radius: 6px;
+            font-size: 19px;
+        }
+
+        .options li.correct {
+            background: #e6f4ea;
+            border-right: 4px solid #2e8b57;
+        }
+
+        .options .label {
+            display: inline-block;
+            min-width: 28px;
+            color: #888;
+            font-family: system-ui, sans-serif;
+            font-size: 14px;
+        }
+
+        .pager {
+            direction: ltr;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin: 24px 0;
+            font-family: system-ui, sans-serif;
+        }
+
+        .pager button {
+            padding: 6px 14px;
+            border: 1px solid #d0d0d0;
+            background: #fff;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .pager button:disabled { opacity: 0.4; cursor: not-allowed; }
+        .pager .page-info { padding: 6px 4px; font-size: 14px; color: #555; }
+
+        .empty {
+            padding: 40px;
+            text-align: center;
+            color: #888;
+            font-family: system-ui, sans-serif;
+        }
+
+        .stats {
+            direction: ltr;
+            font-family: system-ui, sans-serif;
+            background: #fff;
+            border-radius: 12px;
+            padding: 16px 20px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+        }
+
+        .stats-summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+        .stats-summary h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #333;
+        }
+        .stats-toggle {
+            background: none;
+            border: none;
+            color: #888;
+            font-size: 13px;
+            cursor: pointer;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 280px 1fr 1fr 280px;
+            gap: 28px;
+            margin-top: 14px;
+        }
+        @media (max-width: 1100px) {
+            .stats-grid { grid-template-columns: 1fr 1fr; }
+        }
+        .stats.collapsed .stats-grid { display: none; }
+
+        .stats-block { min-width: 0; }
+        .stats-block-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin-bottom: 8px;
+        }
+        .chart-wrap { position: relative; height: 220px; }
+        .chart-wrap.tall { height: 280px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Urdu MMLU — RTL Preview</h1>
+        <div class="controls">
+            <select id="dataset">
+                <option value="data/16-batching/batches/batch_001.json">16-batching / batch_001 (sample)</option>
+                <option value="data/15-subsampling/mcqs_to_annotate.json">15-subsampling / to_annotate</option>
+                <option value="data/15-subsampling/mcqs_appendix.json">15-subsampling / appendix</option>
+                <option value="data/14-english-filtered/mcqs_with_answers.json">14-english-filtered / with_answers</option>
+                <option value="data/14-english-filtered/mcqs_without_answers.json">14-english-filtered / without_answers</option>
+                <option value="data/!-final/mcqs.json">!-final / mcqs (combined)</option>
+                <option value="data/13-correlation-deduplicated/mcqs_without_answers.json">13-correlation-deduplicated / without_answers</option>
+                <option value="data/13-correlation-deduplicated/mcqs_with_answers.json">13-correlation-deduplicated / with_answers</option>
+                <option value="data/12-blanks-normalized/mcqs_without_answers.json">12-blanks-normalized / without_answers</option>
+                <option value="data/12-blanks-normalized/mcqs_with_answers.json">12-blanks-normalized / with_answers</option>
+                <option value="data/11-punctuation-normalized/mcqs_without_answers.json">11-punctuation-normalized / without_answers</option>
+                <option value="data/11-punctuation-normalized/mcqs_with_answers.json">11-punctuation-normalized / with_answers</option>
+                <option value="data/10-structural-cleaned/mcqs_without_answers.json">10-structural-cleaned / without_answers</option>
+                <option value="data/10-structural-cleaned/mcqs_with_answers.json">10-structural-cleaned / with_answers</option>
+                <option value="data/9-comparison-deduplicated/mcqs_without_answers.json">9-comparison-deduplicated / without_answers</option>
+                <option value="data/9-comparison-deduplicated/mcqs_with_answers.json">9-comparison-deduplicated / with_answers</option>
+                <option value="data/8-option-prefix-stripped/mcqs_without_answers.json">8-option-prefix-stripped / without_answers</option>
+                <option value="data/8-option-prefix-stripped/mcqs_with_answers.json">8-option-prefix-stripped / with_answers</option>
+                <option value="data/7-character-normalized/mcqs_without_answers.json">7-character-normalized / without_answers</option>
+                <option value="data/7-character-normalized/mcqs_with_answers.json">7-character-normalized / with_answers</option>
+                <option value="data/6-schema-canonicalized/mcqs_without_answers.json">6-schema-canonicalized / without_answers</option>
+                <option value="data/6-schema-canonicalized/mcqs_with_answers.json">6-schema-canonicalized / with_answers</option>
+                <option value="data/5-quote-normalized/mcqs_without_answers.json">5-quote-normalized / without_answers</option>
+                <option value="data/5-quote-normalized/mcqs_with_answers.json">5-quote-normalized / with_answers</option>
+                <option value="data/4-rtl-aligned/mcqs_without_answers.json">4-rtl-aligned / without_answers</option>
+                <option value="data/4-rtl-aligned/mcqs_with_answers.json">4-rtl-aligned / with_answers</option>
+            </select>
+            <select id="domain"><option value="">all domains</option></select>
+            <select id="subdomain"><option value="">all subdomains</option></select>
+            <input type="search" id="search" placeholder="search question text...">
+            <input type="number" id="jump" placeholder="id" min="0" style="width:90px">
+        </div>
+    </div>
+
+    <div class="stats" id="stats">
+        <div class="stats-summary" onclick="document.getElementById('stats').classList.toggle('collapsed')">
+            <h3 id="stats-heading">Distribution</h3>
+            <button class="stats-toggle">toggle</button>
+        </div>
+        <div class="stats-grid">
+            <div class="stats-block">
+                <div class="stats-block-title">Domain</div>
+                <div class="chart-wrap"><canvas id="chart-domain"></canvas></div>
+            </div>
+            <div class="stats-block">
+                <div class="stats-block-title">Subdomains</div>
+                <div class="chart-wrap" id="chart-subdomain-wrap"><canvas id="chart-subdomain"></canvas></div>
+            </div>
+            <div class="stats-block">
+                <div class="stats-block-title">Source</div>
+                <div class="chart-wrap tall"><canvas id="chart-source"></canvas></div>
+            </div>
+            <div class="stats-block">
+                <div class="stats-block-title">Correct option</div>
+                <div class="chart-wrap"><canvas id="chart-correct"></canvas></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="meta" id="meta">loading…</div>
+    <div id="list"></div>
+    <div class="pager" id="pager"></div>
+
+<script>
+const PAGE_SIZE = 25;
+let all = [];
+let filtered = [];
+let page = 0;
+
+const $ = id => document.getElementById(id);
+
+async function loadDataset(path) {
+    $('meta').textContent = `loading ${path}…`;
+    $('list').innerHTML = '';
+    const resp = await fetch(path);
+    if (!resp.ok) {
+        $('meta').textContent = `failed to load ${path} (${resp.status}). serve this folder over http: \`python -m http.server\``;
+        return;
+    }
+    all = await resp.json();
+    populateFilters();
+    applyFilters();
+}
+
+function populateFilters() {
+    const domains = [...new Set(all.map(x => x.domain).filter(Boolean))].sort();
+    const subdomains = [...new Set(all.map(x => x.subdomain).filter(Boolean))].sort();
+    $('domain').innerHTML = '<option value="">all domains</option>' +
+        domains.map(d => `<option value="${d}">${d}</option>`).join('');
+    $('subdomain').innerHTML = '<option value="">all subdomains</option>' +
+        subdomains.map(d => `<option value="${d}">${d}</option>`).join('');
+}
+
+function applyFilters() {
+    const d = $('domain').value;
+    const sd = $('subdomain').value;
+    const q = $('search').value.trim().toLowerCase();
+    filtered = all.filter(item => {
+        if (d && item.domain !== d) return false;
+        if (sd && item.subdomain !== sd) return false;
+        if (q) {
+            const hay = (item.question || '').toLowerCase();
+            if (!hay.includes(q)) return false;
+        }
+        return true;
+    });
+    page = 0;
+    renderStats(filtered);
+    render();
+}
+
+function tally(items, getter) {
+    const counts = new Map();
+    for (const item of items) {
+        const raw = getter(item);
+        const values = Array.isArray(raw) ? raw : (raw == null || raw === '' ? [] : [raw]);
+        for (const v of values) counts.set(v, (counts.get(v) || 0) + 1);
+    }
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+const PALETTE = ['#4d7bbf', '#6dbf8c', '#d9a04d', '#a86bbf', '#bf6b6b', '#6bbfb1', '#a8a8a8', '#7c8aa3', '#bf8d6b', '#6b8dbf'];
+const charts = {};
+
+function upsertChart(id, config) {
+    if (charts[id]) {
+        charts[id].data = config.data;
+        charts[id].options = config.options;
+        charts[id].update();
+    } else {
+        charts[id] = new Chart(document.getElementById(id), config);
+    }
+}
+
+const commonOpts = {
+    maintainAspectRatio: false,
+    plugins: {
+        legend: { display: false },
+        tooltip: {
+            callbacks: {
+                label: ctx => {
+                    const v = ctx.dataset.data[ctx.dataIndex];
+                    const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
+                    const pct = total ? (100 * v / total).toFixed(1) : '0';
+                    return `${v.toLocaleString()} · ${pct}%`;
+                }
+            }
+        }
+    }
+};
+
+function renderDoughnut(entries, canvasId) {
+    upsertChart(canvasId, {
+        type: 'doughnut',
+        data: {
+            labels: entries.map(([k]) => k || '(empty)'),
+            datasets: [{
+                data: entries.map(([, n]) => n),
+                backgroundColor: entries.map((_, i) => PALETTE[i % PALETTE.length]),
+                borderWidth: 0,
+            }]
+        },
+        options: {
+            ...commonOpts,
+            cutout: '55%',
+            plugins: {
+                ...commonOpts.plugins,
+                legend: {
+                    display: true,
+                    position: 'right',
+                    labels: { font: { size: 11 }, boxWidth: 12, padding: 8 }
+                }
+            }
+        }
+    });
+}
+
+function renderHBar(entries, canvasId, color, limit = 10) {
+    const shown = entries.slice(0, limit);
+    upsertChart(canvasId, {
+        type: 'bar',
+        data: {
+            labels: shown.map(([k]) => k || '(empty)'),
+            datasets: [{
+                data: shown.map(([, n]) => n),
+                backgroundColor: color,
+                borderRadius: 3,
+                barPercentage: 0.85,
+            }]
+        },
+        options: {
+            ...commonOpts,
+            indexAxis: 'y',
+            scales: {
+                x: { ticks: { font: { size: 10 } }, grid: { color: '#f0f0f0' } },
+                y: { ticks: { font: { size: 11 }, autoSkip: false } }
+            }
+        }
+    });
+}
+
+function renderVBar(entries, canvasId, color) {
+    upsertChart(canvasId, {
+        type: 'bar',
+        data: {
+            labels: entries.map(([k]) => k || '(empty)'),
+            datasets: [{
+                data: entries.map(([, n]) => n),
+                backgroundColor: color,
+                borderRadius: 3,
+                barPercentage: 0.7,
+            }]
+        },
+        options: {
+            ...commonOpts,
+            scales: {
+                x: { ticks: { font: { size: 12 } }, grid: { display: false } },
+                y: { ticks: { font: { size: 10 } }, grid: { color: '#f0f0f0' } }
+            }
+        }
+    });
+}
+
+function renderEmpty(canvasId, label) {
+    if (charts[canvasId]) { charts[canvasId].destroy(); delete charts[canvasId]; }
+    const canvas = document.getElementById(canvasId);
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = '#999';
+    ctx.font = '12px system-ui';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(label, canvas.width / 2, canvas.height / 2);
+}
+
+function renderStats(items) {
+    $('stats-heading').textContent = `Distribution · ${items.length.toLocaleString()} matching`;
+    if (!window.Chart) return; // Chart.js not loaded yet
+
+    const dom = tally(items, x => x.domain);
+    const sub = tally(items, x => x.subdomain);
+    const src = tally(items, x => x.source);
+    const cor = tally(items, x => x.correct_key);
+
+    // Subdomain panel grows with number of categories so every label is readable
+    const subWrap = $('chart-subdomain-wrap');
+    if (subWrap) subWrap.style.height = Math.max(220, sub.length * 24 + 30) + 'px';
+
+    dom.length ? renderDoughnut(dom, 'chart-domain') : renderEmpty('chart-domain', 'no domain data');
+    sub.length ? renderHBar(sub, 'chart-subdomain', '#4d7bbf', Infinity) : renderEmpty('chart-subdomain', 'no subdomain data');
+    src.length ? renderHBar(src, 'chart-source', '#d9a04d', 10) : renderEmpty('chart-source', 'no source data');
+    cor.length ? renderVBar(cor.sort((a, b) => String(a[0]).localeCompare(String(b[0]))), 'chart-correct', '#6dbf8c')
+               : renderEmpty('chart-correct', 'no recorded answers');
+}
+
+function render() {
+    const total = filtered.length;
+    const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+    page = Math.min(page, pages - 1);
+    const start = page * PAGE_SIZE;
+    const slice = filtered.slice(start, start + PAGE_SIZE);
+
+    $('meta').textContent = `${total.toLocaleString()} matching · showing ${start + 1}–${start + slice.length}`;
+
+    if (!slice.length) {
+        $('list').innerHTML = '<div class="empty">no matches</div>';
+        $('pager').innerHTML = '';
+        return;
+    }
+
+    $('list').innerHTML = slice.map(renderCard).join('');
+
+    if (window.MathJax && window.MathJax.typesetPromise) {
+        window.MathJax.typesetPromise([$('list')]).catch(err => console.warn('MathJax:', err));
+    }
+
+    $('pager').innerHTML = `
+        <button ${page === 0 ? 'disabled' : ''} onclick="page=0;render()">« first</button>
+        <button ${page === 0 ? 'disabled' : ''} onclick="page--;render()">‹ prev</button>
+        <span class="page-info">page ${page + 1} / ${pages}</span>
+        <button ${page >= pages - 1 ? 'disabled' : ''} onclick="page++;render()">next ›</button>
+        <button ${page >= pages - 1 ? 'disabled' : ''} onclick="page=${pages - 1};render()">last »</button>
+    `;
+}
+
+function escapeHtml(s) {
+    return String(s ?? '').replace(/[&<>"']/g, c => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    })[c]);
+}
+
+function renderCard(item) {
+    const sources = Array.isArray(item.source) ? item.source : (item.source ? [item.source] : []);
+    const tags = [
+        item.domain && `<span class="tag">${escapeHtml(item.domain)}</span>`,
+        item.subdomain && `<span class="tag">${escapeHtml(item.subdomain)}</span>`,
+        item.level && `<span class="tag">${escapeHtml(item.level)}</span>`,
+        ...sources.map(s => `<span class="tag">${escapeHtml(s)}</span>`),
+        `<span class="tag">id ${item.id}</span>`,
+    ].filter(Boolean).join('');
+
+    const correctKey = item.correct_key;
+    const correctOpt = item.correct_option;
+
+    const options = item.options && typeof item.options === 'object'
+        ? Object.entries(item.options).map(([k, v]) => {
+            const isCorrect = (correctKey && k === correctKey)
+                || (correctOpt && v === correctOpt);
+            return `<li class="${isCorrect ? 'correct' : ''}"><span class="label">${escapeHtml(k)}.</span> ${escapeHtml(v)}</li>`;
+        }).join('')
+        : '';
+
+    return `
+        <div class="card">
+            <div class="tags">${tags}</div>
+            <div class="question" dir="rtl">${escapeHtml(item.question)}</div>
+            <ul class="options" dir="rtl">${options}</ul>
+        </div>
+    `;
+}
+
+$('dataset').addEventListener('change', e => loadDataset(e.target.value));
+$('domain').addEventListener('change', applyFilters);
+$('subdomain').addEventListener('change', applyFilters);
+$('search').addEventListener('input', applyFilters);
+$('jump').addEventListener('change', e => {
+    const id = Number(e.target.value);
+    const idx = filtered.findIndex(x => x.id === id);
+    if (idx >= 0) {
+        page = Math.floor(idx / PAGE_SIZE);
+        render();
+    }
+});
+
+loadDataset($('dataset').value);
+</script>
+</body>
+</html>

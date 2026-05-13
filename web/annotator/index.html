@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urdu MMLU — Annotation</title>
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] },
+            options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'] },
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- LANDING / BATCH PICKER ─────────────────────────────────────── -->
+    <div id="picker-screen" class="screen">
+        <header class="picker-header">
+            <div class="brand">
+                <span class="dot"></span>
+                Urdu MMLU · Annotation
+            </div>
+            <div class="user-area">
+                <input type="text" id="handle" placeholder="your handle">
+                <button id="login" class="primary">Load my batches</button>
+                <span id="who"></span>
+            </div>
+        </header>
+
+        <main class="picker-main">
+            <section id="batch-section" class="card">
+                <h2>Your batches</h2>
+                <div id="batch-list">Enter your handle above to load batches.</div>
+            </section>
+        </main>
+    </div>
+
+    <!-- ANNOTATION FULL-SCREEN ─────────────────────────────────────── -->
+    <div id="annotate-screen" class="screen hidden">
+        <header class="annotate-bar">
+            <div class="bar-left">
+                <button id="back" class="ghost" title="Back to batches">⟵</button>
+                <span class="batch-name" id="current-batch">—</span>
+                <span class="dot-sep">·</span>
+                <span class="progress-text" id="progress">—</span>
+            </div>
+            <div class="bar-right">
+                <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+                <button id="export" class="primary" disabled title="Download as JSON">⤓ Export</button>
+            </div>
+        </header>
+
+        <main class="annotate-stage">
+            <div class="mcq-card" id="mcq-card">
+                <div class="card-top">
+                    <div class="tags" id="mcq-tags"></div>
+                    <div class="card-actions">
+                        <button id="edit-btn" class="edit-btn" title="Edit question or options">✎ edit</button>
+                        <button id="flag-btn" class="flag-btn" title="Flag this question">⚑ flag</button>
+                    </div>
+                </div>
+                <div id="question-view" class="question" dir="rtl">—</div>
+                <textarea id="question-edit" class="question-edit hidden" dir="rtl" rows="2"></textarea>
+                <ul class="options" dir="rtl" id="mcq-options"></ul>
+                <div id="flag-panel" class="flag-panel hidden">
+                    <div class="flag-panel-head">
+                        <label for="flag-note">What's wrong with this question?</label>
+                        <button id="flag-remove" class="flag-remove" type="button" title="Remove flag">× remove flag</button>
+                    </div>
+                    <textarea id="flag-note" placeholder="e.g. wrong subdomain, ambiguous answer, OCR error, multiple correct answers…"></textarea>
+                </div>
+            </div>
+        </main>
+
+        <footer class="annotate-foot">
+            <button id="prev" class="ghost">⟵ previous</button>
+            <span class="kbd-hint">press <kbd>1</kbd>–<kbd>5</kbd> to pick · <kbd>←</kbd>/<kbd>→</kbd> to navigate · <kbd>F</kbd> flag · <kbd>E</kbd> edit</span>
+            <button id="next" class="primary">next ⟶</button>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urdu MMLU</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Inter, system-ui, sans-serif;
+            background: #f7f5ef;
+            color: #1c1c1c;
+            min-height: 100vh;
+            display: flex; align-items: center; justify-content: center;
+            padding: 24px;
+        }
+        main { max-width: 720px; width: 100%; }
+        header { margin-bottom: 32px; text-align: center; }
+        h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+        .tagline { color: #6b6b6b; font-size: 15px; }
+        .cards { display: grid; gap: 14px; }
+        .card {
+            display: block;
+            background: #fff;
+            border-radius: 14px;
+            padding: 22px 26px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.04);
+            color: inherit; text-decoration: none;
+            border: 1px solid transparent;
+            transition: border-color 0.15s, transform 0.06s;
+        }
+        .card:hover { border-color: #5c7cb7; }
+        .card:active { transform: translateY(1px); }
+        .card .title { font-size: 18px; font-weight: 600; margin-bottom: 6px; }
+        .card .desc  { color: #6b6b6b; font-size: 14px; line-height: 1.5; }
+        .card .arrow { float: right; color: #5c7cb7; font-weight: 600; }
+        footer { margin-top: 28px; text-align: center; color: #999; font-size: 12px; }
+        footer a { color: #5c7cb7; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Urdu MMLU</h1>
+            <div class="tagline">A massively-multitask language-understanding benchmark for Urdu.</div>
+        </header>
+
+        <div class="cards">
+            <a class="card" href="annotator/">
+                <span class="arrow">→</span>
+                <div class="title">Annotation</div>
+                <div class="desc">For team annotators. Load your assigned batches and verify MCQ answers in browser.</div>
+            </a>
+
+            <a class="card" href="admin/">
+                <span class="arrow">→</span>
+                <div class="title">Admin dashboard</div>
+                <div class="desc">Load annotator submissions, view progress and inter-annotator agreement, export merged JSON.</div>
+            </a>
+
+            <a class="card" href="preview/">
+                <span class="arrow">→</span>
+                <div class="title">Data preview</div>
+                <div class="desc">Browse the cleaned dataset with filters, search, and distribution charts.</div>
+            </a>
+        </div>
+
+        <footer>
+            built from <a href="https://github.com/">github.com/&lt;repo&gt;</a> · static site, no server required
+        </footer>
+    </main>
+</body>
+</html>
