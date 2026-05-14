@@ -1,9 +1,9 @@
 {
     "seed": 42,
     "batch_size": 50,
-    "input_rows": 17564,
+    "input_rows": 17565,
     "batch_count": 361,
-    "regular_count": 17564,
+    "regular_count": 17565,
     "subdomain_pure": true,
     "batches": [
         {
@@ -872,10 +872,10 @@
         },
         {
             "id": "batch_109",
-            "size": 24,
+            "size": 25,
             "primary_subdomain": "computer science",
             "subdomains": {
-                "computer science": 24
+                "computer science": 25
             }
         },
         {
