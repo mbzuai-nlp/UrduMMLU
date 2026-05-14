@@ -383,6 +383,58 @@
             <div class="verdict">Edit option B: <code>اقبا</code> → <code>اقبال</code> (missing final <code>ل</code>). Pick B.</div>
         </div>
 
+        <div class="example good">
+            <div class="ex-label">edit — strip redundant option-letter prefix</div>
+            <div class="meta">subdomain: pakistan studies</div>
+            <div class="mcq-q">پاکستان کا دارالحکومت کون سا ہے؟</div>
+            <ul class="mcq-opts">
+                <li>A. <span style="background:#fde9c8">الف۔</span> کراچی</li>
+                <li class="ok">B. <span style="background:#fde9c8">ب۔</span> اسلام آباد  ✓</li>
+                <li>C. <span style="background:#fde9c8">ج۔</span> لاہور</li>
+                <li>D. <span style="background:#fde9c8">د۔</span> پشاور</li>
+            </ul>
+            <div class="verdict">
+                The option key (A/B/C/D) is already shown by the badge on the left.
+                The <code>الف۔ / ب۔ / ج۔ / د۔</code> prefix inside the text is
+                redundant — edit each option to remove it (e.g. <code>الف۔ کراچی</code>
+                → <code>کراچی</code>). Pick B.
+            </div>
+        </div>
+
+        <div class="callout">
+            <strong>Same rule for Latin prefixes.</strong> If you see options like
+            <code>A. Mango</code>, <code>B. کراچی</code>, <code>C) فیض</code>,
+            <code>D: 1947</code>, the in-text <code>A. / B. / C) / D:</code> prefix
+            is also redundant — strip it. Same goes for any separator
+            (<code>.</code>, <code>)</code>, <code>:</code>, <code>۔</code>).
+        </div>
+
+        <div class="example good">
+            <div class="ex-label">edit — option left in English</div>
+            <div class="meta">subdomain: pakistan studies</div>
+            <div class="mcq-q">پاکستان کا قومی پھل کون سا ہے؟</div>
+            <ul class="mcq-opts">
+                <li class="ok">A. <span style="background:#fde9c8">Mango</span>  → آم  ✓</li>
+                <li>B. سیب</li>
+                <li>C. کیلا</li>
+                <li>D. انگور</li>
+            </ul>
+            <div class="verdict">
+                The other three options are in Urdu and the English word has a
+                direct Urdu equivalent. Edit option A: <code>Mango</code> →
+                <code>آم</code>. Pick A.
+            </div>
+        </div>
+
+        <div class="callout warn">
+            <strong>Don't translate technical English terms or proper names.</strong>
+            HTML/CSS tags (<code>&lt;a&gt;</code>, <code>&lt;p&gt;</code>),
+            scientific notation, brand names, English book titles, and similar
+            content should <em>stay in English</em>. Translate only when the
+            English is clearly a slip and there's an unambiguous Urdu equivalent
+            (mango → آم, water → پانی, etc.).
+        </div>
+
         <p><strong>Do not</strong> edit to:</p>
         <ul>
             <li>Change the meaning of the question or an option.</li>
