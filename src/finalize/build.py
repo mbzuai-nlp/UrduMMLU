@@ -35,10 +35,15 @@ WITHOUT_ANSWERS = "mcqs_without_answers.json"
 
 STAGE_RE = re.compile(r"^(\d+)-")
 
-# Unicode bidi formatting characters — stripped from the "clean" copy.
-#   U+200E LRM / U+200F RLM    — directional marks
-#   U+202A..U+202E             — directional embeddings & overrides
-#   U+2066..U+2069             — directional isolates (LRI/RLI/FSI/PDI)
+# All Unicode bidi formatting characters — fully stripped from ``mcqs.json``
+# so downstream consumers (LLM prompts, tokenizers, training pipelines)
+# see the raw text without any invisible direction marks. Display tools
+# that need correct visual ordering should load ``mcqs_bidi.json``.
+#
+# Stripped:
+#   U+200E LRM, U+200F RLM       directional marks
+#   U+202A..U+202E               directional embeddings & overrides
+#   U+2066..U+2069               directional isolates (LRI/RLI/FSI/PDI)
 _BIDI_CHARS = "‎‏‪‫‬‭‮⁦⁧⁨⁩"
 _STRIP_BIDI = str.maketrans("", "", _BIDI_CHARS)
 

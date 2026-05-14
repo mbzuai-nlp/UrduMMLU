@@ -12,11 +12,11 @@ pair is chosen by *role* and subdomain, not pure round-robin:
     pairing rule violation).
   - **All other batches** are dealt to the least-loaded valid pair.
 
-Pairing rule across all batches: an **author** can only be paired with
-someone from **group-1** (never with another author and never with a
-non-group-1 non-author). The doctors and the arts specialist are
-otherwise free to pick up batches when their load is below the running
-average.
+Pairing rule across all batches: an **author** is never paired with
+another author. Their partner can be anyone non-author (group-1,
+doctors, arts specialist, or general). Load is balanced on **MCQ
+count**, not batch count, so annotators end up with roughly equal
+review volume even though batches differ in size.
 
 Group definitions are read from ``src/assignment/groups.json``. Edit
 that file to change team membership without touching this script.
@@ -62,28 +62,32 @@ def load_groups(path: Path) -> dict:
 
 
 def is_valid_pair(a: str, b: str, groups: dict) -> bool:
-    """Authors can only pair with group-1; no two authors on the same batch."""
+    """No two authors on the same batch; everything else is allowed."""
     if a == b:
         return False
     authors = set(groups["authors"])
-    group_1 = set(groups["group_1"])
-    a_author = a in authors
-    b_author = b in authors
-    if a_author and b_author:
-        return False
-    if a_author and b not in group_1:
-        return False
-    if b_author and a not in group_1:
+    if a in authors and b in authors:
         return False
     return True
 
 
-def by_load(slots: dict[str, list], candidates) -> list[str]:
-    return sorted(candidates, key=lambda x: (len(slots[x]), x))
+def by_load(loads: dict[str, int], candidates) -> list[str]:
+    return sorted(candidates, key=lambda x: (loads[x], x))
 
 
-def pick_two(slots, candidates, groups):
-    ordered = by_load(slots, candidates)
+def pick_two(loads, candidates, groups, cap=None):
+    """Pick 2 least-loaded valid annotators. If `cap` is given, skip anyone
+    at or above the cap; relax it only if no valid pair fits."""
+    ordered = by_load(loads, candidates)
+    if cap is not None:
+        for i, a in enumerate(ordered):
+            if loads[a] >= cap:
+                continue
+            for b in ordered[i + 1:]:
+                if loads[b] >= cap:
+                    continue
+                if is_valid_pair(a, b, groups):
+                    return a, b
     for i, a in enumerate(ordered):
         for b in ordered[i + 1:]:
             if is_valid_pair(a, b, groups):
@@ -91,8 +95,15 @@ def pick_two(slots, candidates, groups):
     raise SystemExit(f"no valid pair found among {candidates}")
 
 
-def pick_partner(slots, anchor, candidates, groups):
-    for b in by_load(slots, candidates):
+def pick_partner(loads, anchor, candidates, groups, cap=None):
+    """Pick least-loaded valid partner for `anchor`. Cap acts like `pick_two`."""
+    if cap is not None:
+        for b in by_load(loads, candidates):
+            if b == anchor or loads[b] >= cap:
+                continue
+            if is_valid_pair(anchor, b, groups):
+                return b
+    for b in by_load(loads, candidates):
         if b == anchor:
             continue
         if is_valid_pair(anchor, b, groups):
@@ -108,9 +119,8 @@ def assign(manifest: dict, groups: dict) -> dict:
     specialists = groups["subdomain_specialists"]
     all_set = set(groups["all"])
 
-    if len(doctors) < 2:
-        raise SystemExit("at least 2 doctors required")
-    d1, d2 = doctors[0], doctors[1]
+    if not doctors:
+        raise SystemExit("at least 1 doctor required")
 
     # Bucket batches by primary subdomain. Order of priority:
     # chem/bio > arts > subdomain specialist > general.
@@ -127,46 +137,57 @@ def assign(manifest: dict, groups: dict) -> dict:
         else:
             other_b.append(b)
 
+    # Sort each phase by batch size DESC so the largest batches are placed
+    # first while load-balancing has the most room to absorb the variance —
+    # standard longest-processing-time heuristic.
     rng = random.Random(SEED)
-    rng.shuffle(chembio_b)
-    rng.shuffle(arts_b)
-    rng.shuffle(specialist_b)
-    rng.shuffle(other_b)
+    for bucket in (chembio_b, arts_b, specialist_b, other_b):
+        rng.shuffle(bucket)
+        bucket.sort(key=lambda x: -x["size"])
 
     slots: dict[str, list[str]] = {a: [] for a in groups["all"]}
+    loads: dict[str, int] = {a: 0 for a in groups["all"]}
 
-    # Phase 1 — doctors handle every chem/bio batch, paired with each other
+    def place(name: str, batch: dict) -> None:
+        slots[name].append(batch["id"])
+        loads[name] += batch["size"]
+
+    # Phase 1 — chem/bio: ONE doctor on every batch (primary). The partner
+    # is load-balanced across everyone else, so doctors don't pair with
+    # each other every time and chem/bio review load spreads across the team.
     for b in chembio_b:
-        slots[d1].append(b["id"])
-        slots[d2].append(b["id"])
+        anchor = by_load(loads, doctors)[0]
+        place(anchor, b)
+        partner = pick_partner(loads, anchor, all_set, groups)
+        place(partner, b)
 
     # Phase 2 — arts specialist on every arts batch, partner from anyone else
     for b in arts_b:
         if not arts_specialists:
-            a, c = pick_two(slots, all_set, groups)
-            slots[a].append(b["id"])
-            slots[c].append(b["id"])
+            a, c = pick_two(loads, all_set, groups)
+            place(a, b)
+            place(c, b)
             continue
         anchor = arts_specialists[0]
-        slots[anchor].append(b["id"])
-        partner = pick_partner(slots, anchor, all_set, groups)
-        slots[partner].append(b["id"])
+        place(anchor, b)
+        partner = pick_partner(loads, anchor, all_set, groups)
+        place(partner, b)
 
     # Phase 3 — subdomain specialists (e.g. mathematics → Hasan/Sarfraz/Ahmer).
     # One annotator must be from the specialist pool; the partner is chosen
     # by load balance among everyone else (subject to the author-pairing rule).
     for b in specialist_b:
         pool = specialists[b["primary_subdomain"]]
-        anchor = by_load(slots, pool)[0]
-        slots[anchor].append(b["id"])
-        partner = pick_partner(slots, anchor, all_set, groups)
-        slots[partner].append(b["id"])
+        anchor = by_load(loads, pool)[0]
+        place(anchor, b)
+        partner = pick_partner(loads, anchor, all_set, groups)
+        place(partner, b)
 
     # Phase 4 — everything else: 2 lowest-loaded valid annotators
     for b in other_b:
-        a, c = pick_two(slots, all_set, groups)
-        slots[a].append(b["id"])
-        slots[c].append(b["id"])
+        a, c = pick_two(loads, all_set, groups)
+        place(a, b)
+        place(c, b)
 
     return slots
 
