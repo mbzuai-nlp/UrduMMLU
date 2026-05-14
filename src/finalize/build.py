@@ -1,19 +1,23 @@
 #!/usr/bin/env python3
 """Build the final combined dataset.
 
-Auto-discovers the latest numbered pipeline stage under ``data/``
-(``13-correlation-deduplicated/`` at the time of writing), reads both
-``mcqs_with_answers.json`` and ``mcqs_without_answers.json`` from it,
-concatenates them into a single list, and writes the result to
-``data/!-final/mcqs.json``.
+Auto-discovers the latest numbered pipeline stage that still holds the
+``mcqs_with_answers.json`` / ``mcqs_without_answers.json`` pair (the
+bidi-isolated stage 14 at the time of writing), concatenates them into
+a single list, re-numbers ``id`` contiguously, and writes:
 
-Re-numbering: ``id`` is assigned contiguously ``0..N-1`` over the
-combined list so it is unique across the file. The original per-source
-ids would collide because both source files restart at 0.
+  data/!-final/
+  ├── mcqs.json         — full text incl. bidi-isolation marks (matches
+  │                       what the web app uses; render-correct in any
+  │                       bidi-aware viewer)
+  └── mcqs_clean.json   — same content with all Unicode bidi formatting
+                          chars stripped. Easier to grep / tokenize /
+                          read in plain editors.
 
-Rows from ``mcqs_with_answers`` keep their ``correct_option`` /
-``correct_key``; rows from ``mcqs_without_answers`` have those fields
-as ``None``, which is sufficient to tell the two halves apart.
+The bidi chars removed for the clean copy:
+  U+200E LRM, U+200F RLM,
+  U+202A–U+202E (embeddings & overrides),
+  U+2066–U+2069 (isolates).
 """
 
 import json
@@ -23,12 +27,31 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = REPO_ROOT / "data"
 DST_DIR = DATA_DIR / "!-final"
-DST_FILE = DST_DIR / "mcqs.json"
+DST_FILE = DST_DIR / "mcqs.json"          # canonical, clean (no bidi marks)
+DST_BIDI_FILE = DST_DIR / "mcqs_bidi.json"  # display-ready, with bidi marks
 
 WITH_ANSWERS = "mcqs_with_answers.json"
 WITHOUT_ANSWERS = "mcqs_without_answers.json"
 
 STAGE_RE = re.compile(r"^(\d+)-")
+
+# Unicode bidi formatting characters — stripped from the "clean" copy.
+#   U+200E LRM / U+200F RLM    — directional marks
+#   U+202A..U+202E             — directional embeddings & overrides
+#   U+2066..U+2069             — directional isolates (LRI/RLI/FSI/PDI)
+_BIDI_CHARS = "‎‏‪‫‬‭‮⁦⁧⁨⁩"
+_STRIP_BIDI = str.maketrans("", "", _BIDI_CHARS)
+
+
+def strip_bidi(value):
+    """Recursively strip bidi-formatting chars from strings inside dicts/lists."""
+    if isinstance(value, str):
+        return value.translate(_STRIP_BIDI)
+    if isinstance(value, dict):
+        return {k: strip_bidi(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [strip_bidi(v) for v in value]
+    return value
 
 
 def latest_stage() -> Path:
@@ -75,17 +98,46 @@ def main() -> None:
         combined.append(item)
 
     DST_DIR.mkdir(parents=True, exist_ok=True)
+
+    # 1. mcqs.json — canonical, CLEAN (no bidi marks). Easier to read in
+    #    Jupyter / editors, easier to grep / tokenize / use downstream.
+    clean = [strip_bidi(item) for item in combined]
     with open(DST_FILE, "w", encoding="utf-8") as f:
+        json.dump(clean, f, ensure_ascii=False, indent=4)
+
+    # 2. mcqs_bidi.json — display-ready, with bidi-isolation marks
+    #    (LRI/PDI). Used by the web preview / annotator. Renders correctly
+    #    in any bidi-aware viewer even when the host context is LTR.
+    with open(DST_BIDI_FILE, "w", encoding="utf-8") as f:
         json.dump(combined, f, ensure_ascii=False, indent=4)
 
     answered = sum(1 for x in combined if x.get("correct_option") is not None)
     unanswered = len(combined) - answered
+
+    # How many bidi chars stripped?
+    def char_count(items):
+        total = 0
+        for it in items:
+            strings = [it.get("question") or "", it.get("correct_option") or ""]
+            opts = it.get("options")
+            if isinstance(opts, dict):
+                strings.extend(v for v in opts.values() if isinstance(v, str))
+            for s in strings:
+                if isinstance(s, str):
+                    for c in _BIDI_CHARS:
+                        total += s.count(c)
+        return total
+    stripped = char_count(combined)
 
     print(f"with_answers rows:    {len(with_data)}")
     print(f"without_answers rows: {len(without_data)}")
     print(f"combined total:       {len(combined)}")
     print(f"  answered:           {answered}")
     print(f"  unanswered:         {unanswered}")
+    print()
+    print(f"Wrote:")
+    print(f"  {DST_FILE}        (clean — bidi-formatting chars removed)")
+    print(f"  {DST_BIDI_FILE}   (with bidi marks — {stripped} formatting chars)")
 
 
 if __name__ == "__main__":
