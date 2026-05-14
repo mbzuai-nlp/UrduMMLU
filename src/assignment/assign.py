@@ -34,8 +34,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-MANIFEST_PATH = REPO_ROOT / "data" / "16-batching" / "manifest.json"
-DST_PATH = REPO_ROOT / "data" / "17-assignments" / "assignments.json"
+MANIFEST_PATH = REPO_ROOT / "data" / "17-batching" / "manifest.json"
+DST_PATH = REPO_ROOT / "data" / "18-assignments" / "assignments.json"
 DEFAULT_GROUPS = Path(__file__).resolve().parent / "groups.json"
 SEED = 42
 
@@ -50,6 +50,10 @@ def load_groups(path: Path) -> dict:
     cfg["general"] = list(cfg.get("general", []))
     cfg["chembio_subdomains"] = set(cfg.get("chembio_subdomains", []))
     cfg["arts_subdomains"] = set(cfg.get("arts_subdomains", []))
+    cfg["subdomain_specialists"] = {
+        sub: list(names)
+        for sub, names in cfg.get("subdomain_specialists", {}).items()
+    }
     cfg["all"] = (
         cfg["authors"] + cfg["group_1"] + cfg["doctors"]
         + cfg["arts_specialist"] + cfg["general"]
@@ -101,21 +105,32 @@ def assign(manifest: dict, groups: dict) -> dict:
     arts_subs = groups["arts_subdomains"]
     doctors = groups["doctors"]
     arts_specialists = groups["arts_specialist"]
+    specialists = groups["subdomain_specialists"]
     all_set = set(groups["all"])
 
     if len(doctors) < 2:
         raise SystemExit("at least 2 doctors required")
     d1, d2 = doctors[0], doctors[1]
 
-    # Bucket batches by primary subdomain
+    # Bucket batches by primary subdomain. Order of priority:
+    # chem/bio > arts > subdomain specialist > general.
     batches = manifest["batches"]
-    chembio_b = [b for b in batches if b["primary_subdomain"] in chembio]
-    arts_b    = [b for b in batches if b["primary_subdomain"] in arts_subs]
-    other_b   = [b for b in batches if b not in chembio_b and b not in arts_b]
+    chembio_b, arts_b, specialist_b, other_b = [], [], [], []
+    for b in batches:
+        sub = b["primary_subdomain"]
+        if sub in chembio:
+            chembio_b.append(b)
+        elif sub in arts_subs:
+            arts_b.append(b)
+        elif sub in specialists:
+            specialist_b.append(b)
+        else:
+            other_b.append(b)
 
     rng = random.Random(SEED)
     rng.shuffle(chembio_b)
     rng.shuffle(arts_b)
+    rng.shuffle(specialist_b)
     rng.shuffle(other_b)
 
     slots: dict[str, list[str]] = {a: [] for a in groups["all"]}
@@ -126,7 +141,6 @@ def assign(manifest: dict, groups: dict) -> dict:
         slots[d2].append(b["id"])
 
     # Phase 2 — arts specialist on every arts batch, partner from anyone else
-    # (no doctor allowed unless they have spare capacity — handled by load balance)
     for b in arts_b:
         if not arts_specialists:
             a, c = pick_two(slots, all_set, groups)
@@ -138,7 +152,17 @@ def assign(manifest: dict, groups: dict) -> dict:
         partner = pick_partner(slots, anchor, all_set, groups)
         slots[partner].append(b["id"])
 
-    # Phase 3 — everything else: 2 lowest-loaded valid annotators
+    # Phase 3 — subdomain specialists (e.g. mathematics → Hasan/Sarfraz/Ahmer).
+    # One annotator must be from the specialist pool; the partner is chosen
+    # by load balance among everyone else (subject to the author-pairing rule).
+    for b in specialist_b:
+        pool = specialists[b["primary_subdomain"]]
+        anchor = by_load(slots, pool)[0]
+        slots[anchor].append(b["id"])
+        partner = pick_partner(slots, anchor, all_set, groups)
+        slots[partner].append(b["id"])
+
+    # Phase 4 — everything else: 2 lowest-loaded valid annotators
     for b in other_b:
         a, c = pick_two(slots, all_set, groups)
         slots[a].append(b["id"])
@@ -197,8 +221,9 @@ def main() -> None:
         "groups": {k: groups[k] for k in (
             "authors", "group_1", "doctors", "arts_specialist", "general",
         )},
-        "chembio_subdomains": sorted(groups["chembio_subdomains"]),
-        "arts_subdomains":    sorted(groups["arts_subdomains"]),
+        "chembio_subdomains":     sorted(groups["chembio_subdomains"]),
+        "arts_subdomains":        sorted(groups["arts_subdomains"]),
+        "subdomain_specialists":  groups["subdomain_specialists"],
         "n_annotators": len(groups["all"]),
         "n_batches":    manifest["batch_count"],
         "dual_annotation": True,

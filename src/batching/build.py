@@ -21,8 +21,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-SRC = REPO_ROOT / "data" / "15-subsampling" / "mcqs_to_annotate.json"
-DST_DIR = REPO_ROOT / "data" / "16-batching"
+SRC = REPO_ROOT / "data" / "16-subsampling" / "mcqs_to_annotate.json"
+DST_DIR = REPO_ROOT / "data" / "17-batching"
 BATCHES_DIR = DST_DIR / "batches"
 MANIFEST = DST_DIR / "manifest.json"
 

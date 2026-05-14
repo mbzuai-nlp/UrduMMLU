@@ -27,10 +27,10 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 WEB = REPO_ROOT / "web"
 DATA = REPO_ROOT / "data"
 
-SRC_BATCHING = DATA / "16-batching"
-SRC_ASSIGNMENTS = DATA / "17-assignments" / "assignments.json"
+SRC_BATCHING = DATA / "17-batching"
+SRC_ASSIGNMENTS = DATA / "18-assignments" / "assignments.json"
 
-PREVIEW_STAGES = ["!-final", "14-english-filtered", "15-subsampling", "16-batching"]
+PREVIEW_STAGES = ["!-final", "14-bidi-isolated", "15-english-filtered", "16-subsampling", "17-batching"]
 
 
 def refresh_dir(dst: Path) -> None:

@@ -30,8 +30,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-SRC = REPO_ROOT / "data" / "14-english-filtered" / "mcqs_without_answers.json"
-DST_DIR = REPO_ROOT / "data" / "15-subsampling"
+SRC = REPO_ROOT / "data" / "15-english-filtered" / "mcqs_without_answers.json"
+DST_DIR = REPO_ROOT / "data" / "16-subsampling"
 DST_ANNOTATE = DST_DIR / "mcqs_to_annotate.json"
 DST_APPENDIX = DST_DIR / "mcqs_appendix.json"
 

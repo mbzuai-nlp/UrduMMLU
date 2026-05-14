@@ -1,0 +1,583 @@
+[
+    {
+        "id": 19940,
+        "question": "ان میں سے کون سی ٹیسٹ ڈیٹا کی قسم نہیں ہے؟",
+        "options": {
+            "A": "درست ٹیسٹ ڈیٹا",
+            "B": "نادرست ٹیسٹ ڈیٹا",
+            "C": "عدم دستیاب ٹیسٹ ڈیٹا",
+            "D": "یوزر ڈیٹا"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27373,
+        "question": "لوپ کے ذریعے لفظ \"پاکستان\" کتنی بار پرنٹ کیا جائے گا ؟ ⁦— for (int a = 0; a <= 3; a++) { printf(\"PAKISTAN\"); }⁩",
+        "options": {
+            "A": "⁦5⁩",
+            "B": "⁦4⁩",
+            "C": "⁦3⁩",
+            "D": "⁦1⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27533,
+        "question": "درج ذیل کوڈ کی کیا آؤٹ پٹ ہوگی ⁦:\nint m = 33;\nif (m >= 33)\nprintf(\"PASS\");\nelse\nprintf(\"FAIL\");⁩",
+        "options": {
+            "A": "⁦FAIL⁩",
+            "B": "⁦PASS⁩",
+            "C": "⁦PASS FAIL⁩",
+            "D": "⁦FAIL PASS⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 1810,
+        "question": "کون سا ٹیگ ⁦HTML⁩ میں ہائپر لنک کی وضاحت کے لیے استعمال ہوتا ہے؟",
+        "options": {
+            "A": "⁦<p>⁩",
+            "B": "⁦<a>⁩",
+            "C": "⁦<i>⁩",
+            "D": "⁦<u>⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27553,
+        "question": "⁦‏If⁩ سٹیٹمنٹ میں کیا ہو گا؟ اگر شرط غلط ہو",
+        "options": {
+            "A": "پروگرام ایرر",
+            "B": "انڈیکس آؤٹ آف باؤنڈ ایرر",
+            "C": "بقایا کوڈ چلے گا",
+            "D": "سنٹیکس ایرر"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 19715,
+        "question": "۔۔۔۔۔۔۔۔۔۔ کا مطلب ہے کہ آیا مطلوبہ حل موجود ہے یا نہیں؟",
+        "options": {
+            "A": "ویریفیکیشن",
+            "B": "الگورتھم",
+            "C": "ویلیڈیشن",
+            "D": "فلو چارٹ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27556,
+        "question": "⁦‏getch()⁩ فنکشن ہے۔",
+        "options": {
+            "A": "حسابی فنکشن",
+            "B": "کسٹم فنکشن",
+            "C": "بلٹ ان فنکشن",
+            "D": "یوزر ڈیفائنڈ فنکشن"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [
+            "short_question"
+        ],
+        "length_tier": "short",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 20037,
+        "question": "مسئلے کو حل کرنے سے پہلے ضروری ہے کہ اسے :",
+        "options": {
+            "A": "مسئلہ سمجھا جائے",
+            "B": "مسئلہ تعین کیا جائے",
+            "C": "تصویر بنائی جائے",
+            "D": "اندازہ لگایا جائے"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 19784,
+        "question": "ایک مسئلے کو سمجھنے میں کتنے ' ڈبلیوز ' کی پہچان ہوتی ہے ؟",
+        "options": {
+            "A": "⁦1⁩",
+            "B": "⁦3⁩",
+            "C": "⁦5⁩",
+            "D": "⁦8⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 1807,
+        "question": "کون سا مواصلاتی طریقہ بیک وقت ڈیٹا بھیجنے اور وصول کرنے کی اجازت دیتا ہے؟",
+        "options": {
+            "A": "سمپلیکس",
+            "B": "ہاف ڈپلیکس",
+            "C": "ایسنکرونس",
+            "D": "فل ڈپلیکس"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27765,
+        "question": "⁦‏Scanf() —⁩ فنکشن کی ایک مثال ہے:",
+        "options": {
+            "A": "ان پٹ",
+            "B": "آؤٹ پٹ",
+            "C": "منطق",
+            "D": "ریاضی"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27792,
+        "question": "سلیکشن سٹیٹمنٹ کی ____ اقسام ہیں۔",
+        "options": {
+            "A": "⁦2⁩",
+            "B": "⁦3⁩",
+            "C": "⁦4⁩",
+            "D": "⁦5⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27500,
+        "question": "اگر فنکشن باڈی میں تین ریٹرن سٹیٹمنٹس ہوں تو ان میں سے ____ چلیں گی۔",
+        "options": {
+            "A": "⁦1⁩",
+            "B": "⁦2⁩",
+            "C": "⁦3⁩",
+            "D": "⁦4⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 20009,
+        "question": "ایک پاس ورڈ کم از کم کتنے حروف پر مشتمل ہوتا ہے؟",
+        "options": {
+            "A": "⁦4⁩",
+            "B": "⁦6⁩",
+            "C": "⁦8⁩",
+            "D": "⁦10⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27576,
+        "question": "⁦‏if⁩ سٹیٹمنٹ میں اگر کنڈیشن غلط ہے تو کیا ہوتا ہے ؟",
+        "options": {
+            "A": "پروگرام رک جاتا ہے",
+            "B": "انڈیکس آؤٹ آف باؤنڈ ایرر آتا ہے",
+            "C": "باقی کوڈ چلنے لگتا ہے",
+            "D": "کمپائلر کنڈیشن بدلنے کا مطالبہ کرتا ہے"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27400,
+        "question": "⁦‏Include⁩ سٹیٹمنٹس ____ سیکشن میں لکھی جاتی ہیں۔",
+        "options": {
+            "A": "ہیڈر",
+            "B": "مین",
+            "C": "کمنٹس",
+            "D": "پرنٹ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27912,
+        "question": "بیسک سٹیٹمنٹ میں ٹائپنگ کی ایررز کہلاتی ہیں۔",
+        "options": {
+            "A": "رن ٹائم ایررز",
+            "B": "لوجیکل ایررز",
+            "C": "سینٹیکس ایررز",
+            "D": "ایگزیکیوشن ایررز"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 20061,
+        "question": "⁦‏TCP / IP⁩ میں کتنی لیئرز ہیں ؟",
+        "options": {
+            "A": "⁦1⁩",
+            "B": "⁦3⁩",
+            "C": "⁦5⁩",
+            "D": "⁦7⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 19619,
+        "question": "اگر \"آج چھٹی ہے⁦\" = P⁩ تو پھر ⁦p̄⁩ ہوگا:",
+        "options": {
+            "A": "آج چھٹی نہیں ہے",
+            "B": "آج اتوار ہے",
+            "C": "آج چھٹی ہے",
+            "D": "آج اتوار نہیں ہے"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 19629,
+        "question": "‏____ ایک آئی کان یا ایک تصویر ہو سکتا ہے۔ جس پر اگر کلک کیا جائے تو آپ کو کسی دوسرے ویب پیج پر لے جاتا ہے۔",
+        "options": {
+            "A": "ٹیگ",
+            "B": "لسٹ",
+            "C": "ہائپر لنک",
+            "D": "لنک"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 19618,
+        "question": "ہیکسا ڈیسیمل عددی نظام کی بیس ہے:",
+        "options": {
+            "A": "⁦2⁩",
+            "B": "⁦10⁩",
+            "C": "⁦8⁩",
+            "D": "⁦16⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 19726,
+        "question": "عددی نظام اعداد و شمار کی نمائندگی کے لئے ایک سسٹم استعمال کرتا ہے، جسے کہتے ہیں:",
+        "options": {
+            "A": "نمبر سسٹم",
+            "B": "بائنری سسٹم",
+            "C": "ڈیسیمل سسٹم",
+            "D": "آکٹل نمبر"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 19729,
+        "question": "‏……………….. کا مطلب ہے کہ مطلوبہ حل موجود ہے یا نہیں۔",
+        "options": {
+            "A": "ویریفکیشن",
+            "B": "الگورتھم",
+            "C": "ویلیڈیشن",
+            "D": "فلو چارٹ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 27584,
+        "question": "اس سٹیٹمنٹ کے ذریعے ⁦Pak⁩ کتنی دفعہ پرنٹ ہوگا؟ ⁦— for (int a = 0 ; a < 3 ; a ++) printf (\"Pak\");⁩",
+        "options": {
+            "A": "⁦1⁩",
+            "B": "⁦2⁩",
+            "C": "⁦3⁩",
+            "D": "⁦4⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    },
+    {
+        "id": 19643,
+        "question": "⁦‏(1000001)2⁩ کی اعشاری قیمت کیا ہے :",
+        "options": {
+            "A": "⁦(66)10⁩",
+            "B": "⁦(67)10⁩",
+            "C": "⁦(65)10⁩",
+            "D": "⁦(69)10⁩"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_109",
+        "is_iaa": false
+    }
+]

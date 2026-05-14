@@ -37,10 +37,23 @@ KEY_LETTERS = {
 
 SEPARATOR = r"[):\.\-۔]"
 LEADING_NEUTRALS = r"[‏\s]*"
+# Chars considered "letter-like" — Latin a-z, Urdu/Arabic range.
+# A whitespace-only separator only counts when the NEXT char isn't a letter,
+# otherwise we'd over-strip legitimate words that happen to begin with the
+# option-key letter (e.g. an option text starting with "ب" the Urdu word
+# "with" rather than the letter prefix "ب").
+LETTER_LIKE = r"A-Za-z؀-ۿ"
 
 
 def strip_prefix(value: str, key: str) -> str:
     """Strip a `<letter><sep>` prefix from `value` when letter matches `key`.
+
+    Recognised separators:
+      - explicit: ``)``, ``:``, ``.``, ``-``, ``۔``
+      - whitespace, but only when the **next** char after the whitespace is
+        a non-letter (digit, math symbol, opening paren, etc.). This catches
+        ``الف 0`` / ``ب 5`` without clobbering text that legitimately starts
+        with the same letter followed by a word.
 
     Preserves any leading RLM (U+200F) so the RTL alignment from step 4
     survives stripping.
@@ -51,7 +64,10 @@ def strip_prefix(value: str, key: str) -> str:
     leading_rlm = "‏" if value.startswith("‏") else ""
 
     for letter in KEY_LETTERS.get(key, []):
-        pat = rf"^{LEADING_NEUTRALS}{re.escape(letter)}\s*{SEPARATOR}\s*"
+        pat = (
+            rf"^{LEADING_NEUTRALS}{re.escape(letter)}"
+            rf"(?:\s*{SEPARATOR}\s*|\s+(?=[^{LETTER_LIKE}]))"
+        )
         if re.match(pat, value):
             stripped = re.sub(pat, "", value)
             return leading_rlm + stripped if leading_rlm and not stripped.startswith("‏") else stripped

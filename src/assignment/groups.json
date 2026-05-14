@@ -6,5 +6,10 @@
     "general":          ["Saad", "Ashna"],
 
     "chembio_subdomains": ["chemistry", "biology"],
-    "arts_subdomains":    ["art and drawing", "urdu literature", "urdu language", "urdu grammar"]
+    "arts_subdomains":    ["art and drawing", "urdu literature", "urdu language", "urdu grammar"],
+
+    "subdomain_specialists": {
+        "mathematics": ["Hasan", "Sarfraz", "Ahmer"]
+    }
 }
+
