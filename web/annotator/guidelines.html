@@ -242,21 +242,7 @@
             </ul>
         </div>
 
-        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">1. Wrong subdomain</h3>
-        <div class="example bad">
-            <div class="ex-label">flag — wrong subdomain</div>
-            <div class="meta">subdomain: <strong>art and drawing</strong> (looks wrong)</div>
-            <div class="mcq-q">اکبر بادشاہ کا انتقال کب ہوا؟</div>
-            <ul class="mcq-opts">
-                <li>A. 1605ء</li>
-                <li>B. 1556ء</li>
-                <li>C. 1707ء</li>
-                <li>D. 1627ء</li>
-            </ul>
-            <div class="verdict"><strong>Flag note:</strong> "subject mismatch — this is Pakistan/Indo-Pak history, not art and drawing." Still pick the correct answer if you know it.</div>
-        </div>
-
-        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">2. Two (or more) correct answers</h3>
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">1. Two (or more) correct answers</h3>
         <div class="example bad">
             <div class="ex-label">flag — multiple correct</div>
             <div class="meta">subdomain: pakistan studies</div>
@@ -270,7 +256,7 @@
             <div class="verdict"><strong>Flag note:</strong> "two correct: اردو is national, انگریزی is also official under the constitution." Pick the one that best matches the question's intent (here: اردو).</div>
         </div>
 
-        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">3. No correct answer in options</h3>
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">2. No correct answer in options</h3>
         <div class="example bad">
             <div class="ex-label">flag — no correct answer</div>
             <div class="meta">subdomain: mathematics</div>
@@ -284,7 +270,7 @@
             <div class="verdict"><strong>Flag note:</strong> "no correct option — answer should be 49." Mark <em>unsure</em>.</div>
         </div>
 
-        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">4. Ambiguous, vague, or poorly worded</h3>
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">3. Ambiguous, vague, or poorly worded</h3>
         <div class="example bad">
             <div class="ex-label">flag — ambiguous</div>
             <div class="meta">subdomain: urdu literature</div>
@@ -298,7 +284,7 @@
             <div class="verdict"><strong>Flag note:</strong> "ambiguous — all four are great Urdu poets; question doesn't specify era, criterion, or context." Mark <em>unsure</em>.</div>
         </div>
 
-        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">5. References a missing image, diagram, or chart</h3>
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">4. References a missing image, diagram, or chart</h3>
         <div class="example bad">
             <div class="ex-label">flag — missing visual</div>
             <div class="meta">subdomain: biology</div>
@@ -312,7 +298,7 @@
             <div class="verdict"><strong>Flag note:</strong> "requires a diagram that isn't included — unanswerable as text." Mark <em>unsure</em>.</div>
         </div>
 
-        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">6. Out of scope</h3>
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">5. Out of scope</h3>
         <div class="example bad">
             <div class="ex-label">flag — out of scope</div>
             <div class="meta">subdomain: general knowledge</div>
@@ -342,6 +328,9 @@
                 Urdu/Arabic letter forms that you can correct from context.</li>
             <li><strong>Removing stray characters</strong> — extra punctuation,
                 duplicated words, garbage left over from scraping.</li>
+            <li><strong>Wrong subdomain</strong> — click the subdomain pill at the
+                top of the MCQ and pick the correct one from the dropdown. This
+                edit doesn't need the <strong>✎ edit</strong> button to be active.</li>
         </ul>
 
         <div class="example good">
@@ -368,6 +357,23 @@
                 <li>D. احمد ندیم قاسمی</li>
             </ul>
             <div class="verdict">Edit: <code>قومی قومی</code> → <code>قومی</code> (duplicated word — scraping artifact). Pick A.</div>
+        </div>
+
+        <div class="example good">
+            <div class="ex-label">edit — wrong subdomain (use the dropdown)</div>
+            <div class="meta">subdomain: <strong>art and drawing</strong> (looks wrong)</div>
+            <div class="mcq-q">اکبر بادشاہ کا انتقال کب ہوا؟</div>
+            <ul class="mcq-opts">
+                <li class="ok">A. 1605ء  ✓</li>
+                <li>B. 1556ء</li>
+                <li>C. 1707ء</li>
+                <li>D. 1627ء</li>
+            </ul>
+            <div class="verdict">
+                The question is Indo-Pak history, not art. Click the subdomain pill
+                at the top of the MCQ and change it to <code>pakistan studies</code>
+                (or whichever fits). Pick A.
+            </div>
         </div>
 
         <div class="example good">
