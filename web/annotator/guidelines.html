@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annotator guidelines — Urdu MMLU</title>
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['$', '$']], displayMath: [['$$', '$$']] },
+            options: { skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'] },
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { overflow: auto; }
+        main.guidelines {
+            max-width: 760px;
+            margin: 32px auto;
+            background: var(--surface);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 36px 44px;
+        }
+        main.guidelines h1 { font-size: 26px; font-weight: 700; margin-bottom: 8px; }
+        main.guidelines .lede { color: var(--muted); margin-bottom: 28px; }
+        main.guidelines h2 {
+            font-size: 13px; font-weight: 600;
+            color: var(--muted);
+            text-transform: uppercase; letter-spacing: 0.06em;
+            margin: 26px 0 10px;
+            padding-bottom: 6px; border-bottom: 1px solid var(--line);
+        }
+        main.guidelines p, main.guidelines li {
+            font-size: 14px; line-height: 1.65;
+        }
+        main.guidelines ul { padding-left: 22px; margin: 6px 0 14px; }
+        main.guidelines li { margin: 4px 0; }
+        main.guidelines code {
+            font-family: ui-monospace, Menlo, monospace;
+            background: #f0ede4;
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+        main.guidelines kbd {
+            font-family: ui-monospace, Menlo, monospace;
+            font-size: 11px;
+            padding: 1px 6px;
+            border: 1px solid var(--line);
+            border-bottom-width: 2px;
+            border-radius: 4px;
+            background: var(--surface);
+            color: var(--muted);
+        }
+        main.guidelines .callout {
+            border-left: 3px solid var(--accent);
+            background: var(--accent-soft);
+            padding: 10px 14px;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        main.guidelines .callout.warn {
+            border-left-color: var(--warn);
+            background: var(--warn-soft);
+        }
+        .back-link { display: inline-block; margin-bottom: 18px; color: var(--muted); font-size: 13px; }
+
+        .example {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 12px 14px;
+            margin: 10px 0 14px;
+            background: #fafaf6;
+        }
+        .example .ex-label {
+            font-family: 'Inter', system-ui, sans-serif;
+            font-size: 10px; font-weight: 700;
+            color: var(--muted);
+            text-transform: uppercase; letter-spacing: 0.08em;
+            margin-bottom: 6px;
+        }
+        .example.bad  .ex-label { color: var(--warn); }
+        .example.good .ex-label { color: #2e6e3f; }
+        .example .mcq-q {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 17px; line-height: 1.9;
+            direction: rtl; text-align: right;
+            margin: 4px 0;
+        }
+        .example .mcq-opts {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            font-size: 15px; line-height: 1.7;
+            direction: rtl; text-align: right;
+            color: #333;
+            margin: 2px 0 4px;
+            padding-left: 0; list-style: none;
+        }
+        .example .mcq-opts .ok { color: #2e6e3f; font-weight: 600; }
+        .example .mcq-opts li::before { content: "  "; }
+        .example .verdict {
+            font-family: 'Inter', system-ui, sans-serif;
+            font-size: 12px; color: #555;
+            margin-top: 8px; padding-top: 6px;
+            border-top: 1px dashed var(--line);
+        }
+        .example .verdict strong { color: var(--ink); }
+        .example .meta {
+            font-family: 'Inter', system-ui, sans-serif;
+            font-size: 11px; color: var(--muted);
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <main class="guidelines">
+        <a class="back-link" href="./">⟵ back to annotator</a>
+
+        <h1>Annotator guidelines</h1>
+        <p class="lede">
+            What to do, how to do it, and what to flag.
+            Skim once before you start; come back if anything feels ambiguous.
+        </p>
+
+        <h2>What we're doing</h2>
+        <p>
+            You're verifying answers for the <strong>Urdu MMLU</strong> benchmark —
+            a multiple-choice question set covering Pakistani academic subjects in Urdu.
+            Every question has been pre-processed; your job is to pick the single best
+            answer, and to flag questions that have problems (wrong subdomain, typos,
+            ambiguity, OCR errors, etc.).
+        </p>
+        <p>
+            Each question is annotated by <strong>two</strong> different annotators
+            (you and one teammate, independently). Where you agree, the answer is
+            confirmed. Where you disagree, the admin reviews the question.
+        </p>
+
+        <h2>Using the interface</h2>
+        <ul>
+            <li>Log in with the handle the admin assigned you.</li>
+            <li>You'll see a list of <strong>batches</strong> (about 50 MCQs each).</li>
+            <li>Open one batch at a time; your progress is saved automatically in
+                your browser. You can stop and come back any time.</li>
+            <li>Click an option to record your answer. <strong>Clicking does
+                not advance</strong> — use <kbd>→</kbd> or the <em>next</em> button
+                when you're ready to move on.</li>
+            <li>When a batch is done (or whenever you want to send progress to the
+                admin), click <strong>Export</strong> and email/Slack the JSON file.</li>
+        </ul>
+        <p>
+            <strong>Keyboard shortcuts:</strong>
+            <kbd>1</kbd>–<kbd>5</kbd> pick A/B/C/D/E (or unsure) ·
+            <kbd>←</kbd>/<kbd>→</kbd> navigate ·
+            <kbd>F</kbd> toggle flag ·
+            <kbd>E</kbd> toggle edit mode.
+        </p>
+
+        <h2>Picking the answer</h2>
+        <ul>
+            <li>Pick the <strong>single best</strong> answer. If multiple options
+                seem correct, choose the one that's most precise or most directly
+                answers the question.</li>
+            <li><strong>Look it up if you're not sure.</strong> A quick Google /
+                Wikipedia check is encouraged for fact-based questions (dates,
+                authors, capitals, scientific terms, historical events). The
+                benchmark needs <em>correct</em> answers, not gut-feel answers.</li>
+            <li>If a search doesn't resolve it within ~30 seconds, mark
+                <strong>unsure</strong> and move on. Confident guesses are worse
+                than honest unsure-marks.</li>
+            <li>Aim for 15–30 seconds per question. If you find yourself on one
+                question for more than a minute even after a quick search, mark
+                <em>unsure</em>.</li>
+        </ul>
+
+        <div class="callout">
+            <strong>Googling is fine — preferred, even.</strong> Open a tab, search
+            the question or option text, verify, then pick. A few minutes of
+            checking per batch is well spent.
+        </div>
+
+        <div class="example good">
+            <div class="ex-label">single best — straightforward</div>
+            <div class="meta">subdomain: pakistan studies</div>
+            <div class="mcq-q">پاکستان کا قومی پھول کون سا ہے؟</div>
+            <ul class="mcq-opts">
+                <li>A. گلابِ گلِ داودی</li>
+                <li class="ok">B. چنبیلی  ✓</li>
+                <li>C. سورج مکھی</li>
+                <li>D. گُلِ لالہ</li>
+            </ul>
+            <div class="verdict"><strong>Pick B.</strong> Only one option is the national flower; the rest are distractors.</div>
+        </div>
+
+        <div class="example">
+            <div class="ex-label">multiple plausible — pick the most precise</div>
+            <div class="meta">subdomain: urdu literature</div>
+            <div class="mcq-q">"مثنوی سحر البیان" کے مصنف کون ہیں؟</div>
+            <ul class="mcq-opts">
+                <li>A. میر حسن</li>
+                <li>B. میر تقی میر</li>
+                <li>C. میر</li>
+                <li>D. خواجہ میر درد</li>
+            </ul>
+            <div class="verdict"><strong>Pick A (میر حسن)</strong> — the most specific and correct attribution. "میر" alone is too vague to be the intended answer.</div>
+        </div>
+
+        <h2>When to use "unsure / skip"</h2>
+        <ul>
+            <li>You don't know the answer <strong>and</strong> a quick Google /
+                Wikipedia search didn't make it clear either.</li>
+            <li>Two or more options look equally correct after looking it up.</li>
+            <li>The question requires specialist context you don't have and can't
+                quickly acquire (e.g. niche fiqh details, obscure regional
+                history).</li>
+            <li>You can <strong>also flag</strong> the question if the ambiguity is
+                a problem with the question itself, not just your knowledge.</li>
+        </ul>
+
+        <div class="example">
+            <div class="ex-label">specialist knowledge — mark unsure</div>
+            <div class="meta">subdomain: islamic studies</div>
+            <div class="mcq-q">حضرت ابوبکر صدیقؓ کے دور خلافت میں سب سے پہلی فوجی مہم کس کی قیادت میں روانہ ہوئی؟</div>
+            <ul class="mcq-opts">
+                <li>A. خالد بن ولیدؓ</li>
+                <li>B. اسامہ بن زیدؓ</li>
+                <li>C. عمر بن خطابؓ</li>
+                <li>D. ابو عبیدہؓ</li>
+            </ul>
+            <div class="verdict"><strong>Mark unsure</strong> if you don't have specialist Islamic-history knowledge. Don't guess.</div>
+        </div>
+
+        <h2>When to flag a question</h2>
+        <p>Click the <strong>⚑ flag</strong> button and add a short note. The cases below cover the most common reasons.</p>
+
+        <div class="callout warn">
+            <strong>Flag vs edit — pick one rule of thumb:</strong>
+            <ul style="margin-top:6px; margin-bottom:0;">
+                <li><strong>Edit</strong> when you can fix it yourself — a typo, missing space, duplicate word, etc. No flag needed afterwards; just edit and move on.</li>
+                <li><strong>Flag</strong> when you need the admin to look at it — wrong subdomain, no correct answer, ambiguity, missing visual, etc. These can't be fixed by changing the text.</li>
+                <li>Both at once is fine but rarely necessary. Don't flag a question just because you edited a typo in it.</li>
+            </ul>
+        </div>
+
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">1. Wrong subdomain</h3>
+        <div class="example bad">
+            <div class="ex-label">flag — wrong subdomain</div>
+            <div class="meta">subdomain: <strong>art and drawing</strong> (looks wrong)</div>
+            <div class="mcq-q">اکبر بادشاہ کا انتقال کب ہوا؟</div>
+            <ul class="mcq-opts">
+                <li>A. 1605ء</li>
+                <li>B. 1556ء</li>
+                <li>C. 1707ء</li>
+                <li>D. 1627ء</li>
+            </ul>
+            <div class="verdict"><strong>Flag note:</strong> "subject mismatch — this is Pakistan/Indo-Pak history, not art and drawing." Still pick the correct answer if you know it.</div>
+        </div>
+
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">2. Two (or more) correct answers</h3>
+        <div class="example bad">
+            <div class="ex-label">flag — multiple correct</div>
+            <div class="meta">subdomain: pakistan studies</div>
+            <div class="mcq-q">پاکستان کی سرکاری زبان کون سی ہے؟</div>
+            <ul class="mcq-opts">
+                <li class="ok">A. اردو  ✓ (national language)</li>
+                <li>B. پنجابی</li>
+                <li class="ok">C. انگریزی  ✓ (also an official language)</li>
+                <li>D. سندھی</li>
+            </ul>
+            <div class="verdict"><strong>Flag note:</strong> "two correct: اردو is national, انگریزی is also official under the constitution." Pick the one that best matches the question's intent (here: اردو).</div>
+        </div>
+
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">3. No correct answer in options</h3>
+        <div class="example bad">
+            <div class="ex-label">flag — no correct answer</div>
+            <div class="meta">subdomain: mathematics</div>
+            <div class="mcq-q">$(3 + 4)^{2} = \,?$</div>
+            <ul class="mcq-opts">
+                <li>A. 25</li>
+                <li>B. 14</li>
+                <li>C. 21</li>
+                <li>D. 12</li>
+            </ul>
+            <div class="verdict"><strong>Flag note:</strong> "no correct option — answer should be 49." Mark <em>unsure</em>.</div>
+        </div>
+
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">4. Ambiguous, vague, or poorly worded</h3>
+        <div class="example bad">
+            <div class="ex-label">flag — ambiguous</div>
+            <div class="meta">subdomain: urdu literature</div>
+            <div class="mcq-q">عظیم اردو شاعر کا نام بتائیں۔</div>
+            <ul class="mcq-opts">
+                <li>A. غالب</li>
+                <li>B. اقبال</li>
+                <li>C. میر تقی میر</li>
+                <li>D. فیض احمد فیض</li>
+            </ul>
+            <div class="verdict"><strong>Flag note:</strong> "ambiguous — all four are great Urdu poets; question doesn't specify era, criterion, or context." Mark <em>unsure</em>.</div>
+        </div>
+
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">5. References a missing image, diagram, or chart</h3>
+        <div class="example bad">
+            <div class="ex-label">flag — missing visual</div>
+            <div class="meta">subdomain: biology</div>
+            <div class="mcq-q">اوپر دی گئی شکل میں ____ کا نشانہ بنایا گیا حصہ کون سا ہے؟</div>
+            <ul class="mcq-opts">
+                <li>A. نیوکلیئس</li>
+                <li>B. مائٹوکانڈریا</li>
+                <li>C. سائٹوپلازم</li>
+                <li>D. سیل وال</li>
+            </ul>
+            <div class="verdict"><strong>Flag note:</strong> "requires a diagram that isn't included — unanswerable as text." Mark <em>unsure</em>.</div>
+        </div>
+
+        <h3 style="font-size:14px; font-weight:600; margin:20px 0 6px;">6. Out of scope</h3>
+        <div class="example bad">
+            <div class="ex-label">flag — out of scope</div>
+            <div class="meta">subdomain: general knowledge</div>
+            <div class="mcq-q">فلاں گاؤں (مقامی نام) کس ضلع میں واقع ہے؟</div>
+            <ul class="mcq-opts">
+                <li>A. ضلع X</li>
+                <li>B. ضلع Y</li>
+                <li>C. ضلع Z</li>
+                <li>D. ضلع W</li>
+            </ul>
+            <div class="verdict"><strong>Flag note:</strong> "hyper-local trivia — won't generalize as benchmark content." Same goes for sectarian / opinion questions.</div>
+        </div>
+
+        <div class="callout">
+            <strong>Flagging is independent of answering.</strong> You can flag
+            without picking an option, or pick and still flag. Both are useful signals.
+        </div>
+
+        <h2>When to edit (and when not to)</h2>
+        <p>
+            Click the <strong>✎ edit</strong> button to fix small problems in the
+            question or option text. Use it for:
+        </p>
+        <ul>
+            <li><strong>Spelling / typos</strong> (e.g. <code>اقبا</code> → <code>اقبال</code>, <code>پکستان</code> → <code>پاکستان</code>).</li>
+            <li><strong>Spacing fixes</strong>, missing diacritics, mangled
+                Urdu/Arabic letter forms that you can correct from context.</li>
+            <li><strong>Removing stray characters</strong> — extra punctuation,
+                duplicated words, garbage left over from scraping.</li>
+        </ul>
+
+        <div class="example good">
+            <div class="ex-label">edit — spelling fix</div>
+            <div class="meta">subdomain: pakistan studies</div>
+            <div class="mcq-q"><span style="background:#fde9c8">پکستان</span> کا قومی ترانہ کس نے لکھا؟</div>
+            <ul class="mcq-opts">
+                <li class="ok">A. حفیظ جالندھری  ✓</li>
+                <li>B. فیض احمد فیض</li>
+                <li>C. علامہ اقبال</li>
+                <li>D. احمد ندیم قاسمی</li>
+            </ul>
+            <div class="verdict">Edit the question: <code>پکستان</code> → <code>پاکستان</code> (missing <code>ا</code>). Pick A.</div>
+        </div>
+
+        <div class="example good">
+            <div class="ex-label">edit — duplicated word</div>
+            <div class="meta">subdomain: pakistan studies</div>
+            <div class="mcq-q">پاکستان کا <span style="background:#fde9c8">قومی قومی</span> ترانہ کس نے لکھا؟</div>
+            <ul class="mcq-opts">
+                <li class="ok">A. حفیظ جالندھری  ✓</li>
+                <li>B. فیض احمد فیض</li>
+                <li>C. علامہ اقبال</li>
+                <li>D. احمد ندیم قاسمی</li>
+            </ul>
+            <div class="verdict">Edit: <code>قومی قومی</code> → <code>قومی</code> (duplicated word — scraping artifact). Pick A.</div>
+        </div>
+
+        <div class="example good">
+            <div class="ex-label">edit — option name typo</div>
+            <div class="meta">subdomain: urdu literature</div>
+            <div class="mcq-q">"بانگِ درا" کے مصنف کون ہیں؟</div>
+            <ul class="mcq-opts">
+                <li>A. مرزا غالب</li>
+                <li class="ok">B. علامہ <span style="background:#fde9c8">اقبا</span>  → اقبال  ✓</li>
+                <li>C. فیض احمد فیض</li>
+                <li>D. احمد فراز</li>
+            </ul>
+            <div class="verdict">Edit option B: <code>اقبا</code> → <code>اقبال</code> (missing final <code>ل</code>). Pick B.</div>
+        </div>
+
+        <p><strong>Do not</strong> edit to:</p>
+        <ul>
+            <li>Change the meaning of the question or an option.</li>
+            <li>Make a wrong answer into a right one.</li>
+            <li>Rewrite a poorly-worded question — flag it instead and let the admin handle it.</li>
+        </ul>
+
+        <div class="example bad">
+            <div class="ex-label">do NOT edit — would change the answer</div>
+            <div class="mcq-q">پاکستان کا دارالحکومت کون سا شہر ہے؟</div>
+            <ul class="mcq-opts">
+                <li>A. کراچی</li>
+                <li class="ok">B. اسلام آباد  ✓</li>
+                <li>C. لاہور</li>
+                <li>D. <span style="background:#fde9c8; text-decoration:line-through">پنڈی</span> → اسلام آباد</li>
+            </ul>
+            <div class="verdict">Don't "fix" wrong distractors to make them correct. The wrong options exist on purpose.</div>
+        </div>
+
+        <div class="example bad">
+            <div class="ex-label">do NOT edit — flag instead</div>
+            <div class="mcq-q">سب سے بڑا شاعر کون تھا؟</div>
+            <div class="verdict">Vague question. Don't rewrite it; flag with <strong>"ambiguous"</strong> and let the admin decide whether to drop or rephrase.</div>
+        </div>
+
+        <p>
+            Each edit shows a small <strong>EDITED</strong> chip on the question or
+            option. Click the <strong>×</strong> in the chip to revert.
+        </p>
+
+        <h2>Submitting your work</h2>
+        <ul>
+            <li>Open the batch you've been working on, click <strong>Export</strong>.</li>
+            <li>A JSON file like <code>YourHandle__batch_042.json</code> downloads.</li>
+            <li>Send it to the admin via Slack / email / Drive — whatever channel
+                you were told to use.</li>
+            <li>You can re-export any time; it's safe to send updated versions.
+                The admin's tool merges submissions and keeps the latest.</li>
+        </ul>
+
+        <h2>Pacing</h2>
+        <p>
+            Aim for ~50 MCQs per sitting (one batch). At 15–30 seconds per question
+            (including a quick search where useful) that's 15–25 minutes of focused
+            work. Take a break after each batch; tired annotators miss things.
+        </p>
+        <p>
+            Accuracy &gt; speed. It's fine if a batch takes 30 minutes instead of 15
+            because you fact-checked the tricky ones. We'd rather have a slower,
+            correct annotation than a fast, wrong one.
+        </p>
+
+        <h2>Questions?</h2>
+        <p>
+            If something isn't covered here, message the admin. Don't guess about
+            the process — guesses bake errors into the benchmark.
+        </p>
+    </main>
+</body>
+</html>

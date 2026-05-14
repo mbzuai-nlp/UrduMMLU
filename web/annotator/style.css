@@ -62,6 +62,12 @@ button.ghost {
 }
 button.ghost:hover:not(:disabled) { background: rgba(0,0,0,0.04); color: var(--ink); }
 
+/* Anchor-as-button (e.g. guidelines link) */
+a.btn { text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+a.btn.ghost { color: var(--muted); }
+a.btn.ghost:hover { background: rgba(0,0,0,0.04); color: var(--ink); }
+.guide-link { font-size: 13px; white-space: nowrap; }
+
 kbd {
     display: inline-block;
     font-family: ui-monospace, Menlo, monospace;
