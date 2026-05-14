@@ -379,6 +379,39 @@ input[type=text]:focus {
 }
 .tag.flag { background: var(--warn-soft); color: var(--warn); }
 
+.tag-select {
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: inherit;
+    border: 1px solid transparent;
+    padding: 3px 22px 3px 10px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'><path fill='%23999' d='M1 3l4 4 4-4z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 6px center;
+}
+.tag-select:hover  { background-color: rgba(0,0,0,0.08); border-color: var(--line); }
+.tag-select:focus  { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.tag-select.edited {
+    background-color: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'><path fill='%23fff' d='M1 3l4 4 4-4z'/></svg>");
+}
+
+.tag-revert {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    width: 20px; height: 20px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 12px; line-height: 1;
+    cursor: pointer;
+    display: inline-flex; align-items: center; justify-content: center;
+}
+.tag-revert:hover { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+
 .question {
     font-family: 'Noto Nastaliq Urdu', serif;
     font-size: 24px;

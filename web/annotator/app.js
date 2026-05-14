@@ -10,6 +10,7 @@ const $ = id => document.getElementById(id);
 const state = {
     handle: null,
     assignments: null,
+    subdomains: [],           // full list, loaded from manifest at login
     myBatches: [],
     currentBatch: null,
     currentItems: [],
@@ -36,6 +37,7 @@ function hasEdits(rec) {
     if (!rec || !rec.edits) return false;
     const e = rec.edits;
     if (e.question != null) return true;
+    if (e.subdomain != null) return true;
     if (e.options && Object.keys(e.options).length) return true;
     return false;
 }
@@ -69,6 +71,10 @@ function effectiveOption(item, rec, k) {
     }
     return (item.options || {})[k];
 }
+function effectiveSubdomain(item, rec) {
+    if (rec && rec.edits && rec.edits.subdomain != null) return rec.edits.subdomain;
+    return item.subdomain || '';
+}
 
 function batchProgress(_batchId, items) {
     let done = 0, flagged = 0;
@@ -99,6 +105,8 @@ async function login() {
     state.handle = handle;
     try {
         state.assignments = await fetchJSON(ASSIGNMENTS_URL);
+        const manifest = await fetchJSON(`${DATA_BASE}/manifest.json`);
+        state.subdomains = [...new Set(manifest.batches.map(b => b.primary_subdomain).filter(Boolean))].sort();
     } catch (e) {
         $('batch-list').textContent =
             `Failed to load assignments: ${e.message}. Make sure you're serving this over HTTP (file:// won't work).`;
@@ -176,16 +184,33 @@ function renderCurrent() {
     $('progress').textContent = `MCQ ${state.idx + 1} / ${items.length} · ${done} done`;
     $('progress-fill').style.width = total ? `${100 * done / total}%` : '0%';
 
+    const rec = getRecord(item.id) || {};
+
     // tags
     const tags = [];
-    if (item.subdomain) tags.push(`<span class="tag">${esc(item.subdomain)}</span>`);
+    // Editable subdomain dropdown (always live, no edit-mode gate)
+    if (item.subdomain || state.subdomains.length) {
+        const editedSub = !!(rec.edits && rec.edits.subdomain != null);
+        const currentSub = effectiveSubdomain(item, rec);
+        // Make sure the current value is in the option list, even if it isn't in the manifest
+        const subList = state.subdomains.includes(currentSub)
+            ? state.subdomains
+            : [...state.subdomains, currentSub].sort();
+        const subOptsHtml = subList.map(s =>
+            `<option value="${esc(s)}" ${s === currentSub ? 'selected' : ''}>${esc(s)}</option>`
+        ).join('');
+        tags.push(`<select id="subdomain-select" class="tag tag-select ${editedSub ? 'edited' : ''}"
+            title="${editedSub ? 'subdomain edited' : 'change subdomain'}">${subOptsHtml}</select>`);
+        if (editedSub) {
+            tags.push(`<button id="subdomain-revert" class="tag-revert" title="revert subdomain to original">×</button>`);
+        }
+    }
     if (item.level)     tags.push(`<span class="tag">${esc(item.level)}</span>`);
     if (item.length_tier) tags.push(`<span class="tag">${esc(item.length_tier)}</span>`);
     (item.quality_flags || []).forEach(f => tags.push(`<span class="tag flag">${esc(f)}</span>`));
     tags.push(`<span class="tag">id ${item.id}</span>`);
     $('mcq-tags').innerHTML = tags.join('');
 
-    const rec = getRecord(item.id) || {};
     const opts = item.options || {};
     const selected = rec.selected_key;
     const editedQ = rec.edits && rec.edits.question != null;
@@ -255,6 +280,16 @@ function renderCurrent() {
         });
         const qMarker = $('question-view').querySelector('.edited-marker[data-revert="question"]');
         if (qMarker) qMarker.addEventListener('click', revertQuestionEdit);
+    }
+
+    // Subdomain dropdown — live, regardless of edit mode
+    const subSelect = $('subdomain-select');
+    if (subSelect) {
+        subSelect.addEventListener('change', e => saveSubdomainEdit(e.target.value));
+    }
+    const subRevert = $('subdomain-revert');
+    if (subRevert) {
+        subRevert.addEventListener('click', revertSubdomainEdit);
     }
 
     // Flag state
@@ -379,6 +414,31 @@ function revertOptionEdit(key) {
     if (!rec || !rec.edits || !rec.edits.options || rec.edits.options[key] == null) return;
     delete rec.edits.options[key];
     if (!Object.keys(rec.edits.options).length) delete rec.edits.options;
+    rec.submitted_at = new Date().toISOString();
+    saveRecord(item.id, rec);
+    renderCurrent();
+}
+
+function saveSubdomainEdit(value) {
+    const item = state.currentItems[state.idx];
+    const rec = getRecord(item.id) || emptyRecord(item);
+    rec.edits = rec.edits || {};
+    const original = item.subdomain || '';
+    if (value === original) {
+        delete rec.edits.subdomain;
+    } else {
+        rec.edits.subdomain = value;
+    }
+    rec.submitted_at = new Date().toISOString();
+    saveRecord(item.id, rec);
+    renderCurrent();
+}
+
+function revertSubdomainEdit() {
+    const item = state.currentItems[state.idx];
+    const rec = getRecord(item.id);
+    if (!rec || !rec.edits || rec.edits.subdomain == null) return;
+    delete rec.edits.subdomain;
     rec.submitted_at = new Date().toISOString();
     saveRecord(item.id, rec);
     renderCurrent();
