@@ -1,828 +1,15 @@
 [
     {
-        "id": 25662,
-        "question": "گلوکوز کا ایک مالیکیول ٹوٹ کر پائرووک ایسڈ کے مالیکیول بناتا ہے۔",
+        "id": 976,
+        "question": "پی وی سی پائپ کی ڈیبرنگ کس کے ساتھ کی جاسکتی ہے؟",
         "options": {
-            "A": "5",
-            "B": "3",
-            "C": "2",
-            "D": "6"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 25688,
-        "question": "بلڈ گروپس تغیرات کی اچھی مثال ہیں:",
-        "options": {
-            "A": "مکمل ڈومینینس",
-            "B": "نامکمل ڈومینینس",
-            "C": "مسلسل تغیرات",
-            "D": "غیر مسلسل تغیرات"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 25706,
-        "question": "‏12. پھول کا مادہ تولیدی حصہ کہلاتا ہے:",
-        "options": {
-            "A": "کیلیکس",
-            "B": "کرولا",
-            "C": "اینڈروشیم",
-            "D": "گائینوشیم"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 18758,
-        "question": "ڈائی اٹامک مالیکیول کی مثال ہے :",
-        "options": {
-            "A": "HCl",
-            "B": "H2O",
-            "C": "NO2",
-            "D": "CO2"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 18585,
-        "question": "فری موبائل الیکٹران موجود ہوتے ہیں :",
-        "options": {
-            "A": "میٹلز",
-            "B": "نان میٹلز",
-            "C": "آئونک کمپاؤنڈز",
-            "D": "کوویلنٹ کمپاؤنڈز"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 26684,
-        "question": "چونے کی بھٹی میں درج ذیل ری ایکشن کے مکمل ہونے کی وجہ ہے۔ CaCO3(s) → CaO(s) + CO2(g)",
-        "options": {
-            "A": "زیادہ ٹمپریچر",
-            "B": "‏CaCO3 کی نسبت CaO کا زیادہ مستحکم ہونا",
-            "C": "‏CO2 کا مسلسل خارج ہونا",
-            "D": "‏CaO کا نہ ٹوٹنا"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 18528,
-        "question": "بینزین کا مالیکیولر فارمولا ہے",
-        "options": {
-            "A": "C6H12O6",
-            "B": "C12H22O11",
-            "C": "C6H6",
-            "D": "CaCO3"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 7172,
-        "question": "کون سا مفکر عوامی اقتدار اعلیٰ کا سب سے بڑا حامی ہے۔",
-        "options": {
-            "A": "تھامس ہابز",
-            "B": "لاسکی",
-            "C": "ژاں بوداں",
-            "D": "روسو"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 6821,
-        "question": "برطانیہ کے دستور کی ابتداء کس صدی میں ہوئی:",
-        "options": {
-            "A": "گیارہویں",
-            "B": "بارہویں",
-            "C": "تیرہویں",
-            "D": "چودہویں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 7139,
-        "question": "اقوام متحدہ کی قرار دادوں کے مطابق کشمیر کے مسئلے کا حل کس کے ذریعے ہونا چاہیے؟",
-        "options": {
-            "A": "استصواب رائے",
-            "B": "براہ راست انتخاب",
-            "C": "رائے شماری",
-            "D": "مذاکرات"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 9963,
-        "question": "ڈرائی کلیننگ کا کاروبار ایک مثال ہے",
-        "options": {
-            "A": "تجارتی کاروبار کی",
-            "B": "خدماتی کاروبار کی",
-            "C": "مینوفیکچرنگ کاروبار کی",
-            "D": "مشہور کاروبار کی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 11942,
-        "question": "ذیل میں دیئے گئے کس کھاتے پر بینک سود ادا نہیں کرتا۔",
-        "options": {
-            "A": "بچت کا کھاتہ",
-            "B": "مدتی کھاتہ",
-            "C": "چلت کھاتہ",
-            "D": "الف، ب اور ج تینوں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 27935,
-        "question": "جی ڈبلیو بیسک میں یوزر ڈیفائنڈ فنکشن کو کہتے ہیں۔",
-        "options": {
-            "A": "پروسیجر",
-            "B": "فائل",
-            "C": "ارے فنکشن",
-            "D": "گوسب"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 19699,
-        "question": "ان میں کون سا IPv4 ایڈریس درست ہے۔",
-        "options": {
-            "A": "256.20.15.0",
-            "B": "af.2c.5f.4d",
-            "C": "25:2:5:14",
-            "D": "172.16.54.1"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 27581,
-        "question": "کوئی آپشن آپریٹر کی قسم نہیں ہے؟",
-        "options": {
-            "A": "ارتھمیٹک آپریٹر",
-            "B": "ریلشنل آپریٹر",
-            "C": "چیک آپریٹر",
-            "D": "لاجیکل آپریٹر"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 7522,
-        "question": "عرصہ کے لحاظ سے منڈی کی قسمیں ہوتی ہیں۔",
-        "options": {
-            "A": "4",
-            "B": "6",
-            "C": "2",
-            "D": "3"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 7705,
-        "question": "مساوات Qd = 60 - 10P ہے :",
-        "options": {
-            "A": "رسد کی",
-            "B": "منڈی کی",
-            "C": "طلب کی",
-            "D": "آجر کی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 7416,
-        "question": "ہر نئی اکائی پیدا کرنے سے کل مصارف میں تبدیلی کو کہتے ہیں",
-        "options": {
-            "A": "کل مصارف",
-            "B": "اوسط مصارف",
-            "C": "متغیر مصارف",
-            "D": "مختتم مصارف"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 3426,
-        "question": "بچے کے اولین اساتذہ اس کے ____ ہوتے ہیں۔",
-        "options": {
-            "A": "پڑوسی",
-            "B": "دادا دادی",
-            "C": "بہن بھائی",
-            "D": "والدین"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 1303,
-        "question": "کس کے مطابق معاشرتی زندگی کی تشکیل نو دراصل میں تجربے کی تنظیم نو ہے؟",
-        "options": {
-            "A": "سقراط",
-            "B": "ارسطو",
-            "C": "افلاطون",
-            "D": "جان ڈیوی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 3548,
-        "question": "غیر رسمی تعلیم کا سب سے بڑا ادارہ — ہے۔",
-        "options": {
-            "A": "گھر",
-            "B": "معاشرہ",
-            "C": "سکول",
-            "D": "مسجد"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 5044,
-        "question": "نصاب کس کے حصول کا ذریعہ ہے؟",
-        "options": {
-            "A": "جائزہ",
-            "B": "تعلیمی مقاصد",
-            "C": "امتحان",
-            "D": "ہم نصابی سرگرمیاں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 9182,
-        "question": "مدر ٹریسا ہندوستان آ کر کس مقام پر مشن میں شامل ہوئیں؟",
-        "options": {
-            "A": "شملہ",
-            "B": "دار جیلنگ",
-            "C": "مسوری",
-            "D": "کولکتہ"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 29328,
-        "question": "الیکٹرک کرنٹ بہاؤ ہے:",
-        "options": {
-            "A": "ہوا کا",
-            "B": "چارجز کا",
-            "C": "مالیکیولز کا",
-            "D": "ایٹمز کا"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 1422,
-        "question": "وولٹ اور کرنٹ کے حاصل ضرب کو کیا کہتے ہیں؟",
-        "options": {
-            "A": "مزاحمت",
-            "B": "پاور",
-            "C": "وولٹیج",
-            "D": "کرنٹ"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 22192,
-        "question": "ہوا میں آکسیجن کا تناسب ہے:",
-        "options": {
-            "A": "الف 20%",
-            "B": "ب 21%",
-            "C": "ج 25%",
-            "D": "د 78%"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 14758,
-        "question": "ہماری زمین کی عمر ملین سال ہے۔",
-        "options": {
-            "A": "4500",
-            "B": "600",
-            "C": "700",
-            "D": "800"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 14967,
-        "question": "سوڈان کی معیشت کا انحصار کس سرگرمی پر ہے :",
-        "options": {
-            "A": "صنعت",
-            "B": "سیاحت",
-            "C": "زراعت",
-            "D": "کانکنی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 15692,
-        "question": "نیزہ پھینکنے میں دوڑنے کے راستے کی چوڑائی ہے۔",
-        "options": {
-            "A": "‏1.30 میٹر",
-            "B": "‏1.25 میٹر",
-            "C": "‏1.26 میٹر",
-            "D": "‏1.22 میٹر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 5345,
-        "question": "کھیلوں کے ذریعے اضافہ ہوتا ہے :",
-        "options": {
-            "A": "‏(الف) ذہنی فٹنس میں",
-            "B": "‏(ب) جسمانی فٹنس میں",
-            "C": "‏(ج) وزن میں",
-            "D": "‏(د) یہ تمام"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 14991,
-        "question": "‏____ حرکت کے قابل بناتے ہیں :",
-        "options": {
-            "A": "عضلات",
-            "B": "اعصاب",
-            "C": "دماغ",
-            "D": "جسم"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 15403,
-        "question": "ہاکی میں شوٹنگ سرکل کی پیمائش ____ میٹر ہوتی ہے۔",
-        "options": {
-            "A": "11.64",
-            "B": "15.64",
-            "C": "14.63",
-            "D": "16.63"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 5381,
-        "question": "بنیادی رنگ ہے:",
-        "options": {
-            "A": "پیلا",
-            "B": "سفید",
-            "C": "کالا",
-            "D": "یہ تمام"
+            "A": "تولیہ",
+            "B": "رومال",
+            "C": "ریگ مال",
+            "D": "چاقو"
         },
         "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "short_question"
-        ],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 268,
-        "question": "ایک گائے کی قربانی میں زیادہ سے زیادہ شامل ہو سکنے والے افراد کی تعداد ہے۔",
-        "options": {
-            "A": "تین",
-            "B": "پانچ",
-            "C": "سات",
-            "D": "نو"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 3029,
-        "question": "کاشت کار کا بیٹا کاشتکاری سیکھنے کے لیے کسی سکول میں داخل نہیں ہوتا بلکہ کاشتکاری کن سے سیکھ جاتا ہے ؟",
-        "options": {
-            "A": "اُستاد سے",
-            "B": "ڈاکٹر سے",
-            "C": "والدین سے",
-            "D": "دوست سے"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 1469,
-        "question": "‏9a2 - 12ab میں کیا جمع کیا جائے کہ جملہ مکمل مربع بن جائے؟",
-        "options": {
-            "A": "-16b2",
-            "B": "16b2",
-            "C": "4b2",
-            "D": "-4b2"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
+        "subdomain": "plumbing",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -836,41 +23,39 @@
         "is_iaa": false
     },
     {
-        "id": 27998,
-        "question": "‏x4 - 16 کی تجزی ہے:",
+        "id": 975,
+        "question": "افقی لائن کو ڈرا کرنے کے لیے کون سا آلہ استعمال کیا جاتا ہے؟",
         "options": {
-            "A": "(x - 2)(x + 2)",
-            "B": "(x + 4)(x - 4)",
-            "C": "(x - 2)(x + 2)(x2 + 4)",
-            "D": "(x - 2)(x + 4)"
+            "A": "ٹی۔ سکو ئیر",
+            "B": "سیٹ۔ سکو ئیر",
+            "C": "پروٹریکٹر",
+            "D": "سکیل"
         },
-        "domain": "STEM",
-        "subdomain": "mathematics",
+        "domain": "Profession",
+        "subdomain": "plumbing",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
+        "level": "SSC-I",
+        "source_url": [],
         "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_320",
         "is_iaa": false
     },
     {
-        "id": 1855,
-        "question": "[a  b] [3 / -7] =",
+        "id": 978,
+        "question": "جاب پورٹلز ____ کا ڈیٹا اکٹھا کرتے ہیں۔",
         "options": {
-            "A": "الف: [3a-7b]",
-            "B": "ب: [3a+7b]",
-            "C": "ج: [3a; -7b]",
-            "D": "د: [3a; 7b]"
+            "A": "صرف ملازمت کے متلاشیوں",
+            "B": "صرف ملازمت فراہم کرنے والوں",
+            "C": "ملازمت کے متلاشیوں اور ملازمت فراہم کرنے والے دونوں",
+            "D": "خریداروں"
         },
-        "domain": "STEM",
-        "subdomain": "mathematics",
+        "domain": "Profession",
+        "subdomain": "plumbing",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -884,255 +69,71 @@
         "is_iaa": false
     },
     {
-        "id": 5996,
-        "question": "شاہ عبداللطیف بھٹائی کس زبان کے شاعر ہیں :",
+        "id": 973,
+        "question": "تازہ پانی کے لیے سب سے زیادہ استعمال ہونے والا پلاسٹک پائپ کون سا ہے؟",
         "options": {
-            "A": "سرائیکی",
-            "B": "پنجابی",
-            "C": "پشتو",
-            "D": "سندھی"
+            "A": "پی وی سی",
+            "B": "پی پی آر سی",
+            "C": "پی وی سی۔ ہائی",
+            "D": "اے بی ایس"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "Profession",
+        "subdomain": "plumbing",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
+        "level": "SSC-I",
         "source_url": [],
         "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_320",
         "is_iaa": false
     },
     {
-        "id": 2241,
-        "question": "پاکستان کی شمالی سرحد کس ملک سے ملتی ہے؟",
+        "id": 977,
+        "question": "پلمب باب ____ کو چیک کرنے کے لیے استعمال کیا جاتا ہے۔",
         "options": {
-            "A": "بھارت",
-            "B": "افغانستان",
-            "C": "ایران",
-            "D": "چین"
+            "A": "لیول",
+            "B": "عمودی",
+            "C": "زاویہ",
+            "D": "سطح"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "Profession",
+        "subdomain": "plumbing",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_320",
+        "is_iaa": false
+    },
+    {
+        "id": 974,
+        "question": "‏____ انسانی صحت پر صنعتی آلودگی کا اثر ہے۔",
+        "options": {
+            "A": "پھیپھڑوں کا کینسر",
+            "B": "پانی کی آلودگی",
+            "C": "ہوا کی آلودگی",
+            "D": "مٹی آلودگی"
+        },
+        "domain": "Profession",
+        "subdomain": "plumbing",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 12909,
-        "question": "‏1973ء کا آئین کتنی دفعات پر مشتمل ہے؟",
-        "options": {
-            "A": "234",
-            "B": "250",
-            "C": "280",
-            "D": "380"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 6119,
-        "question": "‏24 اکتوبر 1945 کو ادارے کا قیام عمل میں آیا:",
-        "options": {
-            "A": "اقتصادی تعاون کی تنظیم",
-            "B": "اسلامی کانفرنس کی تنظیم",
-            "C": "اقوامِ متحدہ",
-            "D": "علاقائی تعاون برائے ترقی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 24381,
-        "question": "‏2 کلوگرام ماس والے جسم کی کائنیٹک انرجی 25 جول ہے۔ اس کی سپیڈ ۔۔۔ ہوگی۔",
-        "options": {
-            "A": "5 ms−1",
-            "B": "12.5 ms−1",
-            "C": "25 ms−1",
-            "D": "50 ms−1"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 23914,
-        "question": "ان میں سے کونسا یونٹ ماخوذ یونٹ نہیں ہے۔",
-        "options": {
-            "A": "پاسکل",
-            "B": "کلو گرام",
-            "C": "نیوٹن",
-            "D": "واٹ"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 11250,
-        "question": "اطلاقی تحقیق کن حالات کے تحت کی جاتی ہے؟",
-        "options": {
-            "A": "قدرتی ماحول کے تحت",
-            "B": "منضبط شرائط کے تحت",
-            "C": "لیبارٹری کے تحت",
-            "D": "پابند ماحول کے تحت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 11031,
-        "question": "عمومی اور خصوصی عنصر پر مبنی نظریہ ذہانت کس نے پیش کیا :",
-        "options": {
-            "A": "ٹرمن نے",
-            "B": "گلفورڈ نے",
-            "C": "تھارن ڈائیک نے",
-            "D": "سپیئر مین نے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 16684,
-        "question": "کون سا صوبہ فروٹ گارڈن کہلاتا ہے؟",
-        "options": {
-            "A": "پنجاب",
-            "B": "سندھ",
-            "C": "بلوچستان",
-            "D": "خیبر پختونخوا"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 11713,
-        "question": "رسمی تعلیم حاصل ہوتی ہے۔",
-        "options": {
-            "A": "خاندان سے",
-            "B": "دوستوں سے",
-            "C": "سکول سے",
-            "D": "رشتے داروں سے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_320",
-        "is_iaa": false
-    },
-    {
-        "id": 11298,
-        "question": "کس نے کہا عمرانیات معاشرتی عمل کے مطالعہ کا نام ہے :",
-        "options": {
-            "A": "ڈرخائم",
-            "B": "سمنر",
-            "C": "پارسنز",
-            "D": "میکس ویبر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
         "batch_id": "batch_320",
         "is_iaa": false
     }

@@ -1,38 +1,15 @@
 [
     {
-        "id": 25194,
-        "question": "مندرجہ ذیل میں سے کس میں سے اینٹی ٹاکسنز حاصل کی جاتی ہیں؟",
+        "id": 20523,
+        "question": "‏4^5 میں 4 کو کہتے ہیں۔",
         "options": {
-            "A": "جانوروں سے",
-            "B": "پودوں سے",
-            "C": "فنجائی سے",
-            "D": "معدنیات سے"
+            "A": "اساس",
+            "B": "قوت نما",
+            "C": "صحیح عدد",
+            "D": "جذر"
         },
         "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 17475,
-        "question": "روٹ ہیئرز ____ سے نکلتی ہیں۔",
-        "options": {
-            "A": "پیری سائیکل",
-            "B": "ایپی ڈرمس",
-            "C": "اینڈوڈرمس",
-            "D": "کارٹیکس"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -46,16 +23,39 @@
         "is_iaa": false
     },
     {
-        "id": 24832,
-        "question": "درج ذیل میں تمام ہارمونز ہیں سوائے۔",
+        "id": 22967,
+        "question": "تشابہ کے لئے علامت ____ ہے۔",
         "options": {
-            "A": "گلوکا گون",
-            "B": "انسولین",
-            "C": "تھائی راکسن",
-            "D": "پیپسینو جن"
+            "A": "$\\leftrightarrow$",
+            "B": "$\\cong$",
+            "C": "$\\sim$",
+            "D": "$\\neq$"
         },
         "domain": "STEM",
-        "subdomain": "biology",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 28462,
+        "question": "‏2x2 = 3x کی تجزیہ ہے۔",
+        "options": {
+            "A": "0",
+            "B": "(2x - 3)x",
+            "C": "2x2 - 3x",
+            "D": "3 - 2x2"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -69,16 +69,16 @@
         "is_iaa": false
     },
     {
-        "id": 18215,
-        "question": "نان میٹلز عام طور پر نرم ہیں ، لیکن ان میں سے کونسی نہایت سخت ہے ؟",
+        "id": 22899,
+        "question": "برابر قاعدہ اور برابر ارتفاع والی مثلثیں رقبہ میں ۔۔۔ ہوتی ہیں :",
         "options": {
-            "A": "فاسفورس",
-            "B": "آیوڈین",
-            "C": "گریفائیٹ",
-            "D": "ڈائمنڈ"
+            "A": "برابر",
+            "B": "نابرابر",
+            "C": "مختلف",
+            "D": "متشابہ"
         },
         "domain": "STEM",
-        "subdomain": "chemistry",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -92,16 +92,16 @@
         "is_iaa": false
     },
     {
-        "id": 26931,
-        "question": "بیوٹین کا مالیکیولر فارمولا ہے۔",
+        "id": 29977,
+        "question": "اگر $\\alpha , \\beta$ مساوات $7x^2 - x + 4 = 0$ کے روٹس ہوں تو $\\alpha\\beta$ برابر ہے۔",
         "options": {
-            "A": "C4H8",
-            "B": "C4H10",
-            "C": "C4H12",
-            "D": "C4H6"
+            "A": "$-\\frac{1}{7}$",
+            "B": "$\\frac{4}{7}$",
+            "C": "$\\frac{7}{4}$",
+            "D": "$-\\frac{4}{7}$"
         },
         "domain": "STEM",
-        "subdomain": "chemistry",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -112,21 +112,67 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_255",
         "is_iaa": false
     },
     {
-        "id": 1088,
-        "question": "ایک مائع اس وقت ابلتا ہے جب اس کا بخاراتی دباؤ برابر ہو جاتا ہے:",
+        "id": 30006,
+        "question": "مساوات $ax^2 + bx + c = 0$ کے روٹس کی اقسام ۔۔۔۔ معلوم کیا جاتا ہے ۔",
         "options": {
-            "A": "760 cm Hg",
-            "B": "1 Pa",
-            "C": "0.1 atm",
-            "D": "101.325 kPa"
+            "A": "روٹس کا مجموعہ",
+            "B": "روٹس کا حاصل ضرب",
+            "C": "ترکیبی تقسیم",
+            "D": "فرق کنندہ"
         },
         "domain": "STEM",
-        "subdomain": "chemistry",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 21104,
+        "question": "جب کوئی کالمٰی نقشہ اس طرح تیار کیا جائے کہ ہر کالم کا رقبہ اس میں موجود گروہ کے تعدد کے متناسب ہو تو یہ کہلاتا ہے۔",
+        "options": {
+            "A": "منحنی",
+            "B": "اوگو",
+            "C": "کالمٰی نقشہ",
+            "D": "بار چارٹ"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 2947,
+        "question": "مساوات y=c کی شکل میں گراف پر y محد کیا ہوتا ہے؟",
+        "options": {
+            "A": "1",
+            "B": "c",
+            "C": "0",
+            "D": "-1"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -140,16 +186,41 @@
         "is_iaa": false
     },
     {
-        "id": 18189,
-        "question": "درج ذیل میں سے کون سے شیل میں چار سب شیل ہوتے ہیں :",
+        "id": 20676,
+        "question": "‏45 میں 4 کو کیا کہتے ہیں:",
         "options": {
-            "A": "‏K شیل",
-            "B": "‏N شیل",
-            "C": "‏L شیل",
-            "D": "‏O شیل"
+            "A": "اساس",
+            "B": "قوت نما",
+            "C": "صحیح عدد",
+            "D": "جذر"
         },
         "domain": "STEM",
-        "subdomain": "chemistry",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 20352,
+        "question": "اگر n√a غیر ناطق عدد ہو جبکہ a ناطق عدد ہو تو n√a کو کیا کہتے ہیں۔",
+        "options": {
+            "A": "قوت نمائی",
+            "B": "جذر",
+            "C": "صحیح عدد",
+            "D": "اساس"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -163,156 +234,133 @@
         "is_iaa": false
     },
     {
-        "id": 6612,
-        "question": "جس طرز حکومت میں حکومت کے تینوں شعبے ایک دوسرے سے آزاد ہوتے ہیں۔",
+        "id": 30252,
+        "question": "20° = ……………..",
         "options": {
-            "A": "وحدانی",
-            "B": "بادشاہت",
-            "C": "صدارتی",
-            "D": "پارلیمانی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 19365,
-        "question": "یونانی لفظ کریٹس (Kratos) کا مطلب ہے:",
-        "options": {
-            "A": "حکومت",
-            "B": "ریاست",
-            "C": "لوگ",
-            "D": "شہری"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 12140,
-        "question": "محمدن ایجوکیشنل کانفرنس کب قائم ہوئی ؟",
-        "options": {
-            "A": "1866",
-            "B": "1876",
-            "C": "1886",
-            "D": "1896"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 13059,
-        "question": "دنیا میں اون کے حصول کا بڑا ذریعہ ہے۔",
-        "options": {
-            "A": "اونٹ",
-            "B": "بھیڑیں",
-            "C": "بکریاں",
-            "D": "یاک"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 10508,
-        "question": "انجمن امداد باہمی قائم کرتے ہیں :",
-        "options": {
-            "A": "صارفین",
-            "B": "سرمایہ دار",
-            "C": "سرکاری ادارے",
-            "D": "تمام لوگ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 19831,
-        "question": "‏____ ڈیٹا کی خفیہ کاری کا عمل ہے۔",
-        "options": {
-            "A": "‏(الف) صداقت",
-            "B": "‏(ب) دستیابی",
-            "C": "‏(ج) راز داری",
-            "D": "‏(د) ان میں سے کوئی بھی نہیں"
+            "A": "360'",
+            "B": "630'",
+            "C": "3600'",
+            "D": "1200'"
         },
         "domain": "STEM",
-        "subdomain": "computer science",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [
-            "catch_all"
+            "short_question"
         ],
         "length_tier": "short",
         "batch_id": "batch_255",
         "is_iaa": false
     },
     {
-        "id": 1811,
-        "question": "جاوا اسکرپٹ میں متغیر کو ڈکلیئر کس سے کرتے ہیں؟",
+        "id": 20746,
+        "question": "‏-/600 روپے پر 4 سال کے لئے 6 % سالانہ کی شرح سے کمپاؤنڈ منافع ہے :",
         "options": {
-            "A": "dim",
-            "B": "const",
-            "C": "var",
-            "D": "variable"
+            "A": "157.49",
+            "B": "158.49",
+            "C": "159.49",
+            "D": "160"
         },
         "domain": "STEM",
-        "subdomain": "computer science",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 20738,
+        "question": "‏√2 + √3 ایک جزر نہیں ہے کیونکہ 2 + √3 ایک",
+        "options": {
+            "A": "ناطق عدد",
+            "B": "غیر ناطق عدد",
+            "C": "صحیح عدد",
+            "D": "جزر ہے"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 28368,
+        "question": "‏(x + 3)^2 - 4 کی تجزی ہے",
+        "options": {
+            "A": "(x + 1) (x - 5)",
+            "B": "(x - 1) (x + 5)",
+            "C": "(x - 1) (x - 5)",
+            "D": "(x + 1) (x + 5)"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 2146,
+        "question": "دائرے کے مرکز سے گزرتا ہوا وتر دائرے کا ____ کہلاتا ہے۔",
+        "options": {
+            "A": "قطر",
+            "B": "قوس",
+            "C": "رداس",
+            "D": "مماس"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 1156,
+        "question": "‏1 / (a-b) + b / (a2-b2) کی مختصر ترین شکل کیا ہے؟",
+        "options": {
+            "A": "(1 + b) / (a2 - b2)",
+            "B": "a / (a2 - b2)",
+            "C": "b / (a2 - b2)",
+            "D": "(a + 2b) / (a2 - b2)"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -326,177 +374,16 @@
         "is_iaa": false
     },
     {
-        "id": 27570,
-        "question": "وہ فنکشن جو C سٹینڈرڈ لائبریری میں دستیاب نہیں ہوتے انہیں ____ کہتے ہیں۔",
+        "id": 23229,
+        "question": "دو نسبتوں کی برابری کو ۔۔۔۔ کہتے ہیں :",
         "options": {
-            "A": "یوزر ڈیفائنڈ",
-            "B": "بلٹ ان",
-            "C": "تکرار پر مبنی",
-            "D": "تکراری"
+            "A": "نسبت",
+            "B": "تناسب",
+            "C": "برابری",
+            "D": "متماثل"
         },
         "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 11927,
-        "question": "پاکستان میں حساب گھر ہے :",
-        "options": {
-            "A": "تجارتی بینک",
-            "B": "مرکزی بینک",
-            "C": "بیرونی بینک",
-            "D": "فہرستی بینک"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 13435,
-        "question": "بالواسطہ ٹیکس کا بوجھ برداشت کرتے ہیں۔",
-        "options": {
-            "A": "آجرین",
-            "B": "صارفین",
-            "C": "درآمد کنندہ",
-            "D": "برآمد کنندہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 7800,
-        "question": "یک درجی مساوات کا خط ہوتا ہے:",
-        "options": {
-            "A": "خط مستقیم",
-            "B": "شاخی",
-            "C": "بیضوی",
-            "D": "دائروی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 13984,
-        "question": "کس نے کہا \" حواس خمسہ علم کی بنیاد ہیں\" :",
-        "options": {
-            "A": "امام غزالی رحمۃ اللہ علیہ",
-            "B": "جان ڈیوی",
-            "C": "علامہ اقبال",
-            "D": "ابن خلدون"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 13485,
-        "question": "انگریزوں نے حکومت چھینی",
-        "options": {
-            "A": "بدھوں سے",
-            "B": "ہندوؤں سے",
-            "C": "سکھوں سے",
-            "D": "مسلمانوں سے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 4963,
-        "question": "پاکستان کی دیہی آبادی کا پیشہ ____ ہے۔",
-        "options": {
-            "A": "تجارت",
-            "B": "کاروبار",
-            "C": "کھیتی باڑی",
-            "D": "ملازمت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 3183,
-        "question": "فطری اور ماحول کی تبدیلی کا مجموعہ کہلاتا ہے:",
-        "options": {
-            "A": "نشوونما",
-            "B": "بالیدگی",
-            "C": "تعلم",
-            "D": "تعلیم"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -510,19 +397,42 @@
         "is_iaa": false
     },
     {
-        "id": 9146,
-        "question": "داس ہیلنگ کے مصنف کا نام ہے۔",
+        "id": 20339,
+        "question": "کسی مرتب مواد میں وسطی عددی قیمت کہلاتی ہے:",
         "options": {
-            "A": "فریزر",
-            "B": "اوٹو",
-            "C": "فرائیڈ",
-            "D": "ٹائلر"
+            "A": "وسط",
+            "B": "عادہ",
+            "C": "ضربی اوسط",
+            "D": "وسطانیہ"
         },
-        "domain": "Humanities",
-        "subdomain": "ethics",
+        "domain": "STEM",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 30380,
+        "question": "‏(2x + 1) / ((x + 1)(x - 1)) ایک ۔۔۔ ہے :",
+        "options": {
+            "A": "غیر واجب کسر",
+            "B": "واجب کسر",
+            "C": "مساوات",
+            "D": "مماثلت"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
         "source_url": [
             ""
         ],
@@ -530,25 +440,27 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_255",
         "is_iaa": false
     },
     {
-        "id": 29677,
-        "question": "کسی جسم میں اسکی پوزیشن کی وجہ سے موجود انرجی کہلاتی ہے۔",
+        "id": 29920,
+        "question": "اگر α، β مساوات 3x2 + 5x - 2 = 0 کے روٹس ہوں تو α + β برابر ہے۔",
         "options": {
-            "A": "پوٹینشل انرجی",
-            "B": "کائنیٹک انرجی",
-            "C": "الیکٹریکل انرجی",
-            "D": "حرارتی انرجی"
+            "A": "5/3",
+            "B": "3/5",
+            "C": "-5/3",
+            "D": "-2/3"
         },
         "domain": "STEM",
-        "subdomain": "general science",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
-        "source_url": [],
+        "source_url": [
+            ""
+        ],
         "source": [
             "Ustad 360"
         ],
@@ -558,19 +470,19 @@
         "is_iaa": false
     },
     {
-        "id": 21200,
-        "question": "بو علی سینا نے کتابیں لکھیں :",
+        "id": 28311,
+        "question": "قالبوں کیلئے $(AB)^{-1} = ?$",
         "options": {
-            "A": "ایک سو",
-            "B": "دو سو",
-            "C": "ایک سو سے زائد",
-            "D": "دو سو سے زائد"
+            "A": "$A^{-1}$",
+            "B": "$B^{-1}$",
+            "C": "$B^{-1} A^{-1}$",
+            "D": "$A^{-1} B^{-1}$"
         },
         "domain": "STEM",
-        "subdomain": "general science",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -581,223 +493,16 @@
         "is_iaa": false
     },
     {
-        "id": 172,
-        "question": "نروس سسٹم انرجی استعمال کرتا ہے:",
+        "id": 1357,
+        "question": "کارتیسی حاصل ضرب کا کوئی بھی تحتی سیٹ ____ کہلاتا ہے۔",
         "options": {
-            "A": "فوڈ انرجی",
-            "B": "الیکٹروکیمیکل انرجی",
-            "C": "نیوکلیئر انرجی",
-            "D": "سولر انرجی"
+            "A": "ڈومین",
+            "B": "ثنائی ربط",
+            "C": "مرتب جوڑے",
+            "D": "رینج"
         },
         "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 9347,
-        "question": "لمبے عرصے کی موسمی کیفیت کو کہتے ہیں",
-        "options": {
-            "A": "بادل",
-            "B": "بارش",
-            "C": "موسم",
-            "D": "آب و ہوا"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 9627,
-        "question": "جنگلات کا گھر کسے کہتے ہیں؟",
-        "options": {
-            "A": "میدانی علاقے",
-            "B": "ساحلی علاقے",
-            "C": "پہاڑ",
-            "D": "دریا کی وادیاں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 9472,
-        "question": "وی شکل کی وادی بنتی ہے :",
-        "options": {
-            "A": "ہوا کے عمل کٹاؤ سے",
-            "B": "دریا کے عمل کٹاؤ سے",
-            "C": "گلیشیئر کے عمل کٹاؤ سے",
-            "D": "دریا کے عمل انداخت سے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 15661,
-        "question": "مصنوعی تنفس میں شیفر کے طریقے سے دباؤ ڈالا جاتا ہے۔",
-        "options": {
-            "A": "‏1 سیکنڈ",
-            "B": "‏2 سیکنڈ",
-            "C": "‏3 سیکنڈ",
-            "D": "‏4 سیکنڈ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 791,
-        "question": "انسانی جسم میں کتنی ہڈیاں ہوتی ہیں؟",
-        "options": {
-            "A": "200",
-            "B": "250",
-            "C": "236",
-            "D": "286"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 15436,
-        "question": "شنکرز کا انکیوبیشن پیریڈ ہوتا ہے:",
-        "options": {
-            "A": "‏3-5 دن",
-            "B": "‏2-4 دن",
-            "C": "‏2-6 دن",
-            "D": "‏3-6 دن"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 5538,
-        "question": "شیر خوار بچوں کیلئے کون سے رنگ مناسب ہیں :",
-        "options": {
-            "A": "شوخ",
-            "B": "ہلکے",
-            "C": "صوفیانہ",
-            "D": "کالے"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 5532,
-        "question": "ورسٹڈ اور گیبر ڈین کپڑا بنانے میں استعمال ہوتی ہے :",
-        "options": {
-            "A": "لینن",
-            "B": "ریشم",
-            "C": "جارجٹ",
-            "D": "اون"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 2981,
-        "question": "وہ جمع جو مفرد میں کچھ تبدیلی کر کے بنائی جائے ____ کہلاتی ہے۔",
-        "options": {
-            "A": "جمع مکسر",
-            "B": "جمع سالم",
-            "C": "جمع مذکر سالم",
-            "D": "جمع مؤنث سالم"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -811,13 +516,105 @@
         "is_iaa": false
     },
     {
-        "id": 22919,
-        "question": "‏a^2 - 2a + 1 کا جذر المربع ہے ____۔",
+        "id": 28736,
+        "question": "ایسے دو زاویے جن میں مشترک راس اور ایک بازو مشترک ہو کہلاتے ہیں:",
         "options": {
-            "A": "±(a + 1)",
-            "B": "±(a - 1)",
-            "C": "(a - 1)",
-            "D": "(a + 1)"
+            "A": "راسی زاویے",
+            "B": "سپلیمنٹری زاویے",
+            "C": "متصلہ زاویے",
+            "D": "کمپلیمنٹری زاویے"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 881,
+        "question": "اگر A، B اور C تین قالب ہوں اور ان کی ضرب ممکن ہو تو A(BC) =",
+        "options": {
+            "A": "AB",
+            "B": "(AB)C",
+            "C": "(AC)B",
+            "D": "BC"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 22658,
+        "question": "‏≅ کی علامت کس لئے استعمال ہوتی ہے :",
+        "options": {
+            "A": "‏(الف) متماثل",
+            "B": "‏(ب) متشابہ",
+            "C": "‏(ج) نسبت",
+            "D": "‏(د) تناسب"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 21089,
+        "question": "وہ قیمت جو کسی مواد میں سب سے زیادہ مرتبہ آئے کہلاتی ہے",
+        "options": {
+            "A": "ضربی اوسط",
+            "B": "وسطانی",
+            "C": "اوسط",
+            "D": "مادہ"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 22536,
+        "question": "اگر $x$ کی قیمت 10 سے بڑی نہ ہو تو --- :",
+        "options": {
+            "A": "$x \\ge 8$",
+            "B": "$x \\le 10$",
+            "C": "$x < 10$",
+            "D": "$x > 10$"
         },
         "domain": "STEM",
         "subdomain": "mathematics",
@@ -836,8 +633,31 @@
         "is_iaa": false
     },
     {
-        "id": 28480,
-        "question": "قالبوں کے لیے (AB)^t = ؟",
+        "id": 20264,
+        "question": "‏4^5 میں 4 کو کہا جاتا ہے:",
+        "options": {
+            "A": "اساس",
+            "B": "قوت نما",
+            "C": "مجذور",
+            "D": "جذر"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 28346,
+        "question": "قالبوں کے لئے $(AB)^t = ?$ :",
         "options": {
             "A": "A^t",
             "B": "B^t",
@@ -859,13 +679,59 @@
         "is_iaa": false
     },
     {
-        "id": 20644,
-        "question": "‏√√2 کے برابر ہے",
+        "id": 28266,
+        "question": "عاد اعظم معلوم کرنے کے طریقے ہیں:",
         "options": {
-            "A": "22",
+            "A": "1",
             "B": "2",
-            "C": "2^(1/2)",
-            "D": "2^(1/4)"
+            "C": "3",
+            "D": "4"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 30720,
+        "question": "‏(x+3)2 = x2+6x+9 ایک ہے:",
+        "options": {
+            "A": "یکدرجی مساوات",
+            "B": "مساوات",
+            "C": "مماثلت",
+            "D": "مستقل رقم"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 20815,
+        "question": "‏3, 7, 11, ……. کا a6 ____ ہے۔",
+        "options": {
+            "A": "3",
+            "B": "19",
+            "C": "23",
+            "D": "20"
         },
         "domain": "STEM",
         "subdomain": "mathematics",
@@ -882,16 +748,250 @@
         "is_iaa": false
     },
     {
-        "id": 5606,
-        "question": "کھٹمنڈو دارالحکومت ہے:",
+        "id": 20168,
+        "question": "‏5 اور 15 کے درمیان جمعی وسط ہے :",
         "options": {
-            "A": "نیپال",
-            "B": "سری لنکا",
-            "C": "بھوٹان",
-            "D": "مالدیپ"
+            "A": "5",
+            "B": "10",
+            "C": "15",
+            "D": "75"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 20485,
+        "question": "‏an میں n کو کیا کہتے ہیں :",
+        "options": {
+            "A": "جذر",
+            "B": "قوت نما",
+            "C": "مجذور",
+            "D": "اساس"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 1833,
+        "question": "دیا گیا ریلیشن R کس کا سب سیٹ ہو گا؟ ، اگر X={2,4,6} Y={1,3,5} R={(1,2)،(3,4)،(5,6)}",
+        "options": {
+            "A": "X × X",
+            "B": "X × Y",
+            "C": "Y × X",
+            "D": "Y × Y"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 30441,
+        "question": "دو درجی مساوات az2 + bz + c = 0 میں رقموں کی تعداد ہے۔",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 22735,
+        "question": "‏a2 - b2 اور a3 - b3 کا عادِاعظم ہے:",
+        "options": {
+            "A": "a - b",
+            "B": "a + b",
+            "C": "a2 + ab + b2",
+            "D": "a2 - ab + b2"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 28312,
+        "question": "ایسی کثیر الاضلاع جس کے چاروں اضلاع مساوی ہوں۔",
+        "options": {
+            "A": "کثیر الاضلاع",
+            "B": "متوازی الاضلاع",
+            "C": "مربع",
+            "D": "مستطیل"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 30583,
+        "question": "ایک دائرے میں وتر اور رداس کی لمبائیاں برابر ہوں تو وتر سے بننے والا مرکزی زاویہ ۔۔۔ ہوگا :",
+        "options": {
+            "A": "30°",
+            "B": "45°",
+            "C": "60°",
+            "D": "75°"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 22677,
+        "question": "متشابہ مثلثان سائز میں ….. ہوتی ہیں :",
+        "options": {
+            "A": "ایک جیسی",
+            "B": "متوازی",
+            "C": "مختلف",
+            "D": "برابر"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 28261,
+        "question": "$(a + b)^2 + (a - b)^2 = :$",
+        "options": {
+            "A": "-4ab",
+            "B": "$a^2 + b^2$",
+            "C": "4ab",
+            "D": "$2(a^2 + b^2)$"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 28275,
+        "question": "قالبوں A اور B کے لیے برابر ہوتا ہے: 1(A + B)",
+        "options": {
+            "A": "At",
+            "B": "Bt",
+            "C": "At + Bt",
+            "D": "At Bt"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 28376,
+        "question": "(a+b)(a2-ab+b2) = ؟",
+        "options": {
+            "A": "a3-b3",
+            "B": "(a+b)3",
+            "C": "(a-b)3",
+            "D": "a3+b3"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -907,19 +1007,88 @@
         "is_iaa": false
     },
     {
-        "id": 15845,
-        "question": "بین الاقوامی سطح پر کرکٹ کا ذمہ دار ادارہ ہے :",
+        "id": 23679,
+        "question": "اگر $(x - a)$ کثیر رقمی $P(x)$ کا جزو ضربی ہو تو $P(a) = __________$ ہوگا۔",
         "options": {
-            "A": "آئی سی سی",
-            "B": "پی سی بی",
-            "C": "آئی سی بی",
-            "D": "پی ایف ایف"
+            "A": "a",
+            "B": "x",
+            "C": "0",
+            "D": "1"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "STEM",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 30492,
+        "question": "سیٹ $Q = \\{ \\frac{a}{b} | a, b \\in Z \\land b \\neq 0 \\}$ کہلاتا ہے :",
+        "options": {
+            "A": "مکمل اعداد",
+            "B": "قدرتی اعداد",
+            "C": "غیر ناطق اعداد",
+            "D": "ناطق اعداد"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 30410,
+        "question": "مساوات x2 - 15x + 56 = 0 کے دو درجی فیکٹر ہیں:",
+        "options": {
+            "A": "(x - 7); (x + 8)",
+            "B": "(x + 7); (x - 8)",
+            "C": "(x - 7); (x - 8)",
+            "D": "(x + 7); (x + 8)"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_255",
+        "is_iaa": false
+    },
+    {
+        "id": 30170,
+        "question": "مجموعی تعددی کثیر الاضلاع میں تعددات کو ____ کے مد مقابل نقشہ پر ظاہر کیا جاتا ہے",
+        "options": {
+            "A": "درمیانی نقطہ",
+            "B": "بالائی جماعتی حدود",
+            "C": "جماعتی حدود",
+            "D": "زیریں جماعتی حدود"
+        },
+        "domain": "STEM",
+        "subdomain": "mathematics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
         "source_url": [
             ""
         ],
@@ -932,16 +1101,16 @@
         "is_iaa": false
     },
     {
-        "id": 5991,
-        "question": "چڑھتے سورج کی سرزمین کہتے ہیں :",
+        "id": 28617,
+        "question": "کون سا مرتبہ مربعی قالب کا ہے۔",
         "options": {
-            "A": "جاپان",
-            "B": "ترکی",
-            "C": "سری لنکا",
-            "D": "بھارت"
+            "A": "1-by-1 ; 1x1",
+            "B": "1-by-2 ; 1x2",
+            "C": "2-by-1 ; 2x1",
+            "D": "2-by-3 ; 2x3"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "STEM",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -955,62 +1124,16 @@
         "is_iaa": false
     },
     {
-        "id": 15894,
-        "question": "اقوام متحدہ میں انسانی حقوق کا عالمی منشور منظور کیا گیا:",
+        "id": 22471,
+        "question": "کسی متوازی الاضلاع کا رقبہ =",
         "options": {
-            "A": "1946",
-            "B": "1947",
-            "C": "1948",
-            "D": "1949"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 534,
-        "question": "اگر ٹرانسفارمر کے چکروں کی نسبت 10 ہو تو:",
-        "options": {
-            "A": "IS = 10 IP",
-            "B": "NS = NP / 10",
-            "C": "NS = 10 NP",
-            "D": "VS = VP / 10"
+            "A": "لمبائی × چوڑائی",
+            "B": "‏(لمبائی × چوڑائی) / 2",
+            "C": "‏1/2 (قاعدہ × ارتفاع)",
+            "D": "قاعدہ × ارتفاع"
         },
         "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 24139,
-        "question": "گلوبل وارمنگ کس گیس کی وجہ سے ہوتی ہے؟",
-        "options": {
-            "A": "آکسیجن",
-            "B": "کاربن ڈائی آکسائیڈ",
-            "C": "کاربن مونو آکسائیڈ",
-            "D": "کلورین"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -1024,140 +1147,27 @@
         "is_iaa": false
     },
     {
-        "id": 11234,
-        "question": "پیاجے کے مطابق قبل عملی درجہ شروع ہوتا ہے۔",
+        "id": 20491,
+        "question": "چیک کی طرح کا انسٹرومنٹ جسے بینک نے گاہک کی درخواست پر جاری کیا ہو، اسے کہتے ہیں:",
         "options": {
-            "A": "‏0-2 سال سے",
-            "B": "‏7-11 سال سے",
-            "C": "‏12-15 سال سے",
-            "D": "‏2-7 سال سے"
+            "A": "پے آرڈر",
+            "B": "چیک",
+            "C": "بینک ڈرافٹ",
+            "D": "ایکسچینج کابل"
         },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "domain": "STEM",
+        "subdomain": "mathematics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 11057,
-        "question": "مسئلے کے عارضی حل کو کیا کہا جاتا ہے؟",
-        "options": {
-            "A": "تحقیق",
-            "B": "مسئلہ",
-            "C": "متغیر",
-            "D": "مفروضہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 11769,
-        "question": "فطری سائنسز سے متعلقہ ہیں:",
-        "options": {
-            "A": "جاندار",
-            "B": "غیر جاندار",
-            "C": "معاشرتی",
-            "D": "دماغ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 11767,
-        "question": "ناپسندیدہ صورتحال پیدا کرتی ہے:",
-        "options": {
-            "A": "جرائم",
-            "B": "بیگانگی",
-            "C": "مسائل",
-            "D": "احساس"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 11349,
-        "question": "ابتدائی گروہ کا تصور پیش کیا",
-        "options": {
-            "A": "سی۔ ایچ کولے",
-            "B": "میکائیور",
-            "C": "نمکاف",
-            "D": "پارسنز"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_255",
-        "is_iaa": false
-    },
-    {
-        "id": 412,
-        "question": "درست اعراب کی نشاندہی کیجیے۔",
-        "options": {
-            "A": "مَخْبَثُ",
-            "B": "مَخْبُثُ",
-            "C": "مُخْبَتُ",
-            "D": "مَخْبَتُ"
-        },
-        "domain": "Humanities",
-        "subdomain": "urdu literature",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_255",
         "is_iaa": false
     }

@@ -1,533 +1,21 @@
 [
     {
-        "id": 24718,
-        "question": "‏DNA کی ساخت کا ماڈل پیش کیا",
+        "id": 215,
+        "question": "دور بین کا موجد کون تھا؟",
         "options": {
-            "A": "مینڈل",
-            "B": "واٹسن",
-            "C": "کرک",
-            "D": "واٹسن اور کرک"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 24792,
-        "question": "انسانی جسم کی سب سے چھوٹی ہڈی ہے :",
-        "options": {
-            "A": "سٹیپس",
-            "B": "انکس",
-            "C": "میلئس",
-            "D": "ورٹیبرا"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 17336,
-        "question": "فطرت میں بائیو ایلیمنٹس کی تعداد ہے",
-        "options": {
-            "A": "13",
-            "B": "14",
-            "C": "15",
-            "D": "16"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 19117,
-        "question": "حسب ذیل میں سے کس کے نتیجہ میں پروٹون کی دریافت ہوئی؟",
-        "options": {
-            "A": "کیتھوڈ ریز",
-            "B": "کینال ریز",
-            "C": "ایکس ریز",
-            "D": "الفا ریز"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 25989,
-        "question": "نائٹروجن اور ہائیڈروجن ری ایکٹ کر کے امونیا بناتے ہیں۔ ایکوی لبریم مکسچر میں کیا کیا موجود ہوگا : N2 + 3H2 ⇌ 2NH3 ، Kc = 2.86 mol-2 dm6",
-        "options": {
-            "A": "صرف NH3",
-            "B": "‏N2 ، H2 اور NH3",
-            "C": "‏H2 اور N2",
-            "D": "صرف H2"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 18317,
-        "question": "‏K2Cr2O7 میں کرومیم کا آکسیڈیشن نمبر ہے۔",
-        "options": {
-            "A": "+3",
-            "B": "+4",
-            "C": "+6",
-            "D": "+7"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 18891,
-        "question": "کلورین کے ویلنس شیل میں الیکٹرانز کی تعداد ____ ہوتی ہے۔",
-        "options": {
-            "A": "1",
-            "B": "6",
-            "C": "7",
-            "D": "8"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 12629,
-        "question": "قراردادِ مقاصد منظور ہوئی:",
-        "options": {
-            "A": "‏1947ء",
-            "B": "‏1948ء",
-            "C": "‏1949ء",
-            "D": "‏1951ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 12441,
-        "question": "سال میں قومی اسمبلی کے ____ اجلاس منعقد ہونا ضروری ہیں۔",
-        "options": {
-            "A": "01",
-            "B": "02",
-            "C": "03",
-            "D": "04"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 19363,
-        "question": "شہری کے تصورات ہیں:",
-        "options": {
-            "A": "1",
-            "B": "2",
-            "C": "3",
-            "D": "4"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 12993,
-        "question": "پاکستان میں کتنے فیصد افراد زراعت سے منسلک ہیں:",
-        "options": {
-            "A": "‏20 فیصد",
-            "B": "‏30 فیصد",
-            "C": "‏43 فیصد",
-            "D": "‏37 فیصد"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 11956,
-        "question": "ای۔ بنکنگ میں کیا استعمال نہیں ہوتا؟",
-        "options": {
-            "A": "کریڈٹ کارڈ",
-            "B": "ڈیبٹ کارڈ",
-            "C": "چیک",
-            "D": "تمام صحیح ہیں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 27779,
-        "question": "جی ڈبلیو بیسک آپریٹ کر سکتی ہے:",
-        "options": {
-            "A": "ایک موڈ میں",
-            "B": "دو موڈز میں",
-            "C": "تین موڈز میں",
-            "D": "کئی موڈز میں"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 19906,
-        "question": "باڈی ٹیگ ____ کو ایک ویب پیج کی بیک گراؤنڈ پر تصویر لگانے کے لیے استعمال کیا جاتا ہے۔",
-        "options": {
-            "A": "bg",
-            "B": "background",
-            "C": "bgimage",
-            "D": "backimage"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 27399,
-        "question": "‏getch() صارف سے ____ ان پٹ لینے کے لیے استعمال ہوتا ہے۔",
-        "options": {
-            "A": "int",
-            "B": "float",
-            "C": "char",
-            "D": "unsigned int"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 9756,
-        "question": "اثاثہ جات - واجبات، ____ ہیں۔",
-        "options": {
-            "A": "سرمایہ",
-            "B": "منافع",
-            "C": "واجبات",
-            "D": "اثاثہ جات"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 10500,
-        "question": "تھوک فروش مال فروخت کرتا ہے :",
-        "options": {
-            "A": "پرچون فروش کو",
-            "B": "کارخانہ دار کو",
-            "C": "صارف کو",
-            "D": "حکومت کو"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 16845,
-        "question": "زر کی تخمینی طلب کا انحصار ہوتا ہے:",
-        "options": {
-            "A": "سرمایہ کاری",
-            "B": "شرح سود",
-            "C": "آمدنی",
-            "D": "صرفی خرچ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 14001,
-        "question": "اندلس میں اسلامی تعلیم کا آغاز ہوا تھا",
-        "options": {
-            "A": "آٹھویں صدی میں",
-            "B": "نویں صدی میں",
-            "C": "دسویں صدی میں",
-            "D": "گیارہویں صدی میں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 8676,
-        "question": "بچے کے تجربات کی تعمیر نو اور تنظیم نو کا نام ہے",
-        "options": {
-            "A": "تعلیم",
-            "B": "تعلم",
-            "C": "مشق",
-            "D": "توجہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 3219,
-        "question": "ہر بچہ مدرسے کے معاشرتی ماحول سے ____ پیدا کرنے کی کوشش کرتا ہے۔",
-        "options": {
-            "A": "عدم تشنگی",
-            "B": "جذباتییت",
-            "C": "مطابقت",
-            "D": "عدم مطابقت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 4989,
-        "question": "مدرسہ کے اندرونی ماحول میں شامل ہے۔",
-        "options": {
-            "A": "سکول کی عمارت",
-            "B": "معاشرہ",
-            "C": "والدین",
-            "D": "ضلعی تعلیمی افسر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 3622,
-        "question": "‏____ فرائض عبادت گاہوں میں انجام دیے جاتے ہیں۔",
-        "options": {
-            "A": "اخلاقی",
-            "B": "مذہبی",
-            "C": "روحانی",
-            "D": "بدنی"
+            "A": "ابوالحسن",
+            "B": "فارابی",
+            "C": "بو علی سینا",
+            "D": "ارسطو"
         },
         "domain": "Humanities",
-        "subdomain": "ethics",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
-            "Ustad 360"
+            "BISE Multan 2025"
         ],
         "quality_flags": [],
         "length_tier": "short",
@@ -535,223 +23,16 @@
         "is_iaa": false
     },
     {
-        "id": 21735,
-        "question": "ہوا میں کاربن ڈائی آکسائیڈ کی مقدار جس عمل سے بڑھتی ہے :",
+        "id": 841,
+        "question": "نبی کریم (خاتم النبیین صلی اللہ علیہ وسلم) کے مطابق کون سی مجلس، ذکر کی مجلس سے بہتر ہے؟",
         "options": {
-            "A": "ضیائی تالیف",
-            "B": "ڈائجیشن",
-            "C": "جلنے سے",
-            "D": "ویپر بننے سے"
+            "A": "طاقت کی مجلس",
+            "B": "علم کی مجلس",
+            "C": "دولت مندوں کی مجلس",
+            "D": "حکمرانوں کی مجلس"
         },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 21600,
-        "question": "وہ تمام فاسد اور فالتو مادے جو ماحول کی آلودگی کا سبب بنتے ہیں، کہلاتے ہیں۔",
-        "options": {
-            "A": "سبسٹریٹ",
-            "B": "سموگ",
-            "C": "پولیوٹینٹس",
-            "D": "ڈیٹرجنٹس"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 22069,
-        "question": "کاربن کی نان ایلو ٹروپک شکل ہے۔",
-        "options": {
-            "A": "ہیرا",
-            "B": "گریفائٹ",
-            "C": "بکی بالز",
-            "D": "کوک"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 14884,
-        "question": "آبادی کے اعتبار سے ____ جنوبی امریکہ کا سب سے بڑا ملک ہے۔",
-        "options": {
-            "A": "برازیل",
-            "B": "پیرو",
-            "C": "ارجنٹائن",
-            "D": "چلی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 9464,
-        "question": "افغانستان مثال ہے :",
-        "options": {
-            "A": "ساحلی علاقے کی",
-            "B": "اندرونی ملک کی",
-            "C": "جزیرے کی",
-            "D": "صحرا کی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 14698,
-        "question": "جاپان کا دارالحکومت ہے۔",
-        "options": {
-            "A": "نیو یارک",
-            "B": "شنگھائی",
-            "C": "لندن",
-            "D": "ٹوکیو"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 15623,
-        "question": "برائے طالبات — ٹیبل ٹینس میز کی چوڑائی ہوتی ہے:",
-        "options": {
-            "A": "1.55 m",
-            "B": "1.52 m",
-            "C": "1.60 m",
-            "D": "1.63 m"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 15696,
-        "question": "‏400 میٹر دوڑ میں فالس سٹارٹ کا قانون کس سال تبدیل ہوا۔",
-        "options": {
-            "A": "2012",
-            "B": "2010",
-            "C": "2009",
-            "D": "2008"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 15285,
-        "question": "‏400 میٹر دوڑ کو اولمپک کھیلوں میں شامل کیا گیا تھا :",
-        "options": {
-            "A": "‏1912ء",
-            "B": "‏1916ء",
-            "C": "‏1908ء",
-            "D": "‏1920ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 2927,
-        "question": "تجویز کردہ غذائی مقدار (RDA) ہر ____ کا مختلف ہوتا ہے۔",
-        "options": {
-            "A": "عمر اور جنس",
-            "B": "عمر اور موسم",
-            "C": "خوراک اور موسم",
-            "D": "جنس اور موسم"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -765,22 +46,160 @@
         "is_iaa": false
     },
     {
-        "id": 3879,
-        "question": "غذا کی غذائیت اور ورائٹی میں اضافہ کیا جا سکتا ہے۔",
+        "id": 2980,
+        "question": "‏\"تسمیہ\" سے کیا مراد ہے؟",
         "options": {
-            "A": "ادل بدل کر",
-            "B": "مختلف طریقوں سے",
-            "C": "ٹھنڈا اور گرم کرنے سے",
-            "D": "تمام درست ہیں"
+            "A": "بسم اللہ پڑھنا",
+            "B": "اعوذ باللہ پڑھنا",
+            "C": "سبحان اللہ پڑھنا",
+            "D": "لا الہ الا اللہ پڑھنا"
         },
-        "domain": "Profession",
-        "subdomain": "home economics",
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
         "source_url": [],
         "source": [
-            "Ustad 360"
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2831,
+        "question": "لفظ 'ڈکٹیٹر' کس زبان سے ماخوذ ہے؟",
+        "options": {
+            "A": "یونانی",
+            "B": "انگریزی",
+            "C": "لاطینی",
+            "D": "اردو"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 1198,
+        "question": "حدیث کے مطابق تم میں سے بہترین وہ ہے جو ____ سیکھے اور سکھائے۔",
+        "options": {
+            "A": "تورات",
+            "B": "زبور",
+            "C": "انجیل",
+            "D": "قرآنِ مجید"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 1186,
+        "question": "حضرت محمد (خاتم النبیین)صلی اللہ علیہ وسلم کی رضاعی بہن کا نام کیا تھا؟",
+        "options": {
+            "A": "حضرت شیماءؓ",
+            "B": "حضرت حلیمہ سعدیہؓ",
+            "C": "حضرت ثویبہؓ",
+            "D": "حضرت ام ایمنؓ"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2606,
+        "question": "کس شخصیت نے عربی کو سرکاری زبان قرار دیا؟",
+        "options": {
+            "A": "معاویہ ثانیؓ",
+            "B": "مروان بن حکم",
+            "C": "عبداللہ بن زبیرؓ",
+            "D": "عبدالملک بن مروان"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 1546,
+        "question": "انسان کے لیے عظمت کی بنیاد ____ ہے۔",
+        "options": {
+            "A": "دولت",
+            "B": "علم",
+            "C": "عزت",
+            "D": "خاندان"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2107,
+        "question": "اسلام کے پہلے شہید حارث بن ابی ہالہ کا حضرت خدیجہؓ سے کیا تعلق تھا؟",
+        "options": {
+            "A": "بھائی",
+            "B": "چچا",
+            "C": "بیٹا",
+            "D": "باپ"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "long",
@@ -811,22 +230,22 @@
         "is_iaa": false
     },
     {
-        "id": 20550,
-        "question": "اگر U={1,2,3,4} اور A={4} تو 'A = ؟",
+        "id": 308,
+        "question": "قیامت کے دن محشر کے مراحل ہیں۔",
         "options": {
-            "A": "{1,2}",
-            "B": "{1,2,3}",
-            "C": "{1,3}",
-            "D": "{2,3}"
+            "A": "دو",
+            "B": "تین",
+            "C": "چار",
+            "D": "پانچ"
         },
-        "domain": "STEM",
-        "subdomain": "mathematics",
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
-            "Ustad 360"
+            "BISE Multan 2025"
         ],
         "quality_flags": [],
         "length_tier": "short",
@@ -834,24 +253,22 @@
         "is_iaa": false
     },
     {
-        "id": 27974,
-        "question": "ایک مستوی میں ہر مرتب جوڑے سے منسلک ہوتا ہے",
+        "id": 752,
+        "question": "سفر طائف میں حضور صلی اللہ علیہ وسلم (خاتم النبیین) کے ساتھ کون تھا؟",
         "options": {
-            "A": "ایک منفرد نقطہ",
-            "B": "صفر",
-            "C": "دو نقاط",
-            "D": "چار نقاط"
+            "A": "حضرت علیؓ",
+            "B": "حضرت بلالؓ",
+            "C": "حضرت زید بن حارثہؓ",
+            "D": "حضرت ابو بکرؓ"
         },
-        "domain": "STEM",
-        "subdomain": "mathematics",
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
+        "level": "SSC-I",
+        "source_url": [],
         "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "long",
@@ -859,39 +276,41 @@
         "is_iaa": false
     },
     {
-        "id": 23366,
-        "question": "جملوں 5x^2y^2 اور 20x^3y^3 کا عادِ اعظم ۔۔۔۔۔۔۔۔۔۔۔ ہے",
+        "id": 267,
+        "question": "رسول اکرم خاتم النبیین صلی اللہ علیہ وآلہ واصحابہ وسلم نے ____ ہجری میں حج ادا فرمایا۔",
         "options": {
-            "A": "5x^2y^2",
-            "B": "20x^3y^3",
-            "C": "100x^5y^5",
-            "D": "5xy"
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "12"
         },
-        "domain": "STEM",
-        "subdomain": "mathematics",
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
+        "level": "SSC-II",
+        "source_url": [
+            ""
+        ],
         "source": [
-            "Ustad 360"
+            "BISE Multan 2025"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_249",
         "is_iaa": false
     },
     {
-        "id": 1675,
-        "question": "پاکستان کا عرض بلد کیا ہے؟",
+        "id": 1202,
+        "question": "‏’زکوٰۃ‘ کے لفظی معنی کیا ہیں؟",
         "options": {
-            "A": "24°S – 37°S",
-            "B": "24°N – 37°N",
-            "C": "61°E – 77°E",
-            "D": "61°N – 77°N"
+            "A": "پاک ہونا",
+            "B": "محبت کرنا",
+            "C": "پڑھانا",
+            "D": "خرچ کرنا"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -905,45 +324,91 @@
         "is_iaa": false
     },
     {
-        "id": 16064,
-        "question": "اقتصادی تعاون کی تنظیم کی بنیاد رکھی گئی۔",
+        "id": 2096,
+        "question": "ظہور اسلام کے وقت بنو ہاشم کی ذمہ داری کیا تھی؟",
         "options": {
-            "A": "‏1970ء",
-            "B": "‏1975ء",
-            "C": "‏1980ء",
-            "D": "‏1985ء"
+            "A": "سقایہ",
+            "B": "رفادہ",
+            "C": "سفارت",
+            "D": "حجابہ"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2981,
+        "question": "وہ جمع جو مفرد میں کچھ تبدیلی کر کے بنائی جائے ____ کہلاتی ہے۔",
+        "options": {
+            "A": "جمع مکسر",
+            "B": "جمع سالم",
+            "C": "جمع مذکر سالم",
+            "D": "جمع مؤنث سالم"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 11583,
+        "question": "حضرت حلیمہؓ کے ہاں حضور نبی کریمصلی اللہ علیہ وسلم کا قیام رہا۔",
+        "options": {
+            "A": "دوسال",
+            "B": "تین سال",
+            "C": "چار سال",
+            "D": "پانچ سال"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_249",
         "is_iaa": false
     },
     {
-        "id": 5853,
-        "question": "دنیا کی کم عمر ترین نوبل انعام یافتہ طالبہ ہیں :",
+        "id": 2396,
+        "question": "روزہ دار کے لیے دو خوشیاں ہیں ایک افطار کے وقت اور دوسری:",
         "options": {
-            "A": "ارفع کریم",
-            "B": "شہناز لغاری",
-            "C": "ملالہ یوسف زئی",
-            "D": "مریم مختیار"
+            "A": "سحری کے وقت",
+            "B": "اپنے رب سے ملاقات کے وقت",
+            "C": "رات کے وقت",
+            "D": "نماز کی ادائیگی کے وقت"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
         "source_url": [],
         "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "long",
@@ -951,202 +416,731 @@
         "is_iaa": false
     },
     {
-        "id": 12912,
-        "question": "‏1973 کے آئین کے مطابق صدر پاکستان کے لیے عمر کی حد کیا ہے؟",
+        "id": 2378,
+        "question": "قرآن مجید میں کس چیز کو مردہ بھائی کا گوشت کھانے سے تشبیہ دی گئی ہے؟",
         "options": {
-            "A": "35",
-            "B": "40",
-            "C": "45",
-            "D": "50"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 24479,
-        "question": "کسی فورس کے عمودی کمپونینٹس کی تعداد ہے ۔",
-        "options": {
-            "A": "4",
-            "B": "3",
-            "C": "2",
-            "D": "1"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 23892,
-        "question": "پانی کا بیرومیٹر بنانے کے لیے شیشے کی ٹیوب کی لمبائی اندازاً کتنی ہونی چاہیے؟",
-        "options": {
-            "A": "0.5 m",
-            "B": "11 m",
-            "C": "2.5 m",
-            "D": "1 m"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 11271,
-        "question": "یہ حرکی افعال سے متعلق ہے :",
-        "options": {
-            "A": "جداری فص",
-            "B": "صدغی فص",
-            "C": "جبہی فص",
-            "D": "عقبی فص"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 11105,
-        "question": "پہلی تجرباتی نفسیاتی لیبارٹری کس نے قائم کی :",
-        "options": {
-            "A": "ولیم ہنٹ",
-            "B": "ولیم جیمز",
-            "C": "ولیم ونٹ",
-            "D": "ولیم پیٹر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 16716,
-        "question": "۔۔۔۔۔۔۔ گروہی سالمیت پیدا کرتی ہے۔",
-        "options": {
-            "A": "مسجد",
-            "B": "دوکان",
-            "C": "عدالت",
-            "D": "عالمگیریت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 16669,
-        "question": "مادی ثقافت میں شامل ہیں۔",
-        "options": {
-            "A": "عمارتیں",
-            "B": "اقدار",
-            "C": "عقائد",
-            "D": "جذبات"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 16994,
-        "question": "آبادی میں بے پناہ اضافہ وجہ بنتا ہے۔",
-        "options": {
-            "A": "سماجی مسائل",
-            "B": "سماجی ترقی",
-            "C": "سماجی آگاہی",
-            "D": "سماجی استحکام"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_249",
-        "is_iaa": false
-    },
-    {
-        "id": 1620,
-        "question": "سفید اس کا سیاہ اس کا، نفس نفس ہے گواہ اس کا / جو شعلہ جاں جلا رہا ہے، وہی خدا ہے — اس شعر میں کون سی صنعت استعمال ہوئی ہے؟",
-        "options": {
-            "A": "صنعت تلمیح",
-            "B": "صنعت لف ونشر",
-            "C": "صنعت تکرار",
-            "D": "صنعت حسن تعلیل"
+            "A": "غیبت",
+            "B": "جھوٹ کو",
+            "C": "سود کو",
+            "D": "تکبر کو"
         },
         "domain": "Humanities",
-        "subdomain": "urdu literature",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2600,
+        "question": "ہر انسان پر کتنی اقسام کے فرائض اور ذمہ داریاں عائد ہوتے ہیں؟",
+        "options": {
+            "A": "ایک",
+            "B": "دو",
+            "C": "تین",
+            "D": "چار"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2989,
+        "question": "بنو ہاشم کا بائیکاٹ ____ تک رہا۔",
+        "options": {
+            "A": "‏2 سال",
+            "B": "‏3 سال",
+            "C": "‏4 سال",
+            "D": "‏5 سال"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 3004,
+        "question": "پہلی مسجد کہاں تعمیر کی گئی؟",
+        "options": {
+            "A": "مدینہ",
+            "B": "قباء",
+            "C": "مکہ",
+            "D": "تبوک"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 3038,
+        "question": "خاتم النبیین رسول اکرم صلی اللہ علیہ وسلم نے کس علم میں اضافہ کی دعا فرمائی ؟",
+        "options": {
+            "A": "دنیاوی علم",
+            "B": "دینی علم",
+            "C": "نافع علم",
+            "D": "غیر نافع علم"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 303,
+        "question": "نا جائز روزی کمانے کا کون سا ذریعہ ظلم اور فساد کی جڑ ہے؟",
+        "options": {
+            "A": "گداگری",
+            "B": "رشوت ستانی",
+            "C": "سود",
+            "D": "جوا"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 209,
+        "question": "خلیفہ معتصم باللہ نے کب وفات پائی؟",
+        "options": {
+            "A": "‏740ء میں",
+            "B": "‏780ء میں",
+            "C": "‏842ء میں",
+            "D": "‏730ء میں"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 3032,
+        "question": "غیر رسمی تعلیم کا سب سے بڑا مرکز ہے۔",
+        "options": {
+            "A": "سکول",
+            "B": "گھر",
+            "C": "مسجد",
+            "D": "معاشرہ"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 291,
+        "question": "کھلی بے حیائی ہے۔",
+        "options": {
+            "A": "غیبت",
+            "B": "جھوٹ",
+            "C": "زنا",
+            "D": "چوری"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 11607,
+        "question": "غزوہ موتہ کے آخری سپہ سالار تھے۔",
+        "options": {
+            "A": "حضرت زید بن حارثؓ",
+            "B": "حضرت جعفرؓ",
+            "C": "حضرت خالد بن ولیدؓ",
+            "D": "حضرت عبداللہ بن رواحہؓ"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 11598,
+        "question": "دنیا کی بہترین متاع ہے۔",
+        "options": {
+            "A": "نیک بیوی",
+            "B": "سونا",
+            "C": "نیک اعمال",
+            "D": "مال وزر"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 1409,
+        "question": "اسلام میں پہلی مسجد کہاں تعمیر کی گئی؟",
+        "options": {
+            "A": "مکہ",
+            "B": "مدینہ",
+            "C": "طائف",
+            "D": "قبا"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2593,
+        "question": "‏\"لَا یَغْتَبْ\" کے معنی کیا ہیں؟",
+        "options": {
+            "A": "محروم نہ کرو",
+            "B": "ظلم نہ کرو",
+            "C": "غیبت نہ کرو",
+            "D": "الزام نہ لگاؤ"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2379,
+        "question": "‏2018 میں دہشت گردی کے خلاف فتویٰ میں کس چیز کو حرام قرار دیا گیا؟",
+        "options": {
+            "A": "حق کے لیے جدوجہد",
+            "B": "لمبی مسافت کے سفر",
+            "C": "جنگی مطالعہ میں تحقیق",
+            "D": "ریاست کے خلاف جنگ"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 14,
+        "question": "اَلْإِنْجِلِیْزُ الَّذِیْنَ کَانُوْا قَدْ دَخَلُوْا شِبْہَ الْقَارَّةِ ____",
+        "options": {
+            "A": "تُجَّارًا",
+            "B": "اِسْتِعْمَارًا",
+            "C": "قِرَارًا",
+            "D": "کُفَّارًا"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 307,
+        "question": "‏\"إِنفَطَرَتْ\" کے معنی ہیں۔",
+        "options": {
+            "A": "پھٹی",
+            "B": "جلی",
+            "C": "اڑی",
+            "D": "بدلی"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2088,
+        "question": "حضرت ابراہیم علیہ السلام کا زمانہ نبوت اندازاً ____ قبل مسیح ہے۔",
+        "options": {
+            "A": "پانچ ہزار سال",
+            "B": "چار ہزار سال",
+            "C": "تین ہزار سال",
+            "D": "دو ہزار سال"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 276,
+        "question": "خاتم النبیین صلی اللہ علیہ وآلہ واصحابہ وسلم لوگوں کی اصلاح فرماتے تھے۔",
+        "options": {
+            "A": "سختی سے",
+            "B": "دوسروں کے سامنے کھڑا کر کے",
+            "C": "نام نہ لے کر",
+            "D": "نام لے کر"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 1445,
+        "question": "علم کے معنی ____ ہیں۔",
+        "options": {
+            "A": "سوچنا",
+            "B": "جاننا اور آگاہ ہونا",
+            "C": "لکھنا",
+            "D": "پڑھنا"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2588,
+        "question": "مرکب کی کتنی اقسام ہیں؟",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 1869,
+        "question": "‏____ جنت کی کنجی ہے۔",
+        "options": {
+            "A": "روزہ",
+            "B": "حج",
+            "C": "نماز",
+            "D": "زکوٰۃ"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 842,
+        "question": "سورۃ الانفال کے مطابق ایک ہزار مسلمان کتنے کفار پر غالب ہیں؟ (الأنفال 66)",
+        "options": {
+            "A": "دو ہزار",
+            "B": "تین ہزار",
+            "C": "دو سو",
+            "D": "بیس"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 1522,
+        "question": "ایران میں کتنے رسم الخط ایجاد ہوئے؟",
+        "options": {
+            "A": "ایک",
+            "B": "دو",
+            "C": "تین",
+            "D": "چار"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 256,
+        "question": "صبر کو اللہ تعالیٰ نے بڑے حوصلے والے ____ کی سنت قرار دیا ہے۔",
+        "options": {
+            "A": "ولیوں",
+            "B": "رسولوں",
+            "C": "بزرگوں",
+            "D": "نیک بندوں"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 550,
+        "question": "نبی کریم صلی اللہ علیہ وسلم (خاتم النبیین) نے کس مومن کو بہتر قرار دیا ہے؟",
+        "options": {
+            "A": "مالدار",
+            "B": "غریب",
+            "C": "کمزور",
+            "D": "طاقتور"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 255,
+        "question": "عمرہ و حج کے لیے احرام باندھنے سے پہلے نہانا ____ ہے۔",
+        "options": {
+            "A": "مستحب",
+            "B": "واجب",
+            "C": "سنت",
+            "D": "فرض"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 11584,
+        "question": "پہلی وحی ہے۔",
+        "options": {
+            "A": "سورۃ علق",
+            "B": "سورۃ مدثر",
+            "C": "سورۃ فاتحہ",
+            "D": "سورۃ اخلاص"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [
+            "short_question"
+        ],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2382,
+        "question": "حدیث کے مطابق کن پر اللہ تعالیٰ کی لعنت ہے؟",
+        "options": {
+            "A": "رشوت لینے اور دینے والا",
+            "B": "چور اور ڈاکو",
+            "C": "غریب اور احمق",
+            "D": "طاقتور اور امیر"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 1417,
+        "question": "حضرت عثمانؓ کس خلیفہ راشد نے دو بار ہجرت کی؟",
+        "options": {
+            "A": "حضرت عثمانؓ",
+            "B": "حضرت علیؓ",
+            "C": "حضرت عمرؓ",
+            "D": "حضرت ابوبکرؓ"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 2615,
+        "question": "کتاب \"صورت الارض\" کس نے لکھی؟",
+        "options": {
+            "A": "الف: ابن سینا",
+            "B": "ب: الفرابی",
+            "C": "ج: الفزاری",
+            "D": "د: الخوارزمی"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 732,
+        "question": "حضرت ابراہیم (علیہ السلام) کے بیٹے کا نام ____ تھا۔",
+        "options": {
+            "A": "حضرت یوسف (علیہ السلام)",
+            "B": "حضرت یونس (علیہ السلام)",
+            "C": "حضرت اسماعیل (علیہ السلام)",
+            "D": "حضرت یعقوب (علیہ السلام)"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_249",
+        "is_iaa": false
+    },
+    {
+        "id": 1187,
+        "question": "اللہ تعالیٰ کا شکر ادا کرنے کے لیے کیا کہنا چاہیے؟",
+        "options": {
+            "A": "اللہ اکبر",
+            "B": "سبحان اللہ",
+            "C": "لا الہ الا اللہ",
+            "D": "الحمد للہ"
+        },
+        "domain": "Humanities",
+        "subdomain": "islamic studies",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",

@@ -1,12 +1,104 @@
 [
     {
-        "id": 927,
-        "question": "فائن آرٹ کو اردو میں کیا کہتے ہیں؟",
+        "id": 1618,
+        "question": "کھلی فضا میں نظر کے احاطے میں آئے ہوئے حصے کو کیا کہتے ہیں؟",
         "options": {
-            "A": "فنون لطیفہ",
-            "B": "مصوری",
-            "C": "موسیقی",
-            "D": "تصویر کشی"
+            "A": "ماڈل ڈرائنگ",
+            "B": "کمپوزیشن",
+            "C": "قدرتی منظر",
+            "D": "تصویر"
+        },
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_002",
+        "is_iaa": false
+    },
+    {
+        "id": 2404,
+        "question": "مکلی قبرستان کس شہر کے قریب واقع ہے؟",
+        "options": {
+            "A": "جامشورو",
+            "B": "لاڑکانہ",
+            "C": "ٹھٹھہ",
+            "D": "ساہیوال"
+        },
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_002",
+        "is_iaa": false
+    },
+    {
+        "id": 2203,
+        "question": "سرخ اور نیلا رنگ ملانے سے ____ رنگ بنتا ہے۔",
+        "options": {
+            "A": "پیلا",
+            "B": "گلابی",
+            "C": "جامنی",
+            "D": "کالا"
+        },
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_002",
+        "is_iaa": false
+    },
+    {
+        "id": 6,
+        "question": "شیڈ کے لیے کون سی پنسل استعمال ہوتی ہے؟",
+        "options": {
+            "A": "HB",
+            "B": "HH",
+            "C": "2B",
+            "D": "H"
+        },
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_002",
+        "is_iaa": false
+    },
+    {
+        "id": 2808,
+        "question": "اجرک ____ کلچر اور ثقافت کی علامت ہے۔",
+        "options": {
+            "A": "سندھی",
+            "B": "پنجابی",
+            "C": "بلوچی",
+            "D": "پختون"
         },
         "domain": "Humanities",
         "subdomain": "art and drawing",
@@ -23,800 +115,87 @@
         "is_iaa": false
     },
     {
-        "id": 17595,
-        "question": "ان میں سے کونسا بائیو ایلیمنٹ ہے؟",
+        "id": 659,
+        "question": "پانی کا بڑا تالاب ____ کا ایک اہم تعمیراتی نمونہ مانا جاتا ہے۔",
         "options": {
-            "A": "ایلومینیم",
-            "B": "کوبالٹ",
-            "C": "برومین",
-            "D": "کاربن"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 25340,
-        "question": "اس طرح کے سمبی اوسس میں دونوں فریق فائدہ اٹھاتے ہیں اور کسی کو بھی نقصان نہیں پہنچتا",
-        "options": {
-            "A": "پیراسائٹ ازم",
-            "B": "میوچلزم",
-            "C": "کومن میلزم",
-            "D": "دونوں B اور C"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 17276,
-        "question": "بچوں میں وٹامن۔ ڈی کی کمی سے کون سی بیماری پیدا ہوتی ہے ؟",
-        "options": {
-            "A": "سکروی",
-            "B": "اوسٹیو ملائیشیا",
-            "C": "رکٹس",
-            "D": "اینیمیا"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 26186,
-        "question": "میوسفیر کی زمین سے اونچائی ____ کلومیٹر ہے۔",
-        "options": {
-            "A": "0 - 12",
-            "B": "12 - 50",
-            "C": "50 - 85",
-            "D": "85 - 120"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 26230,
-        "question": "سرخ رنگ کے بال کمپاؤنڈ کی وجہ سے ہیں :",
-        "options": {
-            "A": "آئرن",
-            "B": "کاپر",
-            "C": "ٹیٹینیئم",
-            "D": "مولیبڈینیم"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 26988,
-        "question": "مولر کنسسٹریشن کو ظاہر کیا جاتا ہے",
-        "options": {
-            "A": "[ ]",
-            "B": "( )",
-            "C": "{ }",
-            "D": "O"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 27289,
-        "question": "صدر پرویز مشرف نے اقتدار سنبھالا۔",
-        "options": {
-            "A": "1999",
-            "B": "2000",
-            "C": "2001",
-            "D": "2002"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 7303,
-        "question": "طاقت کی بنیاد پر قائم ہونے والی آمریت کو کہتے ہیں۔",
-        "options": {
-            "A": "فوجی آمریت",
-            "B": "فسطائی آمریت",
-            "C": "قومی آمریت",
-            "D": "اقتصادی آمریت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 19561,
-        "question": "ریاست میں فرد کے کردار کو پرکھنے کا علم ہے۔",
-        "options": {
-            "A": "سیاسیات",
-            "B": "معاشیات",
-            "C": "شہریت",
-            "D": "شماریات"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 12736,
-        "question": "سینٹ کے ممبران کی تعداد کتنی ہے؟",
-        "options": {
-            "A": "40",
-            "B": "87",
-            "C": "100",
-            "D": "104"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 14586,
-        "question": "کوئلہ ____ انرجی کا ذریعہ ہے۔",
-        "options": {
-            "A": "مختتم",
-            "B": "قابل تجدید",
-            "C": "غیر مختتم",
-            "D": "ناقابل تجدید"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 10015,
-        "question": "پاس بک تیار کرتا ہے",
-        "options": {
-            "A": "مقروض",
-            "B": "قرض خواہ",
-            "C": "بینکار",
-            "D": "گاہک"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 19824,
-        "question": "درج ذیل میں تمام ٹیسٹ ڈیٹا کی اقسام ہیں سوائے:",
-        "options": {
-            "A": "درست ٹیسٹ ڈیٹا",
-            "B": "نادرست ٹیسٹ ڈیٹا",
-            "C": "عدم دستیاب ڈیٹا",
-            "D": "مثبت ٹیسٹ ڈیٹا"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 19679,
-        "question": "‏HTML میں کونسا ٹیگ بولڈ کیلئے استعمال ہوتا ہے۔",
-        "options": {
-            "A": "<b>",
-            "B": "<i>",
-            "C": "<c>",
-            "D": "<v>"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 27574,
-        "question": "مندرجہ ذیل میں سے کون سا کریکٹر C لینگوئج میں درست ہے ؟",
-        "options": {
-            "A": "\"here\"",
-            "B": "\"a\"",
-            "C": "'9'",
-            "D": "' 9 '"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 7361,
-        "question": "مختتم زمین وہ ہوتی ہے جو:",
-        "options": {
-            "A": "بہت زرخیز ہوتی ہے",
-            "B": "لگان دیتی ہے",
-            "C": "بے لگان ہوتی ہے",
-            "D": "دیہی علاقوں میں ہوتی ہے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 10499,
-        "question": "کمپنی کا انتظام چلانے والے کہلاتے ہیں :",
-        "options": {
-            "A": "حصہ دار",
-            "B": "تمسک دار",
-            "C": "پروموٹرز",
-            "D": "نظملاء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 7620,
-        "question": "آدم سمتھ کے مطابق معاشیات علم ہے:",
-        "options": {
-            "A": "اخلاقیات کا",
-            "B": "وقت کا",
-            "C": "قدر کا",
-            "D": "دولت کا"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 8507,
-        "question": "دائمی مقاصد کا تعلق ہوتا ہے:",
-        "options": {
-            "A": "قومی نظریات",
-            "B": "قومی دولت",
-            "C": "قومی مذہب",
-            "D": "قومی ترانہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 13856,
-        "question": "‏1847ء میں ایک انجینئرنگ کالج۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔ میں قائم کیا گیا۔",
-        "options": {
-            "A": "روڑکی",
-            "B": "ہیگلی",
-            "C": "کلکتہ",
-            "D": "ایمرسن"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 3048,
-        "question": "جذباتی بے چینی کا تعلم پر اثر ہوتا ہے:",
-        "options": {
-            "A": "مثبت",
-            "B": "منفی",
-            "C": "مستقل",
-            "D": "مسلسل"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 14202,
-        "question": "گورنمنٹ کالجز برائے ایلیمنٹری ایجوکیشن شروع میں کہلاتے تھے :",
-        "options": {
-            "A": "فارمل کالجز",
-            "B": "نارمل سکول",
-            "C": "ٹریننگ انسٹی ٹیوٹ",
-            "D": "ٹریننگ کالجز"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 21884,
-        "question": "ایسی ادویات جو ذہن میں بگاڑ پیدا کرتی ہیں۔",
-        "options": {
-            "A": "پین کلرز",
-            "B": "نارکوٹکس",
-            "C": "سیڈیٹوز",
-            "D": "ہیلوسینوجنز"
-        },
-        "domain": "Other",
-        "subdomain": "general knowledge",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 28974,
-        "question": "‏AC وولٹیج کو کم یا زیادہ کر سکتا ہے:",
-        "options": {
-            "A": "ریکٹی فائر",
-            "B": "ایمپلی فائر",
-            "C": "ٹرانسفارمر",
-            "D": "کپیسٹر"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 2960,
-        "question": "براعظمی گلیشیرز ____ میں پائے جاتے ہیں۔",
-        "options": {
-            "A": "قطبی علاقوں",
-            "B": "استوائی علاقوں",
-            "C": "پہاڑی علاقوں",
-            "D": "میدانی علاقوں"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 29416,
-        "question": "چارج سٹور کرنے والا آلہ کہلاتا ہے:",
-        "options": {
-            "A": "ریزسٹر",
-            "B": "کیپسٹر",
-            "C": "سوئچ",
-            "D": "ایمیٹر"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 2957,
-        "question": "خطوط عرض بلد کی کل تعداد ____ ہے۔",
-        "options": {
-            "A": "360",
-            "B": "180",
-            "C": "100",
-            "D": "90"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 14088,
-        "question": "برطانیہ میں ایندھنی توانائی کا کتنے فیصد کوئلہ سے حاصل ہوتا ہے؟",
-        "options": {
-            "A": "25%",
-            "B": "35%",
-            "C": "42%",
-            "D": "50%"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 1379,
-        "question": "رسی کودنے کی کتنی اقسام ہوتی ہیں؟",
-        "options": {
-            "A": "5",
-            "B": "4",
-            "C": "3",
-            "D": "2"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 15049,
-        "question": "۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔ نظام جسم کو خوبصورت بناتا ہے۔",
-        "options": {
-            "A": "انہضام",
-            "B": "دورانِ خون",
-            "C": "عضلات",
-            "D": "اعصاب"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 15621,
-        "question": "‏400 میٹر دوڑ کو اولمپکس میں کب شامل کیا گیا؟",
-        "options": {
-            "A": "‏1920 ء",
-            "B": "‏1916 ء",
-            "C": "‏1908 ء",
-            "D": "‏1912 ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 15709,
-        "question": "نیزہ پھینکنے کے مقابلے میں ایک کھلاڑی کو زیادہ سے زیادہ کتنی کوششیں دی جاتی ہیں؟",
-        "options": {
-            "A": "3",
-            "B": "5",
-            "C": "6",
-            "D": "9"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 3850,
-        "question": "کھانا پیش کرنے کے کتنے اصول ہیں :",
-        "options": {
-            "A": "2",
-            "B": "3",
-            "C": "4",
-            "D": "5"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 2372,
-        "question": "فرشتوں کو کس چیز سے تخلیق کیا گیا؟",
-        "options": {
-            "A": "مٹی",
-            "B": "آگ",
-            "C": "نور",
-            "D": "ہوا"
+            "A": "وادی سندھ کی تہذیب",
+            "B": "گندھارا تہذیب",
+            "C": "مصری تہذیب",
+            "D": "چین کی تہذیب"
         },
         "domain": "Humanities",
-        "subdomain": "islamic studies",
+        "subdomain": "art and drawing",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "FBISE"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_002",
         "is_iaa": false
     },
     {
-        "id": 1404,
-        "question": "کس پیغمبر کو \"روح اللہ\" کا لقب ملا؟",
+        "id": 665,
+        "question": "استاد خورشید عالم گوہر قلم نے ____ سے زائد طرز میں خطاطی کی۔",
         "options": {
-            "A": "حضرت موسیٰ (علیہ السلام)",
-            "B": "حضرت داؤد (علیہ السلام)",
-            "C": "حضرت نوح (علیہ السلام)",
-            "D": "حضرت عیسیٰ (علیہ السلام)"
+            "A": "400",
+            "B": "500",
+            "C": "300",
+            "D": "200"
         },
         "domain": "Humanities",
-        "subdomain": "islamic studies",
+        "subdomain": "art and drawing",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_002",
+        "is_iaa": false
+    },
+    {
+        "id": 915,
+        "question": "When Akber died؟",
+        "options": {
+            "A": "1670",
+            "B": "1660",
+            "C": "1605",
+            "D": "1680"
+        },
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [
+            "short_question"
+        ],
+        "length_tier": "short",
+        "batch_id": "batch_002",
+        "is_iaa": false
+    },
+    {
+        "id": 923,
+        "question": "موہن جودڑو سندھ کے کس ضلع میں واقع ہے؟",
+        "options": {
+            "A": "ضلع لاڑکانہ",
+            "B": "ضلع ساہیوال",
+            "C": "ضلع گجرات",
+            "D": "ضلع راولپنڈی"
+        },
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -830,141 +209,22 @@
         "is_iaa": false
     },
     {
-        "id": 22628,
-        "question": "کسی مثلث میں صرف ……… ہی قائمہ زاویہ ہو سکتا ہے۔",
+        "id": 2207,
+        "question": "پاکستان میں اسلامی فنِ تعمیر کا آغاز ہوا۔",
         "options": {
-            "A": "2",
-            "B": "4",
-            "C": "1",
-            "D": "3"
+            "A": "دسویں صدی عیسوی",
+            "B": "پانچویں صدی عیسوی",
+            "C": "پہلی صدی عیسوی",
+            "D": "ساتویں صدی عیسوی"
         },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 29910,
-        "question": "دائرے کے قطر کے سروں پر کھینچے گئے مماس آپس میں ……. ہوتے ہیں",
-        "options": {
-            "A": "متوازی",
-            "B": "غیر متوازی",
-            "C": "ہم خط",
-            "D": "عمود"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 22591,
-        "question": "اگر ایک مثلث کے تینوں عمود (ارتفاع) متماثل ہوں تو وہ مثلث ۔۔۔ ہوگی۔",
-        "options": {
-            "A": "مساوی الاضلاع",
-            "B": "قائمۃ الزاویہ",
-            "C": "متساوی الساقین",
-            "D": "حادۃ الزاویہ"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 16158,
-        "question": "‏1973ء کا آئین نافذ ہوا :",
-        "options": {
-            "A": "‏11 اگست",
-            "B": "‏12 اگست",
-            "C": "‏13 اگست",
-            "D": "‏14 اگست"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 4303,
-        "question": "سندھ طاس معاہدہ جن کے درمیان ہوا",
-        "options": {
-            "A": "پاکستان اور افغانستان",
-            "B": "ایران اور افغانستان",
-            "C": "چین اور پاکستان",
-            "D": "پاکستان اور بھارت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 6206,
-        "question": "بھارت نے پاکستانی نہروں کا پانی روکا:",
-        "options": {
-            "A": "‏1948ء",
-            "B": "‏1950ء",
-            "C": "‏1952ء",
-            "D": "‏1954ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
         "source_url": [],
         "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "short",
@@ -972,183 +232,68 @@
         "is_iaa": false
     },
     {
-        "id": 4006,
-        "question": "‏1942ء میں برطانوی حکومت کی طرف سے ایک مشن برصغیر آیا جس کی سربراہی کر رہے تھے:",
+        "id": 1,
+        "question": "فنون لطیفہ ____ صدی میں زوال پذیر ہوا۔",
         "options": {
-            "A": "سر پیتھک لارڈنس",
-            "B": "سر اے وی الیگزینڈر",
-            "C": "سر سٹیفورڈ کرپس",
-            "D": "لارڈ ویول"
+            "A": "سولہویں",
+            "B": "سترہویں",
+            "C": "پندر ہویں",
+            "D": "اٹھارہویں"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_002",
+        "is_iaa": false
+    },
+    {
+        "id": 7,
+        "question": "پیلے رنگ کو کہتے ہیں۔",
+        "options": {
+            "A": "بنیادی رنگ",
+            "B": "متضاد رنگ",
+            "C": "ثانوی رنگ",
+            "D": "درمیانی رنگ"
+        },
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_002",
+        "is_iaa": false
+    },
+    {
+        "id": 1901,
+        "question": "اجنتا کی غاریں کس ملک میں دریافت ہوئیں؟",
+        "options": {
+            "A": "پاکستان",
+            "B": "انڈیا",
+            "C": "نیپال",
+            "D": "بھوٹان"
+        },
+        "domain": "Humanities",
+        "subdomain": "art and drawing",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
         "source_url": [],
         "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 24062,
-        "question": "ورک صفر ہو گا، جب فورس اور فاصلہ کے درمیان زاویہ ہو",
-        "options": {
-            "A": "45°",
-            "B": "60°",
-            "C": "90°",
-            "D": "180°"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 23987,
-        "question": "ایک مرکری بیرومیٹر کی ٹیوب کی لمبائی ہوتی ہے:",
-        "options": {
-            "A": "1 m",
-            "B": "1.5 m",
-            "C": "1.4 m",
-            "D": "1.3 m"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 11091,
-        "question": "‏PF - 16 سوالنامہ تیار کیا۔",
-        "options": {
-            "A": "تھیا وے",
-            "B": "کیٹل",
-            "C": "ایڈورڈ",
-            "D": "مرے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 16318,
-        "question": "علاج بذریعہ کتب کس نے متعارف کروایا ؟",
-        "options": {
-            "A": "اشرف علی تھانوی",
-            "B": "اطہر علی رضوی",
-            "C": "امام غزالی",
-            "D": "بوعلی سینا"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 11491,
-        "question": "تبدیلی کے کون سے مدارج ہیں :",
-        "options": {
-            "A": "مزاحمت",
-            "B": "قبولیت",
-            "C": "مطابقت",
-            "D": "یہ تمام"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 11671,
-        "question": "ہم ۔۔۔۔۔۔ گروہ میں قواعد وضوابط کی پابندی کرتے ہیں۔",
-        "options": {
-            "A": "ابتدائی",
-            "B": "ثانوی",
-            "C": "رسمی",
-            "D": "غیر رسمی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_002",
-        "is_iaa": false
-    },
-    {
-        "id": 16586,
-        "question": "دیہی علاقوں میں تصادم کے حل کا ذریعہ ہے",
-        "options": {
-            "A": "عدالتیں",
-            "B": "سینیٹ",
-            "C": "اسمبلی",
-            "D": "پنچایت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "short",

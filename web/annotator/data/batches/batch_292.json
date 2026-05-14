@@ -1,178 +1,84 @@
 [
     {
-        "id": 17499,
-        "question": "مائی ٹوسس کے دوران ایک سیل میں کتنے ڈاٹر سیل بنتے ہیں:",
+        "id": 4197,
+        "question": "پاکستان کے شمال میں واقع ملک ہے۔",
         "options": {
-            "A": "1",
-            "B": "2",
-            "C": "4",
-            "D": "8"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 25259,
-        "question": "حرکت نہ کرنے والے (فکسڈ) جوائنٹس کی مثال ہے۔",
-        "options": {
-            "A": "کھوپڑی کی ہڈیوں کے درمیان جوائنٹس",
-            "B": "ورٹیبری کے درمیان جوائنٹس",
-            "C": "کندھے کا جوائنٹ",
-            "D": "کولہے کا جوائنٹ"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 17345,
-        "question": "یہ خون کو جمانے میں مدد کرتا ہے",
-        "options": {
-            "A": "کیلشیم",
-            "B": "فاسفیٹ",
-            "C": "نائٹروجن",
-            "D": "سوڈیم"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 26063,
-        "question": "جب گلوکوز اور فریکٹوز ملتے ہیں تو بناتے ہیں :",
-        "options": {
-            "A": "سٹارچ",
-            "B": "سیلولوز",
-            "C": "سکروز",
-            "D": "ان میں سے کوئی نہیں"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "catch_all"
-        ],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 26584,
-        "question": "بلیڈنگ کو روکنے کیلئے بطور دوا استعمال کیے جانے والے آرگینک کمپاؤنڈز ہیں:",
-        "options": {
-            "A": "وٹامنز",
-            "B": "لپڈز",
-            "C": "پروٹینز",
-            "D": "فیٹس"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 19051,
-        "question": "درج ذیل میں سے کون سا شیل تین سب شیلز پر مشتمل ہے؟",
-        "options": {
-            "A": "‏O شیل",
-            "B": "‏N شیل",
-            "C": "‏L شیل",
-            "D": "‏M شیل"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 18467,
-        "question": "کوویلنٹ بانڈ بنتا ہے:",
-        "options": {
-            "A": "الیکٹران کا عطیہ",
-            "B": "الیکٹران کا حصول",
-            "C": "الیکٹران شیئرنگ",
-            "D": "الیکٹران کی ری پلشن"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 12565,
-        "question": "پاکستان کی پہلی دستور ساز اسمبلی کے سپیکر کون تھے ؟",
-        "options": {
-            "A": "سر عبدالرشید",
-            "B": "تمیز الدین",
-            "C": "لیاقت علی خان",
-            "D": "خواجہ ناظم الدین"
+            "A": "بھارت",
+            "B": "چین",
+            "C": "سری لنکا",
+            "D": "ترکی"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 16648,
+        "question": "شہری علاقوں کی معاشی سرگرمیاں ہیں :",
+        "options": {
+            "A": "آسان",
+            "B": "شائستہ",
+            "C": "سادہ",
+            "D": "پیچیدہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 2243,
+        "question": "غازی بروتھا ____ توانائی کا منصوبہ ہے؟",
+        "options": {
+            "A": "آبی",
+            "B": "حرارتی",
+            "C": "شمسی",
+            "D": "ہوائی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 16216,
+        "question": "آئین اور قانون کی تشریح کا اختیار ____ کو ہے۔",
+        "options": {
+            "A": "صدر",
+            "B": "وزیر اعظم",
+            "C": "عدالت عظمیٰ",
+            "D": "عدالت عالیہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -186,19 +92,157 @@
         "is_iaa": false
     },
     {
-        "id": 7134,
-        "question": "سنت کا معنی ہے۔",
+        "id": 5928,
+        "question": "اسلامی دنیا کی پہلی خاتون وزیراعظم منتخب ہوئیں:",
         "options": {
-            "A": "ترتیب دینا",
-            "B": "ہدایت",
-            "C": "طریقہ اور قاعدہ",
-            "D": "مراعات"
+            "A": "حسینہ واجد",
+            "B": "فہمیدہ مرزا",
+            "C": "بینظیر بھٹو",
+            "D": "ناہید خاں"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 4215,
+        "question": "قرارداد لاہور پیش کی گئی۔",
+        "options": {
+            "A": "‏23 مارچ 1940",
+            "B": "‏14 اگست 1940",
+            "C": "‏25 دسمبر 1940",
+            "D": "‏11 نومبر 1940"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 4059,
+        "question": "اردو ہندی تنازعہ شروع ہوا۔",
+        "options": {
+            "A": "‏1861ء میں",
+            "B": "‏1863ء میں",
+            "C": "‏1865ء میں",
+            "D": "‏1867ء میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 15791,
+        "question": "‏1956ء کا آئین کب تک ملک میں نافذ رہا؟",
+        "options": {
+            "A": "دو سال سات ماہ",
+            "B": "ایک سال",
+            "C": "تین سال",
+            "D": "چار سال"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 4535,
+        "question": "ویول پلان پیش ہوا۔",
+        "options": {
+            "A": "‏1941 میں",
+            "B": "‏1943 میں",
+            "C": "‏1945 میں",
+            "D": "‏1947 میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 16651,
+        "question": "پنچائت کے فیصلے ہوتے ہیں :",
+        "options": {
+            "A": "سیاسی",
+            "B": "رسمی",
+            "C": "غیر رسمی",
+            "D": "معاشی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 16092,
+        "question": "وادی سندھ کی تہذیب پرانی ہے۔",
+        "options": {
+            "A": "‏2000 سال",
+            "B": "‏3000 سال",
+            "C": "‏4000 سال",
+            "D": "‏5000 سال"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
         "source_url": [
             ""
         ],
@@ -211,42 +255,19 @@
         "is_iaa": false
     },
     {
-        "id": 7183,
-        "question": "جمہوری حکومت بنائی جاتی ہے :",
+        "id": 4428,
+        "question": "ملک کی ترقی کے لیے اس کے کل رقبے کا کتنے فیصد جنگلات پر مشتمل ہونا چاہیے :",
         "options": {
-            "A": "عوام کی رائے سے",
-            "B": "انتظامی رائے سے",
-            "C": "سیاسی رائے سے",
-            "D": "فوجی رائے سے"
+            "A": "15%",
+            "B": "20%",
+            "C": "25%",
+            "D": "30%"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 10416,
-        "question": "ایسی دکانیں جو ایک نام سے مختلف شہروں میں قائم کی جائیں، کہلاتی ہیں :",
-        "options": {
-            "A": "شعبہ واری سٹور",
-            "B": "نیلام گھر",
-            "C": "چین سٹور",
-            "D": "خصوصی سٹور"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -257,16 +278,39 @@
         "is_iaa": false
     },
     {
-        "id": 804,
-        "question": "پاکستان کی معیشت کا انحصار ____ پر ہے۔",
+        "id": 12185,
+        "question": "قومی یکجہتی کم نہیں ہے :",
         "options": {
-            "A": "ماہی گیری",
-            "B": "زراعت",
-            "C": "کان کنی",
-            "D": "صنعت"
+            "A": "بدعت",
+            "B": "شدت",
+            "C": "عذاب",
+            "D": "نعمت"
         },
         "domain": "Social Sciences",
-        "subdomain": "commerce",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 1550,
+        "question": "محمد بن قاسم نے سندھ پر حملہ کب کیا؟",
+        "options": {
+            "A": "713ء",
+            "B": "711ء",
+            "C": "714ء",
+            "D": "712ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -280,19 +324,42 @@
         "is_iaa": false
     },
     {
-        "id": 19894,
-        "question": "ایک لسٹ جو کہ اپنے اندر ایک اور لسٹ رکھ سکتی ہے، کہلاتی ہے:",
+        "id": 16199,
+        "question": "پہلی دستور ساز اسمبلی میں قرارداد مقاصد پیش کی:",
         "options": {
-            "A": "ترتیب وار لسٹ",
-            "B": "بے ترتیب لسٹ",
-            "C": "نیسٹڈ لسٹ",
-            "D": "وضاحتی لسٹ"
+            "A": "لیاقت علی خاں",
+            "B": "جوگندر ناتھ منڈل",
+            "C": "مولوی تمیز الدین",
+            "D": "ہاشم گز در"
         },
-        "domain": "STEM",
-        "subdomain": "computer science",
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 5830,
+        "question": "اسلامی کانفرنس کی تنظیم کا پہلا اجلاس 1969 میں کس شہر میں منعقد ہوا :",
+        "options": {
+            "A": "جدہ",
+            "B": "رباط",
+            "C": "کراچی",
+            "D": "تہران"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -303,41 +370,16 @@
         "is_iaa": false
     },
     {
-        "id": 19744,
-        "question": "ایک کنڈیشن کوئی بھی ____ ایکسپریشن ہو سکتی ہے۔",
+        "id": 5689,
+        "question": "پاکستان نے ایٹمی دھماکے کئے:",
         "options": {
-            "A": "ارتھمیٹک",
-            "B": "ریلیشنل",
-            "C": "لا جیکل",
-            "D": "ارتھمیٹک، ریلیشنل اور لاجیکل"
+            "A": "‏1996ء",
+            "B": "‏1999ء",
+            "C": "‏1997ء",
+            "D": "‏1998ء"
         },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 27367,
-        "question": "ایک کریکٹر میموری کی ____ بائٹس استعمال کرتا ہے",
-        "options": {
-            "A": "1",
-            "B": "2",
-            "C": "3",
-            "D": "4"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -351,19 +393,65 @@
         "is_iaa": false
     },
     {
-        "id": 10156,
-        "question": "کیش بک کا کریڈٹ بیلنس ہوتا ہے:",
+        "id": 4549,
+        "question": "‏1930ء میں مسلمانوں کو الگ ریاست کا تصور دینے والی شخصیت ہے۔",
         "options": {
-            "A": "موافق بیلنس",
-            "B": "غیر موافق بیلنس",
-            "C": "مثبت بیلنس",
-            "D": "منفی بیلنس"
+            "A": "قائدِ اعظم",
+            "B": "علامہ اقبال",
+            "C": "سر سید احمد خان",
+            "D": "لیاقت علی خان"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 2851,
+        "question": "درج شدہ میں سے توانائی کا اہم ترین ذریعہ کون سا ہے؟",
+        "options": {
+            "A": "لوہا",
+            "B": "چٹانی نمک",
+            "C": "کوئلہ",
+            "D": "کرومائٹ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 16055,
+        "question": "ہڑپہ کے کھنڈرات ضلع ____ میں واقع ہیں۔",
+        "options": {
+            "A": "ملتان",
+            "B": "اوکاڑہ",
+            "C": "لاہور",
+            "D": "ساہیوال"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -374,39 +462,16 @@
         "is_iaa": false
     },
     {
-        "id": 10357,
-        "question": "مضاربہ میں سرمایہ فراہم کرتا ہے :",
+        "id": 15902,
+        "question": "ترجمہ \"اور جو اللہ کے نازل کردہ حکم کے مطابق فیصلہ نہ کرے تو وہی لوگ کافر ہیں\" — جس سورۃ میں ہے:",
         "options": {
-            "A": "ملازمین",
-            "B": "مضارب",
-            "C": "حکومت",
-            "D": "رب المال"
+            "A": "سورۃ البقرۃ",
+            "B": "سورۃ الفاتحہ",
+            "C": "سورۃ النساء",
+            "D": "سورۃ المائدہ"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 13258,
-        "question": "معاشی ترقی سے مراد ہے :",
-        "options": {
-            "A": "قومی آمدنی میں اضافہ",
-            "B": "زرعی آمدنی میں اضافہ",
-            "C": "روزگار میں اضافہ",
-            "D": "حقیقی قومی آمدنی میں اضافہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -417,24 +482,24 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_292",
         "is_iaa": false
     },
     {
-        "id": 8938,
-        "question": "رہنمائی میں توجہ کا اصل مرکز ہوتا ہے۔",
+        "id": 5933,
+        "question": "مسجد مہابت خان ____ میں واقع ہے۔",
         "options": {
-            "A": "مسئلہ",
-            "B": "مشیر",
-            "C": "کونسلر",
-            "D": "خود انسان"
+            "A": "لاہور",
+            "B": "کوئٹہ",
+            "C": "پشاور",
+            "D": "کراچی"
         },
         "domain": "Social Sciences",
-        "subdomain": "education",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -445,19 +510,42 @@
         "is_iaa": false
     },
     {
-        "id": 8499,
-        "question": "تعلم کا نظریاتی پہلو ہے۔",
+        "id": 4305,
+        "question": "دنیا بھر میں تازہ پانی کا سب سے بڑا ذریعہ ہے",
         "options": {
-            "A": "نفسیات",
-            "B": "عمرانیات",
-            "C": "فلسفہ",
-            "D": "اخلاقیات"
+            "A": "دریا",
+            "B": "نہریں",
+            "C": "گلیشیئرز",
+            "D": "ٹیوب ویلز"
         },
         "domain": "Social Sciences",
-        "subdomain": "education",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 12380,
+        "question": "لاء کالجوں میں تعلیم دی جاتی ہے :",
+        "options": {
+            "A": "تجارتی تعلیم",
+            "B": "زرعی تعلیم",
+            "C": "قانون کی تعلیم",
+            "D": "جسمانی تعلیم"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -468,16 +556,108 @@
         "is_iaa": false
     },
     {
-        "id": 508,
-        "question": "رہنمائی ایک عمل ہے۔",
+        "id": 15888,
+        "question": "ڈرامائی کھیل کھیلنے سے بچے کی کون سی صلاحیت میں نمایاں اضافہ ہوتا ہے؟",
         "options": {
-            "A": "مسئلہ کا حل",
-            "B": "مسئلہ پیدا کرنا",
-            "C": "سوچ و بچار",
-            "D": "احساس"
+            "A": "جسمانی",
+            "B": "زبان دانی",
+            "C": "قائدانہ",
+            "D": "قوتِ فیصلہ"
         },
         "domain": "Social Sciences",
-        "subdomain": "education",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 12684,
+        "question": "میر جعفر خان جمالی کا تعلق تھا :",
+        "options": {
+            "A": "پنجاب",
+            "B": "بنگال",
+            "C": "بہار",
+            "D": "بلوچستان"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 12918,
+        "question": "پاکستان نے چین کو کب تسلیم کیا؟",
+        "options": {
+            "A": "‏1949ء",
+            "B": "‏1950ء",
+            "C": "‏1970ء",
+            "D": "‏1971ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 12754,
+        "question": "قائد اعظم نے اپنے چودہ نکات کب پیش کیے۔",
+        "options": {
+            "A": "1925",
+            "B": "1927",
+            "C": "1928",
+            "D": "1929"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 2135,
+        "question": "قرارداد مقاصد کب منظور ہوئی؟",
+        "options": {
+            "A": "1946ء",
+            "B": "1949ء",
+            "C": "1950ء",
+            "D": "1960ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -486,7 +666,7 @@
             ""
         ],
         "source": [
-            "BISE Multan 2025",
+            "FBISE",
             "Ustad 360"
         ],
         "quality_flags": [],
@@ -495,410 +675,13 @@
         "is_iaa": false
     },
     {
-        "id": 5065,
-        "question": "‏10 - تعلیم میں تدریسی مواد کی حیثیت ____ کی ہے۔",
+        "id": 5853,
+        "question": "دنیا کی کم عمر ترین نوبل انعام یافتہ طالبہ ہیں :",
         "options": {
-            "A": "سفر",
-            "B": "مسافر",
-            "C": "شاہراہ",
-            "D": "منزل"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 9222,
-        "question": "مدر ٹریسا نے ایک بستی شانتی نگر بسائی",
-        "options": {
-            "A": "یتیموں کیلئے",
-            "B": "اندھوں کیلئے",
-            "C": "جذامیوں کیلئے",
-            "D": "معذوروں کیلئے"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 21585,
-        "question": "جوڑے کی شکل میں پایا جانے والا گلینڈ ہے۔",
-        "options": {
-            "A": "گونیڈ",
-            "B": "تھائی رائیڈ",
-            "C": "ایڈرینل",
-            "D": "پینکر یاز"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 28929,
-        "question": "‏'21' بائنری سسٹم میں ہے :",
-        "options": {
-            "A": "10011",
-            "B": "10101",
-            "C": "11001",
-            "D": "10001"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 21005,
-        "question": "کمپاؤنڈ جن کے ملنے سے فیٹس بنتے ہیں، وہ ہیں:",
-        "options": {
-            "A": "گلوکوز + وٹامنز",
-            "B": "امائنو ایسڈز + پانی",
-            "C": "گلیسرول + فیٹی ایسڈ",
-            "D": "کاربن ڈائی آکسائیڈ + پانی"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 9672,
-        "question": "پاک و ہند کو وسط ایشیا کی سرد ہواؤں سے کون سا پہاڑ محفوظ رکھتا ہے؟",
-        "options": {
-            "A": "الپس",
-            "B": "راکیز",
-            "C": "اینڈیز",
-            "D": "ہمالیہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 9303,
-        "question": "بار بنتے ہیں",
-        "options": {
-            "A": "دریا کے عمل سے",
-            "B": "ہوا کے عمل سے",
-            "C": "گلیشئر کے عمل سے",
-            "D": "لہروں کے عمل سے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "short_question"
-        ],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 14831,
-        "question": "سلطنت متحدہ کا کل رقبہ ………… مربع کلومیٹر ہے۔",
-        "options": {
-            "A": "2,41,572",
-            "B": "2,81,572",
-            "C": "3,01,572",
-            "D": "3,41,572"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 14979,
-        "question": "خوراک کا ایندھن کہلاتے ہیں۔",
-        "options": {
-            "A": "حیاتین",
-            "B": "روغنیات",
-            "C": "لحمیات",
-            "D": "نشاستہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 5320,
-        "question": "لمبی چھلانگ میں تختے کے آگے تہہ بچھائی جاتی ہے۔",
-        "options": {
-            "A": "چاولوں کی",
-            "B": "نمک کی",
-            "C": "مکئی کی",
-            "D": "پلاسٹک یاریت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 14972,
-        "question": "مصنوعی تنفس کے طریقے ہیں۔",
-        "options": {
-            "A": "دو",
-            "B": "تین",
-            "C": "چار",
-            "D": "پانچ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 101,
-        "question": "نیپکن مختلف انداز میں فولڈ کر کے رکھے جاتے ہیں۔",
-        "options": {
-            "A": "جگ یا ٹرے",
-            "B": "گلاس یا پلیٹ",
-            "C": "دیگچی یا ڈونگا",
-            "D": "گلاس یا جگ"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 269,
-        "question": "کسی کی غیر موجودگی میں اُس کی برائی بیان کرنا کہلاتا ہے۔",
-        "options": {
-            "A": "غیبت",
-            "B": "تہمت",
-            "C": "الزام",
-            "D": "بہتان"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 2589,
-        "question": "روح، حدیث کے مطابق انسانی جسم کے اعضا کا حکمران کون سا عضو ہے؟",
-        "options": {
-            "A": "روح",
-            "B": "دل",
-            "C": "سر",
-            "D": "دماغ"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 23684,
-        "question": "شعاع میں سروں کی تعداد ____ ہوتی ہے۔",
-        "options": {
-            "A": "0",
-            "B": "1",
-            "C": "2",
-            "D": "3"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 23607,
-        "question": "‏____ نسبتوں کے برابر ہونے کو تناسب کہتے ہیں۔",
-        "options": {
-            "A": "دو",
-            "B": "تین",
-            "C": "چار",
-            "D": "پانچ"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 22739,
-        "question": "خط AB کے لیے علامت استعمال ہوتی ہے:",
-        "options": {
-            "A": "AB̅",
-            "B": "|AB|",
-            "C": "↔AB",
-            "D": "AB→"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 6252,
-        "question": "ویٹو پاور کا حق رکھنے والے ممالک کی تعداد ہے",
-        "options": {
-            "A": "2",
-            "B": "3",
-            "C": "4",
-            "D": "5"
+            "A": "ارفع کریم",
+            "B": "شہناز لغاری",
+            "C": "ملالہ یوسف زئی",
+            "D": "مریم مختیار"
         },
         "domain": "Social Sciences",
         "subdomain": "pakistan studies",
@@ -915,13 +698,128 @@
         "is_iaa": false
     },
     {
-        "id": 6165,
-        "question": "بحر ہند اور بحیرہ عرب کے سنگم پر واقع ملک ہے :",
+        "id": 4322,
+        "question": "قرارداد لاہور میں خطبہ صدارت دیا :",
         "options": {
-            "A": "بھارت",
-            "B": "مالدیپ",
+            "A": "مولوی فضل الحق نے",
+            "B": "قائد اعظم نے",
+            "C": "مولانا محمد علی جوہر نے",
+            "D": "سر سید احمد خان نے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 1553,
+        "question": "پاکستان کو آب و ہوا کے لحاظ سے ____ خطوں میں تقسیم کیا جاتا ہے۔",
+        "options": {
+            "A": "تین",
+            "B": "چار",
+            "C": "پانچ",
+            "D": "دو"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 16133,
+        "question": "دستور پاکستان 1962ء پاس کروانے والے سربراہ مملکت کا نام ہے۔",
+        "options": {
+            "A": "سکندر مرزا",
+            "B": "ایوب خاں",
+            "C": "یحییٰ خاں",
+            "D": "چودھری محمد علی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 12119,
+        "question": "قائد اعظم (رحمتہ اللہ علیہ) پاکستان کو کون سی ریاست نہیں بنانا چاہتے تھے :",
+        "options": {
+            "A": "جمہوری",
+            "B": "آزاد",
+            "C": "عظیم",
+            "D": "ملائی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 5573,
+        "question": "پاکستان اور بھارت کے مابین سندھ طاس معاہدہ طے پایا ۔",
+        "options": {
+            "A": "1958",
+            "B": "1960",
+            "C": "1962",
+            "D": "1964"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 5991,
+        "question": "چڑھتے سورج کی سرزمین کہتے ہیں :",
+        "options": {
+            "A": "جاپان",
+            "B": "ترکی",
             "C": "سری لنکا",
-            "D": "بھوٹان"
+            "D": "بھارت"
         },
         "domain": "Social Sciences",
         "subdomain": "pakistan studies",
@@ -931,52 +829,6 @@
         "source_url": [],
         "source": [
             "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 5686,
-        "question": "پاکستان اور نیپال کے مشترکہ اقتصادی کمیشن کے قیام کا معاہدہ طے پایا:",
-        "options": {
-            "A": "‏1980ء",
-            "B": "‏1981ء",
-            "C": "‏1982ء",
-            "D": "‏1983ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 1552,
-        "question": "چودہ نکات کس سال پیش کیے گئے؟",
-        "options": {
-            "A": "1929ء",
-            "B": "1935ء",
-            "C": "1939ء",
-            "D": "1930ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "short",
@@ -984,88 +836,88 @@
         "is_iaa": false
     },
     {
-        "id": 24366,
-        "question": "ایک گیند کو عموداً اوپر کی طرف پھینکا گیا ہے۔ بلند ترین مقام پر اس کی ویلاسٹی ____ ہو گی۔",
+        "id": 16026,
+        "question": "نیچے دی گئی تمام خواتین کے خلاف تشدد کی اقسام ہیں سوائے :",
         "options": {
-            "A": "-10 ms−1",
-            "B": "صفر",
-            "C": "10 ms−2",
-            "D": "10 ms−1"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 24400,
-        "question": "ٹائر اور گیلی سڑک کے درمیان کوایفیشنٹ آف فریکشن کی قیمت ہے :",
-        "options": {
-            "A": "0.1",
-            "B": "0.2",
-            "C": "0.3",
-            "D": "0.4"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 11203,
-        "question": "آپ کے نزدیک دماغ کا کونسا حصہ بصری معلومات کے متعلق ہے؟",
-        "options": {
-            "A": "جبہی فص",
-            "B": "عقبی فص",
-            "C": "صدغی فص",
-            "D": "جداری فص"
+            "A": "شیر خوار بچی کا قتل",
+            "B": "خواتین کی خود اپنے خاوند کا انتخاب",
+            "C": "گھریلو بدسلوکی",
+            "D": "عزت کے نام پر قتل"
         },
         "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 16412,
-        "question": "کارل راجرز کی تکنیک کہلاتی ہے۔",
-        "options": {
-            "A": "تشکیلی",
-            "B": "کرداری",
-            "C": "غیر ہدایتی",
-            "D": "تحلیل نفسی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 6085,
+        "question": "جنرل ایوب خان نے اقتدار سنبھالا۔",
+        "options": {
+            "A": "‏(الف) 1957ء میں",
+            "B": "‏(ب) 1958ء میں",
+            "C": "‏(ج) 1959ء میں",
+            "D": "‏(د) 1960ء میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 15926,
+        "question": "شالامار باغ پاکستان کے کس شہر میں ہے :",
+        "options": {
+            "A": "اسلام آباد",
+            "B": "لاہور",
+            "C": "کراچی",
+            "D": "کوئٹہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 4149,
+        "question": "عقائد کا مجموعہ ____ کہلاتا ہے۔",
+        "options": {
+            "A": "ایمان",
+            "B": "نظریہ",
+            "C": "اقدار",
+            "D": "مساوات"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
         "source_url": [
             ""
         ],
@@ -1078,41 +930,110 @@
         "is_iaa": false
     },
     {
-        "id": 16696,
-        "question": "‏\"احساس\" پروگرام ہے:",
+        "id": 4527,
+        "question": "پاکستان کی تاریخ کے پہلے صدارتی انتخابات 1965 میں منعقد ہوئے۔",
         "options": {
-            "A": "امیروں",
-            "B": "غریبوں",
-            "C": "خواندہ",
-            "D": "ناخواندہ"
+            "A": "‏2 جنوری کو",
+            "B": "‏4 جنوری کو",
+            "C": "‏6 جنوری کو",
+            "D": "‏8 جنوری کو"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
         ],
-        "quality_flags": [
-            "short_question"
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 1053,
+        "question": "مری کی پہاڑیاں کس کا حصہ ہیں؟",
+        "options": {
+            "A": "قراقرم",
+            "B": "ہندو کش",
+            "C": "کیرتھر",
+            "D": "پیر پنجال"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
         ],
+        "quality_flags": [],
         "length_tier": "short",
         "batch_id": "batch_292",
         "is_iaa": false
     },
     {
-        "id": 16577,
-        "question": "قوانین پر عمل کرواتا ہے",
+        "id": 6212,
+        "question": "جنرل ضیاء الحق کے بعد صدر بنے:",
         "options": {
-            "A": "سیاسی ادارہ",
-            "B": "خاندان",
-            "C": "معاشی ادارہ",
-            "D": "تعلیم"
+            "A": "غلام اسحق خان",
+            "B": "سکندر مرزا",
+            "C": "ایوب خان",
+            "D": "یحییٰ خان"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 5666,
+        "question": "‏1985ء سے 1988ء کے دوران پاکستان کے وزیراعظم رہے :",
+        "options": {
+            "A": "محمد خان جونیجو",
+            "B": "میاں محمد نواز شریف",
+            "C": "میر ظفر اللہ خان جمالی",
+            "D": "شوکت عزیز"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 15921,
+        "question": "مسجد مہابت خان واقع ہے۔",
+        "options": {
+            "A": "کراچی",
+            "B": "ملتان",
+            "C": "صادق آباد",
+            "D": "پشاور"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -1126,41 +1047,16 @@
         "is_iaa": false
     },
     {
-        "id": 16578,
-        "question": "اسلام ذریعہ ہے",
+        "id": 1934,
+        "question": "پاکستان میں خریف کی فصلیں موسم ____ کے شروع میں کاشت کی جاتی ہیں۔",
         "options": {
-            "A": "ثقافتی یکجہتی کا",
-            "B": "تقسیم کا",
-            "C": "اختلافات کا",
-            "D": "تصادم کا"
+            "A": "سرما",
+            "B": "گرما",
+            "C": "خزاں",
+            "D": "بہار"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "short_question"
-        ],
-        "length_tier": "short",
-        "batch_id": "batch_292",
-        "is_iaa": false
-    },
-    {
-        "id": 1656,
-        "question": "ایسا جملہ جس میں مسند الیہ اسم اور مسند فعل ہوں، کیا کہلاتا ہے؟",
-        "options": {
-            "A": "جملہ اسمیہ",
-            "B": "جملہ فعلیہ",
-            "C": "جملہ معترضہ",
-            "D": "جملہ دعائیہ"
-        },
-        "domain": "Humanities",
-        "subdomain": "urdu literature",
+        "subdomain": "pakistan studies",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -1170,6 +1066,100 @@
         ],
         "quality_flags": [],
         "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 16088,
+        "question": "کراچی اور ریاست جونا گڑھ کے درمیان فاصلہ تھا۔",
+        "options": {
+            "A": "‏450 کلومیٹر",
+            "B": "‏460 کلومیٹر",
+            "C": "‏470 کلومیٹر",
+            "D": "‏480 کلومیٹر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 4201,
+        "question": "دنیا کی دوسری بلند ترین چوٹی ہے۔",
+        "options": {
+            "A": "نانگا پربت",
+            "B": "کے ٹو K-2",
+            "C": "ترچ میر",
+            "D": "تخت سلیمان"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 5626,
+        "question": "آبادی کے لحاظ سے پاکستان کا سب سے بڑا صوبہ ہے :",
+        "options": {
+            "A": "سندھ",
+            "B": "خیبر پختونخوا",
+            "C": "پنجاب",
+            "D": "بلوچستان"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_292",
+        "is_iaa": false
+    },
+    {
+        "id": 2660,
+        "question": "لکھنؤ معاہدے کا خالق کس کو کہا جاتا ہے؟",
+        "options": {
+            "A": "سر سید احمد خان",
+            "B": "مولانا محمد علی",
+            "C": "قائد اعظمؒ",
+            "D": "علامہ اقبالؒ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "pakistan studies",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
         "batch_id": "batch_292",
         "is_iaa": false
     }

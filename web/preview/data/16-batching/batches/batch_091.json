@@ -1,338 +1,12 @@
 [
     {
-        "id": 17128,
-        "question": "کولون میں رہنے والے بیکٹیریا ____ پیدا کرتے ہیں۔",
+        "id": 27600,
+        "question": "کس آپریٹر کی ترجیح سب سے زیادہ ہے؟",
         "options": {
-            "A": "وٹامن A",
-            "B": "وٹامن D",
-            "C": "وٹامن K",
-            "D": "وٹامن C"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 17813,
-        "question": "بائیولوجیکل کلاسیفیکیشن میں سب سے بڑا ٹیکسون ہے :",
-        "options": {
-            "A": "فائلم",
-            "B": "کلاس",
-            "C": "کنگڈم",
-            "D": "جینس"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 24705,
-        "question": "فور ۔ او ۔ کلاک پودوں میں کون سے رنگ کے الیل موجود نہیں ہوتے :",
-        "options": {
-            "A": "سرخ",
-            "B": "سفید",
-            "C": "گلابی",
-            "D": "کالا"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 24862,
-        "question": "لاء آف انڈی پنڈنٹ اسورٹمنٹ میں فینو ٹائپ کی ریشو ہے۔",
-        "options": {
-            "A": "9:3:1:3",
-            "B": "9:3:2:2",
-            "C": "9:3:3:1",
-            "D": "9:3:3:3"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 26248,
-        "question": "پانی میں موجود نقصان دہ بیکٹیریا ختم کرنے کے لیے کون سی گیس استعمال کی جاتی ہے :",
-        "options": {
-            "A": "آئیوڈین",
-            "B": "فلورین",
-            "C": "کلورین",
-            "D": "برومین"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 26304,
-        "question": "اوزون کی کمی کا سب سے پہلے کس جگہ پتہ چلا؟",
-        "options": {
-            "A": "انٹار کٹکا",
-            "B": "امریکہ",
-            "C": "یورپ",
-            "D": "ایتھوپیا"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 26940,
-        "question": "خشک ہوا میں موجود بلحاظ والیوم CO2 کی فیصد مقدار ہے۔",
-        "options": {
-            "A": "0.03 %",
-            "B": "0.93 %",
-            "C": "20.94 %",
-            "D": "78.09 %"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 6428,
-        "question": "کون سا نظام حکومت غیر یقینی ہے :",
-        "options": {
-            "A": "وفاقی",
-            "B": "آمریت",
-            "C": "پارلیمانی",
-            "D": "وحدانی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 7206,
-        "question": "کس کے بنائے ہوئے قوانین میں تبدیلی نہیں ہوتی",
-        "options": {
-            "A": "مقننہ",
-            "B": "عدلیہ",
-            "C": "صدر",
-            "D": "اللہ تعالیٰ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 27152,
-        "question": "چودھری رحمت علی نے لفظ 'پاکستان' سے مسلمانوں کو کب روشناس کروایا :",
-        "options": {
-            "A": "‏1933ء",
-            "B": "‏1934ء",
-            "C": "‏1935ء",
-            "D": "‏1936ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 6422,
-        "question": "پاکستان میں کتنی صوبائی حکومتیں ہیں :",
-        "options": {
-            "A": "02",
-            "B": "03",
-            "C": "04",
-            "D": "05"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 12945,
-        "question": "پاکستان کا کل رقبہ مربع کلومیٹر ہے؟",
-        "options": {
-            "A": "310403",
-            "B": "575095",
-            "C": "759096",
-            "D": "796096"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 27894,
-        "question": "جس فنکشن کو یوزر ڈیفائن کرتا ہے اسے ____ کہتے ہیں۔",
-        "options": {
-            "A": "نمبرک فنکشن",
-            "B": "سٹرنگ فنکشن",
-            "C": "یوزر ڈیفائنڈ فنکشن",
-            "D": "بلٹ ان فنکشن"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 19989,
-        "question": "کاپی رائٹ کی علامت ____ ہے۔",
-        "options": {
-            "A": "©",
-            "B": "E",
-            "C": "$",
-            "D": "®"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 27448,
-        "question": "ٹرنری آپریٹر ____ آپرینڈز پر کام کرتا ہے:",
-        "options": {
-            "A": "1",
-            "B": "2",
-            "C": "3",
-            "D": "4"
+            "A": "/",
+            "B": "=",
+            "C": ">",
+            "D": "!"
         },
         "domain": "STEM",
         "subdomain": "computer science",
@@ -349,13 +23,130 @@
         "is_iaa": false
     },
     {
-        "id": 27401,
-        "question": "ہدایات کا ایک بلاک جو کوئی خاص کام سرانجام دیتا ہے کہلاتا ہے:",
+        "id": 19666,
+        "question": "خاندان کے ڈیٹا کی حفاظت اور راز داری ____ کی ہوتی ہے:",
         "options": {
-            "A": "ویری ایبل",
-            "B": "کانسٹنٹ",
-            "C": "فنکشن",
-            "D": "لوپ"
+            "A": "DCO",
+            "B": "CPO",
+            "C": "NADRA",
+            "D": "LRO"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 20075,
+        "question": "‏____ کا استعمال کنٹرول کو پروگرام کے ایک حصے سے دوسرے حصے میں منتقل کرنے کیلئے کیا جاتا ہے۔",
+        "options": {
+            "A": "الگورتھم",
+            "B": "فلو چارٹ",
+            "C": "گوٹو",
+            "D": "الیس"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 18236,
+        "question": "اعشاری عددی نظام اعداد پر مشتمل ہوتا ہے:",
+        "options": {
+            "A": "0 - 9",
+            "B": "1 - 16",
+            "C": "2 - 8",
+            "D": "0 - 7"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19598,
+        "question": "‏………… ایسا سائبر اٹیک ہے جو کسی مشین یا نیٹ ورک وسائل کو صارف کے استعمال کے لیے ناقابلِ بنا دیتا ہے۔",
+        "options": {
+            "A": "‏DOS اٹیک",
+            "B": "فشنگ",
+            "C": "ہیکنگ",
+            "D": "پائریسی"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27781,
+        "question": "ان میں سے کونسا لاجیکل آپریٹر نہیں ہے؟",
+        "options": {
+            "A": "AND",
+            "B": "OR",
+            "C": "NEITHER",
+            "D": "NOT"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27751,
+        "question": "ایک سافٹ ویئر جو پروگرامر کو کمپیوٹر پروگرام لکھنے میں مدد دیتا ہے ____ کہلاتا ہے۔",
+        "options": {
+            "A": "کمپائلر",
+            "B": "ایڈیٹر",
+            "C": "آئی ڈی ای",
+            "D": "ڈی بگگر"
         },
         "domain": "STEM",
         "subdomain": "computer science",
@@ -372,246 +163,16 @@
         "is_iaa": false
     },
     {
-        "id": 9714,
-        "question": "کوئی بھی قانونی سرگرمی جو منافع کمانے کی غرض سے کی جائے کہلاتی ہے۔",
+        "id": 18247,
+        "question": "ایک ویب پیج کو محفوظ کرنے کے لیے ہم ____ ایکسٹینشن استعمال کرتے ہیں۔",
         "options": {
-            "A": "معاملت",
-            "B": "سرمایہ",
-            "C": "کاروبار",
-            "D": "اثاثہ جات"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 10638,
-        "question": "خاص قیمت پر منڈی میں فروخت کیلئے پیش کی جانے والی شے کی مقدار کہلاتی ہے؟",
-        "options": {
-            "A": "طلب",
-            "B": "رسد",
-            "C": "افادہ",
-            "D": "ذخیرہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 7691,
-        "question": "کس ماہر معاشیات نے کہا \"معاشیات غیر جانبدارانہ علم ہے\" :",
-        "options": {
-            "A": "ایڈم سمتھ",
-            "B": "کینز",
-            "C": "مارشل",
-            "D": "رابنز"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 13972,
-        "question": "ایم۔اے ۔او کالج بنا :",
-        "options": {
-            "A": "‏1877ء",
-            "B": "‏1879ء",
-            "C": "‏1880ء",
-            "D": "‏1881ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 14131,
-        "question": "پنجاب یونیورسٹی لاہور ____ ء میں قائم ہوئی۔",
-        "options": {
-            "A": "1878",
-            "B": "1876",
-            "C": "1880",
-            "D": "1882"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 13865,
-        "question": "پاکستان میں نا خواندگی کی وجوہات میں شامل ہے-",
-        "options": {
-            "A": "کرونا کا پھیلاؤ",
-            "B": "دریائی سیلاب",
-            "C": "دولت کا اضافہ",
-            "D": "آبادی میں اضافہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 9215,
-        "question": "انسان کے سیکھنے کا عمل شروع ہوتا ہے",
-        "options": {
-            "A": "روز اول سے",
-            "B": "نوجوانی سے",
-            "C": "بڑھاپے سے",
-            "D": "یہ تمام"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 21263,
-        "question": "اوزون گیس کس کی اوپر والی تہہ میں پائی جاتی ہے؟",
-        "options": {
-            "A": "سٹریٹوسفیئر",
-            "B": "میزوسفیئر",
-            "C": "ٹروپوسفیئر",
-            "D": "تھر مو سفیئر"
+            "A": ".html",
+            "B": ".xhtml",
+            "C": ".doc",
+            "D": ".xlsx"
         },
         "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 21510,
-        "question": "‏\"کتاب المناظر\" ____ پر پہلی مشہور کتاب ہے۔",
-        "options": {
-            "A": "روشنی",
-            "B": "آواز",
-            "C": "حرارت",
-            "D": "انرجی"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 22111,
-        "question": "پاکستان میں ۔۔۔۔۔۔۔۔۔۔۔۔۔ مختلف اقسام کی مچھلیاں پائی جاتی ہیں",
-        "options": {
-            "A": "400",
-            "B": "1000",
-            "C": "500",
-            "D": "700"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 21682,
-        "question": "پروٹین کے بلڈنگ بلاکس کہلاتے ہیں:",
-        "options": {
-            "A": "وٹامنز",
-            "B": "کاربوہائیڈریٹس",
-            "C": "چربی",
-            "D": "امائنو ایسڈز"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -622,67 +183,21 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_091",
         "is_iaa": false
     },
     {
-        "id": 14894,
-        "question": "جاپان کی سب سے اہم فصل ہے:",
+        "id": 20109,
+        "question": "کسی مسئلے کو حل کرنے سے پہلے اس کا ____ کرنا چاہیے۔",
         "options": {
-            "A": "گندم",
-            "B": "چاول",
-            "C": "کپاس",
-            "D": "آلو"
+            "A": "تجزیہ",
+            "B": "پلاننگ",
+            "C": "کینڈڈ حل",
+            "D": "تعین"
         },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 14630,
-        "question": "پاکستان اور چین کو کونسا درہ ملاتا ہے؟",
-        "options": {
-            "A": "ٹوچی",
-            "B": "خنجراب",
-            "C": "خیبر",
-            "D": "گومل"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 3715,
-        "question": "انسانی جسم میں کل جوڑ ہوتے ہیں :",
-        "options": {
-            "A": "206",
-            "B": "306",
-            "C": "226",
-            "D": "236"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -691,90 +206,21 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 5225,
-        "question": "بال تبدیل کرنے کے بعد ہاکی کھیل کا دوبارہ آغاز ہوتا ہے :",
-        "options": {
-            "A": "سنٹر پاس",
-            "B": "بلی",
-            "C": "فری ہٹ",
-            "D": "کارنر ہٹ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
         "length_tier": "long",
         "batch_id": "batch_091",
         "is_iaa": false
     },
     {
-        "id": 15122,
-        "question": "متوازن غذا میں ____ غذائی اجزاء پائے جاتے ہیں :",
+        "id": 27457,
+        "question": "کوڈ کا یہ حصہ ایگزیکیوٹ ہونے کے بعد متغیر \"a\" کی قیمت کیا ہوگی؟ — int a=4; float b=2.2; a=a*b;",
         "options": {
-            "A": "06",
-            "B": "04",
-            "C": "03",
-            "D": "05"
+            "A": "8.8",
+            "B": "8",
+            "C": "8.0",
+            "D": "8.2"
         },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 15627,
-        "question": "اونچی چھلانگ کے مقابلے سے قبل ٹرائل جمپس دیئے جاتے ہیں",
-        "options": {
-            "A": "2",
-            "B": "4",
-            "C": "3",
-            "D": "5"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 5462,
-        "question": "‏____ ریشے پر پھپھوندی جلد اثر انداز ہوتی ہے :",
-        "options": {
-            "A": "اونی",
-            "B": "سوتی",
-            "C": "خود ساختہ",
-            "D": "ریشمی"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -790,16 +236,66 @@
         "is_iaa": false
     },
     {
-        "id": 2984,
-        "question": "حضرت ابو طالب کی وفات کب ہوئی؟",
+        "id": 459,
+        "question": "اگر ارے کا سائز 100 ہے تو انڈیکس کی رینج ہوگی:",
         "options": {
-            "A": "‏08 ہجری",
-            "B": "‏573 ہجری",
-            "C": "نبوت کے دسویں سال",
-            "D": "‏10 ہجری"
+            "A": "0-100",
+            "B": "1-100",
+            "C": "2-102",
+            "D": "0-99"
         },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            "",
+            ""
+        ],
+        "source": [
+            "BISE Multan 2025",
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19843,
+        "question": "ان میں سے کون سا سائبر کرائم نہیں ہے؟",
+        "options": {
+            "A": "ہیکنگ",
+            "B": "شناخت کی چوری",
+            "C": "فشنگ کرائم",
+            "D": "ڈیکرپشن"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 954,
+        "question": "بی آئی او ایس (BIOS) کن الفاظ کا مخفف ہے؟",
+        "options": {
+            "A": "بیسک ان پٹ / آؤٹ پٹ سسٹم",
+            "B": "بیسک انٹر نیٹ آر گنائز یشن سسٹم",
+            "C": "بیسک انفار میشن آر گنائز یشن سسٹم",
+            "D": "بیسک انفارمیشن آپریٹنگ سسٹم"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -808,94 +304,21 @@
             "FBISE"
         ],
         "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 20487,
-        "question": "‏3, 7, 11, ____ کی a6 کیا ہے:",
-        "options": {
-            "A": "3",
-            "B": "19",
-            "C": "23",
-            "D": "20"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 28527,
-        "question": "مثلث کا رقبہ =",
-        "options": {
-            "A": "چوڑائی × لمبائی",
-            "B": "πr2",
-            "C": "‏1/2 × قاعدہ × ارتفاع",
-            "D": "قاعدہ × ارتفاع"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 28032,
-        "question": "‏| x | = 3 کا حل سیٹ ہے :",
-        "options": {
-            "A": "{ 3 }",
-            "B": "{ - 3 }",
-            "C": "{ ± 3 }",
-            "D": "{ 0 }"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
         "length_tier": "long",
         "batch_id": "batch_091",
         "is_iaa": false
     },
     {
-        "id": 28059,
-        "question": "مساوی الاضلاع مثلث جس کا ضلع 'a' ہو، کا رقبہ ہوتا ہے:",
+        "id": 27565,
+        "question": "درج ذیل کوڈ کی آؤٹ پٹ کیا ہوگی؟ — int a = 4; float b = 2.2; a = a * b;",
         "options": {
-            "A": "\\frac{1}{2}bh",
-            "B": "bh",
-            "C": "\\frac{\\sqrt{3}a^2}{4}",
-            "D": "\\frac{\\sqrt{3}a^2}{2}"
+            "A": "8.8",
+            "B": "8",
+            "C": "8.0",
+            "D": "8.2"
         },
         "domain": "STEM",
-        "subdomain": "mathematics",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -909,62 +332,39 @@
         "is_iaa": false
     },
     {
-        "id": 16142,
-        "question": "انسانی حقوق کا پہلا چارٹر ہے۔",
+        "id": 27375,
+        "question": "فنکشن جو کچھ بھی واپس نہ کرے اس کی ریٹرن ٹائپ ہوتی ہے",
         "options": {
-            "A": "عالمی منشور",
-            "B": "اقوام متحدہ کا منشور",
-            "C": "خطبہ حجۃ الوداع",
-            "D": "فرانس کا دستور"
+            "A": "null",
+            "B": "void",
+            "C": "nothing",
+            "D": "empty"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_091",
         "is_iaa": false
     },
     {
-        "id": 12551,
-        "question": "پاکستان کے تیسرے وزیراعظم کون تھے :",
+        "id": 19711,
+        "question": "کمپیوپر ماہر جو ڈیپا چوری کر سکتا ہے جب یہ ڈیپا ایک مقام سے دوسرے مقام پر بھیجا جائے اسے ۔۔۔۔۔۔۔۔۔۔ کہا جاتا ہے۔",
         "options": {
-            "A": "چودھری محمد علی",
-            "B": "غلام محمد",
-            "C": "سکندر مرزا",
-            "D": "محمد علی بوگرہ"
+            "A": "ہیکر",
+            "B": "انکرپشن",
+            "C": "ڈکرپشن",
+            "D": "پیٹنٹ"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 4023,
-        "question": "آل انڈیا مسلم لیگ کے ستائیسویں اجلاس کی صدارت کس نے کی؟",
-        "options": {
-            "A": "علامہ اقبال (رح)",
-            "B": "قائد اعظم (رح)",
-            "C": "سر سید احمد خان",
-            "D": "لیاقت علی خان"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -978,16 +378,39 @@
         "is_iaa": false
     },
     {
-        "id": 24560,
-        "question": "کونسا جز و ایوپوریشن کو متاثر کرتا ہے؟",
+        "id": 27779,
+        "question": "جی ڈبلیو بیسک آپریٹ کر سکتی ہے:",
         "options": {
-            "A": "ٹمپریچر",
-            "B": "مائع کی سطح کا ایریا",
-            "C": "ہوا",
-            "D": "یہ تمام"
+            "A": "ایک موڈ میں",
+            "B": "دو موڈز میں",
+            "C": "تین موڈز میں",
+            "D": "کئی موڈز میں"
         },
         "domain": "STEM",
-        "subdomain": "physics",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 20055,
+        "question": "‏HTML فائل کی ایکسٹینشن کیا ہوتی ہے ؟",
+        "options": {
+            "A": ".hmi",
+            "B": ".html",
+            "C": ".htl",
+            "D": ".htnl"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -1001,65 +424,19 @@
         "is_iaa": false
     },
     {
-        "id": 24535,
-        "question": "مندرجہ ذیل میں مومنٹم کا یونٹ ہے",
+        "id": 19794,
+        "question": "الگورتھم کی لاجیکل غلطیوں کو چیک کرنے کیلئے ____ استعمال ہوتا ہے",
         "options": {
-            "A": "Nm",
-            "B": "kgms^-2",
-            "C": "Ns",
-            "D": "Ns^-1"
+            "A": "ٹرتھ ٹیبل",
+            "B": "ٹریس ٹیبل",
+            "C": "سادہ ٹیبل",
+            "D": "فلو ٹیبل"
         },
         "domain": "STEM",
-        "subdomain": "physics",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 24530,
-        "question": "پریشر کا فارمولا ہے",
-        "options": {
-            "A": "F = PA",
-            "B": "P = F/A",
-            "C": "P = A/F",
-            "D": "P = AF"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_091",
-        "is_iaa": false
-    },
-    {
-        "id": 11218,
-        "question": "دماغ سے عضلات کی طرف پیغام کون سے اعصاب کے ذریعے ہوتی ہے؟",
-        "options": {
-            "A": "حسی عصبانیہ",
-            "B": "حرکی عصبانیہ",
-            "C": "تلازمی عصبانیہ",
-            "D": "عصبی لہر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -1070,19 +447,19 @@
         "is_iaa": false
     },
     {
-        "id": 16414,
-        "question": "‏\"پیشہ وارانہ رہنمائی\" کا لفظ کس نے متعارف کرایا؟",
+        "id": 18250,
+        "question": "ہیکساڈیسمل عددی نظام کی بیس ہے:",
         "options": {
-            "A": "راجرز",
-            "B": "فرینک پارسنز",
-            "C": "ایلس",
-            "D": "واٹسن"
+            "A": "2",
+            "B": "10",
+            "C": "8",
+            "D": "16"
         },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -1093,75 +470,700 @@
         "is_iaa": false
     },
     {
-        "id": 11483,
-        "question": "سو شیس کس زبان کا لفظ ہے :",
+        "id": 20015,
+        "question": "فلو چارٹ میں ◊ کی علامت ____ کو ظاہر کرتی ہے۔",
         "options": {
-            "A": "انگریزی",
-            "B": "یونانی",
-            "C": "لاطینی",
-            "D": "فرانسیسی"
+            "A": "ان پٹ",
+            "B": "فیصلہ سازی",
+            "C": "پروسیس",
+            "D": "کنیکٹر"
         },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_091",
         "is_iaa": false
     },
     {
-        "id": 11467,
-        "question": "سائنس کہتے ہیں",
+        "id": 27818,
+        "question": "‏C پروگرامنگ لینگویج میں Scanf، ایک ____ ہے۔",
         "options": {
-            "A": "باضابطہ مطالعہ",
-            "B": "سادہ مطالعہ",
-            "C": "تجربہ کرنا",
-            "D": "معلومات جمع کرنا"
+            "A": "مطلوبہ لفظ",
+            "B": "لائبریری",
+            "C": "فنکشن",
+            "D": "ان میں سے کوئی نہیں"
         },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [
-            ""
-        ],
+        "level": "SSC-II",
+        "source_url": [],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [
-            "short_question"
+            "catch_all"
         ],
         "length_tier": "short",
         "batch_id": "batch_091",
         "is_iaa": false
     },
     {
-        "id": 381,
-        "question": "دوسری بار سور پھونکے جانے کے فوراً بعد لوگ جائیں گے۔",
+        "id": 19831,
+        "question": "‏____ ڈیٹا کی خفیہ کاری کا عمل ہے۔",
         "options": {
-            "A": "قبروں میں",
-            "B": "محشر میں",
-            "C": "جنت میں",
-            "D": "دوزخ میں"
+            "A": "‏(الف) صداقت",
+            "B": "‏(ب) دستیابی",
+            "C": "‏(ج) راز داری",
+            "D": "‏(د) ان میں سے کوئی بھی نہیں"
         },
-        "domain": "Humanities",
-        "subdomain": "tarjamatul quran",
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [
+            "catch_all"
+        ],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19761,
+        "question": "ہیکر کون ہوتا ہے :",
+        "options": {
+            "A": "اینٹی وائرس",
+            "B": "کمپیوٹر تجربہ کار",
+            "C": "آخری یوزر",
+            "D": "پروٹوکول"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19793,
+        "question": "فلو چارٹ میں ____ علامت آغاز اور اختتام کیلئے استعمال ہوتی ہے۔",
+        "options": {
+            "A": "ٹرمینل",
+            "B": "کنیکٹر",
+            "C": "پروسیس",
+            "D": "فیصلہ سازی"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27709,
+        "question": "‏C-لینگویج میں کمنٹس کی ۔۔۔۔ اقسام ہیں۔",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
         "source_url": [],
         "source": [
-            "BISE Multan 2025"
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27683,
+        "question": "ایکسپریشن (41-20)%21+13 کا کیا جواب ہے :",
+        "options": {
+            "A": "34",
+            "B": "10",
+            "C": "13",
+            "D": "12"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27478,
+        "question": "لوپ کے اندر لوپ ____ کہلاتا ہے۔",
+        "options": {
+            "A": "For Loop",
+            "B": "While Loop",
+            "C": "do while Loop",
+            "D": "نیسٹڈ لوپ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27590,
+        "question": "ایک ہی سٹیٹمنٹ میں ارے کو انیشلائز کرنے کے لئے اسے ڈیکلریشن کے ____ انیشلائز کریں۔",
+        "options": {
+            "A": "وقت",
+            "B": "بعد",
+            "C": "پہلے",
+            "D": "‏A اور B دونوں"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
         ],
         "quality_flags": [],
         "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 20100,
+        "question": "‏HTML کس قسم کی لینگویج ہے؟",
+        "options": {
+            "A": "پروگرامنگ",
+            "B": "سکرپٹنگ",
+            "C": "آبجیکٹ اورئنٹڈ",
+            "D": "مارک اپ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19924,
+        "question": "‏____ قانون میں ویری ایبل کی ترتیب ضروری نہیں ہوتی :",
+        "options": {
+            "A": "قانونِ تلازم",
+            "B": "قانونِ مبادلہ",
+            "C": "قانونِ تقسیمی",
+            "D": "ضربی اور جمعی ذاتی قانون"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 1134,
+        "question": "کس ٹوپولوجی میں کیبل کے دونوں سروں کو ٹرمینیٹ کرنا ضروری ہے؟",
+        "options": {
+            "A": "بس",
+            "B": "سٹار",
+            "C": "میش",
+            "D": "رنگ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27379,
+        "question": "فنکشن کو بطور ان پٹ دی گئی قیمتوں کو موصول کرنے کے لیے ان میں کیا استعمال ہوتا ہے؟",
+        "options": {
+            "A": "پیرامیٹرز",
+            "B": "کانسٹینٹس",
+            "C": "ایکسپریشنز",
+            "D": "آرگیومنٹس"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19982,
+        "question": "کوڈ پروگرام مزید وضاحت کرنے اور الگورتھم کی وضاحت کرنے کے لیے پروگرامر استعمال کرتا ہے ۔۔۔۔۔",
+        "options": {
+            "A": "پیغام",
+            "B": "اشارے",
+            "C": "کمنٹس",
+            "D": "وضاحتیں"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27505,
+        "question": "‏for (int i = 1; i <= 4; i++) — درج ذیل کوڈ چلنے کے بعد متغیر i کی قیمت کیا ہے؟",
+        "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27533,
+        "question": "درج ذیل کوڈ کی کیا آؤٹ پٹ ہوگی :\nint m = 33;\nif (m >= 33)\nprintf(\"PASS\");\nelse\nprintf(\"FAIL\");",
+        "options": {
+            "A": "FAIL",
+            "B": "PASS",
+            "C": "PASS FAIL",
+            "D": "FAIL PASS"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 1815,
+        "question": "درج شدہ میں سے کون سا ایک سادہ مسئلہ کو حل کرنے میں پہلا قدم ہے؟",
+        "options": {
+            "A": "ایک منصوبہ تیار کریں",
+            "B": "منصوبہ کو لاگو کریں",
+            "C": "مسئلہ کی وضاحت اور تجزیہ کریں",
+            "D": "تشخیص"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19739,
+        "question": "‏include سٹیٹمنٹ لکھی جاتی ہے۔ ____",
+        "options": {
+            "A": "ہیڈرز",
+            "B": "مین",
+            "C": "کمنٹس",
+            "D": "پرنٹ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 2343,
+        "question": "اگر (x=0 ; ) ہو تو درج شدہ کوڈ کیا پرنٹ کرے گا؟ — if (x < 5) printf(\"True\"); else printf(\"False\");",
+        "options": {
+            "A": "True",
+            "B": "False",
+            "C": "Error",
+            "D": "غیر واضح رویہ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27386,
+        "question": "اس کوڈ کی آؤٹ پٹ کیا ہوگی؟\nint add (int a ، int b)\n{\nreturn a + b;\n}\nvoid main()\n{\nprintf (\"%d\"، add (3, 2));\n}",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "5",
+            "D": "6"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 1128,
+        "question": "ایم ایس ایکسل میں کسی سیل کا ایبسولیوٹ ایڈریس کیسے لکھا جاتا ہے؟",
+        "options": {
+            "A": "&A&1",
+            "B": "$A$1",
+            "C": "&A1&",
+            "D": "$A1$"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19955,
+        "question": "‏____ مواصلات کے لئے حیرت انگیز ذریعہ ہے۔",
+        "options": {
+            "A": "سافٹ ویئر",
+            "B": "ہیکنگ",
+            "C": "انٹرنیٹ",
+            "D": "فشنگ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19727,
+        "question": "ای میل ____ کا مخفف ہے۔",
+        "options": {
+            "A": "الیکٹریکل میل",
+            "B": "الیکٹرانک میل",
+            "C": "الیکٹرانک میڈیم",
+            "D": "الیکٹرانک میسج"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27925,
+        "question": "جی ڈبلیو بیسک میں لوپس کی تعداد ہے۔",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 20050,
+        "question": "ای میل کو ایک جگہ سے دوسری جگہ منتقل کرنے کے لیے کون سا پروٹوکول استعمال ہوتا ہے ؟",
+        "options": {
+            "A": "FTP",
+            "B": "HTTP",
+            "C": "SMTP",
+            "D": "STP"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19622,
+        "question": "ایک میگا بائٹ ____ کے برابر ہوتا ہے۔",
+        "options": {
+            "A": "1024 GB",
+            "B": "1024 MB",
+            "C": "1024 KB",
+            "D": "1024 TB"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27885,
+        "question": "ایرے کے ہر رکن کا انفرادی ____ ہوتا ہے۔",
+        "options": {
+            "A": "انڈیکس",
+            "B": "ایکسٹینشن",
+            "C": "حد",
+            "D": "سٹرکچر"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 27923,
+        "question": "جی ڈبلیو بیسک میں پروگرام محفوظ کرنے کے لیے کون سی شارٹ کی ہوتی ہے۔",
+        "options": {
+            "A": "F1",
+            "B": "F2",
+            "C": "F3",
+            "D": "F4"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19802,
+        "question": "نمبر \"1710\" بائنری سسٹم میں ____ کے برابر ہوتا ہے۔",
+        "options": {
+            "A": "10000",
+            "B": "10110",
+            "C": "10001",
+            "D": "10100"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_091",
+        "is_iaa": false
+    },
+    {
+        "id": 19597,
+        "question": "‏………… مواصلات کے لیے حیرت انگیز ذریعہ ہے۔",
+        "options": {
+            "A": "سافت ویئر",
+            "B": "ہیکنگ",
+            "C": "انٹرنیٹ",
+            "D": "فشنگ"
+        },
+        "domain": "STEM",
+        "subdomain": "computer science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
         "batch_id": "batch_091",
         "is_iaa": false
     }

@@ -1,1138 +1,938 @@
 [
     {
-        "id": 25145,
-        "question": "لوپ آف ہینلے کی نیچے جاتی ہوئی نالی سے کون سی چیز جذب ہوتی ہے؟",
+        "id": 29212,
+        "question": "ونڈ مل کی اونچائی تقریباً ہے؟",
+        "options": {
+            "A": "‏80 فٹ",
+            "B": "‏90 فٹ",
+            "C": "‏100 فٹ",
+            "D": "‏110 فٹ"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29478,
+        "question": "‏50 W کا ایک بلب 20 گھنٹے میں جتنی الیکٹرسٹی استعمال کرتا ہے :",
+        "options": {
+            "A": "‏11 یونٹ",
+            "B": "‏01 یونٹ",
+            "C": "‏02 یونٹ",
+            "D": "‏2.5 یونٹ"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29011,
+        "question": "ایسی ڈیوائس جس سے اے ۔سی وولٹیج کم یا زیادہ کی جا سکتی ہے",
+        "options": {
+            "A": "کپیسٹر",
+            "B": "رزسٹرز",
+            "C": "ٹرانسفارمر",
+            "D": "فیوز"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 22146,
+        "question": "ایلو ٹروپک فارم نہیں ہے:",
+        "options": {
+            "A": "کول",
+            "B": "ہیرا",
+            "C": "گریفائٹ",
+            "D": "بکی بالز"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29815,
+        "question": "کون سی گیس گرین ہاؤس کے شیشے کی طرح کام کرتی ہے؟",
+        "options": {
+            "A": "آکسیجن",
+            "B": "میتھین",
+            "C": "سلفر ڈائی آکسائیڈ",
+            "D": "کاربن ڈائی آکسائیڈ"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21425,
+        "question": "‏2002-2003ء میں صوبہ سندھ میں کس بیماری کے حملہ سے گندم کی فصل بری طرح تباہ ہوئی :",
+        "options": {
+            "A": "کاؤ پاکس",
+            "B": "بیکٹیریا",
+            "C": "ایفیڈ",
+            "D": "وائرس"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 22290,
+        "question": "ایک سے تین سال کے بچوں کو انرجی درکار ہوتی ہے:",
+        "options": {
+            "A": "800 K calories",
+            "B": "1000 K calories",
+            "C": "1200 K calories",
+            "D": "1400 K calories"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 22096,
+        "question": "وہ مشروبات جو ہیپاٹائٹس میں زیادہ استعمال کئے جا سکتے ہیں :",
         "options": {
             "A": "پانی",
-            "B": "گلوکوز",
-            "C": "نمکیات",
-            "D": "یوریا"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 25944,
-        "question": "ایسپرین کا تعلق کس گروپ سے ہے۔",
-        "options": {
-            "A": "جانوروں سے حاصل کردہ دوا",
-            "B": "تالیفی دوا",
-            "C": "پودوں سے حاصل کردہ دوا",
-            "D": "معدنیات سے حاصل کردہ دوا"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 18067,
-        "question": "وہ سائنسدان جس نے میٹابولزم کا تصور سب سے پہلے دیا:",
-        "options": {
-            "A": "ایمل فشر",
-            "B": "ابنِ نفیس",
-            "C": "جابر بن حیان",
-            "D": "ون ہیلم کوہنے"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 25797,
-        "question": "یہ ہائینڈ برین کا حصہ نہیں ہوتا :",
-        "options": {
-            "A": "پونز",
-            "B": "میڈولا اوبلانگیٹا",
-            "C": "سیریبرم",
-            "D": "سیریبلم"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 19081,
-        "question": "مندرجہ ذیل میں سے کس ہیلوجن کی الیکٹرو نیگیٹیویٹی سب سے کم ہے؟",
-        "options": {
-            "A": "فلورین",
-            "B": "کلورین",
-            "C": "برومین",
-            "D": "آیوڈین"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 26047,
-        "question": "پنٹاہائیڈروکسی ایلڈیہائیڈ کہلاتا ہے۔",
-        "options": {
-            "A": "گلوکوز",
-            "B": "فرکٹوز",
-            "C": "سٹارچ",
-            "D": "سکروز"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 19004,
-        "question": "مینڈ لیف کے پیریڈک ٹیبل کی بنیاد تھی۔",
-        "options": {
-            "A": "الیکٹرونک کنفگریشن",
-            "B": "اٹامک ماس",
-            "C": "اٹامک نمبر",
-            "D": "سب شیل کا مکمل ہونا"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 12563,
-        "question": "میثاق لکھنو کب طے پایا ؟",
-        "options": {
-            "A": "‏1914ء",
-            "B": "‏1916ء",
-            "C": "‏1917ء",
-            "D": "‏1919ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 6720,
-        "question": "انسان کو اس کے بغیر اچھے برے کی تمیز نہیں ہوتی :",
-        "options": {
-            "A": "علم",
-            "B": "موسیقی",
-            "C": "سیاحت",
-            "D": "دولت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 27143,
-        "question": "بنیادی جمہوریتوں کا حکم نامہ کس نے جاری کیا؟",
-        "options": {
-            "A": "ضیاء الحق",
-            "B": "فاروق احمد خان",
-            "C": "ایوب خان",
-            "D": "پرویز مشرف"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 10055,
-        "question": "گوشوارہ تطبیق تیار کرتا ہے :",
-        "options": {
-            "A": "بینکار",
-            "B": "گاہک",
-            "C": "آڈیٹر",
-            "D": "منیجر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 10319,
-        "question": "اگر مال برآمد کرنے کی غرض سے دوسرے ملک سے خریدا جائے تو اسے کہتے ہیں۔",
-        "options": {
-            "A": "برآمدی تجارت",
-            "B": "درآمدی تجارت",
-            "C": "انٹرپاٹ تجارت",
-            "D": "ان میں سے کوئی نہیں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "catch_all"
-        ],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 19779,
-        "question": "ویب پیج میں پیرا گراف داخل کرنے کے لیے کون سا ٹیگ استعمال ہوتا ہے۔",
-        "options": {
-            "A": "<HR>",
-            "B": "<BR>",
-            "C": "<TITLE>",
-            "D": "<P>"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 19998,
-        "question": "الگور تھم میں کنڈیشن کو جانچنے کے لیے استعمال ہوتا ہے۔",
-        "options": {
-            "A": "سٹارٹ",
-            "B": "اف ایلس",
-            "C": "سیٹ",
-            "D": "گو ٹو"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 27848,
-        "question": "کون سا فنکشن ASCII کوڈز کو متبادل کریکٹر میں تبدیل کرنے کے لئے استعمال ہوتا ہے :",
-        "options": {
-            "A": "CHAR $ ( )",
-            "B": "CHR",
-            "C": "CHAR",
-            "D": "CHR $ ( )"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 7685,
-        "question": "اجارہ داری کے تحت مختتم وصولی کا خط ہوتا ہے",
-        "options": {
-            "A": "مثبت",
-            "B": "منفی",
-            "C": "‏OX کے متوازی",
-            "D": "‏OY کے متوازی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 13240,
-        "question": "پاکستان میں ڈرائی پورٹس کی تعداد ہے :",
-        "options": {
-            "A": "10",
-            "B": "5",
-            "C": "8",
-            "D": "15"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 7410,
-        "question": "معین رسد پر طلب زیادہ ہو جائے تو قیمت ہو جاتی ہے",
-        "options": {
-            "A": "کم",
-            "B": "زیادہ",
-            "C": "برابر",
-            "D": "صفر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 11929,
-        "question": "پے ۔ ان ۔ سلپ تحریری ثبوت ہے :",
-        "options": {
-            "A": "رقم بھجوانے کا",
-            "B": "رقم جمع کروانے کا",
-            "C": "رقم نکلوانے کا",
-            "D": "رقم ضائع کرنے کا"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 9102,
-        "question": "توارثی خوبیاں بچہ حاصل کرتا ہے۔",
-        "options": {
-            "A": "ماحول",
-            "B": "والدین",
-            "C": "دوستوں",
-            "D": "اساتذہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 8066,
-        "question": "‏____ انسان کو اعلیٰ درجے کا حیوان سمجھتا تھا۔",
-        "options": {
-            "A": "علامہ محمد اقبال (RA)",
-            "B": "جان ڈیوی",
-            "C": "ارسطو",
-            "D": "سقراط"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 9032,
-        "question": "ایسی تعلیم جس کا اہتمام تعلیمی اداروں میں کیا جاتا ہے، کہلاتی ہے۔",
-        "options": {
-            "A": "پیشہ ورانہ تعلیم",
-            "B": "عام تعلیم",
-            "C": "فنی تعلیم",
-            "D": "تعلیمِ اساتذہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 5120,
-        "question": "کنفیوشس پیدا ہوئے",
-        "options": {
-            "A": "ایران",
-            "B": "چین",
-            "C": "عراق",
-            "D": "بھارت"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "short_question"
-        ],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 1501,
-        "question": "پودوں کے پتوں میں پائے جانے والے سبز مادہ کلوروفل میں کون سا عنصر موجود ہوتا ہے؟",
-        "options": {
-            "A": "سوڈیم",
-            "B": "کیلشیم",
-            "C": "آئرن",
-            "D": "میگنیشیم"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 28772,
-        "question": "چارج کو سٹور کرنے والا آلہ ہے :",
-        "options": {
-            "A": "وولٹ میٹر",
-            "B": "ایمیٹر",
-            "C": "کپیسیٹر",
-            "D": "رزسٹر"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 28969,
-        "question": "کرنٹ ماپنے والے آلے کا نام ہے:",
-        "options": {
-            "A": "اوہم میٹر",
-            "B": "ایمیٹر",
-            "C": "گیلوانو میٹر",
-            "D": "وولٹ میٹر"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 14883,
-        "question": "جنوبی امریکہ کے طبعی خطے ہیں۔",
-        "options": {
-            "A": "دو",
-            "B": "تین",
-            "C": "چار",
-            "D": "پانچ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 14601,
-        "question": "برطانیہ میں ایندھن توانائی کا کتنے فیصد کوئلے سے حاصل ہوتا ہے :",
-        "options": {
-            "A": "‏20 فیصد",
-            "B": "‏25 فیصد",
-            "C": "‏30 فیصد",
-            "D": "‏35 فیصد"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 9604,
-        "question": "ہوا میں نائٹروجن کی فیصد مقدار بلحاظ حجم ہے:",
-        "options": {
-            "A": "0.03%",
-            "B": "20.99%",
-            "C": "78.03%",
-            "D": "99.99%"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 3649,
-        "question": "والی بال کورٹ میں لمبائی کی لائن ____ لائن کہلاتی ہے۔",
-        "options": {
-            "A": "اینڈ",
-            "B": "سائیڈ",
-            "C": "درمیانی",
-            "D": "اٹیک"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 5321,
-        "question": "‏100×4 میٹر دوڑ میں ایک ٹیم چھے کھلاڑیوں پر مشتمل ہوتی ہے جبکہ مقابلے میں حصہ لیتے ہیں۔",
-        "options": {
-            "A": "‏2 کھلاڑی",
-            "B": "‏3 کھلاڑی",
-            "C": "‏4 کھلاڑی",
-            "D": "‏5 کھلاڑی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 5201,
-        "question": "پودے جذب کرتے ہیں",
-        "options": {
-            "A": "نائٹروجن",
-            "B": "کاربن ڈائی آکسائیڈ",
-            "C": "ہائیڈروجن",
-            "D": "کلورین"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 5470,
-        "question": "اونی ریشے لمبائی میں ہوتے ہیں:",
-        "options": {
-            "A": "بہت بڑے",
-            "B": "چھوٹے بڑے",
-            "C": "چھوٹے",
-            "D": "لمبے"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 5513,
-        "question": "ریشہ کپڑوں کی تیاری کا ____ جز ہے۔",
-        "options": {
-            "A": "بنیادی",
-            "B": "اہم",
-            "C": "مکمل",
-            "D": "ثانوی"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 2375,
-        "question": "حجۃ الوداع سے مراد آپ صلی اللہ علیہ وسلم (خاتم النبیین) کا کون سا حج ہے؟",
-        "options": {
-            "A": "پانچواں",
-            "B": "دسواں",
-            "C": "بیسواں",
-            "D": "آخری"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 2947,
-        "question": "مساوات y=c کی شکل میں گراف پر y محد کیا ہوتا ہے؟",
-        "options": {
-            "A": "1",
-            "B": "c",
-            "C": "0",
-            "D": "-1"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 22835,
-        "question": "کسی مثلث کے تینوں اضلاع کے عمودی ناصف ____ ہوتے ہیں۔",
-        "options": {
-            "A": "ہم خط",
-            "B": "غیر متماثل",
-            "C": "متوازی",
-            "D": "ہم نقطہ"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 23144,
-        "question": "اگر $a^x = n$ ہو تو",
-        "options": {
-            "A": "$a = \\log_n^x$",
-            "B": "$x = \\log_a^n$",
-            "C": "$x = \\log_n^a$",
-            "D": "$a = \\log_x^n$"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 30115,
-        "question": "ایک خط جس کے دائرے کے ساتھ دو نقاط مشترک ہوں، کہتے ہیں۔",
-        "options": {
-            "A": "دائرے کا sine",
-            "B": "دائرے کا cosine",
-            "C": "دائرے کا Secant",
-            "D": "دائرے کا Tangent"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 5675,
-        "question": "معاشی ترقی کی رفتار کو تیز کرنے کے لیے 1960ء میں کونسا منصوبہ شروع کیا گیا؟",
-        "options": {
-            "A": "پہلا پانچ سالہ منصوبہ",
-            "B": "دوسرا پانچ سالہ منصوبہ",
-            "C": "تیسرا پانچ سالہ منصوبہ",
-            "D": "چوتھا پانچ سالہ منصوبہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 15769,
-        "question": "کس آئینی ترمیم میں NWFP کو خیبر پختونخوا کا نام دیا گیا :",
-        "options": {
-            "A": "چودھویں",
-            "B": "اٹھارہویں",
-            "C": "بیسویں",
-            "D": "بائیسویں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 4433,
-        "question": "کانگریسی دورِ حکومت کا خاتمہ ہوا:",
-        "options": {
-            "A": "‏1935ء",
-            "B": "‏1937ء",
-            "C": "‏1939ء",
-            "D": "‏1941ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 24109,
-        "question": "ورک صفر ہو گا اگر فورس اور فاصلہ کے درمیان زاویہ ہے :",
-        "options": {
-            "A": "90°",
-            "B": "45°",
-            "C": "60°",
-            "D": "180°"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 23936,
-        "question": "اگر سیلسیس سکیل پر ٹمپریچر 20°C ہو تو کیلون سکیل پر ٹمپریچر ہو گا۔",
-        "options": {
-            "A": "273 K",
-            "B": "293 K",
-            "C": "300 K",
-            "D": "373 K"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 24454,
-        "question": "ایک جول برابر ہے۔",
-        "options": {
-            "A": "1J = 1N.1m",
-            "B": "1J = 1N.1S",
-            "C": "1J = 1N.1h",
-            "D": "1J = 1N.1m2"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 11194,
-        "question": "یونگ کے مطابق سماجی تعامل رکھنے والی شخصیت کہلاتی ہے:",
-        "options": {
-            "A": "اندرون بین",
-            "B": "دروں بین",
-            "C": "ٹائپ بی شخصیت",
-            "D": "بیرون بین"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 16531,
-        "question": "کونسے ادارے درست اور غلط کا فرق بتاتے ہیں :",
-        "options": {
-            "A": "مذہبی",
-            "B": "معاشی",
-            "C": "صحت",
-            "D": "سیاسی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 11878,
-        "question": "کس کا کا منصب مریض کا علاج کرنا ہے؟",
-        "options": {
-            "A": "پروفیسر",
-            "B": "ڈاکٹر",
-            "C": "انجینئر",
-            "D": "پائلٹ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_181",
-        "is_iaa": false
-    },
-    {
-        "id": 11454,
-        "question": "شہروں کی ثقافت ہے:",
-        "options": {
-            "A": "پیچیدہ",
-            "B": "سادہ",
-            "C": "قدیم",
+            "B": "جوس",
+            "C": "گنے کا رس",
             "D": "یہ تمام"
         },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "domain": "STEM",
+        "subdomain": "general science",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21699,
+        "question": "ایک گرام فیٹس سے انرجی کی یہ مقدار حاصل ہوتی ہے",
+        "options": {
+            "A": "‏09 کلو کیلوری",
+            "B": "‏18 کلو کیلوری",
+            "C": "‏36 کلو کیلوری",
+            "D": "‏27 کلو کیلوری"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21195,
+        "question": "چیزوں کو دوبارہ قابلِ استعمال بنانے کا عمل ہے :",
+        "options": {
+            "A": "فر مینٹیشن",
+            "B": "پولیمرائزیشن",
+            "C": "کیٹینیشن",
+            "D": "ری سائیکلنگ"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21008,
+        "question": "پودوں میں میگنیشیم کی مقدار ہوتی ہے:",
+        "options": {
+            "A": "‏0.2 سے 0.4%",
+            "B": "‏0.1 سے 0.4%",
+            "C": "‏0.01 سے 0.4%",
+            "D": "‏0.3 سے 0.4%"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29122,
+        "question": "انرجی جو نروس سسٹم استعمال کرتا ہے۔",
+        "options": {
+            "A": "روشنی",
+            "B": "الیکٹریکل",
+            "C": "کیمیکل",
+            "D": "الیکٹرو کیمیکل"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21287,
+        "question": "جسم میں پانی کے بعد سب سے زیادہ مقدار ہوتی ہے",
+        "options": {
+            "A": "وٹامنز کی",
+            "B": "کاربو ہائیڈریٹس کی",
+            "C": "منرلز کی",
+            "D": "پروٹینز کی"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21274,
+        "question": "ایٹماسفیئر کی سب سے باہر والی تہہ کا درجہ حرارت ہوتا ہے",
+        "options": {
+            "A": "1000°C",
+            "B": "4000°C",
+            "C": "3000°C",
+            "D": "2000°C"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 28837,
+        "question": "کمپیوٹر کے جن آلات کو مادی طور پر چھوا جاسکے، کہلاتے ہیں:",
+        "options": {
+            "A": "وڈوئیر",
+            "B": "سافٹ ویئر",
+            "C": "ہارڈوئیر",
+            "D": "گلاس ویئر"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21759,
+        "question": "ایک گرام فیٹس سے انرجی کی جو مقدار حاصل ہوتی ہے:",
+        "options": {
+            "A": "‏9.3 کلو کیلوری",
+            "B": "‏18 کلو کیلوری",
+            "C": "‏27 کلو کیلوری",
+            "D": "‏38 کلو کیلوری"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21994,
+        "question": "ٹروپو سفیئر تہہ سطح زمین سے ____ کلو میٹر تک پھیلی ہوئی ہے۔",
+        "options": {
+            "A": "‏18 کلو میٹر",
+            "B": "‏200 کلو میٹر",
+            "C": "‏28 کلو میٹر",
+            "D": "‏150 کلو میٹر"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 709,
+        "question": "سطح مرتفع تبت کی بلندی ____ ہے۔",
+        "options": {
+            "A": "4500m",
+            "B": "5000m",
+            "C": "5500m",
+            "D": "6000m"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 28782,
+        "question": "ایک برٹش تھرمل یونٹ برابر ہوتا ہے:",
+        "options": {
+            "A": "‏1045 جول",
+            "B": "‏1055 جول",
+            "C": "‏1065 جول",
+            "D": "‏1075 جول"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21494,
+        "question": "‏____ ، براڈ سپیکٹرم اینٹی بائیوٹکس کہلاتی ہے۔",
+        "options": {
+            "A": "ٹیٹرا سائیکلین",
+            "B": "پینسلین",
+            "C": "سیفیلو سپورنز",
+            "D": "اریتھرو مائی سینز"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 28994,
+        "question": "ایسا کرنٹ جو ہمیشہ ایک ہی سمت میں چلتا ہے",
+        "options": {
+            "A": "کنونشنل کرنٹ",
+            "B": "ڈائریکٹ کرنٹ",
+            "C": "الٹرنیٹنگ کرنٹ",
+            "D": "الیکٹرونز"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 22316,
+        "question": "ایٹما سفیئر کی موٹائی ____ کلومیٹر ہے۔",
+        "options": {
+            "A": "200",
+            "B": "1000",
+            "C": "1200",
+            "D": "1600"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21241,
+        "question": "میٹا بولزم کتنے حصوں پر مشتمل ہوتا ہے۔",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29674,
+        "question": "این۔ٹائپ سیمی کنڈکٹرز میں کرنٹ گزرنے کی وجہ ہے۔",
+        "options": {
+            "A": "آزاد الیکٹرونز",
+            "B": "پروٹونز",
+            "C": "نیوٹرونز",
+            "D": "ہولز"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21196,
+        "question": "فاسد مادے جو ماحول کی آلودگی کا باعث بنتے ہیں کہلاتے ہیں :",
+        "options": {
+            "A": "پولیوشنٹس",
+            "B": "زہر",
+            "C": "کارسینو جینز",
+            "D": "منرلز"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21357,
+        "question": "البیرونی نے ریاضی پر ____ کتابیں تحریر کیں۔",
+        "options": {
+            "A": "140",
+            "B": "150",
+            "C": "160",
+            "D": "170"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 2964,
+        "question": "دن اور رات کا بننا ____ کا نتیجہ ہے۔",
+        "options": {
+            "A": "زمین کی محوری گردش",
+            "B": "زمین کی مداری گردش",
+            "C": "سورج گرہن",
+            "D": "چاند گرہن"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 2186,
+        "question": "‏100 گرام آلو میں کتنی کیلوریز ہوتی ہیں؟",
+        "options": {
+            "A": "50",
+            "B": "70",
+            "C": "80",
+            "D": "100"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29044,
+        "question": "فوسل فیولز جلانے سے کون سی پاور حاصل ہوتی ہے؟",
+        "options": {
+            "A": "تھرمل",
+            "B": "سولر",
+            "C": "نیوکلئیر",
+            "D": "ہائیڈرو الیکٹرک"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 28905,
+        "question": "الٹراساؤنڈ کی فریکوئنسی کتنی ہوتی ہے :",
+        "options": {
+            "A": "‏20 Hz سے کم",
+            "B": "20 Hz",
+            "C": "20 KHz",
+            "D": "‏20 KHz سے زیادہ"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21703,
+        "question": "یہ ایک تعمیری عمل ہے",
+        "options": {
+            "A": "انا بولزم",
+            "B": "کیٹا بولزم",
+            "C": "ہیمو بولزم",
+            "D": "ہومو بولزم"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 22111,
+        "question": "پاکستان میں ۔۔۔۔۔۔۔۔۔۔۔۔۔ مختلف اقسام کی مچھلیاں پائی جاتی ہیں",
+        "options": {
+            "A": "400",
+            "B": "1000",
+            "C": "500",
+            "D": "700"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21473,
+        "question": "ماحولیاتی آلودگی کی اقسام ہیں:",
+        "options": {
+            "A": "2",
+            "B": "4",
+            "C": "3",
+            "D": "5"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 28825,
+        "question": "کمپیوٹر کو کام کرنے کیلئے الیکٹرونک طریقے سے دی جانے والی ہدایات کہلاتی ہیں:",
+        "options": {
+            "A": "ہارڈ وئیر",
+            "B": "ہارڈ ڈسک",
+            "C": "سافٹ وئیر",
+            "D": "کمپیکٹ ڈسک"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29595,
+        "question": "سپار کو قائم ہوا",
+        "options": {
+            "A": "‏1956 میں",
+            "B": "‏1961 میں",
+            "C": "‏1973 میں",
+            "D": "‏1990 میں"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29721,
+        "question": "ہنری بیکورل نے ریڈیو ایکٹیویٹی کا عمل ____ میں دریافت کیا۔",
+        "options": {
+            "A": "‏1696ء",
+            "B": "‏1796ء",
+            "C": "‏1896ء",
+            "D": "‏1996ء"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21206,
+        "question": "کالرا ایک بیماری ہے :",
+        "options": {
+            "A": "وائرس سے",
+            "B": "بیکٹیریا سے",
+            "C": "فنگس سے",
+            "D": "پیرا سائیٹ سے"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21729,
+        "question": "جدید دور کی ایجاد کہلاتی ہے :",
+        "options": {
+            "A": "ریاضی",
+            "B": "کمپیوٹر",
+            "C": "میڈیسن",
+            "D": "فزکس"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 22387,
+        "question": "جانوروں کے متعلق علم کہلاتا ہے۔",
+        "options": {
+            "A": "باٹنی",
+            "B": "علم فلکیات",
+            "C": "زراعت",
+            "D": "زوالوجی"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29447,
+        "question": "پی ٹائپ سیمی کنڈ کٹرز میں زیادہ تر کرنٹ کا ذریعہ ہے۔",
+        "options": {
+            "A": "آزاد الیکٹرونز",
+            "B": "آزاد پروٹونز",
+            "C": "پازٹیو آئنز",
+            "D": "ہولز"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 28883,
+        "question": "اوہم کے قانون میں کونسٹنٹ رہتا ہے :",
+        "options": {
+            "A": "رزسٹنس",
+            "B": "کرنٹ",
+            "C": "چارج",
+            "D": "پوٹینشل ڈفرنس"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
         "source_url": [
             ""
         ],
@@ -1145,16 +945,108 @@
         "is_iaa": false
     },
     {
-        "id": 2224,
-        "question": "لفظ 'کل' بہ معنی 'آنے والا دن اور پرزہ' قواعد کی رو سے کیا ہے؟",
+        "id": 29411,
+        "question": "توانائی کا یونٹ ہے:",
         "options": {
-            "A": "ذومعنی",
-            "B": "مترادف",
-            "C": "متضاد",
-            "D": "محاورہ"
+            "A": "جول",
+            "B": "گرام",
+            "C": "میٹر",
+            "D": "کلو گرام"
         },
-        "domain": "Humanities",
-        "subdomain": "urdu literature",
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29259,
+        "question": "ایٹم کے نیوکلیئس سے ریڈی ایشنز کا اخراج کہلاتا ہے۔",
+        "options": {
+            "A": "اٹامک ری ایکشن",
+            "B": "ریڈیو ایکٹیویٹی",
+            "C": "کیمیکل ری ایکشن",
+            "D": "بائیو کیمیکل ری ایکشن"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29273,
+        "question": "لیزرز جس سے آجکل موتیا اور گلوکوما کے آپریشن کیے جا رہے ہیں، وہ ہے :",
+        "options": {
+            "A": "آرگون",
+            "B": "کاربن",
+            "C": "روبی کرسٹل",
+            "D": "گلاس کرسٹل"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 22367,
+        "question": "جس بیماری سے نروس سیلز تباہ ہو جاتے ہیں:",
+        "options": {
+            "A": "ٹی بی",
+            "B": "فلو",
+            "C": "پولیو",
+            "D": "ٹائیفائیڈ"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 2184,
+        "question": "ایک گرام لحمیات سے کتنے کیلوری توانائی حاصل ہوتی ہے؟",
+        "options": {
+            "A": "3.1",
+            "B": "4.1",
+            "C": "6.1",
+            "D": "8.1"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -1164,6 +1056,98 @@
         ],
         "quality_flags": [],
         "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29010,
+        "question": "ریزسٹنس کا یونٹ ہے",
+        "options": {
+            "A": "میٹر فی سیکنڈ",
+            "B": "جول",
+            "C": "واٹ",
+            "D": "اوہم"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21611,
+        "question": "پاکستان میں ہر ____ میں سے ایک شخص ہیپا ٹائٹس بی وائرس کا کیرئیر ہے۔",
+        "options": {
+            "A": "دس",
+            "B": "بیس",
+            "C": "پچاس",
+            "D": "سو"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 29124,
+        "question": "پاور پلگز کے لیے کتنے ایمپیئر کا فیوز استعمال ہوتا ہے؟",
+        "options": {
+            "A": "11",
+            "B": "13",
+            "C": "15",
+            "D": "17"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_181",
+        "is_iaa": false
+    },
+    {
+        "id": 21344,
+        "question": "موسمی غباروں میں استعمال ہونے والی گیس ہے۔",
+        "options": {
+            "A": "نائٹروجن",
+            "B": "آکسیجن",
+            "C": "کلورین",
+            "D": "ہیلیم"
+        },
+        "domain": "STEM",
+        "subdomain": "general science",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
         "batch_id": "batch_181",
         "is_iaa": false
     }

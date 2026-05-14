@@ -1,21 +1,21 @@
 [
     {
-        "id": 2806,
-        "question": "موہنجوداڑو کا بڑا حمام ____ میں دریافت ہوا۔",
+        "id": 18573,
+        "question": "‏N شیل میں سب شیلز کی تعداد ہے :",
         "options": {
-            "A": "1920",
-            "B": "1922",
-            "C": "1926",
-            "D": "1930"
+            "A": "ایک",
+            "B": "دو",
+            "C": "تین",
+            "D": "چار"
         },
-        "domain": "Humanities",
-        "subdomain": "art and drawing",
+        "domain": "STEM",
+        "subdomain": "chemistry",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
         "source_url": [],
         "source": [
-            "FBISE"
+            "Ustad 360"
         ],
         "quality_flags": [],
         "length_tier": "short",
@@ -23,16 +23,87 @@
         "is_iaa": false
     },
     {
-        "id": 25097,
-        "question": "بکری گھاس کھاتی ہے۔ اس کا ٹرافک لیول کونسا ہے ؟",
+        "id": 19025,
+        "question": "درج ذیل میں کونسا ٹرائی اٹامک مالیکیول ہے؟",
         "options": {
-            "A": "پرائمری کنزیومر",
-            "B": "سیکنڈری کنزیومر",
-            "C": "ڈی کمپوزر",
-            "D": "پروڈیوسر"
+            "A": "H2",
+            "B": "N2",
+            "C": "H2O",
+            "D": "Co"
         },
         "domain": "STEM",
-        "subdomain": "biology",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26294,
+        "question": "جب NaHCO3 کو گرم کیا جاتا ہے تو یہ بن جاتا ہے۔",
+        "options": {
+            "A": "CO2",
+            "B": "Ca(OH)2",
+            "C": "CaCO3",
+            "D": "CaO"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26903,
+        "question": "مندرجہ ذیل میں سے کونسا ٹرائی گلیسرائڈ ہے؟",
+        "options": {
+            "A": "کاربوہائیڈریٹس",
+            "B": "پروٹینز",
+            "C": "لپڈز",
+            "D": "وٹامنز"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26394,
+        "question": "بلیڈنگ کو روکنے کے لیے دوا کے طور پر کون سے آرگنک کمپاؤنڈز استعمال کیے جاتے ہیں ؟",
+        "options": {
+            "A": "وٹامنز",
+            "B": "پروٹینز",
+            "C": "لپڈز",
+            "D": "گلیسرائڈز"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -46,16 +117,16 @@
         "is_iaa": false
     },
     {
-        "id": 25899,
-        "question": "کارٹی لیج کے سیلز کہلاتے ہیں۔",
+        "id": 26086,
+        "question": "فوٹوسنتھیسز کا عمل دیتا ہے۔",
         "options": {
-            "A": "اوسٹیو سائٹس",
-            "B": "کانڈروسائٹس",
-            "C": "اوسٹیو کلاسٹس",
-            "D": "اوسٹیو بلاسٹس"
+            "A": "سٹارچ",
+            "B": "سیلولوز",
+            "C": "سکروز",
+            "D": "گلوکوز"
         },
         "domain": "STEM",
-        "subdomain": "biology",
+        "subdomain": "chemistry",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -69,16 +140,85 @@
         "is_iaa": false
     },
     {
-        "id": 17261,
-        "question": "سیل کی پروگرام کے مطابق موت کہلاتی ہے۔",
+        "id": 26048,
+        "question": "ان میں سے کونسا ایک سیچوریٹڈ ہائیڈروکاربن ہے؟",
         "options": {
-            "A": "ایپ اپٹوسس",
-            "B": "نیکروسس",
-            "C": "مائی ٹوسس",
-            "D": "می اوسس"
+            "A": "C2H4",
+            "B": "C3H6",
+            "C": "C4H8",
+            "D": "C5H12"
         },
         "domain": "STEM",
-        "subdomain": "biology",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26263,
+        "question": "ان میں سے کون سا ساچوریٹڈ ہائیڈرو کاربن ہے؟",
+        "options": {
+            "A": "C2H4",
+            "B": "C3H6",
+            "C": "C5H12",
+            "D": "C4H8"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18271,
+        "question": "کسی کیمیکل ری ایکشن کے دوران الیکٹرون خارج کرنے کو ____ کہتے ہیں۔",
+        "options": {
+            "A": "بانڈ",
+            "B": "آکسیڈیشن",
+            "C": "مکسچر",
+            "D": "ایلیمنٹ"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18222,
+        "question": "ان میں سے کونسا طاقتور الیکٹرولائٹ ہے؟",
+        "options": {
+            "A": "شوگر کا سلوشن",
+            "B": "بینزین",
+            "C": "‏Ca(OH)2 کا سلوشن",
+            "D": "‏NaOH کا سلوشن"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -92,13 +232,870 @@
         "is_iaa": false
     },
     {
-        "id": 18734,
-        "question": "ٹرپل کو ویلینٹ بانڈ میں کتنے الیکٹرونز حصہ لیتے ہیں؟",
+        "id": 18755,
+        "question": "کون سا کمزور الیکٹرولائٹ ہے؟",
         "options": {
-            "A": "6",
+            "A": "NaOH",
+            "B": "H2SO4",
+            "C": "NaCl",
+            "D": "CH3COOH"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 27052,
+        "question": "دیئے گئے ری ایکشن کیلئے ایکوی لبریم کونسٹنٹ ایکسپریشن Kc ہے: N2(g) + 3H2(g) ⇌ 2NH3(g)",
+        "options": {
+            "A": "[N2][3H2] / 2NH3",
+            "B": "2NH3 / [N2][3H2]",
+            "C": "[NH3]^2 / [N2][H2]^3",
+            "D": "[N2][H2]^3 / [NH3]^2"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 19217,
+        "question": "‏KClO3 میں کلورین (Cl) کا آکسیڈیشن نمبر ہے :",
+        "options": {
+            "A": "+7",
+            "B": "+6",
+            "C": "+5",
+            "D": "+4"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26079,
+        "question": "ری ایکشن کے لیے 2A(g) + B(g) ⇌ 3C(g) ایکوی لبریم کانسٹنٹ ایکسپریشن درست ہے۔",
+        "options": {
+            "A": "[2A][B] / [3C]",
+            "B": "[A]2[B] / [C]3",
+            "C": "[3C] / [2A][B]",
+            "D": "[C]3 / [A]2[B]"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 27023,
+        "question": "ایتھائل ریڈیکل کا فارمولا ہے :",
+        "options": {
+            "A": "$C_3H_7 -$",
+            "B": "$C_2H_5 -$",
+            "C": "$C_2H_4$",
+            "D": "$C_3H_6 -$"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26764,
+        "question": "الکینز کو الکوحلز سے کس پروسس کے تحت تیار کیا جاتا ہے؟",
+        "options": {
+            "A": "ڈی ہائیڈروجینیشن",
+            "B": "ڈی ہالوجینیشن",
+            "C": "ڈی ہائیڈریشن",
+            "D": "ڈی ہائیڈروہالوجینیشن"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 1726,
+        "question": "‏NaCl کی تشکیل میں سوڈیم ایٹم کتنے الیکٹران چھوڑ دیتا ہے؟",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26571,
+        "question": "گیس زمین کی سطح کو الٹراوائلٹ ریڈی ایشن سے محفوظ رکھتی ہے:",
+        "options": {
+            "A": "CO2",
+            "B": "CO",
+            "C": "N2",
+            "D": "O3"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26579,
+        "question": "کلوروفارم کا فارمولا ہے:",
+        "options": {
+            "A": "CH4",
+            "B": "CHCl3",
+            "C": "CCl4",
+            "D": "CH3Cl"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18319,
+        "question": "درج ذیل میں سے کون سی چیز ہیٹر وجینیس مکسچر ہے؟",
+        "options": {
+            "A": "ہوا",
+            "B": "چٹان",
+            "C": "گیسولین",
+            "D": "آئس کریم"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26241,
+        "question": "مندرجہ ذیل میں ایمفوٹیرک ہے :",
+        "options": {
+            "A": "BF_3",
+            "B": "NaCl",
+            "C": "H_2O",
+            "D": "SO_4^{2-}"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26732,
+        "question": "ایسے ری ایکشنز جن میں ایکوی لبریم کی حالت میں ری ایکٹنٹس اور پراڈکٹس کی مقداریں کافی ہوں تو ان کی",
+        "options": {
+            "A": "‏Kc کی ویلیو بہت چھوٹی ہوتی ہے",
+            "B": "‏Kc کی ویلیو بہت بڑی ہوتی ہے",
+            "C": "‏Kc کی کوئی ویلیو نہیں ہوتی",
+            "D": "‏Kc کی ویلیو درمیانی ہوتی ہے"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26526,
+        "question": "‏(11) یوریا کا فارمولا کون سا ہے؟",
+        "options": {
+            "A": "NH2COONH4",
+            "B": "NH2COONH2",
+            "C": "NH2CONH4",
+            "D": "NH2CONH2"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18190,
+        "question": "مندرجہ ذیل میں سے کون سا پولی اٹامک مالیکیول ہے :",
+        "options": {
+            "A": "CO2",
+            "B": "HCl",
+            "C": "H2O",
+            "D": "CH4"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18434,
+        "question": "‏CO2 کے 8 گرامز میں مولز کے برابر ہوتے ہیں۔",
+        "options": {
+            "A": "0.15",
+            "B": "0.18",
+            "C": "0.21",
+            "D": "0.24"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 19081,
+        "question": "مندرجہ ذیل میں سے کس ہیلوجن کی الیکٹرو نیگیٹیویٹی سب سے کم ہے؟",
+        "options": {
+            "A": "فلورین",
+            "B": "کلورین",
+            "C": "برومین",
+            "D": "آیوڈین"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18729,
+        "question": "‏HNO3 میں نائٹروجن کا آکسیڈیشن نمبر ہے۔",
+        "options": {
+            "A": "+3",
+            "B": "+4",
+            "C": "+6",
+            "D": "+5"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26122,
+        "question": "کون سی گیس گرین ہاؤس گیس کہلاتی ہے؟",
+        "options": {
+            "A": "CO2",
+            "B": "CO",
+            "C": "N2",
+            "D": "O3"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26044,
+        "question": "جب $NaHCO_3$ کو گرم کیا جاتا ہے تو یہ بن جاتا ہے۔",
+        "options": {
+            "A": "$CO_2$",
+            "B": "$Ca(OH)_2$",
+            "C": "$CaCO_3$",
+            "D": "$CaO$"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26277,
+        "question": "کاربن ایٹمز کی چین بنانے کی صلاحیت کو کہتے ہیں۔",
+        "options": {
+            "A": "آئسو مریزم",
+            "B": "کیٹی نیشن",
+            "C": "ریزونینس",
+            "D": "کنڈنسیشن"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18263,
+        "question": "میٹلز آکسیجن کے ساتھ ری ایکشن کر کے ____ بناتی ہیں۔",
+        "options": {
+            "A": "ایسڈک آکسائیڈز",
+            "B": "بیسک آکسائیڈز",
+            "C": "ایمفوٹیرک آکسائیڈز",
+            "D": "کاربن ڈائی آکسائیڈ"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26208,
+        "question": "‏____ پٹرولیم کی فریکشن نہیں ہے۔",
+        "options": {
+            "A": "کیروسین آئل",
+            "B": "ڈیزل آئل",
+            "C": "الکوحل",
+            "D": "پٹرول"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26989,
+        "question": "ایک ایسڈ اور بیس کے درمیان ری ایکشن سے بنتا ہے",
+        "options": {
+            "A": "نمک اور پانی",
+            "B": "نمک اور گیس",
+            "C": "نمک اور تیزاب",
+            "D": "نمک اور بیس"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18631,
+        "question": "درج ذیل میں سے جو کمپاؤنڈ پانی میں حل پذیر ہے۔",
+        "options": {
+            "A": "C2H2",
+            "B": "CH4",
+            "C": "NaCl",
+            "D": "C6H6"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26375,
+        "question": "ایک سالٹ میں نہیں ہوتا۔",
+        "options": {
+            "A": "میٹلک کیٹائن",
+            "B": "نان میٹلک اینائن",
+            "C": "بیس کا اینائن",
+            "D": "ایسڈ کا اینائن"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26757,
+        "question": "وٹامن-D کی کمی سے ____ بیماری لاحق ہو جاتی ہے۔",
+        "options": {
+            "A": "نائٹ بلائنڈنیس",
+            "B": "سوکھے کی بیماری",
+            "C": "آنکھوں کی جلن /سوجن",
+            "D": "یرقان"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26601,
+        "question": "ڈائیلوٹ ایسڈز کاربونیٹس کے ساتھ ری ایکشن کر کے درج ذیل میں سے کون سا پروڈکٹ نہیں بناتے؟",
+        "options": {
+            "A": "سالٹ",
+            "B": "پانی",
+            "C": "کاربن ڈائی آکسائیڈ",
+            "D": "ہایئڈروجن"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18913,
+        "question": "مائعات گیسوں سے ____ گنا بھاری ہوتے ہیں۔",
+        "options": {
+            "A": "100",
+            "B": "1000",
+            "C": "10000",
+            "D": "100000"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18691,
+        "question": "ایک ایٹم جس پر نیگیٹو چارج ہو کہلاتا ہے:",
+        "options": {
+            "A": "کیٹائن",
+            "B": "ایٹم",
+            "C": "اینائن",
+            "D": "ریڈیکل"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 1727,
+        "question": "بڑے ہائیڈروکاربن کو چھوٹے ہائیڈروکاربن میں توڑنے کے لیے درکار درجہ حرارت:",
+        "options": {
+            "A": "170°C",
+            "B": "200–250°C",
+            "C": "450–750°C",
+            "D": "2000°C"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26823,
+        "question": "مالٹوز عام طور پر ____ میں پایا جاتا ہے۔",
+        "options": {
+            "A": "دودھ",
+            "B": "اناج",
+            "C": "ڈیری پروڈکٹس",
+            "D": "کاٹن"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 27075,
+        "question": "ہائیڈروکاربن 'X' کے ایک مول کے ساتھ ہائیڈروجن کا ایک مول ری ایکٹ کر کے سیچوریٹڈ ہائیڈرو کاربن بناتا ہے۔ 'X' کا فارمولا کیا ہوگا۔",
+        "options": {
+            "A": "C3H8",
+            "B": "C6H12",
+            "C": "C4H10",
+            "D": "C7H16"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26636,
+        "question": "سلفیورک ایسڈ کا کنجوگیٹ بیس ہے؟",
+        "options": {
+            "A": "SO3−2",
+            "B": "S−2",
+            "C": "HSO3−",
+            "D": "HSO4−"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 19168,
+        "question": "لانگ فارم آف پیریاڈک ٹیبل کا دوسرا اور تیسرا پیریڈ کہلاتے ہیں",
+        "options": {
+            "A": "شارٹ پیریڈز",
+            "B": "لانگ پیریڈز",
+            "C": "نارمل پیریڈز",
+            "D": "ویری لانگ پیریڈز"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 19017,
+        "question": "ملک آف میگنیشیا ایک مثال ہے:",
+        "options": {
+            "A": "ایک سلوشن کی",
+            "B": "ایک کولائڈ کی",
+            "C": "سیچوریٹڈ سلوشن کی",
+            "D": "سپنشن کی"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 19166,
+        "question": "‏k- شیل میں کتنے الیکٹرون سما سکتے ہیں ؟",
+        "options": {
+            "A": "2",
             "B": "8",
-            "C": "4",
-            "D": "3"
+            "C": "18",
+            "D": "32"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 573,
+        "question": "‏1s2, 2s2, 2p6, 3s2, 3p5 — کلورین (Cl) کی الیکٹرانی ترتیب کو مدنظر رکھتے ہوئے پیریڈک ٹیبل (Table) میں اس کی پوزیشن معلوم کریں۔",
+        "options": {
+            "A": "پیریڈ=2، گروپ=5",
+            "B": "پیریڈ=3، گروپ=2",
+            "C": "پیریڈ=3، گروپ=7",
+            "D": "پیریڈ=5، گروپ=2"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 18324,
+        "question": "درج ذیل میں سے کون سا کمپاؤنڈ پانی میں حل پذیر ہے؟",
+        "options": {
+            "A": "CH4",
+            "B": "C2H2",
+            "C": "NaCl",
+            "D": "C6H6"
         },
         "domain": "STEM",
         "subdomain": "chemistry",
@@ -115,13 +1112,36 @@
         "is_iaa": false
     },
     {
-        "id": 26544,
-        "question": "نائٹروجن اور ہائیڈروجن آپس میں ری ایکٹ کر کے امونیا بناتے ہیں۔ — N2 + 3H2 ⇌ 2NH3 — Kc = 2.86 mol dm−3 — ایکوی لبریم مکسچر میں کیا کیا شامل ہو گا؟",
+        "id": 577,
+        "question": "درج شدہ میں سے کونسی ترتیب ہیلو جنز کی آکسیڈائزنگ پاور کی نمائندگی کے حوالے سے درست ہے؟",
         "options": {
-            "A": "NH3",
-            "B": "N2, H2, NH3",
-            "C": "N2, H2",
-            "D": "H2"
+            "A": "Br2 > Cl2 > F2",
+            "B": "F2 > Cl2 > Br2",
+            "C": "Cl2 < F2 < Br2",
+            "D": "Cl2 < Br2 < F2"
+        },
+        "domain": "STEM",
+        "subdomain": "chemistry",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_033",
+        "is_iaa": false
+    },
+    {
+        "id": 26163,
+        "question": "ایسڈ رین میں موجود ………. کی وجہ سے مچھلیوں کے گلز بند ہونے سے آبی زندگی متاثر ہوتی ہے۔",
+        "options": {
+            "A": "لیڈ",
+            "B": "کرومیم",
+            "C": "مرکری",
+            "D": "ایلومینیم"
         },
         "domain": "STEM",
         "subdomain": "chemistry",
@@ -134,1030 +1154,6 @@
         ],
         "quality_flags": [],
         "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 26434,
-        "question": "کلورومیتھین کا فارمولا ہے:",
-        "options": {
-            "A": "CH3Cl",
-            "B": "CH2Cl2",
-            "C": "CHCl3",
-            "D": "CCl4"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 6811,
-        "question": "جو شخص معاشرے سے الگ تھلک ہو کے رہتا ہے وہ دیوتا ہے یا حیوان کہنا ہے:",
-        "options": {
-            "A": "ارسطو",
-            "B": "افلاطون",
-            "C": "مارشل",
-            "D": "ای۔ایم۔ وائیٹ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 12874,
-        "question": "پاکستان کا کون سا آئین صدارتی تھا؟",
-        "options": {
-            "A": "1935",
-            "B": "1956",
-            "C": "1962",
-            "D": "1973"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 6399,
-        "question": "حکومت کے شعبے ہیں۔",
-        "options": {
-            "A": "تین",
-            "B": "چار",
-            "C": "پانچ",
-            "D": "چھ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 6423,
-        "question": "جان آسٹن کون تھا :",
-        "options": {
-            "A": "یونانی مفکر",
-            "B": "انگریز مفکر",
-            "C": "رومی مفکر",
-            "D": "امریکی مفکر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 11994,
-        "question": "ملک میں زرِاعتبار کو کنٹرول کرتا ہے :",
-        "options": {
-            "A": "مرکزی بینک",
-            "B": "تجارتی بینک",
-            "C": "صنعتی بینک",
-            "D": "زرعی بینک"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 19945,
-        "question": "پائریسی کا مطلب ۔۔۔۔۔۔۔ تیار کرنا ہے۔",
-        "options": {
-            "A": "تجارتی راز",
-            "B": "غیر قانونی کاپی",
-            "C": "قانونی کاپی",
-            "D": "پیٹنٹ"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 19915,
-        "question": "‏IPv4 کے ہر گروپ کی قدر ہوتی ہے",
-        "options": {
-            "A": "0-64",
-            "B": "1-64",
-            "C": "0-128",
-            "D": "0-255"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 2342,
-        "question": "کون سا آپریٹر if-else سٹیٹمنٹ کی جگہ استعمال ہوسکتا ہے؟",
-        "options": {
-            "A": "لاجیکل",
-            "B": "کنڈیشنل",
-            "C": "رلیشنل",
-            "D": "کمپاؤنڈ اسائنمنٹ"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 2328,
-        "question": "سویچ سٹیٹمنٹ کی باڈی سے نکلنے کے لیے کون سی سٹیٹمنٹ استعمال ہوگی؟",
-        "options": {
-            "A": "Default",
-            "B": "Continue",
-            "C": "Exit",
-            "D": "Break"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 13103,
-        "question": "عشر کا اطلاق ہوتا ہے :",
-        "options": {
-            "A": "نقد رقم پر",
-            "B": "مالِ تجارت پر",
-            "C": "صنعتی پیداوار پر",
-            "D": "زرعی پیداوار پر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 7475,
-        "question": "رسد کے پھیلنے کی وجہ ہے :",
-        "options": {
-            "A": "مصارف میں کمی",
-            "B": "نئی ٹیکنالوجی",
-            "C": "موسمی حالات",
-            "D": "قیمت میں اضافہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 10648,
-        "question": "معاشی سرگرمیوں کے اتار چڑھاؤ کو کہا جاتا ہے۔",
-        "options": {
-            "A": "عالمی بحران",
-            "B": "تجارتی چکر",
-            "C": "قومی آمدنی",
-            "D": "بین الاقوامی تجارت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 14063,
-        "question": "جنگ پلاسی ہوئی:",
-        "options": {
-            "A": "‏1957ء",
-            "B": "‏1857ء",
-            "C": "‏1757ء",
-            "D": "‏1657ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "short_question"
-        ],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 14203,
-        "question": "میڈیکل کالج کلکتہ کا قیام عمل میں لایا گیا :",
-        "options": {
-            "A": "1816",
-            "B": "1826",
-            "C": "1836",
-            "D": "1846"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 4711,
-        "question": "رہنمائی کا فریضہ سرانجام دے سکتا ہے:",
-        "options": {
-            "A": "معلم",
-            "B": "طالب علم",
-            "C": "مالی",
-            "D": "نائب قاصد"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 7973,
-        "question": "پاکستان ایک ملک ہے :",
-        "options": {
-            "A": "صنعتی",
-            "B": "زرعی",
-            "C": "سیاسی",
-            "D": "معدنی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 29820,
-        "question": "پہلی بار انسانی آواز نشر کی گئی:",
-        "options": {
-            "A": "‏1905ء میں",
-            "B": "‏1906ء میں",
-            "C": "‏1907ء میں",
-            "D": "‏1908ء میں"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 28988,
-        "question": "کنڈیکٹرز جن کی ریزسٹنس زیادہ ہو، کہلاتے ہیں:",
-        "options": {
-            "A": "ریزسٹرز",
-            "B": "کپیسٹرز",
-            "C": "انسولیٹرز",
-            "D": "سوئچز"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 29590,
-        "question": "چارج سٹور کرنے والے آلے کو کہتے ہیں:",
-        "options": {
-            "A": "سوئچ",
-            "B": "رزسٹر",
-            "C": "فیوز",
-            "D": "کپیسٹر"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 28856,
-        "question": "نیوٹرل وائر کی پوٹینشل ہوتی ہے۔",
-        "options": {
-            "A": "- 220 V",
-            "B": "+ 220 V",
-            "C": "+ 100 V",
-            "D": "0 V"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 14674,
-        "question": "زمین کے بیرونی ٹھوس حصے کو کہتے ہیں",
-        "options": {
-            "A": "اندرونی مرکزہ",
-            "B": "مرکزہ",
-            "C": "خول",
-            "D": "پوست"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 14912,
-        "question": "سعودی عرب کا دارلحکومت ۔۔۔۔۔ ہے۔",
-        "options": {
-            "A": "جدہ",
-            "B": "ریاض",
-            "C": "مکہ",
-            "D": "مدینہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 3767,
-        "question": "بیڈمنٹن نیٹ کی اونچائی ہوتی ہے۔",
-        "options": {
-            "A": "‏1.58 میٹر",
-            "B": "‏1.52 میٹر",
-            "C": "‏1.54 میٹر",
-            "D": "‏1.56 میٹر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 5246,
-        "question": "ہاکی کھیل کے میدان کی چوڑائی ہوتی ہے :",
-        "options": {
-            "A": "‏45 میٹر",
-            "B": "‏50 میٹر",
-            "C": "‏55 میٹر",
-            "D": "‏60 میٹر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 15267,
-        "question": "‏400 میٹر دوڑ میں ٹریک کی شکل ہوتی ہے۔",
-        "options": {
-            "A": "گول",
-            "B": "بیضوی",
-            "C": "مربع",
-            "D": "مستطیل"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 15503,
-        "question": "‏(برائے طلبہ) ہاکی کھیل کا آغاز ہوتا ہے۔",
-        "options": {
-            "A": "سنٹر پاس",
-            "B": "فری ہٹ",
-            "C": "فلک",
-            "D": "سکوپ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 5543,
-        "question": "کاغذ کے ڈرافٹ کو کپڑے پر لگانے کے لیے کیا ضروری ہے؟",
-        "options": {
-            "A": "ٹریسنگ وہیل",
-            "B": "پن کشن",
-            "C": "ناپ لینے والا فیتا",
-            "D": "میٹر راڈ"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 11599,
-        "question": "عظمت انسانی کی بنیادی وجہ ہے۔",
-        "options": {
-            "A": "عقل",
-            "B": "ذہن",
-            "C": "صحت",
-            "D": "علم"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 761,
-        "question": "حضرت علیؓ نے دارالخلافہ مدینہ سے کس شہر منتقل کیا؟",
-        "options": {
-            "A": "مکہ",
-            "B": "کوفہ",
-            "C": "دمشق",
-            "D": "بصریٰ"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 20220,
-        "question": "دیے گئے مواد 2, 3, 8, 9, 6, 12 کی وسعت ہے:",
-        "options": {
-            "A": "8",
-            "B": "9",
-            "C": "10",
-            "D": "3"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 23057,
-        "question": "دو نسبتوں میں برابری کے تعلق کو ____ کہتے ہیں۔",
-        "options": {
-            "A": "تناسب",
-            "B": "نسبت",
-            "C": "اوسط",
-            "D": "متماثل"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 20162,
-        "question": "‏75 : 95 کی آسان شکل ہے :",
-        "options": {
-            "A": "15 : 17",
-            "B": "15 : 19",
-            "C": "19 : 15",
-            "D": "17 : 15"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 6026,
-        "question": "پاکستان کے پہلے سویلین چیف مارشل لاء ایڈمنسٹریٹر تھے۔",
-        "options": {
-            "A": "پرویز مشرف",
-            "B": "ضیاء الحق",
-            "C": "ایوب خان",
-            "D": "ذوالفقار علی بھٹو"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 2443,
-        "question": "پاکستان میں دیہی آبادی کا تناسب ____ فیصد ہے۔",
-        "options": {
-            "A": "67.3",
-            "B": "67.4",
-            "C": "67.5",
-            "D": "67.6"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 6153,
-        "question": "آبادی کے لحاظ سے دنیا کا پانچواں بڑا ملک ہے :",
-        "options": {
-            "A": "پاکستان",
-            "B": "روس",
-            "C": "امریکہ",
-            "D": "بنگلہ دیش"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 23896,
-        "question": "درج ذیل میں سے کون سی مقدار سب سے چھوٹی ہے؟",
-        "options": {
-            "A": "0.01 g",
-            "B": "2 mg",
-            "C": "100 μg",
-            "D": "5000 ng"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 23846,
-        "question": "ٹائر اور خشک روڈ کے درمیان کوایفیشنٹ آف فرکشن کی قیمت ہے ۔",
-        "options": {
-            "A": "0.1",
-            "B": "0.2",
-            "C": "2",
-            "D": "1"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 23917,
-        "question": "سینٹری پیٹل فورس معلوم کرنے کا فارمولا ہے۔",
-        "options": {
-            "A": "Fc = mv2/r",
-            "B": "Fc = m2v/r",
-            "C": "Fc = mr2/v",
-            "D": "Fc = mv/r2"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 10915,
-        "question": "‏WAIS-R کا غیر زبانی یا کار کردگی کا ایک سکیل ہے:",
-        "options": {
-            "A": "معلومات",
-            "B": "ذخیرہ الفاظ",
-            "C": "چیزوں کو جوڑنا",
-            "D": "تفہیم"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 10924,
-        "question": "مخروطی خلیے سب سے زیادہ کس جگہ پائے جاتے ہیں؟",
-        "options": {
-            "A": "آئرس",
-            "B": "زرد نقطہ",
-            "C": "صلبیہ",
-            "D": "جالبدار پردہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 11516,
-        "question": "امیر، متوسط اور غریب طبقے میں تفریق کہلاتی ہے۔",
-        "options": {
-            "A": "نسل",
-            "B": "ذات",
-            "C": "درجہ بندی",
-            "D": "تعلیم"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 16997,
-        "question": "پاکستان ایک ____ ملک ہے۔",
-        "options": {
-            "A": "اتفاقی",
-            "B": "الہامی",
-            "C": "نظریاتی",
-            "D": "روحانی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_033",
-        "is_iaa": false
-    },
-    {
-        "id": 11402,
-        "question": "سماجی درجہ بندی سے کیا مراد ہے؟",
-        "options": {
-            "A": "انصاف",
-            "B": "ثقافت",
-            "C": "برابری",
-            "D": "افراد کا مختلف درجوں میں تقسیم ہونا"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
         "batch_id": "batch_033",
         "is_iaa": false
     }

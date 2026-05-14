@@ -1,15 +1,15 @@
 [
     {
-        "id": 25123,
-        "question": "مینڈل نے اپنے تجربات کے لیے کتنے مٹر کے پودے استعمال کیے؟",
+        "id": 5533,
+        "question": "گھر میں لباس کی کٹائی کا کام کیا جا سکتا ہے :",
         "options": {
-            "A": "24000",
-            "B": "26000",
-            "C": "28000",
-            "D": "29000"
+            "A": "کھانے کی میز پر",
+            "B": "چار پائی پر",
+            "C": "ہاتھ میں",
+            "D": "فرش پر"
         },
-        "domain": "STEM",
-        "subdomain": "biology",
+        "domain": "Profession",
+        "subdomain": "home economics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -23,16 +23,16 @@
         "is_iaa": false
     },
     {
-        "id": 17932,
-        "question": "ایک مائیکرو نیوٹری اینٹ جو کہ نائٹروجن میٹابولزم کے لئے درکار ہوتا ہے۔",
+        "id": 3921,
+        "question": "اس طریقے میں بھاپ اور پانی کا استعمال نہیں ہوتا۔",
         "options": {
-            "A": "زنک",
-            "B": "آئرن",
-            "C": "کلورین",
-            "D": "نکل"
+            "A": "بیک کرنا",
+            "B": "بھاپ دینا",
+            "C": "ابالنا",
+            "D": "دم پذیری"
         },
-        "domain": "STEM",
-        "subdomain": "biology",
+        "domain": "Profession",
+        "subdomain": "home economics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -46,549 +46,85 @@
         "is_iaa": false
     },
     {
-        "id": 24824,
-        "question": "سائٹوسین اور گوانین کے درمیان ہائیڈروجن بانڈز کی تعداد ہوتی ہے:۔",
+        "id": 5394,
+        "question": "دائرے پر موجود رنگ دائیں اور بائیں کہلاتے ہیں :",
+        "options": {
+            "A": "نیلے پیلے",
+            "B": "ہلکے گہرے",
+            "C": "چھوٹے بڑے",
+            "D": "گرم اور ٹھنڈے"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5563,
+        "question": "سلائیڈ پلیٹ ہوتی ہے۔",
+        "options": {
+            "A": "چپٹی",
+            "B": "دندانے دار",
+            "C": "سیدھی",
+            "D": "زِگ زیگ"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 1973,
+        "question": "غذائی گروہوں کی تعداد کتنی ہے؟",
+        "options": {
+            "A": "دو",
+            "B": "تین",
+            "C": "پانچ",
+            "D": "چھ"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 2472,
+        "question": "لباس کی وضع میں ____ عوامل اہمیت کے حامل ہوتے ہیں۔",
         "options": {
             "A": "تین",
-            "B": "دو",
-            "C": "چار",
-            "D": "ایک"
+            "B": "چار",
+            "C": "پانچ",
+            "D": "چھ"
         },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 18634,
-        "question": "سب سے کثرت میں پائی جانے والی میٹل ہے۔",
-        "options": {
-            "A": "زنک",
-            "B": "کاپر",
-            "C": "ایلومینیم",
-            "D": "آئرن"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 19034,
-        "question": "لوہے کو زنگ لگنا کہلاتا ہے:",
-        "options": {
-            "A": "الائنگ",
-            "B": "الیکٹروپلیٹنگ",
-            "C": "گیلونائزنگ",
-            "D": "رسٹنگ"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 18397,
-        "question": "پانی کے ایک مالیکیول کا ماس کتنا ہے :",
-        "options": {
-            "A": "18 amu",
-            "B": "18 g",
-            "C": "18 mg",
-            "D": "18 kg"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 26783,
-        "question": "جب NaHCO3 کو گرم کیا جاتا ہے تو حاصل ہوتا ہے :",
-        "options": {
-            "A": "CaO",
-            "B": "CaCO3",
-            "C": "CO2",
-            "D": "Ca(OH)2"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 6847,
-        "question": "اقوام متحدہ کا عالمی ادارہ صحت قائم کیا گیا۔",
-        "options": {
-            "A": "1946",
-            "B": "1948",
-            "C": "1950",
-            "D": "1952"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 7136,
-        "question": "پاکستان کے 1973 کے آئین کی تشکیل کس نے کی؟",
-        "options": {
-            "A": "ارکان پارلیمنٹ",
-            "B": "عدلیہ",
-            "C": "انتظامیہ",
-            "D": "آئینی کمیشن"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 6507,
-        "question": "کس کتاب میں ارسطو نے حکومت کی درجہ بندی کی ہے؟ :",
-        "options": {
-            "A": "جمہوریہ",
-            "B": "لیوتھان",
-            "C": "سیاست",
-            "D": "اخلاقیات"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 10193,
-        "question": "تمام اثاثہ جات جو کاروبار میں مستقل استعمال ہوتے ہیں، کہلاتے ہیں۔",
-        "options": {
-            "A": "غیر مستقل اثاثہ جات",
-            "B": "مصنوعی اثاثہ جات",
-            "C": "مستقل اثاثہ جات",
-            "D": "تحلیلی اثاثہ جات"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 10072,
-        "question": "کتابوں میں کاروباری معاملات کو درج کرنے کا فن کہلاتا ہے :",
-        "options": {
-            "A": "اندراج",
-            "B": "روزنامچہ نویسی",
-            "C": "حساب نویسی",
-            "D": "حساب داری"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 20109,
-        "question": "کسی مسئلے کو حل کرنے سے پہلے اس کا ____ کرنا چاہیے۔",
-        "options": {
-            "A": "تجزیہ",
-            "B": "پلاننگ",
-            "C": "کینڈڈ حل",
-            "D": "تعین"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 27703,
-        "question": "ایک فنکشن کو دی گئی قیمتیں ____ کہلاتی ہیں۔",
-        "options": {
-            "A": "باڈیز",
-            "B": "ریٹرن ٹائپ",
-            "C": "ارے",
-            "D": "آرگیومنٹس"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 19730,
-        "question": "بائنری سسٹم میں نمبر \"20\" ……………….. کے برابر ہے۔",
-        "options": {
-            "A": "10110",
-            "B": "10100",
-            "C": "10011",
-            "D": "10000"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 10720,
-        "question": "کل برتری کا نظریہ پیش کیا",
-        "options": {
-            "A": "ایڈم سمتھ",
-            "B": "ڈیوڈ ریکارڈو",
-            "C": "کیز",
-            "D": "الفرڈ مارشل"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 7950,
-        "question": "یہ ۔۔۔۔۔۔۔۔ کا قول ہے \"معاشیات مادی فلاح و بہبود کا علم ہے\"۔",
-        "options": {
-            "A": "الف رابنز",
-            "B": "ب مارشل",
-            "C": "ج فشر",
-            "D": "د آدم سمتھ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 7647,
-        "question": "خواہش جس کے لئے قوت خرید ضروری ہو کہلاتی ہے:",
-        "options": {
-            "A": "رسد",
-            "B": "طلب",
-            "C": "صرف",
-            "D": "قیمت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 7557,
-        "question": "تخمینی ضروریات کے لیے زر کی طلب کا انحصار ہوتا ہے :",
-        "options": {
-            "A": "آمدنی پر",
-            "B": "شرحِ سود پر",
-            "C": "زر کی رسد پر",
-            "D": "بچتوں پر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 13670,
-        "question": "یورپ کی یونیورسٹیوں میں مسلمان کا تیار کردہ نصاب پڑھایا جاتا رہا",
-        "options": {
-            "A": "پندرہویں صدی",
-            "B": "سولہویں صدی",
-            "C": "سترہویں صدی",
-            "D": "اٹھارویں صدی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 8199,
-        "question": "کسی مضمون کی تفصیل ہوتی ہے :",
-        "options": {
-            "A": "نصاب",
-            "B": "سلیبس",
-            "C": "کورس",
-            "D": "آزمائش"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 8449,
-        "question": "یہ جائزے کے عمل کا مقداری پہلو ہے :",
-        "options": {
-            "A": "جائزہ",
-            "B": "پیمائش",
-            "C": "آزمائش",
-            "D": "تعین"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 3581,
-        "question": "آداب ____ ہوتے ہیں :",
-        "options": {
-            "A": "حسنِ زندگی",
-            "B": "تہذیبی عناصر",
-            "C": "غیر رسمی قوانین",
-            "D": "زندگی کے سلیقے"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 21951,
-        "question": "آئیوڈین کی کمی انسانوں میں جس بیماری کا باعث بنتی ہے :",
-        "options": {
-            "A": "گلہڑ",
-            "B": "کینسر",
-            "C": "ٹیوبرکلوسز",
-            "D": "ہیضہ"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 22025,
-        "question": "میکینکس، حرارت، روشنی اور آواز کا تعلق ہے:",
-        "options": {
-            "A": "فزکس",
-            "B": "کیمسٹری",
-            "C": "زوالوجی",
-            "D": "باٹنی"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 2536,
-        "question": "اینٹوں کی تیاری میں استعمال ہونے والا کوئلہ کیا کہلاتا ہے؟",
-        "options": {
-            "A": "پیٹ",
-            "B": "لگنائٹ",
-            "C": "بیٹومینیس",
-            "D": "اینتھرا سائیٹ"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
+        "domain": "Profession",
+        "subdomain": "home economics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -602,65 +138,19 @@
         "is_iaa": false
     },
     {
-        "id": 9420,
-        "question": "نظام شمسی کا مرکز کونسا ہے؟",
+        "id": 3903,
+        "question": "‏____ میں تازہ ہوا، روشنی اور پانی کے نکاس کا انتظام ہونا چاہیے۔",
         "options": {
-            "A": "ملکی وے",
-            "B": "آسمان",
-            "C": "زمین",
-            "D": "سورج"
+            "A": "سٹور روم",
+            "B": "سونے کے کمرے",
+            "C": "باورچی خانہ",
+            "D": "کلاس روم"
         },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
+        "domain": "Profession",
+        "subdomain": "home economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 14697,
-        "question": "فیصل آباد کی وجہ شہرت ہے۔",
-        "options": {
-            "A": "سوتی کپڑے کی صنعت",
-            "B": "تاریخی مقامات",
-            "C": "سیاحت",
-            "D": "زراعت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 14961,
-        "question": "ٹنڈرا کے علاقے کی سالانہ بارش کتنے ملی میٹر ہے :",
-        "options": {
-            "A": "150",
-            "B": "250",
-            "C": "350",
-            "D": "450"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -671,42 +161,19 @@
         "is_iaa": false
     },
     {
-        "id": 15571,
-        "question": "صرف طالبات کیلئے — (xvii) بیڈمنٹن کورٹ کی شکل ہوتی ہے۔",
+        "id": 5489,
+        "question": "ٹویل بنائی ہوتی ہے۔",
         "options": {
-            "A": "چوکور",
-            "B": "مستطیل",
-            "C": "تکون",
-            "D": "گول"
+            "A": "پائیدار",
+            "B": "نرم",
+            "C": "کمتر",
+            "D": "کھلی"
         },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "domain": "Profession",
+        "subdomain": "home economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 15465,
-        "question": "بجلی کا بہت اچھا موصل ہوتا ہے:",
-        "options": {
-            "A": "ہوا",
-            "B": "پانی",
-            "C": "حرارت",
-            "D": "سردی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -717,19 +184,111 @@
         "is_iaa": false
     },
     {
-        "id": 15494,
-        "question": "نیزہ پھینکنے کے دوڑنے کے راستے کی چوڑائی ہوتی ہے۔",
+        "id": 3883,
+        "question": "انسانی نشو و نما ایک ____ علم ہے۔",
         "options": {
-            "A": "‏3 میٹر",
-            "B": "‏4 میٹر",
-            "C": "‏5 میٹر",
-            "D": "‏6 میٹر"
+            "A": "جذباتی",
+            "B": "سائنسی",
+            "C": "ذہن",
+            "D": "جسمانی"
         },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "domain": "Profession",
+        "subdomain": "home economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3909,
+        "question": "‏\"جنک فوڈز\" ____ سے بھرپور ہوتی ہے۔",
+        "options": {
+            "A": "پروٹینز",
+            "B": "وٹامنز",
+            "C": "کیلوریز",
+            "D": "معدنی نمکیات"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 913,
+        "question": "ہم آہنگی کا مطلب ____ پیدا کرنا ہے۔",
+        "options": {
+            "A": "یکسانیت",
+            "B": "اکتاہٹ",
+            "C": "فوقیت",
+            "D": "مناسبت"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 1504,
+        "question": "چھوٹے اور درمیانے سائز کے کمرے میں ____ چیزیں دیوار کے قریب رکھنی چاہئیں۔",
+        "options": {
+            "A": "بہت ہلکی",
+            "B": "ہلکی",
+            "C": "بھاری اور بڑی",
+            "D": "خوبصورت"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5453,
+        "question": "جسم کو ڈھانپنے کے لیے جو چیز استعمال ہوتی ہے ، کہلاتی ہے :",
+        "options": {
+            "A": "دھاگہ",
+            "B": "لباس",
+            "C": "ریشم",
+            "D": "آرٹ"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -740,13 +299,753 @@
         "is_iaa": false
     },
     {
-        "id": 5516,
-        "question": "ڈرافٹ بنانے کیلئے ____ ضروری ہے۔",
+        "id": 5465,
+        "question": "کٹائی کے لیے ____ قینچی کا ہونا ضروری ہے :",
         "options": {
-            "A": "کاغذ",
+            "A": "چھوٹی",
+            "B": "بڑی",
+            "C": "تیز",
+            "D": "نئی"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5527,
+        "question": "گھریلو آرائش گھر کو بنا دیتی ہے :",
+        "options": {
+            "A": "گندہ",
+            "B": "خوبصورت",
+            "C": "مہنگا",
+            "D": "ہلکا"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 981,
+        "question": "موٹف ان میں سے کون سی ٹیکسٹائل ریپیٹ کی قسم ہے؟",
+        "options": {
+            "A": "موٹف",
+            "B": "ڈیزائن",
+            "C": "ہاف ڈراپ",
+            "D": "ریپیٹ"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 29884,
+        "question": "اُفقی خطوط تاثر دیتے ہیں :",
+        "options": {
+            "A": "چوڑائی",
+            "B": "لمبائی",
+            "C": "موٹائی",
+            "D": "گولائی"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 518,
+        "question": "کٹائی میں استعمال ہونے والی اشیا ہیں:",
+        "options": {
+            "A": "دو",
+            "B": "تین",
+            "C": "چار",
+            "D": "پانچ"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 1516,
+        "question": "اچھے فرنیچر کا معیار یہ ہے کہ وہ استعمال کے لحاظ سے ____ ہو۔",
+        "options": {
+            "A": "موزوں",
+            "B": "سادہ",
+            "C": "آرام دہ",
+            "D": "سستا"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 522,
+        "question": "گھریلو غلاظت دور کرنے کے طریقے ہیں:۔",
+        "options": {
+            "A": "چار",
+            "B": "دو",
+            "C": "چھ",
+            "D": "نو"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [
+            "",
+            ""
+        ],
+        "source": [
+            "BISE Multan 2025",
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5446,
+        "question": "سردیوں کے لیے ____ کپڑے مناسب رہتے ہیں۔",
+        "options": {
+            "A": "ہلکے",
+            "B": "سادہ",
+            "C": "پھولدار",
+            "D": "موٹے اور گرم"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3943,
+        "question": "خون کا ۔۔۔ فیصد حصہ پانی پر مشتمل ہوتا ہے :",
+        "options": {
+            "A": "60%",
+            "B": "50%",
+            "C": "70%",
+            "D": "45%"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 765,
+        "question": "لباس کی تیاری کے لیے صحیح ناپ لینا کیوں ضروری ہے؟",
+        "options": {
+            "A": "اچھی ڈیزائننگ کے لیے",
+            "B": "موسم کی مناسبت سے",
+            "C": "اچھی فٹنگ کے لیے",
+            "D": "اچھی ڈریسنگ کے لیے"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3957,
+        "question": "کھانا پیش کرنے کے بنیادی اصول ہیں :",
+        "options": {
+            "A": "10",
+            "B": "4",
+            "C": "5",
+            "D": "8"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 1346,
+        "question": "زیروفتھلمیا کس وٹامن کی کمی کی بیماری ہے؟",
+        "options": {
+            "A": "وٹامن A",
+            "B": "وٹامن B",
+            "C": "وٹامن C",
+            "D": "وٹامن D"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3862,
+        "question": "ہوم اکنامکس کی تعلیم ____ اور گھریلو امور کو سمجھنے میں مددگار ثابت ہوتی ہے۔",
+        "options": {
+            "A": "سکول",
+            "B": "خاندان",
+            "C": "گھر",
+            "D": "افراد"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3876,
+        "question": "سبزیوں کو غذائیں کہا جاتا ہے۔",
+        "options": {
+            "A": "تعمیری",
+            "B": "تخلیقی",
+            "C": "توانائی سے بھر پور",
+            "D": "محافظ"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3911,
+        "question": "فریزر کا درجہ حرارت ____ سینٹی گریڈ ہوتا ہے۔",
+        "options": {
+            "A": "صفر",
+            "B": "10",
+            "C": "+10",
+            "D": "صفر تا 10-"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 2469,
+        "question": "شیفون اور جارجٹ ____ ریشوں سے تیار کیے جاتے ہیں۔",
+        "options": {
+            "A": "کیمیائی",
+            "B": "قدرتی",
+            "C": "نباتاتی",
+            "D": "حیواناتی"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5495,
+        "question": "ہر وہ چیز جو جسم ڈھانپنے کیلئے استعمال ہوتی ہے، کہلاتی ہے۔",
+        "options": {
+            "A": "لباس",
             "B": "کپڑا",
+            "C": "خوراک",
+            "D": "ریشہ"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3868,
+        "question": "بچوں کی غلط بات پر ان کی کرنی چاہیے:",
+        "options": {
+            "A": "حوصلہ افزائی",
+            "B": "دلیری",
+            "C": "انعام",
+            "D": "سرزنش"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 2193,
+        "question": "گرمیوں میں بھاری کپڑے مثلاً لحاف اور کھیس کہاں رکھنے چاہئیں؟",
+        "options": {
+            "A": "الماریوں میں",
+            "B": "کھلی ہوا میں",
+            "C": "بیڈ میں",
+            "D": "بڑی پیٹی میں"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5376,
+        "question": "ریشم ____ سے حاصل ہوتا ہے :",
+        "options": {
+            "A": "ریشم کے کیڑے",
+            "B": "پودوں",
+            "C": "جانوروں",
+            "D": "کپاس"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3852,
+        "question": "وزن میں اضافے کا سبب ہے :",
+        "options": {
+            "A": "چکنائی",
+            "B": "جنک فوڈ",
+            "C": "پروٹین",
+            "D": "پانی"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3896,
+        "question": "بچوں کو رات کو مت سنائیں:",
+        "options": {
+            "A": "ڈراؤنی خبریں",
+            "B": "ڈراؤنی آوازیں",
+            "C": "ڈراؤنی کہانیاں",
+            "D": "ڈراؤنے خواب"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 980,
+        "question": "خیالی ایک موٹف ____ ایلیمنٹ ہے۔",
+        "options": {
+            "A": "خیالی",
+            "B": "حکمت عملی کا",
+            "C": "ڈیزائن کا",
+            "D": "تیاری کا"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 2881,
+        "question": "کس ماہر نفسیات کے نزدیک سخت گیر والدین بچوں کو بد مزاج، باغی اور جارحانہ مزاج بنا دیتے ہیں؟",
+        "options": {
+            "A": "الفرئیڈ ایڈلر",
+            "B": "فرائیڈ",
+            "C": "ایرکسن",
+            "D": "فلو جیل"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3874,
+        "question": "کاربوہائیڈریٹس کے ذرائع ہیں۔",
+        "options": {
+            "A": "نمک",
+            "B": "چینی",
+            "C": "مرچ",
+            "D": "دالیں"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3941,
+        "question": "فاسٹ فوڈ کے استعمال سے بچوں کے رویے میں ۔۔۔ پیدا ہوتی ہے :",
+        "options": {
+            "A": "نرمی",
+            "B": "تیزی",
+            "C": "توانائی",
+            "D": "بُری عادت"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 2034,
+        "question": "میکرو منرل میں ____ شامل ہے۔",
+        "options": {
+            "A": "کیلشیم",
+            "B": "آئرن",
+            "C": "زنک",
+            "D": "آئیوڈین"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5424,
+        "question": "شیر خوار بچوں کے لباس کے لئے رنگ موزوں ہوتے ہیں:",
+        "options": {
+            "A": "صوفیانے",
+            "B": "ہلکے",
+            "C": "شوخ",
+            "D": "کالے"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5491,
+        "question": "پرانے لباس کو تھوڑے سے ردو بدل سے بنایا جا سکتا ہے۔",
+        "options": {
+            "A": "نیا",
+            "B": "پرانا",
+            "C": "گھٹیا",
+            "D": "قابلِ استعمال"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 3866,
+        "question": "چھوٹی عمر میں بچے شوق سے سنتے ہیں:",
+        "options": {
+            "A": "غزلیں",
+            "B": "کہانیاں",
+            "C": "گانے",
+            "D": "خبریں"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5536,
+        "question": "رسمی توازن میں دونوں اطراف میں ہوتی ہے :",
+        "options": {
+            "A": "برابری",
+            "B": "کمی",
+            "C": "زیادتی",
+            "D": "روشنی"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 5515,
+        "question": "سوئی کا استعمال ____ کے لحاظ سے کیا جانا ضروری ہے۔",
+        "options": {
+            "A": "کپڑے کی نوعیت",
+            "B": "کڑھائی",
             "C": "سلائی",
-            "D": "جسم کا ناپ"
+            "D": "لمبائی"
+        },
+        "domain": "Profession",
+        "subdomain": "home economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_241",
+        "is_iaa": false
+    },
+    {
+        "id": 29887,
+        "question": "ماحول میں آرٹ کا استعمال ہوتا ہے :",
+        "options": {
+            "A": "خوبصورت",
+            "B": "سستا",
+            "C": "گندا",
+            "D": "نا خوشگوار"
         },
         "domain": "Profession",
         "subdomain": "home economics",
@@ -786,154 +1085,16 @@
         "is_iaa": false
     },
     {
-        "id": 841,
-        "question": "نبی کریم (خاتم النبیین صلی اللہ علیہ وسلم) کے مطابق کون سی مجلس، ذکر کی مجلس سے بہتر ہے؟",
+        "id": 5562,
+        "question": "تولیہ بہترین مثال ہے۔",
         "options": {
-            "A": "طاقت کی مجلس",
-            "B": "علم کی مجلس",
-            "C": "دولت مندوں کی مجلس",
-            "D": "حکمرانوں کی مجلس"
+            "A": "ٹول بنائی",
+            "B": "ساٹن بنائی",
+            "C": "بردار بنائی",
+            "D": "سادہ بنائی"
         },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 22641,
-        "question": "نقطہ $(-3, -3)$ مستوی کے ربع میں واقع ہے :",
-        "options": {
-            "A": "الف I",
-            "B": "ب II",
-            "C": "ج III",
-            "D": "د IV"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 20789,
-        "question": "نفع فیصد معلوم کیجئے اگر قیمت خرید < قیمت فروخت ہو تو: نفع فیصد =",
-        "options": {
-            "A": "Profit / CP",
-            "B": "Profit / CP x 100",
-            "C": "CP x Profit% / 100",
-            "D": "100 x SP / 100 + Profit%"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 30783,
-        "question": "اگر A اور B غیر مشترک سیٹ ہوں تو A U B برابر ہوتا ہے",
-        "options": {
-            "A": "A",
-            "B": "AUB",
-            "C": "B",
-            "D": "∅"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 4472,
-        "question": "مغلیہ سلطنت کا بانی تھا :",
-        "options": {
-            "A": "بہادر شاہ ظفر",
-            "B": "شاہ جہاں",
-            "C": "ظہیر الدین بابر",
-            "D": "اورنگ زیب عالمگیر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 15762,
-        "question": "ہر سال کس تاریخ کو اقوام متحدہ کے انسانی حقوق کے عالمی منشور کی سالگرہ منائی جاتی ہے :",
-        "options": {
-            "A": "یکم دسمبر",
-            "B": "‏5 دسمبر",
-            "C": "‏8 دسمبر",
-            "D": "‏10 دسمبر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 5933,
-        "question": "مسجد مہابت خان ____ میں واقع ہے۔",
-        "options": {
-            "A": "لاہور",
-            "B": "کوئٹہ",
-            "C": "پشاور",
-            "D": "کراچی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "Profession",
+        "subdomain": "home economics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -947,22 +1108,22 @@
         "is_iaa": false
     },
     {
-        "id": 1669,
-        "question": "خروج لوگوں کے دیہی علاقوں سے شہروں میں منتقل ہونے کا عمل کیا کہلاتا ہے؟",
+        "id": 91,
+        "question": "غذائی اشیا کو کھانے کے قابل بنانے کے لیے ان کو ____ سے الگ کیا جاتا ہے۔",
         "options": {
-            "A": "خروج",
-            "B": "لامرکزیت",
-            "C": "شہر کاری",
-            "D": "صنعت کاری"
+            "A": "چھلکوں",
+            "B": "جراثیم",
+            "C": "اجزا",
+            "D": "گندگی"
         },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "domain": "Profession",
+        "subdomain": "home economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
-            "FBISE"
+            "BISE Multan 2025"
         ],
         "quality_flags": [],
         "length_tier": "long",
@@ -970,39 +1131,16 @@
         "is_iaa": false
     },
     {
-        "id": 24301,
-        "question": "ورک زیادہ سے زیادہ ہوگا جب فورس اور ڈسپلیسمنٹ کے درمیان زاویہ ہوگا",
+        "id": 3940,
+        "question": "متوازن غذا کو ۔۔۔ کا مجموعہ کہا جاتا ہے :",
         "options": {
-            "A": "0°",
-            "B": "60°",
-            "C": "90°",
-            "D": "180°"
+            "A": "پروٹین کا",
+            "B": "غذائی اجزاء کا",
+            "C": "طاقت کا",
+            "D": "پھلوں کا"
         },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 23880,
-        "question": "گریوی ٹیشن کا قانون ہے۔",
-        "options": {
-            "A": "F = G m1m2 / d2",
-            "B": "F = G Me / d2",
-            "C": "F = G m1m2 / d",
-            "D": "F = m1m2 / G"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
+        "domain": "Profession",
+        "subdomain": "home economics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -1011,145 +1149,7 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 10950,
-        "question": "ویکسلر کی ذہانتی آزمائشی سکیل کس سال بنائی گئی :",
-        "options": {
-            "A": "1936",
-            "B": "1937",
-            "C": "1938",
-            "D": "1939"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
         "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 11080,
-        "question": "‏……… 16-PF نے تیار کیا۔",
-        "options": {
-            "A": "مرے",
-            "B": "کیٹل",
-            "C": "ملر",
-            "D": "آل پورٹ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 11417,
-        "question": "کس میں کم از کم دو افراد کا ہونا ناگزیر ہے؟",
-        "options": {
-            "A": "معمولات",
-            "B": "تبدیلی",
-            "C": "سماجی عمل",
-            "D": "سماجی تفاعل"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 11824,
-        "question": "‏____ معاشرے کی آبادی 5,000 سے کم ہوتی ہے۔",
-        "options": {
-            "A": "بلدیاتی",
-            "B": "دیہاتی",
-            "C": "جدید",
-            "D": "خانہ بدوش"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 11445,
-        "question": "معاشرتی عمل کی مثال ہے:",
-        "options": {
-            "A": "گاڑی چلانا",
-            "B": "سونا",
-            "C": "کنگھی کرنا",
-            "D": "‏A اور C دونوں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_241",
-        "is_iaa": false
-    },
-    {
-        "id": 1646,
-        "question": "درج شدہ میں سے جملہ فعلیہ کی شناخت کریں۔",
-        "options": {
-            "A": "آپ کا نام کیا ہے؟",
-            "B": "آمنہ نے کتاب پڑھی",
-            "C": "نوشین اچھی لڑکی ہے",
-            "D": "یہ ذہین بچہ کون ہے؟"
-        },
-        "domain": "Humanities",
-        "subdomain": "urdu literature",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
         "batch_id": "batch_241",
         "is_iaa": false
     }

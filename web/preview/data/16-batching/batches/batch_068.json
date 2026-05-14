@@ -1,201 +1,9 @@
 [
     {
-        "id": 17860,
-        "question": "پہلی مائیکروسکوپ کس نے بنائی تھی؟",
+        "id": 12593,
+        "question": "‏\"حکومت اس کی سرپرستی کرتی ہے جس کا کوئی سرپرست نہ ہو\" — یہ کس کا ارشاد ہے",
         "options": {
-            "A": "رابرٹ ہک",
-            "B": "زکاریاس جانسن",
-            "C": "لوئس پاسچر",
-            "D": "رابرٹ براؤن"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 17120,
-        "question": "کالونیئل آرگنائزیشن کی مثال ہے :",
-        "options": {
-            "A": "امیبا",
-            "B": "پیرامیشیم",
-            "C": "یوگلینا",
-            "D": "والووکس"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 17135,
-        "question": "می اوسس کا طویل ترین مرحلہ ہے۔",
-        "options": {
-            "A": "میٹافیز I",
-            "B": "ٹیلوفیز I",
-            "C": "اینافیز I",
-            "D": "پروفیز I"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 25942,
-        "question": "آپس میں منسلک فوڈ چینز مل کر بناتی ہیں۔",
-        "options": {
-            "A": "ایکوسسٹم",
-            "B": "الیل",
-            "C": "جین",
-            "D": "فوڈ ویب"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 78,
-        "question": "عام طور پر بارش کا پانی کون سی گیس کی وجہ سے کم ایسڈک ہوتا ہے؟",
-        "options": {
-            "A": "‏SO3 گیس",
-            "B": "‏SO2 گیس",
-            "C": "‏CO2 گیس",
-            "D": "‏NO2 گیس"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            "",
-            ""
-        ],
-        "source": [
-            "BISE Multan 2025",
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 27082,
-        "question": "‏H2 اور I2 سے 2HI بنانے کے لیے ری ایکشن میں Kc کے یونٹس ہیں۔",
-        "options": {
-            "A": "mol dm-3",
-            "B": "mol-1dm-3",
-            "C": "mol-1dm3",
-            "D": "کوئی یونٹ نہیں"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 18372,
-        "question": "صنعتی پیمانے پر سلفیورک ایسڈ کی تیاری جس کے تحت آتی ہے :",
-        "options": {
-            "A": "انڈسٹریل کیمسٹری",
-            "B": "بائیو کیمسٹری",
-            "C": "آرگینک کیمسٹری",
-            "D": "ان آرگینک کیمسٹری"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 19304,
-        "question": "پاکستان کی اساس ہے۔",
-        "options": {
-            "A": "دولت",
-            "B": "سیاست",
-            "C": "اسلام",
-            "D": "وطن پرستی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 12151,
-        "question": "کون سے خلیفہ رات کو گلیوں میں گشت لگا کر عوام کی پریشانیوں کا جائزہ لیتے تھے ؟",
-        "options": {
-            "A": "حضرت ابوبکرؓ",
+            "A": "حضرت محمدصلی اللہ علیہ وسلم",
             "B": "حضرت عمرؓ",
             "C": "حضرت عثمانؓ",
             "D": "حضرت علیؓ"
@@ -215,13 +23,36 @@
         "is_iaa": false
     },
     {
-        "id": 12303,
-        "question": "قاضی محمد عیسیٰ کا تعلق کس صوبے سے تھا؟",
+        "id": 6740,
+        "question": "ایوب خان نے مارشل لاء لگایا :",
         "options": {
-            "A": "پنجاب",
-            "B": "سندھ",
-            "C": "خیبر پختونخوا",
-            "D": "بلوچستان"
+            "A": "1958ء",
+            "B": "1956ء",
+            "C": "1962ء",
+            "D": "1952ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 12314,
+        "question": "قرارداد پاکستان کہاں منظور ہوئی؟",
+        "options": {
+            "A": "لاہور",
+            "B": "کراچی",
+            "C": "راولپنڈی",
+            "D": "پشاور"
         },
         "domain": "Social Sciences",
         "subdomain": "civics",
@@ -238,13 +69,13 @@
         "is_iaa": false
     },
     {
-        "id": 6800,
-        "question": "آئین غیر تحریری ہے:",
+        "id": 6432,
+        "question": "اقوام متحدہ کب وجود میں آئی :",
         "options": {
-            "A": "انگلستان کا",
-            "B": "اٹلی کا",
-            "C": "فرانس کا",
-            "D": "امریکہ کا"
+            "A": "‏1939ء",
+            "B": "‏1942ء",
+            "C": "‏1945ء",
+            "D": "‏1948ء"
         },
         "domain": "Social Sciences",
         "subdomain": "civics",
@@ -261,22 +92,66 @@
         "is_iaa": false
     },
     {
-        "id": 10218,
-        "question": "ایسا آدمی جو بنی ہوئی اشیاء کی خرید و فروخت کرتا ہے:",
+        "id": 6567,
+        "question": "لچکدار آئین کس نظام میں قابل عمل نہیں ہوتا؟",
         "options": {
-            "A": "پیدا کار",
-            "B": "ملازم",
-            "C": "تاجر",
-            "D": "ترسیل کنندہ"
+            "A": "پارلیمانی",
+            "B": "وفاقی",
+            "C": "وحدانی",
+            "D": "بادشاہت"
         },
         "domain": "Social Sciences",
-        "subdomain": "commerce",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
-        "source_url": [
-            ""
+        "source_url": [],
+        "source": [
+            "Ustad 360"
         ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 27121,
+        "question": "استاد کے احترام کا تعلق ہے :",
+        "options": {
+            "A": "اخلاقی حقوق",
+            "B": "سیاسی حقوق",
+            "C": "سماجی حقوق",
+            "D": "قانونی حقوق"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 27307,
+        "question": "ورلڈ ٹریڈ سینٹر کا واقعہ امریکہ میں کب پیش آیا؟",
+        "options": {
+            "A": "‏2001ء",
+            "B": "‏2002ء",
+            "C": "‏2003ء",
+            "D": "‏2004ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
         "source": [
             "Ustad 360"
         ],
@@ -286,135 +161,200 @@
         "is_iaa": false
     },
     {
-        "id": 20014,
-        "question": "پروسیسر کو ڈیٹا ____ کے ذریعہ دیا جاتا ہے۔",
+        "id": 12148,
+        "question": "‏1973 ء کے آئین میں آٹھویں ترمیم کب کی گئی ؟",
         "options": {
-            "A": "ریم",
+            "A": "1983",
+            "B": "1984",
+            "C": "1985",
+            "D": "1987"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 12268,
+        "question": "منٹو مارلے اصلاحات کا نفاذ کب عمل میں آیا :",
+        "options": {
+            "A": "1906ء",
+            "B": "1909ء",
+            "C": "1911ء",
+            "D": "1912ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 6605,
+        "question": "مشہور مفکر جان لاک کی پیدائش ____ میں ہوئی :",
+        "options": {
+            "A": "‏1632ء",
+            "B": "‏1634ء",
+            "C": "‏1636ء",
+            "D": "‏1638ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 6862,
+        "question": "کس آئین میں حالات کے مطابق آسانی سے تبدیلی ہو سکتی ہے؟",
+        "options": {
+            "A": "استوار",
+            "B": "غیر لچک دار",
+            "C": "عوامی",
+            "D": "لچک دار"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 7247,
+        "question": "‏____ ہنگامی قانون / حکمنامے جاری کرتا / کرتی ہے۔",
+        "options": {
+            "A": "سپریم کورٹ",
+            "B": "چیف جسٹس",
+            "C": "اٹارنی جنرل",
+            "D": "ملک کا صدر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 12250,
+        "question": "امریکہ نے افغانستان پر حملہ کیا :",
+        "options": {
+            "A": "‏1979ء",
+            "B": "‏1990ء",
+            "C": "‏2001ء",
+            "D": "‏2011ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 7225,
+        "question": "جمہوریت کی کامیابی کے لیے ضروری ہے:",
+        "options": {
+            "A": "تعلیم",
+            "B": "جائیداد",
+            "C": "معاشی استحکام",
+            "D": "قانون کی حکمرانی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 6866,
+        "question": "افلاطون نے ایک مثالی ریاست کی آبادی مقرر کی۔",
+        "options": {
+            "A": "‏4040 افراد",
+            "B": "‏5040 افراد",
+            "C": "‏6040 افراد",
+            "D": "‏7040 افراد"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 6622,
+        "question": "مشہور مفکر افلاطون کا تعلق کس ملک سے تھا؟",
+        "options": {
+            "A": "یونان",
             "B": "روم",
-            "C": "یو۔ایس۔بی",
-            "D": "ہارڈ ڈسک"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 1141,
-        "question": "ایم ایس ورڈ 2010 کے ریبنز میں ڈیفالٹ کتنے ٹیبس ہوتے ہیں؟",
-        "options": {
-            "A": "6",
-            "B": "7",
-            "C": "8",
-            "D": "9"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 27365,
-        "question": "اگر ارے کا سائز 50 ہے تو انڈیکسز کی رینج ____ ہوگی :",
-        "options": {
-            "A": "0 to 50",
-            "B": "0 to 49",
-            "C": "1 to 49",
-            "D": "1 to 50"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 20129,
-        "question": "سافٹ ویئر کی غیر قانونی نقول بنانا ____ کہلاتا ہے۔",
-        "options": {
-            "A": "ہیکنگ",
-            "B": "پائریسی",
-            "C": "جعل سازی",
-            "D": "تخریب کاری"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 7440,
-        "question": "زر کی تخمینی طلب کا شرح سود سے تعلق ہے:",
-        "options": {
-            "A": "براہ راست",
-            "B": "معکوس",
-            "C": "صفر",
-            "D": "لامحدود"
+            "C": "اٹلی",
+            "D": "ایران"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 7488,
-        "question": "‏8. طویل عرصہ میں خط رسد ہوتا ہے:",
-        "options": {
-            "A": "کم لچکدار",
-            "B": "زیادہ لچکدار",
-            "C": "غیر لچکدار",
-            "D": "صفر لچکدار"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -428,62 +368,16 @@
         "is_iaa": false
     },
     {
-        "id": 7710,
-        "question": "ایسی اشیاء جو انسان کے براہِ راست استعمال میں آتی ہیں، کہلاتی ہیں :",
+        "id": 12425,
+        "question": "آئین ساز اسمبلی کے پہلے سپیکر کون تھے؟",
         "options": {
-            "A": "اشیائے سرمایہ",
-            "B": "اشیائے جامد",
-            "C": "اشیائے صنعت",
-            "D": "اشیائے صارفین"
+            "A": "عبدالرب نشتر",
+            "B": "ملک غلام محمد",
+            "C": "مولوی تمیز الدین",
+            "D": "لیاقت علی خان"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 8280,
-        "question": "بچے کی اولین درسگاہ ہے:",
-        "options": {
-            "A": "گھر کا ماحول",
-            "B": "مسجد",
-            "C": "سکول",
-            "D": "گلی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 14201,
-        "question": "بنیادی طور پر پاکستان کی معیشت ہے :",
-        "options": {
-            "A": "صنعتی",
-            "B": "زرعی",
-            "C": "کاروباری",
-            "D": "ترقی یافتہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -497,181 +391,39 @@
         "is_iaa": false
     },
     {
-        "id": 16339,
-        "question": "خاندان گروہ ہے :",
+        "id": 2421,
+        "question": "قائد اعظمؒ کس نے 1913 میں مسلم لیگ میں شمولیت اختیار کی؟",
         "options": {
-            "A": "تیسرا",
-            "B": "بنیادی",
-            "C": "دوسرا",
-            "D": "پانچواں"
+            "A": "قائد اعظمؒ",
+            "B": "علامہ اقبال",
+            "C": "چوہدری رحمت علی",
+            "D": "سر سید احمد خان"
         },
         "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 3639,
-        "question": "جین مت کے کس فرقے کے پیروکار دنیاوی آسائشیں اختیار کرتے ہیں؟",
-        "options": {
-            "A": "دگمبر فرقہ",
-            "B": "سویتامبر فرقہ",
-            "C": "اپری گرہ فرقہ",
-            "D": "اہنسا فرقہ"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 21360,
-        "question": "پلیٹ لٹس کا کیا کام ہوتا ہے۔",
-        "options": {
-            "A": "منجمد خون بنانا",
-            "B": "بیکٹیریا کو نگلنا",
-            "C": "اینٹی باڈیز پیدا کرنا",
-            "D": "آکسیجن کی ترسیل"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 21313,
-        "question": "بچے کو خسرے کا حفاظتی ٹیکہ جس عمر میں لگوانا چاہیے ، وہ ہے :",
-        "options": {
-            "A": "‏5 ماہ",
-            "B": "‏8 ماہ",
-            "C": "‏9 ماہ",
-            "D": "‏11 ماہ"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 21699,
-        "question": "ایک گرام فیٹس سے انرجی کی یہ مقدار حاصل ہوتی ہے",
-        "options": {
-            "A": "‏09 کلو کیلوری",
-            "B": "‏18 کلو کیلوری",
-            "C": "‏36 کلو کیلوری",
-            "D": "‏27 کلو کیلوری"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 29847,
-        "question": "سیمی کنڈکٹر ہے۔",
-        "options": {
-            "A": "نی آن",
-            "B": "ہائیڈروجن",
-            "C": "سلیکان",
-            "D": "سوڈیم"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
         "source_url": [],
         "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "short_question"
-        ],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 14717,
-        "question": "پاکستان کی درآمدات میں سرفہرست ہے۔",
-        "options": {
-            "A": "لوہا",
-            "B": "پیٹرولیم",
-            "C": "کوئلہ",
-            "D": "چائے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_068",
         "is_iaa": false
     },
     {
-        "id": 9522,
-        "question": "کیموس کس کے عمل سے بنتے ہیں؟",
+        "id": 6851,
+        "question": "افلاطون نے مثالی ریاست کی آبادی مقرر کی تھی۔",
         "options": {
-            "A": "ہوا",
-            "B": "دریا",
-            "C": "گلیشیرز",
-            "D": "لہریں"
+            "A": "4040",
+            "B": "5040",
+            "C": "6040",
+            "D": "7040"
         },
         "domain": "Social Sciences",
-        "subdomain": "geography",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -685,16 +437,39 @@
         "is_iaa": false
     },
     {
-        "id": 15249,
-        "question": "جلے ہوئے حصوں کو پانی میں ڈبوتے ہیں۔",
+        "id": 19342,
+        "question": "لفظ مدینہ کا مطلب ہے",
         "options": {
-            "A": "‏40 منٹ",
-            "B": "‏10 منٹ",
-            "C": "‏30 منٹ",
-            "D": "‏20 منٹ"
+            "A": "زندگی",
+            "B": "ریاست",
+            "C": "شہر",
+            "D": "آبادی"
         },
         "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 12100,
+        "question": "محمدن ایجوکیشنل کانفرنس کا قیام کب عمل میں آیا؟",
+        "options": {
+            "A": "‏1880ء",
+            "B": "‏1883ء",
+            "C": "‏1886ء",
+            "D": "‏1898ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -708,16 +483,39 @@
         "is_iaa": false
     },
     {
-        "id": 15257,
-        "question": "سلویٹر کے مصنوعی طریقہ تنفس میں مریض کو ____ کے بل لٹایا جاتا ہے۔",
+        "id": 7086,
+        "question": "کثیر پسندوں کے اقتدارِ اعلیٰ میں بڑا نام کونسا ہے؟",
         "options": {
-            "A": "منہ",
-            "B": "پہلو",
-            "C": "پیٹھ",
-            "D": "سر"
+            "A": "جان آسٹن",
+            "B": "ارسطو",
+            "C": "لاسکی",
+            "D": "سرہنری مین"
         },
         "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 12723,
+        "question": "پاکستان کی قومی اسمبلی کے ارکان کی تعداد ____ ہے۔",
+        "options": {
+            "A": "342",
+            "B": "343",
+            "C": "344",
+            "D": "345"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -731,177 +529,16 @@
         "is_iaa": false
     },
     {
-        "id": 3683,
-        "question": "ایسی حرکات جو ہمارے ارادی عضلات کے تابع ہیں :",
+        "id": 27275,
+        "question": "‏1962ء کا آئین نافذ کیا گیا ____۔",
         "options": {
-            "A": "ارادی",
-            "B": "غیر ارادی",
-            "C": "بنیادی",
-            "D": "فروعی"
+            "A": "08 June",
+            "B": "08 May",
+            "C": "08 July",
+            "D": "08 August"
         },
         "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 15691,
-        "question": "معاشرہ میں مثبت کردار ادا کرتا ہے۔",
-        "options": {
-            "A": "شاگرد",
-            "B": "کھلاڑی",
-            "C": "دوست",
-            "D": "کوچ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 3929,
-        "question": "استاد کی نگرانی میں بچے کتنے گھنٹے گزارتے ہیں؟",
-        "options": {
-            "A": "چار سے پانچ گھنٹے",
-            "B": "چھ سے سات گھنٹے",
-            "C": "تین سے آٹھ گھنٹے",
-            "D": "نو سے دس گھنٹے"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 1548,
-        "question": "تم میں سے بہتر وہ ہے جس نے ____ سیکھی / سیکھا اور سکھائی / سکھایا۔",
-        "options": {
-            "A": "قرآن مجید",
-            "B": "کہانی",
-            "C": "نماز",
-            "D": "دعا"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 2091,
-        "question": "‏\"تَمَرَةٌ\" کا معنی کیا ہے؟",
-        "options": {
-            "A": "آگ",
-            "B": "انگور",
-            "C": "کھجور",
-            "D": "ٹکڑا"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 20393,
-        "question": "‏24:12 کی آسان ترین شکل ہے۔",
-        "options": {
-            "A": "2:1",
-            "B": "12:24",
-            "C": "2:5",
-            "D": "2:3"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 22703,
-        "question": "دو خطوط صرف ………… ہی نقطہ پر قطع کر سکتے ہیں",
-        "options": {
-            "A": "4",
-            "B": "3",
-            "C": "2",
-            "D": "1"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 28619,
-        "question": "‏$a^3 - 3ab(a - b) - b^3 =$ ؟",
-        "options": {
-            "A": "$a^3 + b^3$",
-            "B": "$(a + b)^3$",
-            "C": "$a^3 - b^3$",
-            "D": "$(a - b)^3$"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -915,62 +552,64 @@
         "is_iaa": false
     },
     {
-        "id": 16126,
-        "question": "پشتو زبان کے لہجے ہیں۔",
+        "id": 7203,
+        "question": "افلاطون کے مطابق ایک مثالی ریاست کی آبادی ہونی چاہیئے",
         "options": {
-            "A": "1",
-            "B": "2",
-            "C": "3",
-            "D": "4"
+            "A": "4040",
+            "B": "5040",
+            "C": "6040",
+            "D": "7040"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "HSSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 19400,
+        "question": "آبادی کے لحاظ سے دنیا کا سب سے بڑا ملک ہے :",
+        "options": {
+            "A": "چین",
+            "B": "انڈیا",
+            "C": "فرانس",
+            "D": "ایران"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_068",
         "is_iaa": false
     },
     {
-        "id": 16053,
-        "question": "پاکستان اور چین کے درمیان شاہراہ قراقرم مکمل ہوئی۔",
+        "id": 19469,
+        "question": "کس کا قول ہے کہ \"انسان معاشرتی حیوان ہے\"؟",
         "options": {
-            "A": "‏(الف) 1967ء میں",
-            "B": "‏(ب) 1968ء میں",
-            "C": "‏(ج) 1969ء میں",
-            "D": "‏(د) 1970ء میں"
+            "A": "سقراط",
+            "B": "افلاطون",
+            "C": "ارسطو",
+            "D": "گارنر"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 4120,
-        "question": "غزنوی دور شروع ہوتا ہے",
-        "options": {
-            "A": "‏(الف) 1003 A.D",
-            "B": "‏(ب) 1010 A.D",
-            "C": "‏(ج) 1206 A.D",
-            "D": "‏(د) 1210 A.D"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -984,19 +623,364 @@
         "is_iaa": false
     },
     {
-        "id": 23913,
-        "question": "سکرو گیج کا لیسٹ کاؤنٹ ہے۔",
+        "id": 6830,
+        "question": "خاندان سب سے ____ انسانی ادارہ ہے۔",
         "options": {
-            "A": "0.1 mm",
-            "B": "1 mm",
-            "C": "0.001 mm",
-            "D": "0.01 mm"
+            "A": "جدید",
+            "B": "نیا",
+            "C": "قدیم",
+            "D": "پیچیدہ"
         },
-        "domain": "STEM",
-        "subdomain": "physics",
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 27287,
+        "question": "‏1958ء میں اقتدار سنبھالنے والی شخصیت ہے۔",
+        "options": {
+            "A": "چوہدری محمد علی",
+            "B": "سکندر مرزا",
+            "C": "ملک غلام محمد",
+            "D": "فیلڈ مارشل ایوب خان"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 27269,
+        "question": "لفظ \"نظریہ\" کو انگریزی میں ____ کہتے ہیں۔",
+        "options": {
+            "A": "سوشیالوجی",
+            "B": "آئیڈیالوجی",
+            "C": "بیالوجی",
+            "D": "کوئی نہیں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 7116,
+        "question": "کس دستور میں حالات کے مطابق آسانی سے تبدیلی ہو سکتی ہے؟",
+        "options": {
+            "A": "استوار",
+            "B": "عوامی",
+            "C": "لچکدار",
+            "D": "تحریری"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 19527,
+        "question": "‏\"مدنیت\" کا لفظ ____ سے نکلا ہے۔",
+        "options": {
+            "A": "مکہ",
+            "B": "مدینہ",
+            "C": "سعودی عرب",
+            "D": "شام"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 6508,
+        "question": "امریکہ میں طرزِ حکومت رائج ہے :",
+        "options": {
+            "A": "صدارتی",
+            "B": "وحدانی",
+            "C": "خلافت",
+            "D": "بادشاہت"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 12836,
+        "question": "مسئلہ فلسطین کب پیدا ہوا۔",
+        "options": {
+            "A": "‏1972ء میں",
+            "B": "‏1967ء میں",
+            "C": "‏1948ء میں",
+            "D": "‏1945ء میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 6475,
+        "question": "علم شہریت کا بنیادی موضوع ہے:",
+        "options": {
+            "A": "قانون",
+            "B": "شہری",
+            "C": "معاشرہ",
+            "D": "معاشرتی اقدار"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 27143,
+        "question": "بنیادی جمہوریتوں کا حکم نامہ کس نے جاری کیا؟",
+        "options": {
+            "A": "ضیاء الحق",
+            "B": "فاروق احمد خان",
+            "C": "ایوب خان",
+            "D": "پرویز مشرف"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 12173,
+        "question": "ایم۔اے۔او کالج کو علیگڑھ یونیورسٹی کا درجہ کب دیا گیا :",
+        "options": {
+            "A": "۱۹۱۹ء",
+            "B": "۱۹۲۲ء",
+            "C": "۱۹۲۰ء",
+            "D": "۱۹۲۶ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 12270,
+        "question": "پاکستان میں لوگوں کی اوسط عمر ہے۔",
+        "options": {
+            "A": "‏(الف) 62.5 سال",
+            "B": "‏(ب) 64 سال",
+            "C": "‏(ج) 65.8 سال",
+            "D": "‏(د) 67.4 سال"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 27259,
+        "question": "‏1973ء کے آئین کے مطابق ملک کی سرکاری زبان ہے:",
+        "options": {
+            "A": "سندھی",
+            "B": "بنگالی",
+            "C": "اُردو",
+            "D": "پنجابی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 12740,
+        "question": "علامہ اقبال اوپن یونیورسٹی کا صدر دفتر کہاں واقع ہے؟",
+        "options": {
+            "A": "لاہور",
+            "B": "اسلام آباد",
+            "C": "کراچی",
+            "D": "ملتان"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 27104,
+        "question": "اسلام سے قبل عورت کی حیثیت تھی :",
+        "options": {
+            "A": "انتہائی کم",
+            "B": "بہت اعلیٰ",
+            "C": "مرد کے مساوی",
+            "D": "مرد سے زیادہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 27231,
+        "question": "تہران کس ملک کا دارالخلافہ ہے :",
+        "options": {
+            "A": "ایران",
+            "B": "عراق",
+            "C": "افغانستان",
+            "D": "ترکی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 6525,
+        "question": "بھارت میں وفاقی اکائی کو ____ کہتے ہیں۔",
+        "options": {
+            "A": "ریاست",
+            "B": "صوبہ",
+            "C": "ڈویژن",
+            "D": "ری پبلک"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
         "source_url": [
             ""
         ],
@@ -1009,62 +993,16 @@
         "is_iaa": false
     },
     {
-        "id": 1714,
-        "question": "سکریو گیج کا لیسٹ کاؤنٹ:",
+        "id": 6872,
+        "question": "لفظ سیوس (CIVIS) کے معانی ہیں۔",
         "options": {
-            "A": "1 mm",
-            "B": "0.1 mm",
-            "C": "0.01 mm",
-            "D": "0.001 mm"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 1722,
-        "question": "‏160 m3 پیمائش کے کمرے میں موجود ہوا کا ماس معلوم کریں۔ (ہوا کی ڈینسٹی = 1.3kgm−3)",
-        "options": {
-            "A": "208 mg",
-            "B": "208 cg",
-            "C": "208 g",
-            "D": "208 kg"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 10887,
-        "question": "دماغ کا سب سے بڑا حصہ کہلاتا ہے۔",
-        "options": {
-            "A": "مخ اکبر",
-            "B": "وسطی دماغ",
-            "C": "مخ اصغر",
-            "D": "حرام مغز"
+            "A": "شہر",
+            "B": "شہری",
+            "C": "شہریت",
+            "D": "ریاست"
         },
         "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -1078,19 +1016,19 @@
         "is_iaa": false
     },
     {
-        "id": 11103,
-        "question": "بھوک کے محرک میں دماغ کا کون سا حصہ ذمہ دار ہے :",
+        "id": 12650,
+        "question": "قومی اسمبلی میں خواتین کیلئے کل کتنی نشستیں مخصوص ہیں؟",
         "options": {
-            "A": "عرصہ",
-            "B": "زیریں عرصہ",
-            "C": "سر حرام مغز",
-            "D": "حرام مغز"
+            "A": "50",
+            "B": "60",
+            "C": "70",
+            "D": "80"
         },
         "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -1101,39 +1039,16 @@
         "is_iaa": false
     },
     {
-        "id": 11652,
-        "question": "ابن خلدون کی شہرہ آفاق تصنیف کا نام ہے۔",
+        "id": 12819,
+        "question": "انڈین نیشنل کانگریس کا بانی کون تھا۔",
         "options": {
-            "A": "سماجی علوم",
-            "B": "داس کیپیٹل",
-            "C": "بشریات",
-            "D": "مقدمہ"
+            "A": "گاندھی",
+            "B": "قائد اعظم",
+            "C": "اے ۔ او۔ ہیوم",
+            "D": "سر سید احمد خان"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_068",
-        "is_iaa": false
-    },
-    {
-        "id": 16500,
-        "question": "پاکستان ____ ملک ہے :",
-        "options": {
-            "A": "ترقی پذیر",
-            "B": "ترقی یافتہ",
-            "C": "عرب",
-            "D": "یورپی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -1147,19 +1062,90 @@
         "is_iaa": false
     },
     {
-        "id": 11635,
-        "question": "ثانوی گروہ کا تصور کس نے پیش کیا :",
+        "id": 6881,
+        "question": "کونسا نظامِ حکومت غیر یقینی ہے؟",
         "options": {
-            "A": "میکائیور",
-            "B": "ڈرخائم",
-            "C": "کومٹے",
-            "D": "سپینسر"
+            "A": "آمریت",
+            "B": "صدارتی",
+            "C": "پارلیمانی",
+            "D": "وفاقی"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "civics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 6954,
+        "question": "‏\"حقوق وہ توقعات ہیں جو ہم دوسروں سے اور دوسرے ہم سے کرتے ہیں\"۔ کس نے کہا؟",
+        "options": {
+            "A": "ہالینڈ",
+            "B": "ارسطو",
+            "C": "ہاب ہاؤس",
+            "D": "ٹی ایچ گرین"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 6474,
+        "question": "پدری خاندان میں سربراہ ہوتا ہے:",
+        "options": {
+            "A": "عورت",
+            "B": "بیٹا",
+            "C": "مرد",
+            "D": "بیٹی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_068",
+        "is_iaa": false
+    },
+    {
+        "id": 19558,
+        "question": "ریاست اس کے بغیر قائم نہیں رہ سکتی",
+        "options": {
+            "A": "ہسپتال",
+            "B": "تعلیم",
+            "C": "الیکشن",
+            "D": "علاقہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "civics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"

@@ -1,64 +1,18 @@
 [
     {
-        "id": 2724,
-        "question": "کون سا طریقہ نباتاتی افزائش کا مصنوعی (آرٹیفیشل) طریقہ ہے؟",
+        "id": 9312,
+        "question": "استوائی علاقوں کے سمندر ہیں",
         "options": {
-            "A": "بائنری فشن",
-            "B": "اسپور کا بننا",
-            "C": "پارتھینو جینیسز",
-            "D": "گرافٹنگ"
+            "A": "سرد",
+            "B": "معتدل",
+            "C": "خشک سرد",
+            "D": "گرم"
         },
-        "domain": "STEM",
-        "subdomain": "biology",
+        "domain": "Social Sciences",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 1790,
-        "question": "خون کو روکنے کے لیے بلڈ کلاٹس خون کے کون سے خلیے بناتے ہیں؟",
-        "options": {
-            "A": "سرخ خون کے خلیات",
-            "B": "لیمفو سائیٹس",
-            "C": "سفید خون کے خلیات",
-            "D": "پلیٹلیٹس"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 24927,
-        "question": "دلچسپی کے جین کاٹنے والا انزائم ہے :",
-        "options": {
-            "A": "لائی پیز",
-            "B": "ایمائی لیز",
-            "C": "ریسٹرکشن اینڈونیوکلیئز",
-            "D": "لائی گیز"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -69,19 +23,19 @@
         "is_iaa": false
     },
     {
-        "id": 17632,
-        "question": "ولائی اس آرگن میں پائے جاتے ہیں :",
+        "id": 14724,
+        "question": "سطح زمین پر انسان کی پیدائش ہوئی:",
         "options": {
-            "A": "ایسو فیگس",
-            "B": "معدہ",
-            "C": "چھوٹی آنت",
-            "D": "بڑی آنت"
+            "A": "‏2 لاکھ سال قبل",
+            "B": "‏10 لاکھ سال قبل",
+            "C": "‏12 لاکھ سال قبل",
+            "D": "‏4 لاکھ سال قبل"
         },
-        "domain": "STEM",
-        "subdomain": "biology",
+        "domain": "Social Sciences",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -92,205 +46,19 @@
         "is_iaa": false
     },
     {
-        "id": 26601,
-        "question": "ڈائیلوٹ ایسڈز کاربونیٹس کے ساتھ ری ایکشن کر کے درج ذیل میں سے کون سا پروڈکٹ نہیں بناتے؟",
+        "id": 2571,
+        "question": "چار بنیادی سمتوں کے درمیان ____ ثانوی سمتیں موجود ہیں۔",
         "options": {
-            "A": "سالٹ",
-            "B": "پانی",
-            "C": "کاربن ڈائی آکسائیڈ",
-            "D": "ہایئڈروجن"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 18828,
-        "question": "جب یورینیم 235 ٹوٹتا ہے تو اس سے پیدا ہوتے ہیں",
-        "options": {
-            "A": "الیکٹران",
-            "B": "نیوٹران",
-            "C": "پروٹونز",
-            "D": "الفا پارٹیکلز"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 18639,
-        "question": "‏\"p\" سب شیل میں آربیٹلز کی تعداد ہے۔",
-        "options": {
-            "A": "1",
+            "A": "5",
             "B": "2",
             "C": "3",
             "D": "4"
         },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 12707,
-        "question": "‏\"حکومت اس کی سرپرست ہے جس کا کوئی سرپرست نہ ہو\" ____ کا قول ہے ۔",
-        "options": {
-            "A": "حضرت محمدصلی اللہ علیہ وسلم",
-            "B": "حضرت زیدؓ",
-            "C": "شاہ ولی اللہؒ",
-            "D": "سید اسماعیل شہیدؒ"
-        },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 12207,
-        "question": "وحدت مغربی پاکستان کا قیام عمل میں آیا:",
-        "options": {
-            "A": "‏1955ء",
-            "B": "‏1954ء",
-            "C": "‏1956ء",
-            "D": "‏1957ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 6881,
-        "question": "کونسا نظامِ حکومت غیر یقینی ہے؟",
-        "options": {
-            "A": "آمریت",
-            "B": "صدارتی",
-            "C": "پارلیمانی",
-            "D": "وفاقی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 12938,
-        "question": "دنیا میں سب سے زیادہ گھوڑے کس براعظم میں پائے جاتے ہیں؟",
-        "options": {
-            "A": "شمالی امریکہ",
-            "B": "ایشیاء",
-            "C": "یورپ",
-            "D": "آسٹریلیا"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 12966,
-        "question": "دنیا میں تجارتی پیمانے پر قدرتی گیس کا استعمال کب شروع ہوا؟",
-        "options": {
-            "A": "1850",
-            "B": "1820",
-            "C": "1900",
-            "D": "1750"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 616,
-        "question": "سیل (cell) میں موجود entities کو محدود کرنے کے لیے کونسی کمانڈ استعمال ہوتی ہے؟",
-        "options": {
-            "A": "ڈیٹا ویلیڈیشن",
-            "B": "کنڈیشنل فارمیٹنگ",
-            "C": "فنکشن",
-            "D": "فارمولہ"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "FBISE"
@@ -301,64 +69,16 @@
         "is_iaa": false
     },
     {
-        "id": 27522,
-        "question": "مندرجہ ذیل میں سے کون سی بات C لینگویج کے متعلق درست ہے :",
+        "id": 9458,
+        "question": "ہوا میں موجود رطوبت کی مقدار کو ماپنے کیلئے کون سا آلہ استعمال کیا جاتا ہے؟",
         "options": {
-            "A": "‏C ایک کیس سینسیٹیو لینگویج نہیں ہے",
-            "B": "ذخیرہ الفاظ کو متغیرات کے نام کے طور پر استعمال کیا جا سکتا ہے",
-            "C": "تمام لاجیکل آپریٹرز بائنری آپریٹرز ہوتے ہیں",
-            "D": "ان میں سے کوئی نہیں"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "catch_all"
-        ],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 27724,
-        "question": "دی گئی سٹیٹمنٹ کے بعد \"i\" کی مقدار کیا ہوگی؟ int i = 4 + 3.9;",
-        "options": {
-            "A": "7.9",
-            "B": "8.0",
-            "C": "8",
-            "D": "7"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 9950,
-        "question": "ان میں سے کس کا نمونہ نارمل بیلنس کی ڈیبٹ سائیڈ پر ظاہر ہوتا ہے؟",
-        "options": {
-            "A": "قرض خواہ کا کھاتہ",
-            "B": "غیر حاصل شدہ آمدنی کا کھاتہ",
-            "C": "کرایہ آمدنی کا کھاتہ",
-            "D": "نقد رقم کا کھاتہ"
+            "A": "انیمو میٹر",
+            "B": "تھرما میٹر",
+            "C": "بیرومیٹر",
+            "D": "ہائیگرومیٹر"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -372,39 +92,16 @@
         "is_iaa": false
     },
     {
-        "id": 13286,
-        "question": "زرعی ترقیاتی بینک آف پاکستان قائم ہوا۔",
+        "id": 9521,
+        "question": "عمل شکست وریخت کی کتنی اقسام ہیں؟",
         "options": {
-            "A": "‏1955ء میں",
-            "B": "‏1961ء میں",
-            "C": "‏1974ء میں",
-            "D": "‏1982ء میں"
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 7965,
-        "question": "طلب و رسد کے خطوط حرکت کرتے ہیں۔",
-        "options": {
-            "A": "ایک ہی سمت میں",
-            "B": "مخالف سمت میں",
-            "C": "ایک دوسرے کے متوازی",
-            "D": "افقی حالت میں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -418,139 +115,22 @@
         "is_iaa": false
     },
     {
-        "id": 7352,
-        "question": "منڈی کے توازن میں قیمت کے تعین کا انحصار ہوتا ہے۔",
+        "id": 2058,
+        "question": "صفر درجہ طول بلد کو ____ بھی کہتے ہیں۔",
         "options": {
-            "A": "طلب پر",
-            "B": "رسد پر",
-            "C": "طلب و رسد پر",
-            "D": "معینہ رسد پر"
+            "A": "خط استوا",
+            "B": "خط نصف النہار",
+            "C": "خط سرطان",
+            "D": "خط جدی"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 7990,
-        "question": "علم کا حقیقی سرچشمہ ہے",
-        "options": {
-            "A": "ٹیکنالوجی",
-            "B": "سائنس",
-            "C": "کتاب",
-            "D": "ذات الہی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 13782,
-        "question": "صوبائی یونیورسٹیوں کا چانسلر ہوتا ہے :",
-        "options": {
-            "A": "صدر مملکت",
-            "B": "صوبائی گورنر",
-            "C": "صوبائی وزیر تعلیم",
-            "D": "ضلعی آفیسر تعلیم"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 14225,
-        "question": "تحریک دیوبند کے بانی تھے :",
-        "options": {
-            "A": "مولوی مملوک علی",
-            "B": "مولانا محمد قاسم نانوتویؒ",
-            "C": "مولانا آزاد",
-            "D": "مولانا محمود الحسنؒ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 9267,
-        "question": "کیتھولک فرقہ کا سربراہ کہلاتا ہے۔",
-        "options": {
-            "A": "پادری",
-            "B": "بشپ",
-            "C": "پوپ",
-            "D": "فادر"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 22259,
-        "question": "آئرن کی کمی سے بیماری لاحق ہوتی ہے",
-        "options": {
-            "A": "دل کا عارضہ",
-            "B": "کینسر",
-            "C": "سکروی",
-            "D": "انیمیا"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
         "source_url": [],
         "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "short",
@@ -558,106 +138,12 @@
         "is_iaa": false
     },
     {
-        "id": 29745,
-        "question": "‏____ الیکٹریکل سگنل کو ڈیجیٹل سگنل میں تبدیل کرتا ہے۔",
+        "id": 14875,
+        "question": "پاکستان کی نقد آور اور خریف کی خاص فصل ہے۔",
         "options": {
-            "A": "کی بورڈ",
-            "B": "مانیٹر",
-            "C": "سکینر",
-            "D": "موڈیم"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 28749,
-        "question": "انڈسٹریز میں تقریباً ____ انرجی کے ذرائع خرچ ہوتے ہیں :",
-        "options": {
-            "A": "20 %",
-            "B": "30 %",
-            "C": "40 %",
-            "D": "50 %"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 14636,
-        "question": "عمل تبخیر کا بہت بڑا معاون ہے۔",
-        "options": {
-            "A": "جنگلات",
-            "B": "مٹی",
-            "C": "پتھر",
-            "D": "عمارات"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 9372,
-        "question": "کھمبی نما چٹان عمل سے بنتی ہے :",
-        "options": {
-            "A": "دریا",
-            "B": "گلیشیئر",
-            "C": "ہوا",
-            "D": "لہریں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 14729,
-        "question": "ایشیاء کے لوگوں کی خوراک کا بنیادی حصہ ہے:",
-        "options": {
-            "A": "چاول",
+            "A": "کپاس",
             "B": "گندم",
-            "C": "مکی",
+            "C": "چاول",
             "D": "گنا"
         },
         "domain": "Social Sciences",
@@ -670,44 +156,21 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 794,
-        "question": "لمبی چھلانگ کے لیے اکھاڑے کی لمبائی کتنی ہوتی ہے؟",
-        "options": {
-            "A": "‏10 میٹر",
-            "B": "‏9 میٹر",
-            "C": "‏12 میٹر",
-            "D": "‏11 میٹر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
         "length_tier": "long",
         "batch_id": "batch_192",
         "is_iaa": false
     },
     {
-        "id": 15619,
-        "question": "کافی میں کونسا کیمیائی مادہ پایا جاتا ہے؟",
+        "id": 14664,
+        "question": "شہری ساخت کا سیکٹر ماڈل پیش کیا گیا",
         "options": {
-            "A": "مالٹوز",
-            "B": "کانجی",
-            "C": "کیفیئن",
-            "D": "پانی"
+            "A": "1920",
+            "B": "1925",
+            "C": "1930",
+            "D": "1935"
         },
         "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -721,16 +184,39 @@
         "is_iaa": false
     },
     {
-        "id": 15573,
-        "question": "نیزہ پھینکنے کے مقابلے کے آغاز سے قبل پریکٹس تھروز دی جاتی ہیں :",
+        "id": 9285,
+        "question": "معدنیات کے مجموعے کا نام ہے :",
         "options": {
-            "A": "1",
-            "B": "2",
-            "C": "3",
-            "D": "6"
+            "A": "میدان",
+            "B": "سطح مرتفع",
+            "C": "سمندر",
+            "D": "چٹان"
         },
         "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14858,
+        "question": "براعظم ایشیا کا کل رقبہ ملین مربع کلومیٹر ہے :",
+        "options": {
+            "A": "47.5",
+            "B": "41.5",
+            "C": "46.62",
+            "D": "48.5"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -744,181 +230,16 @@
         "is_iaa": false
     },
     {
-        "id": 5454,
-        "question": "نرم اور ہموار کپڑا ہوتا ہے :",
+        "id": 14741,
+        "question": "کرہ ارض کے کتنے فیصد حصے پر خشکی ہے؟",
         "options": {
-            "A": "ریشمی",
-            "B": "سوتی",
-            "C": "اونی",
-            "D": "لِنن"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 1960,
-        "question": "مالٹوز کو کون سی شوگر کہتے ہیں؟",
-        "options": {
-            "A": "ملک شوگر",
-            "B": "سٹارچ شوگر",
-            "C": "فروٹ شوگر",
-            "D": "ویجیٹیبل شوگر"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 1391,
-        "question": "وہ اسم جو دو چیزوں کو ظاہر کرے اسے کیا کہلاتا ہے؟",
-        "options": {
-            "A": "جمع الجمع",
-            "B": "جمع مکسر",
-            "C": "مفرد",
-            "D": "تثنیہ"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 30380,
-        "question": "‏(2x + 1) / ((x + 1)(x - 1)) ایک ۔۔۔ ہے :",
-        "options": {
-            "A": "غیر واجب کسر",
-            "B": "واجب کسر",
-            "C": "مساوات",
-            "D": "مماثلت"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 30477,
-        "question": "‏4m2n4 اور p6 کا وسط فی التناسب ہے۔",
-        "options": {
-            "A": "±2m2n4p6",
-            "B": "±2mn2p3",
-            "C": "±2m2n2p6",
-            "D": "±4m2n4p6"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 20730,
-        "question": "اگر f(x) = x/2 ، 4 ≤ x ≤ 12 جبکہ x ایک جفت عدد ہو تو f(x) کا رینج کیا ہے؟",
-        "options": {
-            "A": "{3,4,5,6}",
-            "B": "{3,4,5}",
-            "C": "{2,3,4,5,6}",
-            "D": "{4,6,8,10,12}"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 22430,
-        "question": "‏\"$m$\" کی کس قیمت کے لئے $x^2 + 4x + m$ کامل مربع بن جائے گا :",
-        "options": {
-            "A": "8",
-            "B": "-8",
-            "C": "4",
-            "D": "16"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 15802,
-        "question": "‏1906ء میں مسلمان رہنماؤں کا وفد شملہ میں کس وائسرائے سے ملا؟",
-        "options": {
-            "A": "لارڈ میو",
-            "B": "لارڈ کرزن",
-            "C": "لارڈ منٹو",
-            "D": "لارڈ ماؤنٹ بیٹن"
+            "A": "25",
+            "B": "29",
+            "C": "31",
+            "D": "26"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -927,113 +248,44 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "long",
+        "length_tier": "short",
         "batch_id": "batch_192",
         "is_iaa": false
     },
     {
-        "id": 5927,
-        "question": "دنیا کی سب سے اونچی پہاڑی چوٹی ماؤنٹ ایورسٹ واقع ہے:",
+        "id": 9653,
+        "question": "دنیا کا نمکین ترین سمندر ہے۔",
         "options": {
-            "A": "بھارت میں",
-            "B": "افغانستان میں",
-            "C": "بنگلہ دیش میں",
-            "D": "نیپال میں"
+            "A": "بحیرہ قلزم",
+            "B": "بحیرہ زرد",
+            "C": "بحیرہ مردار",
+            "D": "بحیرہ سفید"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "long",
+        "length_tier": "short",
         "batch_id": "batch_192",
         "is_iaa": false
     },
     {
-        "id": 16162,
-        "question": "پاکستان کی قومی سلامتی کونسل کی صدارت کون کرتا ہے :",
+        "id": 705,
+        "question": "جغرافیہ کی کون سی شاخ نقشہ کشی سے متعلق ہے؟",
         "options": {
-            "A": "صدر",
-            "B": "وزیر اعظم",
-            "C": "چیف آف آرمی سٹاف",
-            "D": "چیف آف ائیر سٹاف"
+            "A": "کارٹو گرافی",
+            "B": "فلکیاتی جغرافیہ",
+            "C": "بحری جغرافیہ",
+            "D": "تجارتی جغرافیہ"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 24270,
-        "question": "زمین کے لحاظ سے جیو سٹیشنری سیٹلائٹ کی ولا سٹی ہے :",
-        "options": {
-            "A": "صفر",
-            "B": "8 Kms−1",
-            "C": "80 Kms−1",
-            "D": "800 Kms−1"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 29852,
-        "question": "ای۔ ای۔ جی حاصل کرنے کے لیے کتنے الیکٹروڈز لگائے جاتے ہیں",
-        "options": {
-            "A": "بیس",
-            "B": "اٹھارہ",
-            "C": "سولہ",
-            "D": "چودہ"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_192",
-        "is_iaa": false
-    },
-    {
-        "id": 974,
-        "question": "‏____ انسانی صحت پر صنعتی آلودگی کا اثر ہے۔",
-        "options": {
-            "A": "پھیپھڑوں کا کینسر",
-            "B": "پانی کی آلودگی",
-            "C": "ہوا کی آلودگی",
-            "D": "مٹی آلودگی"
-        },
-        "domain": "Profession",
-        "subdomain": "plumbing",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -1042,21 +294,44 @@
             "FBISE"
         ],
         "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14901,
+        "question": "دنیا کے سب سے بڑے بارانی جنگلات ہیں:",
+        "options": {
+            "A": "افریقہ کے جنگلات",
+            "B": "ایمزون کے جنگلات",
+            "C": "مخروطی جنگلات",
+            "D": "سندھ کے دریائی جنگلات"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
         "length_tier": "short",
         "batch_id": "batch_192",
         "is_iaa": false
     },
     {
-        "id": 11258,
-        "question": "ثانوی محرکات جو ہم دوسروں سے سیکھتے ہیں، ہماری زندگی میں اہم رول ادا کرتے ہیں",
+        "id": 9593,
+        "question": "دن کے گرم ترین اور سرد ترین مرحلے میں حرارت کے لحاظ سے درجوں کا فرق کہلاتا ہے۔",
         "options": {
-            "A": "تحصیل کا محرک",
-            "B": "مادری محرک",
-            "C": "جنس کا محرک",
-            "D": "درجہ حرارت کا محرک"
+            "A": "روزانہ تفاوت درجہ حرارت",
+            "B": "ہفتہ وار تفاوت درجہ حرارت",
+            "C": "ماہانہ تفاوت درجہ حرارت",
+            "D": "سالانہ تفاوت درجہ حرارت"
         },
         "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -1070,16 +345,85 @@
         "is_iaa": false
     },
     {
-        "id": 16606,
-        "question": "دراوڑی تہذیب کا مرکز ہڑپہ کس ضلع میں واقع ہے؟",
+        "id": 9344,
+        "question": "آبی بخارات کا ننھی بوندوں میں تبدیل ہو کر تیرنا کہلاتا ہے",
         "options": {
-            "A": "ملتان",
-            "B": "لاہور",
-            "C": "فیصل آباد",
-            "D": "ساہیوال"
+            "A": "برف",
+            "B": "بادل",
+            "C": "شبنم",
+            "D": "درجہ حرارت"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14748,
+        "question": "انسان کی بہت سی سرگرمیاں تابع ہیں:",
+        "options": {
+            "A": "نقل و حمل",
+            "B": "معیشت",
+            "C": "ماحول",
+            "D": "سیاست"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14931,
+        "question": "میکسیکو کے دارالحکومت کا نام ہے",
+        "options": {
+            "A": "نیویارک",
+            "B": "بوسٹن",
+            "C": "واشنگٹن",
+            "D": "میکسیکو سٹی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14954,
+        "question": "کس نسل کے لوگ ہر لحاظ سے پسماندہ ہیں :",
+        "options": {
+            "A": "سفید نسل",
+            "B": "زرد نسل",
+            "C": "منگول نسل",
+            "D": "کالی نسل"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -1093,16 +437,16 @@
         "is_iaa": false
     },
     {
-        "id": 16891,
-        "question": "چند گھر مل کر بناتے ہیں۔",
+        "id": 14750,
+        "question": "مچھلی پانی میں رہنا پسند کرتی ہے:",
         "options": {
-            "A": "کھیت رہائش",
-            "B": "قصبہ",
-            "C": "گاؤں",
-            "D": "بستی"
+            "A": "سرد",
+            "B": "معتدل",
+            "C": "گرم",
+            "D": "نمکین"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -1116,20 +460,22 @@
         "is_iaa": false
     },
     {
-        "id": 16694,
-        "question": "زیادہ آبادی سبب بنتی ہے:",
+        "id": 9494,
+        "question": "پانی کا نقطہ انجماد ہے",
         "options": {
-            "A": "سماجی ترقی کا",
-            "B": "تنظیم کا",
-            "C": "سماجی مسائل کا",
-            "D": "وسائل کا"
+            "A": "3° C",
+            "B": "2° C",
+            "C": "6° C",
+            "D": "0° C"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
+        "level": "HSSC-I",
+        "source_url": [
+            ""
+        ],
         "source": [
             "Ustad 360"
         ],
@@ -1139,25 +485,673 @@
         "is_iaa": false
     },
     {
-        "id": 1621,
-        "question": "ہستی اپنی حباب کی سی ہے / یہ نمائش سراب کی سی ہے — اس شعر میں علم بیان کی کون سی خوبی استعمال ہوئی ہے؟",
+        "id": 2572,
+        "question": "شمال کی کتنی اقسام ہیں؟",
         "options": {
-            "A": "تشبیہ",
-            "B": "کنایہ",
-            "C": "استعارہ",
-            "D": "مجازِ مرسل"
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
         },
-        "domain": "Humanities",
-        "subdomain": "urdu literature",
+        "domain": "Social Sciences",
+        "subdomain": "geography",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "FBISE"
         ],
         "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14662,
+        "question": "‏2017ء کی مردم شماری کے مطابق پاکستان کی گنجانیت تھی",
+        "options": {
+            "A": "‏251 افراد فی مربع کلومیٹر",
+            "B": "‏261 افراد فی مربع کلومیٹر",
+            "C": "‏271 افراد فی مربع کلومیٹر",
+            "D": "‏281 افراد فی مربع کلومیٹر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
         "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9299,
+        "question": "بین الاقوامی جغرافیائی کانفرنس منعقد ہوئی",
+        "options": {
+            "A": "1758",
+            "B": "1858",
+            "C": "1958",
+            "D": "1891"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9666,
+        "question": "‏\"برکھان\" ٹیلے کی شکل ہوتی ہے۔",
+        "options": {
+            "A": "گول",
+            "B": "عرضانی",
+            "C": "ہلالی",
+            "D": "طولانی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9549,
+        "question": "براعظمی پوست کی کثافت ۔۔۔۔۔۔۔۔۔ ہے۔",
+        "options": {
+            "A": "4.8",
+            "B": "9.8",
+            "C": "2.7",
+            "D": "5.2"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9503,
+        "question": "دنیا کی آبادی کا کتنا حصہ میدانوں میں رہتا ہے؟",
+        "options": {
+            "A": "1/2",
+            "B": "1/4",
+            "C": "3/4",
+            "D": "4/4"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14839,
+        "question": "دنیا کا سرد ترین براعظم ………… ہے",
+        "options": {
+            "A": "انٹارکٹیکا",
+            "B": "ایشیاء",
+            "C": "یورپ",
+            "D": "آسٹریلیا"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9288,
+        "question": "صحرا میں پتھریلا علاقہ کہلاتا ہے :",
+        "options": {
+            "A": "ریت کا ٹیلا",
+            "B": "حمادہ",
+            "C": "کھمبی نما چٹان",
+            "D": "یار ڈنگ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14757,
+        "question": "کھیوڑہ مشہور ہے۔",
+        "options": {
+            "A": "نمک",
+            "B": "تیل",
+            "C": "گیس",
+            "D": "یورینیم"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [
+            "short_question"
+        ],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9453,
+        "question": "ہمالیہ پہاڑ ____ کی ایک مثال ہے۔",
+        "options": {
+            "A": "شکن دار پہاڑ",
+            "B": "بلاک پہاڑ",
+            "C": "آتشفشاں پہاڑ",
+            "D": "بقیہ پہاڑ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9614,
+        "question": "دریا کا بالائی حصہ کیا کہلاتا ہے؟",
+        "options": {
+            "A": "عمر رسیدہ منزل",
+            "B": "سمتِ بالا",
+            "C": "شباب منزل",
+            "D": "جوان منزل"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14544,
+        "question": "آزادئ کے فوراً بعد پاکستان کس کا ممبر بن گیا :",
+        "options": {
+            "A": "سارک",
+            "B": "یورپی یونین",
+            "C": "دولت مشترکہ",
+            "D": "آرگنائزیشن آف اسلامک کانفرنس"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9571,
+        "question": "کھاری طاس (Salt pans) ____ کے عمل سے بنتے ہیں۔",
+        "options": {
+            "A": "دریا",
+            "B": "ہواؤں",
+            "C": "گلیشیر",
+            "D": "لہروں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9672,
+        "question": "پاک و ہند کو وسط ایشیا کی سرد ہواؤں سے کون سا پہاڑ محفوظ رکھتا ہے؟",
+        "options": {
+            "A": "الپس",
+            "B": "راکیز",
+            "C": "اینڈیز",
+            "D": "ہمالیہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14699,
+        "question": "میگالو پولس کا تصور کب پیش کیا گیا؟",
+        "options": {
+            "A": "‏1957ء میں",
+            "B": "‏1955ء میں",
+            "C": "‏1951ء میں",
+            "D": "‏1950ء میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14776,
+        "question": "‏2017 کی مردم شماری کے مطابق پاکستان کی گنجانی کتنی ہے؟",
+        "options": {
+            "A": "277P/skm",
+            "B": "261P/skm",
+            "C": "221 P/skm",
+            "D": "212 P/skm"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14547,
+        "question": "پاکستان میں خشک میووں کی سالانہ پیداوار کا اندازہ ____ لاکھ کلوگرام ہے :",
+        "options": {
+            "A": "84.5",
+            "B": "64.5",
+            "C": "74.5",
+            "D": "54.5"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14095,
+        "question": "براعظم انٹارکٹیکا میں بارش کی سالانہ اوسط مقدار کتنی ہے؟",
+        "options": {
+            "A": "30mm",
+            "B": "40mm",
+            "C": "50mm",
+            "D": "60mm"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14779,
+        "question": "صوبہ پنجاب ملک کا کتنا رقبہ گھیرے ہوئے ہے؟",
+        "options": {
+            "A": "12.87%",
+            "B": "25.8%",
+            "C": "21.9%",
+            "D": "43%"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9341,
+        "question": "ایک جیسے دباؤ والے علاقے کو ملانے والا خط کہلاتا ہے",
+        "options": {
+            "A": "مساوی الحرارت",
+            "B": "مساوی البار",
+            "C": "مساوی المطر",
+            "D": "مساوی شوریت"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9543,
+        "question": "درجہ حرارت کی پیمائش کے لئے آلہ کو کیا کہتے ہیں؟",
+        "options": {
+            "A": "بیرومیٹر",
+            "B": "تھرمامیٹر",
+            "C": "ہائیڈرومیٹر",
+            "D": "الٹی میٹر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14828,
+        "question": "جاپان کا کل رقبہ ………… کلومیٹر ہے",
+        "options": {
+            "A": "37,78,00",
+            "B": "47,800",
+            "C": "7,75,800",
+            "D": "57,73,300"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14731,
+        "question": "پاکستان کو سب سے پہلے تسلیم کرنے والا ملک ہے:",
+        "options": {
+            "A": "روس",
+            "B": "ایران",
+            "C": "افغانستان",
+            "D": "انڈیا"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9368,
+        "question": "فوکس کے عین اوپر والی جگہ کو کہتے ہیں :",
+        "options": {
+            "A": "بیرونی منٹل",
+            "B": "فالٹ لائن",
+            "C": "اپی سنٹر",
+            "D": "کرسٹ (قشر الارض)"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14085,
+        "question": "سعودی عرب میں 2016ء کے اعدادوشمار کے مطابق معدنی تیل کے محفوظ ذخائر (بلین بیرل میں) کتنے ہیں:",
+        "options": {
+            "A": "108",
+            "B": "186",
+            "C": "268",
+            "D": "326"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9393,
+        "question": "بارکھان کی شکل ہوتی ہے۔",
+        "options": {
+            "A": "ہلال نما",
+            "B": "لمبوتری",
+            "C": "گول",
+            "D": "مربع"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14809,
+        "question": "پاکستان کے کس شہر کو مانچسٹر کہتے ہیں ؟",
+        "options": {
+            "A": "کراچی",
+            "B": "لاہور",
+            "C": "فیصل آباد",
+            "D": "گوجرانوالہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 9619,
+        "question": "سمندر کی سطح پر ہوا کا دباؤ کتنے کلو گرام فی مربع سینٹی میٹر ہے؟",
+        "options": {
+            "A": "۴ کلو گرام",
+            "B": "۳ کلو گرام",
+            "C": "۲ کلو گرام",
+            "D": "۱ کلو گرام"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_192",
+        "is_iaa": false
+    },
+    {
+        "id": 14726,
+        "question": "پاکستان میں شہرِ اقتدار ہے:",
+        "options": {
+            "A": "اسلام آباد",
+            "B": "راولپنڈی",
+            "C": "کراچی",
+            "D": "فیصل آباد"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "geography",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
         "batch_id": "batch_192",
         "is_iaa": false
     }

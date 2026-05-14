@@ -1,181 +1,41 @@
 [
     {
-        "id": 17132,
-        "question": "بائیولوجیکل میتھڈ کا سب سے اہم قدم کونسا ہے؟",
+        "id": 15018,
+        "question": "خواب آور گولیاں کھانے سے کس چیز پر فوراً اثر ہوتا ہے ؟",
         "options": {
-            "A": "تجربات کرنا",
-            "B": "ہائپوتھیسس",
-            "C": "ڈیڈکشن",
-            "D": "مشاہدات کرنا"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 17088,
-        "question": "کلاسیفیکیشن کی بنیادی اکائی ____ ہے۔",
-        "options": {
-            "A": "سپی شیز",
-            "B": "جینس",
-            "C": "فیملی",
-            "D": "کلاس"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 17325,
-        "question": "گلائیکولائسز میں گلوکوز مالیکیول کو کن دو مالیکیول میں توڑا جاتا ہے؟",
-        "options": {
-            "A": "NADH",
-            "B": "FADH2",
-            "C": "پائی رووک ایسڈ",
-            "D": "ایسیٹائل کوانزائم-A"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 18591,
-        "question": "لینتھینم سیریز ؟ = Z سے شروع ہوتی ہے :",
-        "options": {
-            "A": "56",
-            "B": "57",
-            "C": "58",
-            "D": "59"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 18656,
-        "question": "اس کمپاؤنڈ کی نشاندہی کریں جو پانی میں حل پذیر نہیں ہے۔",
-        "options": {
-            "A": "C6H6",
-            "B": "NaCl",
-            "C": "KBr",
-            "D": "MgCl2"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 18406,
-        "question": "درج ذیل میں سے کونسا ایلیمنٹ میلیبل ہے :",
-        "options": {
-            "A": "کاربن",
-            "B": "زنک",
-            "C": "سلفر",
-            "D": "فاسفورس"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 27035,
-        "question": "‏HPO4^2- کا کنجوگیٹ ایسڈ کونسا ہے؟",
-        "options": {
-            "A": "PO4^3-",
-            "B": "H2PO4^2-",
-            "C": "H2PO4^-",
-            "D": "H3PO4"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 27110,
-        "question": "قراردادِ مقاصد کب منظور ہوئی :",
-        "options": {
-            "A": "‏1948ء",
-            "B": "‏1949ء",
-            "C": "‏1950ء",
-            "D": "‏1940ء"
+            "A": "جگر پر",
+            "B": "پھیپھڑوں پر",
+            "C": "نظام عصبی پر",
+            "D": "معدہ پر"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15068,
+        "question": "ایڈز کا وائرس دریافت کیا گیا :",
+        "options": {
+            "A": "‏1980ء",
+            "B": "‏1983ء",
+            "C": "‏1987ء",
+            "D": "‏1990ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -186,19 +46,19 @@
         "is_iaa": false
     },
     {
-        "id": 19404,
-        "question": "علم شہریت کے لیے کون سا متبادل لفظ استعمال ہوتا ہے :",
+        "id": 15299,
+        "question": "برائے طالبات — بیڈ منٹن کورٹ کے نیٹ کی چوڑائی ہوتی ہے :",
         "options": {
-            "A": "معاشیات",
-            "B": "اخلاقیات",
-            "C": "عمرانیات",
-            "D": "مدنیت"
+            "A": "‏68 سینٹی میٹر",
+            "B": "‏70 سینٹی میٹر",
+            "C": "‏76 سینٹی میٹر",
+            "D": "‏72 سینٹی میٹر"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -209,92 +69,19 @@
         "is_iaa": false
     },
     {
-        "id": 6557,
-        "question": "جان آسٹن نے اقتدار اعلیٰ کا قانونی تصور پیش کیا۔",
+        "id": 15386,
+        "question": "ٹیبل ٹینس کھیل میں نیٹ اسمبلی کی لمبائی ہوتی ہے:",
         "options": {
-            "A": "‏1832ء",
-            "B": "‏1833ء",
-            "C": "‏1834ء",
-            "D": "‏1836ء"
+            "A": "1.80m",
+            "B": "1.50m",
+            "C": "1.75m",
+            "D": "1.83m"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 9779,
-        "question": "فرنیچر خریدا گیا نقد کریڈٹ کیا جائے گا :",
-        "options": {
-            "A": "فروخت اکاؤنٹ کو",
-            "B": "کیش اکاؤنٹ کو",
-            "C": "فرنیچر اکاؤنٹ کو",
-            "D": "خریدار اکاؤنٹ کو"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 10016,
-        "question": "خام نفع یا خام نقصان معلوم کیا جاتا ہے",
-        "options": {
-            "A": "نفع و نقصان کا کھاتہ",
-            "B": "تجارتی کھاتہ",
-            "C": "نقد کا کھاتہ",
-            "D": "ان میں سے کوئی نہیں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "catch_all"
-        ],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 27634,
-        "question": "‏____ پروگرام کے بہاؤ کا تعین کرنے میں مدد دیتا ہے۔",
-        "options": {
-            "A": "کنٹرول سٹرکچر",
-            "B": "ڈیٹا سٹرکچر",
-            "C": "ڈیٹا کنٹرول",
-            "D": "پروگرام کنٹرول"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -305,39 +92,16 @@
         "is_iaa": false
     },
     {
-        "id": 2335,
-        "question": "‏HTML میں ٹیگ لگانے کے لیے کیا استعمال ہوتا ہے؟",
+        "id": 3766,
+        "question": "بین الاقوامی میچز میں گیمز کی تعداد ہے۔",
         "options": {
-            "A": "() (/)",
-            "B": "[] [/]",
-            "C": "<> </>",
-            "D": "{} {/}"
+            "A": "تین",
+            "B": "پانچ",
+            "C": "نو",
+            "D": "گیارہ"
         },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 19814,
-        "question": "ایکسپریشن (A+B)+C ____ کے برابر ہوتی ہے :",
-        "options": {
-            "A": "A+(B.C)",
-            "B": "A.B+A.C",
-            "C": "A.(B.C)",
-            "D": "A+(B+C)"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -351,525 +115,134 @@
         "is_iaa": false
     },
     {
-        "id": 13147,
-        "question": "پاکستان کی اہم برآمد ہے :",
+        "id": 15397,
+        "question": "‏400 میٹر دوڑ کو اولمپک (Olympic) کھیلوں میں ____ میں شامل کیا گیا تھا۔",
         "options": {
-            "A": "چاول",
-            "B": "گندم",
-            "C": "چینی",
+            "A": "1908",
+            "B": "1912",
+            "C": "1916",
+            "D": "1920"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15426,
+        "question": "نیزہ ۔۔۔۔ حصوں پر مشتمل ہوتا ہے۔",
+        "options": {
+            "A": "تین",
+            "B": "پانچ",
+            "C": "چار",
+            "D": "چھ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15723,
+        "question": "ذہن کی تربیت میں اہم کردار ہوتا ہے۔",
+        "options": {
+            "A": "کھیل کا",
+            "B": "سیر کا",
+            "C": "تقریر کا",
+            "D": "دوست کا"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15638,
+        "question": "ہاکی میں گول پوسٹوں کا درمیانی فاصلہ ہوتا ہے",
+        "options": {
+            "A": "‏5 میٹر",
+            "B": "‏3.66 میٹر",
+            "C": "‏4 میٹر",
+            "D": "‏7 میٹر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 3790,
+        "question": "والی بال کھیل کتنے سیٹوں پر مشتمل ہوتا ہے؟ — والی بال نیٹ کی لمبائی ہوتی ہے۔",
+        "options": {
+            "A": "تین — 9.25 میٹر",
+            "B": "پانچ — 9.50 میٹر",
+            "C": "چھ — 7.50 میٹر",
+            "D": "سات — 8.50 میٹر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 14993,
+        "question": "موسم گرما میں ایک خصوصی نعمت تصور کیا جاتا ہے :",
+        "options": {
+            "A": "آب جو",
+            "B": "کو کو",
+            "C": "شربت",
             "D": "چائے"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 10630,
-        "question": "محنت کا معاوضہ کہلاتا ہے:",
-        "options": {
-            "A": "لگان",
-            "B": "اجرت",
-            "C": "سود",
-            "D": "منافع"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 7755,
-        "question": "پیداوار بڑھنے پر متغیر مصارف:",
-        "options": {
-            "A": "بڑھتے ہیں",
-            "B": "کم ہوتے ہیں",
-            "C": "یکساں رہتے ہیں",
-            "D": "صفر ہوتے ہیں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 13347,
-        "question": "ذرائع آمد و رفت اضافہ کا باعث بنتے ہیں۔",
-        "options": {
-            "A": "بے روزگاری میں",
-            "B": "آبادی میں",
-            "C": "قیمتوں میں",
-            "D": "تجارت میں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 13747,
-        "question": "برصغیر میں کونسل آف ایجوکیشن ____ میں قائم ہوئی۔",
-        "options": {
-            "A": "1840",
-            "B": "1842",
-            "C": "1844",
-            "D": "1846"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 14235,
-        "question": "ڈائریکٹر پبلک انسٹرکشن کا عہدہ قائم کرنے کی سفارش کی گئی۔",
-        "options": {
-            "A": "چارلس ووڈ نے",
-            "B": "چارلس گرانٹ نے",
-            "C": "لارڈ میکالے نے",
-            "D": "لارڈ بینکنگ نے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 8230,
-        "question": "تصور حقیقت موضوع ہے۔",
-        "options": {
-            "A": "سوشیالوجی",
-            "B": "نفسیات",
-            "C": "سیاسی",
-            "D": "فلسفہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 5136,
-        "question": "مہاویر کا مطلب ہے",
-        "options": {
-            "A": "بڑی شخصیت",
-            "B": "مذہبی راہنما",
-            "C": "عظیم ہیرو",
-            "D": "مذہبی پیشوا"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 28989,
-        "question": "سرکٹ میں کرنٹ کی موجودگی کا پتہ لگایا جا سکتا ہے:",
-        "options": {
-            "A": "ہائیڈرومیٹر",
-            "B": "ہائیگرومیٹر",
-            "C": "گیلوانو میٹر",
-            "D": "تھرمامیٹر"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 22405,
-        "question": "کس وٹامن کی کمی خون کی کمی کا باعث بنتی ہے؟",
-        "options": {
-            "A": "وٹامن B1",
-            "B": "وٹامن B2",
-            "C": "وٹامن B6",
-            "D": "وٹامن B12"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 29249,
-        "question": "شریانوں کی اندرونی پکچر بنانے کا طریقہ ہے۔",
-        "options": {
-            "A": "ای ای جی",
-            "B": "ای سی جی",
-            "C": "اینجیو گرافی",
-            "D": "اینجیو پلاسٹی"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 14760,
-        "question": "دنیا کی کتنے فی صد آبادی براعظم ایشیا میں ہے",
-        "options": {
-            "A": "50%",
-            "B": "56%",
-            "C": "40%",
-            "D": "60%"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 9330,
-        "question": "استوائی خطے کا سب سے اہم درخت ہے:",
-        "options": {
-            "A": "آم",
-            "B": "سیب",
-            "C": "شہتوت",
-            "D": "ربڑ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 9664,
-        "question": "عمل عریاں کاری کے بڑے عوامل ہیں۔",
-        "options": {
-            "A": "3",
-            "B": "4",
-            "C": "5",
-            "D": "6"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 15205,
-        "question": "جلد کے ساتھ وابستہ عضلات کہلاتے ہیں۔",
-        "options": {
-            "A": "استخوانی عضلات",
-            "B": "غیر ارادی عضلات",
-            "C": "قلبی عضلات",
-            "D": "جلدی عضلات"
-        },
-        "domain": "Social Sciences",
         "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 3671,
-        "question": "صرف لڑکوں کے لیے — گولہ پھینکنے کے لیے وقت دیا جاتا ہے۔",
-        "options": {
-            "A": "‏1 منٹ",
-            "B": "‏2 منٹ",
-            "C": "‏3 منٹ",
-            "D": "‏4 منٹ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 15377,
-        "question": "اتھلیٹس کی باریوں کی ترتیب مقرر کی جاتی ہے:",
-        "options": {
-            "A": "کھلاڑیوں کی مرضی سے",
-            "B": "انتظامیہ کی مرضی سے",
-            "C": "قرعہ اندازی سے",
-            "D": "کوچ کی مرضی سے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 5482,
-        "question": "کپاس کو کات کر کپڑا بنایا جاتا ہے۔",
-        "options": {
-            "A": "اونی",
-            "B": "سوتی",
-            "C": "ریشمی",
-            "D": "گرم"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 981,
-        "question": "موٹف ان میں سے کون سی ٹیکسٹائل ریپیٹ کی قسم ہے؟",
-        "options": {
-            "A": "موٹف",
-            "B": "ڈیزائن",
-            "C": "ہاف ڈراپ",
-            "D": "ریپیٹ"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 2124,
-        "question": "زکوٰۃ ایک ____ عبادت ہے۔",
-        "options": {
-            "A": "جسمانی",
-            "B": "مالی",
-            "C": "مذہبی",
-            "D": "اخلاقی"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 22735,
-        "question": "‏a2 - b2 اور a3 - b3 کا عادِاعظم ہے:",
-        "options": {
-            "A": "a - b",
-            "B": "a + b",
-            "C": "a2 + ab + b2",
-            "D": "a2 - ab + b2"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 20759,
-        "question": "$√{2^2} = ?$ :",
-        "options": {
-            "A": "2^2",
-            "B": "2",
-            "C": "2^{1/2}",
-            "D": "2^{1/4}"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 20471,
-        "question": "کسی مترتب مواد میں وسطی عددی قیمت کہلاتی ہے :",
-        "options": {
-            "A": "وسطانیہ",
-            "B": "عادی",
-            "C": "اوسط",
-            "D": "ضربی اوسط"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
         "source_url": [
             ""
         ],
@@ -882,16 +255,179 @@
         "is_iaa": false
     },
     {
-        "id": 30118,
-        "question": "دائرے کا مماس اور رداس ایک دوسرے:",
+        "id": 15520,
+        "question": "یہ الکحل کی ایک مثال ہے۔",
         "options": {
-            "A": "کے متوازی ہیں",
-            "B": "پر عمود نہیں ہیں",
-            "C": "پر عمود ہیں",
-            "D": "ہم خط ہیں"
+            "A": "بیئر",
+            "B": "لسی",
+            "C": "چائے",
+            "D": "کوکو"
         },
-        "domain": "STEM",
-        "subdomain": "mathematics",
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15451,
+        "question": "الکحل معدے کے ذریعے خون میں جذب ہوتا ہے۔",
+        "options": {
+            "A": "15 %",
+            "B": "20 %",
+            "C": "25 %",
+            "D": "18 %"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 3837,
+        "question": "بیڈ منٹن کھیل میں عورتوں کے سنگل سیٹ میں سکور ہوتا ہے۔",
+        "options": {
+            "A": "11",
+            "B": "13",
+            "C": "14",
+            "D": "16"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15716,
+        "question": "بیماری جس میں جسم کا دفاعی نظام تقریباً ختم ہو جاتا ہے۔",
+        "options": {
+            "A": "آتشک",
+            "B": "ایڈز",
+            "C": "شنکورڈ",
+            "D": "ہیضہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15249,
+        "question": "جلے ہوئے حصوں کو پانی میں ڈبوتے ہیں۔",
+        "options": {
+            "A": "‏40 منٹ",
+            "B": "‏10 منٹ",
+            "C": "‏30 منٹ",
+            "D": "‏20 منٹ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15239,
+        "question": "آتشک کا زمانہ سرایت تقریباً ہوتا ہے۔",
+        "options": {
+            "A": "چار ہفتے",
+            "B": "تین ہفتے",
+            "C": "دو ہفتے",
+            "D": "پانچ ہفتے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15203,
+        "question": "کھیل میں ہمیشہ کامیابی قدم چومتی ہے۔",
+        "options": {
+            "A": "کوچ کے",
+            "B": "شاگرد کے",
+            "C": "کھلاڑی کے",
+            "D": "دوست کے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 5305,
+        "question": "ڈسکس تھرو کی جاتی ہے:",
+        "options": {
+            "A": "دائرے سے",
+            "B": "سیکٹر سے",
+            "C": "ٹریک سے",
+            "D": "گراؤنڈ سے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -905,16 +441,110 @@
         "is_iaa": false
     },
     {
-        "id": 4338,
-        "question": "‏1930 میں مسلمانوں کو الگ ریاست کا تصور دینے والی شخصیت ہے۔",
+        "id": 5190,
+        "question": "ڈسکس کا وزن مردوں کے لئے ہوتا ہے۔",
         "options": {
-            "A": "سرسید احمد خان",
-            "B": "قائد اعظم",
-            "C": "علامہ محمد اقبال",
-            "D": "مولانا محمد علی جوہر"
+            "A": "‏01 کلو گرام",
+            "B": "‏02 کلو گرام",
+            "C": "‏3 کلو گرام",
+            "D": "‏04 کلو گرام"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 5368,
+        "question": "بیٹن کو پکڑنے کے کتنے طریقے ہیں :",
+        "options": {
+            "A": "4",
+            "B": "6",
+            "C": "2",
+            "D": "3"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15133,
+        "question": "‏(طلباء کے لیے) — ہاکی کے گراؤنڈ کی لمبائی والی لائن کو کہتے ہیں :",
+        "options": {
+            "A": "سائیڈ لائن",
+            "B": "ٹچ لائن",
+            "C": "بیک لائن",
+            "D": "گول لائن"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 3801,
+        "question": "زندگی قائم رکھنے کے لئے ضروری ہے۔",
+        "options": {
+            "A": "آکسیجن",
+            "B": "توانائی",
+            "C": "خوراک",
+            "D": "ہوا"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 3710,
+        "question": "‏\"ریاضی اور جمناسٹک روح کو بلند کرتے ہیں\" — کس کا قول ہے؟",
+        "options": {
+            "A": "سقراط",
+            "B": "مسٹر بچر",
+            "C": "ارسطو",
+            "D": "نکسن اور کوزن"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -928,16 +558,39 @@
         "is_iaa": false
     },
     {
-        "id": 15978,
-        "question": "برصغیر پر مسلمانوں نے ____ سال تک حکومت کی۔",
+        "id": 3749,
+        "question": "بیڈمنٹن کھیل میں سنگل مقابلوں کے لیے کورٹ کی لمبائی ہوتی ہے",
         "options": {
-            "A": "750",
-            "B": "1000",
-            "C": "800",
-            "D": "1200"
+            "A": "‏13.04 میٹر",
+            "B": "‏13.14 میٹر",
+            "C": "‏13.41 میٹر",
+            "D": "‏13.40 میٹر"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15088,
+        "question": "تمام مشروبات کا جزو اعظم ہے۔",
+        "options": {
+            "A": "الکحل",
+            "B": "دودھ",
+            "C": "چائے",
+            "D": "پانی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -951,16 +604,16 @@
         "is_iaa": false
     },
     {
-        "id": 15949,
-        "question": "سٹیٹ بینک آف پاکستان کا افتتاح ہوا؟",
+        "id": 15539,
+        "question": "مصنوعی سانس دینے کا سب سے موثر طریقہ ہے۔",
         "options": {
-            "A": "1947",
-            "B": "1948",
-            "C": "1949",
-            "D": "1950"
+            "A": "شیفر",
+            "B": "منہ سے منہ لگا کر",
+            "C": "سلوسٹر",
+            "D": "ہولگر نیلسن"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -974,16 +627,62 @@
         "is_iaa": false
     },
     {
-        "id": 1719,
-        "question": "گریویٹیشنل فورس F کی ویلیو معلوم کریں، اگر m1 = m2 = 1kg اور r = 1m",
+        "id": 15583,
+        "question": "افیون کا پودا کثرت سے پایا جاتا ہے :",
         "options": {
-            "A": "3.33 x 10−11 N",
-            "B": "6.673 N",
-            "C": "3.33 N",
-            "D": "6.673 x 10−11 N"
+            "A": "امریکہ",
+            "B": "روس",
+            "C": "افغانستان",
+            "D": "فرانس"
         },
-        "domain": "STEM",
-        "subdomain": "physics",
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15418,
+        "question": "ہڈی کے دو اجزاء ____ ہیں۔",
+        "options": {
+            "A": "نامیاتی",
+            "B": "غیر نامیاتی",
+            "C": "حیاتین",
+            "D": "کیلشیم"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 2970,
+        "question": "ایک سے چار سال کی عمر کے بچوں کی نیند عموماً کتنی ہوتی ہے؟",
+        "options": {
+            "A": "10 سے 12 گھنٹے",
+            "B": "12 سے 14 گھنٹے",
+            "C": "16 سے 20 گھنٹے",
+            "D": "8 سے 10 گھنٹے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -997,19 +696,19 @@
         "is_iaa": false
     },
     {
-        "id": 23973,
-        "question": "گیسز میں زیادہ انتقال حرارت کا سبب ہے۔",
+        "id": 5366,
+        "question": "مردوں کیلئے ڈسکس کا وزن ہوتا ہے :",
         "options": {
-            "A": "مالیکیولز کا ٹکراؤ",
-            "B": "کنڈکشن",
-            "C": "کنویکشن",
-            "D": "ریڈی ایشن"
+            "A": "‏3 کلوگرام",
+            "B": "‏2 کلوگرام",
+            "C": "‏4 کلوگرام",
+            "D": "‏7 کلوگرام"
         },
-        "domain": "STEM",
-        "subdomain": "physics",
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -1020,19 +719,19 @@
         "is_iaa": false
     },
     {
-        "id": 11209,
-        "question": "پرو لیکٹین رطوبت کا تعلق ان میں سے کس محرک کے ساتھ ہے؟",
+        "id": 15475,
+        "question": "بیڈ منٹن میں نیٹ کی لمبائی ہوتی ہے (صرف طالبات کے لیے):",
         "options": {
-            "A": "پیاس کا محرک",
-            "B": "مادری محرک",
-            "C": "جنس کا محرک",
-            "D": "طاقت کا محرک"
+            "A": "‏6.20 میٹر",
+            "B": "‏6.10 میٹر",
+            "C": "‏6.40 میٹر",
+            "D": "‏6.00 میٹر"
         },
         "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -1043,114 +742,415 @@
         "is_iaa": false
     },
     {
-        "id": 11082,
-        "question": "مقیاس ذہانت کا تصور ……… پیش کیا۔",
+        "id": 5293,
+        "question": "‏( صرف لڑکیوں کے لئے ) — ٹیبل ٹینس کے میز کی لمبائی ____ میٹر ہوتی ہے۔",
         "options": {
-            "A": "بینے نے",
-            "B": "ولیم سٹرن نے",
-            "C": "سائمن نے",
-            "D": "ویکسلر نے"
+            "A": "2.72",
+            "B": "2.73",
+            "C": "2.74",
+            "D": "2.75"
         },
         "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_210",
         "is_iaa": false
     },
     {
-        "id": 11693,
-        "question": "ثانوی گروہ کا تصور کس نے پیش کیا۔",
+        "id": 15004,
+        "question": "باسکٹ بال میں لوہے کے رنگ کا قطر ہوتا ہے :",
         "options": {
-            "A": "کولے",
-            "B": "میکائیور",
-            "C": "ڈرخائم",
-            "D": "کونٹے"
+            "A": "‏25 سینٹی میٹر",
+            "B": "‏45 سینٹی میٹر",
+            "C": "‏35 سینٹی میٹر",
+            "D": "‏55 سینٹی میٹر"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
+        "level": "HSSC-II",
+        "source_url": [
+            ""
+        ],
         "source": [
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_210",
         "is_iaa": false
     },
     {
-        "id": 11554,
-        "question": "زبان و ادب ہیں۔",
+        "id": 3787,
+        "question": "دھونے پر سکڑتا نہیں ہے۔",
         "options": {
-            "A": "مادہ ثقافت",
-            "B": "غیر مادہ ثقافت",
-            "C": "دونوں",
-            "D": "کوئی نہیں"
+            "A": "نباتاتی لباس",
+            "B": "سوتی لباس",
+            "C": "ریشمی لباس",
+            "D": "اونی لباس"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 11890,
-        "question": "پکے مکانات کس معاشرے کے خواص ہیں؟",
-        "options": {
-            "A": "روایتی",
-            "B": "دیہی",
-            "C": "خانہ بدوش",
-            "D": "بلدیاتی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_210",
-        "is_iaa": false
-    },
-    {
-        "id": 1428,
-        "question": "سچائی، نیکی اور حُسن کسی کی ____ نہیں-",
-        "options": {
-            "A": "دولت",
-            "B": "جاگیر",
-            "C": "میراث",
-            "D": "متاع"
-        },
-        "domain": "Humanities",
-        "subdomain": "urdu literature",
+        "subdomain": "health and physical education",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
         "source_url": [],
         "source": [
-            "FBISE"
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15105,
+        "question": "کینسر کا باعث ہے۔",
+        "options": {
+            "A": "شراب نوشی",
+            "B": "تمباکو نوشی",
+            "C": "افیون",
+            "D": "خواب آور گولیاں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 5251,
+        "question": "لمبی چھلانگ کے مراحل ہیں :",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15362,
+        "question": "سانپ کے کاٹنے سے ہر سال کتنے آدمی مرتے ہیں؟",
+        "options": {
+            "A": "200000",
+            "B": "300000",
+            "C": "100000",
+            "D": "250000"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 3715,
+        "question": "انسانی جسم میں کل جوڑ ہوتے ہیں :",
+        "options": {
+            "A": "206",
+            "B": "306",
+            "C": "226",
+            "D": "236"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15261,
+        "question": "‏(صرف طالبات کیلئے) — بیڈ منٹن کورٹ میں شارٹ سروس ایریا ہوتا ہے۔",
+        "options": {
+            "A": "‏1.50 میٹر",
+            "B": "‏1.98 میٹر",
+            "C": "‏1.90 میٹر",
+            "D": "‏2.98 میٹر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 5339,
+        "question": "‏(صرف لڑکیوں کے لئے) ٹیبل ٹینس میز کی چوڑائی ____ میٹر ہوتی ہے۔",
+        "options": {
+            "A": "1.50",
+            "B": "1.51",
+            "C": "1.52",
+            "D": "1.53"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15488,
+        "question": "‏(صرف طلباء کے لئے) — پاکستان کا قومی کھیل ہے۔",
+        "options": {
+            "A": "فٹ بال",
+            "B": "ہاکی",
+            "C": "والی بال",
+            "D": "کرکٹ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15016,
+        "question": "‏400 میٹر کے ٹریک کی شکل ہوتی ہے",
+        "options": {
+            "A": "مستطیل",
+            "B": "مربع",
+            "C": "بیضوی",
+            "D": "گول"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 5277,
+        "question": "ایک گرام چکنائی میں حرارے ہوتے ہیں:",
+        "options": {
+            "A": "‏9.3 حرارے",
+            "B": "‏9.4 حرارے",
+            "C": "‏9.5 حرارے",
+            "D": "‏9.6 حرارے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15396,
+        "question": "جیولن ____ حصوں پر مشتمل ہوتا ہے۔",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 5348,
+        "question": "ٹیبل ٹینس کی گیند کا وزن ہوتا ہے :",
+        "options": {
+            "A": "‏(الف) 2.9 گرام",
+            "B": "‏(ب) 2.7 گرام",
+            "C": "‏(ج) 2.5 گرام",
+            "D": "‏(د) 2.4 گرام"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 3814,
+        "question": "انسانی جسم میں عضلات ہوتے ہیں۔",
+        "options": {
+            "A": "498",
+            "B": "450",
+            "C": "475",
+            "D": "480"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 5315,
+        "question": "ہوا پانی اور خوراک کی طرح انسان کی بنیادی ضرورت ہے۔",
+        "options": {
+            "A": "دفتر",
+            "B": "دولت",
+            "C": "سگریٹ",
+            "D": "گھر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15305,
+        "question": "جنسی بیماریاں عموماً لاحق ہوتی ہیں :",
+        "options": {
+            "A": "فاحشہ عورتوں سے",
+            "B": "بچوں سے",
+            "C": "مردوں سے",
+            "D": "عورتوں سے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_210",
+        "is_iaa": false
+    },
+    {
+        "id": 15200,
+        "question": "مصنوعی تنفس کے طریقے ہوتے ہیں۔",
+        "options": {
+            "A": "ایک",
+            "B": "تین",
+            "C": "چھ",
+            "D": "آٹھ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "health and physical education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
         ],
         "quality_flags": [],
         "length_tier": "short",

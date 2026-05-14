@@ -1,205 +1,21 @@
 [
     {
-        "id": 2317,
-        "question": "آئی لیٹس آف لینگر ہیز ____ کے حصے ہیں۔",
+        "id": 8012,
+        "question": "تحریک فرد کی کیفیت کا نام ہے:",
         "options": {
-            "A": "تھائی رائیڈ گلینڈ",
-            "B": "ایڈرینل گلینڈز",
-            "C": "پینکریاز",
-            "D": "گونیڈز"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 25022,
-        "question": "انسانی گردہ میں نیفرون پائے جاتے ہیں۔",
-        "options": {
-            "A": "دو لاکھ",
-            "B": "دس لاکھ",
-            "C": "دس ہزار",
-            "D": "دو ہزار"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 17614,
-        "question": "زیادہ تر پودوں میں خوراک کو کس شکل میں ٹرانسپورٹ کیا جاتا ہے؟",
-        "options": {
-            "A": "گلوکوز",
-            "B": "سکروز",
-            "C": "سٹارچ",
-            "D": "پروٹین"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 24846,
-        "question": "باہر خارج ہونے والی ہوا میں آکسیجن کی مقدار ہے۔",
-        "options": {
-            "A": "15%",
-            "B": "16%",
-            "C": "20%",
-            "D": "21%"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 19134,
-        "question": "ایوپوریشن میں جو مالیکیولز مائع کی سطح کو چھوڑتے ہیں ان میں ہوتی ہے :",
-        "options": {
-            "A": "بہت کم انرجی",
-            "B": "درمیانی انرجی",
-            "C": "بہت زیادہ انرجی",
-            "D": "ان میں سے کوئی نہیں"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "catch_all"
-        ],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 18745,
-        "question": "ان میں سے جو چیز پانی کی تہہ میں بیٹھ جاتی ہے۔",
-        "options": {
-            "A": "شہد",
-            "B": "کیروسین آئل",
-            "C": "بینزین",
-            "D": "سوڈیم کلورائیڈ"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 26367,
-        "question": "پرمانینٹ ہارڈنیس ختم کرنے کے لیے استعمال کیا جاتا ہے۔",
-        "options": {
-            "A": "سوڈیم زیولائٹ",
-            "B": "سوڈا لائم",
-            "C": "لائم واٹر",
-            "D": "ان بجھا چنا"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 6875,
-        "question": "یہ قول کس کا ہے کہ \"انسان ایک معاشرتی حیوان ہے\"۔",
-        "options": {
-            "A": "لارڈ برائس",
-            "B": "ابنِ خلدون",
-            "C": "افلاطون",
-            "D": "ارسطو"
+            "A": "خارجی",
+            "B": "داخلی",
+            "C": "روحانی",
+            "D": "جذباتی"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
+        "source_url": [
+            ""
         ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 6825,
-        "question": "سیاسی جماعتیں باخبری کا مرکز ہوتی ہیں کہنا ہے:",
-        "options": {
-            "A": "سلطاؤ",
-            "B": "ڈسرائیلی",
-            "C": "گیٹل",
-            "D": "راجرز"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
         "source": [
             "Ustad 360"
         ],
@@ -209,43 +25,22 @@
         "is_iaa": false
     },
     {
-        "id": 6740,
-        "question": "ایوب خان نے مارشل لاء لگایا :",
+        "id": 13782,
+        "question": "صوبائی یونیورسٹیوں کا چانسلر ہوتا ہے :",
         "options": {
-            "A": "1958ء",
-            "B": "1956ء",
-            "C": "1962ء",
-            "D": "1952ء"
+            "A": "صدر مملکت",
+            "B": "صوبائی گورنر",
+            "C": "صوبائی وزیر تعلیم",
+            "D": "ضلعی آفیسر تعلیم"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 11949,
-        "question": "تجارتی اعتباری خط کی وجہ سے سہولت ہوتی ہے۔",
-        "options": {
-            "A": "ملکی تاجروں کو",
-            "B": "برآمد کنندہ کو",
-            "C": "درآمد کنندہ کو",
-            "D": "ب اور ج دونوں کو"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
-        "source_url": [],
+        "source_url": [
+            ""
+        ],
         "source": [
             "Ustad 360"
         ],
@@ -255,16 +50,16 @@
         "is_iaa": false
     },
     {
-        "id": 12033,
-        "question": "ای-بینکنگ سے مندرجہ ذیل کو فوائد حاصل ہوتے ہیں :",
+        "id": 14219,
+        "question": "‏2003ء کے اعداد وشمار کے مطابق پاکستان کی شرح خواندگی تھی :",
         "options": {
-            "A": "کھاتہ دار (گاہک)",
-            "B": "بینکار",
-            "C": "معیشت",
-            "D": "تمام ہی"
+            "A": "‏33.6 فیصد",
+            "B": "‏51.6 فیصد",
+            "C": "‏52.6 فیصد",
+            "D": "‏40.2 فیصد"
         },
         "domain": "Social Sciences",
-        "subdomain": "commerce",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -278,88 +73,19 @@
         "is_iaa": false
     },
     {
-        "id": 19662,
-        "question": "ایکسپریشن (A+(B.C کے برابر ہوتی ہے:",
+        "id": 3208,
+        "question": "بھوک کی ضرورت باقی دیگر محرکات میں زیادہ ____ بن جائے گی۔",
         "options": {
-            "A": "(B.C)",
-            "B": "A+(B+C)",
-            "C": "(A+B).(A+C)",
-            "D": "(A.B)+(A.C)"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 1801,
-        "question": "میلویئر کا مقصد کیا ہے؟",
-        "options": {
-            "A": "سسٹم کی بہتر پر فارمنس",
-            "B": "کمپیوٹر خراب کرنا",
-            "C": "فری ٹول مہیا کرنا",
-            "D": "ڈیٹا کا بیک اپ کرنا"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 19884,
-        "question": "‏____ کرائم میں کمپیوٹنگ شامل ہوتی ہے۔",
-        "options": {
-            "A": "الیکٹرک",
-            "B": "سول",
-            "C": "ٹیکس",
-            "D": "سائبر"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 10596,
-        "question": "خالص قومی پیداوار میں کس چیز کو جمع کر دیا جائے کہ وہ خام قومی پیداوار بن جائے :",
-        "options": {
-            "A": "براہ راست ٹیکس",
-            "B": "بالواسطہ ٹیکس",
-            "C": "فرسودگی الاؤنسز",
-            "D": "اعانے"
+            "A": "کمزور محرک",
+            "B": "طاقتور محرک",
+            "C": "مثبت محرک",
+            "D": "نفسیاتی محرک"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -370,20 +96,91 @@
         "is_iaa": false
     },
     {
-        "id": 10213,
-        "question": "پیشگی ادا شدہ اخراجات ہیں:",
+        "id": 14048,
+        "question": "پہلی تعلیمی کانفرنس 1947ء کا آخری دن تھا:",
         "options": {
-            "A": "جاری اثاثہ جات",
-            "B": "مستقل اثاثہ جات",
-            "C": "جاری واجبات",
-            "D": "مستقل واجبات"
+            "A": "یکم ستمبر 1947ء",
+            "B": "یکم دسمبر 1947ء",
+            "C": "یکم دسمبر 1948ء",
+            "D": "یکم اکتوبر 1947ء"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 14317,
+        "question": "تعلیمی کانفرنس 1947ء منعقد ہوئی۔",
+        "options": {
+            "A": "کراچی",
+            "B": "لاہور",
+            "C": "ملتان",
+            "D": "پشاور"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 14251,
+        "question": "ابن سینا کی مشہور کتاب کا نام ہے۔",
+        "options": {
+            "A": "کیمیائے سعادت",
+            "B": "المقدمہ",
+            "C": "الشفاء",
+            "D": "تعلیم المتعلم"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8098,
+        "question": "ایلیمنٹری تعلیم کا دورانیہ ہے :",
+        "options": {
+            "A": "پانچ سال",
+            "B": "چھ سال",
+            "C": "سات سال",
+            "D": "آٹھ سال"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
-        "source_url": [],
+        "source_url": [
+            ""
+        ],
         "source": [
             "Ustad 360"
         ],
@@ -393,16 +190,16 @@
         "is_iaa": false
     },
     {
-        "id": 16844,
-        "question": "زر کی معاملاتی طلب کا انحصار ہوتا ہے:",
+        "id": 13890,
+        "question": "یونیورسٹیوں کے معاملات کی نگرانی کرتا ہے۔",
         "options": {
-            "A": "شرح سود",
-            "B": "کاروباری حالات",
-            "C": "سٹاک ایکسچینج",
-            "D": "آمدنی"
+            "A": "تعلیمی بورڈ",
+            "B": "ہائر ایجو کیشن کمیشن",
+            "C": "صوبائی محکمہ تعلیم",
+            "D": "ٹیکسٹ بک بورڈ"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -416,16 +213,41 @@
         "is_iaa": false
     },
     {
-        "id": 16843,
-        "question": "قومی آمدنی کی متوازن سطح سے مراد ہے:",
+        "id": 8219,
+        "question": "ارسطو کے نزدیک انسان ہے۔",
         "options": {
-            "A": "مجموعی طلب = مجموعی رسد",
-            "B": "قومی آمدنی = صرفی خرچ",
-            "C": "بچت = کل خرچ",
-            "D": "خام ملکی پیداوار = خالص قومی آمدنی"
+            "A": "سماجی حیوان",
+            "B": "عقلی حیوان",
+            "C": "معاشی حیوان",
+            "D": "سیاسی حیوان"
         },
         "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 14289,
+        "question": "پانچواں پانچ سالہ منصوبہ کا دورانیہ تھا۔",
+        "options": {
+            "A": "1972 - 77",
+            "B": "1998 - 2003",
+            "C": "1978 - 83",
+            "D": "1970 - 75"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -439,13 +261,59 @@
         "is_iaa": false
     },
     {
-        "id": 5027,
-        "question": "پاکستان میں پہلی تعلیمی کانفرنس کب منعقد ہوئی؟",
+        "id": 13563,
+        "question": "علی گڑھ انسٹی ٹیوٹ گزٹ کا آغاز ہوا :",
         "options": {
-            "A": "1947",
-            "B": "1948",
-            "C": "1949",
-            "D": "1950"
+            "A": "1864 A.D",
+            "B": "1865 A.D",
+            "C": "1866 A.D",
+            "D": "1867 A.D"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 13979,
+        "question": "پاکستان ایک ۔۔۔۔۔ ملک ہے",
+        "options": {
+            "A": "غریب",
+            "B": "ترقی پذیر",
+            "C": "ترقی یافتہ",
+            "D": "غیر ترقی یافتہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 4843,
+        "question": "ابتدائی تعلیم ____ درجہ ہے تعلیم کا۔",
+        "options": {
+            "A": "پہلا",
+            "B": "دوسرا",
+            "C": "تیسرا",
+            "D": "چوتھا"
         },
         "domain": "Social Sciences",
         "subdomain": "education",
@@ -462,13 +330,13 @@
         "is_iaa": false
     },
     {
-        "id": 9080,
-        "question": "پیمائش، آزمائش اور تخمین مختلف جہتیں ہیں :",
+        "id": 8063,
+        "question": "ہدایاتی مشاورت میں ____ مرکزی حیثیت رکھتا ہے۔",
         "options": {
-            "A": "تعلیمی جائزہ",
-            "B": "مقاصد نصاب",
-            "C": "نصابی مواد",
-            "D": "طریقہ تدریس"
+            "A": "مشار",
+            "B": "مشیر",
+            "C": "ادارہ",
+            "D": "معاشرتی اقدار"
         },
         "domain": "Social Sciences",
         "subdomain": "education",
@@ -485,39 +353,16 @@
         "is_iaa": false
     },
     {
-        "id": 3465,
-        "question": "مضمون \"علم التعلیم\" متعارف ہو چکا ہے۔",
+        "id": 4627,
+        "question": "جائزہ کی ایک قسم ہے۔",
         "options": {
-            "A": "نرسری تا مڈل",
-            "B": "مڈل تا میٹرک",
-            "C": "میٹرک تا گریجوایشن",
-            "D": "میٹرک تا پی ایچ ڈی"
+            "A": "مقاصد",
+            "B": "علم",
+            "C": "تدریس",
+            "D": "انٹرویو"
         },
         "domain": "Social Sciences",
         "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 5097,
-        "question": "اخلاقی اقدار دنیا میں انسان کے سکھ چین اور آخرت میں ____ کی ضامن ہیں :",
-        "options": {
-            "A": "نجات",
-            "B": "آرام",
-            "C": "جنت",
-            "D": "دوزخ"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -526,115 +371,44 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 21554,
-        "question": "انسانی جینوم میں بیس پیئرز ہوتے ہیں۔",
-        "options": {
-            "A": "‏2.2 بلین",
-            "B": "‏3.2 بلین",
-            "C": "‏4.2 بلین",
-            "D": "‏5.2 بلین"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
         "length_tier": "short",
         "batch_id": "batch_147",
         "is_iaa": false
     },
     {
-        "id": 22170,
-        "question": "کیمسٹری میں مختلف اشیاء کی ماہیت، ترکیب اور ان کی ____ کا مطالعہ کیا جاتا ہے۔",
+        "id": 3350,
+        "question": "تعلم فرد کو پیش آمدہ مسائل میں مدد دیتا ہے :",
         "options": {
-            "A": "کیمیائی خواص",
-            "B": "طبیعی خواص",
-            "C": "‏A اور B دونوں",
-            "D": "ان میں سے کوئی نہیں"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [
-            "catch_all"
-        ],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 21527,
-        "question": "فوٹوسنتھیسز کے عمل میں بننے والا اضافی پراڈکٹ ہے :",
-        "options": {
-            "A": "آکسیجن",
-            "B": "کاربن ڈائی آکسائیڈ",
-            "C": "پانی",
-            "D": "گلوکوز"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 21297,
-        "question": "‏____ نے پہلی بار بے ہوش کرنے کے لیے افیون کا استعمال کیا۔",
-        "options": {
-            "A": "جابر بن حیان",
-            "B": "محمد بن زکریا الرازی",
-            "C": "البیرونی",
-            "D": "بو علی سینا"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 9384,
-        "question": "جغرافیہ سے مراد ہے۔",
-        "options": {
-            "A": "زمین کا مطالعہ",
-            "B": "آب و ہوا کا مطالعہ",
-            "C": "مٹی کا مطالعہ",
-            "D": "کائنات کا مطالعہ"
+            "A": "جاننے",
+            "B": "دور کرنے",
+            "C": "حل کرنے",
+            "D": "تجربہ کرنے"
         },
         "domain": "Social Sciences",
-        "subdomain": "geography",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8830,
+        "question": "تجارتی تعلیم ۔۔۔۔۔۔۔۔۔۔۔۔۔ میں دی جاتی ہے۔",
+        "options": {
+            "A": "میڈیکل کالجز",
+            "B": "انجینئرنگ کالجز",
+            "C": "لاء کالجز",
+            "D": "بزنس کالجز"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -648,16 +422,39 @@
         "is_iaa": false
     },
     {
-        "id": 14735,
-        "question": "‏2009 میں سعودی عرب کے کس شہر میں شدید سیلاب آیا؟",
+        "id": 13556,
+        "question": "علم محمود کو نافع قرار دیا :",
         "options": {
-            "A": "ریاض",
-            "B": "مکہ",
-            "C": "جدہ",
-            "D": "مدینہ"
+            "A": "ابن خلدون نے",
+            "B": "ابن سینا نے",
+            "C": "امام غزالیؒ نے",
+            "D": "علامہ زرنوجیؒ نے"
         },
         "domain": "Social Sciences",
-        "subdomain": "geography",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 14235,
+        "question": "ڈائریکٹر پبلک انسٹرکشن کا عہدہ قائم کرنے کی سفارش کی گئی۔",
+        "options": {
+            "A": "چارلس ووڈ نے",
+            "B": "چارلس گرانٹ نے",
+            "C": "لارڈ میکالے نے",
+            "D": "لارڈ بینکنگ نے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -671,62 +468,62 @@
         "is_iaa": false
     },
     {
-        "id": 15152,
-        "question": "ہاکی گراؤنڈ کتنے حصوں پر مشتمل ہوتا ہے؟",
+        "id": 13966,
+        "question": "نظامیہ بغداد کی بنیاد کب رکھی گئی تھی :",
+        "options": {
+            "A": "‏1230ء",
+            "B": "‏1231ء",
+            "C": "‏1232ء",
+            "D": "‏1233ء"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 3499,
+        "question": "نو زائیدہ بچے کا اوسط قد ہوتا ہے۔",
+        "options": {
+            "A": "‏39 سینٹی میٹر",
+            "B": "‏59 سینٹی میٹر",
+            "C": "‏49 سینٹی میٹر",
+            "D": "‏69 سینٹی میٹر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 5066,
+        "question": "‏11 - مدرسہ طلباء کی فلاح و بہبود اور نشوونما کیلئے ____ اقسام کی سرگرمیوں کا بندوبست کرتا ہے۔",
         "options": {
             "A": "2",
-            "B": "4",
-            "C": "5",
+            "B": "3",
+            "C": "4",
             "D": "6"
         },
         "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 249,
-        "question": "لمبی چھلانگ کے لیے کھلاڑی کو ____ منٹ کا وقت دیا جاتا ہے۔",
-        "options": {
-            "A": "دو",
-            "B": "ایک",
-            "C": "تین",
-            "D": "چار"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 5309,
-        "question": "‏(صرف طالبات کے لئے) — ٹیبل ٹینس گیم کے پوائنٹس ہوتے ہیں:",
-        "options": {
-            "A": "10",
-            "B": "11",
-            "C": "13",
-            "D": "15"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -740,202 +537,16 @@
         "is_iaa": false
     },
     {
-        "id": 5555,
-        "question": "عمل کرنا اور کام بانٹنا ہے۔",
+        "id": 14469,
+        "question": "‏____ طبقہ پاکستان کے معاشرے کا سب سے بڑا طبقہ ہے۔",
         "options": {
-            "A": "نگرانی کرنا",
-            "B": "ہدایت دینا",
-            "C": "تنظیم",
-            "D": "رابطہ کرنا"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 3955,
-        "question": "‏--- جذبات ناپنے کا آلہ ہے :",
-        "options": {
-            "A": "غصہ",
-            "B": "خوشی",
-            "C": "چہرہ",
-            "D": "خوف"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 252,
-        "question": "جو کچھ تمہارے ____ میں ہے خدا اسے جانتا ہے۔",
-        "options": {
-            "A": "سینوں",
-            "B": "دلوں",
-            "C": "خواہشوں",
-            "D": "آزمائشوں"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 28030,
-        "question": "‏(x + 3)2 - 4 کی تجزی ہے۔",
-        "options": {
-            "A": "(x - 1)(x + 5)",
-            "B": "(x + 1)(x - 5)",
-            "C": "(x + 1)(x + 5)",
-            "D": "(x - 1)(x - 5)"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 22914,
-        "question": "۔۔۔ کا رقبہ = قاعدہ $\\times$ ارتفاع :",
-        "options": {
-            "A": "مثلث",
-            "B": "مربع",
-            "C": "متوازی الاضلاع",
-            "D": "دائرہ"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 20542,
-        "question": "نفع حاصل ہوتا ہے اگر",
-        "options": {
-            "A": "قیمت فروخت > قیمت خرید",
-            "B": "قیمت فروخت = قیمت خرید",
-            "C": "درج شدہ قیمت = قیمت خرید",
-            "D": "قیمت خرید > قیمت فروخت"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 2367,
-        "question": "‏a اور b کا ہم آہنگ اوسط کیا ہوگا؟",
-        "options": {
-            "A": "2ab/(a + b)",
-            "B": "√ab",
-            "C": "(a + b)/2",
-            "D": "(a + b)/2ab"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 6363,
-        "question": "‏20-2019 کے اعداد و شمار کے مطابق پاکستان کی شرح خواندگی تھی۔",
-        "options": {
-            "A": "پچاس فی صد",
-            "B": "ساٹھ فی صد",
-            "C": "ستر فی صد",
-            "D": "اسی فی صد"
+            "A": "جاگیردار",
+            "B": "سرمایہ دار",
+            "C": "امیر",
+            "D": "غریب"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 15880,
-        "question": "لیاقت علی خان نے پہلی دستور ساز اسمبلی میں تقریر کرتے ہوئے قرارداد مقاصد پیش کی۔",
-        "options": {
-            "A": "‏12 مارچ 1949ء",
-            "B": "‏7 مارچ 1949ء",
-            "C": "‏17 اکتوبر 1951ء",
-            "D": "‏23 مارچ 1956ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -949,85 +560,16 @@
         "is_iaa": false
     },
     {
-        "id": 6138,
-        "question": "دنیا کی سب سے اونچی چوٹی ماؤنٹ ایورسٹ کس ملک میں واقع ہے؟",
+        "id": 3116,
+        "question": "حضرت آدم علیہ السلام زمین پر آنے سے پہلے علم حاصل کر چکے تھے۔",
         "options": {
-            "A": "سری لنکا",
-            "B": "مالدیپ",
-            "C": "بھوٹان",
-            "D": "نیپال"
+            "A": "سائنسی",
+            "B": "معاشی",
+            "C": "مذہبی",
+            "D": "معاشرتی"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 24275,
-        "question": "مشہور سائنسدان جس نے \"پیسا\" کے جھکے ہوئے مینار پر تجربات کئے، اس کا نام ہے :",
-        "options": {
-            "A": "پاسکل",
-            "B": "نیوٹن",
-            "C": "گیلیلیو",
-            "D": "آئن سٹائن"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 1074,
-        "question": "ینگ ماڈیولس کی اکائی کیا ہے؟",
-        "options": {
-            "A": "N / m2",
-            "B": "kg / m2",
-            "C": "ms−2",
-            "D": "ms−1"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_147",
-        "is_iaa": false
-    },
-    {
-        "id": 23899,
-        "question": "‏10 نیوٹن کی ایک فورس X - ایکسز کے ساتھ 30° کا زاویہ بناتی ہے۔ اس فورس کا افقی کمپوننٹ ہوگا۔",
-        "options": {
-            "A": "4 N",
-            "B": "5 N",
-            "C": "7 N",
-            "D": "8.7 N"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -1043,44 +585,42 @@
         "is_iaa": false
     },
     {
-        "id": 11040,
-        "question": "قوقعیہ کان کے کون سے حصے میں پایا جاتا ہے؟",
+        "id": 4714,
+        "question": "نصاب کے اجزاء ہیں:",
         "options": {
-            "A": "بیرونی کان",
-            "B": "وسطی کان",
-            "C": "اندرونی کان",
-            "D": "ان میں سے کوئی بھی نہیں"
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
         },
         "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
         ],
-        "quality_flags": [
-            "catch_all"
-        ],
-        "length_tier": "long",
+        "quality_flags": [],
+        "length_tier": "short",
         "batch_id": "batch_147",
         "is_iaa": false
     },
     {
-        "id": 11883,
-        "question": "معاشرتی عمل میں کم از کم کتنے افراد کا ہونا ضروری ہے۔",
+        "id": 13811,
+        "question": "اعلیٰ تعلیم کے امتحانات کے انعقاد کی ذمہ داری ہے :",
         "options": {
-            "A": "دو",
-            "B": "چار",
-            "C": "تین",
-            "D": "ایک"
+            "A": "یونیورسٹیاں",
+            "B": "تعلیمی بورڈ",
+            "C": "ضلع کونسل",
+            "D": "یونین کونسل"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -1091,16 +631,85 @@
         "is_iaa": false
     },
     {
-        "id": 16861,
-        "question": "ذات پات کے نظام کی بنیاد ڈالی :",
+        "id": 4769,
+        "question": "مشارے سے مراد وہ فرد ہے جو :",
         "options": {
-            "A": "آریاؤں نے",
-            "B": "دراوڑوں نے",
-            "C": "حبشیوں نے",
-            "D": "ایرانیوں نے"
+            "A": "مسئلہ کا شکار ہوتا ہے",
+            "B": "مشورہ دیتا ہے",
+            "C": "جھوٹ بولتا ہے",
+            "D": "تربیت دیتا ہے"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8343,
+        "question": "وقوفی تبدیلیوں کا تعلق ہوتا ہے",
+        "options": {
+            "A": "عادات سے",
+            "B": "رویوں سے",
+            "C": "تصورات سے",
+            "D": "تصورات اور معلومات سے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 3563,
+        "question": "‏3. اعلیٰ سطح پر تحقیق کا ادارہ ہے۔",
+        "options": {
+            "A": "یونیورسٹی",
+            "B": "ایچ۔ای۔سی",
+            "C": "ہائیر سیکنڈری",
+            "D": "اعلیٰ تعلیم"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 14507,
+        "question": "خواندگی کے لغوی معنی ہیں۔",
+        "options": {
+            "A": "لکھنا",
+            "B": "پڑھنا",
+            "C": "پڑھانا",
+            "D": "کھیلنا"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-II",
@@ -1114,16 +723,39 @@
         "is_iaa": false
     },
     {
-        "id": 11706,
-        "question": "صنعتی ترقی سے مشترکہ خاندانی نظام ہوا۔",
+        "id": 14451,
+        "question": "اسلامی تاریخ میں ____ کو پہلے باقاعدہ مدرسہ کی حیثیت حاصل ہے۔",
         "options": {
-            "A": "تبدیل",
-            "B": "ساکن",
-            "C": "خوش",
-            "D": "یہ سب"
+            "A": "دارالارقم",
+            "B": "مسجد قباء",
+            "C": "نظامیہ بغداد",
+            "D": "صفہ"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8494,
+        "question": "درسی کتاب ____ کا احاطہ کرتی ہے۔",
+        "options": {
+            "A": "بنیادی مواد",
+            "B": "طلبہ کی کم از کم تعلیمی ضروریات",
+            "C": "موضوعات کی تفصیل",
+            "D": "ان سب کا"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -1137,22 +769,394 @@
         "is_iaa": false
     },
     {
-        "id": 2642,
-        "question": "غزل کا آخری شعر جس میں شاعر اپنا تخلص استعمال کرے، کیا کہلاتا ہے؟",
+        "id": 3241,
+        "question": "بچے کے اولین استاد ہیں :",
         "options": {
-            "A": "مطلع",
-            "B": "مقطع",
-            "C": "مصرع",
-            "D": "بند"
+            "A": "دوست",
+            "B": "والدین",
+            "C": "رشتہ دار",
+            "D": "امام مسجد"
         },
-        "domain": "Humanities",
-        "subdomain": "urdu literature",
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8195,
+        "question": "تعلم بذریعہ عمل کا تعین ہوتا ہے :",
+        "options": {
+            "A": "آمادگی",
+            "B": "مشق",
+            "C": "تجربات",
+            "D": "عملی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 3018,
+        "question": "پاکستان کے لوگوں کی اکثریت ہے :",
+        "options": {
+            "A": "تربیت یافتہ",
+            "B": "ناخواندہ",
+            "C": "خواندہ",
+            "D": "نیم خواندہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 4929,
+        "question": "مدرسہ کی سرگرمیوں کی اقسام ہیں :",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 3258,
+        "question": "حقیقت میں تعلیم ایک ____ عمل ہے۔",
+        "options": {
+            "A": "معاشرتی",
+            "B": "معاشی",
+            "C": "اخلاقی",
+            "D": "جمہوری"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
         "source_url": [],
         "source": [
-            "FBISE"
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8412,
+        "question": "اسلامی مقاصد تعلیم کا تعلق ہے :",
+        "options": {
+            "A": "قرآن پاک",
+            "B": "حدیث",
+            "C": "قرآن وسنت",
+            "D": "عقل"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 5025,
+        "question": "پاکستان بنیادی طور پر ایک۔۔۔۔۔۔۔۔ ملک ہے:",
+        "options": {
+            "A": "صنعتی",
+            "B": "زرعی",
+            "C": "ترقی یافتہ",
+            "D": "پسماندہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 14406,
+        "question": "پنجاب یونیورسٹی 1882ء میں بنائی گئی:",
+        "options": {
+            "A": "دہلی میں",
+            "B": "کراچی میں",
+            "C": "ڈھاکہ میں",
+            "D": "لاہور میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 3287,
+        "question": "ارسطو ایک فلسفی تھا:",
+        "options": {
+            "A": "ایران کا",
+            "B": "پاکستان کا",
+            "C": "یونان کا",
+            "D": "ہندوستان کا"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 7999,
+        "question": "فرد کے ماحول میں موجود ہوتے ہیں",
+        "options": {
+            "A": "لاتعداد مہیجات",
+            "B": "محدود مہیجات",
+            "C": "محدود عمل",
+            "D": "محدود ردعمل"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 14078,
+        "question": "نصاب سازی کا اختیار صوبوں کو آئینی ترمیم کے تحت دیا گیا:",
+        "options": {
+            "A": "پندرھویں",
+            "B": "سولہویں",
+            "C": "سترھویں",
+            "D": "اٹھارھویں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8422,
+        "question": "معاشرے کے نظریہ حیات کا عملی پہلو --- ہے :",
+        "options": {
+            "A": "تعلیم",
+            "B": "نصاب",
+            "C": "فلسفہ",
+            "D": "روایات"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8586,
+        "question": "یہ ایک منظم عمل ہے۔",
+        "options": {
+            "A": "توارث",
+            "B": "نشوونما",
+            "C": "ماحول",
+            "D": "بالیدگی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 13957,
+        "question": "‏2003ء کے اعداد و شمار کے مطابق پاکستان کی شرح خواندگی تھی۔",
+        "options": {
+            "A": "‏51.6 فیصد",
+            "B": "‏54.6 فیصد",
+            "C": "‏59 فیصد",
+            "D": "‏65 فیصد"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 13726,
+        "question": "عقلی علوم کا سر چشمہ ہے:",
+        "options": {
+            "A": "قرآن پاک",
+            "B": "تفسیر",
+            "C": "فقہ",
+            "D": "عقل / منطق"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8637,
+        "question": "تعلم کے قوانین پیش کیئے ۔",
+        "options": {
+            "A": "تھارن ڈائیک",
+            "B": "پاؤلوف",
+            "C": "کوہلر",
+            "D": "کوفکا"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_147",
+        "is_iaa": false
+    },
+    {
+        "id": 8579,
+        "question": "اس کا تعلق قوم کے بنیادی نظریات سے ہوتا ہے۔",
+        "options": {
+            "A": "عارضی مقاصد",
+            "B": "دائمی مقاصد",
+            "C": "جزوی مقاصد",
+            "D": "کلی مقاصد"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "education",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
         ],
         "quality_flags": [],
         "length_tier": "long",

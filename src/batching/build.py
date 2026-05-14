@@ -1,22 +1,15 @@
 #!/usr/bin/env python3
-"""Stage 16 — batch splitting (no IAA pool).
+"""Stage 16 — batch splitting (subdomain-pure).
 
-Reads ``data/15-subsampling/mcqs_to_annotate.json`` (~17,579 MCQs) and
-splits the whole pool into regular batches of ``BATCH_SIZE`` MCQs,
-stratified across subdomains so every batch has a balanced mix.
-
-The team has chosen to dual-annotate every MCQ (assignment side handles
-the duplication), so no separate IAA pool is selected here.
-
-Each output row carries two extra fields for the annotation tool:
-
-  - ``batch_id`` — ``"batch_NNN"``
-  - ``is_iaa``  — always ``false`` (kept for schema continuity)
+Reads ``data/15-subsampling/mcqs_to_annotate.json`` and chunks it into
+batches of ``BATCH_SIZE`` MCQs, **one subdomain per batch** so the
+assignment stage can apply subdomain-based rules (e.g. only doctors do
+chemistry/biology batches; only the arts specialist does arts batches).
 
 Outputs:
 
   data/16-batching/
-  ├── manifest.json          # config + per-batch subdomain mix
+  ├── manifest.json          # incl. each batch's primary_subdomain
   └── batches/
       ├── batch_001.json
       └── ...
@@ -37,23 +30,18 @@ SEED = 42
 BATCH_SIZE = 50
 
 
-def build_batches(items: list, rng: random.Random) -> list:
-    """Round-robin items into batches so each batch has a balanced subdomain mix."""
-    n_batches = (len(items) + BATCH_SIZE - 1) // BATCH_SIZE
-
-    by_sub = defaultdict(list)
+def build_batches(items: list, rng: random.Random) -> list[list[dict]]:
+    """Group items by subdomain, then chunk each subdomain into BATCH_SIZE pieces."""
+    by_sub: dict[str, list] = defaultdict(list)
     for item in items:
         by_sub[item.get("subdomain", "?")].append(item)
 
-    for it_list in by_sub.values():
-        rng.shuffle(it_list)
-
-    batches = [[] for _ in range(n_batches)]
-    cursor = 0
+    batches = []
     for sub in sorted(by_sub.keys()):
-        for item in by_sub[sub]:
-            batches[cursor % n_batches].append(item)
-            cursor += 1
+        sub_items = by_sub[sub]
+        rng.shuffle(sub_items)
+        for i in range(0, len(sub_items), BATCH_SIZE):
+            batches.append(sub_items[i:i + BATCH_SIZE])
     return batches
 
 
@@ -67,13 +55,7 @@ def main() -> None:
 
     rng = random.Random(SEED)
     batches = build_batches(data, rng)
-    for idx, batch in enumerate(batches, start=1):
-        batch_id = f"batch_{idx:03d}"
-        for it in batch:
-            it["batch_id"] = batch_id
-            it["is_iaa"] = False
 
-    # Write files
     DST_DIR.mkdir(parents=True, exist_ok=True)
     BATCHES_DIR.mkdir(parents=True, exist_ok=True)
     for old in BATCHES_DIR.glob("batch_*.json"):
@@ -86,14 +68,18 @@ def main() -> None:
     batch_index = []
     for idx, batch in enumerate(batches, start=1):
         batch_id = f"batch_{idx:03d}"
+        primary_sub = batch[0].get("subdomain", "?")
+        for it in batch:
+            it["batch_id"] = batch_id
+            it["is_iaa"] = False
         path = BATCHES_DIR / f"{batch_id}.json"
         with open(path, "w", encoding="utf-8") as f:
             json.dump(batch, f, ensure_ascii=False, indent=4)
-        sub_counts = Counter(it.get("subdomain") for it in batch)
         batch_index.append({
             "id": batch_id,
             "size": len(batch),
-            "subdomains": dict(sub_counts),
+            "primary_subdomain": primary_sub,
+            "subdomains": dict(Counter(it.get("subdomain") for it in batch)),
         })
 
     manifest = {
@@ -102,17 +88,22 @@ def main() -> None:
         "input_rows": len(data),
         "batch_count": len(batches),
         "regular_count": sum(len(b) for b in batches),
-        "iaa": False,
+        "subdomain_pure": True,
         "batches": batch_index,
     }
     with open(MANIFEST, "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=4)
 
-    sizes = Counter(len(b) for b in batches)
+    # Report
+    sub_counts = Counter(b["primary_subdomain"] for b in batch_index)
+    sizes = Counter(b["size"] for b in batch_index)
     print(f"=== Batches ===")
-    print(f"  total batches:    {len(batches)}")
-    print(f"  size distribution: {dict(sorted(sizes.items()))}")
-    print(f"  total MCQs:       {sum(len(b) for b in batches)}")
+    print(f"  total:              {len(batches)}")
+    print(f"  size distribution:  {dict(sorted(sizes.items()))}")
+    print(f"  total MCQs:         {sum(len(b) for b in batches)}")
+    print(f"\n=== Batches per subdomain ===")
+    for sub, n in sub_counts.most_common():
+        print(f"  {sub:<35} {n:>3}")
     print(f"\n  {MANIFEST}")
     print(f"  {BATCHES_DIR}/  ({len(batches)} files)")
 

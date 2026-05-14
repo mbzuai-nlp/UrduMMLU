@@ -1,15 +1,63 @@
 [
     {
-        "id": 25455,
-        "question": "فوڈ چین کی بنیاد ہے :",
+        "id": 9197,
+        "question": "تثلیث عقیدہ ہے۔",
         "options": {
-            "A": "جانور",
-            "B": "چوہا",
-            "C": "بیکٹیریا",
-            "D": "پودا"
+            "A": "یہودیت کا",
+            "B": "عیسائیت کا",
+            "C": "اسلام کا",
+            "D": "ہندومت کا"
         },
-        "domain": "STEM",
-        "subdomain": "biology",
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [
+            "short_question"
+        ],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9261,
+        "question": "‏____ نے عبد الستار ایدھی کے دل میں خدمت خلق کا بیج بویا۔",
+        "options": {
+            "A": "ابتدائی سکول کے استاد",
+            "B": "لوگوں کے دکھ",
+            "C": "ماں کی محبت اور شفقت",
+            "D": "ان تمام"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 5117,
+        "question": "مذہب کے بنیادی عناصر ہیں",
+        "options": {
+            "A": "5",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -23,22 +71,22 @@
         "is_iaa": false
     },
     {
-        "id": 17682,
-        "question": "پودوں کی پرائمری سیل وال بنی ہوتی ہے",
+        "id": 1259,
+        "question": "غیر الہامی مذاہب ____ تعلیمات پر مشتمل ہیں۔",
         "options": {
-            "A": "سیلولوز اور لگنن",
-            "B": "لگنن",
-            "C": "سیلولوز",
-            "D": "کائٹن"
+            "A": "تکنیکی",
+            "B": "مالی",
+            "C": "اخلاقی",
+            "D": "سیاسی"
         },
-        "domain": "STEM",
-        "subdomain": "biology",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
         "source_url": [],
         "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "short",
@@ -46,16 +94,16 @@
         "is_iaa": false
     },
     {
-        "id": 18085,
-        "question": "۔۔۔۔۔۔۔۔۔ مائیکرو مالیکیول کی مثال ہے۔",
+        "id": 3581,
+        "question": "آداب ____ ہوتے ہیں :",
         "options": {
-            "A": "گلوکوز",
-            "B": "سٹارچ",
-            "C": "لپڈز",
-            "D": "پروٹینز"
+            "A": "حسنِ زندگی",
+            "B": "تہذیبی عناصر",
+            "C": "غیر رسمی قوانین",
+            "D": "زندگی کے سلیقے"
         },
-        "domain": "STEM",
-        "subdomain": "biology",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -71,39 +119,16 @@
         "is_iaa": false
     },
     {
-        "id": 25479,
-        "question": "کیمیکلز جو بے جان اشیاء پر موجود مائیکر و آرگنزم کو مارتی ہیں، وہ کہلاتی ہیں",
+        "id": 5100,
+        "question": "ارسطو کو ____ نے اتالیق مقرر کیا :",
         "options": {
-            "A": "اینٹی سیپٹکس",
-            "B": "اینٹی جن",
-            "C": "اینٹی بائیوٹکس",
-            "D": "ڈس انفیکٹنٹس"
+            "A": "سکندر",
+            "B": "شاہ یونان",
+            "C": "فلیپوس",
+            "D": "افلاطون"
         },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 26048,
-        "question": "ان میں سے کونسا ایک سیچوریٹڈ ہائیڈروکاربن ہے؟",
-        "options": {
-            "A": "C2H4",
-            "B": "C3H6",
-            "C": "C4H8",
-            "D": "C5H12"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -117,177 +142,16 @@
         "is_iaa": false
     },
     {
-        "id": 53,
-        "question": "ایسیٹ ایلڈی ہائڈ(acetaldehyde) کا فارمولا ہے:۔",
+        "id": 3641,
+        "question": "پہلا گر جا گھر ۔۔۔۔۔۔ میں تعمیر ہوا۔",
         "options": {
-            "A": "CH3 — CH2OH",
-            "B": "CH3 — C(=O)OH",
-            "C": "CH3 — C(=O)H",
-            "D": "H — C(=O)H"
+            "A": "اٹلی",
+            "B": "یروشلم",
+            "C": "ترکی",
+            "D": "فرانس"
         },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 26155,
-        "question": "درج ذیل میں سے کونسا ٹرائی گلیسرائڈ ہے؟",
-        "options": {
-            "A": "وٹامنز",
-            "B": "لپڈز",
-            "C": "پروٹینز",
-            "D": "کاربوہائیڈریٹس"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 12350,
-        "question": "‏1973 کے آئین کے مطابق پاکستان کی قومی زبان کونسی ہے؟",
-        "options": {
-            "A": "اُردو",
-            "B": "پنجابی",
-            "C": "عربی",
-            "D": "انگریزی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 6637,
-        "question": "استصوابِ رائے اپنایا گیا ہے۔",
-        "options": {
-            "A": "ایران",
-            "B": "سوئٹزرلینڈ",
-            "C": "عراق",
-            "D": "یمن"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 12425,
-        "question": "آئین ساز اسمبلی کے پہلے سپیکر کون تھے؟",
-        "options": {
-            "A": "عبدالرب نشتر",
-            "B": "ملک غلام محمد",
-            "C": "مولوی تمیز الدین",
-            "D": "لیاقت علی خان"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 12950,
-        "question": "جارج سٹیفن سن نے ریلوے انجن کب ایجاد کیا ؟",
-        "options": {
-            "A": "‏1850ء",
-            "B": "‏1825ء",
-            "C": "‏1910ء",
-            "D": "‏1775ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 11975,
-        "question": "وہ چیک جس کی رقم بینک کاؤنٹر پر چیک کے حامل کو ادا کر دی جائے ____ چیک کہلاتا ہے۔",
-        "options": {
-            "A": "حکمی",
-            "B": "حامل",
-            "C": "مخصوص",
-            "D": "کراسڈ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 19651,
-        "question": "فلو چارٹ میں کونسی علامت آغاز کیلئے استعمال ہوتی ہے :",
-        "options": {
-            "A": "ٹرمینل",
-            "B": "کنکٹر",
-            "C": "پروسیس",
-            "D": "فیصلہ"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -296,159 +160,21 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 27450,
-        "question": "کنڈیشنل لاجک ____ میں مدد دیتی ہے:",
-        "options": {
-            "A": "فیصلوں",
-            "B": "تکراروں",
-            "C": "ٹراورسنگ (گزرنا)",
-            "D": "ڈیلیشن"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
         "length_tier": "short",
         "batch_id": "batch_162",
         "is_iaa": false
     },
     {
-        "id": 27495,
-        "question": "‏\"Printf\" ایک فنکشن ہے۔",
+        "id": 1263,
+        "question": "گردوارہ میں جانے سے قبل غسل کرنا ____ ہے۔",
         "options": {
-            "A": "ان پٹ",
-            "B": "آؤٹ پٹ",
-            "C": "ان پٹ اور آؤٹ پٹ",
-            "D": "ریاضیاتی"
+            "A": "غیر ضروری",
+            "B": "بلا وجہ",
+            "C": "ضروری",
+            "D": "غیر فطری"
         },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 9859,
-        "question": "کیش بک میں متضاد اندراج درج کیا جاتا ہے۔",
-        "options": {
-            "A": "ڈیبٹ طرف",
-            "B": "کریڈٹ طرف",
-            "C": "اے اور بی دونوں طرف",
-            "D": "ان میں سے کسی طرف نہیں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 7898,
-        "question": "طلب کے پھیلنے اور سکڑنے کی وجہ ہوتی ہے:",
-        "options": {
-            "A": "آبادی",
-            "B": "ٹیکنالوجی",
-            "C": "زمین",
-            "D": "قیمت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 10422,
-        "question": "انڈنٹ قبول کرتا ہے:",
-        "options": {
-            "A": "حکومت",
-            "B": "در آمد کنندہ",
-            "C": "بینک",
-            "D": "برآمد کنندہ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 2407,
-        "question": "چائے کا داغ ____ سے نکالا جاتا ہے۔",
-        "options": {
-            "A": "بوریکس سلوشن",
-            "B": "گلیسرین",
-            "C": "ایسی ٹون",
-            "D": "پانی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 1591,
-        "question": "علامہ اقبال (رحمتہ اللہ علیہ) نے ____ کو روحِ انسانی کا معمار قرار دیا ہے۔",
-        "options": {
-            "A": "استاد",
-            "B": "شاگرد",
-            "C": "کسان",
-            "D": "سرمایہ دار"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -457,44 +183,21 @@
             "FBISE"
         ],
         "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 3027,
-        "question": "بچے کی پہلی تربیت گاہ ہوتی ہے :",
-        "options": {
-            "A": "گھر",
-            "B": "مسجد",
-            "C": "سکول",
-            "D": "ماں کی گود"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
         "length_tier": "short",
         "batch_id": "batch_162",
         "is_iaa": false
     },
     {
-        "id": 8379,
-        "question": "وحی کا آغاز اس لفظ سے ہوا",
+        "id": 9137,
+        "question": "یسوع مسیح کی تعلیمات میں ۔۔۔۔ پر زور دیا گیا ہے",
         "options": {
-            "A": "بسم اللہ",
-            "B": "اللہ اکبر",
-            "C": "اقراء",
-            "D": "سبحان اللہ"
+            "A": "یقین",
+            "B": "اخلاص",
+            "C": "قربانی",
+            "D": "یہ تمام"
         },
-        "domain": "Social Sciences",
-        "subdomain": "education",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -503,18 +206,41 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "short",
+        "length_tier": "long",
         "batch_id": "batch_162",
         "is_iaa": false
     },
     {
-        "id": 9221,
-        "question": "عبدالستار ایدھی کا یوم وفات ہے",
+        "id": 9163,
+        "question": "ڈاکٹر محمد یونس کا تعلق کس ملک سے ہے :",
         "options": {
-            "A": "8 مئی",
-            "B": "8 اپریل",
-            "C": "8 جون",
-            "D": "8 جولائی"
+            "A": "پاکستان",
+            "B": "انڈیا",
+            "C": "بنگلہ دیش",
+            "D": "سری لنکا"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9166,
+        "question": "اوٹو کا تعلق تھا۔",
+        "options": {
+            "A": "آسٹریا",
+            "B": "جرمنی",
+            "C": "برطانیہ",
+            "D": "انڈیا"
         },
         "domain": "Humanities",
         "subdomain": "ethics",
@@ -531,16 +257,16 @@
         "is_iaa": false
     },
     {
-        "id": 29200,
-        "question": "اوہم کے قانون کے مطابق",
+        "id": 5096,
+        "question": "ہر ____ انسان میں عاجزی پیدا کرتا ہے :",
         "options": {
-            "A": "R = VI",
-            "B": "R = V/I",
-            "C": "I = VR",
-            "D": "V = RI"
+            "A": "نظام زندگی",
+            "B": "نظام شریعت",
+            "C": "نظام عبادت",
+            "D": "نظام تعلیم"
         },
-        "domain": "STEM",
-        "subdomain": "general science",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-II",
@@ -554,16 +280,16 @@
         "is_iaa": false
     },
     {
-        "id": 21698,
-        "question": "‏\"کتاب الشفاء\" کے مصنف کا نام ہے",
+        "id": 3622,
+        "question": "‏____ فرائض عبادت گاہوں میں انجام دیے جاتے ہیں۔",
         "options": {
-            "A": "بوعلی سینا",
-            "B": "البیرونی",
-            "C": "ابن الہیثم",
-            "D": "جابر بن حیان"
+            "A": "اخلاقی",
+            "B": "مذہبی",
+            "C": "روحانی",
+            "D": "بدنی"
         },
-        "domain": "STEM",
-        "subdomain": "general science",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -577,16 +303,39 @@
         "is_iaa": false
     },
     {
-        "id": 21458,
-        "question": "سپارکو بنایا گیا تھا۔",
+        "id": 5109,
+        "question": "جدید لاہور کا بانی کہا جاتا ہے:",
         "options": {
-            "A": "1951",
-            "B": "1961",
-            "C": "1971",
-            "D": "1981"
+            "A": "عبدالستار ایدھی کو",
+            "B": "سردار دیال سنگھ کو",
+            "C": "سر گنگا رام کو",
+            "D": "مدر ٹریسا کو"
         },
-        "domain": "STEM",
-        "subdomain": "general science",
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 3631,
+        "question": "اللہ تعالیٰ کے پہلے پیغمبر تھے حضرت:",
+        "options": {
+            "A": "موسیٰ (A.S)",
+            "B": "عیسیٰ (A.S)",
+            "C": "نوح (A.S)",
+            "D": "آدم (A.S)"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -600,45 +349,22 @@
         "is_iaa": false
     },
     {
-        "id": 14916,
-        "question": "یو۔ایس۔اے کے مشرق میں ۔۔۔۔۔ سمندر واقع ہے۔",
+        "id": 89,
+        "question": "عمانوئیل کانت نے فلسفہ اور منطق کی تدریس ____ سال کی۔",
         "options": {
-            "A": "بحراوقیانوس",
-            "B": "بحرالکاہل",
-            "C": "بحرہند",
-            "D": "بحرمنجمد شمالی"
+            "A": "25",
+            "B": "27",
+            "C": "29",
+            "D": "30"
         },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "SSC-II",
         "source_url": [],
         "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 14595,
-        "question": "پاکستان کا کل زیرِ کاشت رقبہ کتنے ملین ہیکٹر ہے :",
-        "options": {
-            "A": "‏47.78 فیصد",
-            "B": "‏57.78 فیصد",
-            "C": "‏58.78 فیصد",
-            "D": "‏68.78 فیصد"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
+            "BISE Multan 2025"
         ],
         "quality_flags": [],
         "length_tier": "long",
@@ -646,16 +372,39 @@
         "is_iaa": false
     },
     {
-        "id": 9585,
-        "question": "کرہ ارض کی سطح پر کتنے قدرتی عوامل تبدیلی پیدا کرتے ہیں؟",
+        "id": 5103,
+        "question": "ریلیجن کا لفظ کس زبان سے ماخوذ ہے؟",
         "options": {
-            "A": "4",
-            "B": "6",
-            "C": "8",
-            "D": "10"
+            "A": "ہندی سے",
+            "B": "یونانی سے",
+            "C": "سنسکرت سے",
+            "D": "لاطینی سے"
         },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9155,
+        "question": "سگمنڈ فرائیڈ نے ویانا یونیورسٹی، آسٹریا سے کون سی ڈگری حاصل کی :",
+        "options": {
+            "A": "انجینئرنگ",
+            "B": "طب",
+            "C": "آرٹس",
+            "D": "کمپیوٹر"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -669,65 +418,19 @@
         "is_iaa": false
     },
     {
-        "id": 3654,
-        "question": "‏(صرف طلباء کیلئے) — بیڈمنٹن نیٹ کی چوڑائی ____ ملی میٹرز ہوتی ہے۔",
+        "id": 9146,
+        "question": "داس ہیلنگ کے مصنف کا نام ہے۔",
         "options": {
-            "A": "740",
-            "B": "750",
-            "C": "760",
-            "D": "770"
+            "A": "فریزر",
+            "B": "اوٹو",
+            "C": "فرائیڈ",
+            "D": "ٹائلر"
         },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 2075,
-        "question": "سہ جست چھلانگ کتنے مراحل میں مکمل کی جاتی ہے؟",
-        "options": {
-            "A": "02",
-            "B": "03",
-            "C": "04",
-            "D": "01"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 15123,
-        "question": "انسانی جسم کا تقریباً ____ حصہ پانی ہوتا ہے :",
-        "options": {
-            "A": "50%",
-            "B": "70%",
-            "C": "60%",
-            "D": "45%"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
+        "level": "HSSC-I",
         "source_url": [
             ""
         ],
@@ -735,93 +438,24 @@
             "Ustad 360"
         ],
         "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 5392,
-        "question": "چھوٹا سا دھات کا ٹوپی نما خول جو درمیانی انگلی پر پہنا جاتا ہے :",
-        "options": {
-            "A": "دھاگہ",
-            "B": "ٹریسنگ وہیل",
-            "C": "انگشتانہ",
-            "D": "قینچی"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 5471,
-        "question": "اونی کپڑے کا تجزیہ کیا جا سکتا ہے:",
-        "options": {
-            "A": "ہاتھ سے",
-            "B": "پیمانے سے",
-            "C": "دور بین سے",
-            "D": "خورد بین سے"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
         "length_tier": "short",
         "batch_id": "batch_162",
         "is_iaa": false
     },
     {
-        "id": 2090,
-        "question": "بنو ہاشم نے کتنے سال شعب ابی طالب میں گزارے؟",
+        "id": 9276,
+        "question": "صوبے کے گورنر کی تقرری کرتا ہے۔",
         "options": {
-            "A": "دو",
-            "B": "تین",
-            "C": "چار",
-            "D": "پانچ"
+            "A": "چیف جسٹس",
+            "B": "آرمی چیف",
+            "C": "صدر پاکستان",
+            "D": "وزیر اعظم"
         },
         "domain": "Humanities",
-        "subdomain": "islamic studies",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 22597,
-        "question": "‏$\\frac{a^2 - b^2}{a + b}$ برابر ہے ____",
-        "options": {
-            "A": "$(a - b)^2$",
-            "B": "$(a + b)^2$",
-            "C": "$(a + b)$",
-            "D": "$a - b$"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -832,184 +466,25 @@
         "is_iaa": false
     },
     {
-        "id": 20233,
-        "question": "‏20 : 5 کی آسان شکل کیا ہے؟",
+        "id": 850,
+        "question": "فرد کی شخصیت ____ کا موضوع ہے۔",
         "options": {
-            "A": "4 : 1",
-            "B": "5 : 1",
-            "C": "10 : 1",
-            "D": "20 : 1"
+            "A": "ریاست کا",
+            "B": "مذہب کا",
+            "C": "گھر والوں کا",
+            "D": "ہمسائیوں کا"
         },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 30843,
-        "question": "کسی متغیر مقدار کا ایک جیسی مدات مثلاً مستقل مقدار k کیلیے حسابی اوسط ہوتا ہے۔",
-        "options": {
-            "A": "منفی",
-            "B": "بذات خود k",
-            "C": "صفر",
-            "D": "ایک"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 20892,
-        "question": "کسی نقطہ کا y-محور سے عمودی فاصلہ کیا کہلاتا ہے",
-        "options": {
-            "A": "آرڈینیٹ",
-            "B": "سیدھی لائن",
-            "C": "عمودی لائن",
-            "D": "ابسیسا"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 2444,
-        "question": "مویشیوں سے صرف ____ فیصد ملکی ضروریات پوری ہوتی ہیں۔",
-        "options": {
-            "A": "5",
-            "B": "6",
-            "C": "7",
-            "D": "8"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 16210,
-        "question": "پاکستان نے اپنا پہلا عالمی کرکٹ کپ اس ملک کے خلاف جیتا :",
-        "options": {
-            "A": "انگلینڈ",
-            "B": "آسٹریلیا",
-            "C": "نیوزی لینڈ",
-            "D": "ویسٹ انڈیز"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 1049,
-        "question": "مسلم لیگ نے کرپس مشن کے فارمولے کو کیوں مسترد کیا؟",
-        "options": {
-            "A": "متحدہ برصغیر کے امکانات کی بنیاد پر",
-            "B": "پاکستان کے تصور کو مسترد کر دیا گیا",
-            "C": "مسلم لیگ سے مشاورت نہیں کی گئی",
-            "D": "اس منصوبے میں ہندوؤں کی برتری تسلیم کی گئی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 23946,
-        "question": "‏10 نیوٹن کی ایک فورس x - ایکسز کے ساتھ 30° کا زاویہ بناتی ہے۔ اس فورس کا افقی کمپونینٹ ہوگا :",
-        "options": {
-            "A": "4 N",
-            "B": "5 N",
-            "C": "7 N",
-            "D": "8.7 N"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
+        "domain": "Humanities",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
         "source_url": [
+            "",
             ""
         ],
         "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 23970,
-        "question": "حرارتی توانائی / ہیٹ انرجی کا بڑا ماخذ ہے۔",
-        "options": {
-            "A": "چاند",
-            "B": "سورج",
-            "C": "زمین",
-            "D": "پانی"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
+            "FBISE",
             "Ustad 360"
         ],
         "quality_flags": [],
@@ -1018,131 +493,16 @@
         "is_iaa": false
     },
     {
-        "id": 24277,
-        "question": "ایک نیوٹن فورس کا یونٹ ہے اور یہ برابر ہوتا ہے :",
+        "id": 851,
+        "question": "مذہب انسان کا بہت بڑا ____ سہارا ہے۔",
         "options": {
-            "A": "1 Kg ms−2",
-            "B": "1 Kg m−1 s−1",
-            "C": "1 Kg m−1 s−2",
-            "D": "1 Kg m−2 s−2"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 11216,
-        "question": "کس نے نفسیات کی پہلی تجربہ گاہ قائم کی؟",
-        "options": {
-            "A": "واٹسن",
-            "B": "ولیم وونٹ",
-            "C": "سکنر",
-            "D": "ولیم جیمز"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "psychology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 11333,
-        "question": "پسند اور ناپسند کے معیارات ہیں:",
-        "options": {
-            "A": "جرائم",
-            "B": "مستحبات",
-            "C": "عقائد",
-            "D": "اقدار"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 17021,
-        "question": "صنعتی اور بلدیاتی معاشرہ کی پیداوار ہے :",
-        "options": {
-            "A": "مشترکہ خاندان",
-            "B": "سادہ خاندان",
-            "C": "روایتی خاندان",
-            "D": "مادر سری خاندان"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 16860,
-        "question": "حبشی لوگ عام طور پر پائے جاتے ہیں :",
-        "options": {
-            "A": "یورپ میں",
-            "B": "امریکہ میں",
-            "C": "افریقہ میں",
-            "D": "یورپ و امریکہ میں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "sociology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_162",
-        "is_iaa": false
-    },
-    {
-        "id": 1433,
-        "question": "اول کا متضاد کیا ہے؟",
-        "options": {
-            "A": "دوّم",
-            "B": "سوّم",
-            "C": "آخر",
-            "D": "بالاتر"
+            "A": "معاشرتی",
+            "B": "جسمانی",
+            "C": "نفسیاتی",
+            "D": "اخلاقی"
         },
         "domain": "Humanities",
-        "subdomain": "urdu literature",
+        "subdomain": "ethics",
         "correct_option": null,
         "correct_key": null,
         "level": "SSC-I",
@@ -1152,6 +512,650 @@
         ],
         "quality_flags": [],
         "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 3629,
+        "question": "زرتشت کا عبادت خانہ کہلاتا ہے:",
+        "options": {
+            "A": "گرووارہ",
+            "B": "مندر",
+            "C": "آتش کدہ",
+            "D": "صنم کدہ"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 82,
+        "question": "گناہ اور جرم ہیں۔",
+        "options": {
+            "A": "ایک ہی چیز",
+            "B": "ایک دوسرے سے جڑے ہوئے",
+            "C": "ایک دوسرے کی ضد",
+            "D": "آپس میں کوئی تعلق نہیں"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 5121,
+        "question": "شائستگی نام ہے ____ کا۔",
+        "options": {
+            "A": "اصول",
+            "B": "تعلیم یافتہ ہونے",
+            "C": "مذہب",
+            "D": "آداب"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 1958,
+        "question": "گردوارہ میں جانے سے پہلے غسل کرنا ____ ہے۔",
+        "options": {
+            "A": "غیر ضروری",
+            "B": "فطری",
+            "C": "ضروری",
+            "D": "غیر فطری"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9202,
+        "question": "بوائے سکاؤٹ تحریک کے بانی رکن ہیں۔",
+        "options": {
+            "A": "جمشید جی",
+            "B": "نجیب محفوظ",
+            "C": "ڈاکٹر محمد یونس",
+            "D": "عبد الستار ایدھی"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9226,
+        "question": "عیسیٰ علیہ السلام کے بعد شاگردوں نے مسیحیت کی تبلیغ ____۔",
+        "options": {
+            "A": "ختم کر دی",
+            "B": "جاری رکھی",
+            "C": "کم کر دی",
+            "D": "تیز کر دی"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 5123,
+        "question": "ہر فریضہ کو خدائی حکم سمجھنا کہلاتا ہے۔",
+        "options": {
+            "A": "ایمان",
+            "B": "مذہب",
+            "C": "رواج",
+            "D": "عادت"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 3634,
+        "question": "فلورنس نائیٹ اینگل کو خراج عقیدت پیش کرتی ہیں:",
+        "options": {
+            "A": "لڑکیاں",
+            "B": "عورتیں",
+            "C": "نرسیں",
+            "D": "ڈاکٹرز"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 3604,
+        "question": "امام غزالیؒ کے والد تھے ____۔",
+        "options": {
+            "A": "پارچہ فروش",
+            "B": "چمرہ فروش",
+            "C": "سوت فروش",
+            "D": "کپاس فروش"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9242,
+        "question": "صوبے میں گورنر کی تقرری کرتا ہے",
+        "options": {
+            "A": "وزیر اعظم",
+            "B": "صدر",
+            "C": "وزیر اعلیٰ",
+            "D": "وزیر خارجہ"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 3583,
+        "question": "حضرت امام غزالی (رحمتہ اللہ علیہ) کے دور میں اہم تعلیمی مراکز تھے :",
+        "options": {
+            "A": "بغداد اور دمشق",
+            "B": "نیشاپور اور جرجان",
+            "C": "طوس اور طاہران",
+            "D": "بغداد اور نیشاپور"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9255,
+        "question": "انسان کے سیکھنے کا عمل ____ سے شروع ہوتا ہے۔",
+        "options": {
+            "A": "بڑھاپا",
+            "B": "روز اول",
+            "C": "بچپن",
+            "D": "جوانی"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9147,
+        "question": "مسلمانوں کے عروج کے عہد میں بڑا علمی مرکز تھا۔",
+        "options": {
+            "A": "ترکی",
+            "B": "سپین",
+            "C": "دمشق",
+            "D": "بغداد"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 3632,
+        "question": "اپنی عبادت گاہ میں آنے والے کو خوش آمدید کہتے ہیں:",
+        "options": {
+            "A": "بدھ",
+            "B": "ہندو",
+            "C": "جین",
+            "D": "مسلمان"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9145,
+        "question": "مذہبی علوم کا سب سے بڑا ذریعہ ہے۔",
+        "options": {
+            "A": "عقل انسانی",
+            "B": "مشاہدات",
+            "C": "وحی",
+            "D": "وجدان"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 84,
+        "question": "جین مت میں اخلاقی اصول ہیں۔",
+        "options": {
+            "A": "تین",
+            "B": "چار",
+            "C": "پانچ",
+            "D": "سات"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "BISE Multan 2025"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 3591,
+        "question": "کنبھ کا میلہ منعقد ہوتا ہے:",
+        "options": {
+            "A": "دس سال بعد",
+            "B": "گیارہ سال بعد",
+            "C": "بارہ سال بعد",
+            "D": "تیرہ سال بعد"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 3645,
+        "question": "فلورنس نائٹ اینگیل نے اپنا بچپن ۔۔۔۔۔۔ میں گزارا۔",
+        "options": {
+            "A": "اٹلی",
+            "B": "انگلستان",
+            "C": "ترکی",
+            "D": "فلورنس"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9223,
+        "question": "‏____ نے مذہب کے ارتقاء کے بارے میں سائنسی انداز اپنایا۔",
+        "options": {
+            "A": "سگمنڈ فرائیڈ",
+            "B": "رابرٹ سن سمتھ",
+            "C": "روڈلف اوٹو",
+            "D": "ٹائلر"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9264,
+        "question": "سر جیمز جارج فریزر نے جادو کو اہمیت دی۔",
+        "options": {
+            "A": "مذہب میں",
+            "B": "معاشرہ میں",
+            "C": "انسان میں",
+            "D": "A ، B ، C"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9217,
+        "question": "مسیحیت میں کیتھولک فرقہ کا سربراہ کہلاتا ہے",
+        "options": {
+            "A": "پادری",
+            "B": "بشپ",
+            "C": "پوپ",
+            "D": "فادر"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 2866,
+        "question": "جین مت کے ____ سے زیادہ پیروکار ہیں۔",
+        "options": {
+            "A": "نوے لاکھ",
+            "B": "اسی لاکھ",
+            "C": "ساٹھ لاکھ",
+            "D": "چالیس لاکھ"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9179,
+        "question": "دنیا میں اس وقت ۔۔۔۔۔۔۔۔۔ مسلمان ممالک موجود ہیں۔",
+        "options": {
+            "A": "36",
+            "B": "46",
+            "C": "57",
+            "D": "66"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 5099,
+        "question": "شائستگی ____ کا نام ہے :",
+        "options": {
+            "A": "آداب",
+            "B": "مذہب",
+            "C": "سودے بازی",
+            "D": "یہ تمام"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 5107,
+        "question": "عبادت کا اہم معاشرتی پہلو ہے:",
+        "options": {
+            "A": "صدقہ دینا",
+            "B": "روزہ رکھنا",
+            "C": "خدمت خلق کرنا",
+            "D": "تہجد پڑھنا"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 9178,
+        "question": "مذہب کا بڑا مقصد ہے۔۔۔۔۔۔۔۔۔",
+        "options": {
+            "A": "سکون",
+            "B": "آسودگی",
+            "C": "نجات",
+            "D": "‏(الف)، (ب) اور (ج)"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 3628,
+        "question": "ہندوستان سے کچھ لوگوں نے نائیجیریا ہجرت کی:",
+        "options": {
+            "A": "‏1950ء",
+            "B": "‏1960ء",
+            "C": "‏1970ء",
+            "D": "‏1980ء"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_162",
+        "is_iaa": false
+    },
+    {
+        "id": 1260,
+        "question": "مہاویر جی کی پیدائش ایک ____ گھرانے میں ہوئی ۔",
+        "options": {
+            "A": "جین",
+            "B": "ہندو",
+            "C": "سکھ",
+            "D": "عیسائی"
+        },
+        "domain": "Humanities",
+        "subdomain": "ethics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "SSC-I",
+        "source_url": [],
+        "source": [
+            "FBISE"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
         "batch_id": "batch_162",
         "is_iaa": false
     }

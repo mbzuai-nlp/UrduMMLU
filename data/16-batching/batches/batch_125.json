@@ -1,176 +1,61 @@
 [
     {
-        "id": 25467,
-        "question": "جانوروں کی نسل کشی کی ایک قسم ہے",
+        "id": 16844,
+        "question": "زر کی معاملاتی طلب کا انحصار ہوتا ہے:",
         "options": {
-            "A": "فارما کالوجی",
-            "B": "سیل بیالوجی",
-            "C": "بائیو ٹیکنالوجی",
-            "D": "مارفالوجی"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 25895,
-        "question": "سیریبرم کا وہ لوب جو سننے اور سونگھنے سے تعلق رکھتا ہے۔",
-        "options": {
-            "A": "ٹیمپورل",
-            "B": "آکسی پیٹل",
-            "C": "فرنٹل",
-            "D": "پیرائٹل"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 17485,
-        "question": "ان میں سے کون سے جاندار کے کاٹنے سے نیکروسس ہو سکتی ہے۔",
-        "options": {
-            "A": "سانپ",
-            "B": "مچھر",
-            "C": "مکڑی",
-            "D": "کتا"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 18103,
-        "question": "پیپسن اینزائم ____ میں کام کرتا ہے۔",
-        "options": {
-            "A": "منہ",
-            "B": "معدہ",
-            "C": "انتڑیوں",
-            "D": "جگر"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 26873,
-        "question": "الکینز (Alkanes) کا جنرل فارمولا ہے:",
-        "options": {
-            "A": "CnH2n+2",
-            "B": "CnH2n",
-            "C": "CnH2n−2",
-            "D": "CnH2n+1"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 18511,
-        "question": "ایک کمپاؤنڈ جو ایکوئس سلوشن میں مکمل طور پر آئیونائز ہو جاتا ہے:",
-        "options": {
-            "A": "ایسٹک ایسڈ",
-            "B": "سوڈیم ہائیڈرو آکسائیڈ",
-            "C": "بینزین",
-            "D": "شوگر"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 18721,
-        "question": "گیس کی ڈینسٹی کو ظاہر کیا جاتا ہے۔",
-        "options": {
-            "A": "g cm-3",
-            "B": "mg cm-3",
-            "C": "g dm-3",
-            "D": "kg dm-3"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 6468,
-        "question": "جمہوریت کس زبان کا لفظ ہے؟",
-        "options": {
-            "A": "اُردو",
-            "B": "فارسی",
-            "C": "عربی",
-            "D": "یونانی"
+            "A": "شرح سود",
+            "B": "کاروباری حالات",
+            "C": "سٹاک ایکسچینج",
+            "D": "آمدنی"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 13448,
+        "question": "درج ذیل میں سے ایک معاشی ترقی پر اثر انداز نہیں ہوتا ہے :",
+        "options": {
+            "A": "قدرتی ذرائع",
+            "B": "زبان",
+            "C": "سیاسی صورت حال",
+            "D": "سماجی برائیاں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7656,
+        "question": "مکمل مقابلہ کے تحت فرموں کی تعداد ہوتی ہے",
+        "options": {
+            "A": "چار",
+            "B": "تین",
+            "C": "کثیر",
+            "D": "پانچ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -184,22 +69,22 @@
         "is_iaa": false
     },
     {
-        "id": 7291,
-        "question": "افلاطون نے ایک مثالی ریاست کی آبادی مقرر کی ہے۔",
+        "id": 2818,
+        "question": "کاٹن کا ریشہ 3000 ق م سے ____ میں بنائی کے لیے استعمال ہوتا رہا ہے۔",
         "options": {
-            "A": "چار ہزار چالیس",
-            "B": "پانچ ہزار چالیس",
-            "C": "چھ ہزار چالیس",
-            "D": "سات ہزار چالیس"
+            "A": "مصر",
+            "B": "فرانس",
+            "C": "چین",
+            "D": "انڈیا"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "SSC-I",
         "source_url": [],
         "source": [
-            "Ustad 360"
+            "FBISE"
         ],
         "quality_flags": [],
         "length_tier": "long",
@@ -207,16 +92,39 @@
         "is_iaa": false
     },
     {
-        "id": 6777,
-        "question": "جان لاک کی پیدائش ہوئی:",
+        "id": 13140,
+        "question": "بین الاقوامی تجارت کی بنیادی وجہ ہے :",
         "options": {
-            "A": "‏1628ء",
-            "B": "‏1629ء",
-            "C": "‏1630ء",
-            "D": "‏1632ء"
+            "A": "منافع",
+            "B": "تخصیص کار",
+            "C": "ٹیکس",
+            "D": "قیمت"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7507,
+        "question": "طلب کے بڑھنے کی وجہ ہے۔",
+        "options": {
+            "A": "قیمت میں کمی",
+            "B": "آمدنی میں کمی",
+            "C": "آمدنی میں اضافہ",
+            "D": "آبادی میں کمی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -232,128 +140,13 @@
         "is_iaa": false
     },
     {
-        "id": 12281,
-        "question": "علی گڑھ یونیورسٹی قائم ہوئی۔",
+        "id": 10009,
+        "question": "تشہری خرچ ہے",
         "options": {
-            "A": "‏(الف) 1920ء",
-            "B": "‏(ب) 1921ء",
-            "C": "‏(ج) 1922ء",
-            "D": "‏(د) 1923ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 11970,
-        "question": "بینک ____ قسم کا ادارہ ہے۔",
-        "options": {
-            "A": "سماجی",
-            "B": "مالی",
-            "C": "مذہبی",
-            "D": "رفاہی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 19771,
-        "question": "کس ٹپالوجی میں سب سے زیادہ تار استعمال ہوتی ہے :",
-        "options": {
-            "A": "بس ٹپالوجی",
-            "B": "سٹار ٹپالوجی",
-            "C": "رنگ ٹپالوجی",
-            "D": "میش ٹپالوجی"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 18235,
-        "question": "‏(3)10 کی ثنائی قدر برابر ہے:",
-        "options": {
-            "A": "(10)2",
-            "B": "(11)2",
-            "C": "(111)2",
-            "D": "(1000)2"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 19644,
-        "question": "‏\"میں کمپیوٹر سائنس میں مہارت حاصل کرنا چاہتا ہوں\" ایک ____ ہے :",
-        "options": {
-            "A": "ٹروتھ ٹیبل",
-            "B": "ٹروتھ ویلیو",
-            "C": "پری پوزیشن",
-            "D": "کمپاؤنڈ پری پوزیشن"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 10879,
-        "question": "ان میں کون سی قومی آمدنی میں شامل نہیں ہوتیں؟",
-        "options": {
-            "A": "منافع",
-            "B": "اجرتیں",
-            "C": "سود",
-            "D": "انتقالی ادائیگیاں"
+            "A": "سرمایہ خرچ",
+            "B": "سرمایہ ادائیگی",
+            "C": "مالیاتی وصولی",
+            "D": "مالیاتی خرچ"
         },
         "domain": "Social Sciences",
         "subdomain": "economics",
@@ -364,19 +157,21 @@
         "source": [
             "Ustad 360"
         ],
-        "quality_flags": [],
-        "length_tier": "long",
+        "quality_flags": [
+            "short_question"
+        ],
+        "length_tier": "short",
         "batch_id": "batch_125",
         "is_iaa": false
     },
     {
-        "id": 7330,
-        "question": "مچھلی کی رسد ہوتی ہے:",
+        "id": 10587,
+        "question": "ان میں سے ایک زمین نہیں ہے",
         "options": {
-            "A": "طویل عرصہ کی رسد",
-            "B": "قلیل عرصہ کی رسد",
-            "C": "بازاری رسد",
-            "D": "متغیر"
+            "A": "بارش",
+            "B": "پہاڑ",
+            "C": "جنگلات",
+            "D": "منگلا ڈیم"
         },
         "domain": "Social Sciences",
         "subdomain": "economics",
@@ -393,13 +188,13 @@
         "is_iaa": false
     },
     {
-        "id": 13387,
-        "question": "نیشنل بینک آف پاکستان ____ میں قائم ہوا۔",
+        "id": 13311,
+        "question": "کس بجٹ کا دورانیہ ایک سال ہوتا ہے؟",
         "options": {
-            "A": "1948",
-            "B": "1949",
-            "C": "1950",
-            "D": "1951"
+            "A": "شخصی بجٹ",
+            "B": "حکومتی بجٹ",
+            "C": "پرائیویٹ بجٹ",
+            "D": "کاشتکاری بجٹ"
         },
         "domain": "Social Sciences",
         "subdomain": "economics",
@@ -416,13 +211,13 @@
         "is_iaa": false
     },
     {
-        "id": 10545,
-        "question": "پرچون فروش اشیاء بیچتا ہے۔",
+        "id": 9845,
+        "question": "حساب نویسی ایک زبان ہے۔",
         "options": {
-            "A": "تھوک فروشوں کو",
-            "B": "صارفین کو",
-            "C": "صنعتکاروں کو",
-            "D": "صنعت کو"
+            "A": "کاروباری",
+            "B": "اکاؤنٹنٹ کی",
+            "C": "کاروباری شخص کی",
+            "D": "استاد کی"
         },
         "domain": "Social Sciences",
         "subdomain": "economics",
@@ -439,16 +234,16 @@
         "is_iaa": false
     },
     {
-        "id": 9087,
-        "question": "نصابی جائزے کے لیے طریقے اختیار کیے جاتے ہیں۔",
+        "id": 7891,
+        "question": "عرصہ قلیل کا اوسط خرچ کا خط ہوتا ہے:",
         "options": {
-            "A": "رسمی",
-            "B": "غیر رسمی",
-            "C": "نیم رسمی",
-            "D": "دونوں الف اور ب"
+            "A": "‏U نما",
+            "B": "طشتری نما",
+            "C": "‏S نما",
+            "D": "غلافی نما"
         },
         "domain": "Social Sciences",
-        "subdomain": "education",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -462,62 +257,16 @@
         "is_iaa": false
     },
     {
-        "id": 4630,
-        "question": "ہاکی اور فٹ بال کا تعلق ہے۔",
+        "id": 9740,
+        "question": "نقد فروخت کا اندراج ہوتا ہے:",
         "options": {
-            "A": "کھیل سے",
-            "B": "مشاغل سے",
-            "C": "ادبی سرگرمیوں سے",
-            "D": "کلب اور سوسائٹی سے"
+            "A": "خرید بک",
+            "B": "فروخت بک",
+            "C": "کیش بک",
+            "D": "واپسی فروخت بک"
         },
         "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 4680,
-        "question": "پاکستان کس نظریہ حیات پر بنا ؟",
-        "options": {
-            "A": "اسلامی",
-            "B": "اشتراکت",
-            "C": "روسی اشتراکت",
-            "D": "سرمایہ داری"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 9191,
-        "question": "ڈاکٹر محمد یونس استاد تھے۔",
-        "options": {
-            "A": "سماجیات کے",
-            "B": "نفسیات کے",
-            "C": "معاشیات کے",
-            "D": "حیوانات کے"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -531,114 +280,22 @@
         "is_iaa": false
     },
     {
-        "id": 22250,
-        "question": "پاکستان میں پرندوں کی تقریباً ____ اقسام پائی جاتی ہیں :",
+        "id": 13282,
+        "question": "توازن ادائیگیوں میں خرابی کی ایک وجہ نہیں ہے:۔",
         "options": {
-            "A": "400",
-            "B": "500",
-            "C": "600",
-            "D": "700"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 29710,
-        "question": "ایک Btu برابر ہوتا ہے:",
-        "options": {
-            "A": "1050 Joule",
-            "B": "1055 Joule",
-            "C": "1150 Joule",
-            "D": "1155 Joule"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 21387,
-        "question": "پنسلین کس سے حاصل کی جاتی ہے؟",
-        "options": {
-            "A": "وائرس",
-            "B": "بیکٹیریا",
-            "C": "الجی",
-            "D": "فنگس"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 21615,
-        "question": "ڈاکٹر ثمر مبارک مند پیدا ہوئے",
-        "options": {
-            "A": "1841",
-            "B": "1891",
-            "C": "1941",
-            "D": "1961"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 2563,
-        "question": "ماحول کی کتنی اقسام ہیں؟",
-        "options": {
-            "A": "2",
-            "B": "3",
-            "C": "4",
-            "D": "5"
+            "A": "درآمدات میں اضافہ",
+            "B": "برآمدات میں کمی",
+            "C": "آبادی پر کنٹرول",
+            "D": "افراطِ زر"
         },
         "domain": "Social Sciences",
-        "subdomain": "geography",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
-            "FBISE"
+            "Ustad 360"
         ],
         "quality_flags": [],
         "length_tier": "short",
@@ -646,16 +303,16 @@
         "is_iaa": false
     },
     {
-        "id": 9373,
-        "question": "اوزون گیس کرے میں پائی جاتی ہے :",
+        "id": 7351,
+        "question": "ضیاع پذیر اشیاء کی رسد کی لچک ہوتی ہے۔",
         "options": {
-            "A": "ٹروپوسفیئر",
-            "B": "میزوسفیئر",
-            "C": "تھرموسفیئر",
-            "D": "سٹریٹوسفیئر"
+            "A": "صفر",
+            "B": "اکائی سے زیادہ",
+            "C": "لامحدود",
+            "D": "اکائی سے کم"
         },
         "domain": "Social Sciences",
-        "subdomain": "geography",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -669,19 +326,19 @@
         "is_iaa": false
     },
     {
-        "id": 15399,
-        "question": "معیاری ٹریک کی گلیوں کی چوڑائی ____ میٹر ہوتی ہے۔",
+        "id": 7626,
+        "question": "جب قیمت اوسط مصارف کے برابر ہو تو فرم کا منافع ہوتا ہے:",
         "options": {
-            "A": "1.16",
-            "B": "1.12",
-            "C": "1.22",
-            "D": "1.30"
+            "A": "غیر معمولی",
+            "B": "معمولی",
+            "C": "لامحدود",
+            "D": "بلند ترین"
         },
         "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -692,19 +349,19 @@
         "is_iaa": false
     },
     {
-        "id": 15148,
-        "question": "روغنیات کو انگریزی میں کہتے ہیں۔",
+        "id": 10422,
+        "question": "انڈنٹ قبول کرتا ہے:",
         "options": {
-            "A": "وٹامن",
-            "B": "پروٹین",
-            "C": "فیٹس",
-            "D": "کاربو ہائیڈریٹس"
+            "A": "حکومت",
+            "B": "در آمد کنندہ",
+            "C": "بینک",
+            "D": "برآمد کنندہ"
         },
         "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -715,19 +372,19 @@
         "is_iaa": false
     },
     {
-        "id": 5248,
-        "question": "ٹیبل ٹینس میز کی لمبائی ہے :",
+        "id": 9993,
+        "question": "گوشوارہ تطبیق حصہ ہے:",
         "options": {
-            "A": "‏2.64 میٹر",
-            "B": "‏2.74 میٹر",
-            "C": "‏2.84 میٹر",
-            "D": "‏2.94 میٹر"
+            "A": "کیش بک کا",
+            "B": "پاس بک کا",
+            "C": "جرنل کا",
+            "D": "لیجر کا"
         },
         "domain": "Social Sciences",
-        "subdomain": "health and physical education",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -738,180 +395,19 @@
         "is_iaa": false
     },
     {
-        "id": 3933,
-        "question": "ایک فرد کے لیے ٹرے کا سائز ۔۔۔ ہوتا ہے :",
+        "id": 10560,
+        "question": "نظریہ مقدار زر کا فارمولہ پیش کیا :",
         "options": {
-            "A": "‏14x16 انچ",
-            "B": "‏12x14 انچ",
-            "C": "‏12x18 انچ",
-            "D": "‏15x18 انچ"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 5393,
-        "question": "اقدار و خواہشات وہ ہیں جو انسان کے لیے ہیں :",
-        "options": {
-            "A": "بے کار",
-            "B": "غیر اہم",
-            "C": "اہم",
-            "D": "آفت"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 2982,
-        "question": "واقعہ طائف کے بعد آنحضور صلی اللہ علیہ وسلم (خاتم النبیین) کو ____ سے سرفراز کیا گیا۔",
-        "options": {
-            "A": "معراج",
-            "B": "رسالت",
-            "C": "براق",
-            "D": "نبوت"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 30528,
-        "question": "ایسا پیمانہ جو مواد کی درمیانی مد بتائے کہلاتا ہے:",
-        "options": {
-            "A": "وسطانیہ",
-            "B": "مادہ",
-            "C": "حسابی اوسط",
-            "D": "ہم آہنگ اوسط"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 22639,
-        "question": "‏$x^2 - 5x + 6$ اور $x^2 - x - 6$ کا عادِ اعظم ہے :",
-        "options": {
-            "A": "الف $x - 3$",
-            "B": "ب $x + 2$",
-            "C": "ج $x^2 - 4$",
-            "D": "د $x - 2$"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 21024,
-        "question": "‏2x - y = 6 میں y = 2 رکھنے سے x برابر ہوگا۔",
-        "options": {
-            "A": "-4",
-            "B": "2",
-            "C": "-2",
-            "D": "4"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 28450,
-        "question": "‏x = (-b ± √(b2 - 4ac)) / 2a کہلاتا ہے :",
-        "options": {
-            "A": "دو درجی کلیہ",
-            "B": "عادہ اعظم",
-            "C": "ذواضعاف اقل",
-            "D": "خطی مساوات"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 6284,
-        "question": "ایسٹر کا تہوار مناتے ہیں :",
-        "options": {
-            "A": "یہودی",
-            "B": "ہندو",
-            "C": "مسیحی",
-            "D": "سکھ"
+            "A": "فشر نے",
+            "B": "لارڈ کینز",
+            "C": "مالتھس نے",
+            "D": "پیگو نے"
         },
         "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -922,131 +418,16 @@
         "is_iaa": false
     },
     {
-        "id": 6054,
-        "question": "پاکستان نے بنگلہ دیش کو تسلیم کیا۔",
+        "id": 10202,
+        "question": "ذمہ داری میں اضافہ درج کیا جاتا ہے:",
         "options": {
-            "A": "‏1971ء",
-            "B": "‏1972ء",
-            "C": "‏1973ء",
-            "D": "‏1974ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 15863,
-        "question": "ڈرامائی کھیل کھیلنے سے بچے کی ____ صلاحیت میں نمایاں اضافہ ہوتا ہے۔",
-        "options": {
-            "A": "جسمانی",
-            "B": "زبان دانی کی",
-            "C": "قائدانہ",
-            "D": "قوت فیصلہ کی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 24439,
-        "question": "ایک کلو جول برابر ہوتا ہے:",
-        "options": {
-            "A": "10 J",
-            "B": "102 J",
-            "C": "103 J",
-            "D": "104 J"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 24446,
-        "question": "مومینٹم کا فارمولا ہے:",
-        "options": {
-            "A": "P = ma",
-            "B": "P = mv",
-            "C": "P = dt",
-            "D": "P = F x d"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 23814,
-        "question": "حرارت کا ناقص موصل ہے:",
-        "options": {
-            "A": "پانی",
-            "B": "سونا",
-            "C": "آئرن",
-            "D": "کاپر"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_125",
-        "is_iaa": false
-    },
-    {
-        "id": 11527,
-        "question": "آزاد متغیرہ کا اطلاق کیا جاتا ہے۔",
-        "options": {
-            "A": "کنٹرول گروہ پر",
-            "B": "تجرباتی گروہ پر",
-            "C": "دونوں پر",
+            "A": "ڈیبٹ سائیڈ پر",
+            "B": "کریڈٹ سائیڈ پر",
+            "C": "کسی بھی سائیڈ پر",
             "D": "ان میں سے کوئی نہیں"
         },
         "domain": "Social Sciences",
-        "subdomain": "psychology",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -1062,16 +443,62 @@
         "is_iaa": false
     },
     {
-        "id": 11416,
-        "question": "کس گروپ کے فرائض تحریر ہوتے ہیں؟",
+        "id": 10396,
+        "question": "شراکتی کاروبار میں زیادہ سے زیادہ ____ حصہ دار ہوتے ہیں۔",
         "options": {
-            "A": "ثانوی",
-            "B": "ابتدائی",
-            "C": "رسمی",
-            "D": "غیر رسمی"
+            "A": "2",
+            "B": "7",
+            "C": "10",
+            "D": "20"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7964,
+        "question": "لاگت پیدائش میں اضافہ کی وجہ سے مقدار رسد میں کمی کہلاتی ہے۔",
+        "options": {
+            "A": "رسد کا گرنا",
+            "B": "رسد کا بڑھنا",
+            "C": "رسد کا پھیلنا",
+            "D": "رسد کا سکڑنا"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 9802,
+        "question": "مالیاتی وصولیاں ____ کا حصہ ہیں۔",
+        "options": {
+            "A": "بیلنس شیٹ",
+            "B": "آمدنی و اخراجات گوشوارہ",
+            "C": "کیش بک",
+            "D": "اس بک"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -1085,16 +512,39 @@
         "is_iaa": false
     },
     {
-        "id": 11677,
-        "question": "لوگوں کا بڑا گروہ کیا کہلاتا ہے؟",
+        "id": 10065,
+        "question": "غیر یقینی کھاتہ کا بقایا ظاہر کیا جاتا ہے :",
         "options": {
-            "A": "معاشرہ",
-            "B": "بستی",
-            "C": "قصبہ",
-            "D": "شہر"
+            "A": "تجارتی کھاتہ میں",
+            "B": "نفع و نقصان کھاتہ میں",
+            "C": "بیلنس شیٹ میں",
+            "D": "سرمایہ کھاتہ میں"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 9830,
+        "question": "سرمایہ برابر ہوتا ہے۔",
+        "options": {
+            "A": "اثاثہ جات کے",
+            "B": "اثاثہ جات + واجبات",
+            "C": "اثاثہ جات - واجبات",
+            "D": "واجبات"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -1108,19 +558,226 @@
         "is_iaa": false
     },
     {
-        "id": 16949,
-        "question": "گوادر واقع ہے۔",
+        "id": 7722,
+        "question": "قانون تکثیر حاصل کا نفاذ کس شعبہ پر زیادہ ہوتا ہے :",
         "options": {
-            "A": "بلوچستان میں",
-            "B": "سندھ میں",
-            "C": "خیبر پختونخوا میں",
-            "D": "پنجاب میں"
+            "A": "زراعت",
+            "B": "صنعت",
+            "C": "معدنیات",
+            "D": "تجارت"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 10041,
+        "question": "کاروبار کا مالک جو نقدی کاروبار میں لگاتا ہے ، کہلاتی ہے :",
+        "options": {
+            "A": "نقدی",
+            "B": "سرمایہ",
+            "C": "ذمہ داری",
+            "D": "اثاثہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 9883,
+        "question": "فروخت تفریق لاگت فروخت برابر ہے۔",
+        "options": {
+            "A": "خالص نفع",
+            "B": "خام نفع",
+            "C": "برداشتگی",
+            "D": "سرمایوی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 10826,
+        "question": "قومی آمدنی میں کسے شمار نہیں کیا جاتا؟",
+        "options": {
+            "A": "سود",
+            "B": "منافع",
+            "C": "انتقالی ادائیگیاں",
+            "D": "لگان"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 10214,
+        "question": "اشیاء کی خرید پر ادا کیا جانے والا کرایہ ہے:",
+        "options": {
+            "A": "سرمایوی خرچ",
+            "B": "مالیاتی خرچ",
+            "C": "سرمایوی ادائیگی",
+            "D": "سرمایوی نقصان"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 9878,
+        "question": "تنخواہوں کی ادائیگی کہلاتی ہے۔",
+        "options": {
+            "A": "مالیاتی ادائیگی",
+            "B": "سرمایوی ادائیگی",
+            "C": "اثاثہ",
+            "D": "ذمہ داری"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7337,
+        "question": "فرم کے کل وصولی اور کل مصارف کا درمیانی فرق کہلاتا ہے:",
+        "options": {
+            "A": "مختتم مصارف",
+            "B": "فرم کا نقصان",
+            "C": "فرم کا منافع",
+            "D": "اجر کا منافع"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7429,
+        "question": "قانون رسد تفاعل ہے:",
+        "options": {
+            "A": "مضمر",
+            "B": "صریح",
+            "C": "تقلیلی",
+            "D": "تکثیری"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7499,
+        "question": "‏19. نام نہاد لگان کا تصور پیش کیا:",
+        "options": {
+            "A": "آدم سمتھ",
+            "B": "مارشل",
+            "C": "کینز",
+            "D": "ریکارڈو"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 10166,
+        "question": "روزنامچہ کا مطلب",
+        "options": {
+            "A": "سالانہ",
+            "B": "ماہانہ",
+            "C": "ہفتہ وار",
+            "D": "روزانہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -1133,22 +790,373 @@
         "is_iaa": false
     },
     {
-        "id": 824,
-        "question": "وہ ہمیشہ بے پر کی ____ ہے۔ — روز مرہ محاورہ کے اعتبار سے درست لفظ چن کر مکمل کریں۔",
+        "id": 7410,
+        "question": "معین رسد پر طلب زیادہ ہو جائے تو قیمت ہو جاتی ہے",
         "options": {
-            "A": "بولتی",
-            "B": "کہتی",
-            "C": "سناتی",
-            "D": "اڑاتی"
+            "A": "کم",
+            "B": "زیادہ",
+            "C": "برابر",
+            "D": "صفر"
         },
-        "domain": "Humanities",
-        "subdomain": "urdu literature",
+        "domain": "Social Sciences",
+        "subdomain": "economics",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
-            "FBISE"
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7539,
+        "question": "قانون تقلیل حاصل کے خط کا جھکاؤ ہوتا ہے۔",
+        "options": {
+            "A": "مثبت",
+            "B": "عمودی",
+            "C": "منفی",
+            "D": "افقی"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7430,
+        "question": "وہ نقطہ جہاں طلب اور رسد کے خطوط ایک دوسرے کو قطع کرتے ہیں کہلاتا ہے:",
+        "options": {
+            "A": "صارف کا توازن",
+            "B": "طلب کا توازن",
+            "C": "منڈی کا توازن",
+            "D": "رسد کا توازن"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 13353,
+        "question": "آج کل زر کی جس قسم کا سب سے زیادہ استعمال ہوتا ہے۔",
+        "options": {
+            "A": "دھاتی زر",
+            "B": "پلاسٹک زر",
+            "C": "اعتباری زر",
+            "D": "کاغذی زر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 10364,
+        "question": "بنیادی طور پر مسل بندی کی اقسام ہیں :",
+        "options": {
+            "A": "01",
+            "B": "04",
+            "C": "03",
+            "D": "02"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 10479,
+        "question": "واحد ملکیتی کاروبار میں مالک کی ذمہ داری ہوتی ہے:",
+        "options": {
+            "A": "محدود",
+            "B": "غیر محدود",
+            "C": "فرد واحد کی مرضی",
+            "D": "حکومت کی مرضی سے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 10453,
+        "question": "کونسی کاروباری تنظیم سٹاک ایکسچینج میں شامل ہو سکتی ہے؟",
+        "options": {
+            "A": "واحد ملکیتی کاروبار",
+            "B": "مشترکہ سرمایہ کی کمپنی",
+            "C": "شراکت داری",
+            "D": "یہ تمام"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7748,
+        "question": "جس قیمت پر طلب و رسد برابر ہوجائیں اس کو کہا جاتا ہے۔",
+        "options": {
+            "A": "توازنی قیمت",
+            "B": "معین قیمت",
+            "C": "متغیر قیمت",
+            "D": "ان میں سے کوئی بھی نہیں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [
+            "catch_all"
+        ],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 9727,
+        "question": "براہ راست اخراجات میں سے ایک ہے۔",
+        "options": {
+            "A": "تنخواہ",
+            "B": "کرایہ",
+            "C": "مال برداری خرچ",
+            "D": "کمیشن"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 9814,
+        "question": "واپسی خرید کا دوسرا نام ____ ہے۔",
+        "options": {
+            "A": "ریٹرن آؤٹ ورڈ",
+            "B": "ریٹرن ان ورڈ",
+            "C": "فروخت واپسی",
+            "D": "ان میں سے کوئی نہیں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [
+            "catch_all"
+        ],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7316,
+        "question": "مختلف قطعاتِ زمین کے پیداواری فرق کو کہا جاتا ہے۔",
+        "options": {
+            "A": "خالص لگان",
+            "B": "کمیابی لگان",
+            "C": "تفرقی لگان",
+            "D": "شبہی لگان"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7965,
+        "question": "طلب و رسد کے خطوط حرکت کرتے ہیں۔",
+        "options": {
+            "A": "ایک ہی سمت میں",
+            "B": "مخالف سمت میں",
+            "C": "ایک دوسرے کے متوازی",
+            "D": "افقی حالت میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7322,
+        "question": "‏\"اقوام کی دولت کی نوعیت اور وجوہات پر تحقیقاتی مقالہ\" نامی کتاب تحریر کی:",
+        "options": {
+            "A": "ایڈم سمتھ",
+            "B": "مارشل",
+            "C": "رابنز",
+            "D": "ریکارڈو"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 7561,
+        "question": "نقطہ سیرابی پر مختتم افادہ ہوتا ہے :",
+        "options": {
+            "A": "کم از کم",
+            "B": "زیادہ سے زیادہ",
+            "C": "منفی",
+            "D": "صفر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 13413,
+        "question": "پاکستان میں قومیا نے کی پالیسی اختیار کی گئی :",
+        "options": {
+            "A": "1957",
+            "B": "1961",
+            "C": "1972",
+            "D": "1999"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_125",
+        "is_iaa": false
+    },
+    {
+        "id": 10675,
+        "question": "بین الاقوامی تجارت میں کلی برتری کا نظریہ پیش کیا:",
+        "options": {
+            "A": "آدم سمتھ",
+            "B": "مارشل",
+            "C": "روبنز",
+            "D": "کینز"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "economics",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
         ],
         "quality_flags": [],
         "length_tier": "long",

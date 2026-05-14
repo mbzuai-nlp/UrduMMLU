@@ -1,408 +1,15 @@
 [
     {
-        "id": 25348,
-        "question": "کون سی دوا کارڈیو ٹانک ہے؟",
+        "id": 11120,
+        "question": "تجربے میں معمولوں کے کتنے گروپ ہوتے ہیں؟",
         "options": {
-            "A": "مارفین",
-            "B": "پیناڈول",
-            "C": "ڈائیاز پام",
-            "D": "ڈیجی ٹیلیس"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 17479,
-        "question": "فطرت میں پائے جانے والے بائیو ایلیمنٹس کی تعداد ہے:",
-        "options": {
-            "A": "16",
-            "B": "14",
-            "C": "12",
-            "D": "10"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 25143,
-        "question": "ایسٹروجن ہارمون کی کمی سے کون سی بیماری ہو سکتی ہے؟",
-        "options": {
-            "A": "اوسٹیو آرتھرائٹس",
-            "B": "گٹھیا (گاؤٹ)",
-            "C": "ریوماٹائڈ آرتھرائٹس",
-            "D": "اوسٹیوپوروسس"
-        },
-        "domain": "STEM",
-        "subdomain": "biology",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 26611,
-        "question": "اوزون کی تہہ موجود ہے۔",
-        "options": {
-            "A": "ٹروپوسفیر",
-            "B": "سٹریٹوسفیر",
-            "C": "میوسفیئر",
-            "D": "تھرموسفیئر"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 19077,
-        "question": "کس دھات کے ایک گرام کو کھینچ کر ڈیڑھ کلومیٹر لمبی تار بنائی جاسکتی ہے",
-        "options": {
-            "A": "سلور",
-            "B": "سونا",
-            "C": "لوہا",
-            "D": "کیلشیم"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 18776,
-        "question": "جب ایک الیکٹرو نیگیٹیو ایلیمنٹ کسی الیکٹرو پازیٹیو ایلیمنٹ کے ساتھ ملتا ہے تو ان کے درمیان بانڈنگ کی قسم ہوتی ہے",
-        "options": {
-            "A": "کوویلنٹ",
-            "B": "آئیونک",
-            "C": "پولر کوویلنٹ",
-            "D": "کو آرڈینیٹ کوویلنٹ"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 19214,
-        "question": "بوائل لا کی مساوات ہے :",
-        "options": {
-            "A": "P=vt",
-            "B": "V/T = k",
-            "C": "T/P = k",
-            "D": "PV = k"
-        },
-        "domain": "STEM",
-        "subdomain": "chemistry",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 453,
-        "question": "میونسپل کارپوریشن میں سب سے اہم آفیسر ہوتا ہے:",
-        "options": {
-            "A": "مجسٹریٹ",
-            "B": "اے ۔ سی",
-            "C": "چیف آفیسر",
-            "D": "ڈی ۔ سی ۔ او"
+            "A": "02",
+            "B": "03",
+            "C": "04",
+            "D": "05"
         },
         "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "BISE Multan 2025"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 12172,
-        "question": "اعلیٰ ثانوی تعلیم کا کورس محیط ہے:",
-        "options": {
-            "A": "‏5 سال",
-            "B": "‏4 سال",
-            "C": "‏3 سال",
-            "D": "‏2 سال"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 6668,
-        "question": "لفظ \"سوشس\" کا تعلق کس زبان سے ہے؟",
-        "options": {
-            "A": "یونانی",
-            "B": "لاطینی",
-            "C": "ہندی",
-            "D": "انگریزی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "civics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 10691,
-        "question": "عرصہ قلیل کے اوسط مصارف اور مختتم مصارف کے خطوط ہوتے ہیں۔",
-        "options": {
-            "A": "افقی",
-            "B": "عمودی",
-            "C": "چپٹے",
-            "D": "‏U شکل کے"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 13063,
-        "question": "صوبہ بلوچستان میں آبپاشی کا اہم ذریعہ ہے۔",
-        "options": {
-            "A": "تالاب",
-            "B": "ٹیوب ویل",
-            "C": "کاریز",
-            "D": "نہریں"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "commerce",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 19897,
-        "question": "ان میں کون سی فشنگ ویب سائٹ کی خوبی نہیں ہے؟",
-        "options": {
-            "A": "اصل ویب سائٹ جیسی ڈومین",
-            "B": "زائرین کو جمع کرنے کے لئے فارم کا استعمال",
-            "C": "ویب مواد سے اصل لنک",
-            "D": "ای میل اکاؤنٹ اپ ڈیٹس"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 19815,
-        "question": "ویجینیئر ٹیبل میں کتنی قطاریں ہوتی ہیں :",
-        "options": {
-            "A": "26",
-            "B": "20",
-            "C": "32",
-            "D": "54"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 19922,
-        "question": "ای۔میل بھیج کر حساس معلومات اکٹھی کرنا ____ کہلاتا ہے۔",
-        "options": {
-            "A": "فارمنگ",
-            "B": "سائبر سٹاکنگ",
-            "C": "ڈوس",
-            "D": "فشنگ"
-        },
-        "domain": "STEM",
-        "subdomain": "computer science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 7457,
-        "question": "آمدنی میں اضافہ سے طلب کے زیادہ ہونے کو ____ کہا جاتا ہے۔",
-        "options": {
-            "A": "طلب کا گرنا",
-            "B": "طلب کا سکڑنا",
-            "C": "طلب کا پھیلنا",
-            "D": "طلب کا بڑھنا"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 9846,
-        "question": "کوئی سرگرمی جو نفع کمانے کیلئے کی جاتی ہے، کہلاتی ہے۔",
-        "options": {
-            "A": "لین دین",
-            "B": "کاروبار",
-            "C": "مدد",
-            "D": "ذمہ داری"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 7680,
-        "question": "قانونِ تکثیرِ حاصل کا دوسرا نام ہوتا ہے",
-        "options": {
-            "A": "تقلیل حاصل",
-            "B": "تکثیرِ مصارف",
-            "C": "تقلیلِ مصارف",
-            "D": "متغیر تناسبات"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "economics",
+        "subdomain": "psychology",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -416,19 +23,19 @@
         "is_iaa": false
     },
     {
-        "id": 4799,
-        "question": "رہنمائی کے لغوی معنی کو جانچئے :",
+        "id": 11075,
+        "question": "‏……… کے مطابق آموزش ایک معاشرتی آموزش ہے۔",
         "options": {
-            "A": "تحقیق کرنا",
-            "B": "پڑھانا",
-            "C": "مطالعہ کرنا",
-            "D": "راستہ دکھانا"
+            "A": "البرٹ بنڈورا",
+            "B": "تھارن ڈائیک",
+            "C": "سکنر",
+            "D": "پاؤ لوف"
         },
         "domain": "Social Sciences",
-        "subdomain": "education",
+        "subdomain": "psychology",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-II",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -439,19 +46,19 @@
         "is_iaa": false
     },
     {
-        "id": 3281,
-        "question": "بچے کی بالیدگی اور نشوونما کا عمل ہوتا ہے۔",
+        "id": 11051,
+        "question": "ہیجانی حالت کے دوران معدے کے افعال۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔۔",
         "options": {
-            "A": "مسلسل اور باقاعدہ",
-            "B": "موزوں اور بہتر",
-            "C": "مستقل اور دیر پا",
-            "D": "مہارتی"
+            "A": "تیز ہو جاتے ہیں",
+            "B": "رک جاتی ہے",
+            "C": "مستقل رہتی ہے",
+            "D": "آہستہ ہو جاتے ہیں"
         },
         "domain": "Social Sciences",
-        "subdomain": "education",
+        "subdomain": "psychology",
         "correct_option": null,
         "correct_key": null,
-        "level": "SSC-I",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -462,550 +69,65 @@
         "is_iaa": false
     },
     {
-        "id": 3271,
-        "question": "استاد کی تربیت کی کتنی سطحیں ہیں؟",
+        "id": 10917,
+        "question": "کس ماہر نفسیات کے مطابق نفسیات کردار اور ذہنی اعمال کا علم ہے؟",
+        "options": {
+            "A": "جوش۔آر۔جیرو",
+            "B": "واٹسن",
+            "C": "ولیم جیمز",
+            "D": "ارسطو"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11274,
+        "question": "ایک ایم سی کیو (MCQ) حافظے کی پیمائش کے درج ذیل طریقے کی نمائندگی کرتا ہے :",
+        "options": {
+            "A": "بازیافت کا طریقہ",
+            "B": "شناخت کا طریقہ",
+            "C": "دوبارہ ترتیب کا طریقہ",
+            "D": "مکرر آموزش کا طریقہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 10894,
+        "question": "محرک کی۔۔۔۔۔۔۔۔۔۔۔۔ اقسام ہیں۔",
         "options": {
             "A": "2",
-            "B": "4",
-            "C": "6",
-            "D": "8"
+            "B": "3",
+            "C": "4",
+            "D": "5"
         },
         "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 3311,
-        "question": "تعلیم ایک ……… عمل ہے۔",
-        "options": {
-            "A": "اخلاقی",
-            "B": "معاشی",
-            "C": "معاشرتی",
-            "D": "سیاسی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 3624,
-        "question": "امام غزالیؒ کے والد کاروبار کرتے تھے۔",
-        "options": {
-            "A": "کپڑے کا",
-            "B": "چینی کا",
-            "C": "دھاگے کا",
-            "D": "سوت کا"
-        },
-        "domain": "Humanities",
-        "subdomain": "ethics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 22153,
-        "question": "عالمی ڈونر افراد کے خون کا گروپ ہوتا ہے۔",
-        "options": {
-            "A": "A",
-            "B": "B",
-            "C": "O",
-            "D": "AB"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 29490,
-        "question": "راکٹ میں موجود ایندھن کو جلانے کے لیے استعمال کیا جاتا ہے :",
-        "options": {
-            "A": "مائع کاربن ڈائی آکسائیڈ",
-            "B": "سالڈ کاربن ڈائی آکسائیڈ",
-            "C": "گیسی آکسیجن",
-            "D": "مائع آکسیجن"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 1335,
-        "question": "اینالاگ میٹر میں پیمائش کس کی مدد سے بتائی جاتی ہے؟",
-        "options": {
-            "A": "پوائنٹر",
-            "B": "ہندسوں",
-            "C": "کمپیوٹر",
-            "D": "اوم میٹر"
-        },
-        "domain": "STEM",
-        "subdomain": "general science",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 14788,
-        "question": "اعلیٰ ہنر مند افراد کا تعلق کس معاشی سرگرمی سے ہے؟",
-        "options": {
-            "A": "ثلاثی",
-            "B": "ثانوی",
-            "C": "اربعی",
-            "D": "خموسی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 9362,
-        "question": "خط استواء کے قریب سمندر کی سطح پر ہوا کا دباؤ ہوتا ہے :",
-        "options": {
-            "A": "‏560 ملی میٹر",
-            "B": "‏660 ملی میٹر",
-            "C": "‏760 ملی میٹر",
-            "D": "‏860 ملی میٹر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "geography",
+        "subdomain": "psychology",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 1387,
-        "question": "سگریٹ نوشی سے انسان ____ کا شکار ہو جاتا ہے۔",
-        "options": {
-            "A": "بخار",
-            "B": "ہیضہ",
-            "C": "چیچک",
-            "D": "پھیپھڑوں کا کینسر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 5329,
-        "question": "ایتھلیٹ کو دوڑنے کے لیے راہداری ____ سے دی جاتی ہے۔",
-        "options": {
-            "A": "حروفِ تہجی",
-            "B": "کھلاڑی کے پہنچنے کی ترتیب",
-            "C": "قرعہ اندازی",
-            "D": "آفیشلز کی مرضی"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 15333,
-        "question": "نیزہ پھینکنے کے لئے کھلاڑی کی ایک کوشش کیلئے وقت ہوگا",
-        "options": {
-            "A": "‏2 منٹ",
-            "B": "‏1 منٹ",
-            "C": "‏4 منٹ",
-            "D": "‏3 منٹ"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 15587,
-        "question": "ٹیبل ٹینس میں نیٹ اسمبلی کی بلندی ہوتی ہے : (طالبات کے لیے)",
-        "options": {
-            "A": "‏16.25 سینٹی میٹر",
-            "B": "‏12.95 سینٹی میٹر",
-            "C": "‏15.25 سینٹی میٹر",
-            "D": "‏3 سینٹی میٹر"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "health and physical education",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 1344,
-        "question": "کھانا پیش کرنے کے ____ طریقے ہیں۔",
-        "options": {
-            "A": "1",
-            "B": "2",
-            "C": "3",
-            "D": "4"
-        },
-        "domain": "Profession",
-        "subdomain": "home economics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 1194,
-        "question": "‏’لَا یُعْجِزُونَ‘ کے کیا معنی ہیں؟",
-        "options": {
-            "A": "وہ دیکھ نہیں سکتے",
-            "B": "وہ عاجز نہیں کر سکتے",
-            "C": "وہ چل نہیں سکتے",
-            "D": "وہ بول نہیں سکتے"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 2832,
-        "question": "جمہوریت کے لفظی معنی ہیں:",
-        "options": {
-            "A": "عوام کی حکومت",
-            "B": "جابر کی حکومت",
-            "C": "بادشاہ کی حکومت",
-            "D": "امراء کی حکومت"
-        },
-        "domain": "Humanities",
-        "subdomain": "islamic studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 1166,
-        "question": "اگر x − y = 4 ہو، تو درج ذیل میں سے کون سا بیان درست ہے؟",
-        "options": {
-            "A": "x3 − y3 + 24xy = 64",
-            "B": "x3 − y3 − 12xy = 64",
-            "C": "x3 − y3 − 6xy = 64",
-            "D": "x3 + y3 − 3xy = 64"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "FBISE"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 21042,
-        "question": "‏∑(xi - X̄) = 0 کس کی خاصیت سمجھا جاتا ہے۔",
-        "options": {
-            "A": "ضربی اوسط",
-            "B": "حسابی اوسط",
-            "C": "ہار مونک اوسط",
-            "D": "عادہ"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 23398,
-        "question": "جبکہ e ≈ 2.718 ، log e =",
-        "options": {
-            "A": "0",
-            "B": "0.4343",
-            "C": "∞",
-            "D": "1"
-        },
-        "domain": "STEM",
-        "subdomain": "mathematics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 5863,
-        "question": "اقوام متحدہ میں بین الاقوامی عدالت انصاف کے ججوں کی تعداد ہے",
-        "options": {
-            "A": "15",
-            "B": "18",
-            "C": "12",
-            "D": "10"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 6185,
-        "question": "اگست 1988ء میں سینیٹ کے چیئرمین تھے۔",
-        "options": {
-            "A": "صادق سنجرانی",
-            "B": "وسیم سجاد",
-            "C": "غلام اسحاق",
-            "D": "محمد میاں سومرو"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "short",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 12117,
-        "question": "پاکستان کس نظریہ کی بنیاد پر معرض وجود میں آیا :",
-        "options": {
-            "A": "نظریہ انصاف",
-            "B": "نظریہ اسلام",
-            "C": "نظریہ مساوات",
-            "D": "نظریہ اشتراکیت"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 16182,
-        "question": "برطانیہ میں میگنا کارٹا دستاویز پر بادشاہ نے دستخط کئے:",
-        "options": {
-            "A": "‏1015ء",
-            "B": "‏1115ء",
-            "C": "‏1215ء",
-            "D": "‏1315ء"
-        },
-        "domain": "Social Sciences",
-        "subdomain": "pakistan studies",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "HSSC-II",
-        "source_url": [],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 23921,
-        "question": "ورک صفر ہو گا جب فورس اور فاصلہ کے درمیان زاویہ ہوتا ہے۔",
-        "options": {
-            "A": "90°",
-            "B": "60°",
-            "C": "45°",
-            "D": "180°"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
-        "source_url": [
-            ""
-        ],
-        "source": [
-            "Ustad 360"
-        ],
-        "quality_flags": [],
-        "length_tier": "long",
-        "batch_id": "batch_327",
-        "is_iaa": false
-    },
-    {
-        "id": 23823,
-        "question": "پوزیشن میں تبدیلی کہلاتی ہے:",
-        "options": {
-            "A": "سپیڈ",
-            "B": "ولاسٹی",
-            "C": "ڈس پلیسمنٹ",
-            "D": "فاصلہ"
-        },
-        "domain": "STEM",
-        "subdomain": "physics",
-        "correct_option": null,
-        "correct_key": null,
-        "level": "SSC-I",
         "source_url": [
             ""
         ],
@@ -1018,13 +140,13 @@
         "is_iaa": false
     },
     {
-        "id": 11128,
-        "question": "کس ماہر نفسیات نے جارحیت کی بات کی؟",
+        "id": 11040,
+        "question": "قوقعیہ کان کے کون سے حصے میں پایا جاتا ہے؟",
         "options": {
-            "A": "رش",
-            "B": "فرائڈ",
-            "C": "وڈ ورتھ",
-            "D": "ڈولارڈ اور ملر"
+            "A": "بیرونی کان",
+            "B": "وسطی کان",
+            "C": "اندرونی کان",
+            "D": "ان میں سے کوئی بھی نہیں"
         },
         "domain": "Social Sciences",
         "subdomain": "psychology",
@@ -1035,25 +157,27 @@
         "source": [
             "Ustad 360"
         ],
-        "quality_flags": [],
-        "length_tier": "short",
+        "quality_flags": [
+            "catch_all"
+        ],
+        "length_tier": "long",
         "batch_id": "batch_327",
         "is_iaa": false
     },
     {
-        "id": 11224,
-        "question": "‏DDH ہارمون کا تعلق کس محرک سے ہے؟",
+        "id": 16313,
+        "question": "نشوونما کا عمل جاری رہتا ہے۔",
         "options": {
-            "A": "بھوک کا محرک",
-            "B": "مادری محرک",
-            "C": "پیاس کا محرک",
-            "D": "طاقت کا محرک"
+            "A": "جوانی تک",
+            "B": "بلوغت تک",
+            "C": "پختگی تک",
+            "D": "تمام عمر"
         },
         "domain": "Social Sciences",
         "subdomain": "psychology",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-I",
+        "level": "HSSC-II",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -1064,19 +188,19 @@
         "is_iaa": false
     },
     {
-        "id": 16966,
-        "question": "پاکستان کا اہم معاشرتی مسئلہ ہے :",
+        "id": 11257,
+        "question": "حافظے کی پیمائش کن طریقوں سے ممکن ہے؟",
         "options": {
-            "A": "جرائم",
-            "B": "غربت",
-            "C": "افراط آبادی",
+            "A": "بازیافت کا طریقہ",
+            "B": "شناخت کا طریقہ",
+            "C": "مکرر آموزش کا طریقہ",
             "D": "یہ تمام"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "psychology",
         "correct_option": null,
         "correct_key": null,
-        "level": "HSSC-II",
+        "level": "HSSC-I",
         "source_url": [],
         "source": [
             "Ustad 360"
@@ -1087,16 +211,39 @@
         "is_iaa": false
     },
     {
-        "id": 11478,
-        "question": "حقائق کی ترتیب کہلاتی ہے :",
+        "id": 11021,
+        "question": "بالیدگی کے ہارمون خارج کرتا ہے :",
         "options": {
-            "A": "مفروضہ",
-            "B": "مشاہدہ",
-            "C": "تجربہ",
-            "D": "نظریہ"
+            "A": "پچوٹری گلینڈ",
+            "B": "تھائمس گلینڈ",
+            "C": "گونیڈز",
+            "D": "تھائی رائڈ گلینڈ"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11173,
+        "question": "توجہ کا معروضی عامل ہے۔",
+        "options": {
+            "A": "دلچسپی",
+            "B": "حرکت",
+            "C": "ہیجان",
+            "D": "خواہش"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
@@ -1112,16 +259,900 @@
         "is_iaa": false
     },
     {
-        "id": 11877,
-        "question": "عصبیت کا تصور کس نے پیش کیا؟",
+        "id": 11212,
+        "question": "‏\"ہیجان اس وقت پیدا ہوتا ہے جب عرشہ کسی چیز کا ادراک کرتا ہے\" — اس بیان سے کس کی تھیوری آپ کے ذہن میں آتی ہے؟",
         "options": {
-            "A": "شاہ ولی اللہ",
-            "B": "غزالی",
-            "C": "ابن خلدون",
-            "D": "البیرونی"
+            "A": "جیمز لینگ",
+            "B": "لازارس",
+            "C": "کینن بارڈ",
+            "D": "شاسٹر"
         },
         "domain": "Social Sciences",
-        "subdomain": "sociology",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11058,
+        "question": "کون سے عصبے ماحول سے مہیجات وصول کرتے ہیں؟",
+        "options": {
+            "A": "حرکی نیوران",
+            "B": "حسی نیوران",
+            "C": "ملائی نیوران",
+            "D": "عصبہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11011,
+        "question": "‏……… بنیادی محرک ہے",
+        "options": {
+            "A": "طاقت",
+            "B": "حصول",
+            "C": "بھوک",
+            "D": "جارحیت"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11525,
+        "question": "فرد کے شعور کا مطالعہ نفسیات بطور ____ میں کیا جاتا ہے۔",
+        "options": {
+            "A": "علم الروح",
+            "B": "علم الذہن",
+            "C": "علم الشعور",
+            "D": "علم کردار"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 10928,
+        "question": "کونسا محرک اکتسابی ہے؟",
+        "options": {
+            "A": "پیاس کا محرک",
+            "B": "درجہ حرارت کا محرک",
+            "C": "تحصیل کا محرک",
+            "D": "مادری محرک"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16361,
+        "question": "‏\"احیاء العلوم\" کس کی تصنیف ہے؟",
+        "options": {
+            "A": "اقبال",
+            "B": "اظہر علی رضوی",
+            "C": "الغزالی",
+            "D": "ان میں سے کوئی بھی نہیں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [
+            "catch_all"
+        ],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11255,
+        "question": "مہیج کا غلط ادراک کہلاتا ہے",
+        "options": {
+            "A": "خیال",
+            "B": "تمثال",
+            "C": "واہمہ",
+            "D": "التباس"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11187,
+        "question": "مخ اکبر پر کن کی تعداد چار ہے؟",
+        "options": {
+            "A": "میڈولا",
+            "B": "فصوص",
+            "C": "عصبانیے",
+            "D": "عصب"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16309,
+        "question": "رویوں کی تشکیل میں کارفرما عوامل :",
+        "options": {
+            "A": "سماجیت",
+            "B": "ذاتی تجربات",
+            "C": "تقویت",
+            "D": "یہ تمام"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16392,
+        "question": "شیزو فرینیا سے کیا مراد ہے؟",
+        "options": {
+            "A": "خوف",
+            "B": "تشویش",
+            "C": "ہیجانات",
+            "D": "ذہنی انتشار"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11216,
+        "question": "کس نے نفسیات کی پہلی تجربہ گاہ قائم کی؟",
+        "options": {
+            "A": "واٹسن",
+            "B": "ولیم وونٹ",
+            "C": "سکنر",
+            "D": "ولیم جیمز"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 10960,
+        "question": "قلیل المعیاد حافظہ کی مدت ____ ہے۔",
+        "options": {
+            "A": "تھوڑی دیر کیلئے",
+            "B": "نصف گھنٹے کیلئے",
+            "C": "ایک گھنٹے کیلئے",
+            "D": "ایک دن کیلئے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16471,
+        "question": "واہمے اور غلط عقیدے جیسی علامات پائی جاتی ہیں :",
+        "options": {
+            "A": "تشویشی امراض میں",
+            "B": "ناول کی خرابیوں میں",
+            "C": "انشقاق ذہنی میں",
+            "D": "بے جا خوف یا ترسنا کیاں میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16328,
+        "question": "خوابوں کو لاشعوری علامات کا اظہار کس نے قرار دیا؟",
+        "options": {
+            "A": "راجرز",
+            "B": "ایلس",
+            "C": "سکنر",
+            "D": "فرائڈ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 10920,
+        "question": "سوشل ورکر کی ضرورت کس طریقے میں پیش آتی ہے؟",
+        "options": {
+            "A": "تجرباتی طریقے میں",
+            "B": "سروے کے طریقے میں",
+            "C": "مطالعہ احوال کے طریقے میں",
+            "D": "مشاہدے کے طریقے میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16451,
+        "question": "مثبت قدر، گرم جوشی اور قبولیت اہم عناصر ہیں",
+        "options": {
+            "A": "تحلیل نفسی کے",
+            "B": "مریض-مرتکز طریقے کے",
+            "C": "عقلی-جذباتی-کرداری طریقے کے",
+            "D": "ان میں سے کوئی نہیں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [
+            "catch_all"
+        ],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16298,
+        "question": "امام غزالیؒ پیدا ہوئے :",
+        "options": {
+            "A": "مکہ",
+            "B": "طوس",
+            "C": "تہران",
+            "D": "مدینہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 10939,
+        "question": "پیچیدہ فکری اعمال کس کے ذریعے کنٹرول کیے جاتے ہیں :",
+        "options": {
+            "A": "جبہی فص",
+            "B": "جواری فص",
+            "C": "صدغی فص",
+            "D": "عقبی فص"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16416,
+        "question": "نمو سے کیا مراد ہے ؟",
+        "options": {
+            "A": "کمیتی اور کیفیتی تبدیلیاں",
+            "B": "وقوفی تبدیلیاں",
+            "C": "جذباتی تبدیلیاں",
+            "D": "سماجی تبدیلیاں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11116,
+        "question": "سوالنامہ کس طریقہ میں ایک اہم آلہ ہے :",
+        "options": {
+            "A": "تجرباتی طریقہ",
+            "B": "سروے کا طریقہ",
+            "C": "مطالعہ احوال کا طریقہ",
+            "D": "میدانی مساحتی طریقہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11533,
+        "question": "عاملانہ مشروطیت کا بانی ہے ____",
+        "options": {
+            "A": "تھارن ڈائیک",
+            "B": "بینڈورہ",
+            "C": "پاؤلوف",
+            "D": "سکنر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16327,
+        "question": "انا کس اصول کے تحت کام کرتی ہے ؟",
+        "options": {
+            "A": "اصول لذت",
+            "B": "اصول حقیقت",
+            "C": "اصول اخلاق",
+            "D": "یہ تمام"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11032,
+        "question": "‏____ آزمائش گروہی کارکردگی سے متعلق ہے ۔",
+        "options": {
+            "A": "آرمی الفا",
+            "B": "آرمی بیٹا",
+            "C": "سائمن بینے سکیل",
+            "D": "ویکسلسر سکیل"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16407,
+        "question": "‏____ کے مطابق ذہنی صحت کا تعلق دماغ کی ساخت اور افعال سے ہے۔",
+        "options": {
+            "A": "مذہبی نکتہ نظر",
+            "B": "نفسیاتی نکتہ نظر",
+            "C": "سماجی نکتہ نظر",
+            "D": "عصبی نکتہ نظر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11221,
+        "question": "صحیح کا غلط ادراک کہلاتا ہے:",
+        "options": {
+            "A": "واہمہ",
+            "B": "ادراک",
+            "C": "التباس",
+            "D": "تصویر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11278,
+        "question": "تھرسٹون کے نزدیک ذہانت ____ قابلیتوں پر مشتمل ہے :",
+        "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 10934,
+        "question": "نفسیات کی سب سے پہلی تعریف ہے :",
+        "options": {
+            "A": "علم شعور",
+            "B": "علم کردار",
+            "C": "علم روح",
+            "D": "علم ذہن"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 10913,
+        "question": "شخصیت کی تقلیلی آزمائشوں میں استعمال ہونے والا مواد ہوتا ہے:",
+        "options": {
+            "A": "واضح",
+            "B": "غیر واضح",
+            "C": "سادہ",
+            "D": "آسان"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11083,
+        "question": "مقیاس ذہانت کا درست فارمولا ……… ہے۔",
+        "options": {
+            "A": "M.A / C.A × 100",
+            "B": "C.A / M.A × 100",
+            "C": "T.A.T / C.A × 100",
+            "D": "C.A / T.A.T × 100"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11194,
+        "question": "یونگ کے مطابق سماجی تعامل رکھنے والی شخصیت کہلاتی ہے:",
+        "options": {
+            "A": "اندرون بین",
+            "B": "دروں بین",
+            "C": "ٹائپ بی شخصیت",
+            "D": "بیرون بین"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16461,
+        "question": "کون سے نکتہ نظر کے مطابق ذہنی صحت کا تعلق دماغ کی ساخت اور افعال سے ہے؟",
+        "options": {
+            "A": "مذہبی نکتہ نظر",
+            "B": "نفسیاتی نکتہ نظر",
+            "C": "عصبی نکتہ نظر",
+            "D": "سماجی نکتہ نظر"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11034,
+        "question": "‏____ میں نفسیاتی امراض کا مطالعہ تشخیص اور علاج کیا جاتا ہے۔",
+        "options": {
+            "A": "تعلیمی نفسیات",
+            "B": "کلینیکل نفسیات",
+            "C": "صنعتی نفسیات",
+            "D": "تجرباتی نفسیات"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16365,
+        "question": "نموئی نفسیات سے کیا مراد ہے؟",
+        "options": {
+            "A": "بچوں کی نشوونما",
+            "B": "سماجی نشوونما",
+            "C": "جسمانی نشوونما",
+            "D": "یہ تمام"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16353,
+        "question": "شخصی مرکز مشاورتی تکنیک کو ____ بھی کہا جاتا ہے۔",
+        "options": {
+            "A": "غیر ہدایاتی مشاورت",
+            "B": "مشاورتی عمل",
+            "C": "مزاحمت",
+            "D": "قبولیت"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11090,
+        "question": "آنکھ کی پتلی۔۔۔۔۔۔ کی ہیجانی حالت میں پھیل جاتی ہے۔",
+        "options": {
+            "A": "خوف",
+            "B": "اداسی",
+            "C": "خوشی",
+            "D": "غصہ"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [
+            ""
+        ],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16453,
+        "question": "کم خوری کا مرض ____ میں زیادہ پایا جاتا ہے۔",
+        "options": {
+            "A": "بچوں",
+            "B": "مردوں",
+            "C": "عورتوں",
+            "D": "بوڑھوں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 10906,
+        "question": "ہم کم روشنی میں چیزوں کو کی وجہ سے دیکھ سکتے ہیں۔",
+        "options": {
+            "A": "راڈز",
+            "B": "آئرس",
+            "C": "عدسہ",
+            "D": "کونز"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-I",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "long",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 16348,
+        "question": "ساجیت کا عمل شروع ہوتا ہے۔",
+        "options": {
+            "A": "قبل از پیدائش",
+            "B": "بعد از پیدائش",
+            "C": "بچپن میں",
+            "D": "جوانی میں"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
+        "correct_option": null,
+        "correct_key": null,
+        "level": "HSSC-II",
+        "source_url": [],
+        "source": [
+            "Ustad 360"
+        ],
+        "quality_flags": [],
+        "length_tier": "short",
+        "batch_id": "batch_327",
+        "is_iaa": false
+    },
+    {
+        "id": 11197,
+        "question": "مقیاس ذہانت کا تصور پیش کیا:",
+        "options": {
+            "A": "بینے نے",
+            "B": "ولیم سٹرن نے",
+            "C": "سائمن نے",
+            "D": "ویکسلر نے"
+        },
+        "domain": "Social Sciences",
+        "subdomain": "psychology",
         "correct_option": null,
         "correct_key": null,
         "level": "HSSC-I",
