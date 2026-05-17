@@ -1,0 +1,124 @@
+# ============================================================
+# Text LLM 0-Shot Experiment Configuration
+# ============================================================
+# Enable/disable individual models by setting `enabled: true/false`
+# Run: python src/run_text_experiment.py --config config_text.yaml
+
+# -------------------- Experiment Settings --------------------
+experiment:
+  limit: 2 # null = all samples; integer = first N samples
+  batch_size: 10 # concurrent API requests (API models only)
+  prompt_language:
+    ur # "en" for English prompt, "ur" for Urdu prompt
+    # Output is written to output/en or output/ur
+
+# -------------------- Data ----------------------------------
+data:
+  metadata_path: data/!-final/mcqs.json
+
+# -------------------- Prompts (0-shot) -----------------------
+# Two prompt sets: English (en) and Urdu (ur).
+# Switch between them via experiment.prompt_language above.
+
+prompts:
+  en:
+    system: |
+      You are an expert multiple-choice question answering assistant.
+      Read the question carefully and select the single best answer.
+      Respond with only the letter of the correct option: A, B, C, or D.
+      Do not add any explanation, preamble, or punctuation beyond the letter.
+    user_template: |
+      Subject: {domain} – {subdomain} | Level: {level}
+
+      Question: {question}
+
+      A) {A}
+      B) {B}
+      C) {C}
+      D) {D}
+
+      Answer (A, B, C, or D):
+
+  ur:
+    system: |
+      آپ ایک ماہر MCQ جوابدہ معاون ہیں۔
+      سوال کو غور سے پڑھیں اور صرف صحیح آپشن کا حرف لکھیں: A، B، C یا D۔
+      صرف ایک حرف لکھیں۔ کوئی وضاحت، تمہید یا اضافی الفاظ نہ لکھیں۔
+    user_template: |
+      مضمون: {domain} – {subdomain} | سطح: {level}
+
+      سوال: {question}
+
+      A) {A}
+      B) {B}
+      C) {C}
+      D) {D}
+
+      جواب (A، B، C یا D):
+
+# -------------------- Models ---------------------------------
+# Each entry specifies one model to run.
+# Multiple entries with the same provider are allowed.
+
+models:
+  # ── Gemini ─────────────────────────────────────────────────
+  - provider: gemini
+    enabled: true
+    name: gemini-3-flash-preview
+    temperature: 0
+    max_output_tokens: 8192
+
+  - provider: gemini
+    enabled: true
+    name: gemini-2.5-pro
+    temperature: 0
+    max_output_tokens: 8192
+
+  # ── OpenAI GPT ─────────────────────────────────────────────
+  - provider: gpt
+    enabled: true
+    name: gpt-5-mini
+    temperature: 1.0
+    max_completion_tokens: 32768
+
+  - provider: gpt
+    enabled: true
+    name: gpt-5.4
+    temperature: 1.0
+    max_completion_tokens: 8192
+
+  # ── Anthropic Claude ───────────────────────────────────────
+  - provider: claude
+    enabled: true
+    name: claude-haiku-4-5
+    temperature: 0
+    max_tokens: 8192
+
+  - provider: claude
+    enabled: true
+    name: claude-sonnet-4-6
+    temperature: 0
+    max_tokens: 8192
+
+  # ── HuggingFace Text LLMs (run locally, no server required) ─
+  # Set device: "cuda", "mps", "cpu", or "auto"
+  # Set dtype: "float16", "bfloat16", or "float32"
+  # Set load_in_4bit: true for 4-bit quantization (requires bitsandbytes)
+  # Set load_in_8bit: true for 8-bit quantization (requires bitsandbytes)
+  - provider: huggingface
+    enabled: true
+    name: meta-llama/Llama-3.2-1B
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: false
+    name: Qwen/Qwen2.5-7B-Instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
