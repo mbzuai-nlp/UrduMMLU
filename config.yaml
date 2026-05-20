@@ -70,7 +70,7 @@ models:
 
   - provider: gemini
     enabled: true
-    name: gemini-2.5-pro
+    name: gemini-3.5-flash
     temperature: 0
     max_output_tokens: 8192
 
@@ -84,6 +84,18 @@ models:
   - provider: gpt
     enabled: true
     name: gpt-5.4
+    temperature: 1.0
+    max_completion_tokens: 8192
+
+  - provider: gpt
+    enabled: true
+    name: gpt-4.1
+    temperature: 1.0
+    max_completion_tokens: 8192
+
+  - provider: gpt
+    enabled: true
+    name: gpt-4o
     temperature: 1.0
     max_completion_tokens: 8192
 
