@@ -100,6 +100,12 @@ models:
     temperature: 0
     max_tokens: 8192
 
+  - provider: claude
+    enabled: true
+    name: claude-opus-4-7
+    temperature: 0
+    max_tokens: 8192
+
   # ── HuggingFace Text LLMs (run locally, no server required) ─
   # Set device: "cuda", "mps", "cpu", or "auto"
   # Set dtype: "float16", "bfloat16", or "float32"
@@ -117,6 +123,197 @@ models:
   - provider: huggingface
     enabled: false
     name: Qwen/Qwen2.5-7B-Instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  # ── Urdu-specialized: Qalb Urdu Llama 3.1 ───────────────────
+  - provider: huggingface
+    enabled: true
+    name: enstazao/Qalb-1.0-8B-Instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  # ── Google Gemma family ────────────────────────────────────
+  - provider: huggingface
+    enabled: true
+    name: google/gemma-3-4b-it
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: true
+    name: google/gemma-4-31B-it
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true # 4-bit quantization for large models (requires bitsandbytes)
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: true
+    name: google/gemma-4-26B-A4B-it
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true # 4-bit quantization for large models (requires bitsandbytes)
+    load_in_8bit: false
+
+  # ── Qwen family: multilingual / UrduMMLU baselines ─────────
+  - provider: huggingface
+    enabled: true
+    name: Qwen/Qwen3.6-27B
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: true
+    name: Qwen/Qwen3.6-35B-A3B
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+  # Base model: useful as a control, but not ideal for prompt-following MCQ.
+  - provider: huggingface
+    enabled: false
+    name: Qwen/Qwen3.5-2B-Base
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: false
+    name: Qwen/Qwen3.5-397B-A17B
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+  # ── DeepSeek family ────────────────────────────────────────
+  # Very large MoE models. Use Inference Provider API. 
+  - provider: huggingface
+    enabled: false
+    name: deepseek-ai/DeepSeek-V4-Flash
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: false
+    name: deepseek-ai/DeepSeek-V4-Pro
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: false
+    name: deepseek-ai/DeepSeek-V3.2
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: false
+    name: deepseek-ai/DeepSeek-R1
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+  # ── Mistral Ministral 3 family ─────────────────────────────
+  - provider: huggingface
+    enabled: true
+    name: mistralai/Ministral-3-14B-Instruct-2512
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: true
+    name: mistralai/Ministral-3-8B-Instruct-2512
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: true
+    name: mistralai/Ministral-3-3B-Instruct-2512
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  # Reasoning variant: useful, but may output reasoning text unless constrained.
+  - provider: huggingface
+    enabled: true
+    name: mistralai/Ministral-3-14B-Reasoning-2512
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+  # ── Urdu-specialized / South Asian LLMs ────────────────────
+  - provider: huggingface
+    enabled: true
+    name: large-traversaal/Alif-1.0-8B-Instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  # ── Microsoft Phi family: compact baselines ────────────────
+  - provider: huggingface
+    enabled: true
+    name: microsoft/Phi-4-mini-instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: true
+    name: microsoft/Phi-3.5-mini-instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+  # Base model, not instruction-tuned. Keep disabled unless used as a control.
+  - provider: huggingface
+    enabled: false
+    name: microsoft/phi-2
     device: auto
     dtype: bfloat16
     max_new_tokens: 16
