@@ -1,0 +1,292 @@
+[
+  {
+    "id": 0,
+    "question": "مقبرہ شاہ رکن عالمؒ ____ میں ہے۔",
+    "options": {
+      "A": "لاہور",
+      "B": "ساہیوال",
+      "C": "سیالکوٹ",
+      "D": "ملتان"
+    },
+    "correct_key": "D",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-II",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: ملتان",
+    "token_used": {
+      "input": 213,
+      "output": 15,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  },
+  {
+    "id": 1,
+    "question": "شاہی عید گاہ کہاں واقع ہے؟",
+    "options": {
+      "A": "ملتان",
+      "B": "کراچی",
+      "C": "اسلام آباد",
+      "D": "لاہور"
+    },
+    "correct_key": "A",
+    "domain": "Other",
+    "subdomain": "general knowledge",
+    "level": "SSC-II",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: لاہور",
+    "token_used": {
+      "input": 203,
+      "output": 15,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  },
+  {
+    "id": 2,
+    "question": "پیلے رنگ کو کہتے ہیں۔",
+    "options": {
+      "A": "متضاد رنگ",
+      "B": "درمیانی رنگ",
+      "C": "ثانوی رنگ",
+      "D": "بنیادی رنگ"
+    },
+    "correct_key": "D",
+    "domain": "Humanities",
+    "subdomain": "fine arts",
+    "level": "SSC-II",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: بنیادی رنگ",
+    "token_used": {
+      "input": 218,
+      "output": 20,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  },
+  {
+    "id": 3,
+    "question": "ہُنَّ لِبَاسٌ لَّکُمْ وَ أَنْتُمْ لِبَاسٌ ____",
+    "options": {
+      "A": "لَکُمَا",
+      "B": "لَہُنَّ",
+      "C": "لَہُنَّا",
+      "D": "لَکَ"
+    },
+    "correct_key": "B",
+    "domain": "Humanities",
+    "subdomain": "islamic studies",
+    "level": "SSC-II",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B\nAnswer text: لَہُنَّ",
+    "token_used": {
+      "input": 238,
+      "output": 19,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  },
+  {
+    "id": 4,
+    "question": "اَلْاِقْتِصَادُ فِی النَّفَقَةِ ____ الْمَعِیْشَةِ .",
+    "options": {
+      "A": "نِصْفُ",
+      "B": "ثُلُثُ",
+      "C": "رُبُعُ",
+      "D": "کُلُّ"
+    },
+    "correct_key": "A",
+    "domain": "Humanities",
+    "subdomain": "islamic studies",
+    "level": "SSC-II",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A\nAnswer text: نِصْفُ",
+    "token_used": {
+      "input": 235,
+      "output": 18,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  },
+  {
+    "id": 5,
+    "question": "دَعْوَةُ ____ مُسْتَجَابَةٌ .",
+    "options": {
+      "A": "اَلْقَائِمِ",
+      "B": "اَلْمَظْلُوْمِ",
+      "C": "اَلظَّالِمِ",
+      "D": "اَلْعَالِمِ"
+    },
+    "correct_key": "B",
+    "domain": "Humanities",
+    "subdomain": "islamic studies",
+    "level": "SSC-II",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B\nAnswer text: اَلْمَظْلُوْمِ",
+    "token_used": {
+      "input": 237,
+      "output": 26,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  },
+  {
+    "id": 6,
+    "question": "\"یَقْنَعُ\" فعل ____",
+    "options": {
+      "A": "اَمْرٍ",
+      "B": "مَاضِی",
+      "C": "مُضَارِعٍ",
+      "D": "نَہْیٍ"
+    },
+    "correct_key": "C",
+    "domain": "Humanities",
+    "subdomain": "islamic studies",
+    "level": "SSC-II",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: مُضَارِعٍ",
+    "token_used": {
+      "input": 211,
+      "output": 21,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  },
+  {
+    "id": 7,
+    "question": "وَکَانَ النَّبِیُّ صَلَّی اللہُ عَلَیْہِ وَ آلِہِ وَسَلَّمَ اَشَدَّ النَّاسِ ____",
+    "options": {
+      "A": "حَیَاءً",
+      "B": "قَائِلًا",
+      "C": "رَجَاءً",
+      "D": "لِسَانًا"
+    },
+    "correct_key": "A",
+    "domain": "Humanities",
+    "subdomain": "islamic studies",
+    "level": "SSC-II",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A\nAnswer text: حَیَاءً",
+    "token_used": {
+      "input": 263,
+      "output": 18,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  },
+  {
+    "id": 8,
+    "question": "اِنَّ الدِّیْنَ عِنْدَ اللہِ ____",
+    "options": {
+      "A": "اَلْإِیْمَانُ",
+      "B": "اَلْإِسْلَامُ",
+      "C": "اَلْإِیْقَانُ",
+      "D": "اَلْقُرْآنُ"
+    },
+    "correct_key": "B",
+    "domain": "Humanities",
+    "subdomain": "islamic studies",
+    "level": "SSC-II",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B\nAnswer text: اَلْإِسْلَامُ",
+    "token_used": {
+      "input": 243,
+      "output": 24,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  },
+  {
+    "id": 9,
+    "question": "یَآأَیُّہَا النَّاسُ اتَّقُوْا رَبَّکُمْ ____ خَلَقَکُمْ مِّنْ نَّفْسٍ وَّاحِدَةٍ۔",
+    "options": {
+      "A": "الَّتِیْ",
+      "B": "الَّذِیْنَ",
+      "C": "ہُوَ",
+      "D": "الَّذِیْ"
+    },
+    "correct_key": "D",
+    "domain": "Humanities",
+    "subdomain": "islamic studies",
+    "level": "SSC-II",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "BISE Multan 2025",
+        "url": "https://www.bisemultan.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: الَّذِیْ",
+    "token_used": {
+      "input": 274,
+      "output": 19,
+      "cached": 0,
+      "cache_creation": 0
+    },
+    "error": false
+  }
+]
