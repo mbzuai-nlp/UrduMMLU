@@ -8,9 +8,9 @@
 experiment:
   limit: 10 # null = all samples; integer = first N samples
   batch_size: 10 # concurrent API requests (API models only)
-  prompt_language:
-    ur # "en" for English prompt, "ur" for Urdu prompt
-    # Output is written to output/en or output/ur
+  prompt_language: # list of languages to run; output written to output/<lang>
+    - ur
+    - en
 
 # -------------------- Data ----------------------------------
 data:

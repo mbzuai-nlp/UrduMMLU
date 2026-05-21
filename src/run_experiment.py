@@ -31,6 +31,16 @@ ROOT = Path(__file__).parent.parent
 
 # ===================== COMMON HELPERS ===================== #
 
+MAX_CONSECUTIVE_ERRORS = 5
+
+
+class ConsecutiveErrorHalt(RuntimeError):
+    """Raised when MAX_CONSECUTIVE_ERRORS error predictions occur back-to-back."""
+
+
+def _is_error_prediction(pred: str) -> bool:
+    return pred.startswith(("CONNECTION_FAILED", "ERROR", "EMPTY_OUTPUT"))
+
 
 def load_metadata(path: Path) -> list:
     with open(path, encoding="utf-8") as f:
@@ -148,13 +158,23 @@ async def run_gemini_pipeline(
     total_batches = (len(pending) + batch_size - 1) // batch_size
     print(f"  [{len(pending)} pending]")
 
+    consecutive_errors = 0
     for i in range(0, len(pending), batch_size):
         batch = pending[i : i + batch_size]
         tasks = [_gemini_query(model, build_user_prompt(cfg, lang, e)) for e in batch]
 
         responses = await asyncio.gather(*tasks)
         for entry, (pred, tokens) in zip(batch, responses):
-            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
+            if _is_error_prediction(pred):
+                consecutive_errors += 1
+                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                    atomic_write_json(out_path, list(results.values()))
+                    raise ConsecutiveErrorHalt(
+                        f"[HALT] {consecutive_errors} consecutive errors — last: {pred}"
+                    )
+            else:
+                consecutive_errors = 0
+            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens, "error": _is_error_prediction(pred)}
 
         atomic_write_json(out_path, list(results.values()))
         print(f"  [flush] batch {i // batch_size + 1}/{total_batches}")
@@ -194,7 +214,6 @@ async def _gpt_query(
             tokens = (
                 {
                     "input": getattr(usage, "prompt_tokens", 0) or 0,
-                    "reasoning": getattr(details, "reasoning_effort_tokens", 0) or 0,
                     "output": getattr(usage, "completion_tokens", 0) or 0,
                     "cached": getattr(details, "cached_tokens", 0) or 0,
                 }
@@ -243,6 +262,7 @@ async def run_gpt_pipeline(
     total_batches = (len(pending) + batch_size - 1) // batch_size
     print(f"  [{len(pending)} pending]")
 
+    consecutive_errors = 0
     for i in range(0, len(pending), batch_size):
         batch = pending[i : i + batch_size]
         tasks = [
@@ -258,7 +278,16 @@ async def run_gpt_pipeline(
 
         responses = await asyncio.gather(*tasks)
         for entry, (pred, tokens) in zip(batch, responses):
-            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
+            if _is_error_prediction(pred):
+                consecutive_errors += 1
+                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                    atomic_write_json(out_path, list(results.values()))
+                    raise ConsecutiveErrorHalt(
+                        f"[HALT] {consecutive_errors} consecutive errors — last: {pred}"
+                    )
+            else:
+                consecutive_errors = 0
+            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens, "error": _is_error_prediction(pred)}
 
         atomic_write_json(out_path, list(results.values()))
         print(f"  [flush] batch {i // batch_size + 1}/{total_batches}")
@@ -324,6 +353,7 @@ async def run_claude_pipeline(
     total_batches = (len(pending) + batch_size - 1) // batch_size
     print(f"  [{len(pending)} pending]")
 
+    consecutive_errors = 0
     for i in range(0, len(pending), batch_size):
         batch = pending[i : i + batch_size]
         tasks = [
@@ -339,7 +369,16 @@ async def run_claude_pipeline(
 
         responses = await asyncio.gather(*tasks)
         for entry, (pred, tokens) in zip(batch, responses):
-            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
+            if _is_error_prediction(pred):
+                consecutive_errors += 1
+                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                    atomic_write_json(out_path, list(results.values()))
+                    raise ConsecutiveErrorHalt(
+                        f"[HALT] {consecutive_errors} consecutive errors — last: {pred}"
+                    )
+            else:
+                consecutive_errors = 0
+            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens, "error": _is_error_prediction(pred)}
 
         atomic_write_json(out_path, list(results.values()))
         print(f"  [flush] batch {i // batch_size + 1}/{total_batches}")
@@ -432,6 +471,7 @@ async def run_hf_inference_pipeline(
     total_batches = (len(pending) + batch_size - 1) // batch_size
     print(f"  [{len(pending)} pending]  (HF router model: {model_name})")
 
+    consecutive_errors = 0
     for i in range(0, len(pending), batch_size):
         batch = pending[i : i + batch_size]
         tasks = [
@@ -447,7 +487,16 @@ async def run_hf_inference_pipeline(
 
         responses = await asyncio.gather(*tasks)
         for entry, (pred, tokens) in zip(batch, responses):
-            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
+            if _is_error_prediction(pred):
+                consecutive_errors += 1
+                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                    atomic_write_json(out_path, list(results.values()))
+                    raise ConsecutiveErrorHalt(
+                        f"[HALT] {consecutive_errors} consecutive errors — last: {pred}"
+                    )
+            else:
+                consecutive_errors = 0
+            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens, "error": _is_error_prediction(pred)}
 
         atomic_write_json(out_path, list(results.values()))
         print(f"  [flush] batch {i // batch_size + 1}/{total_batches}")
@@ -552,6 +601,7 @@ def run_hf_pipeline(
     pending = [e for e in samples if e["id"] not in results]
     print(f"  [{len(pending)} pending]")
 
+    consecutive_errors = 0
     for idx, entry in enumerate(pending):
         try:
             pred, tokens = _query_hf_single(
@@ -563,7 +613,17 @@ def run_hf_pipeline(
             )
         except Exception as exc:
             pred, tokens = f"ERROR: {exc}", {"input": 0, "output": 0, "cached": 0}
-        results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
+
+        if _is_error_prediction(pred):
+            consecutive_errors += 1
+            if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                atomic_write_json(out_path, list(results.values()))
+                raise ConsecutiveErrorHalt(
+                    f"[HALT] {consecutive_errors} consecutive errors — last: {pred}"
+                )
+        else:
+            consecutive_errors = 0
+        results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens, "error": _is_error_prediction(pred)}
 
         if (idx + 1) % flush_every == 0 or (idx + 1) == len(pending):
             atomic_write_json(out_path, list(results.values()))
@@ -600,13 +660,16 @@ async def main() -> None:
     with open(config_path, encoding="utf-8") as f:
         cfg = yaml.safe_load(f)
 
-    lang = cfg["experiment"]["prompt_language"]
-    if lang not in cfg.get("prompts", {}):
-        print(f"[ERROR] prompt_language={lang!r} not found in config prompts section.")
-        sys.exit(1)
+    raw_langs = cfg["experiment"]["prompt_language"]
+    languages = [raw_langs] if isinstance(raw_langs, str) else list(raw_langs)
+
+    prompts_cfg = cfg.get("prompts", {})
+    for lang in languages:
+        if lang not in prompts_cfg:
+            print(f"[ERROR] prompt_language={lang!r} not found in config prompts section.")
+            sys.exit(1)
 
     limit = args.limit if args.limit is not None else cfg["experiment"].get("limit")
-    out_dir = ROOT / "output" / lang
 
     metadata_path = ROOT / cfg["data"]["metadata_path"]
     if not metadata_path.exists():
@@ -616,7 +679,7 @@ async def main() -> None:
     metadata = load_metadata(metadata_path)
     samples = list(islice(metadata, limit))
     print(f"[INFO] Dataset: {len(samples)} samples  (limit={limit or 'none'})")
-    print(f"[INFO] Prompt language: {lang}  →  output: {out_dir}")
+    print(f"[INFO] Languages: {languages}")
 
     enabled_models = [m for m in cfg["models"] if m.get("enabled", False)]
     if not enabled_models:
@@ -625,36 +688,42 @@ async def main() -> None:
         )
         return
 
-    for model_cfg in enabled_models:
-        provider = model_cfg["provider"]
-        name = model_cfg["name"]
-        out_path = out_dir / safe_model_name(name) / "predictions.json"
+    for lang in languages:
+        out_dir = ROOT / "output" / lang
+        print(f"\n{'#'*60}")
+        print(f"[LANG] {lang}  →  output: {out_dir}")
+        print(f"{'#'*60}")
 
-        print(f"\n{'='*60}")
-        print(f"[RUN] provider={provider}  model={name}")
-        print(f"      output -> {out_path}")
-        print(f"{'='*60}")
+        for model_cfg in enabled_models:
+            provider = model_cfg["provider"]
+            name = model_cfg["name"]
+            out_path = out_dir / safe_model_name(name) / "predictions.json"
 
-        results = load_results(out_path)
+            print(f"\n{'='*60}")
+            print(f"[RUN] provider={provider}  model={name}")
+            print(f"      output -> {out_path}")
+            print(f"{'='*60}")
 
-        if provider == "gemini":
-            await run_gemini_pipeline(cfg, lang, model_cfg, samples, results, out_path)
-        elif provider == "gpt":
-            await run_gpt_pipeline(cfg, lang, model_cfg, samples, results, out_path)
-        elif provider == "claude":
-            await run_claude_pipeline(cfg, lang, model_cfg, samples, results, out_path)
-        elif provider == "hf_inference":
-            await run_hf_inference_pipeline(
-                cfg, lang, model_cfg, samples, results, out_path
-            )
-        elif provider == "huggingface":
-            await asyncio.to_thread(
-                run_hf_pipeline, cfg, lang, model_cfg, samples, results, out_path
-            )
-        else:
-            print(f"[WARN] Unknown provider: {provider!r} — skipping.")
+            results = load_results(out_path)
 
-    print(f"\n[DONE] All enabled models completed. Results in: {out_dir}")
+            if provider == "gemini":
+                await run_gemini_pipeline(cfg, lang, model_cfg, samples, results, out_path)
+            elif provider == "gpt":
+                await run_gpt_pipeline(cfg, lang, model_cfg, samples, results, out_path)
+            elif provider == "claude":
+                await run_claude_pipeline(cfg, lang, model_cfg, samples, results, out_path)
+            elif provider == "hf_inference":
+                await run_hf_inference_pipeline(
+                    cfg, lang, model_cfg, samples, results, out_path
+                )
+            elif provider == "huggingface":
+                await asyncio.to_thread(
+                    run_hf_pipeline, cfg, lang, model_cfg, samples, results, out_path
+                )
+            else:
+                print(f"[WARN] Unknown provider: {provider!r} — skipping.")
+
+    print(f"\n[DONE] All enabled models completed.")
 
 
 if __name__ == "__main__":
