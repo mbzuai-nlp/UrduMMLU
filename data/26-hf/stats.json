@@ -36,29 +36,29 @@
     "Humanities / fine arts": 148
   },
   "level_distribution": {
-    "SSC-I": 11613,
-    "SSC-II": 6816,
-    "HSSC-I": 3847,
-    "HSSC-II": 4155
+    "SSC-I": 11601,
+    "SSC-II": 6838,
+    "HSSC-I": 3867,
+    "HSSC-II": 4125
   },
   "level_by_domain": {
     "Social Sciences": {
-      "SSC-I": 1275,
-      "SSC-II": 1223,
-      "HSSC-I": 2541,
-      "HSSC-II": 2929
+      "SSC-I": 1266,
+      "SSC-II": 1222,
+      "HSSC-I": 2549,
+      "HSSC-II": 2931
     },
     "Other": {
-      "SSC-I": 657,
-      "SSC-II": 191,
-      "HSSC-I": 214,
-      "HSSC-II": 303
+      "SSC-I": 683,
+      "SSC-II": 165,
+      "HSSC-I": 210,
+      "HSSC-II": 307
     },
     "Humanities": {
-      "SSC-I": 6332,
-      "SSC-II": 2902,
-      "HSSC-I": 970,
-      "HSSC-II": 806
+      "SSC-I": 6276,
+      "SSC-II": 2953,
+      "HSSC-I": 993,
+      "HSSC-II": 788
     },
     "STEM": {
       "SSC-I": 2942,
@@ -67,10 +67,10 @@
       "HSSC-II": 3
     },
     "Profession": {
-      "SSC-I": 407,
-      "SSC-II": 345,
-      "HSSC-I": 109,
-      "HSSC-II": 114
+      "SSC-I": 434,
+      "SSC-II": 343,
+      "HSSC-I": 102,
+      "HSSC-II": 96
     }
   },
   "length_tier_distribution": {
@@ -79,10 +79,11 @@
     "long": 5434
   },
   "correct_key_distribution": {
-    "A": 7451,
-    "B": 7782,
-    "C": 7210,
-    "D": 3988
+    "A": 6673,
+    "B": 6486,
+    "C": 6549,
+    "D": 6681,
+    "E": 42
   },
   "source_distribution": {
     "Ustad 360": 11116,

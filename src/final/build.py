@@ -148,6 +148,18 @@ def main() -> None:
                 "url": url,
             })
         new["source"] = merged_sources
+
+        # Stratify correct_key: shuffle option positions so A/B/C/D are
+        # roughly equiprobable. Avoids the matric-paper bias where D is
+        # under-used. Stable: same seed → same permutation per record.
+        if isinstance(new.get("options"), dict) and new.get("correct_key") in new["options"]:
+            correct_text = new["options"][new["correct_key"]]
+            keys = list(new["options"].keys())
+            values = list(new["options"].values())
+            rng.shuffle(values)
+            new["options"] = dict(zip(keys, values))
+            new["correct_key"] = next(k for k, v in new["options"].items() if v == correct_text)
+
         out.append(new)
 
     DST_DIR.mkdir(parents=True, exist_ok=True)
