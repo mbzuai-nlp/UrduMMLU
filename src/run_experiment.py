@@ -305,13 +305,21 @@ async def _claude_query(
     retries: int = 5,
     wait: int = 8,
 ) -> tuple:
-    _zero = {"input": 0, "output": 0, "cached": 0}
+    _zero = {"input": 0, "output": 0, "cached": 0, "cache_creation": 0}
     for attempt in range(retries):
         try:
             resp = await client.messages.create(
                 model=model_name,
                 max_tokens=model_cfg.get("max_tokens", 16),
-                system=system,
+                # System prompt is identical across the full eval — mark
+                # it as a cache breakpoint so subsequent calls within the
+                # 5-minute window incur the cached-read rate (~10% of
+                # input). First call also writes to cache (~125% of input).
+                system=[{
+                    "type": "text",
+                    "text": system,
+                    "cache_control": {"type": "ephemeral"},
+                }],
                 messages=[{"role": "user", "content": prompt}],
             )
             usage = resp.usage
@@ -319,6 +327,7 @@ async def _claude_query(
                 "input": getattr(usage, "input_tokens", 0) or 0,
                 "output": getattr(usage, "output_tokens", 0) or 0,
                 "cached": getattr(usage, "cache_read_input_tokens", 0) or 0,
+                "cache_creation": getattr(usage, "cache_creation_input_tokens", 0) or 0,
             }
             return resp.content[0].text.strip(), tokens
         except Exception as exc:

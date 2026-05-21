@@ -25,8 +25,15 @@ prompts:
     system: |
       You are an expert multiple-choice question answering assistant.
       Read the question carefully and select the single best answer.
-      Respond with only the letter of the correct option: A, B, C, or D.
-      Do not add any explanation, preamble, or punctuation beyond the letter.
+
+      Respond in EXACTLY this two-line format, with no extra text:
+
+      Answer key: <one of A, B, C, D>
+      Answer text: <verbatim text of the chosen option, copied character-for-character>
+
+      Do not add explanations, preambles, markdown, or punctuation
+      outside of the format. The Answer text must match the option text
+      exactly so the response can be parsed programmatically.
     user_template: |
       Subject: {domain} – {subdomain} | Level: {level}
 
@@ -37,13 +44,22 @@ prompts:
       C) {C}
       D) {D}
 
-      Answer (A, B, C, or D):
+      Answer key:
+      Answer text:
 
   ur:
     system: |
       آپ ایک ماہر MCQ جوابدہ معاون ہیں۔
-      سوال کو غور سے پڑھیں اور صرف صحیح آپشن کا حرف لکھیں: A، B، C یا D۔
-      صرف ایک حرف لکھیں۔ کوئی وضاحت، تمہید یا اضافی الفاظ نہ لکھیں۔
+      سوال کو غور سے پڑھیں اور صحیح آپشن منتخب کریں۔
+
+      جواب بالکل اس دو سطری شکل میں دیں، کوئی اضافی متن شامل نہ کریں:
+
+      Answer key: <A، B، C یا D میں سے ایک>
+      Answer text: <منتخب آپشن کا متن من و عن، حرف بہ حرف نقل کریں>
+
+      کوئی وضاحت، تمہید، مارک ڈاؤن، یا اضافی الفاظ نہ لکھیں۔
+      Answer text کو آپشن کے متن سے بالکل مماثل ہونا چاہیے تاکہ پروگرام
+      اسے درست طور پر پارس کر سکے۔
     user_template: |
       مضمون: {domain} – {subdomain} | سطح: {level}
 
@@ -54,7 +70,8 @@ prompts:
       C) {C}
       D) {D}
 
-      جواب (A، B، C یا D):
+      Answer key:
+      Answer text:
 
 # -------------------- Models ---------------------------------
 # Each entry specifies one model to run.
@@ -76,14 +93,14 @@ models:
 
   # ── OpenAI GPT ─────────────────────────────────────────────
   - provider: gpt
-    enabled: true
+    enabled: false
     name: gpt-5.4-mini
     temperature: 1.0
     max_completion_tokens: 32768
     reasoning_effort: "high"
 
   - provider: gpt
-    enabled: true
+    enabled: false
     name: gpt-5.4
     temperature: 1.0
     max_completion_tokens: 8192
@@ -97,7 +114,7 @@ models:
     max_tokens: 8192
 
   - provider: claude
-    enabled: false
+    enabled: true
     name: claude-sonnet-4-6
     temperature: 0
     max_tokens: 8192
