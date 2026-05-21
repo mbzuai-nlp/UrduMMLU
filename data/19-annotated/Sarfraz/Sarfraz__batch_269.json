@@ -1,0 +1,691 @@
+{
+  "annotator": "Sarfraz",
+  "batch_id": "batch_269",
+  "exported_at": "2026-05-16T00:05:47.330Z",
+  "count": 50,
+  "n_answered": 50,
+  "n_flagged": 2,
+  "annotations": [
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30624,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 21802,
+      "submitted_at": "2026-05-15T23:34:57.218Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30526,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "20",
+          "B": "40",
+          "C": "60",
+          "D": "80"
+        },
+        "question": "ایک قوس کا مرکزی زاویہ ⁦60⁩ ہے اس کے وتر کا مرکزی زاویہ …………….. ہوگا"
+      },
+      "time_spent_ms": 30179,
+      "submitted_at": "2026-05-15T23:35:37.001Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 28644,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 6369,
+      "submitted_at": "2026-05-15T23:04:24.391Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 23136,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 20178,
+      "submitted_at": "2026-05-15T23:04:47.448Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 20830,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 7914,
+      "submitted_at": "2026-05-15T23:05:01.739Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 23195,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": " $(1,1-)$⁩",
+          "B": " $(1- ,1)$⁩",
+          "C": "$(1,1)$⁩",
+          "D": " $(1-,1-)$⁩"
+        }
+      },
+      "time_spent_ms": 37524,
+      "submitted_at": "2026-05-15T23:13:30.547Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 28522,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "⁦A^t = A⁩",
+          "B": "⁦A^t = -A⁩",
+          "C": "⁦Adj[A]=A⁩",
+          "D": "⁦Adj[A]=-A⁩"
+        }
+      },
+      "time_spent_ms": 2915,
+      "submitted_at": "2026-05-15T23:34:26.759Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 28017,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "اگر ⁦A^t = -A⁩ ہو تو ⁦A⁩ کہلاتا ہے۔"
+      },
+      "time_spent_ms": 248651,
+      "submitted_at": "2026-05-16T00:03:00.818Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 28146,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 35633,
+      "submitted_at": "2026-05-15T23:32:27.681Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 20377,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "⁦2^(2)⁩",
+          "C": "⁦2^(1/2)⁩",
+          "D": "⁦2^(1/4)⁩"
+        }
+      },
+      "time_spent_ms": 1391,
+      "submitted_at": "2026-05-15T23:31:49.251Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 20461,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 3724,
+      "submitted_at": "2026-05-15T23:14:19.725Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 22481,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 15599,
+      "submitted_at": "2026-05-15T23:14:54.337Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30231,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 11941,
+      "submitted_at": "2026-05-15T23:15:07.671Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 1471,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4910,
+      "submitted_at": "2026-05-15T23:10:12.143Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30625,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 81529,
+      "submitted_at": "2026-05-15T23:11:34.822Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 28527,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "C": "1/2‏ ×⁩ قاعدہ × ارتفاع"
+        }
+      },
+      "time_spent_ms": 10269,
+      "submitted_at": "2026-05-15T23:12:15.560Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 336,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 2117,
+      "submitted_at": "2026-05-15T23:16:23.675Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 21023,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4095,
+      "submitted_at": "2026-05-15T23:15:58.796Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 29915,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 16324,
+      "submitted_at": "2026-05-15T23:16:16.450Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 2783,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 21975,
+      "submitted_at": "2026-05-15T23:16:54.134Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30560,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 63212,
+      "submitted_at": "2026-05-15T23:18:12.729Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 20309,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 26986,
+      "submitted_at": "2026-05-15T23:18:40.774Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30606,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "⁦⁩ دو مس کرتے ہوئے دائروں کے کتنے مماس بنائے جا سکتے ہیں؟"
+      },
+      "time_spent_ms": 1007,
+      "submitted_at": "2026-05-15T23:18:55.295Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 334,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 7524,
+      "submitted_at": "2026-05-15T23:19:03.774Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 21169,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4931,
+      "submitted_at": "2026-05-15T23:19:18.016Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 22874,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 40937,
+      "submitted_at": "2026-05-15T23:20:00.066Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30503,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 26395,
+      "submitted_at": "2026-05-15T23:22:52.582Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 29989,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "30",
+          "B": "45",
+          "C": "60",
+          "D": "75"
+        }
+      },
+      "time_spent_ms": 41624,
+      "submitted_at": "2026-05-15T23:30:15.702Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 146,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 19020,
+      "submitted_at": "2026-05-15T23:24:10.982Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 28062,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 256660,
+      "submitted_at": "2026-05-15T23:28:28.664Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 28086,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 57641,
+      "submitted_at": "2026-05-15T23:36:55.113Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30066,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 46061,
+      "submitted_at": "2026-05-15T23:37:54.721Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 1856,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "10-",
+          "B": "10",
+          "C": "15",
+          "D": "3"
+        }
+      },
+      "time_spent_ms": 6245,
+      "submitted_at": "2026-05-15T23:39:53.996Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30783,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "اگر ⁦A⁩ اور ⁦B⁩ غیر مشترک سیٹ ہوں تو ⁦A ∩ B⁩ برابر ہوتا ہے"
+      },
+      "time_spent_ms": 72014,
+      "submitted_at": "2026-05-15T23:42:26.229Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 28455,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "مقدار اصم n√a = a^(1/n) کا درجہ کیا ہے؟"
+      },
+      "time_spent_ms": 135452,
+      "submitted_at": "2026-05-15T23:45:26.135Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30000,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": true,
+      "flag_note": "This is a repeated question with very poor syntax. Let's omit this one",
+      "edits": {},
+      "time_spent_ms": 34053,
+      "submitted_at": "2026-05-15T23:46:23.847Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 20288,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "This requires an image and it is overly basic. Omit this",
+      "edits": {},
+      "time_spent_ms": 664,
+      "submitted_at": "2026-05-15T23:53:09.481Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30528,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 24165,
+      "submitted_at": "2026-05-15T23:47:41.766Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 27962,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 22756,
+      "submitted_at": "2026-05-15T23:48:20.369Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 22942,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 11658,
+      "submitted_at": "2026-05-15T23:48:37.241Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 27953,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "{6,4}",
+          "B": "{6,4-}",
+          "C": "{4-,6}",
+          "D": "{4-,6-}"
+        }
+      },
+      "time_spent_ms": 6278,
+      "submitted_at": "2026-05-15T23:51:07.811Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 20494,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "3√ کیسا عدد ہے؟"
+      },
+      "time_spent_ms": 6298,
+      "submitted_at": "2026-05-15T23:52:16.965Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 23198,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
+        }
+      },
+      "time_spent_ms": 8076,
+      "submitted_at": "2026-05-15T23:53:24.307Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 22654,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "a+b",
+          "B": " a² - ab + b²⁩",
+          "C": "‏²(a - b)⁩",
+          "D": "a² + b²⁩"
+        }
+      },
+      "time_spent_ms": 865,
+      "submitted_at": "2026-05-15T23:55:06.835Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 2358,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 14340,
+      "submitted_at": "2026-05-15T23:54:27.631Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 30265,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "C": "{ ⁦{φ, (a) ⁩"
+        }
+      },
+      "time_spent_ms": 3374,
+      "submitted_at": "2026-05-15T23:56:30.752Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 1159,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 33362,
+      "submitted_at": "2026-05-15T23:57:10.577Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 29897,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 7405,
+      "submitted_at": "2026-05-15T23:57:27.352Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 28479,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4670,
+      "submitted_at": "2026-05-16T00:04:34.521Z"
+    },
+    {
+      "annotator": "Sarfraz",
+      "mcq_id": 20505,
+      "batch_id": "batch_269",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4391,
+      "submitted_at": "2026-05-16T00:05:39.488Z"
+    }
+  ]
+}

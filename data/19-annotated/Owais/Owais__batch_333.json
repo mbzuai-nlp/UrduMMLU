@@ -1,0 +1,58 @@
+{
+  "annotator": "Owais",
+  "batch_id": "batch_333",
+  "exported_at": "2026-05-19T12:10:31.472Z",
+  "count": 4,
+  "n_answered": 4,
+  "n_flagged": 1,
+  "annotations": [
+    {
+      "annotator": "Owais",
+      "mcq_id": 16372,
+      "batch_id": "batch_333",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 31427,
+      "submitted_at": "2026-05-16T22:41:54.041Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16293,
+      "batch_id": "batch_333",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "incorrect options: Albert Ellis correct.",
+      "edits": {},
+      "time_spent_ms": 77809,
+      "submitted_at": "2026-05-19T12:10:28.741Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16414,
+      "batch_id": "batch_333",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 26436,
+      "submitted_at": "2026-05-19T12:08:18.083Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16405,
+      "batch_id": "batch_333",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 22205,
+      "submitted_at": "2026-05-19T12:08:22.658Z"
+    }
+  ]
+}

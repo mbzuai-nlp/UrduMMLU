@@ -1,0 +1,635 @@
+{
+  "annotator": "Saad",
+  "batch_id": "batch_007",
+  "exported_at": "2026-05-16T13:34:29.466Z",
+  "count": 50,
+  "n_answered": 50,
+  "n_flagged": 7,
+  "annotations": [
+    {
+      "annotator": "Saad",
+      "mcq_id": 18100,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 169775,
+      "submitted_at": "2026-05-15T09:07:30.352Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17968,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "mathematics"
+      },
+      "time_spent_ms": 30644,
+      "submitted_at": "2026-05-15T09:08:09.478Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 24791,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 55249,
+      "submitted_at": "2026-05-15T09:09:13.014Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17320,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": true,
+      "flag_note": "no correct option — answer should be 1.5",
+      "edits": {},
+      "time_spent_ms": 4004,
+      "submitted_at": "2026-05-15T11:06:15.377Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 24942,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 33409,
+      "submitted_at": "2026-05-15T09:13:06.220Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17593,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 1647,
+      "submitted_at": "2026-05-15T09:13:09.287Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17222,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "chemistry"
+      },
+      "time_spent_ms": 24763,
+      "submitted_at": "2026-05-15T09:15:10.858Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17762,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 19087,
+      "submitted_at": "2026-05-15T09:15:33.400Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 24754,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 131647,
+      "submitted_at": "2026-05-15T09:17:50.853Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 24732,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 59839,
+      "submitted_at": "2026-05-15T09:19:37.054Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 24894,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 85895,
+      "submitted_at": "2026-05-15T09:21:04.379Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25254,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "اینڈورفن"
+        }
+      },
+      "time_spent_ms": 52809,
+      "submitted_at": "2026-05-15T09:23:03.378Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 24825,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 15712,
+      "submitted_at": "2026-05-15T09:23:25.882Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17935,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 22794,
+      "submitted_at": "2026-05-15T09:23:50.012Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25523,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "No correct option",
+      "edits": {},
+      "time_spent_ms": 98969,
+      "submitted_at": "2026-05-15T09:25:57.807Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17116,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 185213,
+      "submitted_at": "2026-05-15T09:29:05.393Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17678,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": true,
+      "flag_note": "Multiple correct answer",
+      "edits": {},
+      "time_spent_ms": 68758,
+      "submitted_at": "2026-05-15T09:30:16.888Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 1787,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 850604,
+      "submitted_at": "2026-05-15T09:44:29.238Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 24746,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 111389,
+      "submitted_at": "2026-05-15T09:46:21.398Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25547,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 73146,
+      "submitted_at": "2026-05-15T09:47:35.525Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25660,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "B": "کنیکٹو ٹشوز"
+        }
+      },
+      "time_spent_ms": 82495,
+      "submitted_at": "2026-05-15T09:49:34.616Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17965,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "No correct answer. Multiple answers in different sources",
+      "edits": {},
+      "time_spent_ms": 5581,
+      "submitted_at": "2026-05-16T13:32:33.378Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25703,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 86122,
+      "submitted_at": "2026-05-15T09:53:44.620Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25886,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "C": "انٹرفیرون"
+        }
+      },
+      "time_spent_ms": 4878,
+      "submitted_at": "2026-05-16T13:32:39.829Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 18050,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 44034,
+      "submitted_at": "2026-05-15T09:58:52.594Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25515,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 45852,
+      "submitted_at": "2026-05-15T09:59:39.300Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25941,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "chemistry"
+      },
+      "time_spent_ms": 157150,
+      "submitted_at": "2026-05-15T10:02:19.820Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25582,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 32727,
+      "submitted_at": "2026-05-15T10:02:53.996Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17499,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 81915,
+      "submitted_at": "2026-05-15T10:04:34.022Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17070,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": true,
+      "flag_note": "wrong answer. The answer should be 1.5",
+      "edits": {},
+      "time_spent_ms": 1273,
+      "submitted_at": "2026-05-15T11:07:21.300Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 24835,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 674195,
+      "submitted_at": "2026-05-15T10:17:40.259Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17587,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 17581,
+      "submitted_at": "2026-05-15T10:17:59.854Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25869,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "Wrong answer. The correct answer should be april 2003",
+      "edits": {},
+      "time_spent_ms": 1546,
+      "submitted_at": "2026-05-16T13:32:51.103Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 1109,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 108682,
+      "submitted_at": "2026-05-15T10:20:49.712Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17859,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 49911,
+      "submitted_at": "2026-05-15T10:21:40.323Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17524,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 58206,
+      "submitted_at": "2026-05-15T10:22:39.863Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17555,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 61185,
+      "submitted_at": "2026-05-15T10:23:41.852Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 24733,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 63902,
+      "submitted_at": "2026-05-15T10:24:46.748Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25701,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 44904,
+      "submitted_at": "2026-05-15T10:25:33.710Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25722,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 60457,
+      "submitted_at": "2026-05-15T10:26:34.913Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25929,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 51829,
+      "submitted_at": "2026-05-15T10:27:27.680Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25671,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 19898,
+      "submitted_at": "2026-05-15T10:28:04.184Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25619,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 1653543,
+      "submitted_at": "2026-05-15T10:55:40.351Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25302,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 113066,
+      "submitted_at": "2026-05-15T10:57:34.143Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25543,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 42960,
+      "submitted_at": "2026-05-15T10:58:18.008Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17303,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": true,
+      "flag_note": "Wrong answer. The answer should be 1.5\n",
+      "edits": {},
+      "time_spent_ms": 205023,
+      "submitted_at": "2026-05-15T11:07:31.782Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25172,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": " اوویول کی دیوار سے",
+          "B": "اووری کی دیوار سے",
+          "D": "اینتھر سے",
+          "C": " پیٹلو سے"
+        }
+      },
+      "time_spent_ms": 69423,
+      "submitted_at": "2026-05-15T11:03:48.833Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 17442,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 74241,
+      "submitted_at": "2026-05-15T11:10:17.118Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 25465,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 28983,
+      "submitted_at": "2026-05-15T11:10:48.728Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 18021,
+      "batch_id": "batch_007",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 15004,
+      "submitted_at": "2026-05-15T11:11:18.777Z"
+    }
+  ]
+}

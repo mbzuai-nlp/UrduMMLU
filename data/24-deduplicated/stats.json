@@ -1,0 +1,54 @@
+{
+  "input_rows": 28787,
+  "min_threshold_scanned": 0.5,
+  "candidate_pairs": 49024,
+  "applied_threshold": 0.85,
+  "applied_output_rows": 26431,
+  "sweep": [
+    {
+      "threshold": 0.5,
+      "kept": 15443,
+      "removed": 13344
+    },
+    {
+      "threshold": 0.6,
+      "kept": 20531,
+      "removed": 8256
+    },
+    {
+      "threshold": 0.7,
+      "kept": 23954,
+      "removed": 4833
+    },
+    {
+      "threshold": 0.75,
+      "kept": 25127,
+      "removed": 3660
+    },
+    {
+      "threshold": 0.8,
+      "kept": 26286,
+      "removed": 2501
+    },
+    {
+      "threshold": 0.85,
+      "kept": 27251,
+      "removed": 1536
+    },
+    {
+      "threshold": 0.9,
+      "kept": 27935,
+      "removed": 852
+    },
+    {
+      "threshold": 0.95,
+      "kept": 28041,
+      "removed": 746
+    },
+    {
+      "threshold": 1.0,
+      "kept": 28042,
+      "removed": 745
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "annotator": "Owais",
+  "batch_id": "batch_278",
+  "exported_at": "2026-05-19T15:46:05.394Z",
+  "count": 50,
+  "n_answered": 50,
+  "n_flagged": 5,
+  "annotations": [
+    {
+      "annotator": "Owais",
+      "mcq_id": 1455,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 788899,
+      "submitted_at": "2026-05-19T15:34:43.403Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 6343,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": true,
+      "flag_note": "ambiguous: 1926 idea, 1931 formal",
+      "edits": {},
+      "time_spent_ms": 45427,
+      "submitted_at": "2026-05-19T15:45:28.468Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 4097,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "محترمہ بے نظیر بھٹو",
+          "B": "شمشاد اختر",
+          "C": "ثمینہ بیگ",
+          "D": "محترمہ بلقیس ایدھی"
+        }
+      },
+      "time_spent_ms": 34805,
+      "submitted_at": "2026-05-19T15:44:38.284Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16085,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 57549,
+      "submitted_at": "2026-05-19T15:45:36.819Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 15923,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 41759,
+      "submitted_at": "2026-05-19T15:34:48.365Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5648,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 22647,
+      "submitted_at": "2026-05-19T15:34:49.094Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5737,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 24161,
+      "submitted_at": "2026-05-19T15:34:49.828Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 2446,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "incorrect options: 1.5% correct most recent",
+      "edits": {},
+      "time_spent_ms": 17972,
+      "submitted_at": "2026-05-19T15:44:12.335Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 224,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "incorrect options: 1930 correct",
+      "edits": {},
+      "time_spent_ms": 24013,
+      "submitted_at": "2026-05-19T15:42:47.671Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 15828,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 17439,
+      "submitted_at": "2026-05-19T15:34:52.878Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 12838,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": " پنجاب",
+          "B": "سندھ",
+          "C": " کے۔پی۔کے",
+          "D": "بلوچستان"
+        }
+      },
+      "time_spent_ms": 34947,
+      "submitted_at": "2026-05-19T15:35:16.022Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 6051,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "2.5%",
+          "B": "3%",
+          "C": "3.5%",
+          "D": "4%"
+        }
+      },
+      "time_spent_ms": 47285,
+      "submitted_at": "2026-05-19T15:41:41.581Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 6381,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 22611,
+      "submitted_at": "2026-05-19T15:35:35.535Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5993,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 21370,
+      "submitted_at": "2026-05-19T15:35:36.782Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5722,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 30388,
+      "submitted_at": "2026-05-19T15:35:37.363Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 12544,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "civics"
+      },
+      "time_spent_ms": 50229,
+      "submitted_at": "2026-05-19T15:40:46.172Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 4214,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 23891,
+      "submitted_at": "2026-05-19T15:40:39.995Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 4472,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 40471,
+      "submitted_at": "2026-05-19T15:35:49.460Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16151,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 44730,
+      "submitted_at": "2026-05-19T15:35:50.064Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16107,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 39315,
+      "submitted_at": "2026-05-19T15:35:50.609Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16647,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 58941,
+      "submitted_at": "2026-05-19T15:35:51.141Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16049,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "⁦350⁩ کلومیٹر",
+          "B": " 450⁩ کلومیٹر",
+          "C": "550⁩ کلومیٹر",
+          "D": "650⁩ کلومیٹر"
+        }
+      },
+      "time_spent_ms": 50403,
+      "submitted_at": "2026-05-19T15:39:48.177Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 4293,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 42468,
+      "submitted_at": "2026-05-19T15:35:52.294Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 15840,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 53492,
+      "submitted_at": "2026-05-19T15:35:52.886Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16029,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 25127,
+      "submitted_at": "2026-05-19T15:35:53.514Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 1552,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 42190,
+      "submitted_at": "2026-05-19T15:35:54.010Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 12681,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 57921,
+      "submitted_at": "2026-05-19T15:35:56.718Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 4498,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 21490,
+      "submitted_at": "2026-05-19T15:35:57.127Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 15835,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 47070,
+      "submitted_at": "2026-05-19T15:35:57.620Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16139,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "general knowledge"
+      },
+      "time_spent_ms": 55348,
+      "submitted_at": "2026-05-19T15:38:59.711Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 1936,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 41747,
+      "submitted_at": "2026-05-19T15:35:59.398Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5606,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "geography"
+      },
+      "time_spent_ms": 33334,
+      "submitted_at": "2026-05-19T15:38:48.821Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 1686,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 17145,
+      "submitted_at": "2026-05-19T15:36:01.130Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5832,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 39284,
+      "submitted_at": "2026-05-19T15:36:01.872Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5910,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 29239,
+      "submitted_at": "2026-05-19T15:36:02.553Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5631,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 44058,
+      "submitted_at": "2026-05-19T15:36:03.223Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 4170,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "incorrect options: 18 now",
+      "edits": {},
+      "time_spent_ms": 22265,
+      "submitted_at": "2026-05-19T15:37:44.299Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 936,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 44144,
+      "submitted_at": "2026-05-19T15:36:05.317Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 3980,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 30474,
+      "submitted_at": "2026-05-19T15:36:05.993Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 4290,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 38769,
+      "submitted_at": "2026-05-19T15:36:06.534Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16178,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 21512,
+      "submitted_at": "2026-05-19T15:38:17.604Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5876,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 59937,
+      "submitted_at": "2026-05-19T15:36:11.298Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 16230,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 39074,
+      "submitted_at": "2026-05-19T15:36:11.788Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5658,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 50683,
+      "submitted_at": "2026-05-19T15:36:12.310Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 6387,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 57260,
+      "submitted_at": "2026-05-19T15:36:12.799Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5953,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 38507,
+      "submitted_at": "2026-05-19T15:36:13.442Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5988,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 18969,
+      "submitted_at": "2026-05-19T15:36:14.122Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5871,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 41093,
+      "submitted_at": "2026-05-19T15:36:14.847Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 5699,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "incorrect options: 62.3% now",
+      "edits": {},
+      "time_spent_ms": 33965,
+      "submitted_at": "2026-05-19T15:37:11.077Z"
+    },
+    {
+      "annotator": "Owais",
+      "mcq_id": 15851,
+      "batch_id": "batch_278",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 33081,
+      "submitted_at": "2026-05-19T15:36:16.635Z"
+    }
+  ]
+}

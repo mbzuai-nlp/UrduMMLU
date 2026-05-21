@@ -1,0 +1,631 @@
+{
+  "annotator": "Tazeen",
+  "batch_id": "batch_004",
+  "exported_at": "2026-05-15T08:35:20.305Z",
+  "count": 50,
+  "n_answered": 50,
+  "n_flagged": 8,
+  "annotations": [
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 18038,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 65975,
+      "submitted_at": "2026-05-15T07:07:36.540Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 24913,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 32800,
+      "submitted_at": "2026-05-15T07:08:11.468Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17379,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 28599,
+      "submitted_at": "2026-05-15T07:08:46.851Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17504,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 27559,
+      "submitted_at": "2026-05-15T07:09:16.283Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17072,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 24655,
+      "submitted_at": "2026-05-15T07:09:42.067Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25632,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 41423,
+      "submitted_at": "2026-05-15T07:10:24.595Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 2309,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 68623,
+      "submitted_at": "2026-05-15T07:11:35.019Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17904,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 16671,
+      "submitted_at": "2026-05-15T07:11:53.283Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 18148,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 97671,
+      "submitted_at": "2026-05-15T07:13:31.763Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 24739,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": true,
+      "flag_note": "I edited the question statement I wrote اُنْھیں and replaced\n the word جِنِہیں",
+      "edits": {
+        "question": "وہ آرگنز جن میں نر اور مادہ گیمیٹس بنتے ہیں اُنْھیں کہتے ہیں:"
+      },
+      "time_spent_ms": 4103,
+      "submitted_at": "2026-05-15T07:20:22.832Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17720,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 28855,
+      "submitted_at": "2026-05-15T07:20:58.499Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25467,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 80575,
+      "submitted_at": "2026-05-15T07:22:21.059Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17570,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 41111,
+      "submitted_at": "2026-05-15T07:23:04.203Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17638,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 62631,
+      "submitted_at": "2026-05-15T07:24:08.731Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17869,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 16656,
+      "submitted_at": "2026-05-15T07:24:27.907Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25709,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 29479,
+      "submitted_at": "2026-05-15T07:25:17.115Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25355,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "I edited the Question statement. I replaced the word  ٹرثری with ٹرشیری, and  I replaced the word   دور with وور.  Both lion and wolf are tertiary consumers options are unclear.",
+      "edits": {
+        "question": "یہ ایک  ٹرشیری کارنی  وور ہے۔"
+      },
+      "time_spent_ms": 296816,
+      "submitted_at": "2026-05-15T07:37:31.927Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25178,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 65551,
+      "submitted_at": "2026-05-15T07:38:46.307Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17889,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 38232,
+      "submitted_at": "2026-05-15T07:39:26.227Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17406,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 25790,
+      "submitted_at": "2026-05-15T07:39:53.490Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25277,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 1005908,
+      "submitted_at": "2026-05-15T07:56:46.090Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25853,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 6031,
+      "submitted_at": "2026-05-15T07:57:22.961Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25612,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 123399,
+      "submitted_at": "2026-05-15T07:59:31.497Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25437,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": true,
+      "flag_note": "I edited option C I replaced مائکن شیتھ to the مائیلین شیت",
+      "edits": {
+        "options": {
+          "C": "مائیلین شیت"
+        }
+      },
+      "time_spent_ms": 73848,
+      "submitted_at": "2026-05-15T08:07:00.800Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17653,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 3645,
+      "submitted_at": "2026-05-15T08:07:09.897Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17139,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 38776,
+      "submitted_at": "2026-05-15T08:07:50.386Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25489,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "No option is correct. and I edited option A word ثائموسن to تھائیموسن ",
+      "edits": {
+        "options": {
+          "A": "تھائیموسن"
+        }
+      },
+      "time_spent_ms": 303384,
+      "submitted_at": "2026-05-15T08:14:24.914Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17152,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 56527,
+      "submitted_at": "2026-05-15T08:15:34.713Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 2730,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 36119,
+      "submitted_at": "2026-05-15T08:16:13.081Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25724,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 38607,
+      "submitted_at": "2026-05-15T08:16:52.665Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 18022,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 15224,
+      "submitted_at": "2026-05-15T08:17:09.689Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 24874,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": true,
+      "flag_note": "\nہر بی دور and کارنی دور is replaced by کارنی وور and    ہربی وور",
+      "edits": {
+        "options": {
+          "B": "ہربی وور",
+          "C": "کارنی وور"
+        }
+      },
+      "time_spent_ms": 51928,
+      "submitted_at": "2026-05-15T08:20:15.945Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25607,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 8008,
+      "submitted_at": "2026-05-15T08:20:38.721Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 2317,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 28160,
+      "submitted_at": "2026-05-15T08:21:09.585Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25421,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 7648,
+      "submitted_at": "2026-05-15T08:21:21.553Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25326,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 125808,
+      "submitted_at": "2026-05-15T08:23:29.033Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25750,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 35809,
+      "submitted_at": "2026-05-15T08:24:06.467Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17862,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 8096,
+      "submitted_at": "2026-05-15T08:24:15.545Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25580,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "The question is not clear. ",
+      "edits": {},
+      "time_spent_ms": 40985,
+      "submitted_at": "2026-05-15T08:24:58.602Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 18024,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 39199,
+      "submitted_at": "2026-05-15T08:25:44.305Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17917,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 31808,
+      "submitted_at": "2026-05-15T08:26:21.593Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 439,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 28712,
+      "submitted_at": "2026-05-15T08:26:57.921Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25599,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 7312,
+      "submitted_at": "2026-05-15T08:27:09.577Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17514,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 104104,
+      "submitted_at": "2026-05-15T08:28:56.425Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 18161,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": true,
+      "flag_note": "The correct word is کولونیل",
+      "edits": {
+        "options": {
+          "D": " کولونیل  کی"
+        }
+      },
+      "time_spent_ms": 44920,
+      "submitted_at": "2026-05-15T08:31:11.537Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 24964,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 16886,
+      "submitted_at": "2026-05-15T08:31:31.288Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 24776,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 22984,
+      "submitted_at": "2026-05-15T08:31:56.281Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 18034,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 10687,
+      "submitted_at": "2026-05-15T08:32:08.432Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 25455,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 105063,
+      "submitted_at": "2026-05-15T08:33:55.688Z"
+    },
+    {
+      "annotator": "Tazeen",
+      "mcq_id": 17531,
+      "batch_id": "batch_004",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "No option is correct",
+      "edits": {},
+      "time_spent_ms": 49607,
+      "submitted_at": "2026-05-15T08:34:59.263Z"
+    }
+  ]
+}

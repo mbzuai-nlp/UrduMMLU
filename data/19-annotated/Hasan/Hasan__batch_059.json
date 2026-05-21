@@ -1,0 +1,680 @@
+{
+  "annotator": "Hasan",
+  "batch_id": "batch_059",
+  "exported_at": "2026-05-14T15:23:31.636Z",
+  "count": 50,
+  "n_answered": 50,
+  "n_flagged": 7,
+  "annotations": [
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6682,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 41235,
+      "submitted_at": "2026-05-14T14:41:28.138Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6706,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "got an answer of over 1,000",
+      "edits": {},
+      "time_spent_ms": 114328,
+      "submitted_at": "2026-05-14T14:44:45.623Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 452,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 46753,
+      "submitted_at": "2026-05-14T14:45:41.369Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6481,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 396646,
+      "submitted_at": "2026-05-14T14:52:22.537Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12739,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "آئین ____ میں صرف اردو کو پاکستان کی قومی زبان قرار دیا گیا۔",
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 12253,
+      "submitted_at": "2026-05-14T14:52:55.578Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12873,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 14766,
+      "submitted_at": "2026-05-14T14:53:28.557Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12243,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "پاکستان میں ____ نظام کی جڑیں بہت مضبوط ہیں :",
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 29370,
+      "submitted_at": "2026-05-14T14:54:20.125Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 27242,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 61153,
+      "submitted_at": "2026-05-14T14:55:26.436Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12640,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 44928,
+      "submitted_at": "2026-05-14T14:56:45.780Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 7014,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 17805,
+      "submitted_at": "2026-05-14T14:57:04.052Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 2825,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 10256,
+      "submitted_at": "2026-05-14T14:57:23.673Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 19305,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 20879,
+      "submitted_at": "2026-05-14T14:57:45.718Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12283,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies",
+        "question": "پاکستان کی سینیٹ کے ارکان کی موجودہ تعداد کتنی ہے؟",
+        "options": {
+          "A": "96",
+          "B": "100",
+          "C": "104",
+          "D": "102"
+        }
+      },
+      "time_spent_ms": 15072,
+      "submitted_at": "2026-05-14T15:01:08.600Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 7060,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 35209,
+      "submitted_at": "2026-05-14T15:01:52.166Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 27318,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 13581,
+      "submitted_at": "2026-05-14T15:02:09.363Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12288,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "لاہور",
+          "B": "اسلام آباد",
+          "C": "کراچی",
+          "D": " ملتان"
+        },
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 34846,
+      "submitted_at": "2026-05-14T15:03:08.933Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12164,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 24487,
+      "submitted_at": "2026-05-14T15:03:35.645Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6488,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 16992,
+      "submitted_at": "2026-05-14T15:03:58.859Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6942,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "vague question",
+      "edits": {},
+      "time_spent_ms": 31426,
+      "submitted_at": "2026-05-14T15:04:36.424Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12619,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 54992,
+      "submitted_at": "2026-05-14T15:05:38.619Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12151,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 7641,
+      "submitted_at": "2026-05-14T15:05:52.679Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12607,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 24226,
+      "submitted_at": "2026-05-14T15:06:17.352Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6450,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 52421,
+      "submitted_at": "2026-05-14T15:07:11.235Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6607,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 18374,
+      "submitted_at": "2026-05-14T15:07:32.747Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12576,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 16372,
+      "submitted_at": "2026-05-14T15:07:50.431Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12282,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": " 1983ء",
+          "B": " 1984ء",
+          "C": "1985ء",
+          "D": "1986ء"
+        },
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 20296,
+      "submitted_at": "2026-05-14T15:22:25.721Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 19539,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 20888,
+      "submitted_at": "2026-05-14T15:08:43.767Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12312,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "repeat id 12283",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 8285,
+      "submitted_at": "2026-05-14T15:22:18.635Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12709,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 57864,
+      "submitted_at": "2026-05-14T15:10:50.721Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12622,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": true,
+      "flag_note": "repeat",
+      "edits": {},
+      "time_spent_ms": 18421,
+      "submitted_at": "2026-05-14T15:13:19.886Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6542,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 25078,
+      "submitted_at": "2026-05-14T15:12:07.707Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6454,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 50486,
+      "submitted_at": "2026-05-14T15:12:59.036Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6912,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": true,
+      "flag_note": "repeat",
+      "edits": {},
+      "time_spent_ms": 8274,
+      "submitted_at": "2026-05-14T15:13:27.976Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6500,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "لاطینی لفظ Societas کے معنی ہیں :"
+      },
+      "time_spent_ms": 16594,
+      "submitted_at": "2026-05-14T15:14:46.698Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6878,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "تھامس ہابز(Thomas Hobbes) کس ملک میں پیدا ہوا؟"
+      },
+      "time_spent_ms": 10144,
+      "submitted_at": "2026-05-14T15:15:23.068Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 19343,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 14170,
+      "submitted_at": "2026-05-14T15:15:38.068Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12451,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 12315,
+      "submitted_at": "2026-05-14T15:15:54.443Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 7079,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 16599,
+      "submitted_at": "2026-05-14T15:22:07.387Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 2425,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": " \"رسالہ اسباب بغاوت ہند\" کس نے تحریر کیا؟"
+      },
+      "time_spent_ms": 4714,
+      "submitted_at": "2026-05-14T15:16:38.884Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12710,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 26275,
+      "submitted_at": "2026-05-14T15:17:14.926Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12589,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 18416,
+      "submitted_at": "2026-05-14T15:17:34.575Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6883,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 75518,
+      "submitted_at": "2026-05-14T15:19:03.089Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12611,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": true,
+      "flag_note": "repeat",
+      "edits": {},
+      "time_spent_ms": 5563,
+      "submitted_at": "2026-05-14T15:19:15.416Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 7206,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 6642,
+      "submitted_at": "2026-05-14T15:19:25.301Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12455,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 21140,
+      "submitted_at": "2026-05-14T15:19:49.168Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6547,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": true,
+      "flag_note": "repeat",
+      "edits": {},
+      "time_spent_ms": 7292,
+      "submitted_at": "2026-05-14T15:20:11.746Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12279,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "1929ء",
+          "B": "1930ء",
+          "C": "1931ء",
+          "D": "1932ء"
+        }
+      },
+      "time_spent_ms": 22555,
+      "submitted_at": "2026-05-14T15:21:10.923Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 12191,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 24298,
+      "submitted_at": "2026-05-14T15:21:38.703Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 19490,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 3968,
+      "submitted_at": "2026-05-14T15:21:51.705Z"
+    },
+    {
+      "annotator": "Hasan",
+      "mcq_id": 6403,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 21356,
+      "submitted_at": "2026-05-14T15:23:27.790Z"
+    }
+  ]
+}

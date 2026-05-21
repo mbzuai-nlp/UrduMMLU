@@ -50,7 +50,6 @@ function emptyRecord(item) {
         annotator: state.handle,
         mcq_id: item.id,
         batch_id: state.currentBatch,
-        is_iaa: false,
         selected_key: null,
         flagged: false,
         flag_note: '',

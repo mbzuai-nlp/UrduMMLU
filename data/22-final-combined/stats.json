@@ -1,0 +1,77 @@
+{
+  "total": 28787,
+  "inputs": {
+    "annotated": 14459,
+    "scraped_with_valid_key": 13877,
+    "upsampled_with_valid_key": 498,
+    "scraped_dropped_no_key": 41,
+    "scraped_dropped_dup_question": 19
+  },
+  "subdomain_domain_overrides": {
+    "applied": 704,
+    "mapping": {
+      "professional development": "Profession",
+      "federal investigation law": "Profession",
+      "fine arts": "Humanities"
+    }
+  },
+  "subdomain_renames": {
+    "applied": 498,
+    "mapping": {
+      "home economics": "professional studies",
+      "hajj management": "professional studies",
+      "tourism management": "professional studies",
+      "media production": "professional studies",
+      "clerical services": "professional studies",
+      "plumbing": "professional studies",
+      "federal investigation law": "professional studies",
+      "tarjamatul quran": "islamic studies",
+      "art and drawing": "fine arts"
+    }
+  },
+  "provenance": {
+    "annotated": 14431,
+    "scraped": 14356
+  },
+  "correct_key_distribution": {
+    "A": 8065,
+    "D": 4430,
+    "C": 7837,
+    "B": 8455
+  },
+  "domain_distribution": {
+    "Humanities": 11442,
+    "Social Sciences": 9031,
+    "STEM": 5798,
+    "Other": 1485,
+    "Profession": 1031
+  },
+  "subdomain_distribution": {
+    "Humanities / urdu literature": 6051,
+    "Humanities / urdu language": 2701,
+    "Social Sciences / pakistan studies": 2225,
+    "Humanities / islamic studies": 1525,
+    "Other / general knowledge": 1485,
+    "STEM / general science": 1034,
+    "STEM / mathematics": 1028,
+    "STEM / chemistry": 1022,
+    "STEM / biology": 1007,
+    "Social Sciences / economics": 992,
+    "STEM / computer science": 943,
+    "Social Sciences / education": 934,
+    "Social Sciences / health and physical education": 903,
+    "Social Sciences / sociology": 847,
+    "Social Sciences / civics": 834,
+    "Humanities / urdu grammar": 771,
+    "STEM / physics": 764,
+    "Social Sciences / geography": 694,
+    "Profession / professional development": 557,
+    "Social Sciences / psychology": 492,
+    "Profession / professional studies": 474,
+    "Social Sciences / current and international affairs": 464,
+    "Social Sciences / commerce": 461,
+    "Humanities / ethics": 246,
+    "Social Sciences / psychometrics": 185,
+    "Humanities / fine arts": 148
+  }
+}

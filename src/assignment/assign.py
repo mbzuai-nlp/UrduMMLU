@@ -148,6 +148,13 @@ def assign(manifest: dict, groups: dict) -> dict:
     slots: dict[str, list[str]] = {a: [] for a in groups["all"]}
     loads: dict[str, int] = {a: 0 for a in groups["all"]}
 
+    # Target MCQ load per annotator. Total MCQ-slots / N annotators. The
+    # picker uses this as a soft cap: it skips anyone already at-or-above
+    # the cap, but relaxes when no valid pair fits (e.g. author-must-pair-
+    # with-group-1 may force one side over the cap).
+    total_mcq_slots = sum(b["size"] for b in batches) * 2
+    cap = (total_mcq_slots + len(groups["all"]) - 1) // len(groups["all"])
+
     def place(name: str, batch: dict) -> None:
         slots[name].append(batch["id"])
         loads[name] += batch["size"]
@@ -158,19 +165,19 @@ def assign(manifest: dict, groups: dict) -> dict:
     for b in chembio_b:
         anchor = by_load(loads, doctors)[0]
         place(anchor, b)
-        partner = pick_partner(loads, anchor, all_set, groups)
+        partner = pick_partner(loads, anchor, all_set, groups, cap=cap)
         place(partner, b)
 
     # Phase 2 — arts specialist on every arts batch, partner from anyone else
     for b in arts_b:
         if not arts_specialists:
-            a, c = pick_two(loads, all_set, groups)
+            a, c = pick_two(loads, all_set, groups, cap=cap)
             place(a, b)
             place(c, b)
             continue
         anchor = arts_specialists[0]
         place(anchor, b)
-        partner = pick_partner(loads, anchor, all_set, groups)
+        partner = pick_partner(loads, anchor, all_set, groups, cap=cap)
         place(partner, b)
 
     # Phase 3 — subdomain specialists (e.g. mathematics → Hasan/Sarfraz/Ahmer).
@@ -180,12 +187,12 @@ def assign(manifest: dict, groups: dict) -> dict:
         pool = specialists[b["primary_subdomain"]]
         anchor = by_load(loads, pool)[0]
         place(anchor, b)
-        partner = pick_partner(loads, anchor, all_set, groups)
+        partner = pick_partner(loads, anchor, all_set, groups, cap=cap)
         place(partner, b)
 
     # Phase 4 — everything else: 2 lowest-loaded valid annotators
     for b in other_b:
-        a, c = pick_two(loads, all_set, groups)
+        a, c = pick_two(loads, all_set, groups, cap=cap)
         place(a, b)
         place(c, b)
 

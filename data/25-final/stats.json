@@ -1,0 +1,48 @@
+{
+  "total": 26431,
+  "provenance": {
+    "annotated": 12759,
+    "scraped": 13672
+  },
+  "correct_key_distribution": {
+    "A": 7451,
+    "D": 3988,
+    "C": 7210,
+    "B": 7782
+  },
+  "domain_distribution": {
+    "Humanities": 11010,
+    "Social Sciences": 7968,
+    "STEM": 5113,
+    "Other": 1365,
+    "Profession": 975
+  },
+  "subdomain_distribution": {
+    "Humanities / urdu literature": 5859,
+    "Humanities / urdu language": 2522,
+    "Social Sciences / pakistan studies": 1895,
+    "Humanities / islamic studies": 1497,
+    "Other / general knowledge": 1365,
+    "STEM / chemistry": 936,
+    "STEM / biology": 931,
+    "STEM / general science": 926,
+    "Social Sciences / economics": 907,
+    "STEM / mathematics": 876,
+    "Social Sciences / education": 836,
+    "STEM / computer science": 823,
+    "Social Sciences / sociology": 778,
+    "Humanities / urdu grammar": 756,
+    "Social Sciences / health and physical education": 742,
+    "Social Sciences / civics": 675,
+    "Social Sciences / geography": 630,
+    "STEM / physics": 621,
+    "Profession / professional development": 514,
+    "Profession / professional studies": 461,
+    "Social Sciences / psychology": 460,
+    "Social Sciences / current and international affairs": 437,
+    "Social Sciences / commerce": 423,
+    "Humanities / ethics": 228,
+    "Social Sciences / psychometrics": 185,
+    "Humanities / fine arts": 148
+  }
+}

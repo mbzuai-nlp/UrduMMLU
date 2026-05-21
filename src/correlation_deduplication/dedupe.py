@@ -39,7 +39,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SRC_DIR = REPO_ROOT / "data" / "12-blanks-normalized"
 DST_DIR = REPO_ROOT / "data" / "13-correlation-deduplicated"
-FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json"]
+FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json", "mcqs_upsampled.json"]
 
 JACCARD_THRESHOLD = 0.90
 OPTION_JACCARD_THRESHOLD = 0.50

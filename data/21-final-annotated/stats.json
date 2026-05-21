@@ -1,0 +1,396 @@
+{
+  "total_input": 17565,
+  "total_included": 14459,
+  "domain_corrections": 141,
+  "drop_breakdown": {
+    "flagged": 1247,
+    "unsure": 243,
+    "disagree": 1611,
+    "single_annotated": 5
+  },
+  "domain_distribution": {
+    "Social Sciences": 7309,
+    "Other": 51,
+    "Humanities": 886,
+    "STEM": 5815,
+    "Profession": 398
+  },
+  "subdomain_distribution": {
+    "Social Sciences / pakistan studies": 1159,
+    "STEM / general science": 1036,
+    "STEM / mathematics": 1033,
+    "STEM / chemistry": 1024,
+    "STEM / biology": 1007,
+    "Social Sciences / economics": 993,
+    "STEM / computer science": 951,
+    "Social Sciences / education": 924,
+    "Social Sciences / health and physical education": 905,
+    "Social Sciences / sociology": 848,
+    "Social Sciences / civics": 835,
+    "STEM / physics": 764,
+    "Social Sciences / geography": 694,
+    "Social Sciences / psychology": 490,
+    "Social Sciences / commerce": 461,
+    "Humanities / islamic studies": 452,
+    "Profession / home economics": 379,
+    "Humanities / ethics": 246,
+    "Humanities / urdu literature": 164,
+    "Other / general knowledge": 51,
+    "Humanities / tarjamatul quran": 15,
+    "Profession / tourism management": 12,
+    "Humanities / art and drawing": 9,
+    "Profession / media production": 4,
+    "Profession / plumbing": 3
+  },
+  "agreement": {
+    "overall_observed": 0.8998,
+    "overall_cohen_kappa_simplified": 0.8663,
+    "per_pair": {
+      "Ahmed + Ahmer": {
+        "agree": 455,
+        "total": 487,
+        "rate": 0.934
+      },
+      "Ahmed + Aliya": {
+        "agree": 448,
+        "total": 449,
+        "rate": 0.998
+      },
+      "Ahmed + Ashna": {
+        "agree": 79,
+        "total": 82,
+        "rate": 0.963
+      },
+      "Ahmed + Atroba": {
+        "agree": 38,
+        "total": 41,
+        "rate": 0.927
+      },
+      "Ahmed + Hasan": {
+        "agree": 86,
+        "total": 91,
+        "rate": 0.945
+      },
+      "Ahmed + Huzaima": {
+        "agree": 43,
+        "total": 48,
+        "rate": 0.896
+      },
+      "Ahmed + Iqra": {
+        "agree": 77,
+        "total": 84,
+        "rate": 0.917
+      },
+      "Ahmed + Isha": {
+        "agree": 41,
+        "total": 47,
+        "rate": 0.872
+      },
+      "Ahmed + Junaid": {
+        "agree": 77,
+        "total": 78,
+        "rate": 0.987
+      },
+      "Ahmed + Momina": {
+        "agree": 32,
+        "total": 39,
+        "rate": 0.821
+      },
+      "Ahmed + Owais": {
+        "agree": 85,
+        "total": 92,
+        "rate": 0.924
+      },
+      "Ahmed + Saad": {
+        "agree": 39,
+        "total": 41,
+        "rate": 0.951
+      },
+      "Ahmed + Sarfraz": {
+        "agree": 85,
+        "total": 88,
+        "rate": 0.966
+      },
+      "Ahmed + Silza": {
+        "agree": 57,
+        "total": 63,
+        "rate": 0.905
+      },
+      "Ahmed + Tayyab": {
+        "agree": 74,
+        "total": 76,
+        "rate": 0.974
+      },
+      "Ahmer + Aliya": {
+        "agree": 207,
+        "total": 248,
+        "rate": 0.835
+      },
+      "Ahmer + Ashna": {
+        "agree": 697,
+        "total": 797,
+        "rate": 0.875
+      },
+      "Ahmer + Iqra": {
+        "agree": 91,
+        "total": 98,
+        "rate": 0.929
+      },
+      "Ahmer + Silza": {
+        "agree": 122,
+        "total": 135,
+        "rate": 0.904
+      },
+      "Ahmer + Tazeen": {
+        "agree": 83,
+        "total": 90,
+        "rate": 0.922
+      },
+      "Aliya + Ashna": {
+        "agree": 94,
+        "total": 99,
+        "rate": 0.949
+      },
+      "Aliya + Atroba": {
+        "agree": 40,
+        "total": 43,
+        "rate": 0.93
+      },
+      "Aliya + Hasan": {
+        "agree": 36,
+        "total": 38,
+        "rate": 0.947
+      },
+      "Aliya + Huzaima": {
+        "agree": 35,
+        "total": 40,
+        "rate": 0.875
+      },
+      "Aliya + Iqra": {
+        "agree": 36,
+        "total": 39,
+        "rate": 0.923
+      },
+      "Aliya + Isha": {
+        "agree": 30,
+        "total": 32,
+        "rate": 0.938
+      },
+      "Aliya + Junaid": {
+        "agree": 7,
+        "total": 7,
+        "rate": 1.0
+      },
+      "Aliya + Momina": {
+        "agree": 619,
+        "total": 687,
+        "rate": 0.901
+      },
+      "Aliya + Tayyab": {
+        "agree": 30,
+        "total": 32,
+        "rate": 0.938
+      },
+      "Aliya + Tazeen": {
+        "agree": 87,
+        "total": 93,
+        "rate": 0.935
+      },
+      "Ashna + Atroba": {
+        "agree": 705,
+        "total": 775,
+        "rate": 0.91
+      },
+      "Ashna + Momina": {
+        "agree": 73,
+        "total": 94,
+        "rate": 0.777
+      },
+      "Ashna + Tazeen": {
+        "agree": 92,
+        "total": 98,
+        "rate": 0.939
+      },
+      "Atroba + Hasan": {
+        "agree": 749,
+        "total": 813,
+        "rate": 0.921
+      },
+      "Atroba + Huzaima": {
+        "agree": 174,
+        "total": 196,
+        "rate": 0.888
+      },
+      "Atroba + Tazeen": {
+        "agree": 88,
+        "total": 99,
+        "rate": 0.889
+      },
+      "Hasan + Huzaima": {
+        "agree": 608,
+        "total": 692,
+        "rate": 0.879
+      },
+      "Hasan + Isha": {
+        "agree": 90,
+        "total": 96,
+        "rate": 0.938
+      },
+      "Hasan + Tayyab": {
+        "agree": 134,
+        "total": 144,
+        "rate": 0.931
+      },
+      "Hasan + Tazeen": {
+        "agree": 46,
+        "total": 48,
+        "rate": 0.958
+      },
+      "Huzaima + Iqra": {
+        "agree": 647,
+        "total": 751,
+        "rate": 0.862
+      },
+      "Huzaima + Owais": {
+        "agree": 41,
+        "total": 41,
+        "rate": 1.0
+      },
+      "Huzaima + Sarfraz": {
+        "agree": 70,
+        "total": 95,
+        "rate": 0.737
+      },
+      "Huzaima + Tazeen": {
+        "agree": 84,
+        "total": 92,
+        "rate": 0.913
+      },
+      "Iqra + Isha": {
+        "agree": 824,
+        "total": 933,
+        "rate": 0.883
+      },
+      "Iqra + Momina": {
+        "agree": 43,
+        "total": 49,
+        "rate": 0.878
+      },
+      "Iqra + Tazeen": {
+        "agree": 42,
+        "total": 49,
+        "rate": 0.857
+      },
+      "Isha + Owais": {
+        "agree": 672,
+        "total": 729,
+        "rate": 0.922
+      },
+      "Isha + Tazeen": {
+        "agree": 89,
+        "total": 99,
+        "rate": 0.899
+      },
+      "Junaid + Momina": {
+        "agree": 690,
+        "total": 786,
+        "rate": 0.878
+      },
+      "Junaid + Owais": {
+        "agree": 37,
+        "total": 39,
+        "rate": 0.949
+      },
+      "Junaid + Saad": {
+        "agree": 5,
+        "total": 6,
+        "rate": 0.833
+      },
+      "Junaid + Sarfraz": {
+        "agree": 123,
+        "total": 139,
+        "rate": 0.885
+      },
+      "Junaid + Tayyab": {
+        "agree": 363,
+        "total": 368,
+        "rate": 0.986
+      },
+      "Junaid + Tazeen": {
+        "agree": 354,
+        "total": 408,
+        "rate": 0.868
+      },
+      "Momina + Saad": {
+        "agree": 41,
+        "total": 48,
+        "rate": 0.854
+      },
+      "Momina + Tayyab": {
+        "agree": 35,
+        "total": 45,
+        "rate": 0.778
+      },
+      "Momina + Tazeen": {
+        "agree": 88,
+        "total": 89,
+        "rate": 0.989
+      },
+      "Owais + Saad": {
+        "agree": 734,
+        "total": 811,
+        "rate": 0.905
+      },
+      "Owais + Silza": {
+        "agree": 30,
+        "total": 34,
+        "rate": 0.882
+      },
+      "Owais + Tazeen": {
+        "agree": 46,
+        "total": 48,
+        "rate": 0.958
+      },
+      "Saad + Sarfraz": {
+        "agree": 723,
+        "total": 796,
+        "rate": 0.908
+      },
+      "Saad + Silza": {
+        "agree": 33,
+        "total": 37,
+        "rate": 0.892
+      },
+      "Saad + Tazeen": {
+        "agree": 76,
+        "total": 77,
+        "rate": 0.987
+      },
+      "Sarfraz + Silza": {
+        "agree": 654,
+        "total": 765,
+        "rate": 0.855
+      },
+      "Sarfraz + Tazeen": {
+        "agree": 68,
+        "total": 74,
+        "rate": 0.919
+      },
+      "Silza + Tayyab": {
+        "agree": 677,
+        "total": 772,
+        "rate": 0.877
+      },
+      "Silza + Tazeen": {
+        "agree": 94,
+        "total": 98,
+        "rate": 0.959
+      },
+      "Tayyab + Tazeen": {
+        "agree": 387,
+        "total": 453,
+        "rate": 0.854
+      }
+    }
+  }
+}

@@ -40,7 +40,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SRC_DIR = REPO_ROOT / "data" / "11-punctuation-normalized"
 DST_DIR = REPO_ROOT / "data" / "12-blanks-normalized"
-FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json"]
+FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json", "mcqs_upsampled.json"]
 
 MATH_PATTERN = re.compile(r"\$\$.+?\$\$|\$[^$]+\$", re.DOTALL)
 BLANK_PATTERN = re.compile(r"[_—–]{3,}|-{4,}")

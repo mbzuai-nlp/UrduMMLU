@@ -1,0 +1,646 @@
+{
+  "annotator": "Ahmed",
+  "batch_id": "batch_033",
+  "exported_at": "2026-05-17T17:06:43.178Z",
+  "count": 50,
+  "n_answered": 50,
+  "n_flagged": 3,
+  "annotations": [
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18573,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 17191,
+      "submitted_at": "2026-05-17T16:40:28.356Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 19025,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4607,
+      "submitted_at": "2026-05-17T16:40:36.651Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26294,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 8565,
+      "submitted_at": "2026-05-17T16:40:46.259Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26903,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 8758,
+      "submitted_at": "2026-05-17T16:41:31.723Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26394,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "biology"
+      },
+      "time_spent_ms": 20055,
+      "submitted_at": "2026-05-17T16:42:17.008Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26086,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 8484,
+      "submitted_at": "2026-05-17T16:42:31.603Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26048,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 19784,
+      "submitted_at": "2026-05-17T16:42:53.571Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26263,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 7417,
+      "submitted_at": "2026-05-17T16:43:04.549Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18271,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 11217,
+      "submitted_at": "2026-05-17T16:43:23.700Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18222,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 9033,
+      "submitted_at": "2026-05-17T16:43:35.933Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18755,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4884,
+      "submitted_at": "2026-05-17T16:44:21.316Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 27052,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 11117,
+      "submitted_at": "2026-05-17T16:44:52.291Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 19217,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 8190,
+      "submitted_at": "2026-05-17T16:45:06.763Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26079,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "B": "⁦[A]^2[B] / [C]^3⁩",
+          "D": "⁦[C]^3 / [A]^2[B]⁩"
+        }
+      },
+      "time_spent_ms": 9008,
+      "submitted_at": "2026-05-17T16:45:48.299Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 27023,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "⁦C3H7 -⁩",
+          "B": "⁦C2H5 -⁩",
+          "D": "⁦C3H6 -⁩",
+          "C": "⁦C2H4⁩"
+        }
+      },
+      "time_spent_ms": 11512,
+      "submitted_at": "2026-05-17T16:46:55.891Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26764,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 27040,
+      "submitted_at": "2026-05-17T16:47:23.811Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 1726,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4189,
+      "submitted_at": "2026-05-17T16:47:36.667Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26571,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 8917,
+      "submitted_at": "2026-05-17T16:47:56.595Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26579,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 6879,
+      "submitted_at": "2026-05-17T16:48:11.859Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18319,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 71980,
+      "submitted_at": "2026-05-17T16:49:31.427Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26241,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "⁦BF3⁩",
+          "C": "⁦H2O⁩",
+          "D": "⁦SO4^2-⁩"
+        }
+      },
+      "time_spent_ms": 1209,
+      "submitted_at": "2026-05-17T16:50:07.901Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26732,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 10391,
+      "submitted_at": "2026-05-17T16:50:18.907Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26526,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "⁦‏ یوریا کا فارمولا کون سا ہے؟"
+      },
+      "time_spent_ms": 36190,
+      "submitted_at": "2026-05-17T16:51:11.444Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18190,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "MCA\nA, B, D",
+      "edits": {},
+      "time_spent_ms": 85099,
+      "submitted_at": "2026-05-17T16:52:59.565Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18434,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 40497,
+      "submitted_at": "2026-05-17T16:53:41.316Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 19081,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 14877,
+      "submitted_at": "2026-05-17T16:54:52.100Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18729,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 22344,
+      "submitted_at": "2026-05-17T16:55:36.755Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26122,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 2880,
+      "submitted_at": "2026-05-17T16:55:40.227Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26044,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "جب ⁦NaHCO3⁩ کو گرم کیا جاتا ہے تو یہ بن جاتا ہے۔",
+        "options": {
+          "A": "⁦CO2",
+          "B": "⁦Ca(OH)2⁩",
+          "C": "⁦CaCO3⁩",
+          "D": "⁦CaO"
+        }
+      },
+      "time_spent_ms": 2102,
+      "submitted_at": "2026-05-17T16:56:10.674Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26277,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 5719,
+      "submitted_at": "2026-05-17T16:56:16.970Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18263,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 58840,
+      "submitted_at": "2026-05-17T16:57:17.068Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26208,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 6103,
+      "submitted_at": "2026-05-17T16:57:23.859Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26989,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 5136,
+      "submitted_at": "2026-05-17T16:57:29.587Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18631,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 5354,
+      "submitted_at": "2026-05-17T16:57:35.948Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26375,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 98391,
+      "submitted_at": "2026-05-17T16:59:14.779Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26757,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "biology"
+      },
+      "time_spent_ms": 2780,
+      "submitted_at": "2026-05-17T16:59:22.170Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26601,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 38405,
+      "submitted_at": "2026-05-17T17:00:01.690Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18913,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "Vague\n",
+      "edits": {},
+      "time_spent_ms": 551,
+      "submitted_at": "2026-05-17T17:00:55.107Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18691,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 5671,
+      "submitted_at": "2026-05-17T17:01:01.762Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 1727,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "Ambiguous \ndepends on type of cracking",
+      "edits": {},
+      "time_spent_ms": 52018,
+      "submitted_at": "2026-05-17T17:01:54.502Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26823,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 40851,
+      "submitted_at": "2026-05-17T17:02:35.870Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 27075,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 59163,
+      "submitted_at": "2026-05-17T17:03:46.836Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26636,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 17408,
+      "submitted_at": "2026-05-17T17:04:08.387Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 19168,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 48639,
+      "submitted_at": "2026-05-17T17:04:57.659Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 19017,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 9542,
+      "submitted_at": "2026-05-17T17:05:10.906Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 19166,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "K⁩ شیل میں کتنے الیکٹرون سما سکتے ہیں ؟"
+      },
+      "time_spent_ms": 863,
+      "submitted_at": "2026-05-17T17:05:26.483Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 573,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 23976,
+      "submitted_at": "2026-05-17T17:05:51.099Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 18324,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4344,
+      "submitted_at": "2026-05-17T17:05:56.267Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 577,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 24216,
+      "submitted_at": "2026-05-17T17:06:21.075Z"
+    },
+    {
+      "annotator": "Ahmed",
+      "mcq_id": 26163,
+      "batch_id": "batch_033",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "ایسڈ رین میں موجود _______ کی وجہ سے مچھلیوں کے گلز بند ہونے سے آبی زندگی متاثر ہوتی ہے۔"
+      },
+      "time_spent_ms": 9791,
+      "submitted_at": "2026-05-17T17:06:36.490Z"
+    }
+  ]
+}

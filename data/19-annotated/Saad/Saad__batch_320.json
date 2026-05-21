@@ -1,0 +1,86 @@
+{
+  "annotator": "Saad",
+  "batch_id": "batch_320",
+  "exported_at": "2026-05-19T11:55:35.867Z",
+  "count": 6,
+  "n_answered": 6,
+  "n_flagged": 0,
+  "annotations": [
+    {
+      "annotator": "Saad",
+      "mcq_id": 976,
+      "batch_id": "batch_320",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 10269,
+      "submitted_at": "2026-05-19T11:31:58.409Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 975,
+      "batch_id": "batch_320",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 9670,
+      "submitted_at": "2026-05-19T11:32:09.090Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 978,
+      "batch_id": "batch_320",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "education"
+      },
+      "time_spent_ms": 6795,
+      "submitted_at": "2026-05-19T11:35:28.036Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 973,
+      "batch_id": "batch_320",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 1155541,
+      "submitted_at": "2026-05-19T11:54:46.040Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 977,
+      "batch_id": "batch_320",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 16351,
+      "submitted_at": "2026-05-19T11:55:03.252Z"
+    },
+    {
+      "annotator": "Saad",
+      "mcq_id": 974,
+      "batch_id": "batch_320",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "general knowledge"
+      },
+      "time_spent_ms": 2532,
+      "submitted_at": "2026-05-19T11:55:20.427Z"
+    }
+  ]
+}

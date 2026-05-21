@@ -20,7 +20,7 @@ URDU_RE = re.compile(r"[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]")
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SRC_DIR = REPO_ROOT / "data" / "3-consolidated"
 DST_DIR = REPO_ROOT / "data" / "4-rtl-aligned"
-FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json"]
+FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json", "mcqs_upsampled.json"]
 
 
 def needs_rlm(text: str) -> bool:

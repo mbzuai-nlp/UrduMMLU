@@ -71,7 +71,6 @@ def main() -> None:
         primary_sub = batch[0].get("subdomain", "?")
         for it in batch:
             it["batch_id"] = batch_id
-            it["is_iaa"] = False
         path = BATCHES_DIR / f"{batch_id}.json"
         with open(path, "w", encoding="utf-8") as f:
             json.dump(batch, f, ensure_ascii=False, indent=4)

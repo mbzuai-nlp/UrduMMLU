@@ -25,7 +25,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SRC_DIR = REPO_ROOT / "data" / "7-character-normalized"
 DST_DIR = REPO_ROOT / "data" / "8-option-prefix-stripped"
-FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json"]
+FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json", "mcqs_upsampled.json"]
 
 KEY_LETTERS = {
     "A": ["الف", "أ", "A"],

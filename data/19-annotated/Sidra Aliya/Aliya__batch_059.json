@@ -1,0 +1,656 @@
+{
+  "annotator": "Aliya",
+  "batch_id": "batch_059",
+  "exported_at": "2026-05-16T11:45:43.310Z",
+  "count": 50,
+  "n_answered": 50,
+  "n_flagged": 7,
+  "annotations": [
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6682,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "vague, applicable to many countries",
+      "edits": {},
+      "time_spent_ms": 1876,
+      "submitted_at": "2026-05-16T11:45:04.777Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6706,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "national geographic says over 1000 states",
+      "edits": {},
+      "time_spent_ms": 1793,
+      "submitted_at": "2026-05-16T11:45:08.913Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 452,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 37836,
+      "submitted_at": "2026-05-15T08:22:52.638Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6481,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 30950,
+      "submitted_at": "2026-05-15T08:21:42.051Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12739,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 30666,
+      "submitted_at": "2026-05-15T08:22:30.729Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12873,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 134139,
+      "submitted_at": "2026-05-15T08:25:32.239Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12243,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "vague, most probably A but still vague",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 1992,
+      "submitted_at": "2026-05-16T11:45:15.994Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 27242,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 248223,
+      "submitted_at": "2026-05-15T08:31:13.107Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12640,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 47436,
+      "submitted_at": "2026-05-15T08:32:10.347Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 7014,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 44689,
+      "submitted_at": "2026-05-15T08:32:57.188Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 2825,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 35314,
+      "submitted_at": "2026-05-15T08:33:34.055Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 19305,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 37485,
+      "submitted_at": "2026-05-15T08:34:13.421Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12283,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "100",
+          "B": "‏101",
+          "C": "102",
+          "D": "104"
+        }
+      },
+      "time_spent_ms": 65104,
+      "submitted_at": "2026-05-15T08:36:20.959Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 7060,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 9081016,
+      "submitted_at": "2026-05-15T11:09:00.974Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 27318,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 48957,
+      "submitted_at": "2026-05-15T11:10:01.393Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12288,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "لاہور",
+          "B": "اسلام آباد",
+          "C": "کراچی",
+          "D": "ملتان"
+        }
+      },
+      "time_spent_ms": 34271,
+      "submitted_at": "2026-05-15T11:11:21.110Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12164,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 52318,
+      "submitted_at": "2026-05-15T11:12:27.029Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6488,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 54829,
+      "submitted_at": "2026-05-15T11:13:24.382Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6942,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 75265,
+      "submitted_at": "2026-05-15T11:14:41.309Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12619,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 54541,
+      "submitted_at": "2026-05-15T11:15:41.231Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12151,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 5287,
+      "submitted_at": "2026-05-15T11:16:00.685Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12607,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 35849,
+      "submitted_at": "2026-05-15T11:16:40.768Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6450,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 47150,
+      "submitted_at": "2026-05-15T11:17:29.960Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6607,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "vague, varies depending on one's personal choice",
+      "edits": {},
+      "time_spent_ms": 1755,
+      "submitted_at": "2026-05-16T11:45:30.241Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12576,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 26524,
+      "submitted_at": "2026-05-15T11:18:55.675Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12282,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "‏1983⁩ء",
+          "B": "1984⁩ء",
+          "C": "1985⁩ء",
+          "D": "1986⁩ء"
+        }
+      },
+      "time_spent_ms": 103047,
+      "submitted_at": "2026-05-15T11:21:28.754Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 19539,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "vague, mention timeline, there were various modes of government at different times in ancient greece",
+      "edits": {},
+      "time_spent_ms": 1665,
+      "submitted_at": "2026-05-16T11:45:34.874Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12312,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "wrong options, 96 on official website",
+      "edits": {},
+      "time_spent_ms": 1669,
+      "submitted_at": "2026-05-16T11:45:38.025Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12709,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": true,
+      "flag_note": "ambiguous",
+      "edits": {},
+      "time_spent_ms": 2079,
+      "submitted_at": "2026-05-16T11:45:41.755Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12622,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 28777,
+      "submitted_at": "2026-05-15T11:29:43.405Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6542,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 205242,
+      "submitted_at": "2026-05-15T11:33:12.703Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6454,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 43943,
+      "submitted_at": "2026-05-15T11:33:59.704Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6912,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 8392,
+      "submitted_at": "2026-05-15T11:34:10.502Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6500,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "general knowledge"
+      },
+      "time_spent_ms": 38442,
+      "submitted_at": "2026-05-15T11:35:01.798Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6878,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 20019,
+      "submitted_at": "2026-05-15T11:35:53.984Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 19343,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 6884,
+      "submitted_at": "2026-05-15T11:36:03.349Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12451,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 44586,
+      "submitted_at": "2026-05-15T11:36:51.340Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 7079,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 23264,
+      "submitted_at": "2026-05-15T11:37:16.613Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 2425,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": " \"رسالہ اسباب بغاوت ہند\" کس نے تحریر کیا؟"
+      },
+      "time_spent_ms": 1679,
+      "submitted_at": "2026-05-15T11:37:44.888Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12710,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 25015,
+      "submitted_at": "2026-05-15T11:38:14.327Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12589,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 45081,
+      "submitted_at": "2026-05-15T11:39:01.119Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6883,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 30085,
+      "submitted_at": "2026-05-15T11:39:33.427Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12611,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 3716,
+      "submitted_at": "2026-05-15T11:39:38.932Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 7206,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 4268,
+      "submitted_at": "2026-05-15T11:39:45.214Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12455,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 40191,
+      "submitted_at": "2026-05-15T11:40:28.856Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6547,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 5987,
+      "submitted_at": "2026-05-15T11:40:55.259Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12279,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "options": {
+          "A": "⁦1929⁩ء",
+          "B": "‏⁦1930⁩ء",
+          "C": "1931⁩ء",
+          "D": " 1932⁩ء"
+        }
+      },
+      "time_spent_ms": 1473,
+      "submitted_at": "2026-05-15T11:44:21.710Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 12191,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 48417,
+      "submitted_at": "2026-05-15T11:45:12.553Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 19490,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 8387,
+      "submitted_at": "2026-05-15T11:45:23.790Z"
+    },
+    {
+      "annotator": "Aliya",
+      "mcq_id": 6403,
+      "batch_id": "batch_059",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 53880,
+      "submitted_at": "2026-05-15T11:46:19.086Z"
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "annotator": "Huzaima",
+  "batch_id": "batch_051",
+  "exported_at": "2026-05-15T11:01:57.146Z",
+  "count": 50,
+  "n_answered": 50,
+  "n_flagged": 3,
+  "annotations": [
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27260,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 68244,
+      "submitted_at": "2026-05-15T01:23:50.015Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27185,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 26227,
+      "submitted_at": "2026-05-15T01:24:36.957Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27289,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 35400,
+      "submitted_at": "2026-05-15T01:25:28.898Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 7301,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "unsure",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 375227,
+      "submitted_at": "2026-05-15T01:31:57.061Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27113,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 69242,
+      "submitted_at": "2026-05-15T01:33:36.073Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6930,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 61228,
+      "submitted_at": "2026-05-15T01:34:51.324Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27306,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "general knowledge"
+      },
+      "time_spent_ms": 18278,
+      "submitted_at": "2026-05-15T01:36:01.447Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27160,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 67225,
+      "submitted_at": "2026-05-15T01:37:18.411Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 7180,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 11498,
+      "submitted_at": "2026-05-15T01:37:56.370Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 7286,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 1691,
+      "submitted_at": "2026-05-15T01:38:42.412Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6962,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 137963,
+      "submitted_at": "2026-05-15T01:41:01.989Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6664,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 37242,
+      "submitted_at": "2026-05-15T01:42:27.502Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12810,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 22661,
+      "submitted_at": "2026-05-15T01:43:11.370Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6634,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 40163,
+      "submitted_at": "2026-05-15T01:43:53.065Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12454,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 14076,
+      "submitted_at": "2026-05-15T01:44:39.016Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 19402,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 18412,
+      "submitted_at": "2026-05-15T01:45:06.841Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6485,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 24952,
+      "submitted_at": "2026-05-15T01:45:33.811Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27132,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": true,
+      "flag_note": "Multiple answers A and B both",
+      "edits": {
+        "subdomain": "geography"
+      },
+      "time_spent_ms": 35142,
+      "submitted_at": "2026-05-15T01:46:54.474Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6531,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 9169,
+      "submitted_at": "2026-05-15T01:47:43.635Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 2420,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 5014,
+      "submitted_at": "2026-05-15T01:47:55.698Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 667,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 29824,
+      "submitted_at": "2026-05-15T01:48:29.072Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12115,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 1106,
+      "submitted_at": "2026-05-15T01:48:47.383Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12331,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 14095,
+      "submitted_at": "2026-05-15T01:49:04.456Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12337,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 1574,
+      "submitted_at": "2026-05-15T01:50:59.275Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6934,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 62924,
+      "submitted_at": "2026-05-15T01:52:04.105Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6617,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 24005,
+      "submitted_at": "2026-05-15T01:52:51.032Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 7041,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 40559,
+      "submitted_at": "2026-05-15T01:53:41.292Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12887,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 110764,
+      "submitted_at": "2026-05-15T10:43:38.264Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12229,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 50079,
+      "submitted_at": "2026-05-15T10:44:32.477Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27334,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 9538,
+      "submitted_at": "2026-05-15T10:46:01.680Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12462,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 35253,
+      "submitted_at": "2026-05-15T10:45:54.438Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6569,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "islamic studies"
+      },
+      "time_spent_ms": 14599,
+      "submitted_at": "2026-05-15T10:46:23.989Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27310,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 117229,
+      "submitted_at": "2026-05-15T10:48:22.456Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6811,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "question": "\"جو شخص معاشرے سے الگ تھلک ہو کے رہتا ہے وہ دیوتا ہے یا حیوان\" کہنا ہے:"
+      },
+      "time_spent_ms": 33844,
+      "submitted_at": "2026-05-15T10:49:24.638Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6546,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": true,
+      "flag_note": "Multiple answers A and B",
+      "edits": {},
+      "time_spent_ms": 22124,
+      "submitted_at": "2026-05-15T10:50:01.070Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 7256,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 45717,
+      "submitted_at": "2026-05-15T10:50:55.422Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6400,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 11712,
+      "submitted_at": "2026-05-15T10:51:17.499Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6834,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 48436,
+      "submitted_at": "2026-05-15T10:52:08.932Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12449,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": true,
+      "flag_note": "Repeated",
+      "edits": {},
+      "time_spent_ms": 3392,
+      "submitted_at": "2026-05-15T10:52:18.617Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 7121,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 18194,
+      "submitted_at": "2026-05-15T10:52:39.507Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27291,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 15777,
+      "submitted_at": "2026-05-15T10:52:57.948Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 19374,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 59348,
+      "submitted_at": "2026-05-15T10:54:01.981Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6484,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 20035,
+      "submitted_at": "2026-05-15T10:54:24.186Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12635,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 108849,
+      "submitted_at": "2026-05-15T10:56:14.338Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12143,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 18691,
+      "submitted_at": "2026-05-15T10:58:44.770Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 6494,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "C",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 13980,
+      "submitted_at": "2026-05-15T10:58:59.939Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 7202,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 33696,
+      "submitted_at": "2026-05-15T11:00:10.212Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12307,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "A",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 47034,
+      "submitted_at": "2026-05-15T11:01:23.211Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 27165,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "D",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {
+        "subdomain": "pakistan studies"
+      },
+      "time_spent_ms": 15121,
+      "submitted_at": "2026-05-15T11:01:29.998Z"
+    },
+    {
+      "annotator": "Huzaima",
+      "mcq_id": 12458,
+      "batch_id": "batch_051",
+      "is_iaa": false,
+      "selected_key": "B",
+      "flagged": false,
+      "flag_note": "",
+      "edits": {},
+      "time_spent_ms": 12452,
+      "submitted_at": "2026-05-15T11:01:44.037Z"
+    }
+  ]
+}

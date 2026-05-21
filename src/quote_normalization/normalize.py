@@ -26,7 +26,7 @@ STRAIGHT = '"'
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SRC_DIR = REPO_ROOT / "data" / "4-rtl-aligned"
 DST_DIR = REPO_ROOT / "data" / "5-quote-normalized"
-FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json"]
+FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json", "mcqs_upsampled.json"]
 
 
 def normalize_quotes(text: str) -> str:

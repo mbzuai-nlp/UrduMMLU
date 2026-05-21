@@ -33,7 +33,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SRC_DIR = REPO_ROOT / "data" / "14-bidi-isolated"
 DST_DIR = REPO_ROOT / "data" / "15-english-filtered"
-FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json"]
+FILES = ["mcqs_with_answers.json", "mcqs_without_answers.json", "mcqs_upsampled.json"]
 
 ENGLISH_FUNCTION_WORDS = frozenset({
     "the", "is", "are", "was", "were", "be", "been", "a", "an", "and", "or", "not",
