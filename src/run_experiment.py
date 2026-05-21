@@ -92,11 +92,15 @@ async def _gemini_query(
         try:
             resp = await asyncio.to_thread(model.generate_content, prompt)
             um = getattr(resp, "usage_metadata", None)
-            tokens = {
-                "input": getattr(um, "prompt_token_count", 0) or 0,
-                "output": getattr(um, "candidates_token_count", 0) or 0,
-                "cached": getattr(um, "cached_content_token_count", 0) or 0,
-            } if um else _zero
+            tokens = (
+                {
+                    "input": getattr(um, "prompt_token_count", 0) or 0,
+                    "output": getattr(um, "candidates_token_count", 0) or 0,
+                    "cached": getattr(um, "cached_content_token_count", 0) or 0,
+                }
+                if um
+                else _zero
+            )
             if getattr(resp, "text", None):
                 return resp.text.strip(), tokens
             return f"ERROR: finish_reason={resp.candidates[0].finish_reason}", tokens
@@ -181,16 +185,22 @@ async def _gpt_query(
                 max_completion_tokens=model_cfg.get("max_completion_tokens", 16),
                 temperature=model_cfg.get("temperature", 0),
                 top_p=1.0,
+                reasoning_effort=model_cfg.get("reasoning_effort", "medium"),
             )
             choice = resp.choices[0]
             content = choice.message.content
             usage = getattr(resp, "usage", None)
             details = getattr(usage, "prompt_tokens_details", None)
-            tokens = {
-                "input": getattr(usage, "prompt_tokens", 0) or 0,
-                "output": getattr(usage, "completion_tokens", 0) or 0,
-                "cached": getattr(details, "cached_tokens", 0) or 0,
-            } if usage else _zero
+            tokens = (
+                {
+                    "input": getattr(usage, "prompt_tokens", 0) or 0,
+                    "reasoning": getattr(details, "reasoning_effort_tokens", 0) or 0,
+                    "output": getattr(usage, "completion_tokens", 0) or 0,
+                    "cached": getattr(details, "cached_tokens", 0) or 0,
+                }
+                if usage
+                else _zero
+            )
 
             if content and content.strip():
                 return content.strip(), tokens
@@ -363,11 +373,15 @@ async def _hf_inference_query(
             choice = resp.choices[0]
             content = choice.message.content
             usage = getattr(resp, "usage", None)
-            tokens = {
-                "input": getattr(usage, "prompt_tokens", 0) or 0,
-                "output": getattr(usage, "completion_tokens", 0) or 0,
-                "cached": 0,
-            } if usage else _zero
+            tokens = (
+                {
+                    "input": getattr(usage, "prompt_tokens", 0) or 0,
+                    "output": getattr(usage, "completion_tokens", 0) or 0,
+                    "cached": 0,
+                }
+                if usage
+                else _zero
+            )
 
             if content and content.strip():
                 return content.strip(), tokens
@@ -630,7 +644,9 @@ async def main() -> None:
         elif provider == "claude":
             await run_claude_pipeline(cfg, lang, model_cfg, samples, results, out_path)
         elif provider == "hf_inference":
-            await run_hf_inference_pipeline(cfg, lang, model_cfg, samples, results, out_path)
+            await run_hf_inference_pipeline(
+                cfg, lang, model_cfg, samples, results, out_path
+            )
         elif provider == "huggingface":
             await asyncio.to_thread(
                 run_hf_pipeline, cfg, lang, model_cfg, samples, results, out_path

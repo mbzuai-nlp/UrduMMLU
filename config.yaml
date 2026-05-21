@@ -6,7 +6,7 @@
 
 # -------------------- Experiment Settings --------------------
 experiment:
-  limit: 20 # null = all samples; integer = first N samples
+  limit: 10 # null = all samples; integer = first N samples
   batch_size: 10 # concurrent API requests (API models only)
   prompt_language:
     ur # "en" for English prompt, "ur" for Urdu prompt
@@ -14,7 +14,7 @@ experiment:
 
 # -------------------- Data ----------------------------------
 data:
-  metadata_path: data/!-final/mcqs.json
+  metadata_path: data/26-hf/mcqs.json
 
 # -------------------- Prompts (0-shot) -----------------------
 # Two prompt sets: English (en) and Urdu (ur).
@@ -63,8 +63,8 @@ prompts:
 models:
   # ── Gemini ─────────────────────────────────────────────────
   - provider: gemini
-    enabled: true
-    name: gemini-3-flash-preview
+    enabled: false
+    name: gemini-3.1-flash-lite
     temperature: 0
     max_output_tokens: 8192
 
@@ -77,15 +77,17 @@ models:
   # ── OpenAI GPT ─────────────────────────────────────────────
   - provider: gpt
     enabled: true
-    name: gpt-5-mini
+    name: gpt-5.4-mini
     temperature: 1.0
     max_completion_tokens: 32768
+    reasoning_effort: "high"
 
   - provider: gpt
-    enabled: false
+    enabled: true
     name: gpt-5.4
     temperature: 1.0
     max_completion_tokens: 8192
+    reasoning_effort: "high"
 
   # ── Anthropic Claude ───────────────────────────────────────
   - provider: claude
@@ -101,7 +103,7 @@ models:
     max_tokens: 8192
 
   - provider: claude
-    enabled: true
+    enabled: false
     name: claude-opus-4-7
     temperature: 0
     max_tokens: 8192
@@ -111,7 +113,7 @@ models:
   # Set hf_router to the inference provider slug (e.g. novita, together, fireworks).
   # If hf_router is omitted the model name is sent as-is.
   - provider: hf_inference
-    enabled: true
+    enabled: false
     name: Qwen/Qwen3.5-397B-A17B
     hf_router: novita
     temperature: 0
@@ -130,7 +132,7 @@ models:
   # Set load_in_4bit: true for 4-bit quantization (requires bitsandbytes)
   # Set load_in_8bit: true for 8-bit quantization (requires bitsandbytes)
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: meta-llama/Llama-3.2-1B
     device: auto
     dtype: bfloat16
