@@ -10,7 +10,7 @@ experiment:
   batch_size: 10 # concurrent API requests (API models only)
   prompt_language: # list of languages to run; output written to output/<lang>
     - ur
-    #- en
+    - en
 
 # -------------------- Data ----------------------------------
 data:
