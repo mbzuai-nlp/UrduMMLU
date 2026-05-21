@@ -97,7 +97,7 @@ models:
     name: gpt-5.4-mini
     temperature: 1.0
     max_completion_tokens: 32768
-    reasoning_effort: "high"
+    # reasoning_effort: "high"
 
   - provider: gpt
     enabled: false
@@ -148,23 +148,7 @@ models:
   # Set dtype: "float16", "bfloat16", or "float32"
   # Set load_in_4bit: true for 4-bit quantization (requires bitsandbytes)
   # Set load_in_8bit: true for 8-bit quantization (requires bitsandbytes)
-  - provider: huggingface
-    enabled: false
-    name: meta-llama/Llama-3.2-1B
-    device: auto
-    dtype: bfloat16
-    max_new_tokens: 16
-    load_in_4bit: false
-    load_in_8bit: false
 
-  - provider: huggingface
-    enabled: false
-    name: Qwen/Qwen2.5-7B-Instruct
-    device: auto
-    dtype: bfloat16
-    max_new_tokens: 16
-    load_in_4bit: false
-    load_in_8bit: false
 
   # ── Urdu-specialized: Qalb Urdu Llama 3.1 ───────────────────
   - provider: huggingface
@@ -223,15 +207,6 @@ models:
     load_in_4bit: true
     load_in_8bit: false
 
-  # Base model: useful as a control, but not ideal for prompt-following MCQ.
-  - provider: huggingface
-    enabled: false
-    name: Qwen/Qwen3.5-2B-Base
-    device: auto
-    dtype: bfloat16
-    max_new_tokens: 16
-    load_in_4bit: false
-    load_in_8bit: false
 
   - provider: huggingface
     enabled: false
@@ -355,4 +330,53 @@ models:
     dtype: bfloat16
     max_new_tokens: 16
     load_in_4bit: false
+    load_in_8bit: false
+
+  - provider: huggingface
+    enabled: false
+    name: Qwen/Qwen3.5-2B-Base
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+# meta-llama/Llama-3.2-3B-Instruct
+  - provider: huggingface
+    enabled: false
+    name: meta-llama/Llama-3.2-3B-Instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: false
+    load_in_8bit: false
+
+# meta-llama/Llama-3.3-70B-Instruct
+  - provider: huggingface
+    enabled: false
+    name: meta-llama/Llama-3.3-70B-Instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+# meta-llama/Llama-4-Maverick-17B-128E-Instruct
+  - provider: huggingface
+    enabled: false
+    name: meta-llama/Llama-4-Maverick-17B-128E-Instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
+    load_in_8bit: false
+
+# meta-llama/Llama-4-Scout-17B-16E-Instruct
+  - provider: huggingface
+    enabled: false
+    name: meta-llama/Llama-4-Scout-17B-16E-Instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 16
+    load_in_4bit: true
     load_in_8bit: false
