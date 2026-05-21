@@ -325,7 +325,7 @@ models:
 
   - provider: huggingface
     enabled: false
-    name: microsoft/Phi-3.5-mini-instruct
+    name: microsoft/Phi-4-mini-reasoning
     device: auto
     dtype: bfloat16
     max_new_tokens: 96
@@ -341,6 +341,14 @@ models:
     max_new_tokens: 96
     load_in_4bit: false
     load_in_8bit: false
+  # - provider: huggingface
+  #   enabled: false
+  #   name: microsoft/phi-2
+  #   device: auto
+  #   dtype: bfloat16
+  #   max_new_tokens: 16
+  #   load_in_4bit: false
+  #   load_in_8bit: false
 
   - provider: huggingface
     enabled: false
