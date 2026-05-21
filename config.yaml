@@ -333,14 +333,7 @@ models:
     load_in_8bit: false
 
   # Base model, not instruction-tuned. Keep disabled unless used as a control.
-  - provider: huggingface
-    enabled: false
-    name: microsoft/phi-2
-    device: auto
-    dtype: bfloat16
-    max_new_tokens: 96
-    load_in_4bit: false
-    load_in_8bit: false
+
   # - provider: huggingface
   #   enabled: false
   #   name: microsoft/phi-2
