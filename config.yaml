@@ -6,7 +6,7 @@
 
 # -------------------- Experiment Settings --------------------
 experiment:
-  limit: 2 # null = all samples; integer = first N samples
+  limit: 20 # null = all samples; integer = first N samples
   batch_size: 10 # concurrent API requests (API models only)
   prompt_language:
     ur # "en" for English prompt, "ur" for Urdu prompt
@@ -69,7 +69,7 @@ models:
     max_output_tokens: 8192
 
   - provider: gemini
-    enabled: true
+    enabled: false
     name: gemini-3.5-flash
     temperature: 0
     max_output_tokens: 8192
@@ -82,32 +82,20 @@ models:
     max_completion_tokens: 32768
 
   - provider: gpt
-    enabled: true
+    enabled: false
     name: gpt-5.4
-    temperature: 1.0
-    max_completion_tokens: 8192
-
-  - provider: gpt
-    enabled: true
-    name: gpt-4.1
-    temperature: 1.0
-    max_completion_tokens: 8192
-
-  - provider: gpt
-    enabled: true
-    name: gpt-4o
     temperature: 1.0
     max_completion_tokens: 8192
 
   # ── Anthropic Claude ───────────────────────────────────────
   - provider: claude
-    enabled: true
+    enabled: false
     name: claude-haiku-4-5
     temperature: 0
     max_tokens: 8192
 
   - provider: claude
-    enabled: true
+    enabled: false
     name: claude-sonnet-4-6
     temperature: 0
     max_tokens: 8192
@@ -117,6 +105,24 @@ models:
     name: claude-opus-4-7
     temperature: 0
     max_tokens: 8192
+
+  # ── HuggingFace Inference API (cloud, requires HF_TOKEN) ──────
+  # Uses https://router.huggingface.co/v1 (OpenAI-compatible).
+  # Set hf_router to the inference provider slug (e.g. novita, together, fireworks).
+  # If hf_router is omitted the model name is sent as-is.
+  - provider: hf_inference
+    enabled: true
+    name: Qwen/Qwen3.5-397B-A17B
+    hf_router: novita
+    temperature: 0
+    max_completion_tokens: 16
+
+  - provider: hf_inference
+    enabled: false
+    name: deepseek-ai/DeepSeek-V3
+    hf_router: novita
+    temperature: 0
+    max_completion_tokens: 16
 
   # ── HuggingFace Text LLMs (run locally, no server required) ─
   # Set device: "cuda", "mps", "cpu", or "auto"
@@ -143,7 +149,7 @@ models:
 
   # ── Urdu-specialized: Qalb Urdu Llama 3.1 ───────────────────
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: enstazao/Qalb-1.0-8B-Instruct
     device: auto
     dtype: bfloat16
@@ -153,7 +159,7 @@ models:
 
   # ── Google Gemma family ────────────────────────────────────
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: google/gemma-3-4b-it
     device: auto
     dtype: bfloat16
@@ -162,7 +168,7 @@ models:
     load_in_8bit: false
 
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: google/gemma-4-31B-it
     device: auto
     dtype: bfloat16
@@ -171,7 +177,7 @@ models:
     load_in_8bit: false
 
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: google/gemma-4-26B-A4B-it
     device: auto
     dtype: bfloat16
@@ -181,7 +187,7 @@ models:
 
   # ── Qwen family: multilingual / UrduMMLU baselines ─────────
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: Qwen/Qwen3.6-27B
     device: auto
     dtype: bfloat16
@@ -190,7 +196,7 @@ models:
     load_in_8bit: false
 
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: Qwen/Qwen3.6-35B-A3B
     device: auto
     dtype: bfloat16
@@ -218,7 +224,7 @@ models:
     load_in_8bit: false
 
   # ── DeepSeek family ────────────────────────────────────────
-  # Very large MoE models. Use Inference Provider API. 
+  # Very large MoE models. Use Inference Provider API.
   - provider: huggingface
     enabled: false
     name: deepseek-ai/DeepSeek-V4-Flash
@@ -257,7 +263,7 @@ models:
 
   # ── Mistral Ministral 3 family ─────────────────────────────
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: mistralai/Ministral-3-14B-Instruct-2512
     device: auto
     dtype: bfloat16
@@ -266,7 +272,7 @@ models:
     load_in_8bit: false
 
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: mistralai/Ministral-3-8B-Instruct-2512
     device: auto
     dtype: bfloat16
@@ -275,7 +281,7 @@ models:
     load_in_8bit: false
 
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: mistralai/Ministral-3-3B-Instruct-2512
     device: auto
     dtype: bfloat16
@@ -285,7 +291,7 @@ models:
 
   # Reasoning variant: useful, but may output reasoning text unless constrained.
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: mistralai/Ministral-3-14B-Reasoning-2512
     device: auto
     dtype: bfloat16
@@ -295,7 +301,7 @@ models:
 
   # ── Urdu-specialized / South Asian LLMs ────────────────────
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: large-traversaal/Alif-1.0-8B-Instruct
     device: auto
     dtype: bfloat16
@@ -305,7 +311,7 @@ models:
 
   # ── Microsoft Phi family: compact baselines ────────────────
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: microsoft/Phi-4-mini-instruct
     device: auto
     dtype: bfloat16
@@ -314,7 +320,7 @@ models:
     load_in_8bit: false
 
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: microsoft/Phi-3.5-mini-instruct
     device: auto
     dtype: bfloat16

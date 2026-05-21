@@ -2,7 +2,8 @@
 """
 Text LLM Unified 0-Shot Inference Pipeline
 ===========================================
-Supports: Gemini, GPT (OpenAI), Claude (Anthropic), HuggingFace text LLMs.
+Supports: Gemini, GPT (OpenAI), Claude (Anthropic), HuggingFace text LLMs,
+          HuggingFace Inference API (provider: hf_inference, requires HF_TOKEN).
 
 Usage:
     python src/run_text_experiment.py --config config.yaml
@@ -85,18 +86,25 @@ async def _gemini_query(
     prompt: str,
     retries: int = 5,
     wait: int = 8,
-) -> str:
+) -> tuple:
+    _zero = {"input": 0, "output": 0, "cached": 0}
     for attempt in range(retries):
         try:
             resp = await asyncio.to_thread(model.generate_content, prompt)
+            um = getattr(resp, "usage_metadata", None)
+            tokens = {
+                "input": getattr(um, "prompt_token_count", 0) or 0,
+                "output": getattr(um, "candidates_token_count", 0) or 0,
+                "cached": getattr(um, "cached_content_token_count", 0) or 0,
+            } if um else _zero
             if getattr(resp, "text", None):
-                return resp.text.strip()
-            return f"ERROR: finish_reason={resp.candidates[0].finish_reason}"
+                return resp.text.strip(), tokens
+            return f"ERROR: finish_reason={resp.candidates[0].finish_reason}", tokens
         except Exception as exc:
             if attempt == retries - 1:
-                return f"CONNECTION_FAILED: {exc}"
+                return f"CONNECTION_FAILED: {exc}", _zero
             await asyncio.sleep(wait)
-    return "CONNECTION_FAILED"
+    return "CONNECTION_FAILED", _zero
 
 
 async def run_gemini_pipeline(
@@ -141,8 +149,8 @@ async def run_gemini_pipeline(
         tasks = [_gemini_query(model, build_user_prompt(cfg, lang, e)) for e in batch]
 
         responses = await asyncio.gather(*tasks)
-        for entry, resp in zip(batch, responses):
-            results[entry["id"]] = {**entry, "prediction": resp}
+        for entry, (pred, tokens) in zip(batch, responses):
+            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
 
         atomic_write_json(out_path, list(results.values()))
         print(f"  [flush] batch {i // batch_size + 1}/{total_batches}")
@@ -159,7 +167,8 @@ async def _gpt_query(
     model_cfg: dict,
     retries: int = 5,
     wait: int = 8,
-) -> str:
+) -> tuple:
+    _zero = {"input": 0, "output": 0, "cached": 0}
     messages = [
         {"role": "system", "content": system},
         {"role": "user", "content": prompt},
@@ -175,21 +184,28 @@ async def _gpt_query(
             )
             choice = resp.choices[0]
             content = choice.message.content
+            usage = getattr(resp, "usage", None)
+            details = getattr(usage, "prompt_tokens_details", None)
+            tokens = {
+                "input": getattr(usage, "prompt_tokens", 0) or 0,
+                "output": getattr(usage, "completion_tokens", 0) or 0,
+                "cached": getattr(details, "cached_tokens", 0) or 0,
+            } if usage else _zero
 
             if content and content.strip():
-                return content.strip()
+                return content.strip(), tokens
 
-            usage = getattr(resp, "usage", None)
             return (
                 f"EMPTY_OUTPUT: "
                 f"finish_reason={choice.finish_reason}; "
-                f"usage={usage}"
+                f"usage={usage}",
+                tokens,
             )
         except Exception as exc:
             if attempt == retries - 1:
-                return f"CONNECTION_FAILED: {exc}"
+                return f"CONNECTION_FAILED: {exc}", _zero
             await asyncio.sleep(wait)
-    return "CONNECTION_FAILED"
+    return "CONNECTION_FAILED", _zero
 
 
 async def run_gpt_pipeline(
@@ -231,8 +247,8 @@ async def run_gpt_pipeline(
         ]
 
         responses = await asyncio.gather(*tasks)
-        for entry, resp in zip(batch, responses):
-            results[entry["id"]] = {**entry, "prediction": resp}
+        for entry, (pred, tokens) in zip(batch, responses):
+            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
 
         atomic_write_json(out_path, list(results.values()))
         print(f"  [flush] batch {i // batch_size + 1}/{total_batches}")
@@ -249,7 +265,8 @@ async def _claude_query(
     model_cfg: dict,
     retries: int = 5,
     wait: int = 8,
-) -> str:
+) -> tuple:
+    _zero = {"input": 0, "output": 0, "cached": 0}
     for attempt in range(retries):
         try:
             resp = await client.messages.create(
@@ -258,12 +275,18 @@ async def _claude_query(
                 system=system,
                 messages=[{"role": "user", "content": prompt}],
             )
-            return resp.content[0].text.strip()
+            usage = resp.usage
+            tokens = {
+                "input": getattr(usage, "input_tokens", 0) or 0,
+                "output": getattr(usage, "output_tokens", 0) or 0,
+                "cached": getattr(usage, "cache_read_input_tokens", 0) or 0,
+            }
+            return resp.content[0].text.strip(), tokens
         except Exception as exc:
             if attempt == retries - 1:
-                return f"CONNECTION_FAILED: {exc}"
+                return f"CONNECTION_FAILED: {exc}", _zero
             await asyncio.sleep(wait)
-    return "CONNECTION_FAILED"
+    return "CONNECTION_FAILED", _zero
 
 
 async def run_claude_pipeline(
@@ -305,8 +328,112 @@ async def run_claude_pipeline(
         ]
 
         responses = await asyncio.gather(*tasks)
-        for entry, resp in zip(batch, responses):
-            results[entry["id"]] = {**entry, "prediction": resp}
+        for entry, (pred, tokens) in zip(batch, responses):
+            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
+
+        atomic_write_json(out_path, list(results.values()))
+        print(f"  [flush] batch {i // batch_size + 1}/{total_batches}")
+
+
+# ===================== HUGGINGFACE INFERENCE API ===================== #
+
+
+async def _hf_inference_query(
+    client,
+    model_name: str,
+    prompt: str,
+    system: str,
+    model_cfg: dict,
+    retries: int = 5,
+    wait: int = 8,
+) -> tuple:
+    _zero = {"input": 0, "output": 0, "cached": 0}
+    messages = [
+        {"role": "system", "content": system},
+        {"role": "user", "content": prompt},
+    ]
+    for attempt in range(retries):
+        try:
+            resp = await client.chat.completions.create(
+                model=model_name,
+                messages=messages,
+                max_tokens=model_cfg.get("max_completion_tokens", 16),
+                temperature=model_cfg.get("temperature", 0),
+            )
+            choice = resp.choices[0]
+            content = choice.message.content
+            usage = getattr(resp, "usage", None)
+            tokens = {
+                "input": getattr(usage, "prompt_tokens", 0) or 0,
+                "output": getattr(usage, "completion_tokens", 0) or 0,
+                "cached": 0,
+            } if usage else _zero
+
+            if content and content.strip():
+                return content.strip(), tokens
+
+            return (
+                f"EMPTY_OUTPUT: "
+                f"finish_reason={choice.finish_reason}; "
+                f"usage={usage}",
+                tokens,
+            )
+        except Exception as exc:
+            if attempt == retries - 1:
+                return f"CONNECTION_FAILED: {exc}", _zero
+            await asyncio.sleep(wait)
+    return "CONNECTION_FAILED", _zero
+
+
+async def run_hf_inference_pipeline(
+    cfg: dict,
+    lang: str,
+    model_cfg: dict,
+    samples: list,
+    results: dict,
+    out_path: Path,
+) -> None:
+    try:
+        from openai import AsyncOpenAI
+    except ImportError:
+        print("[ERROR] openai not installed. Run: pip install openai")
+        return
+
+    api_key = os.getenv("HF_TOKEN")
+    if not api_key:
+        raise ValueError("HF_TOKEN environment variable not set")
+
+    client = AsyncOpenAI(
+        base_url="https://router.huggingface.co/v1",
+        api_key=api_key,
+    )
+
+    # Append :router_suffix if hf_router is specified (e.g., "novita")
+    hf_router = model_cfg.get("hf_router")
+    model_name = f"{model_cfg['name']}:{hf_router}" if hf_router else model_cfg["name"]
+
+    system = get_system_prompt(cfg, lang)
+    batch_size = cfg["experiment"]["batch_size"]
+    pending = [e for e in samples if e["id"] not in results]
+    total_batches = (len(pending) + batch_size - 1) // batch_size
+    print(f"  [{len(pending)} pending]  (HF router model: {model_name})")
+
+    for i in range(0, len(pending), batch_size):
+        batch = pending[i : i + batch_size]
+        tasks = [
+            _hf_inference_query(
+                client,
+                model_name,
+                build_user_prompt(cfg, lang, e),
+                system,
+                model_cfg,
+            )
+            for e in batch
+        ]
+
+        responses = await asyncio.gather(*tasks)
+        for entry, (pred, tokens) in zip(batch, responses):
+            results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
 
         atomic_write_json(out_path, list(results.values()))
         print(f"  [flush] batch {i // batch_size + 1}/{total_batches}")
@@ -366,7 +493,7 @@ def _query_hf_single(
     prompt: str,
     system: str,
     max_new_tokens: int,
-) -> str:
+) -> tuple:
     import torch
 
     messages = [
@@ -390,7 +517,8 @@ def _query_hf_single(
 
     input_len = inputs["input_ids"].shape[-1]
     generated_ids = output_ids[0][input_len:]
-    return tokenizer.decode(generated_ids, skip_special_tokens=True).strip()
+    tokens = {"input": input_len, "output": len(generated_ids), "cached": 0}
+    return tokenizer.decode(generated_ids, skip_special_tokens=True).strip(), tokens
 
 
 def run_hf_pipeline(
@@ -412,7 +540,7 @@ def run_hf_pipeline(
 
     for idx, entry in enumerate(pending):
         try:
-            pred = _query_hf_single(
+            pred, tokens = _query_hf_single(
                 tokenizer,
                 model,
                 build_user_prompt(cfg, lang, entry),
@@ -420,8 +548,8 @@ def run_hf_pipeline(
                 max_new_tokens,
             )
         except Exception as exc:
-            pred = f"ERROR: {exc}"
-        results[entry["id"]] = {**entry, "prediction": pred}
+            pred, tokens = f"ERROR: {exc}", {"input": 0, "output": 0, "cached": 0}
+        results[entry["id"]] = {**entry, "prediction": pred, "token_used": tokens}
 
         if (idx + 1) % flush_every == 0 or (idx + 1) == len(pending):
             atomic_write_json(out_path, list(results.values()))
@@ -501,6 +629,8 @@ async def main() -> None:
             await run_gpt_pipeline(cfg, lang, model_cfg, samples, results, out_path)
         elif provider == "claude":
             await run_claude_pipeline(cfg, lang, model_cfg, samples, results, out_path)
+        elif provider == "hf_inference":
+            await run_hf_inference_pipeline(cfg, lang, model_cfg, samples, results, out_path)
         elif provider == "huggingface":
             await asyncio.to_thread(
                 run_hf_pipeline, cfg, lang, model_cfg, samples, results, out_path
