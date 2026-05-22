@@ -144,7 +144,7 @@ models:
     max_completion_tokens: 96
 
   - provider: hf_inference
-    enabled: true
+    enabled: false
     name: google/gemma-4-26B-A4B-it
     hf_router: novita
     temperature: 0
