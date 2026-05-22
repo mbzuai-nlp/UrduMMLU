@@ -15,6 +15,7 @@ Usage:
     python src/analysis/eval.py                  # scan all langs / models
     python src/analysis/eval.py --lang ur
     python src/analysis/eval.py --model claude-haiku-4-5
+    python src/analysis/eval.py --exclude-domain Humanities --exclude-domain Other
 """
 
 from __future__ import annotations
@@ -61,15 +62,26 @@ def parse_key(pred: str | None) -> str | None:
     return None
 
 
-def evaluate(records: list[dict]) -> dict:
+def evaluate(
+    records: list[dict],
+    exclude_domains: set[str] | None = None,
+    exclude_subdomains: set[str] | None = None,
+) -> dict:
+    exclude_domains = exclude_domains or set()
+    exclude_subdomains = exclude_subdomains or set()
+
     dom: dict[str, list[int]] = defaultdict(lambda: [0, 0])
     lvl: dict[str, list[int]] = defaultdict(lambda: [0, 0])
     sub: dict[str, list[int]] = defaultdict(lambda: [0, 0])
     total = [0, 0]
     err = 0
     parse_fail = 0
+    excluded = 0
 
     for r in records:
+        if r.get("domain") in exclude_domains or r.get("subdomain") in exclude_subdomains:
+            excluded += 1
+            continue
         pred = r.get("prediction") or ""
         if str(pred).startswith(("ERROR", "CONNECTION_FAILED")):
             err += 1
@@ -90,6 +102,7 @@ def evaluate(records: list[dict]) -> dict:
 
     return {
         "n": len(records),
+        "excluded": excluded,
         "parseable": total[1],
         "parse_fail": parse_fail,
         "errors": err,
@@ -114,7 +127,22 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--lang", help="Restrict to a single language (e.g. ur)")
     parser.add_argument("--model", help="Restrict to a model name substring")
+    parser.add_argument(
+        "--exclude-domain", action="append", default=[],
+        help="Domain to exclude from accuracy (repeatable). e.g. --exclude-domain Humanities",
+    )
+    parser.add_argument(
+        "--exclude-subdomain", action="append", default=[],
+        help="Subdomain to exclude from accuracy (repeatable).",
+    )
     args = parser.parse_args()
+    exclude_domains = set(args.exclude_domain)
+    exclude_subdomains = set(args.exclude_subdomain)
+    if exclude_domains or exclude_subdomains:
+        bits = []
+        if exclude_domains: bits.append(f"domains={sorted(exclude_domains)}")
+        if exclude_subdomains: bits.append(f"subdomains={sorted(exclude_subdomains)}")
+        print(f"Excluding: {', '.join(bits)}")
 
     langs = sorted(p.name for p in OUTPUT_DIR.iterdir() if p.is_dir())
     for lang in langs:
@@ -127,7 +155,11 @@ def main() -> None:
             if args.model and args.model not in model:
                 continue
             records = json.load(open(path, encoding="utf-8"))
-            stats = evaluate(records)
+            stats = evaluate(
+                records,
+                exclude_domains=exclude_domains,
+                exclude_subdomains=exclude_subdomains,
+            )
             print(fmt_row(model, stats))
             for dn, (c, t, a) in sorted(stats["by_domain"].items(), key=lambda x: -x[1][1]):
                 print(f"      {dn:<22} {c:>5}/{t:<6} {a*100:>5.1f}%")
