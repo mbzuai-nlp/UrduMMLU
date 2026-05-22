@@ -1,0 +1,30 @@
+task: urdu_mmlu
+dataset_path: json
+dataset_kwargs:
+  data_files:
+    test: data/26-hf/mcqs_eval.jsonl
+test_split: test
+fewshot_split: test   # lm-eval excludes the current doc when sampling few-shot from the same split
+
+output_type: multiple_choice
+
+# Prompt: subject header + question + labeled options, then "Answer:"
+# Few-shot examples follow the same template automatically.
+doc_to_text: "Subject: {{domain}} – {{subdomain}} | Level: {{level}}\n\nQuestion: {{question}}\n\nA) {{option_a}}\nB) {{option_b}}\nC) {{option_c}}\nD) {{option_d}}\n\nAnswer:"
+
+# Score the single-letter continuations A / B / C / D (MMLU standard).
+doc_to_choice: "['A', 'B', 'C', 'D']"
+
+# Integer index of the correct answer (0=A, 1=B, 2=C, 3=D), stored in prep step.
+doc_to_target: answer
+
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+  - metric: acc_norm
+    aggregation: mean
+    higher_is_better: true
+
+metadata:
+  version: 1.0

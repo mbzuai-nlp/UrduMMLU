@@ -137,11 +137,11 @@ models:
   # Qwen3.x: thinking mode is ON by default. Either bump max tokens or
   # add ``/no_think`` to the prompt to keep responses to the 2-line format.
   - provider: hf_inference
-    enabled: false
-    name: Qwen/Qwen3.5-397B-A17B
-    hf_router: novita
+    enabled: true
+    name: google/gemma-4-31B-it
+    hf_router: featherless-ai
     temperature: 0
-    max_completion_tokens: 4096
+    max_completion_tokens: 96
 
   # DeepSeek-V3: non-reasoning instruct model.
   - provider: hf_inference

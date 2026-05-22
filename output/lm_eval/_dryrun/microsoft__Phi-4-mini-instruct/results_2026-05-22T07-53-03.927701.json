@@ -1,0 +1,124 @@
+{
+  "results": {
+    "urdu_mmlu": {
+      "alias": "urdu_mmlu",
+      "acc,none": 0.0,
+      "acc_stderr,none": 0.0,
+      "acc_norm,none": 0.0,
+      "acc_norm_stderr,none": 0.0
+    }
+  },
+  "group_subtasks": {
+    "urdu_mmlu": []
+  },
+  "configs": {
+    "urdu_mmlu": {
+      "task": "urdu_mmlu",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "data/26-hf/mcqs_eval.jsonl"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "Subject: {{domain}} – {{subdomain}} | Level: {{level}}\n\nQuestion: {{question}}\n\nA) {{option_a}}\nB) {{option_b}}\nC) {{option_c}}\nD) {{option_d}}\n\nAnswer:",
+      "doc_to_target": "answer",
+      "unsafe_code": false,
+      "doc_to_choice": "['A', 'B', 'C', 'D']",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "microsoft/Phi-4-mini-instruct",
+        "dtype": "bfloat16"
+      }
+    }
+  },
+  "versions": {
+    "urdu_mmlu": 1.0
+  },
+  "n-shot": {
+    "urdu_mmlu": 0
+  },
+  "higher_is_better": {
+    "urdu_mmlu": {
+      "acc": true,
+      "acc_norm": true
+    }
+  },
+  "n-samples": {
+    "urdu_mmlu": {
+      "original": 26389,
+      "effective": 5
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=microsoft/Phi-4-mini-instruct,dtype=bfloat16",
+    "model_num_parameters": 3836021760,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "batch_size": "2",
+    "batch_sizes": [],
+    "device": "auto",
+    "use_cache": null,
+    "limit": 5.0,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 42,
+    "numpy_seed": 42,
+    "torch_seed": 42,
+    "fewshot_seed": 42
+  },
+  "git_hash": "707d62a",
+  "date": 1779421829.126519,
+  "pretty_env_info": "PyTorch version: 2.8.0\nIs debug build: False\nCUDA used to build PyTorch: None\nROCM used to build PyTorch: N/A\n\nOS: macOS 26.3 (arm64)\nGCC version: Could not collect\nClang version: 17.0.0 (clang-1700.6.3.2)\nCMake version: version 4.1.0\nLibc version: N/A\n\nPython version: 3.11.13 (main, Jul 30 2025, 22:59:57) [Clang 17.0.0 (clang-1700.0.13.5)] (64-bit runtime)\nPython platform: macOS-26.3-arm64-arm-64bit\nIs CUDA available: False\nCUDA runtime version: No CUDA\nCUDA_MODULE_LOADING set to: N/A\nGPU models and configuration: No CUDA\nNvidia driver version: No CUDA\ncuDNN version: No CUDA\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nApple M4 Pro\n\nVersions of relevant libraries:\n[pip3] flake8==7.3.0\n[pip3] msgpack-numpy==0.4.8\n[pip3] mypy==1.20.2\n[pip3] mypy_extensions==1.1.0\n[pip3] numpy==1.26.4\n[pip3] onnxruntime==1.23.0\n[pip3] pytorch-lightning==2.5.6\n[pip3] torch==2.8.0\n[pip3] torchaudio==2.8.0\n[pip3] torchmetrics==0.10.3\n[pip3] torchtext==0.18.0\n[pip3] torchvision==0.23.0\n[conda] Could not collect",
+  "transformers_version": "4.57.6",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "199999"
+  ],
+  "tokenizer_eos_token": [
+    "<|endoftext|>",
+    "199999"
+  ],
+  "tokenizer_bos_token": [
+    "<|endoftext|>",
+    "199999"
+  ],
+  "eot_token_id": 199999,
+  "max_length": 131072,
+  "task_hashes": {},
+  "model_source": "hf",
+  "model_name": "microsoft/Phi-4-mini-instruct",
+  "model_name_sanitized": "microsoft__Phi-4-mini-instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 434758.592228875,
+  "end_time": 434913.475410541,
+  "total_evaluation_time_seconds": "154.88318166602403"
+}
