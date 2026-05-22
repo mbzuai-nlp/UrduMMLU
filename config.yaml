@@ -151,7 +151,7 @@ models:
     max_completion_tokens: 96
 
   - provider: hf_inference
-    enabled: true
+    enabled: false
     name: google/gemma-3-4b-it
     hf_router: featherless-ai
     temperature: 0
@@ -177,7 +177,7 @@ models:
   - provider: huggingface
     enabled: false
     name: google/gemma-3-4b-it
-    device: auto
+    device: cuda
     dtype: bfloat16
     max_new_tokens: 96
     load_in_4bit: false
@@ -223,11 +223,11 @@ models:
     load_in_8bit: false
 
   - provider: huggingface
-    enabled: false
-    name: Qwen/Qwen3.5-397B-A17B
-    device: auto
+    enabled: true
+    name: Qwen/Qwen3-8B
+    device: cuda
     dtype: bfloat16
-    max_new_tokens: 4096
+    max_new_tokens: 1024
     load_in_4bit: true
     load_in_8bit: false
 
