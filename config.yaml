@@ -100,14 +100,14 @@ models:
     name: gpt-5.4-mini
     temperature: 1.0
     max_completion_tokens: 8192
-    reasoning_effort: "high"
+    reasoning_effort: "none"
 
   - provider: gpt
     enabled: false
     name: gpt-5.4
     temperature: 1.0
-    max_completion_tokens: 8192
-    reasoning_effort: "high"
+    max_completion_tokens: 4096
+    reasoning_effort: "none"
 
   # ── Anthropic Claude ───────────────────────────────────────
   # Haiku 4.5: manual extended thinking, off by default → 2-line answer fits in 256.
@@ -385,21 +385,30 @@ models:
     load_in_8bit: false
 
   # meta-llama/Llama-4-Maverick-17B-128E-Instruct
-  - provider: huggingface
+  - provider: hf_inference
     enabled: false
     name: meta-llama/Llama-4-Maverick-17B-128E-Instruct
+    hf_router: sambanova
     device: auto
     dtype: bfloat16
     max_new_tokens: 96
-    load_in_4bit: true
+    load_in_4bit: false
     load_in_8bit: false
 
   # meta-llama/Llama-4-Scout-17B-16E-Instruct
-  - provider: huggingface
+  - provider: hf_inference
     enabled: false
     name: meta-llama/Llama-4-Scout-17B-16E-Instruct
+    hf_router: nscale
     device: auto
     dtype: bfloat16
     max_new_tokens: 96
-    load_in_4bit: true
+    load_in_4bit: false
     load_in_8bit: false
+
+  - provider: hf_inference
+    enabled: true
+    name: Qwen/Qwen3-4B-Instruct-2507
+    hf_router: nscale
+    temperature: 0
+    max_completion_tokens: 48
