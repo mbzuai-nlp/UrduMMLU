@@ -14674,5 +14674,1965 @@
       "cached": 0
     },
     "error": false
+  },
+  {
+    "id": 519,
+    "question": "غزل میں اشعار کی کم از کم تعداد کتنی ہوتی ہے؟",
+    "options": {
+      "A": "سات",
+      "B": "نو",
+      "C": "پانچ",
+      "D": "تین"
+    },
+    "correct_key": "C",
+    "domain": "Humanities",
+    "subdomain": "urdu literature",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: پانچ",
+    "token_used": {
+      "input": 324,
+      "output": 380,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 520,
+    "question": "مکالمہ اپنی اصل ماہیت کے اعتبار سے کیا ہوتا ہے؟",
+    "options": {
+      "A": "مختصر",
+      "B": "زبانی",
+      "C": "طویل",
+      "D": "سنجیدہ"
+    },
+    "correct_key": "B",
+    "domain": "Humanities",
+    "subdomain": "urdu literature",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: زبانی",
+    "token_used": {
+      "input": 332,
+      "output": 344,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 521,
+    "question": "\"زندانِ یار\" اور \"گلِ سخن\" قواعد کی رو سے مرکب کی کون سی قسم ہیں؟",
+    "options": {
+      "A": "مرکبِ توصیفی",
+      "B": "مرکبِ تام",
+      "C": "مرکبِ اضافی",
+      "D": "صفت نسبتی"
+    },
+    "correct_key": "C",
+    "domain": "Humanities",
+    "subdomain": "urdu literature",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: مرکبِ توصیفی",
+    "token_used": {
+      "input": 358,
+      "output": 878,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 522,
+    "question": "اسلامی نظام کا بنیادی اصول ۔۔۔۔۔۔۔۔۔۔۔۔۔ ہے۔",
+    "options": {
+      "A": "توحید",
+      "B": "حکومت",
+      "C": "انتخابات",
+      "D": "معاشرہ"
+    },
+    "correct_key": "A",
+    "domain": "Humanities",
+    "subdomain": "islamic studies",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: توحید",
+    "token_used": {
+      "input": 333,
+      "output": 229,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 523,
+    "question": "قیام پاکستان میں سنگِ میل کی حیثیت رکھنے والا صدارتی اجلاس (1930) _____ میں منعقد ہوا۔",
+    "options": {
+      "A": "کلکتہ",
+      "B": "کراچی",
+      "C": "لاہور",
+      "D": "الٰہ آباد"
+    },
+    "correct_key": "D",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D  \nAnswer text: الٰہ آباد",
+    "token_used": {
+      "input": 359,
+      "output": 404,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 524,
+    "question": "مسلم لیگ نے 'یومِ نجات' کس کے ردِ عمل میں منایا؟",
+    "options": {
+      "A": "سانحہ جلیانوالہ باغ",
+      "B": "کرپس مشن",
+      "C": "کانگریسی وزارتوں کے استعفے",
+      "D": "رولٹ ایکٹ"
+    },
+    "correct_key": "C",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: سانحہ جلیانوالہ باغ",
+    "token_used": {
+      "input": 358,
+      "output": 857,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 525,
+    "question": "پاکستان کا سب سے لمبا گلیشیر کون سا ہے؟",
+    "options": {
+      "A": "سیاچن",
+      "B": "بالتورو",
+      "C": "بتورہ",
+      "D": "ہسپار"
+    },
+    "correct_key": "A",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: سیاچن",
+    "token_used": {
+      "input": 328,
+      "output": 233,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 526,
+    "question": "کون سا پہاڑی سلسلہ پاکستان کو افغانستان سے الگ کرتا ہے؟",
+    "options": {
+      "A": "ہندوکش",
+      "B": "قراقرم",
+      "C": "پامیر",
+      "D": "ہمالیہ"
+    },
+    "correct_key": "A",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A\nAnswer text: ہندوکش",
+    "token_used": {
+      "input": 339,
+      "output": 344,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 527,
+    "question": "پاکستان میں پہلا مارشل لاء کس نے نافذ کیا؟",
+    "options": {
+      "A": "جنرل پرویز مشرف",
+      "B": "اسکندر مرزا",
+      "C": "جنرل ایوب خان",
+      "D": "جنرل ضیاء الحق"
+    },
+    "correct_key": "B",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: جنرل ایوب خان",
+    "token_used": {
+      "input": 348,
+      "output": 302,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 528,
+    "question": "سندھ کا زیریں میدانی علاقہ کہاں سے شروع ہوتا ہے؟",
+    "options": {
+      "A": "ملتان",
+      "B": "ٹھٹھہ",
+      "C": "مٹھن کوٹ",
+      "D": "کراچی"
+    },
+    "correct_key": "C",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: ٹھٹھہ",
+    "token_used": {
+      "input": 339,
+      "output": 246,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 529,
+    "question": "مسلم لیگ نے کرپس مشن کے فارمولے کو کیوں مسترد کیا؟",
+    "options": {
+      "A": "مسلم لیگ سے مشاورت نہیں کی گئی",
+      "B": "متحدہ برصغیر کے امکانات کی بنیاد پر",
+      "C": "پاکستان کے تصور کو مسترد کر دیا گیا",
+      "D": "اس منصوبے میں ہندوؤں کی برتری تسلیم کی گئی"
+    },
+    "correct_key": "C",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: پاکستان کے تصور کو مسترد کر دیا گیا",
+    "token_used": {
+      "input": 410,
+      "output": 687,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 530,
+    "question": "برطانوی حکومت نے ہندوستان کی آزادی کا ایکٹ کب منظور کیا؟",
+    "options": {
+      "A": "15 جولائی 1947",
+      "B": "15 مئی 1947",
+      "C": "15 جون 1947",
+      "D": "15 اپریل 1947"
+    },
+    "correct_key": "A",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: 15 جولائی 1947",
+    "token_used": {
+      "input": 369,
+      "output": 574,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 531,
+    "question": "مری کی پہاڑیاں کس کا حصہ ہیں؟",
+    "options": {
+      "A": "کیرتھر",
+      "B": "پیر پنجال",
+      "C": "ہندو کش",
+      "D": "قراقرم"
+    },
+    "correct_key": "B",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: پیر پنجال",
+    "token_used": {
+      "input": 329,
+      "output": 387,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 532,
+    "question": "ملک کے لیے محبت کے احساس میں قومیت اور یہاں تک کہ ملک کے لیے جان دینا مسلمانوں کے ایمان کا حصہ ہے — کس کے مطابق ہے؟",
+    "options": {
+      "A": "سر سید احمد خان",
+      "B": "لیاقت علی خان",
+      "C": "قائد اعظم محمد علی جناح",
+      "D": "علامہ اقبال"
+    },
+    "correct_key": "C",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D  \nAnswer text: علامہ اقبال",
+    "token_used": {
+      "input": 394,
+      "output": 465,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 533,
+    "question": "صحرائے تھر کس صوبے میں واقع ہے؟",
+    "options": {
+      "A": "پنجاب",
+      "B": "بلوچستان",
+      "C": "سندھ",
+      "D": "خیبر پختون خواہ"
+    },
+    "correct_key": "C",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: سندھ",
+    "token_used": {
+      "input": 328,
+      "output": 219,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 534,
+    "question": "جنرل ایوب خان نے پاکستان کے چیف مارشل لاء ایڈمنسٹریٹر کا عہدہ کب سنبھالا؟",
+    "options": {
+      "A": "اگست 1958",
+      "B": "ستمبر 1958",
+      "C": "نومبر 1958",
+      "D": "اکتوبر 1958"
+    },
+    "correct_key": "D",
+    "domain": "Social Sciences",
+    "subdomain": "pakistan studies",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D  \nAnswer text: اکتوبر 1958",
+    "token_used": {
+      "input": 371,
+      "output": 201,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 535,
+    "question": "ٹمپریچر کی پیمائش کا SI یونٹ ہے :",
+    "options": {
+      "A": "سینٹی گریڈ",
+      "B": "کنڈیلا",
+      "C": "کیلون",
+      "D": "فارن ہائیٹ"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: کیلون",
+    "token_used": {
+      "input": 334,
+      "output": 194,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 536,
+    "question": "ٹیسٹ ٹیوب کی گہرائی معلوم کرنے کے لیے سب سے موزوں آلہ کون سا ہے؟",
+    "options": {
+      "A": "سکرو گیج",
+      "B": "ورنیئر کیلیپرز",
+      "C": "میٹر راڈ",
+      "D": "پیمائشی فیتہ"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: ورنیئر کیلیپرز",
+    "token_used": {
+      "input": 364,
+      "output": 390,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 537,
+    "question": "ایک گیند کو اوپر کی طرف اچھالا گیا ہے۔ سب سے زیادہ بلند مقام پر اس کا اسراع (acceleration) کتنا ہوگا؟",
+    "options": {
+      "A": "20 m / s^2",
+      "B": "5 m / s^2",
+      "C": "صفر",
+      "D": "10 m / s^2"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: 10 m / s^2",
+    "token_used": {
+      "input": 372,
+      "output": 199,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 538,
+    "question": "ایک نیوٹن = ____",
+    "options": {
+      "A": "1 kg m−1 s−1",
+      "B": "1 kg m−1 s",
+      "C": "1 kg m.s",
+      "D": "1 kg m s−2"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: 1 kg m s−2",
+    "token_used": {
+      "input": 323,
+      "output": 354,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 539,
+    "question": "اگر کسی جسم کی رفتار دوگنی کر دی جائے تو اس پر عمل کرنے والی سینٹری پٹل فورس کتنی ہو جائے گی؟",
+    "options": {
+      "A": "تین گنا",
+      "B": "چار گنا",
+      "C": "آدھی",
+      "D": "دوگنا"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: چار گنا",
+    "token_used": {
+      "input": 364,
+      "output": 334,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 540,
+    "question": "نیوٹرل ایکویلبریم کی مثال ہے:",
+    "options": {
+      "A": "ٹیبل",
+      "B": "فٹ بال",
+      "C": "میز پر رکھی ہوئی کتاب",
+      "D": "پیرا ٹروپر"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: میز پر رکھی ہوئی کتاب",
+    "token_used": {
+      "input": 338,
+      "output": 591,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 541,
+    "question": "10N کی ایک فورس x-axis کے ساتھ عمل کر رہی ہے، اس کا افقی کمپوننٹ کتنا ہوگا؟",
+    "options": {
+      "A": "10 N",
+      "B": "0 N",
+      "C": "5 N",
+      "D": "15 N"
+    },
+    "correct_key": "A",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A\nAnswer text: 10 N",
+    "token_used": {
+      "input": 349,
+      "output": 272,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 542,
+    "question": "زمین کے مرکز پر \"g\" کی قیمت کیا ہوگی؟",
+    "options": {
+      "A": "∞",
+      "B": "1.6 m / s^2",
+      "C": "0 m / s^2",
+      "D": "9.8 m / s^2"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: 0 m / s^2",
+    "token_used": {
+      "input": 339,
+      "output": 317,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 543,
+    "question": "کلو واٹ آور کس مقدار کا یونٹ ہے؟",
+    "options": {
+      "A": "ٹارک",
+      "B": "قوت",
+      "C": "طاقت",
+      "D": "توانائی"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: توانائی",
+    "token_used": {
+      "input": 318,
+      "output": 245,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 544,
+    "question": "کسی جسم کی کثافت کس کے اصول سے معلوم کی جا سکتی ہے؟",
+    "options": {
+      "A": "نیوٹن کا قانون",
+      "B": "پاسکل کا قانون",
+      "C": "ارشمیدس کا اصول",
+      "D": "ہک کا قانون"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: ارشمیدس کا اصول",
+    "token_used": {
+      "input": 350,
+      "output": 231,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 545,
+    "question": "حرارت کی بہترین ریفلیکٹر کون سی سطح ہے؟",
+    "options": {
+      "A": "بے رونق سیاہ سطح",
+      "B": "سفید چمکدار سطح",
+      "C": "رنگین سطح",
+      "D": "چمکدار سلور سطح"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D  \nAnswer text: چمکدار سلور سطح",
+    "token_used": {
+      "input": 352,
+      "output": 308,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 546,
+    "question": "کسی شے کا ٹمپریچر برابر ہوتا ہے :",
+    "options": {
+      "A": "ہر مالیکیول کی مجموعی پوٹینشل توانائی کے",
+      "B": "ہر مالیکیول کی مجموعی کائنیٹک توانائی کے",
+      "C": "ہر مالیکیول کی اوسط کائنیٹک توانائی کے",
+      "D": "ہر مالیکیول کی اوسط پوٹینشل توانائی کے"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: ہر مالیکیول کی اوسط کائنیٹک توانائی کے",
+    "token_used": {
+      "input": 410,
+      "output": 321,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 547,
+    "question": "گلیڈرز ہوا میں زیادہ دیر تک کس وجہ سے رہ سکتے ہیں؟",
+    "options": {
+      "A": "پاور",
+      "B": "کنڈکشن",
+      "C": "ریڈی ایشن",
+      "D": "کنویکشن"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: کنویکشن",
+    "token_used": {
+      "input": 341,
+      "output": 290,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 548,
+    "question": "32°F = ____",
+    "options": {
+      "A": "0 K",
+      "B": "32 K",
+      "C": "100 °C",
+      "D": "0 °C"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: 0 °C",
+    "token_used": {
+      "input": 308,
+      "output": 227,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 549,
+    "question": "بوائلنگ کا عمل مائع میں ____ ہوتا ہے۔",
+    "options": {
+      "A": "ہر جگہ سے",
+      "B": "صرف نیچے سے",
+      "C": "صرف درمیان سے",
+      "D": "صرف اوپر والی سطح سے"
+    },
+    "correct_key": "A",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: ہر جگہ سے",
+    "token_used": {
+      "input": 342,
+      "output": 378,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 550,
+    "question": "ینگ ماڈیولس کی اکائی کیا ہے؟",
+    "options": {
+      "A": "ms−2",
+      "B": "ms−1",
+      "C": "kg / m2",
+      "D": "N / m2"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: N / m2",
+    "token_used": {
+      "input": 320,
+      "output": 370,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 551,
+    "question": "1μm = ____",
+    "options": {
+      "A": "1nm",
+      "B": "1000nm",
+      "C": "0.01nm",
+      "D": "0.001nm"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: 1000nm",
+    "token_used": {
+      "input": 313,
+      "output": 351,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 552,
+    "question": "ڈسپلیسمنٹ-ٹائم گراف کا سلوپ کیا ظاہر کرتا ہے؟",
+    "options": {
+      "A": "مومنٹم",
+      "B": "ایکسلریشن",
+      "C": "ویلاسٹی",
+      "D": "سپیڈ"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: ویلاسٹی",
+    "token_used": {
+      "input": 341,
+      "output": 299,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 553,
+    "question": "سینٹری پیٹل فورس ہمیشہ موشن کے ____ عمل کرتی ہے۔",
+    "options": {
+      "A": "مخالف",
+      "B": "غیر متوازی",
+      "C": "متوازی",
+      "D": "عمودی"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D  \nAnswer text: عمودی",
+    "token_used": {
+      "input": 331,
+      "output": 256,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 554,
+    "question": "جب کسی جسم کا سینٹر آف گریوٹی اس کی بلند ترین پوزیشن پر ہو تو وہ کون سی حالت میں ہو گا؟",
+    "options": {
+      "A": "نیوٹرل ایکولبریم",
+      "B": "ڈائنامک ایکولبریم",
+      "C": "غیر قیام پذیر ایکولبریم",
+      "D": "قیام پذیر ایکولبریم"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: غیر قیام پذیر ایکولبریم",
+    "token_used": {
+      "input": 397,
+      "output": 723,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 555,
+    "question": "مصنوعی سیارے کی مدار میں سپیڈ کس پر منحصر نہیں ہوتی؟",
+    "options": {
+      "A": "G",
+      "B": "زمین کا ماس",
+      "C": "سیٹلائٹ کا ماس",
+      "D": "زمین کا رداس"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: سیٹلائٹ کا ماس",
+    "token_used": {
+      "input": 344,
+      "output": 354,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 556,
+    "question": "زمین کے سنٹر پر \"g\" کی قیمت ____ ہوگی۔",
+    "options": {
+      "A": "∞",
+      "B": "1.6m/s2",
+      "C": "0 m / s2",
+      "D": "9.8m/s2"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: 0 m / s2",
+    "token_used": {
+      "input": 332,
+      "output": 297,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 557,
+    "question": "فورس اور ڈسپلیسمنٹ کے درمیان کون سا زاویہ ہو کہ کام زیادہ سے زیادہ ہو گا؟",
+    "options": {
+      "A": "30°",
+      "B": "0°",
+      "C": "90°",
+      "D": "60°"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "physics",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: 0°",
+    "token_used": {
+      "input": 352,
+      "output": 242,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 558,
+    "question": "48g میگنیشیم(Mg) میں موجود ایٹمز کی تعداد کیا ہوگی؟",
+    "options": {
+      "A": "4 NA",
+      "B": "NA",
+      "C": "2 NA",
+      "D": "1/2 NA"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: 2 NA",
+    "token_used": {
+      "input": 333,
+      "output": 333,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 559,
+    "question": "ایک عنصر جس کی الیکٹرانک کنفیگریشن 1s2, 2s2, 2p6, 3s1 ہے، اس کا تعلق ہے:",
+    "options": {
+      "A": "گروپ 3 = ، پیریڈ1 = ",
+      "B": "گروپ  1 = ، پیریڈ = 3",
+      "C": "گروپ7 =  ، پیریڈ=1",
+      "D": "گروپ1 = ، پیریڈ=7"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B\nAnswer text: گروپ  1 = ، پیریڈ = 3",
+    "token_used": {
+      "input": 398,
+      "output": 220,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 560,
+    "question": "درج ذیل میں سے آئیونک کمپاؤنڈ کی شناخت کریں۔",
+    "options": {
+      "A": "HCl",
+      "B": "KBr",
+      "C": "H2O",
+      "D": "CH4"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: KBr",
+    "token_used": {
+      "input": 326,
+      "output": 393,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 561,
+    "question": "ایک مائع اس وقت ابلتا ہے جب اس کا بخاراتی دباؤ برابر ہو جاتا ہے:",
+    "options": {
+      "A": "1 Pa",
+      "B": "0.1 atm",
+      "C": "101.325 kPa",
+      "D": "760 cm Hg"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: 101.325 kPa",
+    "token_used": {
+      "input": 350,
+      "output": 217,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 562,
+    "question": "درج ذیل میں سے کون سا ہیلوجن سب سے زیادہ آکسیڈائزنگ پاور رکھتا ہے؟",
+    "options": {
+      "A": "آیوڈین",
+      "B": "فلورین",
+      "C": "کلورین",
+      "D": "برومین"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: فلورین",
+    "token_used": {
+      "input": 347,
+      "output": 233,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 563,
+    "question": "دی گئی الیکٹرانک کنفیگریشن 1s2, 2s2, 2p5 والا عنصر کس گروپ اور پیریڈ میں ہو گا؟",
+    "options": {
+      "A": "گروپ=II، پیریڈ=2",
+      "B": "گروپ=VII، پیریڈ=2",
+      "C": "گروپ=V، پیریڈ=2",
+      "D": "گروپ=II، پیریڈ=5"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B\nAnswer text: گروپ=VII، پیریڈ=2",
+    "token_used": {
+      "input": 397,
+      "output": 478,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 564,
+    "question": "آیونک کمپاؤنڈ کی نشاندہی کریں۔",
+    "options": {
+      "A": "HCl",
+      "B": "CCl4",
+      "C": "Cl2",
+      "D": "KCl"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D  \nAnswer text: KCl",
+    "token_used": {
+      "input": 318,
+      "output": 375,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 565,
+    "question": "ایک مائع اس وقت ابلتا ہے جب اس کا ویپر پریشر برابر ہو جائے:",
+    "options": {
+      "A": "76 mm Hg",
+      "B": "1.01 x 10^5 Pa",
+      "C": "101.3 x 10^5 Pa",
+      "D": "100 atm"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B\nAnswer text: 1.01 x 10^5 Pa",
+    "token_used": {
+      "input": 358,
+      "output": 427,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 566,
+    "question": "NaOH کے 4g / dm3 محلول کا ارتکاز ہے، 250 cm3 محلول میں NaOH کا کتنا ماس ہو گا؟",
+    "options": {
+      "A": "20g",
+      "B": "2g",
+      "C": "1g",
+      "D": "40g"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: 1g",
+    "token_used": {
+      "input": 347,
+      "output": 280,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 567,
+    "question": "دیئے گئے تعامل میں کیا آکسیڈائز ہو رہا ہے؟ Mg + 2HCl → MgCl2 + H2",
+    "options": {
+      "A": "HCl",
+      "B": "H2",
+      "C": "Mg",
+      "D": "MgCl2"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: Mg",
+    "token_used": {
+      "input": 338,
+      "output": 364,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 568,
+    "question": "درج ذیل میں سے سب سے کم ری ایکٹیو کون سا عنصر ہے؟",
+    "options": {
+      "A": "Na",
+      "B": "Rb",
+      "C": "Li",
+      "D": "K"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "chemistry",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: Li",
+    "token_used": {
+      "input": 324,
+      "output": 256,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 569,
+    "question": "پیلنٹولوجی ……….. کا مطالعہ ہے۔",
+    "options": {
+      "A": "ایمبریو",
+      "B": "حشرات",
+      "C": "فوسلز",
+      "D": "ٹشوز (پلانٹ یا اینیمل)"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "biology",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: فوسلز",
+    "token_used": {
+      "input": 331,
+      "output": 486,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 570,
+    "question": "درج ذیل تمام کا ملیریا سے تعلق ہے سوائے ……….. کے۔",
+    "options": {
+      "A": "اینو فیلیز",
+      "B": "کوئینین",
+      "C": "ایڈیز",
+      "D": "پلازموڈیم"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "biology",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: ایڈیز",
+    "token_used": {
+      "input": 341,
+      "output": 187,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 571,
+    "question": "درج ذیل تمام سیل ممبرین کے اجزاء ہیں سوائے:",
+    "options": {
+      "A": "کاربو ہائیڈریٹس",
+      "B": "ڈی این اے",
+      "C": "پروٹین",
+      "D": "لپڈ"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "biology",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: ڈی این اے",
+    "token_used": {
+      "input": 335,
+      "output": 373,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 572,
+    "question": "خلیہ جس عمل کے ذریعے ویزیکلز بنا کر مادوں کو جذب کر لیتا ہے:",
+    "options": {
+      "A": "ایگزوسائٹوسس",
+      "B": "اوسموسس",
+      "C": "اینڈوسائٹوسس",
+      "D": "ڈفیوژن"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "biology",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: اینڈوسائٹوسس",
+    "token_used": {
+      "input": 355,
+      "output": 226,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 573,
+    "question": "مٹر کے پودے (14) کروموسومز والے سیل میں میوسس کے بعد کروموسومز کی تعداد ہو گی؟",
+    "options": {
+      "A": "14",
+      "B": "21",
+      "C": "7",
+      "D": "28"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "biology",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C\nAnswer text: 7",
+    "token_used": {
+      "input": 344,
+      "output": 357,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 574,
+    "question": "وہ کون سا والو ہے جو دائیں بطن (وینٹریکل) سے خون کو دائیں ایٹریم کی طرف جانے سے روکتا ہے؟",
+    "options": {
+      "A": "سیمی لیونر والو",
+      "B": "پلمونری والو",
+      "C": "ٹرائی کسپڈ والو",
+      "D": "بائی کسپڈ والو"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "biology",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: ٹرائی کسپڈ والو",
+    "token_used": {
+      "input": 380,
+      "output": 417,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 575,
+    "question": "جدید کمپیوٹر کس کی بنیاد پر بنائے گئے؟",
+    "options": {
+      "A": "اینالیٹیکل انجن",
+      "B": "مارک-I",
+      "C": "سلائیڈ رول",
+      "D": "پاسکلین"
+    },
+    "correct_key": "A",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: اینالیٹیکل انجن",
+    "token_used": {
+      "input": 340,
+      "output": 279,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 576,
+    "question": "درج شدہ میں سے کون سی \"عمل\" (process) کی بہترین وضاحت ہے؟",
+    "options": {
+      "A": "روم کا مواد",
+      "B": "پروگرام کے عمل درآمد",
+      "C": "یوٹیلٹی پروگرام",
+      "D": "ہارڈویئر"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: پروگرام کے عمل درآمد",
+    "token_used": {
+      "input": 355,
+      "output": 381,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 577,
+    "question": "ایم ایس ایکسل میں کسی سیل کا ایبسولیوٹ ایڈریس کیسے لکھا جاتا ہے؟",
+    "options": {
+      "A": "$A$1",
+      "B": "&A&1",
+      "C": "$A1$",
+      "D": "&A1&"
+    },
+    "correct_key": "A",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: $A$1",
+    "token_used": {
+      "input": 350,
+      "output": 252,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 578,
+    "question": "الیکٹرک سگنلز کی تبدیلی کی شرح کیا کہلاتی ہے؟",
+    "options": {
+      "A": "سگنل ٹو نوائز ریشیو",
+      "B": "ڈیٹا ریٹ",
+      "C": "بوڈ ریٹ",
+      "D": "بینڈ وڈتھ"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D\nAnswer text: بینڈ وڈتھ",
+    "token_used": {
+      "input": 354,
+      "output": 372,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 579,
+    "question": "ان میں سے کون سا ہاف ڈوپلیکس ٹرانسمیشن موڈ ہے؟",
+    "options": {
+      "A": "ریڈیو بروڈکاسٹ",
+      "B": "فون پر گفتگو",
+      "C": "تصویریں پرنٹ کرنا",
+      "D": "اے-ٹی-ایم سے بل کی ادائیگی"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "EMPTY_OUTPUT: finish_reason=length; usage=CompletionUsage(completion_tokens=1024, prompt_tokens=368, total_tokens=1392, completion_tokens_details=None, prompt_tokens_details=None)",
+    "token_used": {
+      "input": 368,
+      "output": 1024,
+      "cached": 0
+    },
+    "error": true
+  },
+  {
+    "id": 580,
+    "question": "ان میں سے کس کے پاس ڈیٹا بیس بنانے، ترمیم کرنے اور برقرار رکھنے کی مہارت ہے؟",
+    "options": {
+      "A": "ڈیٹا بیس تجزیہ کار",
+      "B": "پروگرامر",
+      "C": "ڈیٹا بیس ایڈمنسٹریٹر",
+      "D": "ڈیٹا بیس صارف"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: C  \nAnswer text: ڈیٹا بیس ایڈمنسٹریٹر",
+    "token_used": {
+      "input": 383,
+      "output": 225,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 581,
+    "question": "پے رول پروسیسنگ سسٹم کے لیے کون سا سسٹم موزوں ترین ہے؟",
+    "options": {
+      "A": "ریئل ٹائم سسٹم",
+      "B": "بیچ پروسیسنگ سسٹم",
+      "C": "ملٹی ٹاسکنگ سسٹم",
+      "D": "ٹائم شیئرنگ سسٹم"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: بیچ پروسیسنگ سسٹم",
+    "token_used": {
+      "input": 372,
+      "output": 207,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 582,
+    "question": "کس ٹوپولوجی میں کیبل کے دونوں سروں کو ٹرمینیٹ کرنا ضروری ہے؟",
+    "options": {
+      "A": "بس",
+      "B": "سٹار",
+      "C": "رنگ",
+      "D": "میش"
+    },
+    "correct_key": "A",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: بس",
+    "token_used": {
+      "input": 338,
+      "output": 537,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 583,
+    "question": "کون سا مستند طریقہ مستعار نہیں لیا جا سکتا؟",
+    "options": {
+      "A": "ایکسیس کارڈ",
+      "B": "پن کوڈ",
+      "C": "بایو میٹرک",
+      "D": "صارف کا نام اور پاس ورڈ"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "EMPTY_OUTPUT: finish_reason=length; usage=CompletionUsage(completion_tokens=1024, prompt_tokens=348, total_tokens=1372, completion_tokens_details=None, prompt_tokens_details=None)",
+    "token_used": {
+      "input": 348,
+      "output": 1024,
+      "cached": 0
+    },
+    "error": true
+  },
+  {
+    "id": 584,
+    "question": "ایٹینیویشن کی مشکل کس کے ذریعے حل کی جاتی ہے؟",
+    "options": {
+      "A": "ایمپلیفیکیشن",
+      "B": "ٹرانسمیشن",
+      "C": "ڈسٹورشن",
+      "D": "اوتھنٹیکیشن"
+    },
+    "correct_key": "A",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: ایمپلیفیکیشن",
+    "token_used": {
+      "input": 350,
+      "output": 254,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 585,
+    "question": "کون سا نیٹ ورک دنیا بھر میں متعدد مقامات کو آپس میں جوڑتا ہے؟",
+    "options": {
+      "A": "لین",
+      "B": "مین",
+      "C": "وین",
+      "D": "پین"
+    },
+    "correct_key": "C",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D  \nAnswer text: پین",
+    "token_used": {
+      "input": 335,
+      "output": 193,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 586,
+    "question": "کسی سافٹ ویئر کی غیر قانونی کاپی بنانا کیا کہلاتا ہے؟",
+    "options": {
+      "A": "پرائیویسی",
+      "B": "ہیکنگ",
+      "C": "کریکنگ",
+      "D": "پائریسی"
+    },
+    "correct_key": "D",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: D  \nAnswer text: پائریسی",
+    "token_used": {
+      "input": 345,
+      "output": 181,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 587,
+    "question": "سلائیڈ رول (1614) ____ کے خیال پر مبنی تھا؟",
+    "options": {
+      "A": "سیٹس",
+      "B": "لوگارتھم",
+      "C": "میٹرکس",
+      "D": "ٹریگونومیٹری"
+    },
+    "correct_key": "B",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "short",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: B  \nAnswer text: لوگارتھم",
+    "token_used": {
+      "input": 340,
+      "output": 289,
+      "cached": 0
+    },
+    "error": false
+  },
+  {
+    "id": 588,
+    "question": "ایم ایس ونڈوز کی مین اسکرین کو کس نام سے جانا جاتا ہے؟",
+    "options": {
+      "A": "ڈیسک ٹاپ",
+      "B": "لاگ ان اسکرین",
+      "C": "ویلکم اسکرین",
+      "D": "سپلیش اسکرین"
+    },
+    "correct_key": "A",
+    "domain": "STEM",
+    "subdomain": "computer science",
+    "level": "SSC-I",
+    "length_tier": "long",
+    "source": [
+      {
+        "name": "FBISE",
+        "url": "https://www.fbise.edu.pk"
+      }
+    ],
+    "prediction": "Answer key: A  \nAnswer text: ڈیسک ٹاپ",
+    "token_used": {
+      "input": 359,
+      "output": 260,
+      "cached": 0
+    },
+    "error": false
   }
 ]

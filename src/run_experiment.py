@@ -410,6 +410,8 @@ async def _hf_inference_query(
         {"role": "system", "content": system},
         {"role": "user", "content": prompt},
     ]
+    enable_thinking = model_cfg.get("enable_thinking")
+    extra_body = {} if enable_thinking is None else {"enable_thinking": enable_thinking}
     for attempt in range(retries):
         try:
             resp = await client.chat.completions.create(
@@ -417,6 +419,7 @@ async def _hf_inference_query(
                 messages=messages,
                 max_tokens=model_cfg.get("max_completion_tokens", 16),
                 temperature=model_cfg.get("temperature", 0),
+                extra_body=extra_body or None,
             )
             choice = resp.choices[0]
             content = choice.message.content
@@ -565,6 +568,7 @@ def _query_hf_single(
     prompt: str,
     system: str,
     max_new_tokens: int,
+    enable_thinking: bool | None = None,
 ) -> tuple:
     import torch
 
@@ -574,8 +578,11 @@ def _query_hf_single(
     ]
 
     try:
+        template_kwargs = {}
+        if enable_thinking is not None:
+            template_kwargs["enable_thinking"] = enable_thinking
         text = tokenizer.apply_chat_template(
-            messages, tokenize=False, add_generation_prompt=True
+            messages, tokenize=False, add_generation_prompt=True, **template_kwargs
         )
     except Exception:
         text = f"System: {system}\nUser: {prompt}\nAssistant:"
@@ -610,6 +617,7 @@ def run_hf_pipeline(
     pending = [e for e in samples if e["id"] not in results]
     print(f"  [{len(pending)} pending]")
 
+    enable_thinking = model_cfg.get("enable_thinking")
     consecutive_errors = 0
     for idx, entry in enumerate(pending):
         try:
@@ -619,6 +627,7 @@ def run_hf_pipeline(
                 build_user_prompt(cfg, lang, entry),
                 system,
                 max_new_tokens,
+                enable_thinking=enable_thinking,
             )
         except Exception as exc:
             pred, tokens = f"ERROR: {exc}", {"input": 0, "output": 0, "cached": 0}
