@@ -541,13 +541,23 @@ def _load_hf_model(model_cfg: dict):
     torch_dtype = dtype_map.get(dtype_str, torch.float16)
 
     print(f"  Loading tokenizer: {model_name}")
-    tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+    # tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+    trust_remote_code = model_cfg.get("trust_remote_code", False)
+    tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=trust_remote_code)
+    
+    # load_kwargs = {
+    #     "dtype": torch_dtype,
+    #     "device_map": device,
+    #     "trust_remote_code": True,
+    # }
+    trust_remote_code = model_cfg.get("trust_remote_code", False)
 
     load_kwargs = {
         "torch_dtype": torch_dtype,
         "device_map": device,
-        "trust_remote_code": True,
+        "trust_remote_code": trust_remote_code,
     }
+
     if load_in_4bit:
         load_kwargs["load_in_4bit"] = True
         load_kwargs.pop("torch_dtype", None)

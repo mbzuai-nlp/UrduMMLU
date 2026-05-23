@@ -10,7 +10,7 @@ experiment:
   batch_size: 10 # concurrent API requests (API models only)
   prompt_language: # list of languages to run; output written to output/<lang>
     - ur
-    - en
+    # - en
 
 # -------------------- Data ----------------------------------
 data:
@@ -151,6 +151,7 @@ models:
 
   - provider: hf_inference
     enabled: false
+    enabled: false
     name: google/gemma-3-4b-it
     hf_router: featherless-ai
     temperature: 0
@@ -172,11 +173,11 @@ models:
 
   # ── Urdu-specialized: Qalb Urdu Llama 3.1 ───────────────────
   - provider: huggingface
-    enabled: false
+    enabled: true
     name: enstazao/Qalb-1.0-8B-Instruct
     device: auto
     dtype: bfloat16
-    max_new_tokens: 96
+    max_new_tokens: 48
     load_in_4bit: false
     load_in_8bit: false
 
@@ -323,7 +324,7 @@ models:
     dtype: bfloat16
     max_new_tokens: 96
     load_in_4bit: false
-    load_in_8bit: false
+    load_in_8bit: true
 
   # ── Microsoft Phi family: compact baselines ────────────────
   - provider: huggingface
@@ -337,7 +338,7 @@ models:
 
   - provider: huggingface
     enabled: false
-    name: microsoft/Phi-4-mini-reasoning
+    name: microsoft/Phi-3.5-mini-instruct
     device: auto
     dtype: bfloat16
     max_new_tokens: 96
@@ -406,9 +407,52 @@ models:
     load_in_4bit: false
     load_in_8bit: false
 
-  - provider: hf_inference
-    enabled: true
-    name: Qwen/Qwen3-4B-Instruct-2507
-    hf_router: nscale
-    temperature: 0
-    max_completion_tokens: 48
+  - provider: huggingface
+    enabled: false
+    name: bigscience/bloomz-3b
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 96
+    load_in_4bit: false
+    load_in_8bit: false
+    trust_remote_code: false
+
+  - provider: huggingface
+    enabled: false
+    name: bigscience/bloomz-1b7
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 96
+    load_in_4bit: false
+    load_in_8bit: false
+    trust_remote_code: false
+
+  - provider: huggingface
+    enabled: false
+    name: bigscience/bloomz-1b1
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 96
+    load_in_4bit: false
+    load_in_8bit: false
+    trust_remote_code: false
+
+  - provider: huggingface
+    enabled: false
+    name: bigscience/bloomz-7b1-mt
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 96
+    load_in_4bit: false
+    load_in_8bit: false
+    trust_remote_code: false
+
+  - provider: huggingface
+    enabled: false
+    name: meta-llama/Llama-3.1-8B-Instruct
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 96
+    load_in_4bit: false
+    load_in_8bit: false
+    trust_remote_code: false
