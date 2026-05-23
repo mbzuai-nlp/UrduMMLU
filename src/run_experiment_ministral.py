@@ -3,8 +3,7 @@
 Text LLM Unified 0-Shot Inference Pipeline
 ===========================================
 Supports: Gemini, GPT (OpenAI), Claude (Anthropic), HuggingFace text LLMs,
-          HuggingFace Inference API (provider: hf_inference, requires HF_TOKEN),
-          OpenRouter (provider: openrouter, requires OPENROUTER_API_KEY).
+          HuggingFace Inference API (provider: hf_inference, requires HF_TOKEN).
 
 Usage:
     python src/run_text_experiment.py --config config.yaml
@@ -28,6 +27,7 @@ load_dotenv()
 # Quiet harmless transformers chatter (max_new_tokens vs max_length, etc.).
 try:
     import transformers
+
     transformers.logging.set_verbosity_error()
 except ImportError:
     pass
@@ -76,12 +76,10 @@ def get_system_prompt(cfg: dict, lang: str) -> str:
     return cfg["prompts"][lang]["system"].strip()
 
 
-def build_user_prompt(
-    cfg: dict, lang: str, entry: dict, model_cfg: Optional[dict] = None
-) -> str:
+def build_user_prompt(cfg: dict, lang: str, entry: dict) -> str:
     opts = entry.get("options", {})
     template = cfg["prompts"][lang]["user_template"]
-    prompt = template.format(
+    return template.format(
         domain=entry.get("domain", ""),
         subdomain=entry.get("subdomain", ""),
         level=entry.get("level", ""),
@@ -91,10 +89,6 @@ def build_user_prompt(
         C=opts.get("C", ""),
         D=opts.get("D", ""),
     )
-    # Per-model suffix (e.g. ``/no_think`` for Qwen3 to disable thinking).
-    if model_cfg and (suffix := model_cfg.get("user_prompt_suffix")):
-        prompt = f"{prompt}\n\n{suffix}"
-    return prompt
 
 
 def safe_model_name(name: str) -> str:
@@ -114,16 +108,7 @@ async def _gemini_query(
     _zero = {"input": 0, "output": 0, "cached": 0}
     for attempt in range(retries):
         try:
-            # Bound a single call to 120s so a stalled Gemini request
-            # can't freeze the surrounding ``asyncio.gather`` batch.
-            resp = await asyncio.wait_for(
-                asyncio.to_thread(
-                    model.generate_content,
-                    prompt,
-                    request_options={"timeout": 120},
-                ),
-                timeout=125,
-            )
+            resp = await asyncio.to_thread(model.generate_content, prompt)
             um = getattr(resp, "usage_metadata", None)
             tokens = (
                 {
@@ -184,10 +169,7 @@ async def run_gemini_pipeline(
     consecutive_errors = 0
     for i in range(0, len(pending), batch_size):
         batch = pending[i : i + batch_size]
-        tasks = [
-            _gemini_query(model, build_user_prompt(cfg, lang, e, model_cfg))
-            for e in batch
-        ]
+        tasks = [_gemini_query(model, build_user_prompt(cfg, lang, e)) for e in batch]
 
         responses = await asyncio.gather(*tasks)
         for entry, (pred, tokens) in zip(batch, responses):
@@ -284,9 +266,7 @@ async def run_gpt_pipeline(
     if not api_key:
         raise ValueError("OPENAI_API_KEY environment variable not set")
 
-    # Same bounded-timeout pattern as the Claude path — keeps a single
-    # stalled HTTP call from freezing the batch.
-    client = AsyncOpenAI(api_key=api_key, timeout=60.0, max_retries=2)
+    client = AsyncOpenAI(api_key=api_key)
     system = get_system_prompt(cfg, lang)
     batch_size = cfg["experiment"]["batch_size"]
     pending = [e for e in samples if e["id"] not in results]
@@ -300,7 +280,7 @@ async def run_gpt_pipeline(
             _gpt_query(
                 client,
                 model_cfg["name"],
-                build_user_prompt(cfg, lang, e, model_cfg),
+                build_user_prompt(cfg, lang, e),
                 system,
                 model_cfg,
             )
@@ -393,10 +373,7 @@ async def run_claude_pipeline(
     if not api_key:
         raise ValueError("ANTHROPIC_API_KEY environment variable not set")
 
-    # 60s timeout + 2 SDK retries: bound any single stalled request so a
-    # dropped TCP connection can't freeze the whole batch behind
-    # ``asyncio.gather`` (default SDK timeout is 10 minutes).
-    client = AsyncAnthropic(api_key=api_key, timeout=60.0, max_retries=2)
+    client = AsyncAnthropic(api_key=api_key)
     system = get_system_prompt(cfg, lang)
     batch_size = cfg["experiment"]["batch_size"]
     pending = [e for e in samples if e["id"] not in results]
@@ -410,7 +387,7 @@ async def run_claude_pipeline(
             _claude_query(
                 client,
                 model_cfg["name"],
-                build_user_prompt(cfg, lang, e, model_cfg),
+                build_user_prompt(cfg, lang, e),
                 system,
                 model_cfg,
             )
@@ -512,8 +489,6 @@ async def run_hf_inference_pipeline(
     client = AsyncOpenAI(
         base_url="https://router.huggingface.co/v1",
         api_key=api_key,
-        timeout=60.0,
-        max_retries=2,
     )
 
     # Append :router_suffix if hf_router is specified (e.g., "novita")
@@ -533,148 +508,7 @@ async def run_hf_inference_pipeline(
             _hf_inference_query(
                 client,
                 model_name,
-                build_user_prompt(cfg, lang, e, model_cfg),
-                system,
-                model_cfg,
-            )
-            for e in batch
-        ]
-
-        responses = await asyncio.gather(*tasks)
-        for entry, (pred, tokens) in zip(batch, responses):
-            if _is_error_prediction(pred):
-                consecutive_errors += 1
-                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
-                    atomic_write_json(out_path, list(results.values()))
-                    raise ConsecutiveErrorHalt(
-                        f"[HALT] {consecutive_errors} consecutive errors — last: {pred}"
-                    )
-            else:
-                consecutive_errors = 0
-            results[entry["id"]] = {
-                **entry,
-                "prediction": pred,
-                "token_used": tokens,
-                "error": _is_error_prediction(pred),
-            }
-
-        atomic_write_json(out_path, list(results.values()))
-        print(f"  [flush] batch {i // batch_size + 1}/{total_batches}")
-
-
-# ===================== OPENROUTER ===================== #
-
-
-async def _openrouter_query(
-    client,
-    model_name: str,
-    prompt: str,
-    system: str,
-    model_cfg: dict,
-    retries: int = 5,
-    wait: int = 8,
-) -> tuple:
-    _zero = {"input": 0, "output": 0, "cached": 0}
-    messages = [
-        {"role": "system", "content": system},
-        {"role": "user", "content": prompt},
-    ]
-    # Optional: pin OpenRouter's upstream provider via
-    # ``provider_routing: { order: [...], allow_fallbacks: false }`` in config.
-    extra_body = {}
-    routing = model_cfg.get("provider_routing")
-    if isinstance(routing, dict):
-        extra_body["provider"] = routing
-    # Optional: OpenRouter unified reasoning controls, e.g.
-    # ``reasoning: { enabled: false }`` to disable thinking for Qwen3 etc.
-    reasoning = model_cfg.get("reasoning")
-    if isinstance(reasoning, dict):
-        extra_body["reasoning"] = reasoning
-    for attempt in range(retries):
-        try:
-            resp = await client.chat.completions.create(
-                model=model_name,
-                messages=messages,
-                max_tokens=model_cfg.get("max_completion_tokens", 16),
-                temperature=model_cfg.get("temperature", 0),
-                extra_body=extra_body or None,
-            )
-            choice = resp.choices[0]
-            content = choice.message.content
-            usage = getattr(resp, "usage", None)
-            details = getattr(usage, "prompt_tokens_details", None)
-            tokens = (
-                {
-                    "input": getattr(usage, "prompt_tokens", 0) or 0,
-                    "output": getattr(usage, "completion_tokens", 0) or 0,
-                    "cached": getattr(details, "cached_tokens", 0) or 0,
-                }
-                if usage
-                else _zero
-            )
-
-            if content and content.strip():
-                return content.strip(), tokens
-
-            return (
-                f"EMPTY_OUTPUT: finish_reason={choice.finish_reason}; usage={usage}",
-                tokens,
-            )
-        except Exception as exc:
-            if attempt == retries - 1:
-                return f"CONNECTION_FAILED: {exc}", _zero
-            await asyncio.sleep(wait)
-    return "CONNECTION_FAILED", _zero
-
-
-async def run_openrouter_pipeline(
-    cfg: dict,
-    lang: str,
-    model_cfg: dict,
-    samples: list,
-    results: dict,
-    out_path: Path,
-) -> None:
-    try:
-        from openai import AsyncOpenAI
-    except ImportError:
-        print("[ERROR] openai not installed. Run: pip install openai")
-        return
-
-    api_key = os.getenv("OPENROUTER_API_KEY")
-    if not api_key:
-        raise ValueError("OPENROUTER_API_KEY environment variable not set")
-
-    # OpenRouter recommends setting these for app attribution (optional).
-    default_headers = {}
-    if referer := os.getenv("OPENROUTER_HTTP_REFERER"):
-        default_headers["HTTP-Referer"] = referer
-    if title := os.getenv("OPENROUTER_X_TITLE"):
-        default_headers["X-Title"] = title
-
-    client = AsyncOpenAI(
-        base_url="https://openrouter.ai/api/v1",
-        api_key=api_key,
-        timeout=60.0,
-        max_retries=2,
-        default_headers=default_headers or None,
-    )
-
-    model_name = model_cfg["name"]
-    system = get_system_prompt(cfg, lang)
-    batch_size = cfg["experiment"]["batch_size"]
-    pending = [e for e in samples if e["id"] not in results]
-    total_batches = (len(pending) + batch_size - 1) // batch_size
-    print(f"  [{len(pending)} pending]  (OpenRouter model: {model_name})")
-
-    consecutive_errors = 0
-    for i in range(0, len(pending), batch_size):
-        batch = pending[i : i + batch_size]
-        tasks = [
-            _openrouter_query(
-                client,
-                model_name,
-                build_user_prompt(cfg, lang, e, model_cfg),
+                build_user_prompt(cfg, lang, e),
                 system,
                 model_cfg,
             )
@@ -711,6 +545,7 @@ def _load_hf_model(model_cfg: dict):
     try:
         import torch
         from transformers import AutoTokenizer, AutoModelForCausalLM
+        from transformers import AutoModelForImageTextToText
     except ImportError:
         raise ImportError(
             "transformers and torch not installed. Run: pip install transformers torch"
@@ -733,19 +568,26 @@ def _load_hf_model(model_cfg: dict):
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
 
     load_kwargs = {
-        "torch_dtype": torch_dtype,
+        "dtype": torch_dtype,
         "device_map": device,
         "trust_remote_code": True,
     }
     if load_in_4bit:
         load_kwargs["load_in_4bit"] = True
-        load_kwargs.pop("torch_dtype", None)
+        load_kwargs.pop("dtype", None)
     elif load_in_8bit:
         load_kwargs["load_in_8bit"] = True
-        load_kwargs.pop("torch_dtype", None)
+        load_kwargs.pop("dtype", None)
 
     print(f"  Loading model weights: {model_name} ...")
-    model = AutoModelForCausalLM.from_pretrained(model_name, **load_kwargs)
+    try:
+        model = AutoModelForCausalLM.from_pretrained(model_name, **load_kwargs)
+    except ValueError:
+        # Multimodal architectures (e.g. Mistral3) need a different auto class
+        print(
+            f"  AutoModelForCausalLM unsupported, falling back to AutoModelForImageTextToText ..."
+        )
+        model = AutoModelForImageTextToText.from_pretrained(model_name, **load_kwargs)
     model.eval()
     print(f"  Model loaded on device: {next(model.parameters()).device}")
     return tokenizer, model
@@ -808,7 +650,7 @@ def run_hf_pipeline(
             pred, tokens = _query_hf_single(
                 tokenizer,
                 model,
-                build_user_prompt(cfg, lang, entry, model_cfg),
+                build_user_prompt(cfg, lang, entry),
                 system,
                 max_new_tokens,
             )
@@ -926,10 +768,6 @@ async def main() -> None:
                 )
             elif provider == "hf_inference":
                 await run_hf_inference_pipeline(
-                    cfg, lang, model_cfg, samples, results, out_path
-                )
-            elif provider == "openrouter":
-                await run_openrouter_pipeline(
                     cfg, lang, model_cfg, samples, results, out_path
                 )
             elif provider == "huggingface":

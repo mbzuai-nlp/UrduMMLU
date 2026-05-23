@@ -7,10 +7,10 @@
 # -------------------- Experiment Settings --------------------
 experiment:
   limit: null # null = all samples; integer = first N samples
-  batch_size: 10 # concurrent API requests (API models only)
+  batch_size: 20 # concurrent API requests (API models only)
   prompt_language: # list of languages to run; output written to output/<lang>
     - ur
-    # - en
+    - en
 
 # -------------------- Data ----------------------------------
 data:
@@ -100,14 +100,14 @@ models:
     name: gpt-5.4-mini
     temperature: 1.0
     max_completion_tokens: 8192
-    reasoning_effort: "none"
+    reasoning_effort: "high"
 
   - provider: gpt
     enabled: false
     name: gpt-5.4
     temperature: 1.0
-    max_completion_tokens: 4096
-    reasoning_effort: "none"
+    max_completion_tokens: 8192
+    reasoning_effort: "high"
 
   # ── Anthropic Claude ───────────────────────────────────────
   # Haiku 4.5: manual extended thinking, off by default → 2-line answer fits in 256.
@@ -134,36 +134,68 @@ models:
   # Uses https://router.huggingface.co/v1 (OpenAI-compatible).
   # Set hf_router to the inference provider slug (e.g. novita, together, fireworks).
   # If hf_router is omitted the model name is sent as-is.
-  # Qwen3.x: thinking mode is ON by default. Set enable_thinking: false to disable it.
+  # Qwen3.x: thinking mode is ON by default. Either bump max tokens or
+  # add ``/no_think`` to the prompt to keep responses to the 2-line format.
   - provider: hf_inference
     enabled: false
-    name: google/gemma-4-31B-it
-    hf_router: featherless-ai
+    name: Qwen/Qwen3.5-397B-A17B
+    hf_router: novita
     temperature: 0
-    max_completion_tokens: 96
+    max_completion_tokens: 4096
 
+  # DeepSeek-V4-Flash: emits reasoning/thinking tokens by default that
+  # count against the budget — needs headroom for the chain plus the
+  # 2-line answer.
   - provider: hf_inference
     enabled: false
-    name: google/gemma-4-26B-A4B-it
+    name: deepseek-ai/DeepSeek-V4-Flash
+    hf_router: novita
+    temperature: 0
+    max_completion_tokens: 4096
+
+  # Llama 3.3 70B Instruct via Novita (no local download / no gated weights).
+  - provider: hf_inference
+    enabled: false
+    name: meta-llama/Llama-3.3-70B-Instruct
     hf_router: novita
     temperature: 0
     max_completion_tokens: 96
 
+  # Qwen3.6-27B via Novita. Thinking is ON by default — 4096 covers
+  # the reasoning chain + final 2-line answer (or add ``/no_think``).
   - provider: hf_inference
     enabled: false
+    name: Qwen/Qwen3.6-35B-A3B
+    hf_router: deepinfra
+    temperature: 0
+    max_completion_tokens: 4096
+
+  # ── OpenRouter (cloud, requires OPENROUTER_API_KEY) ───────────
+  # https://openrouter.ai/  — OpenAI-compatible at
+  # https://openrouter.ai/api/v1. Use the model slug from the URL.
+  # Optional: pin/order upstream providers with `provider_routing`,
+  # see https://openrouter.ai/docs/provider-routing
+  - provider: openrouter
     enabled: false
-    name: google/gemma-3-4b-it
-    hf_router: featherless-ai
+    name: meta-llama/llama-4-maverick
     temperature: 0
     max_completion_tokens: 96
+    # provider_routing:
+    #   order: ["fireworks", "together"]
+    #   allow_fallbacks: false
 
-  - provider: hf_inference
+  # Qwen3.6-27B: thinking on by default. ``/no_think`` only works when
+  # the upstream provider uses Qwen3's chat template — OpenRouter may
+  # route elsewhere, so disable via OpenRouter's unified reasoning flag.
+  # The suffix is kept as a belt-and-braces backup.
+  - provider: openrouter
     enabled: true
-    name: Qwen/Qwen3-8B
-    hf_router: nscale
+    name: qwen/qwen3.6-27b
     temperature: 0
-    max_completion_tokens: 1024
-    enable_thinking: false
+    max_completion_tokens: 96
+    user_prompt_suffix: "/no_think"
+    reasoning:
+      enabled: false
 
   # ── HuggingFace Text LLMs (run locally, no server required) ─
   # Set device: "cuda", "mps", "cpu", or "auto"
@@ -173,11 +205,11 @@ models:
 
   # ── Urdu-specialized: Qalb Urdu Llama 3.1 ───────────────────
   - provider: huggingface
-    enabled: true
+    enabled: false
     name: enstazao/Qalb-1.0-8B-Instruct
     device: auto
     dtype: bfloat16
-    max_new_tokens: 48
+    max_new_tokens: 96
     load_in_4bit: false
     load_in_8bit: false
 
@@ -185,7 +217,7 @@ models:
   - provider: huggingface
     enabled: false
     name: google/gemma-3-4b-it
-    device: cuda
+    device: auto
     dtype: bfloat16
     max_new_tokens: 96
     load_in_4bit: false
@@ -210,7 +242,8 @@ models:
     load_in_8bit: false
 
   # ── Qwen family: multilingual / UrduMMLU baselines ─────────
-  # Qwen3.x: thinking is on by default. Set enable_thinking: false to disable it.
+  # Qwen3.x: thinking is on by default — needs headroom unless prompt
+  # carries ``/no_think``.
   - provider: huggingface
     enabled: false
     name: Qwen/Qwen3.6-27B
@@ -231,10 +264,10 @@ models:
 
   - provider: huggingface
     enabled: false
-    name: Qwen/Qwen3-8B
-    device: cuda
+    name: Qwen/Qwen3.5-397B-A17B
+    device: auto
     dtype: bfloat16
-    max_new_tokens: 1024
+    max_new_tokens: 4096
     load_in_4bit: true
     load_in_8bit: false
 
@@ -324,7 +357,7 @@ models:
     dtype: bfloat16
     max_new_tokens: 96
     load_in_4bit: false
-    load_in_8bit: true
+    load_in_8bit: false
 
   # ── Microsoft Phi family: compact baselines ────────────────
   - provider: huggingface
@@ -333,6 +366,17 @@ models:
     device: auto
     dtype: bfloat16
     max_new_tokens: 96
+    load_in_4bit: false
+    load_in_8bit: false
+
+  # Phi-4-mini-reasoning: dedicated chain-of-thought variant
+  # (math-heavy training). 32K max_new_tokens per Microsoft's own examples.
+  - provider: huggingface
+    enabled: false
+    name: microsoft/Phi-4-mini-reasoning
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 32768
     load_in_4bit: false
     load_in_8bit: false
 
@@ -345,16 +389,17 @@ models:
     load_in_4bit: false
     load_in_8bit: false
 
-  # Base model, not instruction-tuned. Keep disabled unless used as a control.
-
-  # - provider: huggingface
-  #   enabled: false
-  #   name: microsoft/phi-2
-  #   device: auto
-  #   dtype: bfloat16
-  #   max_new_tokens: 16
-  #   load_in_4bit: false
-  #   load_in_8bit: false
+  # phi-2: 2.7B research/base model, NOT instruction-tuned and only a
+  # 2,048-token context window — long MCQs may overflow. Keep disabled
+  # unless used as a control.
+  - provider: huggingface
+    enabled: false
+    name: microsoft/phi-2
+    device: auto
+    dtype: bfloat16
+    max_new_tokens: 96
+    load_in_4bit: false
+    load_in_8bit: false
 
   - provider: huggingface
     enabled: false
@@ -375,7 +420,9 @@ models:
     load_in_4bit: false
     load_in_8bit: false
 
-  # meta-llama/Llama-3.3-70B-Instruct
+  # meta-llama/Llama-3.3-70B-Instruct (local) — gated repo, requires Meta
+  # license + HF token with gated-repo access. Prefer the ``hf_inference``
+  # entry above (routes via Novita; no gating).
   - provider: huggingface
     enabled: false
     name: meta-llama/Llama-3.3-70B-Instruct
@@ -386,73 +433,21 @@ models:
     load_in_8bit: false
 
   # meta-llama/Llama-4-Maverick-17B-128E-Instruct
-  - provider: hf_inference
+  - provider: huggingface
     enabled: false
     name: meta-llama/Llama-4-Maverick-17B-128E-Instruct
-    hf_router: sambanova
     device: auto
     dtype: bfloat16
     max_new_tokens: 96
-    load_in_4bit: false
+    load_in_4bit: true
     load_in_8bit: false
 
   # meta-llama/Llama-4-Scout-17B-16E-Instruct
-  - provider: hf_inference
+  - provider: huggingface
     enabled: false
     name: meta-llama/Llama-4-Scout-17B-16E-Instruct
-    hf_router: nscale
     device: auto
     dtype: bfloat16
     max_new_tokens: 96
-    load_in_4bit: false
+    load_in_4bit: true
     load_in_8bit: false
-
-  - provider: huggingface
-    enabled: false
-    name: bigscience/bloomz-3b
-    device: auto
-    dtype: bfloat16
-    max_new_tokens: 96
-    load_in_4bit: false
-    load_in_8bit: false
-    trust_remote_code: false
-
-  - provider: huggingface
-    enabled: false
-    name: bigscience/bloomz-1b7
-    device: auto
-    dtype: bfloat16
-    max_new_tokens: 96
-    load_in_4bit: false
-    load_in_8bit: false
-    trust_remote_code: false
-
-  - provider: huggingface
-    enabled: false
-    name: bigscience/bloomz-1b1
-    device: auto
-    dtype: bfloat16
-    max_new_tokens: 96
-    load_in_4bit: false
-    load_in_8bit: false
-    trust_remote_code: false
-
-  - provider: huggingface
-    enabled: false
-    name: bigscience/bloomz-7b1-mt
-    device: auto
-    dtype: bfloat16
-    max_new_tokens: 96
-    load_in_4bit: false
-    load_in_8bit: false
-    trust_remote_code: false
-
-  - provider: huggingface
-    enabled: false
-    name: meta-llama/Llama-3.1-8B-Instruct
-    device: auto
-    dtype: bfloat16
-    max_new_tokens: 96
-    load_in_4bit: false
-    load_in_8bit: false
-    trust_remote_code: false
