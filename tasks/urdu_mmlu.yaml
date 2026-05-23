@@ -10,7 +10,7 @@ output_type: multiple_choice
 
 # Prompt: subject header + question + labeled options, then "Answer:"
 # Few-shot examples follow the same template automatically.
-doc_to_text: "Subject: {{domain}} – {{subdomain}} | Level: {{level}}\n\nQuestion: {{question}}\n\nA) {{option_a}}\nB) {{option_b}}\nC) {{option_c}}\nD) {{option_d}}\n\nAnswer:"
+doc_to_text: "مضمون: {{domain}} – {{subdomain}} | سطح: {{level}}\n\nسوال: {{question}}\n\nA) {{option_a}}\nB) {{option_b}}\nC) {{option_c}}\nD) {{option_d}}\n\nAnswer:"
 
 # Score the single-letter continuations A / B / C / D (MMLU standard).
 doc_to_choice: "['A', 'B', 'C', 'D']"
