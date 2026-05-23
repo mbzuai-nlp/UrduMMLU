@@ -20,17 +20,17 @@ set -uo pipefail
 
 # ── Knobs ────────────────────────────────────────────────────────────────────
 SEED=42
-BATCH_SIZE=4         # generate_until is heavier than loglikelihood; drop if OOM
-DEVICE=auto          # "cuda", "cuda:0", "mps", or "auto"
+BATCH_SIZE=256         # 3x A100-80GB — safe for 8B generation; increase if no OOM
+DEVICE=cuda           # overridden by parallelize=True below; kept for single-GPU fallback
 OVERWRITE=false      # true = re-run even if results exist
-LIMIT=20             # null = full dataset; integer = first N samples (testing only)
+LIMIT=                 # empty = full dataset; integer = first N samples (testing only)
 
 # All three shot configs evaluated in one pass per model (single model load).
-TASKS="urdummlu_zeroshot,urdummlu_3shot,urdummlu_5shot"
+TASKS="urdummlu_1shot,urdummlu_3shot,urdummlu_5shot"
 RESULTS_DIR="$(pwd)/output/lm_eval"
 
 MODELS=(
-    "meta-llama/Llama-3.2-1B"
+    "Qwen/Qwen3-4B-Instruct-2507"
 )
 
 # ── Helper ───────────────────────────────────────────────────────────────────
@@ -53,7 +53,7 @@ run_eval() {
 
     lm-eval \
         --model hf \
-        --model_args "pretrained=${model},dtype=bfloat16,trust_remote_code=True" \
+        --model_args "pretrained=${model},dtype=bfloat16,trust_remote_code=True,parallelize=True" \
         --tasks "${TASKS}" \
         --batch_size "${BATCH_SIZE}" \
         --device "${DEVICE}" \
@@ -61,10 +61,6 @@ run_eval() {
         --output_path "${out}" \
         --seed "${SEED}" \
         ${LIMIT:+--limit "${LIMIT}"}
-
-    # Uncomment to score instruction-tuned models with their chat templates:
-    # --apply_chat_template \
-    # --fewshot_as_multiturn \
 }
 
 # ── Main loop ────────────────────────────────────────────────────────────────
@@ -85,8 +81,8 @@ python3 - <<'PY'
 import json, glob, os
 
 results_dir = "output/lm_eval"
-task_order = ["urdummlu_zeroshot", "urdummlu_3shot", "urdummlu_5shot"]
-label_map  = {"urdummlu_zeroshot": "0-shot", "urdummlu_3shot": "3-shot", "urdummlu_5shot": "5-shot"}
+task_order = ["urdummlu_1shot", "urdummlu_3shot", "urdummlu_5shot"]
+label_map  = {"urdummlu_1shot": "1-shot", "urdummlu_3shot": "3-shot", "urdummlu_5shot": "5-shot"}
 
 rows = []
 for result_file in sorted(glob.glob(f"{results_dir}/**/results_*.json", recursive=True)):
