@@ -10,6 +10,8 @@ formats models produce:
   * Option-prefix:    ``X)``, ``X.``, ``X:``  (at line start or after \\n)
   * Markdown bold:    ``**X**`` / ``__X__``
   * Last-resort:      first standalone A/B/C/D letter in the response
+  * Text fallback:    prediction text matched against option values (for
+                      models that output the answer text instead of a key)
 
 Usage:
     python src/analysis/eval.py                  # scan all langs / models
@@ -62,6 +64,39 @@ def parse_key(pred: str | None) -> str | None:
     return None
 
 
+def _norm(s: str) -> str:
+    """Normalize text for option-text matching: strip and collapse whitespace."""
+    return " ".join(str(s).split())
+
+
+def parse_key_from_options(pred: str | None, options: dict) -> str | None:
+    """Fallback: match prediction text against option values.
+
+    Returns the option key whose value matches the prediction, or None if
+    there is no match or the match is ambiguous (multiple options match).
+    """
+    if not pred or not options:
+        return None
+    pred_norm = _norm(pred)
+    if not pred_norm:
+        return None
+    matches = [
+        letter for letter, text in options.items()
+        if _norm(text) == pred_norm
+    ]
+    if len(matches) == 1:
+        return matches[0].upper()
+    # Looser fallback: prediction is a substring of an option or vice versa
+    if not matches:
+        matches = [
+            letter for letter, text in options.items()
+            if pred_norm in _norm(text) or _norm(text) in pred_norm
+        ]
+        if len(matches) == 1:
+            return matches[0].upper()
+    return None
+
+
 def evaluate(
     records: list[dict],
     exclude_domains: set[str] | None = None,
@@ -76,6 +111,7 @@ def evaluate(
     total = [0, 0]
     err = 0
     parse_fail = 0
+    text_match = 0
     excluded = 0
 
     for r in records:
@@ -91,8 +127,11 @@ def evaluate(
             continue
         key = parse_key(pred)
         if key is None:
-            parse_fail += 1
-            continue
+            key = parse_key_from_options(pred, r.get("options") or {})
+            if key is None:
+                parse_fail += 1
+                continue
+            text_match += 1
         ok = key == r.get("correct_key")
         total[0] += ok
         total[1] += 1
@@ -108,6 +147,7 @@ def evaluate(
         "excluded": excluded,
         "parseable": total[1],
         "parse_fail": parse_fail,
+        "text_match": text_match,
         "errors": err,
         "correct": total[0],
         "accuracy": total[0] / total[1] if total[1] else 0,
@@ -122,7 +162,7 @@ def fmt_row(name: str, stats: dict, name_width: int = 42) -> str:
         f"  {name:<{name_width}} "
         f"acc={stats['accuracy'] * 100:>6.2f}%  "
         f"({stats['correct']:>7,} / {stats['parseable']:>7,})  "
-        f"parse_fail={stats['parse_fail']:>5}  err={stats['errors']}"
+        f"parse_fail={stats['parse_fail']:>5}  text_match={stats['text_match']:>5}  err={stats['errors']}"
     )
 
 
