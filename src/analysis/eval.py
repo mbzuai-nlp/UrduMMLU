@@ -79,7 +79,10 @@ def evaluate(
     excluded = 0
 
     for r in records:
-        if r.get("domain") in exclude_domains or r.get("subdomain") in exclude_subdomains:
+        if (
+            r.get("domain") in exclude_domains
+            or r.get("subdomain") in exclude_subdomains
+        ):
             excluded += 1
             continue
         pred = r.get("prediction") or ""
@@ -114,11 +117,11 @@ def evaluate(
     }
 
 
-def fmt_row(name: str, stats: dict) -> str:
+def fmt_row(name: str, stats: dict, name_width: int = 42) -> str:
     return (
-        f"  {name:<32} "
-        f"acc={stats['accuracy']*100:>5.2f}%  "
-        f"({stats['correct']:>6,}/{stats['parseable']:<6,})  "
+        f"  {name:<{name_width}} "
+        f"acc={stats['accuracy'] * 100:>6.2f}%  "
+        f"({stats['correct']:>7,} / {stats['parseable']:>7,})  "
         f"parse_fail={stats['parse_fail']:>5}  err={stats['errors']}"
     )
 
@@ -128,28 +131,42 @@ def main() -> None:
     parser.add_argument("--lang", help="Restrict to a single language (e.g. ur)")
     parser.add_argument("--model", help="Restrict to a model name substring")
     parser.add_argument(
-        "--exclude-domain", action="append", default=[],
+        "--exclude-domain",
+        action="append",
+        default=[],
         help="Domain to exclude from accuracy (repeatable). e.g. --exclude-domain Humanities",
     )
     parser.add_argument(
-        "--exclude-subdomain", action="append", default=[],
+        "--exclude-subdomain",
+        action="append",
+        default=[],
         help="Subdomain to exclude from accuracy (repeatable).",
+    )
+    parser.add_argument(
+        "-d",
+        "--detailed",
+        action="store_true",
+        help="Show per-domain breakdown beneath each model row.",
     )
     args = parser.parse_args()
     exclude_domains = set(args.exclude_domain)
     exclude_subdomains = set(args.exclude_subdomain)
     if exclude_domains or exclude_subdomains:
         bits = []
-        if exclude_domains: bits.append(f"domains={sorted(exclude_domains)}")
-        if exclude_subdomains: bits.append(f"subdomains={sorted(exclude_subdomains)}")
+        if exclude_domains:
+            bits.append(f"domains={sorted(exclude_domains)}")
+        if exclude_subdomains:
+            bits.append(f"subdomains={sorted(exclude_subdomains)}")
         print(f"Excluding: {', '.join(bits)}")
 
     langs = sorted(p.name for p in OUTPUT_DIR.iterdir() if p.is_dir())
     for lang in langs:
         if args.lang and lang != args.lang:
             continue
-        print(f"\n[{lang}]")
         models = sorted(OUTPUT_DIR.glob(f"{lang}/*/predictions.json"))
+        if not models:
+            continue  # Skip non-language dirs (e.g. ``lm_eval/``).
+        print(f"\n[{lang}]")
         for path in models:
             model = path.parent.name
             if args.model and args.model not in model:
@@ -161,8 +178,11 @@ def main() -> None:
                 exclude_subdomains=exclude_subdomains,
             )
             print(fmt_row(model, stats))
-            for dn, (c, t, a) in sorted(stats["by_domain"].items(), key=lambda x: -x[1][1]):
-                print(f"      {dn:<22} {c:>5}/{t:<6} {a*100:>5.1f}%")
+            if args.detailed:
+                for dn, (c, t, a) in sorted(
+                    stats["by_domain"].items(), key=lambda x: -x[1][1]
+                ):
+                    print(f"      {dn:<22} {c:>5}/{t:<6} {a * 100:>5.1f}%")
 
 
 if __name__ == "__main__":
