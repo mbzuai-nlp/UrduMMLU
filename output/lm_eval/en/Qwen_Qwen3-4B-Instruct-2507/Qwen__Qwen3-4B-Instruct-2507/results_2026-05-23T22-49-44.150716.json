@@ -1,0 +1,272 @@
+{
+  "results": {
+    "urdummlu_1shot": {
+      "alias": "urdummlu_1shot",
+      "exact_match,none": 0.5255571109681813,
+      "exact_match_stderr,none": "N/A"
+    },
+    "urdummlu_3shot": {
+      "alias": "urdummlu_3shot",
+      "exact_match,none": 0.5340320078695471,
+      "exact_match_stderr,none": "N/A"
+    },
+    "urdummlu_5shot": {
+      "alias": "urdummlu_5shot",
+      "exact_match,none": 0.5364534069842231,
+      "exact_match_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "urdummlu_1shot": [],
+    "urdummlu_3shot": [],
+    "urdummlu_5shot": []
+  },
+  "configs": {
+    "urdummlu_1shot": {
+      "task": "urdummlu_1shot",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/workspace/urdu-mmlu/data/26-hf/mcqs.json",
+          "dev": "/workspace/urdu-mmlu/data/26-hf/mcqs_dev.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "def doc_to_text(doc):\n    options = doc[\"options\"]\n    return (\n        f\"Subject: {doc['domain']} – {doc['subdomain']} | Level: {doc['level']}\\n\\n\"\n        f\"Question: {doc['question']}\\n\\n\"\n        f\"A) {options['A']}\\n\"\n        f\"B) {options['B']}\\n\"\n        f\"C) {options['C']}\\n\"\n        f\"D) {options['D']}\\n\\n\"\n        \"Answer key:\"\n    )\n",
+      "doc_to_target": "def doc_to_target(doc):\n    key = doc[\"correct_key\"]\n    answer_text = doc[\"options\"][key]\n    return f\"{key}\\nAnswer text: {answer_text}\"\n",
+      "unsafe_code": false,
+      "description": "You are an expert multiple-choice question answering assistant.\nRead the question carefully and select the single best answer.\n\nRespond in EXACTLY this two-line format, with no extra text:\n\nAnswer key: <one of A, B, C, D>\nAnswer text: <verbatim text of the chosen option, copied character-for-character>\n\nDo not add explanations, preambles, markdown, or punctuation\noutside of the format. The Answer text must match the option text\nexactly so the response can be parsed programmatically.",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 1,
+      "metric_list": [
+        {
+          "metric": "def exact_match(items):\n    return items\n",
+          "aggregation": "def agg_exact_match(items):\n    if not items:\n        return 0.0\n    correct = sum(\n        1 for gold, pred in items\n        if _parse_answer_key(gold) == _parse_answer_key(pred)\n    )\n    return correct / len(items)\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "<end_of_turn>",
+          "<eos>",
+          "</s>",
+          "<|end_of_text|>",
+          "<|eot_id|>",
+          "<|endoftext|>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Qwen/Qwen3-4B-Instruct-2507",
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "parallelize": true
+      }
+    },
+    "urdummlu_3shot": {
+      "task": "urdummlu_3shot",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/workspace/urdu-mmlu/data/26-hf/mcqs.json",
+          "dev": "/workspace/urdu-mmlu/data/26-hf/mcqs_dev.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "def doc_to_text(doc):\n    options = doc[\"options\"]\n    return (\n        f\"Subject: {doc['domain']} – {doc['subdomain']} | Level: {doc['level']}\\n\\n\"\n        f\"Question: {doc['question']}\\n\\n\"\n        f\"A) {options['A']}\\n\"\n        f\"B) {options['B']}\\n\"\n        f\"C) {options['C']}\\n\"\n        f\"D) {options['D']}\\n\\n\"\n        \"Answer key:\"\n    )\n",
+      "doc_to_target": "def doc_to_target(doc):\n    key = doc[\"correct_key\"]\n    answer_text = doc[\"options\"][key]\n    return f\"{key}\\nAnswer text: {answer_text}\"\n",
+      "unsafe_code": false,
+      "description": "You are an expert multiple-choice question answering assistant.\nRead the question carefully and select the single best answer.\n\nRespond in EXACTLY this two-line format, with no extra text:\n\nAnswer key: <one of A, B, C, D>\nAnswer text: <verbatim text of the chosen option, copied character-for-character>\n\nDo not add explanations, preambles, markdown, or punctuation\noutside of the format. The Answer text must match the option text\nexactly so the response can be parsed programmatically.",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "def exact_match(items):\n    return items\n",
+          "aggregation": "def agg_exact_match(items):\n    if not items:\n        return 0.0\n    correct = sum(\n        1 for gold, pred in items\n        if _parse_answer_key(gold) == _parse_answer_key(pred)\n    )\n    return correct / len(items)\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "<end_of_turn>",
+          "<eos>",
+          "</s>",
+          "<|end_of_text|>",
+          "<|eot_id|>",
+          "<|endoftext|>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Qwen/Qwen3-4B-Instruct-2507",
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "parallelize": true
+      }
+    },
+    "urdummlu_5shot": {
+      "task": "urdummlu_5shot",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/workspace/urdu-mmlu/data/26-hf/mcqs.json",
+          "dev": "/workspace/urdu-mmlu/data/26-hf/mcqs_dev.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "def doc_to_text(doc):\n    options = doc[\"options\"]\n    return (\n        f\"Subject: {doc['domain']} – {doc['subdomain']} | Level: {doc['level']}\\n\\n\"\n        f\"Question: {doc['question']}\\n\\n\"\n        f\"A) {options['A']}\\n\"\n        f\"B) {options['B']}\\n\"\n        f\"C) {options['C']}\\n\"\n        f\"D) {options['D']}\\n\\n\"\n        \"Answer key:\"\n    )\n",
+      "doc_to_target": "def doc_to_target(doc):\n    key = doc[\"correct_key\"]\n    answer_text = doc[\"options\"][key]\n    return f\"{key}\\nAnswer text: {answer_text}\"\n",
+      "unsafe_code": false,
+      "description": "You are an expert multiple-choice question answering assistant.\nRead the question carefully and select the single best answer.\n\nRespond in EXACTLY this two-line format, with no extra text:\n\nAnswer key: <one of A, B, C, D>\nAnswer text: <verbatim text of the chosen option, copied character-for-character>\n\nDo not add explanations, preambles, markdown, or punctuation\noutside of the format. The Answer text must match the option text\nexactly so the response can be parsed programmatically.",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "def exact_match(items):\n    return items\n",
+          "aggregation": "def agg_exact_match(items):\n    if not items:\n        return 0.0\n    correct = sum(\n        1 for gold, pred in items\n        if _parse_answer_key(gold) == _parse_answer_key(pred)\n    )\n    return correct / len(items)\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "<end_of_turn>",
+          "<eos>",
+          "</s>",
+          "<|end_of_text|>",
+          "<|eot_id|>",
+          "<|endoftext|>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Qwen/Qwen3-4B-Instruct-2507",
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "parallelize": true
+      }
+    }
+  },
+  "versions": {
+    "urdummlu_1shot": 1.0,
+    "urdummlu_3shot": 1.0,
+    "urdummlu_5shot": 1.0
+  },
+  "n-shot": {
+    "urdummlu_1shot": 1,
+    "urdummlu_3shot": 3,
+    "urdummlu_5shot": 5
+  },
+  "higher_is_better": {
+    "urdummlu_1shot": {
+      "exact_match": true
+    },
+    "urdummlu_3shot": {
+      "exact_match": true
+    },
+    "urdummlu_5shot": {
+      "exact_match": true
+    }
+  },
+  "n-samples": {
+    "urdummlu_5shot": {
+      "original": 26431,
+      "effective": 26431
+    },
+    "urdummlu_3shot": {
+      "original": 26431,
+      "effective": 26431
+    },
+    "urdummlu_1shot": {
+      "original": 26431,
+      "effective": 26431
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=Qwen/Qwen3-4B-Instruct-2507,dtype=bfloat16,trust_remote_code=True,parallelize=True",
+    "model_num_parameters": 4022468096,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "batch_size": "256",
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 42,
+    "numpy_seed": 42,
+    "torch_seed": 42,
+    "fewshot_seed": 42
+  },
+  "git_hash": "def3245",
+  "date": 1779572243.664928,
+  "pretty_env_info": "'NoneType' object has no attribute 'splitlines'",
+  "transformers_version": "5.9.0",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "151643"
+  ],
+  "tokenizer_eos_token": [
+    "<|im_end|>",
+    "151645"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 151645,
+  "max_length": 262144,
+  "task_hashes": {
+    "urdummlu_5shot": "e00ec76a1d720766e549cd2484b40f9e0bf2194ba468e0a6f4dd896f0fa2458b",
+    "urdummlu_3shot": "7c3c6c9db3f05bef035887ecc266b4676f99972cbab10f3a21ff478d5ecd75c3",
+    "urdummlu_1shot": "b24c761ca1f51a7c9bcc06f2c9af3ea9e0beb527e20e44ad07cfc9187d25e450"
+  },
+  "model_source": "hf",
+  "model_name": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_name_sanitized": "Qwen__Qwen3-4B-Instruct-2507",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 14025151.938219348,
+  "end_time": 14029495.011446398,
+  "total_evaluation_time_seconds": "4343.073227049783"
+}

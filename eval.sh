@@ -30,7 +30,7 @@ TASKS="urdummlu_1shot,urdummlu_3shot,urdummlu_5shot"
 RESULTS_DIR="$(pwd)/output/lm_eval"
 
 MODELS=(
-    "Qwen/Qwen3-4B-Instruct-2507"
+    "meta-llama/Llama-3.1-8B-Instruct"
 )
 
 # ── Helper ───────────────────────────────────────────────────────────────────
