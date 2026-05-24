@@ -1,0 +1,272 @@
+{
+  "results": {
+    "urdummlu_1shot": {
+      "alias": "urdummlu_1shot",
+      "exact_match,none": 0.5206386440164957,
+      "exact_match_stderr,none": "N/A"
+    },
+    "urdummlu_3shot": {
+      "alias": "urdummlu_3shot",
+      "exact_match,none": 0.5289243691120276,
+      "exact_match_stderr,none": "N/A"
+    },
+    "urdummlu_5shot": {
+      "alias": "urdummlu_5shot",
+      "exact_match,none": 0.5293783814460293,
+      "exact_match_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "urdummlu_1shot": [],
+    "urdummlu_3shot": [],
+    "urdummlu_5shot": []
+  },
+  "configs": {
+    "urdummlu_1shot": {
+      "task": "urdummlu_1shot",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/workspace/urdu-mmlu/data/26-hf/mcqs.json",
+          "dev": "/workspace/urdu-mmlu/data/26-hf/mcqs_dev.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "def doc_to_text(doc):\n    options = doc[\"options\"]\n    return (\n        f\"مضمون: {doc['domain']} – {doc['subdomain']} | سطح: {doc['level']}\\n\\n\"\n        f\"سوال: {doc['question']}\\n\\n\"\n        f\"A) {options['A']}\\n\"\n        f\"B) {options['B']}\\n\"\n        f\"C) {options['C']}\\n\"\n        f\"D) {options['D']}\\n\\n\"\n        \"Answer key:\"\n    )\n",
+      "doc_to_target": "def doc_to_target(doc):\n    key = doc[\"correct_key\"]\n    answer_text = doc[\"options\"][key]\n    return f\"{key}\\nAnswer text: {answer_text}\"\n",
+      "unsafe_code": false,
+      "description": "آپ ایک ماہر MCQ جوابدہ معاون ہیں۔\nسوال کو غور سے پڑھیں اور صحیح آپشن منتخب کریں۔\n\nجواب بالکل اس دو سطری شکل میں دیں، کوئی اضافی متن شامل نہ کریں:\n\nAnswer key: <A، B، C یا D میں سے ایک>\nAnswer text: <منتخب آپشن کا متن من و عن، حرف بہ حرف نقل کریں>\n\nکوئی وضاحت، تمہید، مارک ڈاؤن، یا اضافی الفاظ نہ لکھیں۔\nAnswer text کو آپشن کے متن سے بالکل مماثل ہونا چاہیے تاکہ پروگرام\nاسے درست طور پر پارس کر سکے۔",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 1,
+      "metric_list": [
+        {
+          "metric": "def exact_match(items):\n    return items\n",
+          "aggregation": "def agg_exact_match(items):\n    if not items:\n        return 0.0\n    correct = sum(\n        1 for gold, pred in items if _parse_answer_key(gold) == _parse_answer_key(pred)\n    )\n    return correct / len(items)\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "<end_of_turn>",
+          "<eos>",
+          "</s>",
+          "<|end_of_text|>",
+          "<|eot_id|>",
+          "<|endoftext|>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Qwen/Qwen3-4B-Instruct-2507",
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "parallelize": true
+      }
+    },
+    "urdummlu_3shot": {
+      "task": "urdummlu_3shot",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/workspace/urdu-mmlu/data/26-hf/mcqs.json",
+          "dev": "/workspace/urdu-mmlu/data/26-hf/mcqs_dev.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "def doc_to_text(doc):\n    options = doc[\"options\"]\n    return (\n        f\"مضمون: {doc['domain']} – {doc['subdomain']} | سطح: {doc['level']}\\n\\n\"\n        f\"سوال: {doc['question']}\\n\\n\"\n        f\"A) {options['A']}\\n\"\n        f\"B) {options['B']}\\n\"\n        f\"C) {options['C']}\\n\"\n        f\"D) {options['D']}\\n\\n\"\n        \"Answer key:\"\n    )\n",
+      "doc_to_target": "def doc_to_target(doc):\n    key = doc[\"correct_key\"]\n    answer_text = doc[\"options\"][key]\n    return f\"{key}\\nAnswer text: {answer_text}\"\n",
+      "unsafe_code": false,
+      "description": "آپ ایک ماہر MCQ جوابدہ معاون ہیں۔\nسوال کو غور سے پڑھیں اور صحیح آپشن منتخب کریں۔\n\nجواب بالکل اس دو سطری شکل میں دیں، کوئی اضافی متن شامل نہ کریں:\n\nAnswer key: <A، B، C یا D میں سے ایک>\nAnswer text: <منتخب آپشن کا متن من و عن، حرف بہ حرف نقل کریں>\n\nکوئی وضاحت، تمہید، مارک ڈاؤن، یا اضافی الفاظ نہ لکھیں۔\nAnswer text کو آپشن کے متن سے بالکل مماثل ہونا چاہیے تاکہ پروگرام\nاسے درست طور پر پارس کر سکے۔",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "def exact_match(items):\n    return items\n",
+          "aggregation": "def agg_exact_match(items):\n    if not items:\n        return 0.0\n    correct = sum(\n        1 for gold, pred in items if _parse_answer_key(gold) == _parse_answer_key(pred)\n    )\n    return correct / len(items)\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "<end_of_turn>",
+          "<eos>",
+          "</s>",
+          "<|end_of_text|>",
+          "<|eot_id|>",
+          "<|endoftext|>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Qwen/Qwen3-4B-Instruct-2507",
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "parallelize": true
+      }
+    },
+    "urdummlu_5shot": {
+      "task": "urdummlu_5shot",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/workspace/urdu-mmlu/data/26-hf/mcqs.json",
+          "dev": "/workspace/urdu-mmlu/data/26-hf/mcqs_dev.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "def doc_to_text(doc):\n    options = doc[\"options\"]\n    return (\n        f\"مضمون: {doc['domain']} – {doc['subdomain']} | سطح: {doc['level']}\\n\\n\"\n        f\"سوال: {doc['question']}\\n\\n\"\n        f\"A) {options['A']}\\n\"\n        f\"B) {options['B']}\\n\"\n        f\"C) {options['C']}\\n\"\n        f\"D) {options['D']}\\n\\n\"\n        \"Answer key:\"\n    )\n",
+      "doc_to_target": "def doc_to_target(doc):\n    key = doc[\"correct_key\"]\n    answer_text = doc[\"options\"][key]\n    return f\"{key}\\nAnswer text: {answer_text}\"\n",
+      "unsafe_code": false,
+      "description": "آپ ایک ماہر MCQ جوابدہ معاون ہیں۔\nسوال کو غور سے پڑھیں اور صحیح آپشن منتخب کریں۔\n\nجواب بالکل اس دو سطری شکل میں دیں، کوئی اضافی متن شامل نہ کریں:\n\nAnswer key: <A، B، C یا D میں سے ایک>\nAnswer text: <منتخب آپشن کا متن من و عن، حرف بہ حرف نقل کریں>\n\nکوئی وضاحت، تمہید، مارک ڈاؤن، یا اضافی الفاظ نہ لکھیں۔\nAnswer text کو آپشن کے متن سے بالکل مماثل ہونا چاہیے تاکہ پروگرام\nاسے درست طور پر پارس کر سکے۔",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "def exact_match(items):\n    return items\n",
+          "aggregation": "def agg_exact_match(items):\n    if not items:\n        return 0.0\n    correct = sum(\n        1 for gold, pred in items if _parse_answer_key(gold) == _parse_answer_key(pred)\n    )\n    return correct / len(items)\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "<end_of_turn>",
+          "<eos>",
+          "</s>",
+          "<|end_of_text|>",
+          "<|eot_id|>",
+          "<|endoftext|>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "Qwen/Qwen3-4B-Instruct-2507",
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "parallelize": true
+      }
+    }
+  },
+  "versions": {
+    "urdummlu_1shot": 1.0,
+    "urdummlu_3shot": 1.0,
+    "urdummlu_5shot": 1.0
+  },
+  "n-shot": {
+    "urdummlu_1shot": 1,
+    "urdummlu_3shot": 3,
+    "urdummlu_5shot": 5
+  },
+  "higher_is_better": {
+    "urdummlu_1shot": {
+      "exact_match": true
+    },
+    "urdummlu_3shot": {
+      "exact_match": true
+    },
+    "urdummlu_5shot": {
+      "exact_match": true
+    }
+  },
+  "n-samples": {
+    "urdummlu_5shot": {
+      "original": 26431,
+      "effective": 26431
+    },
+    "urdummlu_3shot": {
+      "original": 26431,
+      "effective": 26431
+    },
+    "urdummlu_1shot": {
+      "original": 26431,
+      "effective": 26431
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=Qwen/Qwen3-4B-Instruct-2507,dtype=bfloat16,trust_remote_code=True,parallelize=True",
+    "model_num_parameters": 4022468096,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "batch_size": "128",
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 42,
+    "numpy_seed": 42,
+    "torch_seed": 42,
+    "fewshot_seed": 42
+  },
+  "git_hash": "708b657",
+  "date": 1779580961.8558323,
+  "pretty_env_info": "'NoneType' object has no attribute 'splitlines'",
+  "transformers_version": "5.9.0",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "151643"
+  ],
+  "tokenizer_eos_token": [
+    "<|im_end|>",
+    "151645"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 151645,
+  "max_length": 262144,
+  "task_hashes": {
+    "urdummlu_5shot": "bf29a644906c2ef7b3012619eafa783d3bbd8efad4ed4bbaf4b458b6494caa10",
+    "urdummlu_3shot": "0e8e6174029cbe1a2827c7b8a8986ade69196430da838d22d01431fd75dcae0a",
+    "urdummlu_1shot": "221ebf521af987828ce99a03de740ad289655672ffa0a95a7f6667c2bd117de9"
+  },
+  "model_source": "hf",
+  "model_name": "Qwen/Qwen3-4B-Instruct-2507",
+  "model_name_sanitized": "Qwen__Qwen3-4B-Instruct-2507",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 14033868.949194979,
+  "end_time": 14038733.972966358,
+  "total_evaluation_time_seconds": "4865.023771379143"
+}

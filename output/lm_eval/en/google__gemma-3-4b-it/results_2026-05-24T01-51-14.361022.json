@@ -1,0 +1,272 @@
+{
+  "results": {
+    "urdummlu_1shot": {
+      "alias": "urdummlu_1shot",
+      "exact_match,none": 0.45911997275926,
+      "exact_match_stderr,none": "N/A"
+    },
+    "urdummlu_3shot": {
+      "alias": "urdummlu_3shot",
+      "exact_match,none": 0.46067118156709924,
+      "exact_match_stderr,none": "N/A"
+    },
+    "urdummlu_5shot": {
+      "alias": "urdummlu_5shot",
+      "exact_match,none": 0.4626764027089403,
+      "exact_match_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "urdummlu_1shot": [],
+    "urdummlu_3shot": [],
+    "urdummlu_5shot": []
+  },
+  "configs": {
+    "urdummlu_1shot": {
+      "task": "urdummlu_1shot",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/workspace/urdu-mmlu/data/26-hf/mcqs.json",
+          "dev": "/workspace/urdu-mmlu/data/26-hf/mcqs_dev.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "def doc_to_text(doc):\n    options = doc[\"options\"]\n    return (\n        f\"Subject: {doc['domain']} – {doc['subdomain']} | Level: {doc['level']}\\n\\n\"\n        f\"Question: {doc['question']}\\n\\n\"\n        f\"A) {options['A']}\\n\"\n        f\"B) {options['B']}\\n\"\n        f\"C) {options['C']}\\n\"\n        f\"D) {options['D']}\\n\\n\"\n        \"Answer key:\"\n    )\n",
+      "doc_to_target": "def doc_to_target(doc):\n    key = doc[\"correct_key\"]\n    answer_text = doc[\"options\"][key]\n    return f\"{key}\\nAnswer text: {answer_text}\"\n",
+      "unsafe_code": false,
+      "description": "You are an expert multiple-choice question answering assistant.\nRead the question carefully and select the single best answer.\n\nRespond in EXACTLY this two-line format, with no extra text:\n\nAnswer key: <one of A, B, C, D>\nAnswer text: <verbatim text of the chosen option, copied character-for-character>\n\nDo not add explanations, preambles, markdown, or punctuation\noutside of the format. The Answer text must match the option text\nexactly so the response can be parsed programmatically.",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 1,
+      "metric_list": [
+        {
+          "metric": "def exact_match(items):\n    return items\n",
+          "aggregation": "def agg_exact_match(items):\n    if not items:\n        return 0.0\n    correct = sum(\n        1 for gold, pred in items\n        if _parse_answer_key(gold) == _parse_answer_key(pred)\n    )\n    return correct / len(items)\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "<end_of_turn>",
+          "<eos>",
+          "</s>",
+          "<|end_of_text|>",
+          "<|eot_id|>",
+          "<|endoftext|>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "google/gemma-3-4b-it",
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "parallelize": true
+      }
+    },
+    "urdummlu_3shot": {
+      "task": "urdummlu_3shot",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/workspace/urdu-mmlu/data/26-hf/mcqs.json",
+          "dev": "/workspace/urdu-mmlu/data/26-hf/mcqs_dev.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "def doc_to_text(doc):\n    options = doc[\"options\"]\n    return (\n        f\"Subject: {doc['domain']} – {doc['subdomain']} | Level: {doc['level']}\\n\\n\"\n        f\"Question: {doc['question']}\\n\\n\"\n        f\"A) {options['A']}\\n\"\n        f\"B) {options['B']}\\n\"\n        f\"C) {options['C']}\\n\"\n        f\"D) {options['D']}\\n\\n\"\n        \"Answer key:\"\n    )\n",
+      "doc_to_target": "def doc_to_target(doc):\n    key = doc[\"correct_key\"]\n    answer_text = doc[\"options\"][key]\n    return f\"{key}\\nAnswer text: {answer_text}\"\n",
+      "unsafe_code": false,
+      "description": "You are an expert multiple-choice question answering assistant.\nRead the question carefully and select the single best answer.\n\nRespond in EXACTLY this two-line format, with no extra text:\n\nAnswer key: <one of A, B, C, D>\nAnswer text: <verbatim text of the chosen option, copied character-for-character>\n\nDo not add explanations, preambles, markdown, or punctuation\noutside of the format. The Answer text must match the option text\nexactly so the response can be parsed programmatically.",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "def exact_match(items):\n    return items\n",
+          "aggregation": "def agg_exact_match(items):\n    if not items:\n        return 0.0\n    correct = sum(\n        1 for gold, pred in items\n        if _parse_answer_key(gold) == _parse_answer_key(pred)\n    )\n    return correct / len(items)\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "<end_of_turn>",
+          "<eos>",
+          "</s>",
+          "<|end_of_text|>",
+          "<|eot_id|>",
+          "<|endoftext|>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "google/gemma-3-4b-it",
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "parallelize": true
+      }
+    },
+    "urdummlu_5shot": {
+      "task": "urdummlu_5shot",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/workspace/urdu-mmlu/data/26-hf/mcqs.json",
+          "dev": "/workspace/urdu-mmlu/data/26-hf/mcqs_dev.json"
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "doc_to_text": "def doc_to_text(doc):\n    options = doc[\"options\"]\n    return (\n        f\"Subject: {doc['domain']} – {doc['subdomain']} | Level: {doc['level']}\\n\\n\"\n        f\"Question: {doc['question']}\\n\\n\"\n        f\"A) {options['A']}\\n\"\n        f\"B) {options['B']}\\n\"\n        f\"C) {options['C']}\\n\"\n        f\"D) {options['D']}\\n\\n\"\n        \"Answer key:\"\n    )\n",
+      "doc_to_target": "def doc_to_target(doc):\n    key = doc[\"correct_key\"]\n    answer_text = doc[\"options\"][key]\n    return f\"{key}\\nAnswer text: {answer_text}\"\n",
+      "unsafe_code": false,
+      "description": "You are an expert multiple-choice question answering assistant.\nRead the question carefully and select the single best answer.\n\nRespond in EXACTLY this two-line format, with no extra text:\n\nAnswer key: <one of A, B, C, D>\nAnswer text: <verbatim text of the chosen option, copied character-for-character>\n\nDo not add explanations, preambles, markdown, or punctuation\noutside of the format. The Answer text must match the option text\nexactly so the response can be parsed programmatically.",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "def exact_match(items):\n    return items\n",
+          "aggregation": "def agg_exact_match(items):\n    if not items:\n        return 0.0\n    correct = sum(\n        1 for gold, pred in items\n        if _parse_answer_key(gold) == _parse_answer_key(pred)\n    )\n    return correct / len(items)\n",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n\n",
+          "<end_of_turn>",
+          "<eos>",
+          "</s>",
+          "<|end_of_text|>",
+          "<|eot_id|>",
+          "<|endoftext|>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "pretrained": "google/gemma-3-4b-it",
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "parallelize": true
+      }
+    }
+  },
+  "versions": {
+    "urdummlu_1shot": 1.0,
+    "urdummlu_3shot": 1.0,
+    "urdummlu_5shot": 1.0
+  },
+  "n-shot": {
+    "urdummlu_1shot": 1,
+    "urdummlu_3shot": 3,
+    "urdummlu_5shot": 5
+  },
+  "higher_is_better": {
+    "urdummlu_1shot": {
+      "exact_match": true
+    },
+    "urdummlu_3shot": {
+      "exact_match": true
+    },
+    "urdummlu_5shot": {
+      "exact_match": true
+    }
+  },
+  "n-samples": {
+    "urdummlu_5shot": {
+      "original": 26431,
+      "effective": 26431
+    },
+    "urdummlu_3shot": {
+      "original": 26431,
+      "effective": 26431
+    },
+    "urdummlu_1shot": {
+      "original": 26431,
+      "effective": 26431
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=google/gemma-3-4b-it,dtype=bfloat16,trust_remote_code=True,parallelize=True",
+    "model_num_parameters": 4300079472,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "093f9f388b31de276ce2de164bdc2081324b9767",
+    "batch_size": "48",
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 42,
+    "numpy_seed": 42,
+    "torch_seed": 42,
+    "fewshot_seed": 42
+  },
+  "git_hash": "708b657",
+  "date": 1779565841.5441794,
+  "pretty_env_info": "PyTorch version: 2.8.0+cu128\nIs debug build: False\nCUDA used to build PyTorch: 12.8\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 24.04.3 LTS (x86_64)\nGCC version: (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0\nClang version: Could not collect\nCMake version: version 3.28.3\nLibc version: glibc-2.39\n\nPython version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0] (64-bit runtime)\nPython platform: Linux-6.5.0-28-generic-x86_64-with-glibc2.39\nIs CUDA available: True\nCUDA runtime version: 12.8.93\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A100-SXM4-80GB\nGPU 1: NVIDIA A100-SXM4-80GB\n\nNvidia driver version: 580.126.20\ncuDNN version: Probably one of the following:\n/usr/lib/x86_64-linux-gnu/libcudnn.so.9.8.0\n/usr/lib/x86_64-linux-gnu/libcudnn_adv.so.9.8.0\n/usr/lib/x86_64-linux-gnu/libcudnn_cnn.so.9.8.0\n/usr/lib/x86_64-linux-gnu/libcudnn_engines_precompiled.so.9.8.0\n/usr/lib/x86_64-linux-gnu/libcudnn_engines_runtime_compiled.so.9.8.0\n/usr/lib/x86_64-linux-gnu/libcudnn_graph.so.9.8.0\n/usr/lib/x86_64-linux-gnu/libcudnn_heuristic.so.9.8.0\n/usr/lib/x86_64-linux-gnu/libcudnn_ops.so.9.8.0\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                       x86_64\nCPU op-mode(s):                     32-bit, 64-bit\nAddress sizes:                      48 bits physical, 48 bits virtual\nByte Order:                         Little Endian\nCPU(s):                             256\nOn-line CPU(s) list:                0-254\nOff-line CPU(s) list:               255\nVendor ID:                          AuthenticAMD\nModel name:                         AMD EPYC 7713 64-Core Processor\nCPU family:                         25\nModel:                              1\nThread(s) per core:                 2\nCore(s) per socket:                 64\nSocket(s):                          2\nStepping:                           1\nFrequency boost:                    enabled\nCPU(s) scaling MHz:                 44%\nCPU max MHz:                        3720.7029\nCPU min MHz:                        0.0000\nBogoMIPS:                           3999.97\nFlags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin brs arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca\nVirtualization:                     AMD-V\nL1d cache:                          4 MiB (128 instances)\nL1i cache:                          4 MiB (128 instances)\nL2 cache:                           64 MiB (128 instances)\nL3 cache:                           512 MiB (16 instances)\nNUMA node(s):                       2\nNUMA node0 CPU(s):                  0-63,128-191\nNUMA node1 CPU(s):                  64-127,192-254\nVulnerability Gather data sampling: Not affected\nVulnerability Itlb multihit:        Not affected\nVulnerability L1tf:                 Not affected\nVulnerability Mds:                  Not affected\nVulnerability Meltdown:             Not affected\nVulnerability Mmio stale data:      Not affected\nVulnerability Retbleed:             Not affected\nVulnerability Spec rstack overflow: Mitigation; Safe RET\nVulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:           Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected\nVulnerability Srbds:                Not affected\nVulnerability Tsx async abort:      Not affected\n\nVersions of relevant libraries:\n[pip3] mypy==2.1.0\n[pip3] mypy_extensions==1.1.0\n[pip3] numpy==2.1.2\n[pip3] nvidia-cublas-cu12==12.8.4.1\n[pip3] nvidia-cuda-cupti-cu12==12.8.90\n[pip3] nvidia-cuda-nvrtc-cu12==12.8.93\n[pip3] nvidia-cuda-runtime-cu12==12.8.90\n[pip3] nvidia-cudnn-cu12==9.10.2.21\n[pip3] nvidia-cufft-cu12==11.3.3.83\n[pip3] nvidia-curand-cu12==10.3.9.90\n[pip3] nvidia-cusolver-cu12==11.7.3.90\n[pip3] nvidia-cusparse-cu12==12.5.8.93\n[pip3] nvidia-cusparselt-cu12==0.7.1\n[pip3] nvidia-nccl-cu12==2.27.3\n[pip3] nvidia-nvjitlink-cu12==12.8.93\n[pip3] nvidia-nvtx-cu12==12.8.90\n[pip3] torch==2.8.0+cu128\n[pip3] torchaudio==2.8.0+cu128\n[pip3] torchvision==0.23.0+cu128\n[pip3] triton==3.4.0\n[conda] Could not collect",
+  "transformers_version": "5.9.0",
+  "lm_eval_version": "0.4.9",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<pad>",
+    "0"
+  ],
+  "tokenizer_eos_token": [
+    "<eos>",
+    "1"
+  ],
+  "tokenizer_bos_token": [
+    "<bos>",
+    "2"
+  ],
+  "eot_token_id": 1,
+  "max_length": 2048,
+  "task_hashes": {
+    "urdummlu_5shot": "e00ec76a1d720766e549cd2484b40f9e0bf2194ba468e0a6f4dd896f0fa2458b",
+    "urdummlu_3shot": "7c3c6c9db3f05bef035887ecc266b4676f99972cbab10f3a21ff478d5ecd75c3",
+    "urdummlu_1shot": "b24c761ca1f51a7c9bcc06f2c9af3ea9e0beb527e20e44ad07cfc9187d25e450"
+  },
+  "model_source": "hf",
+  "model_name": "google/gemma-3-4b-it",
+  "model_name_sanitized": "google__gemma-3-4b-it",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 7189040.678174309,
+  "end_time": 7210684.690970314,
+  "total_evaluation_time_seconds": "21644.012796004303"
+}
