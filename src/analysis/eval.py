@@ -38,6 +38,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = REPO_ROOT / "output"
 DEFAULT_CSV = REPO_ROOT / "output" / "detailed_accuracy.csv"
+DEFAULT_SUBDOMAIN_CSV = REPO_ROOT / "output" / "subdomain_accuracy.csv"
+DEFAULT_LENGTH_TIER_CSV = REPO_ROOT / "output" / "length_tier_accuracy.csv"
 
 # Fixed ordering for per-domain rows and CSV columns. Domains that exist
 # in the data but aren't listed here are still tallied and printed after
@@ -203,6 +205,8 @@ def evaluate(
     dom: dict[str, list[int]] = defaultdict(lambda: [0, 0])
     lvl: dict[str, list[int]] = defaultdict(lambda: [0, 0])
     sub: dict[str, list[int]] = defaultdict(lambda: [0, 0])
+    tier: dict[str, list[int]] = defaultdict(lambda: [0, 0])
+    sub_dom: dict[str, str] = {}
     total = [0, 0]
     err = excluded = 0
 
@@ -227,12 +231,19 @@ def evaluate(
         ok = int(key == r.get("correct_key"))
         total[0] += ok
         total[1] += 1
-        dom[r.get("domain", "?")][0] += ok
-        dom[r.get("domain", "?")][1] += 1
+        domain = r.get("domain", "?")
+        subdomain = r.get("subdomain", "?")
+        dom[domain][0] += ok
+        dom[domain][1] += 1
         lvl[r.get("level", "?")][0] += ok
         lvl[r.get("level", "?")][1] += 1
-        sub[r.get("subdomain", "?")][0] += ok
-        sub[r.get("subdomain", "?")][1] += 1
+        sub[subdomain][0] += ok
+        sub[subdomain][1] += 1
+        sub_dom.setdefault(subdomain, domain)
+        lt = r.get("length_tier")
+        if lt:
+            tier[lt][0] += ok
+            tier[lt][1] += 1
 
     return {
         "n": len(records),
@@ -244,6 +255,8 @@ def evaluate(
         "by_domain": {d: (c, t, c / t if t else 0) for d, (c, t) in dom.items()},
         "by_level": {L: (c, t, c / t if t else 0) for L, (c, t) in lvl.items()},
         "by_subdomain": {s: (c, t, c / t if t else 0) for s, (c, t) in sub.items()},
+        "subdomain_to_domain": sub_dom,
+        "by_length_tier": {t: (c, n, c / n if n else 0) for t, (c, n) in tier.items()},
     }
 
 
@@ -337,6 +350,8 @@ def discover_lm_eval(lang: str) -> list[dict]:
                 "by_domain": {},
                 "by_level": {},
                 "by_subdomain": {},
+                "subdomain_to_domain": {},
+                "by_length_tier": {},
             })
     return rows
 
@@ -375,6 +390,44 @@ def stats_to_csv_row(model: str, lang: str, stats: dict) -> dict:
         row[f"{col}_questions"] = dt
         row[f"{col}_accuracy"] = round(da * 100, 2)
     return row
+
+
+def _length_tier_csv_fieldnames() -> list[str]:
+    return ["model", "language", "length_tier", "correct", "questions", "accuracy"]
+
+
+def stats_to_length_tier_csv_rows(model: str, lang: str, stats: dict) -> list[dict]:
+    rows = []
+    for lt, (correct, total, acc) in sorted(stats["by_length_tier"].items()):
+        rows.append({
+            "model": model,
+            "language": lang,
+            "length_tier": lt,
+            "correct": correct,
+            "questions": total,
+            "accuracy": round(acc * 100, 2),
+        })
+    return rows
+
+
+def _subdomain_csv_fieldnames() -> list[str]:
+    return ["model", "language", "domain", "subdomain", "correct", "questions", "accuracy"]
+
+
+def stats_to_subdomain_csv_rows(model: str, lang: str, stats: dict) -> list[dict]:
+    sub_dom = stats.get("subdomain_to_domain", {})
+    rows = []
+    for subdomain, (correct, total, acc) in sorted(stats["by_subdomain"].items()):
+        rows.append({
+            "model": model,
+            "language": lang,
+            "domain": sub_dom.get(subdomain, "?"),
+            "subdomain": subdomain,
+            "correct": correct,
+            "questions": total,
+            "accuracy": round(acc * 100, 2),
+        })
+    return rows
 
 
 # ── main ──────────────────────────────────────────────────────────────────────
@@ -416,7 +469,36 @@ def main() -> None:
             "or supply --csv <path>."
         ),
     )
+    parser.add_argument(
+        "--subdomain-csv",
+        nargs="?",
+        const=str(DEFAULT_SUBDOMAIN_CSV),
+        default=None,
+        help=(
+            "Write per-model × subdomain accuracy to CSV (long format). "
+            f"Use bare flag for the default path ({DEFAULT_SUBDOMAIN_CSV}), "
+            "or supply --subdomain-csv <path>."
+        ),
+    )
+    parser.add_argument(
+        "--length-tier-csv",
+        nargs="?",
+        const=str(DEFAULT_LENGTH_TIER_CSV),
+        default=None,
+        help=(
+            "Write per-model × language × length_tier accuracy to CSV. "
+            f"Use bare flag for the default path ({DEFAULT_LENGTH_TIER_CSV}), "
+            "or supply --length-tier-csv <path>."
+        ),
+    )
     args = parser.parse_args()
+
+    if args.detailed and args.csv is None:
+        args.csv = str(DEFAULT_CSV)
+    if args.detailed and args.subdomain_csv is None:
+        args.subdomain_csv = str(DEFAULT_SUBDOMAIN_CSV)
+    if args.detailed and args.length_tier_csv is None:
+        args.length_tier_csv = str(DEFAULT_LENGTH_TIER_CSV)
 
     exclude_domains = set(args.exclude_domain)
     exclude_subdomains = set(args.exclude_subdomain)
@@ -429,6 +511,8 @@ def main() -> None:
         print(f"Excluding: {', '.join(bits)}")
 
     csv_rows: list[dict] = []
+    subdomain_csv_rows: list[dict] = []
+    length_tier_csv_rows: list[dict] = []
     langs = sorted(
         p.name
         for p in OUTPUT_DIR.iterdir()
@@ -457,6 +541,10 @@ def main() -> None:
                 print_domain_rows(stats)
             if args.csv is not None:
                 csv_rows.append(stats_to_csv_row(model, lang, stats))
+            if args.subdomain_csv is not None:
+                subdomain_csv_rows.extend(stats_to_subdomain_csv_rows(model, lang, stats))
+            if args.length_tier_csv is not None:
+                length_tier_csv_rows.extend(stats_to_length_tier_csv_rows(model, lang, stats))
 
         # lm_eval rows: one per (model × n-shot). Printed under their own
         # sub-header so they don't visually mix with the 0-shot pipeline.
@@ -470,6 +558,10 @@ def main() -> None:
                 print(fmt_row(row["label"], row))
                 if args.csv is not None:
                     csv_rows.append(stats_to_csv_row(row["label"], lang, row))
+                if args.subdomain_csv is not None:
+                    subdomain_csv_rows.extend(stats_to_subdomain_csv_rows(row["label"], lang, row))
+                if args.length_tier_csv is not None:
+                    length_tier_csv_rows.extend(stats_to_length_tier_csv_rows(row["label"], lang, row))
 
     if args.csv is not None:
         out = Path(args.csv)
@@ -479,6 +571,24 @@ def main() -> None:
             writer.writeheader()
             writer.writerows(csv_rows)
         print(f"\nCSV saved → {out}  ({len(csv_rows)} rows)")
+
+    if args.subdomain_csv is not None:
+        out = Path(args.subdomain_csv)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with open(out, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=_subdomain_csv_fieldnames())
+            writer.writeheader()
+            writer.writerows(subdomain_csv_rows)
+        print(f"\nSubdomain CSV saved → {out}  ({len(subdomain_csv_rows)} rows)")
+
+    if args.length_tier_csv is not None:
+        out = Path(args.length_tier_csv)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with open(out, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=_length_tier_csv_fieldnames())
+            writer.writeheader()
+            writer.writerows(length_tier_csv_rows)
+        print(f"\nLength-tier CSV saved → {out}  ({len(length_tier_csv_rows)} rows)")
 
 
 if __name__ == "__main__":

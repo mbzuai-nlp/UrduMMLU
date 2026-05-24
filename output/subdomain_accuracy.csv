@@ -1,0 +1,1561 @@
+model,language,domain,subdomain,correct,questions,accuracy
+Qwen__Qwen3-4B-Instruct-2507,en,STEM,biology,538,931,57.79
+Qwen__Qwen3-4B-Instruct-2507,en,STEM,chemistry,626,936,66.88
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,civics,386,675,57.19
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,commerce,213,423,50.35
+Qwen__Qwen3-4B-Instruct-2507,en,STEM,computer science,637,823,77.4
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,current and international affairs,161,437,36.84
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,economics,472,907,52.04
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,education,474,836,56.7
+Qwen__Qwen3-4B-Instruct-2507,en,Humanities,ethics,111,228,48.68
+Qwen__Qwen3-4B-Instruct-2507,en,Humanities,fine arts,89,148,60.14
+Qwen__Qwen3-4B-Instruct-2507,en,Other,general knowledge,653,1365,47.84
+Qwen__Qwen3-4B-Instruct-2507,en,STEM,general science,636,926,68.68
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,geography,358,630,56.83
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,health and physical education,366,742,49.33
+Qwen__Qwen3-4B-Instruct-2507,en,Humanities,islamic studies,740,1497,49.43
+Qwen__Qwen3-4B-Instruct-2507,en,STEM,mathematics,623,876,71.12
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,pakistan studies,832,1895,43.91
+Qwen__Qwen3-4B-Instruct-2507,en,STEM,physics,448,621,72.14
+Qwen__Qwen3-4B-Instruct-2507,en,Profession,professional development,222,514,43.19
+Qwen__Qwen3-4B-Instruct-2507,en,Profession,professional studies,291,461,63.12
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,psychology,256,460,55.65
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,psychometrics,55,185,29.73
+Qwen__Qwen3-4B-Instruct-2507,en,Social Sciences,sociology,529,778,67.99
+Qwen__Qwen3-4B-Instruct-2507,en,Humanities,urdu grammar,390,756,51.59
+Qwen__Qwen3-4B-Instruct-2507,en,Humanities,urdu language,1098,2522,43.54
+Qwen__Qwen3-4B-Instruct-2507,en,Humanities,urdu literature,2233,5859,38.11
+Qwen__Qwen3-8B,en,STEM,biology,563,931,60.47
+Qwen__Qwen3-8B,en,STEM,chemistry,626,936,66.88
+Qwen__Qwen3-8B,en,Social Sciences,civics,404,675,59.85
+Qwen__Qwen3-8B,en,Social Sciences,commerce,245,423,57.92
+Qwen__Qwen3-8B,en,STEM,computer science,638,823,77.52
+Qwen__Qwen3-8B,en,Social Sciences,current and international affairs,131,437,29.98
+Qwen__Qwen3-8B,en,Social Sciences,economics,512,907,56.45
+Qwen__Qwen3-8B,en,Social Sciences,education,524,836,62.68
+Qwen__Qwen3-8B,en,Humanities,ethics,137,228,60.09
+Qwen__Qwen3-8B,en,Humanities,fine arts,69,148,46.62
+Qwen__Qwen3-8B,en,Other,general knowledge,685,1365,50.18
+Qwen__Qwen3-8B,en,STEM,general science,654,926,70.63
+Qwen__Qwen3-8B,en,Social Sciences,geography,362,630,57.46
+Qwen__Qwen3-8B,en,Social Sciences,health and physical education,389,742,52.43
+Qwen__Qwen3-8B,en,Humanities,islamic studies,756,1497,50.5
+Qwen__Qwen3-8B,en,STEM,mathematics,662,876,75.57
+Qwen__Qwen3-8B,en,Social Sciences,pakistan studies,853,1895,45.01
+Qwen__Qwen3-8B,en,STEM,physics,472,621,76.01
+Qwen__Qwen3-8B,en,Profession,professional development,236,514,45.91
+Qwen__Qwen3-8B,en,Profession,professional studies,316,461,68.55
+Qwen__Qwen3-8B,en,Social Sciences,psychology,273,460,59.35
+Qwen__Qwen3-8B,en,Social Sciences,psychometrics,56,185,30.27
+Qwen__Qwen3-8B,en,Social Sciences,sociology,553,778,71.08
+Qwen__Qwen3-8B,en,Humanities,urdu grammar,390,756,51.59
+Qwen__Qwen3-8B,en,Humanities,urdu language,1162,2522,46.07
+Qwen__Qwen3-8B,en,Humanities,urdu literature,1803,5859,30.77
+Qwen__Qwen3.6-35B-A3B,en,STEM,biology,803,931,86.25
+Qwen__Qwen3.6-35B-A3B,en,STEM,chemistry,825,936,88.14
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,civics,540,675,80.0
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,commerce,334,423,78.96
+Qwen__Qwen3.6-35B-A3B,en,STEM,computer science,761,823,92.47
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,current and international affairs,188,437,43.02
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,economics,712,907,78.5
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,education,628,836,75.12
+Qwen__Qwen3.6-35B-A3B,en,Humanities,ethics,177,228,77.63
+Qwen__Qwen3.6-35B-A3B,en,Humanities,fine arts,117,148,79.05
+Qwen__Qwen3.6-35B-A3B,en,Other,general knowledge,953,1365,69.82
+Qwen__Qwen3.6-35B-A3B,en,STEM,general science,828,926,89.42
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,geography,508,630,80.63
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,health and physical education,510,742,68.73
+Qwen__Qwen3.6-35B-A3B,en,Humanities,islamic studies,1175,1497,78.49
+Qwen__Qwen3.6-35B-A3B,en,STEM,mathematics,759,876,86.64
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,pakistan studies,1292,1895,68.18
+Qwen__Qwen3.6-35B-A3B,en,STEM,physics,563,621,90.66
+Qwen__Qwen3.6-35B-A3B,en,Profession,professional development,360,514,70.04
+Qwen__Qwen3.6-35B-A3B,en,Profession,professional studies,376,461,81.56
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,psychology,385,460,83.7
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,psychometrics,76,185,41.08
+Qwen__Qwen3.6-35B-A3B,en,Social Sciences,sociology,685,778,88.05
+Qwen__Qwen3.6-35B-A3B,en,Humanities,urdu grammar,510,756,67.46
+Qwen__Qwen3.6-35B-A3B,en,Humanities,urdu language,1573,2522,62.37
+Qwen__Qwen3.6-35B-A3B,en,Humanities,urdu literature,2703,5859,46.13
+bigscience__bloomz-1b1,en,STEM,biology,224,931,24.06
+bigscience__bloomz-1b1,en,STEM,chemistry,229,935,24.49
+bigscience__bloomz-1b1,en,Social Sciences,civics,162,675,24.0
+bigscience__bloomz-1b1,en,Social Sciences,commerce,112,423,26.48
+bigscience__bloomz-1b1,en,STEM,computer science,211,823,25.64
+bigscience__bloomz-1b1,en,Social Sciences,current and international affairs,112,432,25.93
+bigscience__bloomz-1b1,en,Social Sciences,economics,220,907,24.26
+bigscience__bloomz-1b1,en,Social Sciences,education,181,836,21.65
+bigscience__bloomz-1b1,en,Humanities,ethics,64,228,28.07
+bigscience__bloomz-1b1,en,Humanities,fine arts,31,145,21.38
+bigscience__bloomz-1b1,en,Other,general knowledge,348,1358,25.63
+bigscience__bloomz-1b1,en,STEM,general science,176,925,19.03
+bigscience__bloomz-1b1,en,Social Sciences,geography,149,630,23.65
+bigscience__bloomz-1b1,en,Social Sciences,health and physical education,182,742,24.53
+bigscience__bloomz-1b1,en,Humanities,islamic studies,374,1490,25.1
+bigscience__bloomz-1b1,en,STEM,mathematics,211,875,24.11
+bigscience__bloomz-1b1,en,Social Sciences,pakistan studies,471,1891,24.91
+bigscience__bloomz-1b1,en,STEM,physics,151,621,24.32
+bigscience__bloomz-1b1,en,Profession,professional development,128,510,25.1
+bigscience__bloomz-1b1,en,Profession,professional studies,125,461,27.11
+bigscience__bloomz-1b1,en,Social Sciences,psychology,116,458,25.33
+bigscience__bloomz-1b1,en,Social Sciences,psychometrics,46,185,24.86
+bigscience__bloomz-1b1,en,Social Sciences,sociology,190,778,24.42
+bigscience__bloomz-1b1,en,Humanities,urdu grammar,183,705,25.96
+bigscience__bloomz-1b1,en,Humanities,urdu language,685,2495,27.45
+bigscience__bloomz-1b1,en,Humanities,urdu literature,1629,5839,27.9
+bigscience__bloomz-1b7,en,STEM,biology,231,889,25.98
+bigscience__bloomz-1b7,en,STEM,chemistry,239,893,26.76
+bigscience__bloomz-1b7,en,Social Sciences,civics,234,672,34.82
+bigscience__bloomz-1b7,en,Social Sciences,commerce,131,419,31.26
+bigscience__bloomz-1b7,en,STEM,computer science,274,785,34.9
+bigscience__bloomz-1b7,en,Social Sciences,current and international affairs,126,433,29.1
+bigscience__bloomz-1b7,en,Social Sciences,economics,293,903,32.45
+bigscience__bloomz-1b7,en,Social Sciences,education,320,835,38.32
+bigscience__bloomz-1b7,en,Humanities,ethics,72,225,32.0
+bigscience__bloomz-1b7,en,Humanities,fine arts,33,140,23.57
+bigscience__bloomz-1b7,en,Other,general knowledge,412,1311,31.43
+bigscience__bloomz-1b7,en,STEM,general science,290,890,32.58
+bigscience__bloomz-1b7,en,Social Sciences,geography,187,629,29.73
+bigscience__bloomz-1b7,en,Social Sciences,health and physical education,238,738,32.25
+bigscience__bloomz-1b7,en,Humanities,islamic studies,440,1470,29.93
+bigscience__bloomz-1b7,en,STEM,mathematics,225,807,27.88
+bigscience__bloomz-1b7,en,Social Sciences,pakistan studies,588,1869,31.46
+bigscience__bloomz-1b7,en,STEM,physics,148,597,24.79
+bigscience__bloomz-1b7,en,Profession,professional development,139,475,29.26
+bigscience__bloomz-1b7,en,Profession,professional studies,203,445,45.62
+bigscience__bloomz-1b7,en,Social Sciences,psychology,127,459,27.67
+bigscience__bloomz-1b7,en,Social Sciences,psychometrics,66,183,36.07
+bigscience__bloomz-1b7,en,Social Sciences,sociology,329,778,42.29
+bigscience__bloomz-1b7,en,Humanities,urdu grammar,176,751,23.44
+bigscience__bloomz-1b7,en,Humanities,urdu language,695,2495,27.86
+bigscience__bloomz-1b7,en,Humanities,urdu literature,1564,5678,27.54
+bigscience__bloomz-3b,en,STEM,biology,283,923,30.66
+bigscience__bloomz-3b,en,STEM,chemistry,235,930,25.27
+bigscience__bloomz-3b,en,Social Sciences,civics,261,666,39.19
+bigscience__bloomz-3b,en,Social Sciences,commerce,132,405,32.59
+bigscience__bloomz-3b,en,STEM,computer science,210,786,26.72
+bigscience__bloomz-3b,en,Social Sciences,current and international affairs,125,437,28.6
+bigscience__bloomz-3b,en,Social Sciences,economics,317,882,35.94
+bigscience__bloomz-3b,en,Social Sciences,education,270,793,34.05
+bigscience__bloomz-3b,en,Humanities,ethics,71,225,31.56
+bigscience__bloomz-3b,en,Humanities,fine arts,44,140,31.43
+bigscience__bloomz-3b,en,Other,general knowledge,381,1342,28.39
+bigscience__bloomz-3b,en,STEM,general science,271,913,29.68
+bigscience__bloomz-3b,en,Social Sciences,geography,184,626,29.39
+bigscience__bloomz-3b,en,Social Sciences,health and physical education,221,693,31.89
+bigscience__bloomz-3b,en,Humanities,islamic studies,453,1421,31.88
+bigscience__bloomz-3b,en,STEM,mathematics,243,863,28.16
+bigscience__bloomz-3b,en,Social Sciences,pakistan studies,572,1873,30.54
+bigscience__bloomz-3b,en,STEM,physics,161,615,26.18
+bigscience__bloomz-3b,en,Profession,professional development,136,496,27.42
+bigscience__bloomz-3b,en,Profession,professional studies,147,379,38.79
+bigscience__bloomz-3b,en,Social Sciences,psychology,148,442,33.48
+bigscience__bloomz-3b,en,Social Sciences,psychometrics,27,110,24.55
+bigscience__bloomz-3b,en,Social Sciences,sociology,302,766,39.43
+bigscience__bloomz-3b,en,Humanities,urdu grammar,152,496,30.65
+bigscience__bloomz-3b,en,Humanities,urdu language,566,1939,29.19
+bigscience__bloomz-3b,en,Humanities,urdu literature,1667,5541,30.08
+bigscience__bloomz-7b1-mt,en,STEM,biology,242,866,27.94
+bigscience__bloomz-7b1-mt,en,STEM,chemistry,226,854,26.46
+bigscience__bloomz-7b1-mt,en,Social Sciences,civics,195,616,31.66
+bigscience__bloomz-7b1-mt,en,Social Sciences,commerce,119,369,32.25
+bigscience__bloomz-7b1-mt,en,STEM,computer science,195,673,28.97
+bigscience__bloomz-7b1-mt,en,Social Sciences,current and international affairs,111,408,27.21
+bigscience__bloomz-7b1-mt,en,Social Sciences,economics,270,822,32.85
+bigscience__bloomz-7b1-mt,en,Social Sciences,education,308,774,39.79
+bigscience__bloomz-7b1-mt,en,Humanities,ethics,69,211,32.7
+bigscience__bloomz-7b1-mt,en,Humanities,fine arts,38,129,29.46
+bigscience__bloomz-7b1-mt,en,Other,general knowledge,375,1334,28.11
+bigscience__bloomz-7b1-mt,en,STEM,general science,253,853,29.66
+bigscience__bloomz-7b1-mt,en,Social Sciences,geography,181,584,30.99
+bigscience__bloomz-7b1-mt,en,Social Sciences,health and physical education,232,671,34.58
+bigscience__bloomz-7b1-mt,en,Humanities,islamic studies,411,1410,29.15
+bigscience__bloomz-7b1-mt,en,STEM,mathematics,217,803,27.02
+bigscience__bloomz-7b1-mt,en,Social Sciences,pakistan studies,549,1744,31.48
+bigscience__bloomz-7b1-mt,en,STEM,physics,144,553,26.04
+bigscience__bloomz-7b1-mt,en,Profession,professional development,127,481,26.4
+bigscience__bloomz-7b1-mt,en,Profession,professional studies,156,408,38.24
+bigscience__bloomz-7b1-mt,en,Social Sciences,psychology,131,389,33.68
+bigscience__bloomz-7b1-mt,en,Social Sciences,psychometrics,39,135,28.89
+bigscience__bloomz-7b1-mt,en,Social Sciences,sociology,283,694,40.78
+bigscience__bloomz-7b1-mt,en,Humanities,urdu grammar,204,670,30.45
+bigscience__bloomz-7b1-mt,en,Humanities,urdu language,543,2008,27.04
+bigscience__bloomz-7b1-mt,en,Humanities,urdu literature,1363,5021,27.15
+claude-haiku-4-5,en,STEM,biology,831,931,89.26
+claude-haiku-4-5,en,STEM,chemistry,844,936,90.17
+claude-haiku-4-5,en,Social Sciences,civics,552,675,81.78
+claude-haiku-4-5,en,Social Sciences,commerce,337,423,79.67
+claude-haiku-4-5,en,STEM,computer science,757,823,91.98
+claude-haiku-4-5,en,Social Sciences,current and international affairs,205,425,48.24
+claude-haiku-4-5,en,Social Sciences,economics,728,907,80.26
+claude-haiku-4-5,en,Social Sciences,education,633,836,75.72
+claude-haiku-4-5,en,Humanities,ethics,178,228,78.07
+claude-haiku-4-5,en,Humanities,fine arts,114,147,77.55
+claude-haiku-4-5,en,Other,general knowledge,1012,1365,74.14
+claude-haiku-4-5,en,STEM,general science,812,926,87.69
+claude-haiku-4-5,en,Social Sciences,geography,517,630,82.06
+claude-haiku-4-5,en,Social Sciences,health and physical education,555,741,74.9
+claude-haiku-4-5,en,Humanities,islamic studies,1215,1495,81.27
+claude-haiku-4-5,en,STEM,mathematics,803,873,91.98
+claude-haiku-4-5,en,Social Sciences,pakistan studies,1356,1894,71.59
+claude-haiku-4-5,en,STEM,physics,577,621,92.91
+claude-haiku-4-5,en,Profession,professional development,359,514,69.84
+claude-haiku-4-5,en,Profession,professional studies,381,461,82.65
+claude-haiku-4-5,en,Social Sciences,psychology,393,460,85.43
+claude-haiku-4-5,en,Social Sciences,psychometrics,75,184,40.76
+claude-haiku-4-5,en,Social Sciences,sociology,682,778,87.66
+claude-haiku-4-5,en,Humanities,urdu grammar,521,756,68.92
+claude-haiku-4-5,en,Humanities,urdu language,1627,2522,64.51
+claude-haiku-4-5,en,Humanities,urdu literature,2788,5852,47.64
+claude-sonnet-4-6,en,STEM,biology,901,931,96.78
+claude-sonnet-4-6,en,STEM,chemistry,901,936,96.26
+claude-sonnet-4-6,en,Social Sciences,civics,626,675,92.74
+claude-sonnet-4-6,en,Social Sciences,commerce,387,423,91.49
+claude-sonnet-4-6,en,STEM,computer science,784,823,95.26
+claude-sonnet-4-6,en,Social Sciences,current and international affairs,286,437,65.45
+claude-sonnet-4-6,en,Social Sciences,economics,829,907,91.4
+claude-sonnet-4-6,en,Social Sciences,education,701,836,83.85
+claude-sonnet-4-6,en,Humanities,ethics,200,228,87.72
+claude-sonnet-4-6,en,Humanities,fine arts,132,148,89.19
+claude-sonnet-4-6,en,Other,general knowledge,1174,1365,86.01
+claude-sonnet-4-6,en,STEM,general science,874,926,94.38
+claude-sonnet-4-6,en,Social Sciences,geography,583,630,92.54
+claude-sonnet-4-6,en,Social Sciences,health and physical education,623,742,83.96
+claude-sonnet-4-6,en,Humanities,islamic studies,1362,1497,90.98
+claude-sonnet-4-6,en,STEM,mathematics,857,876,97.83
+claude-sonnet-4-6,en,Social Sciences,pakistan studies,1673,1895,88.28
+claude-sonnet-4-6,en,STEM,physics,609,621,98.07
+claude-sonnet-4-6,en,Profession,professional development,440,514,85.6
+claude-sonnet-4-6,en,Profession,professional studies,410,461,88.94
+claude-sonnet-4-6,en,Social Sciences,psychology,434,460,94.35
+claude-sonnet-4-6,en,Social Sciences,psychometrics,97,185,52.43
+claude-sonnet-4-6,en,Social Sciences,sociology,722,778,92.8
+claude-sonnet-4-6,en,Humanities,urdu grammar,638,756,84.39
+claude-sonnet-4-6,en,Humanities,urdu language,2044,2522,81.05
+claude-sonnet-4-6,en,Humanities,urdu literature,3627,5859,61.9
+deepseek-ai__DeepSeek-V4-Flash,en,STEM,biology,912,930,98.06
+deepseek-ai__DeepSeek-V4-Flash,en,STEM,chemistry,914,936,97.65
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,civics,633,673,94.06
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,commerce,402,423,95.04
+deepseek-ai__DeepSeek-V4-Flash,en,STEM,computer science,787,821,95.86
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,current and international affairs,312,436,71.56
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,economics,852,907,93.94
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,education,712,835,85.27
+deepseek-ai__DeepSeek-V4-Flash,en,Humanities,ethics,202,228,88.6
+deepseek-ai__DeepSeek-V4-Flash,en,Humanities,fine arts,129,148,87.16
+deepseek-ai__DeepSeek-V4-Flash,en,Other,general knowledge,1179,1364,86.44
+deepseek-ai__DeepSeek-V4-Flash,en,STEM,general science,893,925,96.54
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,geography,594,630,94.29
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,health and physical education,683,741,92.17
+deepseek-ai__DeepSeek-V4-Flash,en,Humanities,islamic studies,1365,1496,91.24
+deepseek-ai__DeepSeek-V4-Flash,en,STEM,mathematics,860,874,98.4
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,pakistan studies,1732,1895,91.4
+deepseek-ai__DeepSeek-V4-Flash,en,STEM,physics,613,621,98.71
+deepseek-ai__DeepSeek-V4-Flash,en,Profession,professional development,459,514,89.3
+deepseek-ai__DeepSeek-V4-Flash,en,Profession,professional studies,417,461,90.46
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,psychology,436,460,94.78
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,psychometrics,74,184,40.22
+deepseek-ai__DeepSeek-V4-Flash,en,Social Sciences,sociology,740,778,95.12
+deepseek-ai__DeepSeek-V4-Flash,en,Humanities,urdu grammar,600,754,79.58
+deepseek-ai__DeepSeek-V4-Flash,en,Humanities,urdu language,1940,2516,77.11
+deepseek-ai__DeepSeek-V4-Flash,en,Humanities,urdu literature,3319,5853,56.71
+enstazao__Qalb-1.0-8B-Instruct,en,STEM,biology,319,931,34.26
+enstazao__Qalb-1.0-8B-Instruct,en,STEM,chemistry,330,936,35.26
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,civics,318,675,47.11
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,commerce,161,423,38.06
+enstazao__Qalb-1.0-8B-Instruct,en,STEM,computer science,357,823,43.38
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,current and international affairs,135,437,30.89
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,economics,330,907,36.38
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,education,302,836,36.12
+enstazao__Qalb-1.0-8B-Instruct,en,Humanities,ethics,93,228,40.79
+enstazao__Qalb-1.0-8B-Instruct,en,Humanities,fine arts,61,148,41.22
+enstazao__Qalb-1.0-8B-Instruct,en,Other,general knowledge,540,1365,39.56
+enstazao__Qalb-1.0-8B-Instruct,en,STEM,general science,423,926,45.68
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,geography,274,630,43.49
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,health and physical education,211,742,28.44
+enstazao__Qalb-1.0-8B-Instruct,en,Humanities,islamic studies,534,1497,35.67
+enstazao__Qalb-1.0-8B-Instruct,en,STEM,mathematics,295,876,33.68
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,pakistan studies,693,1895,36.57
+enstazao__Qalb-1.0-8B-Instruct,en,STEM,physics,228,621,36.71
+enstazao__Qalb-1.0-8B-Instruct,en,Profession,professional development,194,514,37.74
+enstazao__Qalb-1.0-8B-Instruct,en,Profession,professional studies,199,461,43.17
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,psychology,162,460,35.22
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,psychometrics,45,185,24.32
+enstazao__Qalb-1.0-8B-Instruct,en,Social Sciences,sociology,371,778,47.69
+enstazao__Qalb-1.0-8B-Instruct,en,Humanities,urdu grammar,245,756,32.41
+enstazao__Qalb-1.0-8B-Instruct,en,Humanities,urdu language,782,2522,31.01
+enstazao__Qalb-1.0-8B-Instruct,en,Humanities,urdu literature,1587,5859,27.09
+gemini-3.1-flash-lite,en,STEM,biology,904,931,97.1
+gemini-3.1-flash-lite,en,STEM,chemistry,915,936,97.76
+gemini-3.1-flash-lite,en,Social Sciences,civics,637,675,94.37
+gemini-3.1-flash-lite,en,Social Sciences,commerce,400,423,94.56
+gemini-3.1-flash-lite,en,STEM,computer science,792,823,96.23
+gemini-3.1-flash-lite,en,Social Sciences,current and international affairs,293,437,67.05
+gemini-3.1-flash-lite,en,Social Sciences,economics,854,907,94.16
+gemini-3.1-flash-lite,en,Social Sciences,education,736,836,88.04
+gemini-3.1-flash-lite,en,Humanities,ethics,210,228,92.11
+gemini-3.1-flash-lite,en,Humanities,fine arts,126,148,85.14
+gemini-3.1-flash-lite,en,Other,general knowledge,1175,1365,86.08
+gemini-3.1-flash-lite,en,STEM,general science,889,926,96.0
+gemini-3.1-flash-lite,en,Social Sciences,geography,596,630,94.6
+gemini-3.1-flash-lite,en,Social Sciences,health and physical education,673,742,90.7
+gemini-3.1-flash-lite,en,Humanities,islamic studies,1359,1497,90.78
+gemini-3.1-flash-lite,en,STEM,mathematics,845,876,96.46
+gemini-3.1-flash-lite,en,Social Sciences,pakistan studies,1743,1895,91.98
+gemini-3.1-flash-lite,en,STEM,physics,607,621,97.75
+gemini-3.1-flash-lite,en,Profession,professional development,450,514,87.55
+gemini-3.1-flash-lite,en,Profession,professional studies,430,461,93.28
+gemini-3.1-flash-lite,en,Social Sciences,psychology,439,460,95.43
+gemini-3.1-flash-lite,en,Social Sciences,psychometrics,72,185,38.92
+gemini-3.1-flash-lite,en,Social Sciences,sociology,729,778,93.7
+gemini-3.1-flash-lite,en,Humanities,urdu grammar,658,756,87.04
+gemini-3.1-flash-lite,en,Humanities,urdu language,2094,2521,83.06
+gemini-3.1-flash-lite,en,Humanities,urdu literature,3722,5859,63.53
+gemini-3.5-flash,en,STEM,biology,918,931,98.6
+gemini-3.5-flash,en,STEM,chemistry,916,936,97.86
+gemini-3.5-flash,en,Social Sciences,civics,641,675,94.96
+gemini-3.5-flash,en,Social Sciences,commerce,401,423,94.8
+gemini-3.5-flash,en,STEM,computer science,781,814,95.95
+gemini-3.5-flash,en,Social Sciences,current and international affairs,343,437,78.49
+gemini-3.5-flash,en,Social Sciences,economics,855,907,94.27
+gemini-3.5-flash,en,Social Sciences,education,734,829,88.54
+gemini-3.5-flash,en,Humanities,ethics,204,228,89.47
+gemini-3.5-flash,en,Humanities,fine arts,129,148,87.16
+gemini-3.5-flash,en,Other,general knowledge,1237,1353,91.43
+gemini-3.5-flash,en,STEM,general science,896,926,96.76
+gemini-3.5-flash,en,Social Sciences,geography,604,630,95.87
+gemini-3.5-flash,en,Social Sciences,health and physical education,693,742,93.4
+gemini-3.5-flash,en,Humanities,islamic studies,1410,1496,94.25
+gemini-3.5-flash,en,STEM,mathematics,865,875,98.86
+gemini-3.5-flash,en,Social Sciences,pakistan studies,1792,1894,94.61
+gemini-3.5-flash,en,STEM,physics,612,621,98.55
+gemini-3.5-flash,en,Profession,professional development,474,514,92.22
+gemini-3.5-flash,en,Profession,professional studies,424,461,91.97
+gemini-3.5-flash,en,Social Sciences,psychology,437,460,95.0
+gemini-3.5-flash,en,Social Sciences,psychometrics,106,185,57.3
+gemini-3.5-flash,en,Social Sciences,sociology,729,778,93.7
+gemini-3.5-flash,en,Humanities,urdu grammar,667,755,88.34
+gemini-3.5-flash,en,Humanities,urdu language,2235,2520,88.69
+gemini-3.5-flash,en,Humanities,urdu literature,4707,5858,80.35
+google__gemma-2-9b-it,en,STEM,biology,596,931,64.02
+google__gemma-2-9b-it,en,STEM,chemistry,611,936,65.28
+google__gemma-2-9b-it,en,Social Sciences,civics,432,675,64.0
+google__gemma-2-9b-it,en,Social Sciences,commerce,267,423,63.12
+google__gemma-2-9b-it,en,STEM,computer science,589,823,71.57
+google__gemma-2-9b-it,en,Social Sciences,current and international affairs,179,437,40.96
+google__gemma-2-9b-it,en,Social Sciences,economics,535,907,58.99
+google__gemma-2-9b-it,en,Social Sciences,education,544,836,65.07
+google__gemma-2-9b-it,en,Humanities,ethics,149,228,65.35
+google__gemma-2-9b-it,en,Humanities,fine arts,96,148,64.86
+google__gemma-2-9b-it,en,Other,general knowledge,745,1365,54.58
+google__gemma-2-9b-it,en,STEM,general science,658,926,71.06
+google__gemma-2-9b-it,en,Social Sciences,geography,396,630,62.86
+google__gemma-2-9b-it,en,Social Sciences,health and physical education,381,742,51.35
+google__gemma-2-9b-it,en,Humanities,islamic studies,832,1497,55.58
+google__gemma-2-9b-it,en,STEM,mathematics,562,876,64.16
+google__gemma-2-9b-it,en,Social Sciences,pakistan studies,991,1895,52.3
+google__gemma-2-9b-it,en,STEM,physics,414,621,66.67
+google__gemma-2-9b-it,en,Profession,professional development,256,514,49.81
+google__gemma-2-9b-it,en,Profession,professional studies,329,461,71.37
+google__gemma-2-9b-it,en,Social Sciences,psychology,282,460,61.3
+google__gemma-2-9b-it,en,Social Sciences,psychometrics,57,185,30.81
+google__gemma-2-9b-it,en,Social Sciences,sociology,589,778,75.71
+google__gemma-2-9b-it,en,Humanities,urdu grammar,411,756,54.37
+google__gemma-2-9b-it,en,Humanities,urdu language,1309,2522,51.9
+google__gemma-2-9b-it,en,Humanities,urdu literature,2401,5859,40.98
+google__gemma-3-4b-it,en,STEM,biology,431,931,46.29
+google__gemma-3-4b-it,en,STEM,chemistry,434,936,46.37
+google__gemma-3-4b-it,en,Social Sciences,civics,392,675,58.07
+google__gemma-3-4b-it,en,Social Sciences,commerce,210,423,49.65
+google__gemma-3-4b-it,en,STEM,computer science,496,823,60.27
+google__gemma-3-4b-it,en,Social Sciences,current and international affairs,138,437,31.58
+google__gemma-3-4b-it,en,Social Sciences,economics,421,907,46.42
+google__gemma-3-4b-it,en,Social Sciences,education,427,836,51.08
+google__gemma-3-4b-it,en,Humanities,ethics,115,228,50.44
+google__gemma-3-4b-it,en,Humanities,fine arts,81,148,54.73
+google__gemma-3-4b-it,en,Other,general knowledge,622,1365,45.57
+google__gemma-3-4b-it,en,STEM,general science,517,926,55.83
+google__gemma-3-4b-it,en,Social Sciences,geography,336,630,53.33
+google__gemma-3-4b-it,en,Social Sciences,health and physical education,309,742,41.64
+google__gemma-3-4b-it,en,Humanities,islamic studies,647,1497,43.22
+google__gemma-3-4b-it,en,STEM,mathematics,381,876,43.49
+google__gemma-3-4b-it,en,Social Sciences,pakistan studies,806,1895,42.53
+google__gemma-3-4b-it,en,STEM,physics,296,621,47.67
+google__gemma-3-4b-it,en,Profession,professional development,212,514,41.25
+google__gemma-3-4b-it,en,Profession,professional studies,254,461,55.1
+google__gemma-3-4b-it,en,Social Sciences,psychology,212,460,46.09
+google__gemma-3-4b-it,en,Social Sciences,psychometrics,44,185,23.78
+google__gemma-3-4b-it,en,Social Sciences,sociology,504,778,64.78
+google__gemma-3-4b-it,en,Humanities,urdu grammar,311,756,41.14
+google__gemma-3-4b-it,en,Humanities,urdu language,1025,2522,40.64
+google__gemma-3-4b-it,en,Humanities,urdu literature,1990,5859,33.96
+google__gemma-4-26B-A4B-it,en,STEM,biology,778,931,83.57
+google__gemma-4-26B-A4B-it,en,STEM,chemistry,800,936,85.47
+google__gemma-4-26B-A4B-it,en,Social Sciences,civics,529,675,78.37
+google__gemma-4-26B-A4B-it,en,Social Sciences,commerce,328,423,77.54
+google__gemma-4-26B-A4B-it,en,STEM,computer science,728,823,88.46
+google__gemma-4-26B-A4B-it,en,Social Sciences,current and international affairs,186,437,42.56
+google__gemma-4-26B-A4B-it,en,Social Sciences,economics,663,907,73.1
+google__gemma-4-26B-A4B-it,en,Social Sciences,education,624,836,74.64
+google__gemma-4-26B-A4B-it,en,Humanities,ethics,164,228,71.93
+google__gemma-4-26B-A4B-it,en,Humanities,fine arts,106,148,71.62
+google__gemma-4-26B-A4B-it,en,Other,general knowledge,963,1365,70.55
+google__gemma-4-26B-A4B-it,en,STEM,general science,793,926,85.64
+google__gemma-4-26B-A4B-it,en,Social Sciences,geography,501,630,79.52
+google__gemma-4-26B-A4B-it,en,Social Sciences,health and physical education,528,742,71.16
+google__gemma-4-26B-A4B-it,en,Humanities,islamic studies,1168,1497,78.02
+google__gemma-4-26B-A4B-it,en,STEM,mathematics,745,876,85.05
+google__gemma-4-26B-A4B-it,en,Social Sciences,pakistan studies,1378,1895,72.72
+google__gemma-4-26B-A4B-it,en,STEM,physics,549,621,88.41
+google__gemma-4-26B-A4B-it,en,Profession,professional development,368,514,71.6
+google__gemma-4-26B-A4B-it,en,Profession,professional studies,368,461,79.83
+google__gemma-4-26B-A4B-it,en,Social Sciences,psychology,373,460,81.09
+google__gemma-4-26B-A4B-it,en,Social Sciences,psychometrics,82,185,44.32
+google__gemma-4-26B-A4B-it,en,Social Sciences,sociology,691,778,88.82
+google__gemma-4-26B-A4B-it,en,Humanities,urdu grammar,538,756,71.16
+google__gemma-4-26B-A4B-it,en,Humanities,urdu language,1667,2522,66.1
+google__gemma-4-26B-A4B-it,en,Humanities,urdu literature,2680,5858,45.75
+google__gemma-4-31B-it,en,STEM,biology,870,931,93.45
+google__gemma-4-31B-it,en,STEM,chemistry,860,936,91.88
+google__gemma-4-31B-it,en,Social Sciences,civics,589,675,87.26
+google__gemma-4-31B-it,en,Social Sciences,commerce,364,423,86.05
+google__gemma-4-31B-it,en,STEM,computer science,769,823,93.44
+google__gemma-4-31B-it,en,Social Sciences,current and international affairs,240,437,54.92
+google__gemma-4-31B-it,en,Social Sciences,economics,765,907,84.34
+google__gemma-4-31B-it,en,Social Sciences,education,686,836,82.06
+google__gemma-4-31B-it,en,Humanities,ethics,192,228,84.21
+google__gemma-4-31B-it,en,Humanities,fine arts,122,148,82.43
+google__gemma-4-31B-it,en,Other,general knowledge,1085,1365,79.49
+google__gemma-4-31B-it,en,STEM,general science,855,926,92.33
+google__gemma-4-31B-it,en,Social Sciences,geography,552,630,87.62
+google__gemma-4-31B-it,en,Social Sciences,health and physical education,602,742,81.13
+google__gemma-4-31B-it,en,Humanities,islamic studies,1267,1497,84.64
+google__gemma-4-31B-it,en,STEM,mathematics,819,876,93.49
+google__gemma-4-31B-it,en,Social Sciences,pakistan studies,1517,1895,80.05
+google__gemma-4-31B-it,en,STEM,physics,599,621,96.46
+google__gemma-4-31B-it,en,Profession,professional development,409,514,79.57
+google__gemma-4-31B-it,en,Profession,professional studies,407,461,88.29
+google__gemma-4-31B-it,en,Social Sciences,psychology,414,460,90.0
+google__gemma-4-31B-it,en,Social Sciences,psychometrics,75,185,40.54
+google__gemma-4-31B-it,en,Social Sciences,sociology,706,778,90.75
+google__gemma-4-31B-it,en,Humanities,urdu grammar,584,756,77.25
+google__gemma-4-31B-it,en,Humanities,urdu language,1814,2522,71.93
+google__gemma-4-31B-it,en,Humanities,urdu literature,3024,5857,51.63
+gpt-5.4,en,STEM,biology,899,931,96.56
+gpt-5.4,en,STEM,chemistry,901,936,96.26
+gpt-5.4,en,Social Sciences,civics,618,675,91.56
+gpt-5.4,en,Social Sciences,commerce,386,423,91.25
+gpt-5.4,en,STEM,computer science,781,823,94.9
+gpt-5.4,en,Social Sciences,current and international affairs,306,437,70.02
+gpt-5.4,en,Social Sciences,economics,800,907,88.2
+gpt-5.4,en,Social Sciences,education,688,836,82.3
+gpt-5.4,en,Humanities,ethics,193,228,84.65
+gpt-5.4,en,Humanities,fine arts,128,148,86.49
+gpt-5.4,en,Other,general knowledge,1148,1365,84.1
+gpt-5.4,en,STEM,general science,871,926,94.06
+gpt-5.4,en,Social Sciences,geography,576,630,91.43
+gpt-5.4,en,Social Sciences,health and physical education,645,742,86.93
+gpt-5.4,en,Humanities,islamic studies,1353,1497,90.38
+gpt-5.4,en,STEM,mathematics,813,876,92.81
+gpt-5.4,en,Social Sciences,pakistan studies,1650,1895,87.07
+gpt-5.4,en,STEM,physics,599,621,96.46
+gpt-5.4,en,Profession,professional development,430,514,83.66
+gpt-5.4,en,Profession,professional studies,407,461,88.29
+gpt-5.4,en,Social Sciences,psychology,422,460,91.74
+gpt-5.4,en,Social Sciences,psychometrics,79,185,42.7
+gpt-5.4,en,Social Sciences,sociology,710,778,91.26
+gpt-5.4,en,Humanities,urdu grammar,591,756,78.17
+gpt-5.4,en,Humanities,urdu language,1971,2522,78.15
+gpt-5.4,en,Humanities,urdu literature,3393,5859,57.91
+gpt-5.4-mini,en,STEM,biology,831,931,89.26
+gpt-5.4-mini,en,STEM,chemistry,845,936,90.28
+gpt-5.4-mini,en,Social Sciences,civics,561,675,83.11
+gpt-5.4-mini,en,Social Sciences,commerce,336,423,79.43
+gpt-5.4-mini,en,STEM,computer science,747,823,90.77
+gpt-5.4-mini,en,Social Sciences,current and international affairs,248,437,56.75
+gpt-5.4-mini,en,Social Sciences,economics,736,907,81.15
+gpt-5.4-mini,en,Social Sciences,education,638,836,76.32
+gpt-5.4-mini,en,Humanities,ethics,184,228,80.7
+gpt-5.4-mini,en,Humanities,fine arts,117,148,79.05
+gpt-5.4-mini,en,Other,general knowledge,1027,1365,75.24
+gpt-5.4-mini,en,STEM,general science,829,926,89.52
+gpt-5.4-mini,en,Social Sciences,geography,523,630,83.02
+gpt-5.4-mini,en,Social Sciences,health and physical education,501,742,67.52
+gpt-5.4-mini,en,Humanities,islamic studies,1229,1497,82.1
+gpt-5.4-mini,en,STEM,mathematics,706,876,80.59
+gpt-5.4-mini,en,Social Sciences,pakistan studies,1479,1895,78.05
+gpt-5.4-mini,en,STEM,physics,559,621,90.02
+gpt-5.4-mini,en,Profession,professional development,379,514,73.74
+gpt-5.4-mini,en,Profession,professional studies,392,461,85.03
+gpt-5.4-mini,en,Social Sciences,psychology,390,460,84.78
+gpt-5.4-mini,en,Social Sciences,psychometrics,66,185,35.68
+gpt-5.4-mini,en,Social Sciences,sociology,699,778,89.85
+gpt-5.4-mini,en,Humanities,urdu grammar,546,756,72.22
+gpt-5.4-mini,en,Humanities,urdu language,1801,2522,71.41
+gpt-5.4-mini,en,Humanities,urdu literature,3039,5859,51.87
+large-traversaal__Alif-1.0-8B-Instruct,en,STEM,biology,347,923,37.59
+large-traversaal__Alif-1.0-8B-Instruct,en,STEM,chemistry,333,924,36.04
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,civics,313,663,47.21
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,commerce,170,422,40.28
+large-traversaal__Alif-1.0-8B-Instruct,en,STEM,computer science,388,814,47.67
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,current and international affairs,115,435,26.44
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,economics,370,906,40.84
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,education,354,826,42.86
+large-traversaal__Alif-1.0-8B-Instruct,en,Humanities,ethics,92,227,40.53
+large-traversaal__Alif-1.0-8B-Instruct,en,Humanities,fine arts,52,148,35.14
+large-traversaal__Alif-1.0-8B-Instruct,en,Other,general knowledge,559,1362,41.04
+large-traversaal__Alif-1.0-8B-Instruct,en,STEM,general science,444,914,48.58
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,geography,294,623,47.19
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,health and physical education,264,732,36.07
+large-traversaal__Alif-1.0-8B-Instruct,en,Humanities,islamic studies,507,1492,33.98
+large-traversaal__Alif-1.0-8B-Instruct,en,STEM,mathematics,320,868,36.87
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,pakistan studies,753,1878,40.1
+large-traversaal__Alif-1.0-8B-Instruct,en,STEM,physics,245,612,40.03
+large-traversaal__Alif-1.0-8B-Instruct,en,Profession,professional development,168,505,33.27
+large-traversaal__Alif-1.0-8B-Instruct,en,Profession,professional studies,214,453,47.24
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,psychology,185,458,40.39
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,psychometrics,47,185,25.41
+large-traversaal__Alif-1.0-8B-Instruct,en,Social Sciences,sociology,407,775,52.52
+large-traversaal__Alif-1.0-8B-Instruct,en,Humanities,urdu grammar,197,756,26.06
+large-traversaal__Alif-1.0-8B-Instruct,en,Humanities,urdu language,780,2514,31.03
+large-traversaal__Alif-1.0-8B-Instruct,en,Humanities,urdu literature,1200,5850,20.51
+meta-llama__Llama-3.1-8B-Instruct,en,STEM,biology,396,931,42.53
+meta-llama__Llama-3.1-8B-Instruct,en,STEM,chemistry,421,936,44.98
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,civics,384,675,56.89
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,commerce,202,423,47.75
+meta-llama__Llama-3.1-8B-Instruct,en,STEM,computer science,435,823,52.86
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,current and international affairs,117,437,26.77
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,economics,450,907,49.61
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,education,460,836,55.02
+meta-llama__Llama-3.1-8B-Instruct,en,Humanities,ethics,121,228,53.07
+meta-llama__Llama-3.1-8B-Instruct,en,Humanities,fine arts,73,148,49.32
+meta-llama__Llama-3.1-8B-Instruct,en,Other,general knowledge,608,1365,44.54
+meta-llama__Llama-3.1-8B-Instruct,en,STEM,general science,481,926,51.94
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,geography,332,630,52.7
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,health and physical education,323,742,43.53
+meta-llama__Llama-3.1-8B-Instruct,en,Humanities,islamic studies,695,1497,46.43
+meta-llama__Llama-3.1-8B-Instruct,en,STEM,mathematics,393,876,44.86
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,pakistan studies,906,1895,47.81
+meta-llama__Llama-3.1-8B-Instruct,en,STEM,physics,275,621,44.28
+meta-llama__Llama-3.1-8B-Instruct,en,Profession,professional development,214,514,41.63
+meta-llama__Llama-3.1-8B-Instruct,en,Profession,professional studies,259,461,56.18
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,psychology,219,460,47.61
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,psychometrics,57,185,30.81
+meta-llama__Llama-3.1-8B-Instruct,en,Social Sciences,sociology,507,778,65.17
+meta-llama__Llama-3.1-8B-Instruct,en,Humanities,urdu grammar,350,756,46.3
+meta-llama__Llama-3.1-8B-Instruct,en,Humanities,urdu language,1113,2522,44.13
+meta-llama__Llama-3.1-8B-Instruct,en,Humanities,urdu literature,1653,5859,28.21
+meta-llama__Llama-3.2-3B-Instruct,en,STEM,biology,317,931,34.05
+meta-llama__Llama-3.2-3B-Instruct,en,STEM,chemistry,304,936,32.48
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,civics,330,675,48.89
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,commerce,156,423,36.88
+meta-llama__Llama-3.2-3B-Instruct,en,STEM,computer science,349,823,42.41
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,current and international affairs,95,437,21.74
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,economics,330,907,36.38
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,education,363,836,43.42
+meta-llama__Llama-3.2-3B-Instruct,en,Humanities,ethics,95,228,41.67
+meta-llama__Llama-3.2-3B-Instruct,en,Humanities,fine arts,40,148,27.03
+meta-llama__Llama-3.2-3B-Instruct,en,Other,general knowledge,486,1365,35.6
+meta-llama__Llama-3.2-3B-Instruct,en,STEM,general science,373,926,40.28
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,geography,269,630,42.7
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,health and physical education,266,742,35.85
+meta-llama__Llama-3.2-3B-Instruct,en,Humanities,islamic studies,487,1497,32.53
+meta-llama__Llama-3.2-3B-Instruct,en,STEM,mathematics,337,876,38.47
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,pakistan studies,641,1895,33.83
+meta-llama__Llama-3.2-3B-Instruct,en,STEM,physics,218,621,35.1
+meta-llama__Llama-3.2-3B-Instruct,en,Profession,professional development,179,514,34.82
+meta-llama__Llama-3.2-3B-Instruct,en,Profession,professional studies,172,461,37.31
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,psychology,148,460,32.17
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,psychometrics,59,185,31.89
+meta-llama__Llama-3.2-3B-Instruct,en,Social Sciences,sociology,376,778,48.33
+meta-llama__Llama-3.2-3B-Instruct,en,Humanities,urdu grammar,272,756,35.98
+meta-llama__Llama-3.2-3B-Instruct,en,Humanities,urdu language,800,2522,31.72
+meta-llama__Llama-3.2-3B-Instruct,en,Humanities,urdu literature,1255,5859,21.42
+meta-llama__Llama-3.3-70B-Instruct,en,STEM,biology,730,931,78.41
+meta-llama__Llama-3.3-70B-Instruct,en,STEM,chemistry,740,936,79.06
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,civics,560,675,82.96
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,commerce,326,423,77.07
+meta-llama__Llama-3.3-70B-Instruct,en,STEM,computer science,704,823,85.54
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,current and international affairs,208,437,47.6
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,economics,687,907,75.74
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,education,647,836,77.39
+meta-llama__Llama-3.3-70B-Instruct,en,Humanities,ethics,182,228,79.82
+meta-llama__Llama-3.3-70B-Instruct,en,Humanities,fine arts,111,148,75.0
+meta-llama__Llama-3.3-70B-Instruct,en,Other,general knowledge,1007,1365,73.77
+meta-llama__Llama-3.3-70B-Instruct,en,STEM,general science,801,926,86.5
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,geography,522,630,82.86
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,health and physical education,502,742,67.65
+meta-llama__Llama-3.3-70B-Instruct,en,Humanities,islamic studies,1131,1497,75.55
+meta-llama__Llama-3.3-70B-Instruct,en,STEM,mathematics,678,876,77.4
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,pakistan studies,1456,1895,76.83
+meta-llama__Llama-3.3-70B-Instruct,en,STEM,physics,505,621,81.32
+meta-llama__Llama-3.3-70B-Instruct,en,Profession,professional development,369,514,71.79
+meta-llama__Llama-3.3-70B-Instruct,en,Profession,professional studies,377,461,81.78
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,psychology,375,460,81.52
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,psychometrics,54,185,29.19
+meta-llama__Llama-3.3-70B-Instruct,en,Social Sciences,sociology,675,778,86.76
+meta-llama__Llama-3.3-70B-Instruct,en,Humanities,urdu grammar,489,756,64.68
+meta-llama__Llama-3.3-70B-Instruct,en,Humanities,urdu language,1576,2522,62.49
+meta-llama__Llama-3.3-70B-Instruct,en,Humanities,urdu literature,2710,5859,46.25
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,STEM,biology,775,931,83.24
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,STEM,chemistry,788,936,84.19
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,civics,526,675,77.93
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,commerce,308,423,72.81
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,STEM,computer science,706,823,85.78
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,current and international affairs,212,437,48.51
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,economics,671,907,73.98
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,education,609,836,72.85
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Humanities,ethics,167,228,73.25
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Humanities,fine arts,113,148,76.35
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Other,general knowledge,949,1365,69.52
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,STEM,general science,799,926,86.29
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,geography,473,630,75.08
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,health and physical education,487,742,65.63
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Humanities,islamic studies,1123,1497,75.02
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,STEM,mathematics,684,876,78.08
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,pakistan studies,1285,1895,67.81
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,STEM,physics,550,621,88.57
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Profession,professional development,350,514,68.09
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Profession,professional studies,373,461,80.91
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,psychology,358,460,77.83
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,psychometrics,73,185,39.46
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Social Sciences,sociology,671,778,86.25
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Humanities,urdu grammar,493,756,65.21
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Humanities,urdu language,1583,2522,62.77
+meta-llama__Llama-4-Scout-17B-16E-Instruct,en,Humanities,urdu literature,2800,5859,47.79
+meta-llama__llama-4-maverick,en,STEM,biology,840,931,90.23
+meta-llama__llama-4-maverick,en,STEM,chemistry,861,936,91.99
+meta-llama__llama-4-maverick,en,Social Sciences,civics,590,675,87.41
+meta-llama__llama-4-maverick,en,Social Sciences,commerce,336,423,79.43
+meta-llama__llama-4-maverick,en,STEM,computer science,762,822,92.7
+meta-llama__llama-4-maverick,en,Social Sciences,current and international affairs,229,437,52.4
+meta-llama__llama-4-maverick,en,Social Sciences,economics,756,907,83.35
+meta-llama__llama-4-maverick,en,Social Sciences,education,651,836,77.87
+meta-llama__llama-4-maverick,en,Humanities,ethics,191,228,83.77
+meta-llama__llama-4-maverick,en,Humanities,fine arts,121,148,81.76
+meta-llama__llama-4-maverick,en,Other,general knowledge,1101,1365,80.66
+meta-llama__llama-4-maverick,en,STEM,general science,850,926,91.79
+meta-llama__llama-4-maverick,en,Social Sciences,geography,534,630,84.76
+meta-llama__llama-4-maverick,en,Social Sciences,health and physical education,595,742,80.19
+meta-llama__llama-4-maverick,en,Humanities,islamic studies,1248,1497,83.37
+meta-llama__llama-4-maverick,en,STEM,mathematics,805,876,91.89
+meta-llama__llama-4-maverick,en,Social Sciences,pakistan studies,1540,1895,81.27
+meta-llama__llama-4-maverick,en,STEM,physics,584,621,94.04
+meta-llama__llama-4-maverick,en,Profession,professional development,405,514,78.79
+meta-llama__llama-4-maverick,en,Profession,professional studies,391,461,84.82
+meta-llama__llama-4-maverick,en,Social Sciences,psychology,400,460,86.96
+meta-llama__llama-4-maverick,en,Social Sciences,psychometrics,64,185,34.59
+meta-llama__llama-4-maverick,en,Social Sciences,sociology,688,778,88.43
+meta-llama__llama-4-maverick,en,Humanities,urdu grammar,560,756,74.07
+meta-llama__llama-4-maverick,en,Humanities,urdu language,1772,2522,70.26
+meta-llama__llama-4-maverick,en,Humanities,urdu literature,3074,5859,52.47
+microsoft__Phi-3.5-mini-instruct,en,STEM,biology,266,931,28.57
+microsoft__Phi-3.5-mini-instruct,en,STEM,chemistry,313,936,33.44
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,civics,226,675,33.48
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,commerce,147,423,34.75
+microsoft__Phi-3.5-mini-instruct,en,STEM,computer science,284,823,34.51
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,current and international affairs,82,437,18.76
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,economics,295,907,32.52
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,education,290,836,34.69
+microsoft__Phi-3.5-mini-instruct,en,Humanities,ethics,80,228,35.09
+microsoft__Phi-3.5-mini-instruct,en,Humanities,fine arts,30,148,20.27
+microsoft__Phi-3.5-mini-instruct,en,Other,general knowledge,386,1365,28.28
+microsoft__Phi-3.5-mini-instruct,en,STEM,general science,275,926,29.7
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,geography,200,630,31.75
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,health and physical education,232,742,31.27
+microsoft__Phi-3.5-mini-instruct,en,Humanities,islamic studies,393,1497,26.25
+microsoft__Phi-3.5-mini-instruct,en,STEM,mathematics,383,876,43.72
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,pakistan studies,512,1895,27.02
+microsoft__Phi-3.5-mini-instruct,en,STEM,physics,205,621,33.01
+microsoft__Phi-3.5-mini-instruct,en,Profession,professional development,137,514,26.65
+microsoft__Phi-3.5-mini-instruct,en,Profession,professional studies,177,461,38.39
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,psychology,139,460,30.22
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,psychometrics,37,185,20.0
+microsoft__Phi-3.5-mini-instruct,en,Social Sciences,sociology,302,778,38.82
+microsoft__Phi-3.5-mini-instruct,en,Humanities,urdu grammar,162,756,21.43
+microsoft__Phi-3.5-mini-instruct,en,Humanities,urdu language,710,2522,28.15
+microsoft__Phi-3.5-mini-instruct,en,Humanities,urdu literature,1145,5859,19.54
+microsoft__Phi-4-mini-instruct,en,STEM,biology,265,931,28.46
+microsoft__Phi-4-mini-instruct,en,STEM,chemistry,332,936,35.47
+microsoft__Phi-4-mini-instruct,en,Social Sciences,civics,288,675,42.67
+microsoft__Phi-4-mini-instruct,en,Social Sciences,commerce,165,423,39.01
+microsoft__Phi-4-mini-instruct,en,STEM,computer science,343,819,41.88
+microsoft__Phi-4-mini-instruct,en,Social Sciences,current and international affairs,95,437,21.74
+microsoft__Phi-4-mini-instruct,en,Social Sciences,economics,357,907,39.36
+microsoft__Phi-4-mini-instruct,en,Social Sciences,education,367,835,43.95
+microsoft__Phi-4-mini-instruct,en,Humanities,ethics,95,228,41.67
+microsoft__Phi-4-mini-instruct,en,Humanities,fine arts,39,148,26.35
+microsoft__Phi-4-mini-instruct,en,Other,general knowledge,446,1365,32.67
+microsoft__Phi-4-mini-instruct,en,STEM,general science,337,925,36.43
+microsoft__Phi-4-mini-instruct,en,Social Sciences,geography,237,630,37.62
+microsoft__Phi-4-mini-instruct,en,Social Sciences,health and physical education,236,741,31.85
+microsoft__Phi-4-mini-instruct,en,Humanities,islamic studies,486,1497,32.46
+microsoft__Phi-4-mini-instruct,en,STEM,mathematics,396,876,45.21
+microsoft__Phi-4-mini-instruct,en,Social Sciences,pakistan studies,637,1895,33.61
+microsoft__Phi-4-mini-instruct,en,STEM,physics,220,620,35.48
+microsoft__Phi-4-mini-instruct,en,Profession,professional development,178,514,34.63
+microsoft__Phi-4-mini-instruct,en,Profession,professional studies,216,461,46.85
+microsoft__Phi-4-mini-instruct,en,Social Sciences,psychology,172,460,37.39
+microsoft__Phi-4-mini-instruct,en,Social Sciences,psychometrics,54,185,29.19
+microsoft__Phi-4-mini-instruct,en,Social Sciences,sociology,427,778,54.88
+microsoft__Phi-4-mini-instruct,en,Humanities,urdu grammar,229,756,30.29
+microsoft__Phi-4-mini-instruct,en,Humanities,urdu language,829,2522,32.87
+microsoft__Phi-4-mini-instruct,en,Humanities,urdu literature,1498,5859,25.57
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,STEM,biology,456,931,48.98
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,STEM,chemistry,466,936,49.79
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,civics,346,675,51.26
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,commerce,211,423,49.88
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,STEM,computer science,497,823,60.39
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,current and international affairs,162,437,37.07
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,economics,451,907,49.72
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,education,466,836,55.74
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Humanities,ethics,115,228,50.44
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Humanities,fine arts,87,148,58.78
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Other,general knowledge,654,1365,47.91
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,STEM,general science,550,926,59.4
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,geography,347,629,55.17
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,health and physical education,346,742,46.63
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Humanities,islamic studies,729,1496,48.73
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,STEM,mathematics,479,876,54.68
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,pakistan studies,801,1895,42.27
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,STEM,physics,366,621,58.94
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Profession,professional development,218,513,42.5
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Profession,professional studies,260,461,56.4
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,psychology,234,460,50.87
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,psychometrics,53,185,28.65
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Social Sciences,sociology,486,778,62.47
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Humanities,urdu grammar,350,756,46.3
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Humanities,urdu language,1112,2522,44.09
+mistralai__Ministral-3-3B-Instruct-2512-BF16,en,Humanities,urdu literature,2417,5859,41.25
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,STEM,biology,581,931,62.41
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,STEM,chemistry,575,936,61.43
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,civics,454,675,67.26
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,commerce,252,423,59.57
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,STEM,computer science,638,823,77.52
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,current and international affairs,163,437,37.3
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,economics,554,907,61.08
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,education,524,836,62.68
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Humanities,ethics,147,228,64.47
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Humanities,fine arts,84,148,56.76
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Other,general knowledge,743,1365,54.43
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,STEM,general science,653,926,70.52
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,geography,412,630,65.4
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,health and physical education,400,742,53.91
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Humanities,islamic studies,858,1497,57.31
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,STEM,mathematics,573,876,65.41
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,pakistan studies,989,1895,52.19
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,STEM,physics,447,621,71.98
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Profession,professional development,266,514,51.75
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Profession,professional studies,315,461,68.33
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,psychology,293,460,63.7
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,psychometrics,79,185,42.7
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Social Sciences,sociology,580,778,74.55
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Humanities,urdu grammar,397,756,52.51
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Humanities,urdu language,1191,2522,47.22
+mistralai__Ministral-3-8B-Instruct-2512-BF16,en,Humanities,urdu literature,2307,5859,39.38
+qwen__qwen3.6-27b,en,STEM,biology,806,931,86.57
+qwen__qwen3.6-27b,en,STEM,chemistry,860,936,91.88
+qwen__qwen3.6-27b,en,Social Sciences,civics,526,675,77.93
+qwen__qwen3.6-27b,en,Social Sciences,commerce,331,423,78.25
+qwen__qwen3.6-27b,en,STEM,computer science,765,823,92.95
+qwen__qwen3.6-27b,en,Social Sciences,current and international affairs,171,437,39.13
+qwen__qwen3.6-27b,en,Social Sciences,economics,714,907,78.72
+qwen__qwen3.6-27b,en,Social Sciences,education,638,836,76.32
+qwen__qwen3.6-27b,en,Humanities,ethics,176,228,77.19
+qwen__qwen3.6-27b,en,Humanities,fine arts,118,148,79.73
+qwen__qwen3.6-27b,en,Other,general knowledge,950,1365,69.6
+qwen__qwen3.6-27b,en,STEM,general science,827,926,89.31
+qwen__qwen3.6-27b,en,Social Sciences,geography,516,630,81.9
+qwen__qwen3.6-27b,en,Social Sciences,health and physical education,516,742,69.54
+qwen__qwen3.6-27b,en,Humanities,islamic studies,1118,1497,74.68
+qwen__qwen3.6-27b,en,STEM,mathematics,785,876,89.61
+qwen__qwen3.6-27b,en,Social Sciences,pakistan studies,1256,1895,66.28
+qwen__qwen3.6-27b,en,STEM,physics,582,621,93.72
+qwen__qwen3.6-27b,en,Profession,professional development,335,514,65.18
+qwen__qwen3.6-27b,en,Profession,professional studies,394,461,85.47
+qwen__qwen3.6-27b,en,Social Sciences,psychology,385,460,83.7
+qwen__qwen3.6-27b,en,Social Sciences,psychometrics,88,185,47.57
+qwen__qwen3.6-27b,en,Social Sciences,sociology,691,778,88.82
+qwen__qwen3.6-27b,en,Humanities,urdu grammar,527,756,69.71
+qwen__qwen3.6-27b,en,Humanities,urdu language,1556,2522,61.7
+qwen__qwen3.6-27b,en,Humanities,urdu literature,2665,5859,45.49
+Qwen__Qwen3-4B-Instruct-2507,ur,STEM,biology,529,931,56.82
+Qwen__Qwen3-4B-Instruct-2507,ur,STEM,chemistry,622,936,66.45
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,civics,410,675,60.74
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,commerce,234,423,55.32
+Qwen__Qwen3-4B-Instruct-2507,ur,STEM,computer science,628,823,76.31
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,current and international affairs,162,437,37.07
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,economics,519,907,57.22
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,education,489,836,58.49
+Qwen__Qwen3-4B-Instruct-2507,ur,Humanities,ethics,105,228,46.05
+Qwen__Qwen3-4B-Instruct-2507,ur,Humanities,fine arts,90,148,60.81
+Qwen__Qwen3-4B-Instruct-2507,ur,Other,general knowledge,651,1365,47.69
+Qwen__Qwen3-4B-Instruct-2507,ur,STEM,general science,644,926,69.55
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,geography,358,630,56.83
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,health and physical education,375,742,50.54
+Qwen__Qwen3-4B-Instruct-2507,ur,Humanities,islamic studies,741,1497,49.5
+Qwen__Qwen3-4B-Instruct-2507,ur,STEM,mathematics,628,876,71.69
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,pakistan studies,823,1895,43.43
+Qwen__Qwen3-4B-Instruct-2507,ur,STEM,physics,464,621,74.72
+Qwen__Qwen3-4B-Instruct-2507,ur,Profession,professional development,232,514,45.14
+Qwen__Qwen3-4B-Instruct-2507,ur,Profession,professional studies,287,461,62.26
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,psychology,259,460,56.3
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,psychometrics,57,185,30.81
+Qwen__Qwen3-4B-Instruct-2507,ur,Social Sciences,sociology,561,778,72.11
+Qwen__Qwen3-4B-Instruct-2507,ur,Humanities,urdu grammar,388,756,51.32
+Qwen__Qwen3-4B-Instruct-2507,ur,Humanities,urdu language,1125,2522,44.61
+Qwen__Qwen3-4B-Instruct-2507,ur,Humanities,urdu literature,2285,5859,39.0
+Qwen__Qwen3-8B,ur,STEM,biology,596,929,64.16
+Qwen__Qwen3-8B,ur,STEM,chemistry,663,932,71.14
+Qwen__Qwen3-8B,ur,Social Sciences,civics,428,672,63.69
+Qwen__Qwen3-8B,ur,Social Sciences,commerce,260,422,61.61
+Qwen__Qwen3-8B,ur,STEM,computer science,650,815,79.75
+Qwen__Qwen3-8B,ur,Social Sciences,current and international affairs,124,437,28.38
+Qwen__Qwen3-8B,ur,Social Sciences,economics,530,901,58.82
+Qwen__Qwen3-8B,ur,Social Sciences,education,545,835,65.27
+Qwen__Qwen3-8B,ur,Humanities,ethics,146,227,64.32
+Qwen__Qwen3-8B,ur,Humanities,fine arts,62,146,42.47
+Qwen__Qwen3-8B,ur,Other,general knowledge,674,1365,49.38
+Qwen__Qwen3-8B,ur,STEM,general science,696,922,75.49
+Qwen__Qwen3-8B,ur,Social Sciences,geography,387,627,61.72
+Qwen__Qwen3-8B,ur,Social Sciences,health and physical education,402,734,54.77
+Qwen__Qwen3-8B,ur,Humanities,islamic studies,734,1453,50.52
+Qwen__Qwen3-8B,ur,STEM,mathematics,681,874,77.92
+Qwen__Qwen3-8B,ur,Social Sciences,pakistan studies,877,1887,46.48
+Qwen__Qwen3-8B,ur,STEM,physics,500,619,80.78
+Qwen__Qwen3-8B,ur,Profession,professional development,219,514,42.61
+Qwen__Qwen3-8B,ur,Profession,professional studies,334,448,74.55
+Qwen__Qwen3-8B,ur,Social Sciences,psychology,288,460,62.61
+Qwen__Qwen3-8B,ur,Social Sciences,psychometrics,64,185,34.59
+Qwen__Qwen3-8B,ur,Social Sciences,sociology,583,778,74.94
+Qwen__Qwen3-8B,ur,Humanities,urdu grammar,339,756,44.84
+Qwen__Qwen3-8B,ur,Humanities,urdu language,1081,2522,42.86
+Qwen__Qwen3-8B,ur,Humanities,urdu literature,1017,5842,17.41
+Qwen__Qwen3.6-35B-A3B,ur,STEM,biology,893,927,96.33
+Qwen__Qwen3.6-35B-A3B,ur,STEM,chemistry,909,935,97.22
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,civics,611,671,91.06
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,commerce,380,423,89.83
+Qwen__Qwen3.6-35B-A3B,ur,STEM,computer science,794,822,96.59
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,current and international affairs,215,437,49.2
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,economics,814,906,89.85
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,education,683,833,81.99
+Qwen__Qwen3.6-35B-A3B,ur,Humanities,ethics,195,227,85.9
+Qwen__Qwen3.6-35B-A3B,ur,Humanities,fine arts,112,148,75.68
+Qwen__Qwen3.6-35B-A3B,ur,Other,general knowledge,1056,1354,77.99
+Qwen__Qwen3.6-35B-A3B,ur,STEM,general science,869,925,93.95
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,geography,585,628,93.15
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,health and physical education,643,738,87.13
+Qwen__Qwen3.6-35B-A3B,ur,Humanities,islamic studies,1215,1494,81.33
+Qwen__Qwen3.6-35B-A3B,ur,STEM,mathematics,849,875,97.03
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,pakistan studies,1559,1881,82.88
+Qwen__Qwen3.6-35B-A3B,ur,STEM,physics,602,620,97.1
+Qwen__Qwen3.6-35B-A3B,ur,Profession,professional development,414,507,81.66
+Qwen__Qwen3.6-35B-A3B,ur,Profession,professional studies,404,461,87.64
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,psychology,420,458,91.7
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,psychometrics,80,185,43.24
+Qwen__Qwen3.6-35B-A3B,ur,Social Sciences,sociology,711,777,91.51
+Qwen__Qwen3.6-35B-A3B,ur,Humanities,urdu grammar,535,753,71.05
+Qwen__Qwen3.6-35B-A3B,ur,Humanities,urdu language,1612,2520,63.97
+Qwen__Qwen3.6-35B-A3B,ur,Humanities,urdu literature,2698,5812,46.42
+bigscience__bloomz-1b1,ur,STEM,biology,229,931,24.6
+bigscience__bloomz-1b1,ur,STEM,chemistry,245,936,26.18
+bigscience__bloomz-1b1,ur,Social Sciences,civics,166,675,24.59
+bigscience__bloomz-1b1,ur,Social Sciences,commerce,111,423,26.24
+bigscience__bloomz-1b1,ur,STEM,computer science,219,823,26.61
+bigscience__bloomz-1b1,ur,Social Sciences,current and international affairs,118,437,27.0
+bigscience__bloomz-1b1,ur,Social Sciences,economics,222,907,24.48
+bigscience__bloomz-1b1,ur,Social Sciences,education,198,836,23.68
+bigscience__bloomz-1b1,ur,Humanities,ethics,66,228,28.95
+bigscience__bloomz-1b1,ur,Humanities,fine arts,32,148,21.62
+bigscience__bloomz-1b1,ur,Other,general knowledge,334,1365,24.47
+bigscience__bloomz-1b1,ur,STEM,general science,185,926,19.98
+bigscience__bloomz-1b1,ur,Social Sciences,geography,151,630,23.97
+bigscience__bloomz-1b1,ur,Social Sciences,health and physical education,198,742,26.68
+bigscience__bloomz-1b1,ur,Humanities,islamic studies,382,1497,25.52
+bigscience__bloomz-1b1,ur,STEM,mathematics,222,876,25.34
+bigscience__bloomz-1b1,ur,Social Sciences,pakistan studies,493,1895,26.02
+bigscience__bloomz-1b1,ur,STEM,physics,154,621,24.8
+bigscience__bloomz-1b1,ur,Profession,professional development,115,514,22.37
+bigscience__bloomz-1b1,ur,Profession,professional studies,114,461,24.73
+bigscience__bloomz-1b1,ur,Social Sciences,psychology,116,460,25.22
+bigscience__bloomz-1b1,ur,Social Sciences,psychometrics,46,185,24.86
+bigscience__bloomz-1b1,ur,Social Sciences,sociology,200,778,25.71
+bigscience__bloomz-1b1,ur,Humanities,urdu grammar,201,756,26.59
+bigscience__bloomz-1b1,ur,Humanities,urdu language,642,2521,25.47
+bigscience__bloomz-1b1,ur,Humanities,urdu literature,1520,5857,25.95
+bigscience__bloomz-1b7,ur,STEM,biology,140,527,26.57
+bigscience__bloomz-1b7,ur,STEM,chemistry,163,563,28.95
+bigscience__bloomz-1b7,ur,Social Sciences,civics,186,553,33.63
+bigscience__bloomz-1b7,ur,Social Sciences,commerce,114,388,29.38
+bigscience__bloomz-1b7,ur,STEM,computer science,168,482,34.85
+bigscience__bloomz-1b7,ur,Social Sciences,current and international affairs,115,377,30.5
+bigscience__bloomz-1b7,ur,Social Sciences,economics,273,846,32.27
+bigscience__bloomz-1b7,ur,Social Sciences,education,299,771,38.78
+bigscience__bloomz-1b7,ur,Humanities,ethics,65,205,31.71
+bigscience__bloomz-1b7,ur,Humanities,fine arts,25,114,21.93
+bigscience__bloomz-1b7,ur,Other,general knowledge,353,1283,27.51
+bigscience__bloomz-1b7,ur,STEM,general science,181,629,28.78
+bigscience__bloomz-1b7,ur,Social Sciences,geography,157,521,30.13
+bigscience__bloomz-1b7,ur,Social Sciences,health and physical education,171,488,35.04
+bigscience__bloomz-1b7,ur,Humanities,islamic studies,274,875,31.31
+bigscience__bloomz-1b7,ur,STEM,mathematics,146,503,29.03
+bigscience__bloomz-1b7,ur,Social Sciences,pakistan studies,522,1558,33.5
+bigscience__bloomz-1b7,ur,STEM,physics,79,347,22.77
+bigscience__bloomz-1b7,ur,Profession,professional development,126,435,28.97
+bigscience__bloomz-1b7,ur,Profession,professional studies,140,381,36.75
+bigscience__bloomz-1b7,ur,Social Sciences,psychology,112,401,27.93
+bigscience__bloomz-1b7,ur,Social Sciences,psychometrics,68,181,37.57
+bigscience__bloomz-1b7,ur,Social Sciences,sociology,284,716,39.66
+bigscience__bloomz-1b7,ur,Humanities,urdu grammar,168,588,28.57
+bigscience__bloomz-1b7,ur,Humanities,urdu language,539,1876,28.73
+bigscience__bloomz-1b7,ur,Humanities,urdu literature,1211,4277,28.31
+bigscience__bloomz-3b,ur,STEM,biology,53,201,26.37
+bigscience__bloomz-3b,ur,STEM,chemistry,103,393,26.21
+bigscience__bloomz-3b,ur,Social Sciences,civics,63,207,30.43
+bigscience__bloomz-3b,ur,Social Sciences,commerce,39,114,34.21
+bigscience__bloomz-3b,ur,STEM,computer science,103,398,25.88
+bigscience__bloomz-3b,ur,Social Sciences,current and international affairs,77,279,27.6
+bigscience__bloomz-3b,ur,Social Sciences,economics,114,326,34.97
+bigscience__bloomz-3b,ur,Social Sciences,education,50,159,31.45
+bigscience__bloomz-3b,ur,Humanities,ethics,18,62,29.03
+bigscience__bloomz-3b,ur,Humanities,fine arts,11,48,22.92
+bigscience__bloomz-3b,ur,Other,general knowledge,103,385,26.75
+bigscience__bloomz-3b,ur,STEM,general science,60,217,27.65
+bigscience__bloomz-3b,ur,Social Sciences,geography,107,391,27.37
+bigscience__bloomz-3b,ur,Social Sciences,health and physical education,108,382,28.27
+bigscience__bloomz-3b,ur,Humanities,islamic studies,60,203,29.56
+bigscience__bloomz-3b,ur,STEM,mathematics,78,309,25.24
+bigscience__bloomz-3b,ur,Social Sciences,pakistan studies,233,792,29.42
+bigscience__bloomz-3b,ur,STEM,physics,101,357,28.29
+bigscience__bloomz-3b,ur,Profession,professional development,27,90,30.0
+bigscience__bloomz-3b,ur,Profession,professional studies,36,103,34.95
+bigscience__bloomz-3b,ur,Social Sciences,psychology,40,124,32.26
+bigscience__bloomz-3b,ur,Social Sciences,psychometrics,9,32,28.12
+bigscience__bloomz-3b,ur,Social Sciences,sociology,53,136,38.97
+bigscience__bloomz-3b,ur,Humanities,urdu grammar,26,87,29.89
+bigscience__bloomz-3b,ur,Humanities,urdu language,65,296,21.96
+bigscience__bloomz-3b,ur,Humanities,urdu literature,215,730,29.45
+bigscience__bloomz-7b1-mt,ur,STEM,biology,216,714,30.25
+bigscience__bloomz-7b1-mt,ur,STEM,chemistry,209,774,27.0
+bigscience__bloomz-7b1-mt,ur,Social Sciences,civics,150,373,40.21
+bigscience__bloomz-7b1-mt,ur,Social Sciences,commerce,108,321,33.64
+bigscience__bloomz-7b1-mt,ur,STEM,computer science,168,545,30.83
+bigscience__bloomz-7b1-mt,ur,Social Sciences,current and international affairs,93,312,29.81
+bigscience__bloomz-7b1-mt,ur,Social Sciences,economics,213,678,31.42
+bigscience__bloomz-7b1-mt,ur,Social Sciences,education,214,623,34.35
+bigscience__bloomz-7b1-mt,ur,Humanities,ethics,60,161,37.27
+bigscience__bloomz-7b1-mt,ur,Humanities,fine arts,42,109,38.53
+bigscience__bloomz-7b1-mt,ur,Other,general knowledge,307,999,30.73
+bigscience__bloomz-7b1-mt,ur,STEM,general science,222,730,30.41
+bigscience__bloomz-7b1-mt,ur,Social Sciences,geography,155,458,33.84
+bigscience__bloomz-7b1-mt,ur,Social Sciences,health and physical education,197,584,33.73
+bigscience__bloomz-7b1-mt,ur,Humanities,islamic studies,342,1105,30.95
+bigscience__bloomz-7b1-mt,ur,STEM,mathematics,194,674,28.78
+bigscience__bloomz-7b1-mt,ur,Social Sciences,pakistan studies,344,1061,32.42
+bigscience__bloomz-7b1-mt,ur,STEM,physics,154,540,28.52
+bigscience__bloomz-7b1-mt,ur,Profession,professional development,77,270,28.52
+bigscience__bloomz-7b1-mt,ur,Profession,professional studies,118,313,37.7
+bigscience__bloomz-7b1-mt,ur,Social Sciences,psychology,101,327,30.89
+bigscience__bloomz-7b1-mt,ur,Social Sciences,psychometrics,32,148,21.62
+bigscience__bloomz-7b1-mt,ur,Social Sciences,sociology,202,539,37.48
+bigscience__bloomz-7b1-mt,ur,Humanities,urdu grammar,114,381,29.92
+bigscience__bloomz-7b1-mt,ur,Humanities,urdu language,499,1636,30.5
+bigscience__bloomz-7b1-mt,ur,Humanities,urdu literature,892,2920,30.55
+claude-haiku-4-5,ur,STEM,biology,857,931,92.05
+claude-haiku-4-5,ur,STEM,chemistry,859,936,91.77
+claude-haiku-4-5,ur,Social Sciences,civics,565,675,83.7
+claude-haiku-4-5,ur,Social Sciences,commerce,348,423,82.27
+claude-haiku-4-5,ur,STEM,computer science,765,823,92.95
+claude-haiku-4-5,ur,Social Sciences,current and international affairs,209,430,48.6
+claude-haiku-4-5,ur,Social Sciences,economics,736,907,81.15
+claude-haiku-4-5,ur,Social Sciences,education,637,836,76.2
+claude-haiku-4-5,ur,Humanities,ethics,176,228,77.19
+claude-haiku-4-5,ur,Humanities,fine arts,116,148,78.38
+claude-haiku-4-5,ur,Other,general knowledge,1014,1365,74.29
+claude-haiku-4-5,ur,STEM,general science,828,926,89.42
+claude-haiku-4-5,ur,Social Sciences,geography,534,630,84.76
+claude-haiku-4-5,ur,Social Sciences,health and physical education,570,742,76.82
+claude-haiku-4-5,ur,Humanities,islamic studies,1229,1497,82.1
+claude-haiku-4-5,ur,STEM,mathematics,813,875,92.91
+claude-haiku-4-5,ur,Social Sciences,pakistan studies,1381,1895,72.88
+claude-haiku-4-5,ur,STEM,physics,578,620,93.23
+claude-haiku-4-5,ur,Profession,professional development,364,514,70.82
+claude-haiku-4-5,ur,Profession,professional studies,399,461,86.55
+claude-haiku-4-5,ur,Social Sciences,psychology,404,460,87.83
+claude-haiku-4-5,ur,Social Sciences,psychometrics,71,183,38.8
+claude-haiku-4-5,ur,Social Sciences,sociology,678,778,87.15
+claude-haiku-4-5,ur,Humanities,urdu grammar,538,756,71.16
+claude-haiku-4-5,ur,Humanities,urdu language,1667,2522,66.1
+claude-haiku-4-5,ur,Humanities,urdu literature,2800,5853,47.84
+claude-sonnet-4-6,ur,STEM,biology,899,931,96.56
+claude-sonnet-4-6,ur,STEM,chemistry,905,936,96.69
+claude-sonnet-4-6,ur,Social Sciences,civics,619,675,91.7
+claude-sonnet-4-6,ur,Social Sciences,commerce,387,423,91.49
+claude-sonnet-4-6,ur,STEM,computer science,786,823,95.5
+claude-sonnet-4-6,ur,Social Sciences,current and international affairs,292,437,66.82
+claude-sonnet-4-6,ur,Social Sciences,economics,828,907,91.29
+claude-sonnet-4-6,ur,Social Sciences,education,705,836,84.33
+claude-sonnet-4-6,ur,Humanities,ethics,200,228,87.72
+claude-sonnet-4-6,ur,Humanities,fine arts,125,148,84.46
+claude-sonnet-4-6,ur,Other,general knowledge,1172,1365,85.86
+claude-sonnet-4-6,ur,STEM,general science,874,926,94.38
+claude-sonnet-4-6,ur,Social Sciences,geography,584,630,92.7
+claude-sonnet-4-6,ur,Social Sciences,health and physical education,631,742,85.04
+claude-sonnet-4-6,ur,Humanities,islamic studies,1361,1497,90.92
+claude-sonnet-4-6,ur,STEM,mathematics,852,876,97.26
+claude-sonnet-4-6,ur,Social Sciences,pakistan studies,1669,1895,88.07
+claude-sonnet-4-6,ur,STEM,physics,606,621,97.58
+claude-sonnet-4-6,ur,Profession,professional development,435,514,84.63
+claude-sonnet-4-6,ur,Profession,professional studies,415,461,90.02
+claude-sonnet-4-6,ur,Social Sciences,psychology,432,460,93.91
+claude-sonnet-4-6,ur,Social Sciences,psychometrics,98,185,52.97
+claude-sonnet-4-6,ur,Social Sciences,sociology,729,778,93.7
+claude-sonnet-4-6,ur,Humanities,urdu grammar,643,756,85.05
+claude-sonnet-4-6,ur,Humanities,urdu language,2034,2522,80.65
+claude-sonnet-4-6,ur,Humanities,urdu literature,3640,5859,62.13
+deepseek-ai__DeepSeek-V4-Flash,ur,STEM,biology,907,929,97.63
+deepseek-ai__DeepSeek-V4-Flash,ur,STEM,chemistry,914,935,97.75
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,civics,636,673,94.5
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,commerce,398,423,94.09
+deepseek-ai__DeepSeek-V4-Flash,ur,STEM,computer science,794,821,96.71
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,current and international affairs,292,435,67.13
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,economics,842,905,93.04
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,education,715,834,85.73
+deepseek-ai__DeepSeek-V4-Flash,ur,Humanities,ethics,195,228,85.53
+deepseek-ai__DeepSeek-V4-Flash,ur,Humanities,fine arts,127,148,85.81
+deepseek-ai__DeepSeek-V4-Flash,ur,Other,general knowledge,1156,1362,84.88
+deepseek-ai__DeepSeek-V4-Flash,ur,STEM,general science,893,924,96.65
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,geography,587,627,93.62
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,health and physical education,668,740,90.27
+deepseek-ai__DeepSeek-V4-Flash,ur,Humanities,islamic studies,1360,1494,91.03
+deepseek-ai__DeepSeek-V4-Flash,ur,STEM,mathematics,857,873,98.17
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,pakistan studies,1696,1890,89.74
+deepseek-ai__DeepSeek-V4-Flash,ur,STEM,physics,613,620,98.87
+deepseek-ai__DeepSeek-V4-Flash,ur,Profession,professional development,452,514,87.94
+deepseek-ai__DeepSeek-V4-Flash,ur,Profession,professional studies,420,461,91.11
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,psychology,431,458,94.1
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,psychometrics,72,182,39.56
+deepseek-ai__DeepSeek-V4-Flash,ur,Social Sciences,sociology,729,777,93.82
+deepseek-ai__DeepSeek-V4-Flash,ur,Humanities,urdu grammar,591,754,78.38
+deepseek-ai__DeepSeek-V4-Flash,ur,Humanities,urdu language,1918,2514,76.29
+deepseek-ai__DeepSeek-V4-Flash,ur,Humanities,urdu literature,3200,5841,54.79
+enstazao__Qalb-1.0-8B-Instruct,ur,STEM,biology,308,837,36.8
+enstazao__Qalb-1.0-8B-Instruct,ur,STEM,chemistry,288,864,33.33
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,civics,229,537,42.64
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,commerce,120,368,32.61
+enstazao__Qalb-1.0-8B-Instruct,ur,STEM,computer science,269,607,44.32
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,current and international affairs,131,425,30.82
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,economics,278,732,37.98
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,education,231,578,39.97
+enstazao__Qalb-1.0-8B-Instruct,ur,Humanities,ethics,85,223,38.12
+enstazao__Qalb-1.0-8B-Instruct,ur,Humanities,fine arts,57,133,42.86
+enstazao__Qalb-1.0-8B-Instruct,ur,Other,general knowledge,491,1154,42.55
+enstazao__Qalb-1.0-8B-Instruct,ur,STEM,general science,256,678,37.76
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,geography,203,484,41.94
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,health and physical education,216,622,34.73
+enstazao__Qalb-1.0-8B-Instruct,ur,Humanities,islamic studies,520,1486,34.99
+enstazao__Qalb-1.0-8B-Instruct,ur,STEM,mathematics,268,777,34.49
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,pakistan studies,667,1818,36.69
+enstazao__Qalb-1.0-8B-Instruct,ur,STEM,physics,175,550,31.82
+enstazao__Qalb-1.0-8B-Instruct,ur,Profession,professional development,183,479,38.2
+enstazao__Qalb-1.0-8B-Instruct,ur,Profession,professional studies,162,398,40.7
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,psychology,124,344,36.05
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,psychometrics,23,76,30.26
+enstazao__Qalb-1.0-8B-Instruct,ur,Social Sciences,sociology,255,572,44.58
+enstazao__Qalb-1.0-8B-Instruct,ur,Humanities,urdu grammar,229,696,32.9
+enstazao__Qalb-1.0-8B-Instruct,ur,Humanities,urdu language,727,2253,32.27
+enstazao__Qalb-1.0-8B-Instruct,ur,Humanities,urdu literature,1829,5743,31.85
+gemini-3.1-flash-lite,ur,STEM,biology,913,931,98.07
+gemini-3.1-flash-lite,ur,STEM,chemistry,914,936,97.65
+gemini-3.1-flash-lite,ur,Social Sciences,civics,640,675,94.81
+gemini-3.1-flash-lite,ur,Social Sciences,commerce,401,423,94.8
+gemini-3.1-flash-lite,ur,STEM,computer science,792,823,96.23
+gemini-3.1-flash-lite,ur,Social Sciences,current and international affairs,299,437,68.42
+gemini-3.1-flash-lite,ur,Social Sciences,economics,854,907,94.16
+gemini-3.1-flash-lite,ur,Social Sciences,education,735,836,87.92
+gemini-3.1-flash-lite,ur,Humanities,ethics,206,228,90.35
+gemini-3.1-flash-lite,ur,Humanities,fine arts,127,148,85.81
+gemini-3.1-flash-lite,ur,Other,general knowledge,1168,1365,85.57
+gemini-3.1-flash-lite,ur,STEM,general science,896,926,96.76
+gemini-3.1-flash-lite,ur,Social Sciences,geography,599,630,95.08
+gemini-3.1-flash-lite,ur,Social Sciences,health and physical education,677,742,91.24
+gemini-3.1-flash-lite,ur,Humanities,islamic studies,1362,1497,90.98
+gemini-3.1-flash-lite,ur,STEM,mathematics,844,876,96.35
+gemini-3.1-flash-lite,ur,Social Sciences,pakistan studies,1745,1895,92.08
+gemini-3.1-flash-lite,ur,STEM,physics,605,621,97.42
+gemini-3.1-flash-lite,ur,Profession,professional development,450,514,87.55
+gemini-3.1-flash-lite,ur,Profession,professional studies,431,461,93.49
+gemini-3.1-flash-lite,ur,Social Sciences,psychology,433,460,94.13
+gemini-3.1-flash-lite,ur,Social Sciences,psychometrics,69,185,37.3
+gemini-3.1-flash-lite,ur,Social Sciences,sociology,727,778,93.44
+gemini-3.1-flash-lite,ur,Humanities,urdu grammar,645,756,85.32
+gemini-3.1-flash-lite,ur,Humanities,urdu language,2099,2521,83.26
+gemini-3.1-flash-lite,ur,Humanities,urdu literature,3750,5859,64.0
+gemini-3.5-flash,ur,STEM,biology,918,931,98.6
+gemini-3.5-flash,ur,STEM,chemistry,915,935,97.86
+gemini-3.5-flash,ur,Social Sciences,civics,641,675,94.96
+gemini-3.5-flash,ur,Social Sciences,commerce,403,423,95.27
+gemini-3.5-flash,ur,STEM,computer science,789,821,96.1
+gemini-3.5-flash,ur,Social Sciences,current and international affairs,340,437,77.8
+gemini-3.5-flash,ur,Social Sciences,economics,860,907,94.82
+gemini-3.5-flash,ur,Social Sciences,education,742,836,88.76
+gemini-3.5-flash,ur,Humanities,ethics,203,228,89.04
+gemini-3.5-flash,ur,Humanities,fine arts,132,148,89.19
+gemini-3.5-flash,ur,Other,general knowledge,1251,1364,91.72
+gemini-3.5-flash,ur,STEM,general science,899,926,97.08
+gemini-3.5-flash,ur,Social Sciences,geography,603,630,95.71
+gemini-3.5-flash,ur,Social Sciences,health and physical education,695,742,93.67
+gemini-3.5-flash,ur,Humanities,islamic studies,1410,1497,94.19
+gemini-3.5-flash,ur,STEM,mathematics,867,876,98.97
+gemini-3.5-flash,ur,Social Sciences,pakistan studies,1792,1895,94.56
+gemini-3.5-flash,ur,STEM,physics,610,621,98.23
+gemini-3.5-flash,ur,Profession,professional development,470,514,91.44
+gemini-3.5-flash,ur,Profession,professional studies,421,461,91.32
+gemini-3.5-flash,ur,Social Sciences,psychology,440,460,95.65
+gemini-3.5-flash,ur,Social Sciences,psychometrics,97,185,52.43
+gemini-3.5-flash,ur,Social Sciences,sociology,729,778,93.7
+gemini-3.5-flash,ur,Humanities,urdu grammar,671,756,88.76
+gemini-3.5-flash,ur,Humanities,urdu language,2240,2520,88.89
+gemini-3.5-flash,ur,Humanities,urdu literature,4732,5856,80.81
+google__gemma-2-9b-it,ur,STEM,biology,616,931,66.17
+google__gemma-2-9b-it,ur,STEM,chemistry,621,936,66.35
+google__gemma-2-9b-it,ur,Social Sciences,civics,466,675,69.04
+google__gemma-2-9b-it,ur,Social Sciences,commerce,265,423,62.65
+google__gemma-2-9b-it,ur,STEM,computer science,617,823,74.97
+google__gemma-2-9b-it,ur,Social Sciences,current and international affairs,185,437,42.33
+google__gemma-2-9b-it,ur,Social Sciences,economics,578,907,63.73
+google__gemma-2-9b-it,ur,Social Sciences,education,538,836,64.35
+google__gemma-2-9b-it,ur,Humanities,ethics,150,228,65.79
+google__gemma-2-9b-it,ur,Humanities,fine arts,102,148,68.92
+google__gemma-2-9b-it,ur,Other,general knowledge,762,1365,55.82
+google__gemma-2-9b-it,ur,STEM,general science,679,926,73.33
+google__gemma-2-9b-it,ur,Social Sciences,geography,430,630,68.25
+google__gemma-2-9b-it,ur,Social Sciences,health and physical education,392,742,52.83
+google__gemma-2-9b-it,ur,Humanities,islamic studies,847,1497,56.58
+google__gemma-2-9b-it,ur,STEM,mathematics,564,876,64.38
+google__gemma-2-9b-it,ur,Social Sciences,pakistan studies,991,1895,52.3
+google__gemma-2-9b-it,ur,STEM,physics,432,621,69.57
+google__gemma-2-9b-it,ur,Profession,professional development,261,514,50.78
+google__gemma-2-9b-it,ur,Profession,professional studies,345,461,74.84
+google__gemma-2-9b-it,ur,Social Sciences,psychology,295,460,64.13
+google__gemma-2-9b-it,ur,Social Sciences,psychometrics,60,185,32.43
+google__gemma-2-9b-it,ur,Social Sciences,sociology,623,778,80.08
+google__gemma-2-9b-it,ur,Humanities,urdu grammar,427,756,56.48
+google__gemma-2-9b-it,ur,Humanities,urdu language,1312,2522,52.02
+google__gemma-2-9b-it,ur,Humanities,urdu literature,2456,5859,41.92
+google__gemma-3-4b-it,ur,STEM,biology,461,931,49.52
+google__gemma-3-4b-it,ur,STEM,chemistry,438,936,46.79
+google__gemma-3-4b-it,ur,Social Sciences,civics,383,675,56.74
+google__gemma-3-4b-it,ur,Social Sciences,commerce,216,423,51.06
+google__gemma-3-4b-it,ur,STEM,computer science,512,823,62.21
+google__gemma-3-4b-it,ur,Social Sciences,current and international affairs,130,437,29.75
+google__gemma-3-4b-it,ur,Social Sciences,economics,436,907,48.07
+google__gemma-3-4b-it,ur,Social Sciences,education,434,836,51.91
+google__gemma-3-4b-it,ur,Humanities,ethics,114,228,50.0
+google__gemma-3-4b-it,ur,Humanities,fine arts,80,148,54.05
+google__gemma-3-4b-it,ur,Other,general knowledge,631,1365,46.23
+google__gemma-3-4b-it,ur,STEM,general science,540,926,58.32
+google__gemma-3-4b-it,ur,Social Sciences,geography,339,630,53.81
+google__gemma-3-4b-it,ur,Social Sciences,health and physical education,330,742,44.47
+google__gemma-3-4b-it,ur,Humanities,islamic studies,695,1497,46.43
+google__gemma-3-4b-it,ur,STEM,mathematics,393,876,44.86
+google__gemma-3-4b-it,ur,Social Sciences,pakistan studies,812,1895,42.85
+google__gemma-3-4b-it,ur,STEM,physics,304,621,48.95
+google__gemma-3-4b-it,ur,Profession,professional development,223,514,43.39
+google__gemma-3-4b-it,ur,Profession,professional studies,266,461,57.7
+google__gemma-3-4b-it,ur,Social Sciences,psychology,219,460,47.61
+google__gemma-3-4b-it,ur,Social Sciences,psychometrics,54,185,29.19
+google__gemma-3-4b-it,ur,Social Sciences,sociology,527,778,67.74
+google__gemma-3-4b-it,ur,Humanities,urdu grammar,339,756,44.84
+google__gemma-3-4b-it,ur,Humanities,urdu language,1030,2522,40.84
+google__gemma-3-4b-it,ur,Humanities,urdu literature,1956,5859,33.38
+google__gemma-4-26B-A4B-it,ur,STEM,biology,785,931,84.32
+google__gemma-4-26B-A4B-it,ur,STEM,chemistry,822,935,87.91
+google__gemma-4-26B-A4B-it,ur,Social Sciences,civics,549,675,81.33
+google__gemma-4-26B-A4B-it,ur,Social Sciences,commerce,343,423,81.09
+google__gemma-4-26B-A4B-it,ur,STEM,computer science,738,823,89.67
+google__gemma-4-26B-A4B-it,ur,Social Sciences,current and international affairs,192,436,44.04
+google__gemma-4-26B-A4B-it,ur,Social Sciences,economics,712,907,78.5
+google__gemma-4-26B-A4B-it,ur,Social Sciences,education,643,836,76.91
+google__gemma-4-26B-A4B-it,ur,Humanities,ethics,170,228,74.56
+google__gemma-4-26B-A4B-it,ur,Humanities,fine arts,110,146,75.34
+google__gemma-4-26B-A4B-it,ur,Other,general knowledge,980,1365,71.79
+google__gemma-4-26B-A4B-it,ur,STEM,general science,805,926,86.93
+google__gemma-4-26B-A4B-it,ur,Social Sciences,geography,510,630,80.95
+google__gemma-4-26B-A4B-it,ur,Social Sciences,health and physical education,547,742,73.72
+google__gemma-4-26B-A4B-it,ur,Humanities,islamic studies,1169,1497,78.09
+google__gemma-4-26B-A4B-it,ur,STEM,mathematics,747,876,85.27
+google__gemma-4-26B-A4B-it,ur,Social Sciences,pakistan studies,1349,1895,71.19
+google__gemma-4-26B-A4B-it,ur,STEM,physics,561,621,90.34
+google__gemma-4-26B-A4B-it,ur,Profession,professional development,374,514,72.76
+google__gemma-4-26B-A4B-it,ur,Profession,professional studies,384,460,83.48
+google__gemma-4-26B-A4B-it,ur,Social Sciences,psychology,388,460,84.35
+google__gemma-4-26B-A4B-it,ur,Social Sciences,psychometrics,76,182,41.76
+google__gemma-4-26B-A4B-it,ur,Social Sciences,sociology,697,778,89.59
+google__gemma-4-26B-A4B-it,ur,Humanities,urdu grammar,528,756,69.84
+google__gemma-4-26B-A4B-it,ur,Humanities,urdu language,1649,2522,65.38
+google__gemma-4-26B-A4B-it,ur,Humanities,urdu literature,2729,5859,46.58
+google__gemma-4-31B-it,ur,STEM,biology,875,931,93.98
+google__gemma-4-31B-it,ur,STEM,chemistry,866,936,92.52
+google__gemma-4-31B-it,ur,Social Sciences,civics,596,675,88.3
+google__gemma-4-31B-it,ur,Social Sciences,commerce,367,423,86.76
+google__gemma-4-31B-it,ur,STEM,computer science,777,823,94.41
+google__gemma-4-31B-it,ur,Social Sciences,current and international affairs,235,437,53.78
+google__gemma-4-31B-it,ur,Social Sciences,economics,768,907,84.67
+google__gemma-4-31B-it,ur,Social Sciences,education,688,836,82.3
+google__gemma-4-31B-it,ur,Humanities,ethics,188,228,82.46
+google__gemma-4-31B-it,ur,Humanities,fine arts,125,146,85.62
+google__gemma-4-31B-it,ur,Other,general knowledge,1070,1365,78.39
+google__gemma-4-31B-it,ur,STEM,general science,867,926,93.63
+google__gemma-4-31B-it,ur,Social Sciences,geography,548,630,86.98
+google__gemma-4-31B-it,ur,Social Sciences,health and physical education,607,742,81.81
+google__gemma-4-31B-it,ur,Humanities,islamic studies,1261,1497,84.24
+google__gemma-4-31B-it,ur,STEM,mathematics,820,876,93.61
+google__gemma-4-31B-it,ur,Social Sciences,pakistan studies,1526,1895,80.53
+google__gemma-4-31B-it,ur,STEM,physics,594,621,95.65
+google__gemma-4-31B-it,ur,Profession,professional development,409,514,79.57
+google__gemma-4-31B-it,ur,Profession,professional studies,411,461,89.15
+google__gemma-4-31B-it,ur,Social Sciences,psychology,416,460,90.43
+google__gemma-4-31B-it,ur,Social Sciences,psychometrics,76,182,41.76
+google__gemma-4-31B-it,ur,Social Sciences,sociology,709,778,91.13
+google__gemma-4-31B-it,ur,Humanities,urdu grammar,577,756,76.32
+google__gemma-4-31B-it,ur,Humanities,urdu language,1797,2522,71.25
+google__gemma-4-31B-it,ur,Humanities,urdu literature,3012,5855,51.44
+gpt-5.4,ur,STEM,biology,911,931,97.85
+gpt-5.4,ur,STEM,chemistry,912,936,97.44
+gpt-5.4,ur,Social Sciences,civics,636,675,94.22
+gpt-5.4,ur,Social Sciences,commerce,391,423,92.43
+gpt-5.4,ur,STEM,computer science,789,823,95.87
+gpt-5.4,ur,Social Sciences,current and international affairs,303,437,69.34
+gpt-5.4,ur,Social Sciences,economics,852,907,93.94
+gpt-5.4,ur,Social Sciences,education,727,836,86.96
+gpt-5.4,ur,Humanities,ethics,204,228,89.47
+gpt-5.4,ur,Humanities,fine arts,133,148,89.86
+gpt-5.4,ur,Other,general knowledge,1143,1365,83.74
+gpt-5.4,ur,STEM,general science,887,926,95.79
+gpt-5.4,ur,Social Sciences,geography,594,630,94.29
+gpt-5.4,ur,Social Sciences,health and physical education,685,742,92.32
+gpt-5.4,ur,Humanities,islamic studies,1358,1497,90.71
+gpt-5.4,ur,STEM,mathematics,869,876,99.2
+gpt-5.4,ur,Social Sciences,pakistan studies,1710,1895,90.24
+gpt-5.4,ur,STEM,physics,612,621,98.55
+gpt-5.4,ur,Profession,professional development,432,514,84.05
+gpt-5.4,ur,Profession,professional studies,417,461,90.46
+gpt-5.4,ur,Social Sciences,psychology,430,460,93.48
+gpt-5.4,ur,Social Sciences,psychometrics,74,185,40.0
+gpt-5.4,ur,Social Sciences,sociology,719,778,92.42
+gpt-5.4,ur,Humanities,urdu grammar,612,756,80.95
+gpt-5.4,ur,Humanities,urdu language,1992,2522,78.98
+gpt-5.4,ur,Humanities,urdu literature,3859,5752,67.09
+gpt-5.4-mini,ur,STEM,biology,849,931,91.19
+gpt-5.4-mini,ur,STEM,chemistry,839,936,89.64
+gpt-5.4-mini,ur,Social Sciences,civics,561,675,83.11
+gpt-5.4-mini,ur,Social Sciences,commerce,360,423,85.11
+gpt-5.4-mini,ur,STEM,computer science,742,823,90.16
+gpt-5.4-mini,ur,Social Sciences,current and international affairs,261,437,59.73
+gpt-5.4-mini,ur,Social Sciences,economics,745,907,82.14
+gpt-5.4-mini,ur,Social Sciences,education,645,836,77.15
+gpt-5.4-mini,ur,Humanities,ethics,187,228,82.02
+gpt-5.4-mini,ur,Humanities,fine arts,118,148,79.73
+gpt-5.4-mini,ur,Other,general knowledge,1025,1365,75.09
+gpt-5.4-mini,ur,STEM,general science,843,926,91.04
+gpt-5.4-mini,ur,Social Sciences,geography,515,630,81.75
+gpt-5.4-mini,ur,Social Sciences,health and physical education,518,742,69.81
+gpt-5.4-mini,ur,Humanities,islamic studies,1237,1497,82.63
+gpt-5.4-mini,ur,STEM,mathematics,685,876,78.2
+gpt-5.4-mini,ur,Social Sciences,pakistan studies,1468,1895,77.47
+gpt-5.4-mini,ur,STEM,physics,554,621,89.21
+gpt-5.4-mini,ur,Profession,professional development,387,514,75.29
+gpt-5.4-mini,ur,Profession,professional studies,389,461,84.38
+gpt-5.4-mini,ur,Social Sciences,psychology,412,460,89.57
+gpt-5.4-mini,ur,Social Sciences,psychometrics,68,185,36.76
+gpt-5.4-mini,ur,Social Sciences,sociology,698,778,89.72
+gpt-5.4-mini,ur,Humanities,urdu grammar,547,756,72.35
+gpt-5.4-mini,ur,Humanities,urdu language,1786,2522,70.82
+gpt-5.4-mini,ur,Humanities,urdu literature,2990,5859,51.03
+large-traversaal__Alif-1.0-8B-Instruct,ur,STEM,biology,252,847,29.75
+large-traversaal__Alif-1.0-8B-Instruct,ur,STEM,chemistry,264,877,30.1
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,civics,218,516,42.25
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,commerce,118,329,35.87
+large-traversaal__Alif-1.0-8B-Instruct,ur,STEM,computer science,276,683,40.41
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,current and international affairs,116,387,29.97
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,economics,249,749,33.24
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,education,204,590,34.58
+large-traversaal__Alif-1.0-8B-Instruct,ur,Humanities,ethics,58,184,31.52
+large-traversaal__Alif-1.0-8B-Instruct,ur,Humanities,fine arts,48,142,33.8
+large-traversaal__Alif-1.0-8B-Instruct,ur,Other,general knowledge,404,941,42.93
+large-traversaal__Alif-1.0-8B-Instruct,ur,STEM,general science,287,831,34.54
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,geography,184,451,40.8
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,health and physical education,179,520,34.42
+large-traversaal__Alif-1.0-8B-Instruct,ur,Humanities,islamic studies,430,1366,31.48
+large-traversaal__Alif-1.0-8B-Instruct,ur,STEM,mathematics,238,715,33.29
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,pakistan studies,592,1687,35.09
+large-traversaal__Alif-1.0-8B-Instruct,ur,STEM,physics,168,510,32.94
+large-traversaal__Alif-1.0-8B-Instruct,ur,Profession,professional development,173,464,37.28
+large-traversaal__Alif-1.0-8B-Instruct,ur,Profession,professional studies,128,335,38.21
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,psychology,132,361,36.57
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,psychometrics,27,121,22.31
+large-traversaal__Alif-1.0-8B-Instruct,ur,Social Sciences,sociology,270,601,44.93
+large-traversaal__Alif-1.0-8B-Instruct,ur,Humanities,urdu grammar,212,749,28.3
+large-traversaal__Alif-1.0-8B-Instruct,ur,Humanities,urdu language,733,2448,29.94
+large-traversaal__Alif-1.0-8B-Instruct,ur,Humanities,urdu literature,1592,5708,27.89
+meta-llama__Llama-3.1-8B-Instruct,ur,STEM,biology,428,931,45.97
+meta-llama__Llama-3.1-8B-Instruct,ur,STEM,chemistry,395,936,42.2
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,civics,380,675,56.3
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,commerce,202,423,47.75
+meta-llama__Llama-3.1-8B-Instruct,ur,STEM,computer science,426,823,51.76
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,current and international affairs,118,437,27.0
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,economics,447,907,49.28
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,education,487,836,58.25
+meta-llama__Llama-3.1-8B-Instruct,ur,Humanities,ethics,130,228,57.02
+meta-llama__Llama-3.1-8B-Instruct,ur,Humanities,fine arts,69,148,46.62
+meta-llama__Llama-3.1-8B-Instruct,ur,Other,general knowledge,614,1365,44.98
+meta-llama__Llama-3.1-8B-Instruct,ur,STEM,general science,477,926,51.51
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,geography,336,630,53.33
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,health and physical education,315,742,42.45
+meta-llama__Llama-3.1-8B-Instruct,ur,Humanities,islamic studies,655,1497,43.75
+meta-llama__Llama-3.1-8B-Instruct,ur,STEM,mathematics,380,876,43.38
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,pakistan studies,891,1895,47.02
+meta-llama__Llama-3.1-8B-Instruct,ur,STEM,physics,271,621,43.64
+meta-llama__Llama-3.1-8B-Instruct,ur,Profession,professional development,211,514,41.05
+meta-llama__Llama-3.1-8B-Instruct,ur,Profession,professional studies,272,461,59.0
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,psychology,204,460,44.35
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,psychometrics,56,185,30.27
+meta-llama__Llama-3.1-8B-Instruct,ur,Social Sciences,sociology,536,778,68.89
+meta-llama__Llama-3.1-8B-Instruct,ur,Humanities,urdu grammar,339,756,44.84
+meta-llama__Llama-3.1-8B-Instruct,ur,Humanities,urdu language,1068,2522,42.35
+meta-llama__Llama-3.1-8B-Instruct,ur,Humanities,urdu literature,1880,5859,32.09
+meta-llama__Llama-3.2-3B-Instruct,ur,STEM,biology,335,931,35.98
+meta-llama__Llama-3.2-3B-Instruct,ur,STEM,chemistry,307,936,32.8
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,civics,335,675,49.63
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,commerce,166,423,39.24
+meta-llama__Llama-3.2-3B-Instruct,ur,STEM,computer science,340,823,41.31
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,current and international affairs,101,437,23.11
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,economics,331,907,36.49
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,education,382,836,45.69
+meta-llama__Llama-3.2-3B-Instruct,ur,Humanities,ethics,93,228,40.79
+meta-llama__Llama-3.2-3B-Instruct,ur,Humanities,fine arts,52,148,35.14
+meta-llama__Llama-3.2-3B-Instruct,ur,Other,general knowledge,519,1365,38.02
+meta-llama__Llama-3.2-3B-Instruct,ur,STEM,general science,366,926,39.52
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,geography,268,630,42.54
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,health and physical education,265,742,35.71
+meta-llama__Llama-3.2-3B-Instruct,ur,Humanities,islamic studies,511,1497,34.13
+meta-llama__Llama-3.2-3B-Instruct,ur,STEM,mathematics,329,876,37.56
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,pakistan studies,699,1895,36.89
+meta-llama__Llama-3.2-3B-Instruct,ur,STEM,physics,227,621,36.55
+meta-llama__Llama-3.2-3B-Instruct,ur,Profession,professional development,171,514,33.27
+meta-llama__Llama-3.2-3B-Instruct,ur,Profession,professional studies,203,461,44.03
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,psychology,159,460,34.57
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,psychometrics,64,185,34.59
+meta-llama__Llama-3.2-3B-Instruct,ur,Social Sciences,sociology,415,778,53.34
+meta-llama__Llama-3.2-3B-Instruct,ur,Humanities,urdu grammar,274,756,36.24
+meta-llama__Llama-3.2-3B-Instruct,ur,Humanities,urdu language,848,2522,33.62
+meta-llama__Llama-3.2-3B-Instruct,ur,Humanities,urdu literature,1450,5859,24.75
+meta-llama__Llama-3.3-70B-Instruct,ur,STEM,biology,718,931,77.12
+meta-llama__Llama-3.3-70B-Instruct,ur,STEM,chemistry,693,936,74.04
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,civics,541,675,80.15
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,commerce,325,423,76.83
+meta-llama__Llama-3.3-70B-Instruct,ur,STEM,computer science,689,823,83.72
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,current and international affairs,212,437,48.51
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,economics,681,907,75.08
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,education,621,836,74.28
+meta-llama__Llama-3.3-70B-Instruct,ur,Humanities,ethics,175,227,77.09
+meta-llama__Llama-3.3-70B-Instruct,ur,Humanities,fine arts,112,148,75.68
+meta-llama__Llama-3.3-70B-Instruct,ur,Other,general knowledge,978,1365,71.65
+meta-llama__Llama-3.3-70B-Instruct,ur,STEM,general science,775,926,83.69
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,geography,497,630,78.89
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,health and physical education,487,742,65.63
+meta-llama__Llama-3.3-70B-Instruct,ur,Humanities,islamic studies,1114,1496,74.47
+meta-llama__Llama-3.3-70B-Instruct,ur,STEM,mathematics,633,876,72.26
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,pakistan studies,1397,1895,73.72
+meta-llama__Llama-3.3-70B-Instruct,ur,STEM,physics,500,621,80.52
+meta-llama__Llama-3.3-70B-Instruct,ur,Profession,professional development,336,514,65.37
+meta-llama__Llama-3.3-70B-Instruct,ur,Profession,professional studies,359,461,77.87
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,psychology,360,460,78.26
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,psychometrics,65,185,35.14
+meta-llama__Llama-3.3-70B-Instruct,ur,Social Sciences,sociology,665,778,85.48
+meta-llama__Llama-3.3-70B-Instruct,ur,Humanities,urdu grammar,486,756,64.29
+meta-llama__Llama-3.3-70B-Instruct,ur,Humanities,urdu language,1517,2522,60.15
+meta-llama__Llama-3.3-70B-Instruct,ur,Humanities,urdu literature,2772,5859,47.31
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,STEM,biology,799,931,85.82
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,STEM,chemistry,797,936,85.15
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,civics,537,675,79.56
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,commerce,316,423,74.7
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,STEM,computer science,734,823,89.19
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,current and international affairs,204,437,46.68
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,economics,690,907,76.07
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,education,608,836,72.73
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Humanities,ethics,177,228,77.63
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Humanities,fine arts,112,148,75.68
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Other,general knowledge,942,1365,69.01
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,STEM,general science,801,926,86.5
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,geography,492,630,78.1
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,health and physical education,482,742,64.96
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Humanities,islamic studies,1129,1497,75.42
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,STEM,mathematics,688,864,79.63
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,pakistan studies,1321,1895,69.71
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,STEM,physics,547,621,88.08
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Profession,professional development,346,514,67.32
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Profession,professional studies,362,461,78.52
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,psychology,376,460,81.74
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,psychometrics,67,185,36.22
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Social Sciences,sociology,683,778,87.79
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Humanities,urdu grammar,496,756,65.61
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Humanities,urdu language,1543,2522,61.18
+meta-llama__Llama-4-Scout-17B-16E-Instruct,ur,Humanities,urdu literature,2769,5859,47.26
+meta-llama__llama-4-maverick,ur,STEM,biology,849,931,91.19
+meta-llama__llama-4-maverick,ur,STEM,chemistry,872,935,93.26
+meta-llama__llama-4-maverick,ur,Social Sciences,civics,598,675,88.59
+meta-llama__llama-4-maverick,ur,Social Sciences,commerce,348,423,82.27
+meta-llama__llama-4-maverick,ur,STEM,computer science,756,823,91.86
+meta-llama__llama-4-maverick,ur,Social Sciences,current and international affairs,239,436,54.82
+meta-llama__llama-4-maverick,ur,Social Sciences,economics,769,907,84.79
+meta-llama__llama-4-maverick,ur,Social Sciences,education,651,836,77.87
+meta-llama__llama-4-maverick,ur,Humanities,ethics,190,228,83.33
+meta-llama__llama-4-maverick,ur,Humanities,fine arts,113,148,76.35
+meta-llama__llama-4-maverick,ur,Other,general knowledge,1103,1365,80.81
+meta-llama__llama-4-maverick,ur,STEM,general science,856,926,92.44
+meta-llama__llama-4-maverick,ur,Social Sciences,geography,539,630,85.56
+meta-llama__llama-4-maverick,ur,Social Sciences,health and physical education,612,742,82.48
+meta-llama__llama-4-maverick,ur,Humanities,islamic studies,1225,1497,81.83
+meta-llama__llama-4-maverick,ur,STEM,mathematics,795,869,91.48
+meta-llama__llama-4-maverick,ur,Social Sciences,pakistan studies,1547,1895,81.64
+meta-llama__llama-4-maverick,ur,STEM,physics,588,621,94.69
+meta-llama__llama-4-maverick,ur,Profession,professional development,394,514,76.65
+meta-llama__llama-4-maverick,ur,Profession,professional studies,382,461,82.86
+meta-llama__llama-4-maverick,ur,Social Sciences,psychology,408,460,88.7
+meta-llama__llama-4-maverick,ur,Social Sciences,psychometrics,68,185,36.76
+meta-llama__llama-4-maverick,ur,Social Sciences,sociology,698,778,89.72
+meta-llama__llama-4-maverick,ur,Humanities,urdu grammar,545,756,72.09
+meta-llama__llama-4-maverick,ur,Humanities,urdu language,1770,2522,70.18
+meta-llama__llama-4-maverick,ur,Humanities,urdu literature,3121,5859,53.27
+microsoft__Phi-3.5-mini-instruct,ur,STEM,biology,268,927,28.91
+microsoft__Phi-3.5-mini-instruct,ur,STEM,chemistry,309,926,33.37
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,civics,218,674,32.34
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,commerce,160,422,37.91
+microsoft__Phi-3.5-mini-instruct,ur,STEM,computer science,283,820,34.51
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,current and international affairs,95,437,21.74
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,economics,288,905,31.82
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,education,305,835,36.53
+microsoft__Phi-3.5-mini-instruct,ur,Humanities,ethics,74,226,32.74
+microsoft__Phi-3.5-mini-instruct,ur,Humanities,fine arts,39,147,26.53
+microsoft__Phi-3.5-mini-instruct,ur,Other,general knowledge,417,1364,30.57
+microsoft__Phi-3.5-mini-instruct,ur,STEM,general science,278,924,30.09
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,geography,197,628,31.37
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,health and physical education,233,740,31.49
+microsoft__Phi-3.5-mini-instruct,ur,Humanities,islamic studies,417,1494,27.91
+microsoft__Phi-3.5-mini-instruct,ur,STEM,mathematics,365,857,42.59
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,pakistan studies,550,1887,29.15
+microsoft__Phi-3.5-mini-instruct,ur,STEM,physics,212,615,34.47
+microsoft__Phi-3.5-mini-instruct,ur,Profession,professional development,157,514,30.54
+microsoft__Phi-3.5-mini-instruct,ur,Profession,professional studies,176,459,38.34
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,psychology,152,460,33.04
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,psychometrics,31,185,16.76
+microsoft__Phi-3.5-mini-instruct,ur,Social Sciences,sociology,294,774,37.98
+microsoft__Phi-3.5-mini-instruct,ur,Humanities,urdu grammar,202,754,26.79
+microsoft__Phi-3.5-mini-instruct,ur,Humanities,urdu language,775,2512,30.85
+microsoft__Phi-3.5-mini-instruct,ur,Humanities,urdu literature,1482,5834,25.4
+microsoft__Phi-4-mini-instruct,ur,STEM,biology,302,931,32.44
+microsoft__Phi-4-mini-instruct,ur,STEM,chemistry,342,936,36.54
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,civics,306,675,45.33
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,commerce,171,423,40.43
+microsoft__Phi-4-mini-instruct,ur,STEM,computer science,345,823,41.92
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,current and international affairs,93,437,21.28
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,economics,363,907,40.02
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,education,381,836,45.57
+microsoft__Phi-4-mini-instruct,ur,Humanities,ethics,89,228,39.04
+microsoft__Phi-4-mini-instruct,ur,Humanities,fine arts,42,148,28.38
+microsoft__Phi-4-mini-instruct,ur,Other,general knowledge,489,1364,35.85
+microsoft__Phi-4-mini-instruct,ur,STEM,general science,303,926,32.72
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,geography,247,630,39.21
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,health and physical education,265,742,35.71
+microsoft__Phi-4-mini-instruct,ur,Humanities,islamic studies,486,1497,32.46
+microsoft__Phi-4-mini-instruct,ur,STEM,mathematics,397,876,45.32
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,pakistan studies,642,1895,33.88
+microsoft__Phi-4-mini-instruct,ur,STEM,physics,207,621,33.33
+microsoft__Phi-4-mini-instruct,ur,Profession,professional development,181,514,35.21
+microsoft__Phi-4-mini-instruct,ur,Profession,professional studies,196,461,42.52
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,psychology,157,460,34.13
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,psychometrics,52,185,28.11
+microsoft__Phi-4-mini-instruct,ur,Social Sciences,sociology,428,778,55.01
+microsoft__Phi-4-mini-instruct,ur,Humanities,urdu grammar,246,756,32.54
+microsoft__Phi-4-mini-instruct,ur,Humanities,urdu language,900,2522,35.69
+microsoft__Phi-4-mini-instruct,ur,Humanities,urdu literature,1397,5859,23.84
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,STEM,biology,469,931,50.38
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,STEM,chemistry,490,936,52.35
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,civics,378,675,56.0
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,commerce,228,423,53.9
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,STEM,computer science,532,823,64.64
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,current and international affairs,166,437,37.99
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,economics,484,907,53.36
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,education,499,836,59.69
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Humanities,ethics,125,228,54.82
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Humanities,fine arts,76,148,51.35
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Other,general knowledge,667,1365,48.86
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,STEM,general science,582,926,62.85
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,geography,369,630,58.57
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,health and physical education,340,742,45.82
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Humanities,islamic studies,744,1497,49.7
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,STEM,mathematics,482,876,55.02
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,pakistan studies,816,1895,43.06
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,STEM,physics,372,621,59.9
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Profession,professional development,231,513,45.03
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Profession,professional studies,278,461,60.3
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,psychology,248,460,53.91
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,psychometrics,61,185,32.97
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Social Sciences,sociology,560,778,71.98
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Humanities,urdu grammar,367,756,48.54
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Humanities,urdu language,1095,2521,43.44
+mistralai__Ministral-3-3B-Instruct-2512-BF16,ur,Humanities,urdu literature,2334,5858,39.84
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,STEM,biology,648,931,69.6
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,STEM,chemistry,624,936,66.67
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,civics,470,675,69.63
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,commerce,278,423,65.72
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,STEM,computer science,651,823,79.1
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,current and international affairs,169,437,38.67
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,economics,603,907,66.48
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,education,553,836,66.15
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Humanities,ethics,164,228,71.93
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Humanities,fine arts,84,148,56.76
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Other,general knowledge,778,1365,57.0
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,STEM,general science,680,926,73.43
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,geography,444,630,70.48
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,health and physical education,431,742,58.09
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Humanities,islamic studies,873,1497,58.32
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,STEM,mathematics,580,876,66.21
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,pakistan studies,1035,1895,54.62
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,STEM,physics,466,621,75.04
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Profession,professional development,279,514,54.28
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Profession,professional studies,321,461,69.63
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,psychology,309,460,67.17
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,psychometrics,82,185,44.32
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Social Sciences,sociology,625,778,80.33
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Humanities,urdu grammar,406,756,53.7
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Humanities,urdu language,1200,2522,47.58
+mistralai__Ministral-3-8B-Instruct-2512-BF16,ur,Humanities,urdu literature,2309,5859,39.41
+qwen__qwen3.6-27b,ur,STEM,biology,827,931,88.83
+qwen__qwen3.6-27b,ur,STEM,chemistry,870,936,92.95
+qwen__qwen3.6-27b,ur,Social Sciences,civics,548,675,81.19
+qwen__qwen3.6-27b,ur,Social Sciences,commerce,343,423,81.09
+qwen__qwen3.6-27b,ur,STEM,computer science,766,823,93.07
+qwen__qwen3.6-27b,ur,Social Sciences,current and international affairs,179,437,40.96
+qwen__qwen3.6-27b,ur,Social Sciences,economics,739,907,81.48
+qwen__qwen3.6-27b,ur,Social Sciences,education,635,836,75.96
+qwen__qwen3.6-27b,ur,Humanities,ethics,183,228,80.26
+qwen__qwen3.6-27b,ur,Humanities,fine arts,116,148,78.38
+qwen__qwen3.6-27b,ur,Other,general knowledge,963,1365,70.55
+qwen__qwen3.6-27b,ur,STEM,general science,828,926,89.42
+qwen__qwen3.6-27b,ur,Social Sciences,geography,531,630,84.29
+qwen__qwen3.6-27b,ur,Social Sciences,health and physical education,530,742,71.43
+qwen__qwen3.6-27b,ur,Humanities,islamic studies,1123,1497,75.02
+qwen__qwen3.6-27b,ur,STEM,mathematics,779,876,88.93
+qwen__qwen3.6-27b,ur,Social Sciences,pakistan studies,1268,1895,66.91
+qwen__qwen3.6-27b,ur,STEM,physics,589,621,94.85
+qwen__qwen3.6-27b,ur,Profession,professional development,332,514,64.59
+qwen__qwen3.6-27b,ur,Profession,professional studies,394,461,85.47
+qwen__qwen3.6-27b,ur,Social Sciences,psychology,391,460,85.0
+qwen__qwen3.6-27b,ur,Social Sciences,psychometrics,81,185,43.78
+qwen__qwen3.6-27b,ur,Social Sciences,sociology,695,778,89.33
+qwen__qwen3.6-27b,ur,Humanities,urdu grammar,509,756,67.33
+qwen__qwen3.6-27b,ur,Humanities,urdu language,1539,2522,61.02
+qwen__qwen3.6-27b,ur,Humanities,urdu literature,2664,5859,45.47
