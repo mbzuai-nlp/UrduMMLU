@@ -132,6 +132,19 @@ Each item retains its source attribution in the `source` field.
 - Coverage is weighted toward humanities and the SSC levels, mirroring the
   availability of native Urdu exam content.
 
+## Citation
+
+```bibtex
+@article{tabassum2026urdummlu,
+  title     = {{UrduMMLU}: A Massive Multitask Benchmark for {Urdu} Language Understanding},
+  author    = {Tabassum, Ahmer and Ahmad, Sarfraz and Iqbal, Hasan and
+               Aijaz, Owais and Ahsan, Momina and Nakov, Preslav},
+  journal   = {arXiv preprint},
+  year      = {2026},
+  url       = {https://anonymous.for.review}
+}
+```
+
 ## License
 
 Released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
