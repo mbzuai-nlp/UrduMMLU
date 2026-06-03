@@ -1,0 +1,32 @@
+name: Push dataset to Hugging Face
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/26-hf/**"
+      - ".github/workflows/hf-push.yml"
+  workflow_dispatch:
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install huggingface_hub
+        run: pip install --upgrade "huggingface_hub[cli]"
+
+      - name: Upload folder contents to dataset root
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          hf upload MBZUAI/UrduMMLU data/26-hf . \
+            --repo-type=dataset \
+            --commit-message "Sync from ${{ github.sha }}"
