@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>UrduMMLU — Final Dataset by Domain &amp; Subdomain</title>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: #1a1a1a;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --sun: min(80vh, 56vw, 840px);
+    }
+
+    #page {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      max-width: 1700px;
+    }
+
+    /* ---- pipeline ---- */
+    #pipeline {
+      display: grid;
+      grid-template-columns: repeat(4, 158px);
+      grid-template-rows: repeat(4, 1fr);
+      column-gap: 20px;
+      row-gap: 16px;
+      /* Match sunburst outer diameter (92% of the square stage). */
+      height: calc(var(--sun) * 0.92);
+      flex: 0 0 auto;
+    }
+
+    .stage-box {
+      position: relative;
+      border-radius: 14px;
+      padding: 12px 12px 10px;
+      color: var(--ink);
+      background: #ffffff;
+      border: 1.5px solid var(--ink);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      row-gap: 4px;
+    }
+
+    .stage-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    .stage-num {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 2px 7px;
+      border-radius: 999px;
+      background: var(--ink);
+      color: #ffffff;
+      line-height: 1.4;
+    }
+
+    .stage-icon {
+      width: 22px;
+      height: 22px;
+      stroke-width: 2;
+      color: var(--ink);
+      flex: 0 0 22px;
+    }
+
+    .stage-title {
+      margin: 0;
+      font-size: 12.5px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--ink);
+      align-self: end;
+    }
+
+    .stage-desc {
+      margin: 0;
+      font-size: 10.5px;
+      font-weight: 500;
+      line-height: 1.3;
+      color: var(--ink);
+      opacity: 0.85;
+      white-space: pre-line;
+    }
+
+    /* Down arrow: stem + chevron head pointing toward the next row. */
+    .stage-box.connect-down::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -16px;
+      width: 14px;
+      height: 16px;
+      background: var(--ink);
+      transform: translateX(-50%);
+      clip-path: polygon(38% 0%, 62% 0%,
+          62% 55%, 100% 55%,
+          50% 100%,
+          0% 55%, 38% 55%);
+    }
+
+    /* Columns 2 & 4 flow upward — flip the vertical arrow. */
+    .stage-box.flow-up.connect-down::after {
+      transform: translateX(-50%) rotate(180deg);
+    }
+
+    /* Right arrow: stem + chevron head for the snake bend. */
+    .stage-box.connect-right::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -20px;
+      width: 20px;
+      height: 14px;
+      background: var(--ink);
+      transform: translateY(-50%);
+      clip-path: polygon(0% 38%, 0% 62%,
+          55% 62%, 55% 100%,
+          100% 50%,
+          55% 0%, 55% 38%);
+    }
+
+    /* ---- sunburst stage ---- */
+    #stage {
+      position: relative;
+      width: var(--sun);
+      height: var(--sun);
+      flex: 0 0 auto;
+    }
+
+    /* Tangent lines from the last pipeline box to the sunburst. */
+    #tangent-lines {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    #page {
+      position: relative;
+      z-index: 1;
+    }
+
+    #chart {
+      width: 100%;
+      height: 100%;
+    }
+
+    #labels-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    #hub {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 14%;
+      height: 14%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    #hub svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* ---- print ---- */
+    /* Custom page size matches the on-screen layout so the PDF is one
+       single page with no header/footer space wasted. */
+    @page {
+      size: 1700px 900px;
+      margin: 0;
+    }
+    @media print {
+      html, body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      body {
+        padding: 30px;
+        min-height: 900px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <svg id="tangent-lines" xmlns="http://www.w3.org/2000/svg"></svg>
+  <div id="page">
+    <div id="pipeline"></div>
+    <div id="stage">
+      <div id="chart"></div>
+      <svg id="labels-overlay" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet"></svg>
+      <div id="hub" role="img" aria-label="UrduMMLU"></div>
+    </div>
+  </div>
+  <script>
+    // domain → subdomain → MCQ count (aggregated from data/25-final/mcqs.json)
+    const COUNTS = {
+      "Humanities": {
+        "urdu literature": 5859,
+        "urdu language": 2522,
+        "islamic studies": 1497,
+        "urdu grammar": 756,
+        "ethics": 228,
+        "fine arts": 148
+      },
+      "Social Sciences": {
+        "pakistan studies": 1895,
+        "economics": 907,
+        "education": 836,
+        "sociology": 778,
+        "health and physical education": 742,
+        "civics": 675,
+        "geography": 630,
+        "psychology": 460,
+        "current and international affairs": 437,
+        "commerce": 423,
+        "psychometrics": 185
+      },
+      "STEM": {
+        "chemistry": 936,
+        "biology": 931,
+        "general science": 926,
+        "mathematics": 876,
+        "computer science": 823,
+        "physics": 621
+      },
+      "Other": {
+        "general knowledge": 1365
+      },
+      "Profession": {
+        "professional development": 514,
+        "professional studies": 461
+      }
+    };
+
+    // Warm → cool palette sampled from the pipeline-diagram swatches.
+    const DOMAIN_COLORS = {
+      "Humanities": "#3C7C2A",
+      "Social Sciences": "#75A93D",
+      "STEM": "#B5C941",
+      "Other": "#D6A640",
+      "Profession": "#DF7A45"
+    };
+
+    const SUBDOMAIN_LABELS = {
+      "urdu literature": "Urdu Literature",
+      "urdu language": "Urdu Language",
+      "urdu grammar": "Urdu Grammar",
+      "islamic studies": "Islamic Studies",
+      "ethics": "Ethics",
+      "fine arts": "Fine Arts",
+      "pakistan studies": "Pakistan Studies",
+      "economics": "Economics",
+      "education": "Education",
+      "sociology": "Sociology",
+      "health and physical education": "Health & PE",
+      "civics": "Civics",
+      "geography": "Geography",
+      "psychology": "Psychology",
+      "current and international affairs": "Current & Intl. Affairs",
+      "commerce": "Commerce",
+      "psychometrics": "Psychometrics",
+      "chemistry": "Chemistry",
+      "biology": "Biology",
+      "general science": "General Science",
+      "mathematics": "Mathematics",
+      "computer science": "Computer Science",
+      "physics": "Physics",
+      "general knowledge": "General Knowledge",
+      "professional development": "Prof. Development",
+      "professional studies": "Prof. Studies"
+    };
+
+    function prettySubdomain(name) {
+      const clean = name.split(" / ").pop().trim().toLowerCase();
+      if (SUBDOMAIN_LABELS[clean]) return SUBDOMAIN_LABELS[clean];
+      return clean.replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    function hexToRgb(h) {
+      h = h.replace("#", "");
+      return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
+    }
+
+    // Lighten a hex color by mixing with white. factor 0=original, 1=white.
+    function shadeHex(hex, factor) {
+      const [r, g, b] = hexToRgb(hex);
+      const mix = (c) => Math.round(c + (255 - c) * factor);
+      const toHex = (n) => n.toString(16).padStart(2, "0");
+      return `#${toHex(mix(r))}${toHex(mix(g))}${toHex(mix(b))}`;
+    }
+
+    // Darken a hex color by mixing with black. factor 0=original, 1=black.
+    // Used to derive a high-contrast "ink" tone from each palette color.
+    function darkenHex(hex, factor) {
+      const [r, g, b] = hexToRgb(hex);
+      const mix = (c) => Math.round(c * (1 - factor));
+      const toHex = (n) => n.toString(16).padStart(2, "0");
+      return `#${toHex(mix(r))}${toHex(mix(g))}${toHex(mix(b))}`;
+    }
+    function inkOf(hex) { return darkenHex(hex, 0.45); }
+
+    function sumValues(obj) {
+      return Object.values(obj).reduce((s, v) => s + v, 0);
+    }
+
+    const total = Object.values(COUNTS)
+      .reduce((s, subs) => s + sumValues(subs), 0);
+
+    // Below this arc width (degrees), a domain's wedge is too narrow for
+    // curved arc text — fall back to ECharts' default tangential label.
+    const CURVED_LABEL_MIN_DEG = 30;
+
+    // Map arc length (in degrees) to a font size. Wider wedges get bigger
+    // labels; narrow ones stay readable down to the floor. `step` quantizes
+    // the output so similar-sized neighbors don't drift apart by 1px.
+    function fontFromArc(arcDeg, minFs, maxFs, lo, hi, step = 1) {
+      if (arcDeg <= lo) return minFs;
+      if (arcDeg >= hi) return maxFs;
+      const raw = minFs + (arcDeg - lo) / (hi - lo) * (maxFs - minFs);
+      return Math.round(raw / step) * step;
+    }
+
+    // Cap subdomain font at the largest domain font so the outer ring
+    // never out-shouts the inner ring.
+    const DOMAIN_FONT_MAX = 28;
+
+    // Global radial gradient anchored at the chart center — every wedge
+    // shares this coordinate system, so the chart reads as one continuous
+    // light-at-center, saturated-at-edge wash with per-wedge hues.
+    function radialPastel(color, light, dark) {
+      return {
+        type: "radial",
+        x: 0.5, y: 0.5, r: 0.5,
+        colorStops: [
+          { offset: 0, color: shadeHex(color, light) },
+          { offset: 1, color: shadeHex(color, dark) }
+        ],
+        global: true
+      };
+    }
+
+    // Wrap a multi-word label at its middle-most space when the wedge has
+    // enough arc width to stack two radial lines. Returns the label as-is
+    // (no \n) for narrow wedges so it stays on one radial line.
+    function wrapLabel(name, arcDeg) {
+      if (arcDeg < 14) return name;
+      const spaces = [];
+      for (let i = 0; i < name.length; i++) if (name[i] === " ") spaces.push(i);
+      if (!spaces.length) return name;
+      const mid = name.length / 2;
+      const splitAt = spaces.reduce(
+        (best, s) => Math.abs(s - mid) < Math.abs(best - mid) ? s : best,
+        spaces[0]
+      );
+      return name.slice(0, splitAt) + "\n" + name.slice(splitAt + 1);
+    }
+
+    // Precompute domain start angles (math degrees, sweep clockwise from 90°)
+    // so individual subdomain labels can override their rotation explicitly.
+    const domainsSorted = Object.keys(COUNTS)
+      .sort((a, b) => sumValues(COUNTS[b]) - sumValues(COUNTS[a]));
+    const domainStartDeg = {};
+    {
+      let cursor = 90;
+      for (const d of domainsSorted) {
+        domainStartDeg[d] = cursor;
+        cursor -= (sumValues(COUNTS[d]) / total) * 360;
+      }
+    }
+
+    // Per-subdomain explicit label rotation override (degrees). Use to flip a
+    // wedge whose auto-radial orientation looks wrong. The function receives
+    // the wedge's midpoint angle (math deg) and returns an ECharts rotate val.
+    const LABEL_ROTATE_OVERRIDE = {};
+
+    // Domains sorted largest-first; subdomains within each domain
+    // sorted largest-first and tinted along the parent's hue.
+    const data = domainsSorted
+      .map(d => {
+        const dColor = DOMAIN_COLORS[d] || "#888888";
+        const dTotal = sumValues(COUNTS[d]);
+        const dArc = (dTotal / total) * 360;
+        const subs = Object.entries(COUNTS[d]).sort((a, b) => b[1] - a[1]);
+        const n = Math.max(subs.length - 1, 1);
+        const useCurved = dArc >= CURVED_LABEL_MIN_DEG;
+        let subCursor = domainStartDeg[d];
+        return {
+          name: d,
+          itemStyle: {
+            color: "#ffffff",
+            borderColor: inkOf(dColor),
+            borderWidth: 2,
+            borderRadius: 8
+          },
+          label: {
+            show: !useCurved,
+            rotate: "radial",
+            align: "center",
+            verticalAlign: "middle",
+            color: inkOf(dColor),
+            fontWeight: 700,
+            fontSize: fontFromArc(dArc, 11, 16, 5, 30)
+          },
+          children: subs.map(([subName, subCount], idx) => {
+            const tint = 0.15 + (idx / n) * 0.55;
+            const sArc = (subCount / total) * 360;
+            const pretty = prettySubdomain(subName);
+            const wrapped = wrapLabel(pretty, sArc);
+            const fs = fontFromArc(sArc, 10, 18, 2, 26, 2);
+            const midDeg = subCursor - sArc / 2;
+            subCursor -= sArc;
+            const overrideFn = LABEL_ROTATE_OVERRIDE[pretty];
+            const labelExtra = overrideFn !== undefined
+              ? { rotate: overrideFn(midDeg) }
+              : {};
+            return {
+              name: wrapped,
+              value: subCount,
+              itemStyle: {
+                color: radialPastel(
+                  dColor,
+                  0.99 - (idx / n) * 0.01,
+                  0.95 - (idx / n) * 0.04
+                ),
+                borderColor: inkOf(dColor),
+                borderWidth: 1.5,
+                borderRadius: 6
+              },
+              label: {
+                // Wedges below ~3.5° (Fine Arts, Psychometrics, Ethics) are
+                // too thin to host any readable label; hover still shows it.
+                show: sArc >= 3.5,
+                color: inkOf(dColor),
+                fontWeight: 600,
+                fontSize: fs,
+                lineHeight: fs * 1.05,
+                ...labelExtra
+              }
+            };
+          })
+        };
+      });
+
+    const chart = echarts.init(document.getElementById("chart"), null, {
+      renderer: "svg"
+    });
+
+    chart.setOption({
+      tooltip: {
+        trigger: "item",
+        formatter: (p) => {
+          const v = p.value || 0;
+          const pct = ((v / total) * 100).toFixed(1);
+          const name = (p.name || "").replace(/\n/g, " ");
+          return `<b>${name}</b><br/>MCQs: ${v.toLocaleString()}<br/>Share: ${pct}%`;
+        },
+        backgroundColor: "rgba(255,255,255,0.96)",
+        borderColor: "#e5e5e5",
+        borderWidth: 1,
+        textStyle: { color: "#1a1a1a", fontSize: 13 }
+      },
+      series: [{
+        type: "sunburst",
+        data,
+        radius: ["22%", "92%"],
+        center: ["50%", "50%"],
+        sort: null,
+        emphasis: { focus: "ancestor" },
+        levels: [
+          {}, // root (unused)
+          {
+            // Inner ring: domains. Labels are drawn separately as
+            // curved SVG textPaths so they follow the arc.
+            r0: "22%",
+            r: "50%",
+            itemStyle: { borderWidth: 0 },
+            label: { show: false }
+          },
+          {
+            // Outer ring: subdomains
+            r0: "50%",
+            r: "92%",
+            itemStyle: { borderWidth: 0 },
+            label: {
+              rotate: "radial",
+              align: "center",
+              verticalAlign: "middle",
+              fontSize: 12,
+              color: "#1a1a1a"
+            }
+          }
+        ]
+      }]
+    });
+
+    window.addEventListener("resize", () => chart.resize());
+
+    // ---- pipeline (snake flow, pastel + colored outline) ----
+    // 16 on-disk stages laid out as 4 columns of 4. Flow snakes:
+    //   col1 ↓  →  col2 ↑  →  col3 ↓  →  col4 ↑
+    // Boxes are placed in grid in their VISUAL row (top-to-bottom);
+    // each column's `flow` field records its conceptual order.
+    const PIPELINE = [
+      // col 1 (top→bottom)
+      { name: "Website Scrapping", icon: "globe-2", desc: "Parse websites into structured MCQ records", col: 1, row: 1, flow: 1 },
+      { name: "OCR Documents", icon: "scan-text", desc: "Exam past-paper PDFs via Gemini vision extraction", col: 1, row: 2, flow: 2 },
+      { name: "Bidirectional Text", icon: "align-justify", desc: "Add RTL marks; wrap Latin/digit fragments in LRI…PDI markers", col: 1, row: 3, flow: 3 },
+      { name: "Quotation Normalization", icon: "quote", desc: "Curly to straight quotes, collapse runs, repair missing openers", col: 1, row: 4, flow: 4 },
+      // col 2 (flow bottom→top, view top→bottom)
+      { name: "Option Prefix Stripping", icon: "list-x", desc: "Strip redundant 'الف)' or '1.' prefixes from option text", col: 2, row: 1, flow: 8 },
+      { name: "Blank Normalization", icon: "minus", desc: "Normalize all blank variants to exactly four underscores", col: 2, row: 2, flow: 7 },
+      { name: "Punctuation Normalization", icon: "type", desc: "Map ASCII punctuation to Urdu equivalents\n(؟،  ۔،  ،،  …)", col: 2, row: 3, flow: 6 },
+      { name: "Character Normalization", icon: "languages", desc: "NFKC plus Arabic letters remapped to Urdu (ي, ك)", col: 2, row: 4, flow: 5 },
+      // col 3 (top→bottom)
+      { name: "Structural Cleanup", icon: "wrench", desc: "Drop malformed MCQs; normalize option lists to A–D", col: 3, row: 1, flow: 9 },
+      { name: "Schema Canonicalization", icon: "braces", desc: "Unify correct_option (full text) and correct_key (A–D)", col: 3, row: 2, flow: 10 },
+      { name: "Subsampling", icon: "filter", desc: "Stratified cap per subdomain × source × length tier", col: 3, row: 3, flow: 11 },
+      { name: "Annotation Assignment", icon: "users", desc: "Batches assigned to exactly two role-matched annotators", col: 3, row: 4, flow: 12 },
+      // col 4 (flow bottom→top, view top→bottom)
+      { name: "Finalization", icon: "package-check", desc: "Anonymize, renumber, export slim schema to Hugging Face", col: 4, row: 1, flow: 16 },
+      { name: "Consolidation", icon: "layers", desc: "Merge scraped + annotated MCQs into one provenance-tagged set", col: 4, row: 2, flow: 15 },
+      { name: "Deduplication", icon: "copy-x", desc: "Two pass: exact match, then nword-Jaccard fuzzy match", col: 4, row: 3, flow: 14 },
+      { name: "Annotation Consolidation", icon: "git-merge", desc: "Keep dual-consensus only; prefer longer edits on conflict", col: 4, row: 4, flow: 13 }
+    ];
+
+    // 5-key warm→cool palette (same hues as the sunburst).
+    const PIPELINE_PALETTE = ["#DF7A45", "#D6A640", "#B5C941", "#75A93D", "#3C7C2A"];
+
+    function lerpColor(c1, c2, t) {
+      const [r1, g1, b1] = hexToRgb(c1);
+      const [r2, g2, b2] = hexToRgb(c2);
+      const r = Math.round(r1 + (r2 - r1) * t);
+      const g = Math.round(g1 + (g2 - g1) * t);
+      const b = Math.round(b1 + (b2 - b1) * t);
+      const hex = n => n.toString(16).padStart(2, "0");
+      return `#${hex(r)}${hex(g)}${hex(b)}`;
+    }
+
+    function flowColor(flowIdx, total) {
+      const t = (flowIdx - 1) / (total - 1);
+      const seg = t * (PIPELINE_PALETTE.length - 1);
+      const i = Math.min(Math.floor(seg), PIPELINE_PALETTE.length - 2);
+      return lerpColor(PIPELINE_PALETTE[i], PIPELINE_PALETTE[i + 1], seg - i);
+    }
+
+    // Cells that bend to the next column carry a horizontal connector.
+    const BENDS = new Set(["1-4", "2-1", "3-4"]); // `${col}-${row}` of source
+
+    (function drawPipeline() {
+      const root = document.getElementById("pipeline");
+      const total = PIPELINE.length;
+      PIPELINE.forEach(s => {
+        const box = document.createElement("div");
+        box.className = "stage-box";
+        const c = flowColor(s.flow, total);
+        box.style.gridColumn = s.col;
+        box.style.gridRow = s.row;
+        box.style.setProperty("--c", c);
+        box.style.setProperty("--ink", inkOf(c));
+        box.style.setProperty("--bg", shadeHex(c, 0.92));
+
+        const head = document.createElement("div");
+        head.className = "stage-head";
+        const num = document.createElement("span");
+        num.className = "stage-num";
+        num.textContent = String(s.flow).padStart(2, "0");
+        const icon = document.createElement("i");
+        icon.className = "stage-icon";
+        icon.setAttribute("data-lucide", s.icon);
+        head.appendChild(num);
+        head.appendChild(icon);
+
+        const title = document.createElement("h4");
+        title.className = "stage-title";
+        title.textContent = s.name;
+
+        const desc = document.createElement("p");
+        desc.className = "stage-desc";
+        desc.textContent = s.desc;
+
+        box.appendChild(head);
+        box.appendChild(title);
+        box.appendChild(desc);
+
+        if (s.row < 4) box.classList.add("connect-down");
+        if (BENDS.has(`${s.col}-${s.row}`)) box.classList.add("connect-right");
+        // Cols 2 & 4 flow upward, so flip the vertical arrowhead.
+        if (s.col === 2 || s.col === 4) box.classList.add("flow-up");
+        // Mark the final box so the tangent-lines code can find it.
+        if (s.flow === total) box.classList.add("last-stage");
+
+        root.appendChild(box);
+      });
+
+      // Convert the data-lucide placeholders into real SVGs.
+      if (window.lucide) lucide.createIcons();
+    })();
+
+    // ---- tangent lines from last pipeline box to the sunburst ----
+    // Geometry: from external point P to circle (center C, radius r), the
+    // two tangent points sit at angles ±arccos(r/d) from the C→P direction
+    // on the circle, where d = |CP|.
+    function drawTangentLines() {
+      const svg = document.getElementById("tangent-lines");
+      const box = document.querySelector(".stage-box.last-stage");
+      const stage = document.getElementById("stage");
+      if (!svg || !box || !stage) return;
+      svg.innerHTML = "";
+
+      const b = box.getBoundingClientRect();
+      const s = stage.getBoundingClientRect();
+      const px = b.right;
+      const py = b.top + b.height / 2;
+      const cx = s.left + s.width / 2;
+      const cy = s.top + s.height / 2;
+      // Sunburst outer ring is at 92% diameter of the stage square.
+      const r = Math.min(s.width, s.height) * 0.46;
+
+      const dx = px - cx;
+      const dy = py - cy;
+      const d = Math.hypot(dx, dy);
+      if (d <= r) return;
+
+      const dirAngle = Math.atan2(dy, dx);
+      const theta = Math.acos(r / d);
+
+      // Two tangent points: one above the C→P line, one below.
+      const tangents = [dirAngle + theta, dirAngle - theta].map(a => ({
+        x: cx + r * Math.cos(a),
+        y: cy + r * Math.sin(a)
+      }));
+
+      // Dashed lines in the last-stage's color.
+      const stroke = box.style.getPropertyValue("--ink").trim()
+        || box.style.getPropertyValue("--c").trim()
+        || "#3C7C2A";
+      const ns = "http://www.w3.org/2000/svg";
+      tangents.forEach(t => {
+        const line = document.createElementNS(ns, "line");
+        line.setAttribute("x1", px);
+        line.setAttribute("y1", py);
+        line.setAttribute("x2", t.x);
+        line.setAttribute("y2", t.y);
+        line.setAttribute("stroke", stroke);
+        line.setAttribute("stroke-width", "2");
+        line.setAttribute("stroke-dasharray", "5 5");
+        line.setAttribute("stroke-linecap", "round");
+        svg.appendChild(line);
+      });
+    }
+
+    // Wait for layout to settle, then draw. Redraw on resize.
+    requestAnimationFrame(() => requestAnimationFrame(drawTangentLines));
+    window.addEventListener("resize", drawTangentLines);
+
+    // Inline the logo SVG so we can recolor its fill to match Humanities.
+    fetch("logo.svg")
+      .then(r => r.text())
+      .then(svg => {
+        const recolored = svg.replace(/rgb\(22,\s*67,\s*24\)/g, inkOf(DOMAIN_COLORS["Humanities"]));
+        document.getElementById("hub").innerHTML = recolored;
+      })
+      .catch(() => { /* leave hub empty if the file can't be fetched */ });
+
+    // ---- curved domain labels (SVG textPath overlay) ----
+    // ECharts sunburst defaults: startAngle = 90 (math degrees, +x axis CCW),
+    // sweeps clockwise (decreasing math angle) through siblings in data order.
+    // Overlay viewBox is 0..1000; series center is 50%,52% and radius reference
+    // is min(w,h)/2, so on a 1000x1000 canvas the inner ring spans r0=110 to r=250.
+    (function drawDomainLabels() {
+      const SVGNS = "http://www.w3.org/2000/svg";
+      const overlay = document.getElementById("labels-overlay");
+      const cx = 500;
+      const cy = 500;
+      const rMid = 180; // midpoint of inner ring (110..250)
+
+      const domainTotals = data.map(d =>
+        d.children.reduce((s, c) => s + c.value, 0)
+      );
+
+      let cursor = 90; // start angle in math degrees
+
+      data.forEach((dom, i) => {
+        const arcDeg = (domainTotals[i] / total) * 360;
+        const a1 = cursor;
+        const a2 = cursor - arcDeg; // clockwise sweep
+        cursor = a2;
+
+        // Small wedges keep ECharts' default tangential label.
+        if (arcDeg < CURVED_LABEL_MIN_DEG) return;
+
+        const midDeg = (a1 + a2) / 2;
+        const midRad = (midDeg * Math.PI) / 180;
+        // sin > 0 means upper half (smaller screen y)
+        const upper = Math.sin(midRad) > 0;
+
+        // Orient path so text reads upright: clockwise on top, CCW on bottom.
+        const from = upper ? a1 : a2;
+        const to = upper ? a2 : a1;
+        const sweep = upper ? 1 : 0;
+
+        const fromRad = (from * Math.PI) / 180;
+        const toRad = (to * Math.PI) / 180;
+        const x1 = cx + rMid * Math.cos(fromRad);
+        const y1 = cy - rMid * Math.sin(fromRad);
+        const x2 = cx + rMid * Math.cos(toRad);
+        const y2 = cy - rMid * Math.sin(toRad);
+        const largeArc = arcDeg > 180 ? 1 : 0;
+        const d = `M ${x1} ${y1} A ${rMid} ${rMid} 0 ${largeArc} ${sweep} ${x2} ${y2}`;
+
+        const pathId = `arc-${i}`;
+        const path = document.createElementNS(SVGNS, "path");
+        path.setAttribute("id", pathId);
+        path.setAttribute("d", d);
+        path.setAttribute("fill", "none");
+        overlay.appendChild(path);
+
+        // Size font to the available arc length, with a small padding factor.
+        const arcLen = (arcDeg * Math.PI / 180) * rMid;
+        const fitFs = (arcLen / Math.max(dom.name.length, 1)) / 0.58;
+        const fs = Math.round(Math.max(10, Math.min(28, fitFs * 0.88)));
+
+        const color = inkOf(DOMAIN_COLORS[dom.name] || "#1a1a1a");
+        const text = document.createElementNS(SVGNS, "text");
+        text.setAttribute("fill", color);
+        text.setAttribute("font-weight", "700");
+        text.setAttribute("font-size", fs);
+        text.setAttribute("font-family",
+          "Inter, system-ui, -apple-system, 'Segoe UI', sans-serif");
+        text.setAttribute("dy", "0.35em");
+
+        const textPath = document.createElementNS(SVGNS, "textPath");
+        textPath.setAttribute("href", `#${pathId}`);
+        textPath.setAttribute("startOffset", "50%");
+        textPath.setAttribute("text-anchor", "middle");
+        textPath.setAttribute("fill", color);
+        textPath.textContent = dom.name;
+
+        text.appendChild(textPath);
+        overlay.appendChild(text);
+      });
+    })();
+  </script>
+</body>
+
+</html>
