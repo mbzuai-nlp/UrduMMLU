@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UrduMMLU Leaderboard</title>
+  <meta name="description" content="Leaderboard for UrduMMLU: A Massive Multitask Benchmark for Urdu Language Understanding" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background: radial-gradient(1200px 600px at 50% -10%, #ffffff 0%, #f8fafc 55%, #eef2f7 100%); }
+    .section { max-width: 96rem; margin: 0 auto; padding-left: 1.25rem; padding-right: 1.25rem; }
+    .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 1rem; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+    .btn { display: inline-flex; align-items: center; gap: .5rem; padding: .55rem .9rem; border-radius: 1rem; border: 1px solid #e5e7eb; background: #fff; box-shadow: 0 1px 2px rgba(0,0,0,.04); font-size: .95rem; text-decoration: none; color: #1f2937; cursor: pointer; }
+    .btn:hover { box-shadow: 0 6px 14px rgba(0,0,0,.08); }
+    /* Tab buttons */
+    .tab-btn { padding: .45rem 1.1rem; border-radius: .75rem; border: 1px solid #e5e7eb; background: #f9fafb; font-size: .9rem; cursor: pointer; color: #6b7280; transition: all .15s; }
+    .tab-btn.active { background: #1d4ed8; color: #fff; border-color: #1d4ed8; font-weight: 600; }
+    /* Table */
+    table { width: 100%; border-collapse: collapse; min-width: 860px; }
+    thead th { position: sticky; top: 0; background: #f8fafc; z-index: 2; }
+    th, td { padding: .6rem .7rem; text-align: center; border-bottom: 1px solid #e5e7eb; vertical-align: middle; font-size: .875rem; white-space: nowrap; }
+    th:first-child, td:first-child { text-align: left; white-space: nowrap; }
+    td:first-child { font-weight: 500; }
+    /* Group row */
+    .group-row td { background: #f1f5f9; font-weight: 700; font-style: italic; text-align: left !important; color: #334155; font-size: .8rem; letter-spacing: .03em; text-transform: uppercase; }
+    /* Highlight best */
+    .best { font-weight: 700; color: #1d4ed8; }
+    .best-group { font-weight: 700; }
+    /* Inv% badge */
+    .inv-low { color: #166534; }
+    .inv-mid { color: #92400e; }
+    .inv-high { color: #991b1b; font-weight: 600; }
+    /* Note */
+    .note { font-size: .8rem; color: #6b7280; margin-top: .75rem; }
+    /* Rank badge */
+    .rank-1 { background: #fef3c7; color: #92400e; }
+    .rank-2 { background: #f1f5f9; color: #475569; }
+    .rank-3 { background: #fef9ef; color: #92400e; }
+    .rank { display: inline-block; width: 1.5rem; height: 1.5rem; border-radius: 50%; font-size: .75rem; font-weight: 700; line-height: 1.5rem; text-align: center; }
+    sup { font-size: .65em; vertical-align: super; }
+  </style>
+</head>
+<body class="text-gray-800 selection:bg-blue-200/40">
+
+  <!-- Header -->
+  <header class="section pt-10 pb-4">
+    <div class="flex items-center justify-between gap-4 flex-wrap">
+      <div>
+        <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">UrduMMLU Leaderboard</h1>
+        <p class="mt-1 text-gray-500 text-sm">30 models · 60 zero-shot evaluations · English &amp; Urdu prompts</p>
+      </div>
+      <a href="./index.html" class="btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+        </svg>
+        Back to Paper
+      </a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════ ZERO-SHOT LEADERBOARD ══════════════════════ -->
+  <section class="section py-4">
+    <div class="card p-4">
+      <div class="flex items-center justify-between flex-wrap gap-3 mb-3">
+        <h2 class="text-lg font-semibold">Zero-Shot Evaluation — Accuracy (%) ↑</h2>
+        <!-- Prompt toggle -->
+        <div class="flex gap-2 items-center">
+          <span class="text-sm text-gray-500">Prompt language:</span>
+          <button class="tab-btn active" id="btn-en" onclick="switchPrompt('en')">English</button>
+          <button class="tab-btn" id="btn-ur" onclick="switchPrompt('ur')">Urdu</button>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table id="zero-shot-table">
+          <thead>
+            <tr>
+              <th class="text-left">#</th>
+              <th class="text-left">Model</th>
+              <th>Overall</th>
+              <th>STEM</th>
+              <th>Humanities</th>
+              <th>Social Sci.</th>
+              <th>Profession</th>
+              <th>Other&nbsp;(GK)</th>
+              <th>Inv&thinsp;%&thinsp;↓</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- ────── Open-source > 25B ────── -->
+            <tr class="group-row"><td colspan="9">Open-source Models — &gt; 25B Parameters</td></tr>
+            <!-- DeepSeek-V4-Flash -->
+            <tr data-en="82.41,97.49,68.71,90.05,89.85,86.44,0.1" data-ur="81.42,97.57,67.32,88.95,89.44,84.88,0.3">
+              <td></td><td>DeepSeek-V4-Flash</td>
+              <td class="overall">82.41</td><td>97.49</td><td>68.71</td><td>90.05</td><td>89.85</td><td>86.44</td>
+              <td class="inv inv-low">0.1</td>
+            </tr>
+            <!-- LLaMA-4-Maverick-17B-128E -->
+            <tr data-en="75.47,91.98,63.27,80.11,81.64,80.66,<0.1" data-ur="75.83,92.38,63.25,81.30,79.59,80.81,<0.1">
+              <td></td><td>LLaMA-4-Maverick-17B-128E</td>
+              <td class="overall">75.47</td><td>91.98</td><td>63.27</td><td>80.11</td><td>81.64</td><td>80.66</td>
+              <td class="inv inv-low">&lt;0.1</td>
+            </tr>
+            <!-- Gemma-4-31B-IT -->
+            <tr data-en="76.38,93.33,63.62,81.70,83.69,79.49,<0.1" data-ur="76.39,93.86,63.25,82.06,84.10,78.39,<0.1">
+              <td></td><td>Gemma-4-31B-IT</td>
+              <td class="overall">76.38</td><td>93.33</td><td>63.62</td><td>81.70</td><td>83.69</td><td>79.49</td>
+              <td class="inv inv-low">&lt;0.1</td>
+            </tr>
+            <!-- Qwen3.6-27B -->
+            <tr data-en="69.22,90.46,55.95,73.19,74.77,69.60,0" data-ur="69.70,91.12,55.71,74.55,74.46,70.55,0">
+              <td></td><td>Qwen3.6-27B</td>
+              <td class="overall">69.22</td><td>90.46</td><td>55.95</td><td>73.19</td><td>74.77</td><td>69.60</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- Qwen3.6-35B-A3B -->
+            <tr data-en="69.39,88.77,56.81,73.52,75.49,69.82,0" data-ur="75.46,96.32,58.12,84.43,84.50,77.99,0.4">
+              <td></td><td>Qwen3.6-35B-A3B</td>
+              <td class="overall">69.39</td><td>88.77</td><td>56.81</td><td>73.52</td><td>75.49</td><td>69.82</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- LLaMA-3.3-70B -->
+            <tr data-en="68.56,81.32,56.30,75.45,76.51,73.77,0" data-ur="67.00,78.39,56.10,73.43,71.28,71.65,<0.1">
+              <td></td><td>LLaMA-3.3-70B</td>
+              <td class="overall">68.56</td><td>81.32</td><td>56.30</td><td>75.45</td><td>76.51</td><td>73.77</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- LLaMA-4-Scout-17B-16E -->
+            <tr data-en="67.82,84.14,57.03,71.20,74.15,69.52,0" data-ur="68.20,85.59,56.55,72.49,72.62,69.01,<0.1">
+              <td></td><td>LLaMA-4-Scout-17B-16E</td>
+              <td class="overall">67.82</td><td>84.14</td><td>57.03</td><td>71.20</td><td>74.15</td><td>69.52</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- Gemma-4-26B-A4B-IT -->
+            <tr data-en="69.23,85.92,57.43,73.83,75.49,70.55,<0.1" data-ur="70.23,87.21,57.73,75.41,77.82,71.79,<0.1">
+              <td></td><td>Gemma-4-26B-A4B-IT</td>
+              <td class="overall">69.23</td><td>85.92</td><td>57.43</td><td>73.83</td><td>75.49</td><td>70.55</td>
+              <td class="inv inv-low">&lt;0.1</td>
+            </tr>
+
+            <!-- ────── Open-source ≤ 25B ────── -->
+            <tr class="group-row"><td colspan="9">Open-source Models — ≤ 25B Parameters</td></tr>
+            <!-- Ministral-3-8B -->
+            <tr data-en="54.77,67.81,45.27,58.99,59.59,54.43,0" data-ur="56.99,71.37,45.74,62.74,61.54,57.00,0">
+              <td></td><td>Ministral-3-8B</td>
+              <td class="overall">54.77</td><td>67.81</td><td>45.27</td><td>58.99</td><td>59.59</td><td>54.43</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- Gemma-2-9B-IT -->
+            <tr data-en="55.28,67.08,47.21,58.40,60.00,54.58,0" data-ur="56.80,69.02,48.08,60.53,62.15,55.82,0">
+              <td></td><td>Gemma-2-9B-IT</td>
+              <td class="overall">55.28</td><td>67.08</td><td>47.21</td><td>58.40</td><td>60.00</td><td>54.58</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- Qwen3-8B -->
+            <tr data-en="50.97,70.70,39.21,53.99,56.62,50.18,0" data-ur="48.97,74.37,30.87,56.54,57.48,49.38,0.5">
+              <td></td><td>Qwen3-8B</td>
+              <td class="overall">50.97</td><td>70.70</td><td>39.21</td><td>53.99</td><td>56.62</td><td>50.18</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- Qwen3-4B-Instruct-2507 -->
+            <tr data-en="50.84,68.61,42.33,51.48,52.62,47.84,0" data-ur="51.70,68.75,43.00,53.30,53.23,47.69,0">
+              <td></td><td>Qwen3-4B-Instruct-2507</td>
+              <td class="overall">50.84</td><td>68.61</td><td>42.33</td><td>51.48</td><td>52.62</td><td>47.84</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- Ministral-3-3B -->
+            <tr data-en="47.90,55.04,43.69,48.99,49.08,47.91,<0.1" data-ur="49.16,57.25,43.07,52.07,52.26,48.86,<0.1">
+              <td></td><td>Ministral-3-3B</td>
+              <td class="overall">47.90</td><td>55.04</td><td>43.69</td><td>48.99</td><td>49.08</td><td>47.91</td>
+              <td class="inv inv-low">&lt;0.1</td>
+            </tr>
+            <!-- Gemma-3-4B-IT -->
+            <tr data-en="43.93,49.97,37.87,47.68,47.79,45.57,0" data-ur="44.88,51.79,38.27,48.69,50.15,46.23,0">
+              <td></td><td>Gemma-3-4B-IT</td>
+              <td class="overall">43.93</td><td>49.97</td><td>37.87</td><td>47.68</td><td>47.79</td><td>45.57</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- LLaMA-3.1-8B -->
+            <tr data-en="43.30,46.96,36.38,49.66,48.51,44.54,0" data-ur="43.84,46.49,37.61,49.85,49.54,44.98,0">
+              <td></td><td>LLaMA-3.1-8B</td>
+              <td class="overall">43.30</td><td>46.96</td><td>36.38</td><td>49.66</td><td>48.51</td><td>44.54</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- LLaMA-3.2-3B -->
+            <tr data-en="32.98,37.12,26.78,38.06,36.00,35.60,0" data-ur="34.85,37.24,29.32,39.97,38.36,38.02,0">
+              <td></td><td>LLaMA-3.2-3B</td>
+              <td class="overall">32.98</td><td>37.12</td><td>26.78</td><td>38.06</td><td>36.00</td><td>35.60</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- Phi-4-mini -->
+            <tr data-en="33.85,37.07,28.85,38.10,40.41,32.67,<0.1" data-ur="34.15,37.08,28.70,38.97,38.67,35.85,<0.1">
+              <td></td><td>Phi-4-mini</td>
+              <td class="overall">33.85</td><td>37.07</td><td>28.85</td><td>38.10</td><td>40.41</td><td>32.67</td>
+              <td class="inv inv-low">&lt;0.1</td>
+            </tr>
+            <!-- Phi-3.5-mini -->
+            <tr data-en="28.03,33.76,22.89,30.90,32.21,28.28,0" data-ur="30.31,33.83,27.25,31.75,34.22,30.57,0.4">
+              <td></td><td>Phi-3.5-mini</td>
+              <td class="overall">28.03</td><td>33.76</td><td>22.89</td><td>30.90</td><td>32.21</td><td>28.28</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- BLOOMZ-7B -->
+            <tr data-en="29.73,27.75,27.81,33.56,31.83,28.11,11.2" data-ur="31.36,29.24,30.88,33.35,33.45,30.73,34.6">
+              <td></td><td>BLOOMZ-7B</td>
+              <td class="overall">29.73</td><td>27.75</td><td>27.81</td><td>33.56</td><td>31.83</td><td>28.11</td>
+              <td class="inv inv-high">11.2</td>
+            </tr>
+            <!-- BLOOMZ-3B -->
+            <tr data-en="30.68,27.89,30.25,33.26,32.34,28.39,6.5" data-ur="28.62,26.56,27.70,30.35,32.64,26.75,74.2">
+              <td></td><td>BLOOMZ-3B</td>
+              <td class="overall">30.68</td><td>27.89</td><td>30.25</td><td>33.26</td><td>32.34</td><td>28.39</td>
+              <td class="inv inv-mid">6.5</td>
+            </tr>
+            <!-- BLOOMZ-1.7B -->
+            <tr data-en="30.19,28.94,27.70,33.33,37.17,31.43,2.5" data-ur="30.57,28.74,28.76,33.84,32.60,27.51,24.8">
+              <td></td><td>BLOOMZ-1.7B</td>
+              <td class="overall">30.19</td><td>28.94</td><td>27.70</td><td>33.33</td><td>37.17</td><td>31.43</td>
+              <td class="inv inv-mid">2.5</td>
+            </tr>
+            <!-- BLOOMZ-1.1B -->
+            <tr data-en="25.52,23.52,27.21,24.39,26.06,25.63,0.5" data-ur="25.27,24.53,25.83,25.34,23.49,24.47,<0.1">
+              <td></td><td>BLOOMZ-1.1B</td>
+              <td class="overall">25.52</td><td>23.52</td><td>27.21</td><td>24.39</td><td>26.06</td><td>25.63</td>
+              <td class="inv inv-low">0.5</td>
+            </tr>
+
+            <!-- ────── Proprietary ────── -->
+            <tr class="group-row"><td colspan="9">Proprietary Models</td></tr>
+            <!-- Gemini-3.5-Flash -->
+            <tr data-en="90.20,97.75,84.98,92.15,92.10,91.43,0.1" data-ur="90.34,97.81,85.31,92.14,91.38,91.72,<0.1">
+              <td><span class="rank rank-1">1</span></td>
+              <td><strong>Gemini-3.5-Flash</strong></td>
+              <td class="overall best">90.20</td><td class="best">97.75</td><td class="best">84.98</td><td class="best">92.15</td><td class="best">92.10</td><td class="best">91.43</td>
+              <td class="inv inv-low">0.1</td>
+            </tr>
+            <!-- Gemini-3.1-Flash-Lite -->
+            <tr data-en="84.56,96.85,74.20,90.01,90.26,86.08,<0.1" data-ur="84.68,97.09,74.38,90.10,90.36,85.57,<0.1">
+              <td><span class="rank rank-2">2</span></td><td>Gemini-3.1-Flash-Lite</td>
+              <td class="overall">84.56</td><td>96.85</td><td>74.20</td><td>90.01</td><td>90.26</td><td>86.08</td>
+              <td class="inv inv-low">&lt;0.1</td>
+            </tr>
+            <!-- Claude-Sonnet-4.6 -->
+            <tr data-en="82.91,96.34,72.69,87.36,87.18,86.01,0" data-ur="82.94,96.26,72.69,87.53,87.18,85.86,0">
+              <td><span class="rank rank-3">3</span></td><td>Claude-Sonnet-4.6</td>
+              <td class="overall">82.91</td><td>96.34</td><td>72.69</td><td>87.36</td><td>87.18</td><td>86.01</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- GPT-5.4 -->
+            <tr data-en="80.81,95.13,69.29,86.35,85.85,84.10,0" data-ur="84.53,97.40,74.82,89.37,87.08,83.74,0.4">
+              <td></td><td>GPT-5.4</td>
+              <td class="overall">80.81</td><td>95.13</td><td>69.29</td><td>86.35</td><td>85.85</td><td>84.10</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- GPT-5.4-mini -->
+            <tr data-en="73.43,88.34,62.82,77.52,79.08,75.24,0" data-ur="73.51,88.25,62.35,78.45,79.59,75.09,0">
+              <td></td><td>GPT-5.4-mini</td>
+              <td class="overall">73.43</td><td>88.34</td><td>62.82</td><td>77.52</td><td>79.08</td><td>75.24</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- Claude-Haiku-4.5 -->
+            <tr data-en="71.40,90.49,58.57,75.86,75.90,74.14,0.1" data-ur="72.45,91.96,59.31,77.06,78.26,74.29,<0.1">
+              <td></td><td>Claude-Haiku-4.5</td>
+              <td class="overall">71.40</td><td>90.49</td><td>58.57</td><td>75.86</td><td>75.90</td><td>74.14</td>
+              <td class="inv inv-low">0.1</td>
+            </tr>
+
+            <!-- ────── Urdu Models ────── -->
+            <tr class="group-row"><td colspan="9">Urdu-targeted Models</td></tr>
+            <!-- Qalb-1.0-8B -->
+            <tr data-en="34.77,38.18,29.99,37.68,40.31,39.56,0" data-ur="35.52,36.26,32.72,37.78,39.34,42.55,11.3">
+              <td></td><td>Qalb-1.0-8B</td>
+              <td class="overall">34.77</td><td>38.18</td><td>29.99</td><td>37.68</td><td>40.31</td><td>39.56</td>
+              <td class="inv inv-low">0</td>
+            </tr>
+            <!-- Alif-1.0-8B -->
+            <tr data-en="34.72,41.09,25.74,41.40,39.87,41.04,0.6" data-ur="32.68,33.27,29.00,36.26,37.67,42.93,12.6">
+              <td></td><td>Alif-1.0-8B</td>
+              <td class="overall">34.72</td><td>41.09</td><td>25.74</td><td>41.40</td><td>39.87</td><td>41.04</td>
+              <td class="inv inv-low">0.6</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="note">
+        <strong>H</strong> = Humanities; <strong>SS</strong> = Social Sciences; <strong>P</strong> = Profession; <strong>O</strong> = Other (General Knowledge).
+        Boxed/bold values mark the best overall score per column. <strong>Inv%</strong>: percentage of unparsable or malformed outputs (lower is better).
+        Use the toggle above to switch between English and Urdu prompt scores — domain columns update accordingly.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ STEM vs HUMANITIES ANALYSIS ══════════════════════ -->
+  <section class="section py-4">
+    <div class="card p-4">
+      <h2 class="text-lg font-semibold mb-3">STEM–Humanities Gap (Urdu Prompt, sorted by STEM accuracy)</h2>
+      <div class="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th class="text-left">Model</th>
+              <th>STEM %</th>
+              <th>Humanities %</th>
+              <th>Gap (pts)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Gemini-3.5-Flash</td><td class="best">97.81</td><td>85.31</td><td class="text-orange-600 font-semibold">12.50</td></tr>
+            <tr><td>DeepSeek-V4-Flash</td><td>97.57</td><td>67.32</td><td class="text-red-600 font-semibold">30.25</td></tr>
+            <tr><td>GPT-5.4</td><td>97.40</td><td>74.82</td><td class="text-red-600 font-semibold">22.58</td></tr>
+            <tr><td>Gemini-3.1-Flash-Lite</td><td>97.09</td><td>74.38</td><td class="text-red-600 font-semibold">22.71</td></tr>
+            <tr><td>Qwen3.6-35B-A3B</td><td>96.32</td><td>58.12</td><td class="text-red-700 font-bold">38.20</td></tr>
+            <tr><td>Claude-Sonnet-4.6</td><td>96.26</td><td>72.69</td><td class="text-red-600 font-semibold">23.57</td></tr>
+            <tr><td>Gemma-4-31B-IT</td><td>93.86</td><td>63.25</td><td class="text-red-600 font-semibold">30.61</td></tr>
+            <tr><td>LLaMA-4-Maverick-17B</td><td>92.38</td><td>63.25</td><td class="text-red-600 font-semibold">29.13</td></tr>
+            <tr><td>Claude-Haiku-4.5</td><td>91.96</td><td>59.31</td><td class="text-red-600 font-semibold">32.65</td></tr>
+            <tr><td>Qwen3.6-27B</td><td>91.12</td><td>55.71</td><td class="text-red-700 font-bold">35.41</td></tr>
+            <tr><td>GPT-5.4-mini</td><td>88.25</td><td>62.35</td><td class="text-red-600 font-semibold">25.90</td></tr>
+            <tr><td>Gemma-4-26B-A4B-IT</td><td>87.21</td><td>57.73</td><td class="text-red-600 font-semibold">29.48</td></tr>
+            <tr><td>LLaMA-4-Scout-17B</td><td>85.59</td><td>56.55</td><td class="text-red-600 font-semibold">29.04</td></tr>
+            <tr><td>LLaMA-3.3-70B</td><td>78.39</td><td>56.10</td><td class="text-orange-600 font-semibold">22.29</td></tr>
+            <tr><td>Qwen3-8B</td><td>74.37</td><td>30.87</td><td class="text-red-700 font-bold">43.50</td></tr>
+            <tr><td>Ministral-3-8B</td><td>71.37</td><td>45.74</td><td class="text-orange-600 font-semibold">25.63</td></tr>
+            <tr><td>Gemma-2-9B-IT</td><td>69.02</td><td>48.08</td><td class="text-orange-600 font-semibold">20.94</td></tr>
+            <tr><td>Qwen3-4B-Instruct</td><td>68.75</td><td>43.00</td><td class="text-orange-600 font-semibold">25.75</td></tr>
+            <tr><td>Ministral-3-3B</td><td>57.25</td><td>43.07</td><td class="text-yellow-600">14.18</td></tr>
+            <tr><td>Gemma-3-4B-IT</td><td>51.79</td><td>38.27</td><td class="text-yellow-600">13.52</td></tr>
+            <tr><td>LLaMA-3.1-8B</td><td>46.49</td><td>37.61</td><td class="text-yellow-600">8.88</td></tr>
+            <tr><td>LLaMA-3.2-3B</td><td>37.24</td><td>29.32</td><td class="text-yellow-600">7.92</td></tr>
+            <tr><td>Phi-4-mini</td><td>37.08</td><td>28.70</td><td class="text-yellow-600">8.38</td></tr>
+            <tr><td>Qalb-1.0-8B</td><td>36.26</td><td>32.72</td><td class="text-gray-500">3.54</td></tr>
+            <tr><td>Phi-3.5-mini</td><td>33.83</td><td>27.25</td><td class="text-yellow-600">6.58</td></tr>
+            <tr><td>Alif-1.0-8B</td><td>33.27</td><td>29.00</td><td class="text-gray-500">4.27</td></tr>
+            <tr><td>BLOOMZ-7B</td><td>29.24</td><td>30.88</td><td class="text-gray-500">−1.64</td></tr>
+            <tr><td>BLOOMZ-1.7B</td><td>28.74</td><td>28.76</td><td class="text-gray-500">−0.02</td></tr>
+            <tr><td>BLOOMZ-3B</td><td>26.56</td><td>27.70</td><td class="text-gray-500">−1.14</td></tr>
+            <tr><td>BLOOMZ-1.1B</td><td>24.53</td><td>25.83</td><td class="text-gray-500">−1.30</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Sorted by STEM accuracy (Urdu prompt). Negative gaps for BLOOMZ indicate near-random performance on both domains. Urdu-targeted models (Qalb, Alif) show small gaps due to low overall ability rather than STEM strength.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ FEW-SHOT ══════════════════════ -->
+  <section class="section py-4">
+    <div class="card p-4">
+      <h2 class="text-lg font-semibold mb-1">Few-Shot Evaluation — Accuracy (%) ↑</h2>
+      <p class="text-sm text-gray-500 mb-3">4 open-source models evaluated at 0-, 1-, 3-, and 5-shot with 200 held-out demonstrations. Deltas are relative to the 0-shot baseline of the same model under the same prompt.</p>
+
+      <!-- English prompt few-shot -->
+      <h3 class="font-semibold text-sm text-gray-700 mt-4 mb-2">English Prompt</h3>
+      <div class="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th class="text-left">Model</th>
+              <th>0-shot</th>
+              <th>1-shot</th>
+              <th>3-shot</th>
+              <th>5-shot</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>LLaMA-3.1-8B</td>
+              <td>43.30</td>
+              <td>44.93 <span class="text-green-600 text-xs">(+1.63)</span></td>
+              <td>46.09 <span class="text-green-600 text-xs">(+2.79)</span></td>
+              <td>46.59 <span class="text-green-600 text-xs">(+3.29)</span></td>
+            </tr>
+            <tr>
+              <td>Gemma-3-4B-IT</td>
+              <td>43.93</td>
+              <td>45.91 <span class="text-green-600 text-xs">(+1.98)</span></td>
+              <td>46.07 <span class="text-green-600 text-xs">(+2.14)</span></td>
+              <td>46.27 <span class="text-green-600 text-xs">(+2.34)</span></td>
+            </tr>
+            <tr>
+              <td>Qwen3-8B</td>
+              <td>50.97</td>
+              <td>50.23 <span class="text-red-500 text-xs">(−0.74)</span></td>
+              <td>52.27 <span class="text-green-600 text-xs">(+1.30)</span></td>
+              <td>53.21 <span class="text-green-600 text-xs">(+2.24)</span></td>
+            </tr>
+            <tr>
+              <td>Qwen3-4B-Instruct-2507</td>
+              <td>50.84</td>
+              <td>52.56 <span class="text-green-600 text-xs">(+1.72)</span></td>
+              <td>53.40 <span class="text-green-600 text-xs">(+2.56)</span></td>
+              <td>53.65 <span class="text-green-600 text-xs">(+2.81)</span></td>
+            </tr>
+            <tr class="bg-gray-50 font-semibold">
+              <td>Mean</td>
+              <td>47.26</td>
+              <td>48.41 <span class="text-green-600 text-xs">(+1.15)</span></td>
+              <td>49.46 <span class="text-green-600 text-xs">(+2.20)</span></td>
+              <td>49.93 <span class="text-green-600 text-xs">(+2.67)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Urdu prompt few-shot -->
+      <h3 class="font-semibold text-sm text-gray-700 mt-6 mb-2">Urdu Prompt</h3>
+      <div class="overflow-x-auto">
+        <table>
+          <thead>
+            <tr>
+              <th class="text-left">Model</th>
+              <th>0-shot</th>
+              <th>1-shot</th>
+              <th>3-shot</th>
+              <th>5-shot</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>LLaMA-3.1-8B</td>
+              <td>43.84</td>
+              <td>45.08 <span class="text-green-600 text-xs">(+1.24)</span></td>
+              <td>46.32 <span class="text-green-600 text-xs">(+2.48)</span></td>
+              <td>46.10 <span class="text-green-600 text-xs">(+2.26)</span></td>
+            </tr>
+            <tr>
+              <td>Gemma-3-4B-IT</td>
+              <td>44.88</td>
+              <td>46.40 <span class="text-green-600 text-xs">(+1.52)</span></td>
+              <td>46.36 <span class="text-green-600 text-xs">(+1.48)</span></td>
+              <td>45.99 <span class="text-green-600 text-xs">(+1.11)</span></td>
+            </tr>
+            <tr>
+              <td>Qwen3-8B</td>
+              <td>48.97</td>
+              <td>51.86 <span class="text-green-600 text-xs">(+2.89)</span></td>
+              <td>53.24 <span class="text-green-600 text-xs">(+4.27)</span></td>
+              <td>53.49 <span class="text-green-600 text-xs">(+4.52)</span></td>
+            </tr>
+            <tr>
+              <td>Qwen3-4B-Instruct-2507</td>
+              <td>51.70</td>
+              <td>52.06 <span class="text-green-600 text-xs">(+0.36)</span></td>
+              <td>52.89 <span class="text-green-600 text-xs">(+1.19)</span></td>
+              <td>52.94 <span class="text-green-600 text-xs">(+1.24)</span></td>
+            </tr>
+            <tr class="bg-gray-50 font-semibold">
+              <td>Mean</td>
+              <td>47.35</td>
+              <td>48.85 <span class="text-green-600 text-xs">(+1.50)</span></td>
+              <td>49.70 <span class="text-green-600 text-xs">(+2.35)</span></td>
+              <td>49.63 <span class="text-green-600 text-xs">(+2.28)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">23 of 24 few-shot configurations outperform their zero-shot baseline. Qwen3-8B under Urdu prompt shows the largest gain (+4.52 at 5-shot). Despite gains, all models remain far below the ≥25B open-source tier.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════════════ DOMAIN BREAKDOWN FIGURE ══════════════════════ -->
+  <section class="section py-4">
+    <div class="card p-4">
+      <h2 class="text-lg font-semibold mb-3">Domain Distribution across Examination Levels</h2>
+      <div class="mx-auto max-w-4xl">
+        <img src="./assets/level_distribution.png" alt="UrduMMLU item distribution across SSC/HSSC levels"
+             class="w-full rounded-xl"
+             onerror="this.parentElement.innerHTML='<div class=\'flex items-center justify-center h-40 text-gray-400 text-sm\'>📷 level_distribution.png — add to docs/assets/</div>'" />
+      </div>
+      <p class="note text-center mt-2">Figure 5: Distribution of UrduMMLU items across Pakistani examination levels, grouped by domain. Humanities dominates SSC-I and SSC-II; STEM and Social Sciences become more prominent at HSSC levels.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section py-10 text-center text-sm text-gray-500">
+    <div class="flex items-center justify-center gap-4 flex-wrap">
+      <a class="btn" href="./index.html">← Back to Paper</a>
+      <a class="underline" href="https://github.com/MBZUAI-NLP/UrduMMLU" target="_blank">GitHub</a>
+      <a class="underline" href="https://huggingface.co/datasets/MBZUAI-NLP/UrduMMLU" target="_blank">Dataset</a>
+    </div>
+    <p class="mt-3">&copy; <span id="year"></span> The Authors. MBZUAI.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    /* ── Prompt toggle ── */
+    let currentPrompt = 'en';
+
+    function switchPrompt(lang) {
+      currentPrompt = lang;
+      // Update tab styles
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      document.getElementById('btn-ur').classList.toggle('active', lang === 'ur');
+
+      // Update all data rows
+      const rows = document.querySelectorAll('#zero-shot-table tbody tr[data-en]');
+      rows.forEach(row => {
+        const vals = row.getAttribute('data-' + lang).split(',');
+        // vals: overall, STEM, H, SS, P, O, inv
+        const cells = row.querySelectorAll('td');
+        // cells[0]=rank, cells[1]=model, cells[2]=overall, cells[3]=STEM,
+        // cells[4]=H, cells[5]=SS, cells[6]=P, cells[7]=O, cells[8]=inv
+        const numMap = [2, 3, 4, 5, 6, 7];
+        numMap.forEach((ci, vi) => {
+          cells[ci].textContent = vals[vi];
+        });
+        // Inv% cell
+        const invVal = vals[6];
+        const invCell = cells[8];
+        invCell.textContent = invVal;
+        invCell.className = 'inv ' + invClass(invVal);
+      });
+    }
+
+    function invClass(val) {
+      const n = parseFloat(val);
+      if (isNaN(n) || n < 1) return 'inv-low';
+      if (n < 10) return 'inv-mid';
+      return 'inv-high';
+    }
+
+    /* ── Sortable table columns ── */
+    document.querySelectorAll('#zero-shot-table thead th').forEach((th, colIdx) => {
+      if (colIdx < 2) return; // skip rank and model
+      th.style.cursor = 'pointer';
+      th.title = 'Click to sort';
+      let asc = false;
+      th.addEventListener('click', () => {
+        asc = !asc;
+        const tbody = document.querySelector('#zero-shot-table tbody');
+        const groups = [];
+        let currentGroup = null;
+
+        // Collect groups and rows
+        Array.from(tbody.children).forEach(row => {
+          if (row.classList.contains('group-row')) {
+            currentGroup = { header: row, rows: [] };
+            groups.push(currentGroup);
+          } else if (currentGroup) {
+            currentGroup.rows.push(row);
+          }
+        });
+
+        // Sort rows within each group
+        groups.forEach(g => {
+          g.rows.sort((a, b) => {
+            const aVal = parseFloat(a.querySelectorAll('td')[colIdx]?.textContent) || 0;
+            const bVal = parseFloat(b.querySelectorAll('td')[colIdx]?.textContent) || 0;
+            return asc ? aVal - bVal : bVal - aVal;
+          });
+          tbody.appendChild(g.header);
+          g.rows.forEach(r => tbody.appendChild(r));
+        });
+      });
+    });
+  </script>
+</body>
+</html>
