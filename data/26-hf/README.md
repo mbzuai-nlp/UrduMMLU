@@ -22,6 +22,10 @@ configs:
         path: urdummlu.json
 ---
 
+<p align="center">
+  <img src="logo.png" alt="UrduMMLU" width="180">
+</p>
+
 # UrduMMLU
 
 **UrduMMLU** is a large-scale, human-curated benchmark of **26,431** multiple-choice
