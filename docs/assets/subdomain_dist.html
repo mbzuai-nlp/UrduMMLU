@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>UrduMMLU — Subdomain Distribution</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+      color: #1a1a1a;
+    }
+    body {
+      width: 1000px;
+      padding: 26px 38px 18px;
+      box-sizing: border-box;
+    }
+
+    /* ── header ── */
+    #hd {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    #hd h2 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      color: #1a1a1a;
+    }
+    #hd .total {
+      font-size: 12px;
+      color: #888;
+      font-weight: 500;
+    }
+
+    /* ── legend ── */
+    #legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 18px;
+    }
+    .leg {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 3px 9px 3px 5px;
+      border-radius: 999px;
+      font-size: 11.5px;
+      font-weight: 600;
+      border: 1.5px solid transparent;
+    }
+    .leg-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 2.5px;
+      flex-shrink: 0;
+    }
+
+    /* ── rows ── */
+    #rows { display: flex; flex-direction: column; gap: 4px; }
+
+    .row {
+      display: flex;
+      align-items: center;
+      height: 26px;
+      border-radius: 8px;
+      padding: 0 3px;
+      cursor: default;
+      transition: background 0.12s;
+    }
+    .row:hover { background: rgba(0, 0, 0, 0.03); }
+
+    .domain-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 2px;
+      flex-shrink: 0;
+      margin-right: 10px;
+    }
+
+    .name {
+      width: 220px;
+      flex-shrink: 0;
+      text-align: right;
+      padding-right: 15px;
+      font-size: 12.5px;
+      font-weight: 500;
+      white-space: nowrap;
+      line-height: 1;
+    }
+
+    .track {
+      flex: 1;
+      height: 15px;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .fill {
+      position: absolute;
+      left: 0; top: 0;
+      height: 100%;
+      border-radius: 5px;
+      width: 0;
+      transition: width 1.1s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .info {
+      width: 94px;
+      flex-shrink: 0;
+      padding-left: 12px;
+      display: flex;
+      align-items: baseline;
+      gap: 4px;
+    }
+    .n {
+      font-size: 12px;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+    .pct {
+      font-size: 10.5px;
+      color: #aaa;
+    }
+
+    /* ── tooltip ── */
+    #tip {
+      position: fixed;
+      display: none;
+      z-index: 999;
+      background: rgba(255, 255, 255, 0.97);
+      border: 1px solid #e2e2e2;
+      border-radius: 10px;
+      padding: 9px 13px;
+      font-size: 12.5px;
+      line-height: 1.6;
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.09);
+      pointer-events: none;
+      color: #1a1a1a;
+    }
+  </style>
+</head>
+<body>
+  <div id="hd">
+    <h2>Subdomain Distribution</h2>
+    <span class="total">26,431 MCQs across 26 subjects</span>
+  </div>
+  <div id="legend"></div>
+  <div id="rows"></div>
+  <div id="tip"></div>
+
+  <script>
+    const TOTAL = 26431;
+
+    /* Data sorted globally by count (largest → smallest) */
+    const DATA = [
+      { domain: "Humanities",      name: "Urdu Literature",                  n: 5859 },
+      { domain: "Humanities",      name: "Urdu Language",                    n: 2522 },
+      { domain: "Social Sciences", name: "Pakistan Studies",                 n: 1895 },
+      { domain: "Humanities",      name: "Islamic Studies",                  n: 1497 },
+      { domain: "Other",           name: "General Knowledge",                n: 1365 },
+      { domain: "STEM",            name: "Chemistry",                        n: 936  },
+      { domain: "STEM",            name: "Biology",                          n: 931  },
+      { domain: "STEM",            name: "General Science",                  n: 926  },
+      { domain: "Social Sciences", name: "Economics",                        n: 907  },
+      { domain: "STEM",            name: "Mathematics",                      n: 876  },
+      { domain: "Social Sciences", name: "Education",                        n: 836  },
+      { domain: "STEM",            name: "Computer Science",                 n: 823  },
+      { domain: "Social Sciences", name: "Sociology",                        n: 778  },
+      { domain: "Humanities",      name: "Urdu Grammar",                     n: 756  },
+      { domain: "Social Sciences", name: "Health & Physical Education",      n: 742  },
+      { domain: "Social Sciences", name: "Civics",                           n: 675  },
+      { domain: "Social Sciences", name: "Geography",                        n: 630  },
+      { domain: "STEM",            name: "Physics",                          n: 621  },
+      { domain: "Profession",      name: "Professional Development",         n: 514  },
+      { domain: "Profession",      name: "Professional Studies",             n: 461  },
+      { domain: "Social Sciences", name: "Psychology",                       n: 460  },
+      { domain: "Social Sciences", name: "Current & International Affairs",  n: 437  },
+      { domain: "Social Sciences", name: "Commerce",                         n: 423  },
+      { domain: "Humanities",      name: "Ethics",                           n: 228  },
+      { domain: "Social Sciences", name: "Psychometrics",                    n: 185  },
+      { domain: "Humanities",      name: "Fine Arts",                        n: 148  },
+    ];
+
+    /* Same palette as the sunburst */
+    const PALETTE = {
+      "Humanities":      "#3C7C2A",
+      "Social Sciences": "#75A93D",
+      "STEM":            "#B5C941",
+      "Other":           "#D6A640",
+      "Profession":      "#DF7A45",
+    };
+
+    /* ── colour helpers (same as pipeline / sunburst) ── */
+    function hexToRgb(h) {
+      h = h.replace("#", "");
+      return [parseInt(h.slice(0,2),16), parseInt(h.slice(2,4),16), parseInt(h.slice(4,6),16)];
+    }
+    function shade(hex, f) {          /* mix with white, f=0 original, f=1 white */
+      const [r,g,b] = hexToRgb(hex);
+      const m = c => Math.round(c + (255 - c) * f);
+      const x = n => n.toString(16).padStart(2, "0");
+      return `#${x(m(r))}${x(m(g))}${x(m(b))}`;
+    }
+    function darken(hex, f) {         /* mix with black */
+      const [r,g,b] = hexToRgb(hex);
+      const m = c => Math.round(c * (1 - f));
+      const x = n => n.toString(16).padStart(2, "0");
+      return `#${x(m(r))}${x(m(g))}${x(m(b))}`;
+    }
+
+    const MAX = DATA[0].n;
+
+    /* ── legend ── */
+    const legEl = document.getElementById("legend");
+    Object.entries(PALETTE).forEach(([dom, col]) => {
+      const el  = document.createElement("div");
+      el.className = "leg";
+      el.style.cssText = `background:${shade(col, 0.87)};color:${darken(col, 0.38)};border-color:${shade(col, 0.62)};`;
+      const dot = document.createElement("div");
+      dot.className = "leg-dot";
+      dot.style.background = col;
+      el.appendChild(dot);
+      el.appendChild(document.createTextNode(dom));
+      legEl.appendChild(el);
+    });
+
+    /* ── rows ── */
+    const container = document.getElementById("rows");
+    const tip       = document.getElementById("tip");
+
+    DATA.forEach(d => {
+      const col   = PALETTE[d.domain] || "#888";
+      const pct   = ((d.n / TOTAL) * 100).toFixed(1);
+      const barW  = (d.n / MAX * 100).toFixed(3);
+      const ink   = darken(col, 0.32);
+      const trackBg = shade(col, 0.91);
+      /* gradient: light → slightly richer, both still very light */
+      const fillL  = shade(col, 0.52);
+      const fillR  = shade(col, 0.22);
+
+      const row = document.createElement("div");
+      row.className = "row";
+
+      const dot = document.createElement("div");
+      dot.className = "domain-dot";
+      dot.style.background = col;
+
+      const name = document.createElement("div");
+      name.className = "name";
+      name.textContent = d.name;
+      name.style.color = ink;
+
+      const track = document.createElement("div");
+      track.className = "track";
+      track.style.background = trackBg;
+
+      const fill = document.createElement("div");
+      fill.className = "fill";
+      fill.style.background = `linear-gradient(90deg, ${fillL}, ${fillR})`;
+      track.appendChild(fill);
+
+      const info = document.createElement("div");
+      info.className = "info";
+      const nEl = document.createElement("span");
+      nEl.className = "n";
+      nEl.style.color = ink;
+      nEl.textContent = d.n.toLocaleString();
+      const pEl = document.createElement("span");
+      pEl.className = "pct";
+      pEl.textContent = pct + "%";
+      info.appendChild(nEl);
+      info.appendChild(pEl);
+
+      row.append(dot, name, track, info);
+      container.appendChild(row);
+
+      /* staggered entrance animation */
+      const delay = DATA.indexOf(d) * 18;
+      setTimeout(() => {
+        fill.style.width = barW + "%";
+      }, delay);
+
+      /* tooltip */
+      row.addEventListener("mouseenter", () => {
+        tip.style.display = "block";
+        tip.innerHTML =
+          `<span style="font-weight:700;color:${darken(col,0.4)}">${d.domain}</span><br/>` +
+          `<b>${d.name}</b><br/>` +
+          `MCQs: <b>${d.n.toLocaleString()}</b> &ensp; <span style="color:#999">${pct}% of benchmark</span>`;
+      });
+      row.addEventListener("mousemove", e => {
+        tip.style.left = (e.clientX + 16) + "px";
+        tip.style.top  = (e.clientY - 8)  + "px";
+      });
+      row.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+    });
+  </script>
+</body>
+</html>

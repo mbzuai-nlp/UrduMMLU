@@ -42,9 +42,9 @@
         <strong>Ahmer Tabassum</strong><sup>*1</sup>,&ensp;
         <strong>Sarfraz Ahmad</strong><sup>*1</sup>,&ensp;
         <strong>Hasan Iqbal</strong><sup>*1</sup>,&ensp;
-        Owais Aijaz<sup>1</sup>,&ensp;
-        Momina Ahsan<sup>1</sup>,&ensp;
-        Preslav Nakov<sup>1</sup>
+        <strong>Owais Aijaz</strong><sup>1</sup>,&ensp;
+        <strong>Momina Ahsan</strong><sup>1</sup>,&ensp;
+        <strong>Preslav Nakov</strong><sup>1</sup>
       </p>
       <p class="mt-1 text-sm text-gray-500"><sup>1</sup>MBZUAI &ensp;·&ensp; <sup>*</sup>Equal contribution</p>
       <p class="text-xs text-gray-400 mt-1">{ahmer.tabassum, sarfraz.ahmad, hasan.iqbal}@mbzuai.ac.ae</p>
@@ -52,21 +52,15 @@
 
     <div class="mt-6 flex flex-wrap justify-center gap-3">
       <a class="btn" href="#" target="_blank" rel="noopener">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-red-500" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/>
-        </svg>
+        <img src="./assets/adobe.svg" alt="PDF" class="w-5 h-5" />
         Paper
       </a>
       <a class="btn" href="https://github.com/MBZUAI-NLP/UrduMMLU" target="_blank" rel="noopener">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.1c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.2-1.3-5.2-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.2 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6C20.2 21.4 23.5 17.1 23.5 12 23.5 5.65 18.35.5 12 .5z"/>
-        </svg>
+        <img src="./assets/github.png" alt="GitHub" class="w-5 h-5" />
         Code
       </a>
       <a class="btn" href="https://huggingface.co/datasets/MBZUAI-NLP/UrduMMLU" target="_blank" rel="noopener">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-yellow-500" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
-        </svg>
+        <img src="./assets/hf.png" alt="Hugging Face" class="w-5 h-5" />
         Dataset
       </a>
       <a class="btn" href="./leaderboard.html">
@@ -77,9 +71,7 @@
         Leaderboard
       </a>
       <button class="btn" id="copy-bib">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
-        </svg>
+        <img src="./assets/quotes.png" alt="Citation" class="w-5 h-5" />
         Citation
       </button>
     </div>
@@ -97,14 +89,37 @@
   <section class="section py-8">
     <h2 class="text-xl font-semibold">Construction Pipeline &amp; Domain Distribution</h2>
     <p class="mt-2 text-gray-600 text-[15px] leading-6">
-      UrduMMLU is built through a 16-stage pipeline that covers raw extraction from exam PDFs (via Claude Opus vision-based OCR) and web scraping, through normalization, deduplication, human annotation, and final release packaging. The circular chart shows the resulting subject coverage across five domains — Humanities and Social Sciences together account for nearly 72% of the benchmark, reflecting the richness of Urdu-medium curricula in literature, language, Islamic studies, and social subjects.
+      UrduMMLU is built through a 16-stage pipeline that covers raw extraction from exam PDFs (via Claude Opus vision-based OCR) and web scraping, through normalization, deduplication, human annotation, and final release packaging. The interactive chart on the right shows the resulting subject coverage across five domains — hover over any wedge to see exact MCQ counts and share. Humanities and Social Sciences together account for nearly 72% of the benchmark, reflecting the richness of Urdu-medium curricula in literature, language, Islamic studies, and social subjects.
     </p>
-    <div class="fig-wrap mt-5">
-      <img src="./assets/pipeline.pdf.png" alt="UrduMMLU 16-stage construction pipeline and domain distribution chart"
-           class="w-full rounded-xl" />
+    <div id="sunburst-wrap" class="mt-5 rounded-2xl border border-gray-200 shadow-sm overflow-hidden" style="position: relative;">
+      <iframe
+        id="sunburst-frame"
+        src="../data/25-final/domains_sunburst.html"
+        title="UrduMMLU 16-stage construction pipeline and interactive domain sunburst"
+        scrolling="no"
+        loading="lazy"
+        style="width: 1500px; height: 800px; border: none; display: block; transform-origin: 0 0; background: transparent;"
+      ></iframe>
     </div>
+    <script>
+      (function () {
+        /* Native dimensions the iframe content was designed for */
+        var W = 1500, H = 800;
+        function rescale() {
+          var wrap  = document.getElementById('sunburst-wrap');
+          var frame = document.getElementById('sunburst-frame');
+          if (!wrap || !frame) return;
+          var scale = wrap.clientWidth / W;
+          frame.style.transform = 'scale(' + scale + ')';
+          wrap.style.height = Math.round(H * scale) + 'px';
+        }
+        rescale();
+        window.addEventListener('resize', rescale);
+        document.getElementById('sunburst-frame').addEventListener('load', rescale);
+      })();
+    </script>
     <p class="fig-cap mt-3">
-      <strong>Figure 1.</strong> The 16-stage UrduMMLU construction pipeline (left) and the resulting 26,431-MCQ benchmark broken down by 5 domains and 26 subdomains (right). Wedge size is proportional to MCQ count.
+      <strong>Figure 1.</strong> The 16-stage UrduMMLU construction pipeline (left) and the resulting 26,431-MCQ benchmark as an interactive sunburst broken down by 5 domains and 26 subdomains (right). Hover over any wedge to see the subdomain name, MCQ count, and percentage share. Wedge size is proportional to MCQ count.
     </p>
   </section>
 
@@ -124,12 +139,34 @@
     <p class="mt-6 text-gray-600 text-[15px] leading-6">
       The chart below shows MCQ counts across all 26 subdomains, color-coded by domain. <strong>Urdu Literature</strong> is by far the largest subdomain (5,859 MCQs), followed by <strong>Urdu Language</strong> (2,522) and <strong>Pakistan Studies</strong> (1,895). Within STEM, Biology, Chemistry, and General Science each contribute around 930 questions. The Profession domain — covering Professional Development and Professional Studies — is the smallest, deliberately up-sampled to 975 items during balancing to ensure reliable domain-level evaluation.
     </p>
-    <div class="fig-wrap mt-4">
-      <img src="./assets/subdomain_bar.png" alt="UrduMMLU subdomain distribution bar chart"
-           class="w-full rounded-xl" />
+    <div id="subdist-wrap" class="mt-4 rounded-2xl border border-gray-200 shadow-sm overflow-hidden" style="position:relative;">
+      <iframe
+        id="subdist-frame"
+        src="./assets/subdomain_dist.html"
+        title="UrduMMLU interactive subdomain distribution chart"
+        scrolling="no"
+        loading="lazy"
+        style="width:1000px; height:920px; border:none; display:block; transform-origin:0 0; background:transparent;"
+      ></iframe>
     </div>
+    <script>
+      (function () {
+        var W = 1000, H = 920;
+        function rescaleSubdist() {
+          var wrap  = document.getElementById("subdist-wrap");
+          var frame = document.getElementById("subdist-frame");
+          if (!wrap || !frame) return;
+          var scale = wrap.clientWidth / W;
+          frame.style.transform = "scale(" + scale + ")";
+          wrap.style.height = Math.round(H * scale) + "px";
+        }
+        rescaleSubdist();
+        window.addEventListener("resize", rescaleSubdist);
+        document.getElementById("subdist-frame").addEventListener("load", rescaleSubdist);
+      })();
+    </script>
     <p class="fig-cap">
-      <strong>Figure 2.</strong> Final UrduMMLU item counts by subdomain, grouped by domain (color-coded). Urdu Literature and Urdu Language contribute the largest shares; Social Sciences and STEM spread across a larger number of medium-sized subdomains.
+      <strong>Figure 2.</strong> Final UrduMMLU item counts across all 26 subdomains, sorted largest to smallest and color-coded by domain. Hover over any bar to see the subdomain name, MCQ count, and share of the full benchmark. Urdu Literature alone accounts for 22.2% of the dataset; Fine Arts and Psychometrics are the smallest subdomains at 148 and 185 items respectively.
     </p>
 
     <!-- Source split -->
@@ -186,9 +223,12 @@
     <p class="mt-2 text-gray-600 text-[15px] leading-6">
       Every exam-derived item was independently annotated by two subject-matched annotators. We applied a strict consensus rule: an item was retained only when both annotators selected the same valid answer without any flags or unsure markers. The heatmap below reports pairwise simplified Cohen's κ across all 17 annotators on the 14,459 final-included MCQs. Nearly every populated cell exceeds κ = 0.85 — the agreement is consistently strong across annotator pairs rather than concentrated in a small subset.
     </p>
-    <div class="fig-wrap mt-5 max-w-2xl mx-auto">
-      <img src="./assets/iaa_heatmap.pdf.png" alt="Pairwise inter-annotator agreement heatmap (Cohen's κ)"
-           class="w-full rounded-xl" />
+    <div class="mt-5 max-w-2xl mx-auto">
+      <div id="iaa-wrap" style="position:relative;overflow:hidden;border-radius:1rem;border:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,.05);">
+        <iframe id="iaa-frame" src="./assets/iaa_heatmap.html" scrolling="no" loading="lazy"
+          style="width:700px;height:760px;border:none;display:block;transform-origin:0 0;background:transparent;"></iframe>
+      </div>
+      <script>(function(){var W=700,H=760;function r(){var w=document.getElementById("iaa-wrap"),f=document.getElementById("iaa-frame");if(!w||!f)return;var sc=w.clientWidth/W;f.style.transform="scale("+sc+")";w.style.height=Math.round(H*sc)+"px";}r();window.addEventListener("resize",r);var fr=document.getElementById("iaa-frame");if(fr)fr.addEventListener("load",r);})();</script>
     </div>
     <p class="fig-cap">
       <strong>Figure 3.</strong> Pairwise annotator agreement on final-included MCQs (n = 14,459). Each cell reports simplified Cohen's κ; the number of shared items is shown in parentheses. Blank cells indicate no shared items between that pair. Most cells exceed κ = 0.85.
@@ -230,19 +270,21 @@
     </p>
     <div class="mt-6 grid sm:grid-cols-2 gap-6">
       <div>
-        <div class="fig-wrap">
-          <img src="./assets/stem_vs_hum_gap.pdf.png" alt="STEM vs Humanities accuracy under Urdu prompt"
-               class="w-full rounded-xl" />
+        <div id="stemhum-wrap" style="position:relative;overflow:hidden;border-radius:1rem;border:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,.05);">
+          <iframe id="stemhum-frame" src="./assets/stem_vs_hum_gap.html" scrolling="no" loading="lazy"
+            style="width:760px;height:420px;border:none;display:block;transform-origin:0 0;background:transparent;"></iframe>
         </div>
+        <script>(function(){var W=760,H=420;function r(){var w=document.getElementById("stemhum-wrap"),f=document.getElementById("stemhum-frame");if(!w||!f)return;var sc=w.clientWidth/W;f.style.transform="scale("+sc+")";w.style.height=Math.round(H*sc)+"px";}r();window.addEventListener("resize",r);var fr=document.getElementById("stemhum-frame");if(fr)fr.addEventListener("load",r);})();</script>
         <p class="fig-cap mt-3">
           <strong>Figure 4.</strong> STEM and Humanities accuracy on UrduMMLU under the Urdu prompt for top representative models from each group. All models score substantially lower on Humanities.
         </p>
       </div>
       <div>
-        <div class="fig-wrap">
-          <img src="./assets/overall_en_vs_ur.pdf.png" alt="Overall accuracy English vs Urdu prompt"
-               class="w-full rounded-xl" />
+        <div id="enur-wrap" style="position:relative;overflow:hidden;border-radius:1rem;border:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,.05);">
+          <iframe id="enur-frame" src="./assets/overall_en_vs_ur.html" scrolling="no" loading="lazy"
+            style="width:760px;height:420px;border:none;display:block;transform-origin:0 0;background:transparent;"></iframe>
         </div>
+        <script>(function(){var W=760,H=420;function r(){var w=document.getElementById("enur-wrap"),f=document.getElementById("enur-frame");if(!w||!f)return;var sc=w.clientWidth/W;f.style.transform="scale("+sc+")";w.style.height=Math.round(H*sc)+"px";}r();window.addEventListener("resize",r);var fr=document.getElementById("enur-frame");if(fr)fr.addEventListener("load",r);})();</script>
         <p class="fig-cap mt-3">
           <strong>Figure 5.</strong> Overall accuracy on UrduMMLU under English and Urdu prompts for the same representative models. Prompt language has only a small effect on overall performance.
         </p>
@@ -266,10 +308,11 @@
         </p>
       </div>
       <div>
-        <div class="fig-wrap">
-          <img src="./assets/fewshot_accuracy.pdf.png" alt="Few-shot accuracy curves for four open-source models"
-               class="w-full rounded-xl" />
+        <div id="fewshot-wrap" style="position:relative;overflow:hidden;border-radius:1rem;border:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,.05);">
+          <iframe id="fewshot-frame" src="./assets/fewshot_accuracy.html" scrolling="no" loading="lazy"
+            style="width:800px;height:480px;border:none;display:block;transform-origin:0 0;background:transparent;"></iframe>
         </div>
+        <script>(function(){var W=800,H=480;function r(){var w=document.getElementById("fewshot-wrap"),f=document.getElementById("fewshot-frame");if(!w||!f)return;var sc=w.clientWidth/W;f.style.transform="scale("+sc+")";w.style.height=Math.round(H*sc)+"px";}r();window.addEventListener("resize",r);var fr=document.getElementById("fewshot-frame");if(fr)fr.addEventListener("load",r);})();</script>
         <p class="fig-cap mt-3">
           <strong>Figure 6.</strong> Few-shot accuracy on UrduMMLU for four open-source models under English (solid) and Urdu (dotted) prompts at 0-, 1-, 3-, and 5-shot settings. Gains are modest and model rankings are unchanged across shot counts.
         </p>
@@ -282,10 +325,11 @@
     <h2 class="text-xl font-semibold">Urdu Literature: A Hard Frontier</h2>
     <div class="mt-4 grid sm:grid-cols-2 gap-8 items-start">
       <div>
-        <div class="fig-wrap">
-          <img src="./assets/urdu_literature_subdomain.pdf.png" alt="Urdu literature accuracy for four 8B-class models"
-               class="w-full rounded-xl" />
+        <div id="urdulit-wrap" style="position:relative;overflow:hidden;border-radius:1rem;border:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,.05);">
+          <iframe id="urdulit-frame" src="./assets/urdu_lit_bars.html" scrolling="no" loading="lazy"
+            style="width:760px;height:420px;border:none;display:block;transform-origin:0 0;background:transparent;"></iframe>
         </div>
+        <script>(function(){var W=760,H=420;function r(){var w=document.getElementById("urdulit-wrap"),f=document.getElementById("urdulit-frame");if(!w||!f)return;var sc=w.clientWidth/W;f.style.transform="scale("+sc+")";w.style.height=Math.round(H*sc)+"px";}r();window.addEventListener("resize",r);var fr=document.getElementById("urdulit-frame");if(fr)fr.addEventListener("load",r);})();</script>
         <p class="fig-cap mt-3">
           <strong>Figure 7.</strong> Urdu literature accuracy for four 8B-class instruction-tuned models under English and Urdu prompts. Ministral-3-8B performs best at 39.4% under both prompt settings.
         </p>

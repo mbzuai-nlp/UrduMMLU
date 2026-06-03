@@ -458,16 +458,23 @@
     </div>
   </section>
 
-  <!-- ══════════════════════ DOMAIN BREAKDOWN FIGURE ══════════════════════ -->
+  <!-- ══════════════════════ LEVEL DISTRIBUTION FIGURE ══════════════════════ -->
   <section class="section py-4">
     <div class="card p-4">
-      <h2 class="text-lg font-semibold mb-3">Domain Distribution across Examination Levels</h2>
-      <div class="mx-auto max-w-4xl">
-        <img src="./assets/level_distribution.png" alt="UrduMMLU item distribution across SSC/HSSC levels"
-             class="w-full rounded-xl"
-             onerror="this.parentElement.innerHTML='<div class=\'flex items-center justify-center h-40 text-gray-400 text-sm\'>📷 level_distribution.png — add to docs/assets/</div>'" />
+      <h2 class="text-lg font-semibold mb-1">MCQ Distribution across Pakistani Examination Levels</h2>
+      <p class="text-sm text-gray-600 mb-4 leading-6">
+        UrduMMLU covers four curriculum levels of the Pakistani secondary school system: SSC-I (Grade 9), SSC-II (Grade 10), HSSC-I (Grade 11), and HSSC-II (Grade 12). The stacked bars below show both absolute MCQ counts (left) and within-level domain share (right). SSC-I is the largest level with 11,601 items, where Humanities accounts for 54% — reflecting the heavy literature and language focus in early secondary curricula. As students progress to HSSC, they specialize into science, commerce, or humanities tracks: Social Sciences grows from 11% at SSC-I to 71% at HSSC-II, while Humanities contracts from 54% to 19%. STEM peaks at SSC-II (32%) before students who continue in arts tracks shift out of science subjects.
+      </p>
+      <div class="mx-auto max-w-5xl">
+        <div id="levels-wrap" style="position:relative;overflow:hidden;border-radius:1rem;border:1px solid #e5e7eb;box-shadow:0 1px 3px rgba(0,0,0,.05);">
+          <iframe id="levels-frame" src="./assets/levels_stacked.html" scrolling="no" loading="lazy"
+            style="width:960px;height:520px;border:none;display:block;transform-origin:0 0;background:transparent;"></iframe>
+        </div>
+        <script>(function(){var W=960,H=520;function r(){var w=document.getElementById("levels-wrap"),f=document.getElementById("levels-frame");if(!w||!f)return;var sc=w.clientWidth/W;f.style.transform="scale("+sc+")";w.style.height=Math.round(H*sc)+"px";}r();window.addEventListener("resize",r);var fr=document.getElementById("levels-frame");if(fr)fr.addEventListener("load",r);})();</script>
       </div>
-      <p class="note text-center mt-2">Figure 5: Distribution of UrduMMLU items across Pakistani examination levels, grouped by domain. Humanities dominates SSC-I and SSC-II; STEM and Social Sciences become more prominent at HSSC levels.</p>
+      <p class="note text-center mt-3">
+        <strong>Figure 8.</strong> Distribution of UrduMMLU items across four Pakistani examination levels, grouped by domain. <em>Left:</em> absolute MCQ counts per level. <em>Right:</em> within-level domain share (%). Humanities dominates SSC levels; Social Sciences becomes the majority domain at HSSC-I and HSSC-II as students specialise. This curriculum structure — not a collection artefact — drives the level distribution seen in the benchmark.
+      </p>
     </div>
   </section>
 
