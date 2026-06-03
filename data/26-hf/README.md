@@ -132,17 +132,6 @@ Each item retains its source attribution in the `source` field.
 - Coverage is weighted toward humanities and the SSC levels, mirroring the
   availability of native Urdu exam content.
 
-## Citation
-
-```bibtex
-@misc{urdummlu,
-  title        = {UrduMMLU: A Native Urdu Multitask Multiple-Choice Benchmark},
-  author       = {Iqbal, Hasan and others},
-  howpublished = {\url{https://huggingface.co/datasets/MBZUAI/UrduMMLU}},
-  year         = {2026}
-}
-```
-
 ## License
 
 Released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
