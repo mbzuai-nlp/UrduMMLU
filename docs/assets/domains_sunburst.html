@@ -486,6 +486,7 @@
     });
 
     chart.setOption({
+      backgroundColor: "transparent",
       tooltip: {
         trigger: "item",
         formatter: (p) => {
@@ -695,8 +696,9 @@
 
     // Inline the logo SVG so we can recolor its fill to match Humanities.
     fetch("logo.svg")
-      .then(r => r.text())
+      .then(r => { if (!r.ok) return null; return r.text(); })
       .then(svg => {
+        if (!svg) return;
         const recolored = svg.replace(/rgb\(22,\s*67,\s*24\)/g, inkOf(DOMAIN_COLORS["Humanities"]));
         document.getElementById("hub").innerHTML = recolored;
       })
