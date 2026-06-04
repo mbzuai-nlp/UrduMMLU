@@ -6,6 +6,7 @@
 
 <p align="center">
   <a href="https://huggingface.co/datasets/MBZUAI/UrduMMLU"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-FFD21E?style=for-the-badge" alt="Hugging Face Dataset"></a>
+  <a href="https://mbzuai-nlp.github.io/UrduMMLU/"><img src="https://img.shields.io/badge/Project-Website-1F6FEB?style=for-the-badge" alt="Project Website"></a>
   <img src="https://img.shields.io/badge/Questions-26%2C431-4C9A2A?style=for-the-badge" alt="Questions">
   <img src="https://img.shields.io/badge/Language-Urdu-0E7C3A?style=for-the-badge" alt="Language: Urdu">
   <br>
@@ -31,14 +32,14 @@ ds = load_dataset("MBZUAI/UrduMMLU", split="test")
 
 ## Dataset at a glance
 
-| | |
-|---|---|
-| Questions | 26,431 |
-| Language | Urdu (`ur`) |
-| Format | Single-answer multiple choice (4–5 options) |
-| Levels | SSC-I, SSC-II, HSSC-I, HSSC-II |
-| Domains | 5 (Humanities, Social Sciences, STEM, Profession, Other) — 26 subdomains |
-| Sources | 9 native Urdu exam & practice repositories + provincial boards |
+|           |                                                                          |
+| --------- | ------------------------------------------------------------------------ |
+| Questions | 26,431                                                                   |
+| Language  | Urdu (`ur`)                                                              |
+| Format    | Single-answer multiple choice (4–5 options)                              |
+| Levels    | SSC-I, SSC-II, HSSC-I, HSSC-II                                           |
+| Domains   | 5 (Humanities, Social Sciences, STEM, Profession, Other) — 26 subdomains |
+| Sources   | 9 native Urdu exam & practice repositories + provincial boards           |
 
 Unlike machine-translated MMLU variants, every item is sourced from **native Urdu**
 exam material, then cleaned, de-duplicated, schema-normalized, and human-verified.
@@ -50,13 +51,13 @@ module under `src/<stage>/` that reads `data/<N>-<name>/` and writes the next st
 so any single transform can be re-run without disturbing the rest. The numeric prefix
 on each `data/` directory is its step badge.
 
-| Phase | Stages | What happens |
-|---|---|---|
-| **Collection** | `1-raw` → `3-consolidated` | Scrape & merge raw MCQs from web sources and OCR'd exam PDFs |
-| **Normalization** | `4-rtl-aligned` → `14-bidi-isolated` | RTL alignment, quote/character/punctuation normalization, schema canonicalization, option-prefix stripping, blank normalization, exact & fuzzy dedup, bidi isolation |
-| **Filtering & sampling** | `15-english-filtered` → `17-batching` | Drop non-Urdu rows, cap per-subdomain counts, build annotation batches |
-| **Annotation** | `18-assignments` → `22-final-combined` | Group-aware dual annotation, then combine & finalize annotator verdicts |
-| **Release** | `23-anonymize` → `26-hf` | Anonymize annotators, final dedup, assemble the slim Hugging Face release |
+| Phase                    | Stages                                 | What happens                                                                                                                                                         |
+| ------------------------ | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Collection**           | `1-raw` → `3-consolidated`             | Scrape & merge raw MCQs from web sources and OCR'd exam PDFs                                                                                                         |
+| **Normalization**        | `4-rtl-aligned` → `14-bidi-isolated`   | RTL alignment, quote/character/punctuation normalization, schema canonicalization, option-prefix stripping, blank normalization, exact & fuzzy dedup, bidi isolation |
+| **Filtering & sampling** | `15-english-filtered` → `17-batching`  | Drop non-Urdu rows, cap per-subdomain counts, build annotation batches                                                                                               |
+| **Annotation**           | `18-assignments` → `22-final-combined` | Group-aware dual annotation, then combine & finalize annotator verdicts                                                                                              |
+| **Release**              | `23-anonymize` → `26-hf`               | Anonymize annotators, final dedup, assemble the slim Hugging Face release                                                                                            |
 
 The final HF release files are in [`data/26-hf/`](data/26-hf/): `urdummlu.json` (the
 dataset) and `stats.json` (distribution counts), built by [`src/hf/build.py`](src/hf/build.py).
