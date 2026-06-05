@@ -4,15 +4,20 @@
 
 <h1 align="center">UrduMMLU</h1>
 
+<h3 align="center">A Massive Multitask Benchmark for Urdu Language Understanding</h3>
+
 <p align="center">
   <a href="https://huggingface.co/datasets/MBZUAI/UrduMMLU"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-FFD21E?style=for-the-badge" alt="Hugging Face Dataset"></a>
+  <a href="docs/assets/dataset.pdf"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper"></a>
   <a href="https://mbzuai-nlp.github.io/UrduMMLU/"><img src="https://img.shields.io/badge/Project-Website-1F6FEB?style=for-the-badge" alt="Project Website"></a>
   <img src="https://img.shields.io/badge/Questions-26%2C431-4C9A2A?style=for-the-badge" alt="Questions">
   <img src="https://img.shields.io/badge/Language-Urdu-0E7C3A?style=for-the-badge" alt="Language: Urdu">
   <br>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Code-GPL%203.0-3776AB?style=flat-square" alt="Code License: GPL 3.0"></a>
   <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/Data-CC%20BY%204.0-A41E11?style=flat-square" alt="Data License: CC BY 4.0"></a>
+  <a href=".github/workflows/hf-push.yml"><img src="https://img.shields.io/badge/GitHub%20Action-HF%20Upload-2088FF?style=flat-square&logo=github-actions&logoColor=white" alt="HF Upload Action"></a>
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/Models%20Evaluated-30-orange?style=flat-square" alt="Models Evaluated">
 </p>
 
 A massive, human-curated multiple-choice benchmark for **Urdu** language understanding —
