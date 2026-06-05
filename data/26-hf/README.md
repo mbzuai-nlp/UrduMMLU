@@ -23,10 +23,31 @@ configs:
 ---
 
 <p align="center">
-  <img src="logo.png" alt="UrduMMLU" width="180">
+  <img src="logo.png" alt="UrduMMLU" width="200">
 </p>
 
-# UrduMMLU
+<h1 align="center">UrduMMLU: A Massive Multitask Benchmark for Urdu Language Understanding</h1>
+
+<p align="center">
+  <b>Ahmer Tabassum</b><sup>*1</sup> &nbsp;·&nbsp;
+  <b>Sarfraz Ahmad</b><sup>*1</sup> &nbsp;·&nbsp;
+  <b>Hasan Iqbal</b><sup>*1</sup> &nbsp;·&nbsp;
+  <b>Owais Aijaz</b><sup>1</sup> &nbsp;·&nbsp;
+  <b>Momina Ahsan</b><sup>1</sup> &nbsp;·&nbsp;
+  <b>Preslav Nakov</b><sup>1</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup> Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) &nbsp;·&nbsp; <sup>*</sup>Equal contribution
+</p>
+
+<p align="center">
+  <a href="https://anonymous.for.review"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=white" alt="Paper"></a>
+  <a href="https://mbzuai-nlp.github.io/UrduMMLU/"><img src="https://img.shields.io/badge/Project-Website-1F6FEB?logo=googlechrome&logoColor=white" alt="Project Website"></a>
+  <a href="https://github.com/mbzuai-nlp/UrduMMLU"><img src="https://img.shields.io/badge/GitHub-Code-181717?logo=github&logoColor=white" alt="GitHub"></a>
+</p>
+
+---
 
 **UrduMMLU** is a large-scale, human-curated benchmark of **26,431** multiple-choice
 questions written natively in Urdu. Questions are drawn from Pakistani secondary and
@@ -39,14 +60,14 @@ through a multi-stage annotation pipeline.
 
 ## Dataset at a glance
 
-| | |
-|---|---|
-| Questions | 26,431 |
-| Language | Urdu (`ur`) |
-| Format | Single-answer multiple choice (4–5 options) |
-| Levels | SSC-I, SSC-II, HSSC-I, HSSC-II |
-| Domains | 5 (26 subdomains) |
-| Files | `urdummlu.json`, `stats.json` |
+|           |                                             |
+| --------- | ------------------------------------------- |
+| Questions | 26,431                                      |
+| Language  | Urdu (`ur`)                                 |
+| Format    | Single-answer multiple choice (4–5 options) |
+| Levels    | SSC-I, SSC-II, HSSC-I, HSSC-II              |
+| Domains   | 5 (26 subdomains)                           |
+| Files     | `urdummlu.json`, `stats.json`               |
 
 ## Schema
 
@@ -68,27 +89,27 @@ Each record in `urdummlu.json` has exactly these fields:
 }
 ```
 
-| Field | Description |
-|---|---|
-| `id` | Stable integer identifier |
-| `question` | Question stem in Urdu |
-| `options` | Map of option key (`A`–`E`) to Urdu answer text |
-| `correct_key` | Key of the correct option |
-| `domain` | Top-level domain (one of 5) |
-| `subdomain` | Fine-grained subject (26 total) |
-| `level` | Curriculum level: `SSC-I`, `SSC-II`, `HSSC-I`, `HSSC-II` |
-| `length_tier` | `short`, `long`, or `null` (question-length bucket) |
-| `source` | List of `{name, url}` provenance entries |
+| Field         | Description                                              |
+| ------------- | -------------------------------------------------------- |
+| `id`          | Stable integer identifier                                |
+| `question`    | Question stem in Urdu                                    |
+| `options`     | Map of option key (`A`–`E`) to Urdu answer text          |
+| `correct_key` | Key of the correct option                                |
+| `domain`      | Top-level domain (one of 5)                              |
+| `subdomain`   | Fine-grained subject (26 total)                          |
+| `level`       | Curriculum level: `SSC-I`, `SSC-II`, `HSSC-I`, `HSSC-II` |
+| `length_tier` | `short`, `long`, or `null` (question-length bucket)      |
+| `source`      | List of `{name, url}` provenance entries                 |
 
 ## Domain distribution
 
-| Domain | Questions |
-|---|---|
-| Humanities | 11,010 |
-| Social Sciences | 7,968 |
-| STEM | 5,113 |
-| Other | 1,365 |
-| Profession | 975 |
+| Domain          | Questions |
+| --------------- | --------- |
+| Humanities      | 11,010    |
+| Social Sciences | 7,968     |
+| STEM            | 5,113     |
+| Other           | 1,365     |
+| Profession      | 975       |
 
 The 26 subdomains include Urdu literature, Urdu language, Islamic studies,
 Pakistan studies, chemistry, biology, mathematics, computer science, economics,
@@ -97,12 +118,12 @@ sociology, and more. Per-subdomain, per-level, and source counts are in
 
 ## Curriculum levels
 
-| Level | Questions |
-|---|---|
-| SSC-I | 11,601 |
-| SSC-II | 6,838 |
-| HSSC-II | 4,125 |
-| HSSC-I | 3,867 |
+| Level   | Questions |
+| ------- | --------- |
+| SSC-I   | 11,601    |
+| SSC-II  | 6,838     |
+| HSSC-II | 4,125     |
+| HSSC-I  | 3,867     |
 
 ## Usage
 
