@@ -14,7 +14,7 @@ experiment:
 
 # -------------------- Data ----------------------------------
 data:
-  metadata_path: data/26-hf/mcqs.json
+  metadata_path: data/26-eval/mcqs.json
 
 # -------------------- Prompts (0-shot) -----------------------
 # Two prompt sets: English (en) and Urdu (ur).

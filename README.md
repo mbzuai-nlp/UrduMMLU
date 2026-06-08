@@ -64,31 +64,37 @@ exam material, then cleaned, de-duplicated, schema-normalized, and human-verifie
 
 ## How it's built
 
-The benchmark is produced by a **26-stage pipeline**. Each stage is a small, idempotent
+The benchmark is produced by a **27-stage pipeline**. Each stage is a small, idempotent
 module under `src/<stage>/` that reads `data/<N>-<name>/` and writes the next stage —
 so any single transform can be re-run without disturbing the rest. The numeric prefix
 on each `data/` directory is its step badge.
 
-| Phase                    | Stages                                 | What happens                                                                                                                                                         |
+| Phase                    | Stages                                 | What happens                                                                                                                                                          |
 | ------------------------ | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Collection**           | `1-raw` → `3-consolidated`             | Scrape & merge raw MCQs from web sources and OCR'd exam PDFs                                                                                                         |
+| **Collection**           | `1-raw` → `3-consolidated`             | Scrape & merge raw MCQs from web sources and OCR'd exam PDFs                                                                                                          |
 | **Normalization**        | `4-rtl-aligned` → `14-bidi-isolated`   | RTL alignment, quote/character/punctuation normalization, schema canonicalization, option-prefix stripping, blank normalization, exact & fuzzy dedup, bidi isolation |
 | **Filtering & sampling** | `15-english-filtered` → `17-batching`  | Drop non-Urdu rows, cap per-subdomain counts, build annotation batches                                                                                               |
 | **Annotation**           | `18-assignments` → `22-final-combined` | Group-aware dual annotation, then combine & finalize annotator verdicts                                                                                              |
-| **Release**              | `23-anonymize` → `26-hf`               | Anonymize annotators, final dedup, assemble the slim Hugging Face release                                                                                            |
+| **Release**              | `23-anonymize` → `27-hf`               | Anonymize annotators, final dedup, then split into the eval snapshot (`26-eval`) and the published release (`27-hf`)                                                  |
 
-The final HF release files are in [`data/26-hf/`](data/26-hf/): `urdummlu.json` (the
-dataset) and `stats.json` (distribution counts), built by [`src/hf/build.py`](src/hf/build.py).
+The pipeline ends in two sibling snapshots, both slim `KEEP_KEYS` views of the final data:
+
+- [`data/26-eval/`](data/26-eval/) — **evaluation snapshot** with the **original ids**,
+  unsorted. Every eval config points here, so locked results join back by `id`. Built by
+  [`src/eval_snapshot/build.py`](src/eval_snapshot/build.py); holds `mcqs.json`,
+  `mcqs_eval.jsonl` (flattened for lm-eval), `mcqs_dev.json` (few-shot pool), and
+  `id_map.json` (the `27-hf → 26-eval` id crosswalk).
+- [`data/27-hf/`](data/27-hf/) — the **Hugging Face release**, sorted by domain →
+  subdomain and **renumbered `0…N`**. Built by [`src/hf/build.py`](src/hf/build.py) from
+  `26-eval`; holds `urdummlu.json`, `stats.json`, the dataset card, and logo. This is the
+  only folder published to the Hub.
 
 ## Repository layout
 
 ```
 urdu-mmlu/
-├── data/              # pipeline stages 1-26; release in data/26-hf/
-├── src/               # one module per pipeline stage (+ src/ocr/, src/analysis/)
-│   ├── ocr/           # PDF → images → classify → extract MCQs (one collection source)
-│   ├── analysis/      # plots, IAA, eval, and dataset-stats scripts
-│   └── hf/build.py    # builds the Hugging Face release
+├── data/              # pipeline stages 1-27
+├── src/               # one module per pipeline stage (+ ocr/, analysis/)
 ├── web/               # the public site (landing, annotator, admin, preview)
 ├── scripts/           # build_site.py, deploy.py, prep_lm_eval.py
 ├── docs/              # generated leaderboard / site assets

@@ -1,0 +1,99 @@
+{
+  "total": 26431,
+  "domain_distribution": {
+    "Humanities": 11010,
+    "Social Sciences": 7968,
+    "STEM": 5113,
+    "Other": 1365,
+    "Profession": 975
+  },
+  "subdomain_distribution": {
+    "Humanities / urdu literature": 5859,
+    "Humanities / urdu language": 2522,
+    "Social Sciences / pakistan studies": 1895,
+    "Humanities / islamic studies": 1497,
+    "Other / general knowledge": 1365,
+    "STEM / chemistry": 936,
+    "STEM / biology": 931,
+    "STEM / general science": 926,
+    "Social Sciences / economics": 907,
+    "STEM / mathematics": 876,
+    "Social Sciences / education": 836,
+    "STEM / computer science": 823,
+    "Social Sciences / sociology": 778,
+    "Humanities / urdu grammar": 756,
+    "Social Sciences / health and physical education": 742,
+    "Social Sciences / civics": 675,
+    "Social Sciences / geography": 630,
+    "STEM / physics": 621,
+    "Profession / professional development": 514,
+    "Profession / professional studies": 461,
+    "Social Sciences / psychology": 460,
+    "Social Sciences / current and international affairs": 437,
+    "Social Sciences / commerce": 423,
+    "Humanities / ethics": 228,
+    "Social Sciences / psychometrics": 185,
+    "Humanities / fine arts": 148
+  },
+  "level_distribution": {
+    "SSC-I": 11601,
+    "SSC-II": 6838,
+    "HSSC-I": 3867,
+    "HSSC-II": 4125
+  },
+  "level_by_domain": {
+    "Social Sciences": {
+      "SSC-I": 1266,
+      "SSC-II": 1222,
+      "HSSC-I": 2549,
+      "HSSC-II": 2931
+    },
+    "Other": {
+      "SSC-I": 683,
+      "SSC-II": 165,
+      "HSSC-I": 210,
+      "HSSC-II": 307
+    },
+    "Humanities": {
+      "SSC-I": 6276,
+      "SSC-II": 2953,
+      "HSSC-I": 993,
+      "HSSC-II": 788
+    },
+    "STEM": {
+      "SSC-I": 2942,
+      "SSC-II": 2155,
+      "HSSC-I": 13,
+      "HSSC-II": 3
+    },
+    "Profession": {
+      "SSC-I": 434,
+      "SSC-II": 343,
+      "HSSC-I": 102,
+      "HSSC-II": 96
+    }
+  },
+  "length_tier_distribution": {
+    "null": 13672,
+    "short": 7325,
+    "long": 5434
+  },
+  "correct_key_distribution": {
+    "A": 6673,
+    "B": 6486,
+    "C": 6549,
+    "D": 6681,
+    "E": 42
+  },
+  "source_distribution": {
+    "Ustad 360": 11116,
+    "MCQ Times": 5918,
+    "TestPoint PK": 3950,
+    "eTest": 2788,
+    "FBISE": 1460,
+    "ExamAunty": 566,
+    "GoTest": 529,
+    "PakMCQs": 415,
+    "BISE Multan 2025": 232
+  }
+}

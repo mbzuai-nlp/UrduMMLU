@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "data/26-hf/**"
+      - "data/27-hf/**"
       - ".github/workflows/hf-push.yml"
   workflow_dispatch:
 
@@ -27,6 +27,6 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          hf upload MBZUAI/UrduMMLU data/26-hf . \
+          hf upload MBZUAI/UrduMMLU data/27-hf . \
             --repo-type=dataset \
             --commit-message "Sync from ${{ github.sha }}"

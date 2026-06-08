@@ -5,7 +5,7 @@
 # Models  : Llama-3.2-3B-Instruct | gemma-3-4b-it | Phi-4-mini-instruct
 # Shots   : 0, 3, 5  (tasks registered in lm-eval-harness as urdummlu_*)
 # Metric  : exact_match on "Answer key: X" (generate_until)
-# Data    : data/26-hf/mcqs.json (test) | data/26-hf/mcqs_dev.json (few-shot)
+# Data    : data/26-eval/mcqs_eval.jsonl (test) | data/26-eval/mcqs_dev.json (few-shot)
 # Results : output/lm_eval/<model_slug>/
 #
 # Each model is loaded once and all three shot configs are evaluated together.

@@ -1,16 +1,19 @@
 """
-Flatten data/26-hf/mcqs.json for lm-evaluation-harness.
+Flatten data/26-eval/mcqs.json for lm-evaluation-harness.
 
 Removes 42 items with correct_key "E" (no E option in data).
 Flattens nested options dict to top-level fields.
 Adds integer `answer` field (A=0, B=1, C=2, D=3).
-Output: data/26-hf/mcqs_eval.jsonl
+Output: data/26-eval/mcqs_eval.jsonl
+
+Operates on the frozen eval snapshot (original ids), NOT the sorted/renumbered
+Hugging Face release (data/27-hf/).
 """
 import json
 import pathlib
 
-SRC = pathlib.Path("data/26-hf/mcqs.json")
-DST = pathlib.Path("data/26-hf/mcqs_eval.jsonl")
+SRC = pathlib.Path("data/26-eval/mcqs.json")
+DST = pathlib.Path("data/26-eval/mcqs_eval.jsonl")
 
 data = json.loads(SRC.read_text(encoding="utf-8"))
 key_to_idx = {"A": 0, "B": 1, "C": 2, "D": 3}
