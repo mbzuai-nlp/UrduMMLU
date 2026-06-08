@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="UrduMMLU" width="180">
+  <img src="assets/logo.svg" alt="UrduMMLU" width="120">
 </p>
 
 <h1 align="center">UrduMMLU</h1>
@@ -19,6 +19,19 @@
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/Models%20Evaluated-30-orange?style=flat-square" alt="Models Evaluated">
 </p>
+
+## Table of Contents
+
+- [TL;DR](#tldr)
+- [Dataset at a glance](#dataset-at-a-glance)
+- [How it's built](#how-its-built)
+- [Repository layout](#repository-layout)
+- [Evaluation](#evaluation)
+- [Setup](#setup)
+- [License](#license)
+- [Citation](#citation)
+
+## TL;DR
 
 A massive, human-curated multiple-choice benchmark for **Urdu** language understanding —
 **26,431** native Urdu questions spanning Pakistani secondary and higher-secondary
