@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://huggingface.co/datasets/MBZUAI/UrduMMLU"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-FFD21E?style=for-the-badge" alt="Hugging Face Dataset"></a>
-  <a href="docs/assets/dataset.pdf"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper"></a>
+  <a href="https://arxiv.org/abs/2606.07167"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper"></a>
   <a href="https://mbzuai-nlp.github.io/UrduMMLU/"><img src="https://img.shields.io/badge/Project-Website-1F6FEB?style=for-the-badge" alt="Project Website"></a>
   <img src="https://img.shields.io/badge/Questions-26%2C431-4C9A2A?style=for-the-badge" alt="Questions">
   <img src="https://img.shields.io/badge/Language-Urdu-0E7C3A?style=for-the-badge" alt="Language: Urdu">
@@ -133,12 +133,13 @@ via a `.env` file in the project root.
 ## Citation
 
 ```bibtex
-@article{tabassum2026urdummlu,
-  title     = {{UrduMMLU}: A Massive Multitask Benchmark for {Urdu} Language Understanding},
-  author    = {Tabassum, Ahmer and Ahmad, Sarfraz and Iqbal, Hasan and
-               Aijaz, Owais and Ahsan, Momina and Nakov, Preslav},
-  journal   = {arXiv preprint},
-  year      = {2026},
-  url       = {https://anonymous.for.review}
+@misc{tabassum2026urdummlumassivemultitaskbenchmark,
+      title={UrduMMLU: A Massive Multitask Benchmark for Urdu Language Understanding},
+      author={Ahmer Tabassum and Sarfraz Ahmad and Hasan Iqbal and Owais Aijaz and Momina Ahsan and Preslav Nakov},
+      year={2026},
+      eprint={2606.07167},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.07167},
 }
 ```

@@ -42,7 +42,7 @@ configs:
 </p>
 
 <p align="center">
-  <a href="https://anonymous.for.review"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=white" alt="Paper"></a>
+  <a href="https://arxiv.org/abs/2606.07167"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?logo=arxiv&logoColor=white" alt="Paper"></a>
   <a href="https://mbzuai-nlp.github.io/UrduMMLU/"><img src="https://img.shields.io/badge/Project-Website-1F6FEB?logo=googlechrome&logoColor=white" alt="Project Website"></a>
   <a href="https://github.com/mbzuai-nlp/UrduMMLU"><img src="https://img.shields.io/badge/GitHub-Code-181717?logo=github&logoColor=white" alt="GitHub"></a>
 </p>
@@ -160,13 +160,14 @@ Each item retains its source attribution in the `source` field.
 ## Citation
 
 ```bibtex
-@article{tabassum2026urdummlu,
-  title     = {{UrduMMLU}: A Massive Multitask Benchmark for {Urdu} Language Understanding},
-  author    = {Tabassum, Ahmer and Ahmad, Sarfraz and Iqbal, Hasan and
-               Aijaz, Owais and Ahsan, Momina and Nakov, Preslav},
-  journal   = {arXiv preprint},
-  year      = {2026},
-  url       = {https://anonymous.for.review}
+@misc{tabassum2026urdummlumassivemultitaskbenchmark,
+      title={UrduMMLU: A Massive Multitask Benchmark for Urdu Language Understanding},
+      author={Ahmer Tabassum and Sarfraz Ahmad and Hasan Iqbal and Owais Aijaz and Momina Ahsan and Preslav Nakov},
+      year={2026},
+      eprint={2606.07167},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.07167},
 }
 ```
 
