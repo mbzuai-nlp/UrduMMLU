@@ -1,6 +1,21 @@
 #!/usr/bin/env python3
 """Accuracy evaluation across all model predictions.
 
+Metric
+------
+The primary metric is ALL-ITEM exact match: the denominator is every released
+item and an invalid output counts as WRONG. Accuracy among parseable outputs
+is still computed and exported, but as ``accuracy_valid`` — it is conditional
+on the model having produced a readable answer and must always be shown next
+to the invalid rate. The two diverge sharply for models that break format
+(BLOOMZ-3B / Urdu prompt: 28.62% among-valid vs 7.39% all-item at a 74.2%
+invalid rate).
+
+Scores are restricted to the ids in ``data/26-eval/mcqs.json`` (26,389). The
+frozen prediction files still carry the 42 items whose gold answer landed
+outside A-D, which Stage 26-eval now drops; they are skipped and counted as
+``unreleased``.
+
 Walks ``output/<lang>/<model>/predictions.json`` and reports per-model
 accuracy using a robust answer parser that tolerates the common output
 formats models produce:
@@ -194,69 +209,114 @@ def _match_options(text: str, options: dict) -> str | None:
     return None
 
 
+def released_ids() -> set[int]:
+    """Ids in the released benchmark (data/26-eval/mcqs.json).
+
+    The frozen prediction files still carry the 42 items whose gold answer
+    landed outside A-D and that Stage 26-eval now drops, so every score is
+    restricted to this set. Cached on first use.
+    """
+    if not hasattr(released_ids, "_cache"):
+        path = REPO_ROOT / "data" / "26-eval" / "mcqs.json"
+        rows = json.loads(path.read_text(encoding="utf-8"))
+        released_ids._cache = {r["id"] for r in rows}
+    return released_ids._cache
+
+
 def evaluate(
     records: list[dict],
     exclude_domains: set[str] | None = None,
     exclude_subdomains: set[str] | None = None,
+    restrict_ids: set[int] | None = None,
 ) -> dict:
+    """Score one run.
+
+    Two accuracies are returned, and they are not interchangeable:
+
+      ``accuracy``        all-item exact match — invalid outputs count as
+                          WRONG. This is the primary reported metric.
+      ``accuracy_valid``  accuracy among parseable outputs only. Conditional
+                          on the model having produced a readable answer, so
+                          it flatters models that fail to follow the format
+                          (BLOOMZ-3B under the Urdu prompt: 28.62% here vs
+                          7.39% all-item, on a 74.2% invalid rate). Report it
+                          only alongside coverage, and never as "accuracy".
+
+    Each bucket carries ``(correct, scored, parseable)`` so both metrics can be
+    recovered per domain / level / subdomain / length tier.
+    """
     exclude_domains = exclude_domains or set()
     exclude_subdomains = exclude_subdomains or set()
+    if restrict_ids is None:
+        restrict_ids = released_ids()
 
-    dom: dict[str, list[int]] = defaultdict(lambda: [0, 0])
-    lvl: dict[str, list[int]] = defaultdict(lambda: [0, 0])
-    sub: dict[str, list[int]] = defaultdict(lambda: [0, 0])
-    tier: dict[str, list[int]] = defaultdict(lambda: [0, 0])
+    dom: dict[str, list[int]] = defaultdict(lambda: [0, 0, 0])
+    lvl: dict[str, list[int]] = defaultdict(lambda: [0, 0, 0])
+    sub: dict[str, list[int]] = defaultdict(lambda: [0, 0, 0])
+    tier: dict[str, list[int]] = defaultdict(lambda: [0, 0, 0])
     sub_dom: dict[str, str] = {}
-    total = [0, 0]
-    err = excluded = 0
+    total = [0, 0, 0]  # correct, scored, parseable
+    err = excluded = unreleased = 0
 
     for r in records:
+        if restrict_ids is not None and r.get("id") not in restrict_ids:
+            unreleased += 1
+            continue
         if (
             r.get("domain") in exclude_domains
             or r.get("subdomain") in exclude_subdomains
         ):
             excluded += 1
             continue
-        pred = r.get("prediction")
-        if _is_empty_or_error(pred):
-            err += 1
-            continue
-        pred = str(pred)
-        key = parse_key(pred)
-        if key is None:
-            key = parse_key_from_options(pred, r.get("options") or {})
-        if key is None:
-            err += 1
-            continue
-        ok = int(key == r.get("correct_key"))
-        total[0] += ok
-        total[1] += 1
+
         domain = r.get("domain", "?")
         subdomain = r.get("subdomain", "?")
-        dom[domain][0] += ok
-        dom[domain][1] += 1
-        lvl[r.get("level", "?")][0] += ok
-        lvl[r.get("level", "?")][1] += 1
-        sub[subdomain][0] += ok
-        sub[subdomain][1] += 1
-        sub_dom.setdefault(subdomain, domain)
+        level = r.get("level", "?")
         lt = r.get("length_tier")
+        buckets = [total, dom[domain], lvl[level], sub[subdomain]]
         if lt:
-            tier[lt][0] += ok
-            tier[lt][1] += 1
+            buckets.append(tier[lt])
+        sub_dom.setdefault(subdomain, domain)
 
+        # Every released item is scored, whether or not it parses.
+        for b in buckets:
+            b[1] += 1
+
+        pred = r.get("prediction")
+        key = None
+        if not _is_empty_or_error(pred):
+            pred = str(pred)
+            key = parse_key(pred) or parse_key_from_options(pred, r.get("options") or {})
+        if key is None:
+            err += 1
+            continue
+
+        for b in buckets:
+            b[2] += 1
+        ok = int(key == r.get("correct_key"))
+        for b in buckets:
+            b[0] += ok
+
+    def rollup(counts: dict[str, list[int]]) -> dict:
+        return {k: (c, s, c / s if s else 0, p) for k, (c, s, p) in counts.items()}
+
+    correct, scored, parseable = total
     return {
         "n": len(records),
         "excluded": excluded,
-        "parseable": total[1],
+        "unreleased": unreleased,
+        "scored": scored,
+        "parseable": parseable,
         "errors": err,
-        "correct": total[0],
-        "accuracy": total[0] / total[1] if total[1] else 0,
-        "by_domain": {d: (c, t, c / t if t else 0) for d, (c, t) in dom.items()},
-        "by_level": {L: (c, t, c / t if t else 0) for L, (c, t) in lvl.items()},
-        "by_subdomain": {s: (c, t, c / t if t else 0) for s, (c, t) in sub.items()},
+        "correct": correct,
+        "accuracy": correct / scored if scored else 0,
+        "accuracy_valid": correct / parseable if parseable else 0,
+        "invalid_rate": err / scored if scored else 0,
+        "by_domain": rollup(dom),
+        "by_level": rollup(lvl),
+        "by_subdomain": rollup(sub),
         "subdomain_to_domain": sub_dom,
-        "by_length_tier": {t: (c, n, c / n if n else 0) for t, (c, n) in tier.items()},
+        "by_length_tier": rollup(tier),
     }
 
 
@@ -269,8 +329,9 @@ def fmt_row(name: str, stats: dict, name_width: int = _W) -> str:
     return (
         f"  {name:<{name_width}} "
         f"acc={stats['accuracy'] * 100:>6.2f}%  "
-        f"({stats['correct']:>7,} / {stats['parseable']:>7,})  "
-        f"err={stats['errors']:>5}"
+        f"({stats['correct']:>7,} / {stats['scored']:>7,})  "
+        f"valid={stats['accuracy_valid'] * 100:>6.2f}%  "
+        f"inv={stats['invalid_rate'] * 100:>5.2f}%"
     )
 
 
@@ -283,70 +344,105 @@ def print_domain_rows(stats: dict) -> None:
         if domain in seen:
             continue
         seen.add(domain)
-        dc, dt, da = stats["by_domain"][domain]
+        dc, dt, da, _dp = stats["by_domain"][domain]
         print(f"    {domain:<20}  {dc:>6,}/{dt:<6,}  {da * 100:>6.2f}%")
 
 
 # ── lm_eval (lm-evaluation-harness) results ───────────────────────────────────
 #
 # lm_eval writes results to:
-#   output/lm_eval/<lang>/<model_dir>/<model_dir>/results_<ISOtimestamp>.json
-# The JSON has ``results.urdummlu_<N>shot.exact_match,none`` (float 0-1) and
-# ``n-samples.urdummlu_<N>shot.original`` (int). We pick the latest results
-# file per model directory.
+#   output/lm_eval/<lang>/[<model_dir>/]<model_dir>/results_<ISOtimestamp>.json
+# alongside one samples_<task>_<ISOtimestamp>.jsonl per task.
+#
+# We recompute from the SAMPLES files rather than reading the aggregate in
+# results_*.json, for two reasons:
+#   * the aggregate is over all 26,431 items, including the 42 that Stage
+#     26-eval now drops; and
+#   * the aggregate includes the 130 few-shot demonstration items, which are
+#     also present in the scoring split, so demonstrations were being scored
+#     as test questions.
+# Both are excluded here, giving a 26,259-item population that is matched
+# across the 0-/1-/3-/5-shot comparison.
+#
+# Scoring rule: lm_eval's ``exact_match`` on this task is reproduced exactly by
+# comparing the first non-space character of the target and the response (the
+# answer key letter). Verified against all 24 reported run aggregates to 1e-12,
+# and against first-line equality with 0 disagreements over 211,448 decisions.
 
 _LM_EVAL_TASK_RE = re.compile(r"urdummlu_(\d+)shot")
 
 
-def discover_lm_eval(lang: str) -> list[dict]:
-    """Return one stats dict per (model × n-shot) lm_eval result for ``lang``.
+def fewshot_pool_ids() -> set[int]:
+    """Ids of the held-out few-shot demonstration pool (mcqs_dev.json)."""
+    if not hasattr(fewshot_pool_ids, "_cache"):
+        path = REPO_ROOT / "data" / "26-eval" / "mcqs_dev.json"
+        rows = json.loads(path.read_text(encoding="utf-8"))
+        fewshot_pool_ids._cache = {r["id"] for r in rows}
+    return fewshot_pool_ids._cache
+
+
+def _lm_eval_correct(target: str, response: str) -> bool:
+    return target.strip()[:1] == response.strip()[:1]
+
+
+def discover_lm_eval(lang: str, restrict_ids: set[int] | None = None,
+                     exclude_ids: set[int] | None = None) -> list[dict]:
+    """Return one stats dict per (model × n-shot) lm_eval run for ``lang``.
 
     Each dict is shaped like the output of ``evaluate()`` so it can be passed
-    straight to ``fmt_row``. ``errors`` is always 0 here — lm_eval evaluates
-    via likelihood/exact-match and has no parsing step.
+    straight to ``fmt_row``. ``errors`` is always 0 here: lm_eval scores the
+    generated continuation directly and has no parsing step, so all-item and
+    among-valid accuracy coincide.
     """
     lm_root = OUTPUT_DIR / "lm_eval" / lang
     if not lm_root.exists():
         return []
+    if restrict_ids is None:
+        restrict_ids = released_ids()
+    if exclude_ids is None:
+        exclude_ids = fewshot_pool_ids()
 
     rows: list[dict] = []
-    # Each model has its own dir, with a nested dir, with one results file
-    # per run. Take the latest by filename sort (lm_eval stamps ISO time).
-    for model_dir in sorted(lm_root.iterdir()):
-        if not model_dir.is_dir():
-            continue
-        results_files = sorted(model_dir.glob("*/results_*.json"))
-        if not results_files:
-            continue
-        latest = results_files[-1]
-        # Use the inner directory name (matches our safe_model_name format).
-        model_name = latest.parent.name
-        try:
-            data = json.loads(latest.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError):
-            continue
-        results = data.get("results", {})
-        n_samples = data.get("n-samples", {})
-        for task, tres in results.items():
-            m = _LM_EVAL_TASK_RE.match(task)
+    # Model dirs are sometimes nested one level deeper; take the latest
+    # results file per directory (lm_eval stamps ISO time into the name).
+    seen: dict[str, Path] = {}
+    for results_file in sorted(lm_root.rglob("results_*.json")):
+        seen[results_file.parent.name] = results_file
+
+    for model_name, latest in sorted(seen.items()):
+        stamp = latest.name[len("results_"):-len(".json")]
+        for samples in sorted(latest.parent.glob(f"samples_*_{stamp}.jsonl")):
+            m = _LM_EVAL_TASK_RE.search(samples.name)
             if not m:
                 continue
             shots = f"{m.group(1)}shot"
-            acc = tres.get("exact_match,none")
-            n = (n_samples.get(task) or {}).get("original")
-            if acc is None or not n:
+            correct = scored = skipped = 0
+            with open(samples, encoding="utf-8") as f:
+                for line in f:
+                    rec = json.loads(line)
+                    doc_id = (rec.get("doc") or {}).get("id")
+                    if doc_id not in restrict_ids or doc_id in exclude_ids:
+                        skipped += 1
+                        continue
+                    scored += 1
+                    correct += _lm_eval_correct(rec["target"], rec["filtered_resps"][0])
+            if not scored:
                 continue
-            correct = round(float(acc) * int(n))
+            acc = correct / scored
             rows.append({
                 "model": model_name,
                 "label": f"{model_name} ({shots})",
                 "shots": shots,
-                "n": int(n),
+                "n": scored + skipped,
                 "excluded": 0,
-                "parseable": int(n),
+                "unreleased": skipped,
+                "scored": scored,
+                "parseable": scored,
                 "errors": 0,
                 "correct": correct,
-                "accuracy": float(acc),
+                "accuracy": acc,
+                "accuracy_valid": acc,
+                "invalid_rate": 0.0,
                 "by_domain": {},
                 "by_level": {},
                 "by_subdomain": {},
@@ -366,7 +462,10 @@ def _csv_fieldnames() -> list[str]:
         "total_correct",
         "total_questions",
         "total_accuracy",
+        "total_accuracy_valid",
+        "parseable",
         "errors",
+        "invalid_rate",
     ]
     for d in DOMAINS:
         col = d.replace(" ", "_")
@@ -375,17 +474,22 @@ def _csv_fieldnames() -> list[str]:
 
 
 def stats_to_csv_row(model: str, lang: str, stats: dict) -> dict:
+    # ``*_questions`` and ``*_accuracy`` are all-item: the denominator is every
+    # released item, and invalid outputs count as wrong.
     row: dict = {
         "model": model,
         "language": lang,
         "total_correct": stats["correct"],
-        "total_questions": stats["parseable"],
+        "total_questions": stats["scored"],
         "total_accuracy": round(stats["accuracy"] * 100, 2),
+        "total_accuracy_valid": round(stats["accuracy_valid"] * 100, 2),
+        "parseable": stats["parseable"],
         "errors": stats["errors"],
+        "invalid_rate": round(stats["invalid_rate"] * 100, 4),
     }
     for d in DOMAINS:
         col = d.replace(" ", "_")
-        dc, dt, da = stats["by_domain"].get(d, (0, 0, 0.0))
+        dc, dt, da, _dp = stats["by_domain"].get(d, (0, 0, 0.0, 0))
         row[f"{col}_correct"] = dc
         row[f"{col}_questions"] = dt
         row[f"{col}_accuracy"] = round(da * 100, 2)
@@ -393,12 +497,15 @@ def stats_to_csv_row(model: str, lang: str, stats: dict) -> dict:
 
 
 def _length_tier_csv_fieldnames() -> list[str]:
-    return ["model", "language", "length_tier", "correct", "questions", "accuracy"]
+    return ["model", "language", "length_tier", "correct", "questions",
+            "accuracy", "parseable", "accuracy_valid"]
 
 
 def stats_to_length_tier_csv_rows(model: str, lang: str, stats: dict) -> list[dict]:
+    # NOTE: length_tier is only populated for the exam-derived half of the
+    # benchmark; the 13,630 web-derived items carry null and are absent here.
     rows = []
-    for lt, (correct, total, acc) in sorted(stats["by_length_tier"].items()):
+    for lt, (correct, total, acc, parseable) in sorted(stats["by_length_tier"].items()):
         rows.append({
             "model": model,
             "language": lang,
@@ -406,18 +513,21 @@ def stats_to_length_tier_csv_rows(model: str, lang: str, stats: dict) -> list[di
             "correct": correct,
             "questions": total,
             "accuracy": round(acc * 100, 2),
+            "parseable": parseable,
+            "accuracy_valid": round(100 * correct / parseable, 2) if parseable else 0,
         })
     return rows
 
 
 def _subdomain_csv_fieldnames() -> list[str]:
-    return ["model", "language", "domain", "subdomain", "correct", "questions", "accuracy"]
+    return ["model", "language", "domain", "subdomain", "correct", "questions",
+            "accuracy", "parseable", "accuracy_valid"]
 
 
 def stats_to_subdomain_csv_rows(model: str, lang: str, stats: dict) -> list[dict]:
     sub_dom = stats.get("subdomain_to_domain", {})
     rows = []
-    for subdomain, (correct, total, acc) in sorted(stats["by_subdomain"].items()):
+    for subdomain, (correct, total, acc, parseable) in sorted(stats["by_subdomain"].items()):
         rows.append({
             "model": model,
             "language": lang,
@@ -426,6 +536,8 @@ def stats_to_subdomain_csv_rows(model: str, lang: str, stats: dict) -> list[dict
             "correct": correct,
             "questions": total,
             "accuracy": round(acc * 100, 2),
+            "parseable": parseable,
+            "accuracy_valid": round(100 * correct / parseable, 2) if parseable else 0,
         })
     return rows
 

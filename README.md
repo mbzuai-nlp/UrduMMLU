@@ -34,7 +34,7 @@
 ## TL;DR
 
 A massive, human-curated multiple-choice benchmark for **Urdu** language understanding —
-**26,431** native Urdu questions spanning Pakistani secondary and higher-secondary
+**26,389** native Urdu questions spanning Pakistani secondary and higher-secondary
 curricula (SSC-I through HSSC-II) across the humanities, social sciences, STEM,
 professional studies, and general knowledge.
 
@@ -52,9 +52,9 @@ ds = load_dataset("MBZUAI/UrduMMLU", split="test")
 
 |           |                                                                          |
 | --------- | ------------------------------------------------------------------------ |
-| Questions | 26,431                                                                   |
+| Questions | 26,389                                                                   |
 | Language  | Urdu (`ur`)                                                              |
-| Format    | Single-answer multiple choice (4–5 options)                              |
+| Format    | Single-answer multiple choice (4 options)                                |
 | Levels    | SSC-I, SSC-II, HSSC-I, HSSC-II                                           |
 | Domains   | 5 (Humanities, Social Sciences, STEM, Profession, Other) — 26 subdomains |
 | Sources   | 9 native Urdu exam & practice repositories + provincial boards           |

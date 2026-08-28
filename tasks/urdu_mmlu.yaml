@@ -1,30 +1,75 @@
-task: urdu_mmlu
+# UrduMMLU few-shot task for lm-evaluation-harness.
+#
+# This file reproduces the configuration that produced the few-shot results in
+# the paper (output/lm_eval/**/results_*.json). It replaces an earlier version
+# that specified likelihood scoring (output_type: multiple_choice, acc/acc_norm)
+# and sampled demonstrations from the test split -- neither of which matches how
+# the reported numbers were generated.
+#
+# Key properties:
+#   * generation-based. The model emits the two-line "Answer key / Answer text"
+#     format and the answer key is parsed out of the continuation. This matches
+#     the zero-shot protocol in src/run_experiment.py, so the 0-shot and n-shot
+#     columns of Table 5 are produced by comparable procedures.
+#   * demonstrations come from a held-out dev split (data/26-eval/mcqs_dev.json,
+#     130 items), NOT from the test split. Those 130 ids are also excluded when
+#     the results are scored -- see discover_lm_eval() in src/analysis/eval.py --
+#     because they are present in mcqs.json and would otherwise be scored as
+#     test questions.
+#   * greedy decoding, temperature 0.
+#
+# Run one setting with:
+#   lm_eval --model hf --model_args pretrained=<model> \
+#           --tasks urdummlu_5shot --num_fewshot 5 --include_path tasks/
+#
+# The reported runs use num_fewshot 1, 3, and 5. Define one task per setting by
+# copying this file and changing `task` and `num_fewshot`, or override
+# --num_fewshot on the command line.
+
+task: urdummlu_5shot
 dataset_path: json
 dataset_kwargs:
   data_files:
-    test: data/26-eval/mcqs_eval.jsonl
+    test: data/26-eval/mcqs.json
+    dev: data/26-eval/mcqs_dev.json
 test_split: test
-fewshot_split: test   # lm-eval excludes the current doc when sampling few-shot from the same split
+fewshot_split: dev
+num_fewshot: 5
 
-output_type: multiple_choice
+output_type: generate_until
 
-# Prompt: subject header + question + labeled options, then "Answer:"
-# Few-shot examples follow the same template automatically.
-doc_to_text: "مضمون: {{domain}} – {{subdomain}} | سطح: {{level}}\n\nسوال: {{question}}\n\nA) {{option_a}}\nB) {{option_b}}\nC) {{option_c}}\nD) {{option_d}}\n\nAnswer:"
+description: |
+  You are an expert multiple-choice question answering assistant.
+  Read the question carefully and select the single best answer.
 
-# Score the single-letter continuations A / B / C / D (MMLU standard).
-doc_to_choice: "['A', 'B', 'C', 'D']"
+  Respond in EXACTLY this two-line format, with no extra text:
 
-# Integer index of the correct answer (0=A, 1=B, 2=C, 3=D), stored in prep step.
-doc_to_target: answer
+  Answer key: <one of A, B, C, D>
+  Answer text: <verbatim text of the chosen option, copied character-for-character>
+
+  Do not add explanations, preambles, markdown, or punctuation
+  outside of the format. The Answer text must match the option text
+  exactly so the response can be parsed programmatically.
+
+doc_to_text: !function utils.doc_to_text
+doc_to_target: !function utils.doc_to_target
+
+generation_kwargs:
+  until:
+    - "\n\n"
+    - "<end_of_turn>"
+    - "<eos>"
+    - "</s>"
+    - "<|end_of_text|>"
+    - "<|eot_id|>"
+    - "<|endoftext|>"
+  do_sample: false
+  temperature: 0.0
 
 metric_list:
-  - metric: acc
-    aggregation: mean
-    higher_is_better: true
-  - metric: acc_norm
-    aggregation: mean
+  - metric: !function utils.exact_match
+    aggregation: !function utils.agg_exact_match
     higher_is_better: true
 
 metadata:
-  version: 1.0
+  version: 2.0

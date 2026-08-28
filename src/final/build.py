@@ -152,6 +152,17 @@ def main() -> None:
         # Stratify correct_key: shuffle option positions so A/B/C/D are
         # roughly equiprobable. Avoids the matric-paper bias where D is
         # under-used. Stable: same seed → same permutation per record.
+        #
+        # KNOWN DEFECT (repaired downstream, do not "fix" here in place):
+        # this permutes over whatever option slots the record has. 159 records
+        # reach this stage with five options, so for 42 of them the gold answer
+        # lands on ``E`` — a slot no prompt template renders. Stage 26-eval
+        # drops those 42 and trims the other 117 back to A-D (see
+        # src/eval_snapshot/build.py). The repair lives there because changing
+        # the shuffle here would consume a different number of RNG draws,
+        # re-shuffling every record and invalidating the 60 locked evaluation
+        # runs in output/. Restrict the permutation to A-D only as part of a
+        # future release that re-runs evaluation from scratch.
         if isinstance(new.get("options"), dict) and new.get("correct_key") in new["options"]:
             correct_text = new["options"][new["correct_key"]]
             keys = list(new["options"].keys())

@@ -130,7 +130,14 @@ def candidate_pairs(rows: list[dict]) -> list[tuple[int, int, float]]:
 
 
 def survivor_count(n: int, pairs: list[tuple[int, int, float]], threshold: float) -> tuple[int, int]:
-    """Return (surviving_rows, n_groups_merged)."""
+    """Return (n_groups, n_rows_absorbed) for the sweep plot.
+
+    NOTE: ``n_groups`` is an UPPER BOUND on the rows the applied pass keeps, not
+    the output size. It counts every near-duplicate cluster as one survivor,
+    whereas ``apply_dedup`` additionally DISCARDS any cluster whose members
+    disagree on ``correct_key``. At the released threshold of 0.85 that is 820
+    clusters, which is why the sweep reports 27,251 while the output has 26,431.
+    """
     uf = UF(n)
     for i, j, jac in pairs:
         if jac >= threshold:
