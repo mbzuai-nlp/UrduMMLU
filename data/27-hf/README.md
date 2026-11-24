@@ -49,7 +49,7 @@ configs:
 
 ---
 
-**UrduMMLU** is a large-scale, human-curated benchmark of **26,431** multiple-choice
+**UrduMMLU** is a large-scale, human-curated benchmark of **26,389** multiple-choice
 questions written natively in Urdu. Questions are drawn from Pakistani secondary and
 higher-secondary curricula (SSC-I through HSSC-II) and span the humanities, social
 sciences, STEM, professional studies, and general knowledge.
@@ -62,9 +62,9 @@ through a multi-stage annotation pipeline.
 
 |           |                                             |
 | --------- | ------------------------------------------- |
-| Questions | 26,431                                      |
+| Questions | 26,389                                      |
 | Language  | Urdu (`ur`)                                 |
-| Format    | Single-answer multiple choice (4–5 options) |
+| Format    | Single-answer multiple choice (4 options)   |
 | Levels    | SSC-I, SSC-II, HSSC-I, HSSC-II              |
 | Domains   | 5 (26 subdomains)                           |
 | Files     | `urdummlu.json`, `stats.json`               |
@@ -108,11 +108,11 @@ Other) and by subdomain frequency within each domain; `id` runs `0…N` in that 
 
 | Domain          | Questions |
 | --------------- | --------- |
-| Humanities      | 11,010    |
-| Social Sciences | 7,968     |
+| Humanities      | 10,982    |
+| Social Sciences | 7,959     |
 | STEM            | 5,113     |
-| Other           | 1,365     |
-| Profession      | 975       |
+| Other           | 1,362     |
+| Profession      | 973       |
 
 The 26 subdomains include Urdu literature, Urdu language, Islamic studies,
 Pakistan studies, chemistry, biology, mathematics, computer science, economics,
@@ -123,10 +123,10 @@ sociology, and more. Per-subdomain, per-level, and source counts are in
 
 | Level   | Questions |
 | ------- | --------- |
-| SSC-I   | 11,601    |
-| SSC-II  | 6,838     |
-| HSSC-II | 4,125     |
-| HSSC-I  | 3,867     |
+| SSC-I   | 11,581    |
+| SSC-II  | 6,828     |
+| HSSC-II | 4,117     |
+| HSSC-I  | 3,863     |
 
 ## Usage
 
@@ -156,7 +156,9 @@ Each item retains its source attribution in the `source` field.
 
 - Answer keys reflect the original source material and the annotation process;
   rare errors may remain.
-- `length_tier` is `null` for items where a length bucket was not assigned.
+- `length_tier` is `null` for the 13,630 web-derived items; it is only assigned
+  for the exam-derived half of the benchmark, so any length-based analysis covers
+  that subset rather than the full release.
 - Coverage is weighted toward humanities and the SSC levels, mirroring the
   availability of native Urdu exam content.
 

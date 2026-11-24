@@ -1,10 +1,15 @@
 """
 Flatten data/26-eval/mcqs.json for lm-evaluation-harness.
 
-Removes 42 items with correct_key "E" (no E option in data).
 Flattens nested options dict to top-level fields.
 Adds integer `answer` field (A=0, B=1, C=2, D=3).
 Output: data/26-eval/mcqs_eval.jsonl
+
+The non-ABCD skip below is now a no-op assertion: the 42 items whose gold answer
+landed outside A-D are dropped upstream by src/eval_snapshot/build.py, so this
+script emits every record it reads. It used to be the only place they were
+removed, which is why mcqs_eval.jsonl (26,389) disagreed with mcqs.json (26,431).
+A non-zero `skipped` count means the upstream repair regressed.
 
 Operates on the frozen eval snapshot (original ids), NOT the sorted/renumbered
 Hugging Face release (data/27-hf/).

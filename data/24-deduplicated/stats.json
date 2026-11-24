@@ -1,10 +1,11 @@
 {
   "input_rows": 28787,
-  "min_threshold_scanned": 0.5,
-  "candidate_pairs": 49024,
   "applied_threshold": 0.85,
   "applied_output_rows": 26431,
-  "sweep": [
+  "note": "sweep[].kept counts near-duplicate CLUSTERS at each threshold and is an upper bound on retained rows; the applied pass additionally discards clusters whose members disagree on correct_key (820 clusters at the applied threshold).",
+  "min_threshold_scanned": 0.5,
+  "candidate_pairs": 49024,
+  "sweep_clusters": [
     {
       "threshold": 0.5,
       "kept": 15443,
